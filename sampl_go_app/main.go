@@ -1,16 +1,15 @@
 package main
+
 import ( 
-
-"fmt"
-"log"
-"net/http"
-"os"
-
+	"fmt"
+	"log"
+	"net/http"
+	"os"
 )
 
 // IndexHandler returns a simple message
-	func IndexHandler (w http. Responsewriter, r *http.Request) {
-		fmt.Fprintf(w, "Congratulations! Welcome to AnubhavTrainings.com")
+func IndexHandler(w http.ResponseWriter, r *http.Request) {
+	fmt.Fprintf(w, "Dante test app BTP")
 }
 
 func main() {
@@ -20,7 +19,6 @@ func main() {
 	if port = os.Getenv("PORT"); len(port) == 0 {
 	   port = "8080"
 	}
-
-log.Fatal(http.ListenAndServe(":"+port, nil))
+	log.Fatal(http.ListenAndServe(":"+port, nil))
 
 }
