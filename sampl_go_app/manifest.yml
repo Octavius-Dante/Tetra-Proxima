@@ -1,4 +1,4 @@
 applications:
-- name: kevlar_go
+- name: Kremlin_go_app
   memory: 256M
   random-route: true
