@@ -1,4 +1,0 @@
-applications:
-- name: Kremlin_go_app
-  memory: 256M
-  random-route: true
