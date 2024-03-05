@@ -7,6 +7,11 @@
 
  </br>
  </br>
+
+ http://localhost:8080/<APP end point name>
+
+ </br>
+ </br>
  
 https://developers.sap.com/tutorials/btp-cf-buildpacks-java-create.html
 
