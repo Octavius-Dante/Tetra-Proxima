@@ -9,7 +9,7 @@
  </br>
 
 
- http://localhost:8080/APP_end_ point_name 
+ http://localhost:8080/APP_end_point_name 
 
  </br>
  </br>
