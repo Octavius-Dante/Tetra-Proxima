@@ -8,7 +8,8 @@
  </br>
  </br>
 
- "http://localhost:8080/<APP end point name>"
+
+ http://localhost:8080/APP_end_ point_name 
 
  </br>
  </br>
