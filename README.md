@@ -3,6 +3,7 @@
 #### BTP Training - Test applications (28/02/2024)
 #### Maven Repository : https://mvnrepository.com/
 #### Ui5 Libray : https://sapui5.hana.ondemand.com/#/controls  
+#### Spring framework reference documentation : https://docs.spring.io/spring-framework/docs/4.3.x/spring-framework-reference/htmlsingle/
 
  </br>
  </br>
