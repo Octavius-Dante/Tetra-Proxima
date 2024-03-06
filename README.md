@@ -31,8 +31,10 @@ https://github.com/SAP/cloud-security-services-integration-library/blob/main/jav
 1. Add conenction properties for our postgre DB running locally
  </br>
  </br>
-2. We need annotations to our POJO class to specify that our class will act like and entity, 
+2. We need annotations to our POJO class to specify that our class will act like and entity.
+   </br>
    We need to add annotations which will also tell JPA taht my entity have a primary key and colums.
+   </br>
    It may so happen that your class property name and your DB columns names may different. EG. @Emtoty ,@Id
  </br>
  </br>
