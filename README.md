@@ -51,5 +51,7 @@ https://github.com/SAP/cloud-security-services-integration-library/blob/main/jav
 ### Spring Boot Connect to PostgreSQL Database Examples 
 
 https://www.codejava.net/frameworks/spring-boot/connect-to-postgresql-database-examples
+</br>
+https://studygyaan.com/spring-boot/how-to-connect-postgresql-database-in-spring-boot-project
 
 
