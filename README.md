@@ -21,3 +21,23 @@ https://github.com/SAP/btp-environment-variable-access
 https://help.sap.com/docs/btp/sap-business-technology-platform/developing-java-in-cloud-foundry-environment
 
 https://github.com/SAP/cloud-security-services-integration-library/blob/main/java-security/README.md
+
+ </br>
+ </br>
+ 
+### Steps for Postgre DB integration : 
+ <p>
+ </br>
+1. Add conenction properties for our postgre DB running locally
+ </br>
+2. We need annotations to our POJO class to specify that our class will act like and entity, 
+   We need to add annotations which will also tell JPA taht my entity have a primary key and colums.
+   It may so happen that your class property name and your DB columns names may different. EG. @Emtoty ,@Id
+ </br>
+3. We need to add a special interface which inherits from JPARepository interface, which will proovide all the runtime           
+   capabilities (CURDQ - Create, Update, Read, Delete, Query).
+ </br>
+4. Replace hardcoded data in our service class with Read DB Operations. 
+ </br>
+  </br>
+  </p>
