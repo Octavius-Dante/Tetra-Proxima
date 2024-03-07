@@ -84,9 +84,9 @@ private String id;
 ## Shortcut keys  
  </br>
  </br>
- ctrl + shift + F  -- Code Alignment 
+ Ctrl + Shift + F  -- Code Alignment 
  </br>
- ctrl + shift + C  -- Code comments 
+ Ctrl + Shift + C  -- Code comments 
  </br>
  Ctrl + Shift + T -- Open Type window
  </br>
