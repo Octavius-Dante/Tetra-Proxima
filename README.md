@@ -76,7 +76,15 @@ private String id;
 ```
  </br>
  </br>
-  </br>
  </br>
-  </br>
  </br>
+ </br>
+ </br>
+
+## Shortcut keys  
+ </br>
+ </br>
+
+ ctrl + shift + f  -- alignment 
+ ctrl + shift + c  -- code comments 
+ 
