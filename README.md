@@ -54,6 +54,12 @@ https://www.codejava.net/frameworks/spring-boot/connect-to-postgresql-database-e
 </br>
 https://studygyaan.com/spring-boot/how-to-connect-postgresql-database-in-spring-boot-project
 
+</br>
+</br>
+</br>
+
+
+## Spring Boot + PostgreSQL + UUID String
 
 It’s easy to use UUID String as Primary Key when you are using PostgreSQL database.
 
