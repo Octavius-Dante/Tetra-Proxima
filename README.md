@@ -84,7 +84,7 @@ private String id;
 ## Shortcut keys  
  </br>
  </br>
-
  ctrl + shift + f  -- alignment 
+ </br>
  ctrl + shift + c  -- code comments 
  
