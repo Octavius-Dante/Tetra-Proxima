@@ -84,7 +84,11 @@ private String id;
 ## Shortcut keys  
  </br>
  </br>
- ctrl + shift + f  -- alignment 
+ ctrl + shift + F  -- Code Alignment 
  </br>
- ctrl + shift + c  -- code comments 
+ ctrl + shift + C  -- Code comments 
+ </br>
+ Ctrl + Shift + T -- Open Type window
+ </br>
+ Ctrl + Shift + L -- Show key assist
  
