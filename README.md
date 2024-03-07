@@ -92,3 +92,9 @@ private String id;
  </br>
  Ctrl + Shift + L -- Show key assist
  
+ </br> 
+ </br>
+ </br>
+https://www.baeldung.com/spring-data-jpa-batch-inserts
+</br>
+</br>
