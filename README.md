@@ -55,3 +55,16 @@ https://www.codejava.net/frameworks/spring-boot/connect-to-postgresql-database-e
 https://studygyaan.com/spring-boot/how-to-connect-postgresql-database-in-spring-boot-project
 
 
+It’s easy to use UUID String as Primary Key when you are using PostgreSQL database.
+
+To archive this, just configure your Entity to use UUID2 generator.
+
+```postgresql
+
+@Id
+@GenericGenerator(name = "uuid2", strategy = "uuid2")
+@GeneratedValue(strategy = GenerationType.IDENTITY, generator = "uuid2")
+@Column(length = 36, nullable = false, updatable = false)
+private String id;
+
+```
