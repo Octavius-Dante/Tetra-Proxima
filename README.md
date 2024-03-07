@@ -59,7 +59,7 @@ It’s easy to use UUID String as Primary Key when you are using PostgreSQL data
 
 To archive this, just configure your Entity to use UUID2 generator.
 
-```postgresql
+```java
 
 @Id
 @GenericGenerator(name = "uuid2", strategy = "uuid2")
