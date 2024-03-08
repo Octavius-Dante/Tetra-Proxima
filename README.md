@@ -102,3 +102,7 @@ https://www.baeldung.com/spring-data-jpa-batch-inserts
 Passing Native Query EXAMPLES 
 </br>
 https://stackoverflow.com/questions/66071165/how-to-pass-parameters-in-a-native-query-jpa
+
+</br>
+</br>
+https://www.bezkoder.com/jpa-native-query/
