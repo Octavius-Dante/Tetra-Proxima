@@ -135,3 +135,6 @@ SAP UI5 is a  framework to develop responsive web applcaition for SAP.
 SAP UI5 SDK
 </br>
 https://sapui5.hana.ondemand.com/
+</br>
+</br>
+XMLNS - XML namespace
