@@ -106,3 +106,32 @@ https://stackoverflow.com/questions/66071165/how-to-pass-parameters-in-a-native-
 </br>
 </br>
 https://www.bezkoder.com/jpa-native-query/
+
+
+</br>
+</br>
+
+</br>
+</br>
+
+
+## SAP UI5
+
+</br>
+</br>
+
+SAP UI5 is a  framework to develop responsive web applcaition for SAP.
+
+</br>
+</br>
+
+- [x] Framework - A collection if libraries
+- [x] Library - A collection of classes
+- [x] Class - A collection of attributes, events, functions and aggregations
+
+</br>
+</br>
+
+SAP UI5 SDK
+</br>
+https://sapui5.hana.ondemand.com/
