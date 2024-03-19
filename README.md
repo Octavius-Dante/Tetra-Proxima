@@ -138,3 +138,12 @@ https://sapui5.hana.ondemand.com/
 </br>
 </br>
 XMLNS - XML namespace
+
+</br>
+</br>
+</br>
+
+
+What is the Apache Olingo Project? 
+</br>
+Apache Olingo is a Java library that implements the Open Data Protocol (OData). Apache Olingo serves client and server aspects of OData. It currently supports OData 2.0 and will also support OData 4.0. The latter is the OASIS version of the protocol: OASIS Open Data Protocol (OData) TC.
