@@ -8,6 +8,12 @@
  </br>
  </br>
 
+</br>
+Maven is a dependency manger for JAVA programming
+</br>
+NPM -node pacakge manager is a dependency manger for Node JS
+</br>
+</br>
 
  http://localhost:8080/APP_end_point_name 
 
@@ -187,5 +193,6 @@ Node JS is also a great web framework for beigneers becuse it works great with d
 Applications of Node JS?
 </br>
 Build Business logic on server side, DB lookups, send emails, write valdiations, create microservices, add automations, show output, build servers, host web apps, make excel/pdf more.
+
 
 
