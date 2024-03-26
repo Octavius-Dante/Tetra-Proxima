@@ -4,6 +4,7 @@
 #### Maven Repository : https://mvnrepository.com/
 #### Ui5 Libray : https://sapui5.hana.ondemand.com/#/controls  
 #### NPM Js repsoitory : https://npmjs.com  
+#### JSON structure validator : https://jsonlint.com  
 #### Spring framework reference documentation : https://docs.spring.io/spring-framework/docs/4.3.x/spring-framework-reference/htmlsingle/
 
  </br>
