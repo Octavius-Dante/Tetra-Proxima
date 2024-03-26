@@ -182,6 +182,8 @@ Node JS is an open source, cross platform Java Script runtime environemnt and us
 </br>
 Node JS is also a great web framework for beigneers becuse it works great with data-intensive applciations like straming, real-time apps. it is free and easy to elarn Node JS.
 </br>
+</br>
+</br>
 Applications of Node JS?
 </br>
 Build Business logic on server side, DB lookups, send emails, write valdiations, create microservices, add automations, show output, build servers, host web apps, make excel/pdf more.
