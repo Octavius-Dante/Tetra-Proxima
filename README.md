@@ -148,3 +148,19 @@ What is the Apache Olingo Project?
 </br>
 </br>
 Apache Olingo is a Java library that implements the Open Data Protocol (OData). Apache Olingo serves client and server aspects of OData. It currently supports OData 2.0 and will also support OData 4.0. The latter is the OASIS version of the protocol: OASIS Open Data Protocol (OData) TC.
+
+What is App router 
+</br>
+</br>
+- [X] It is a Node JS Application
+- [X] it is used to aautomate the process of authentication, authorization with XSUAA to do token exchange
+- [X] it sits in the middle of idp (identity provider) and XSUAA, it will redirect the request to our micorservice to XSUAA and eventually to IDP.
+- [X] IDP sends the login screen to the user, user authenticates, which is taken to XSUAA, XSUAA issues JWT token(java authnticated web token), this JWT token is presented to api end points.
+</br>
+</br>
+App router is an application which does internal communciations between micro services to give single entry point for user it communicates to XSUAA to get access tokens.
+
+What is XSUAA
+</br>
+</br>
+Extensibility services for user access authorizations which is responsible for authorization to access the BTP services
