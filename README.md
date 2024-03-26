@@ -219,7 +219,8 @@ Build Business logic on server side, DB lookups, send emails, write valdiations,
   ```
   </br>
 - [X] when we build java project we saw pom.xml which contains dependencies. we have the <b> package.json </b> file in the node project whcih contains details about the entire project and its dependencies to create this we use.
-</br>
+  </br>
+  
   ```bat
   npm init
   ```
