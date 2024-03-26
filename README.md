@@ -151,6 +151,7 @@ XMLNS - XML namespace
 
 
 #### What is the Apache Olingo Project? 
+
 </br>
 </br>
 Apache Olingo is a Java library that implements the Open Data Protocol (OData). Apache Olingo serves client and server aspects of OData. It currently supports OData 2.0 and will also support OData 4.0. The latter is the OASIS version of the protocol: OASIS Open Data Protocol (OData) TC.
@@ -159,6 +160,7 @@ Apache Olingo is a Java library that implements the Open Data Protocol (OData). 
 </br>
 
 #### What is App router 
+
 </br>
 
 - [X] It is a Node JS Application
@@ -170,18 +172,24 @@ Apache Olingo is a Java library that implements the Open Data Protocol (OData). 
 - [X] To tell app router about our multiple microservices so that it can re-direct, we need to create a configuration file named as xs-app.json which contains the details.
 
 </br>
+
 #### App router is an application which does internal communciations between micro services to give single entry point for user it communicates to XSUAA to get access tokens.
+
 </br>
 </br>
 </br>
+
 #### What is XSUAA
+
 </br>
 </br>
 Extensibility services for user access authorizations which is responsible for authorization to access the BTP services
 </br>
 </br>
-</br>
+</br>  
+
 #### What is node JS.
+
 </br>
 </br>
 Node JS is an open source, cross platform Java Script runtime environemnt and used for executing Java Script code out side the web browser. Java and JavaScript are different by their nature, design and use case, Java Script was dominantly used as a web programming language. All the browsers directly understand Java Script.
@@ -191,7 +199,9 @@ Node JS is also a great web framework for beigneers becuse it works great with d
 </br>
 </br>
 </br>
+
 #### Applications of Node JS?
+
 </br>
 Build Business logic on server side, DB lookups, send emails, write valdiations, create microservices, add automations, show output, build servers, host web apps, make excel/pdf more.
 
