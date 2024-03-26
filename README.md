@@ -158,6 +158,9 @@ What is App router
 - [X] it is used to aautomate the process of authentication, authorization with XSUAA to do token exchange
 - [X] it sits in the middle of idp (identity provider) and XSUAA, it will redirect the request to our micorservice to XSUAA and eventually to IDP.
 - [X] IDP sends the login screen to the user, user authenticates, which is taken to XSUAA, XSUAA issues JWT token(java authnticated web token), this JWT token is presented to api end points.
+- [X] App router takes th JWT token from XSUAA and give ir ro our microservices and even exchange this token to multiple microservices inside.
+- [X] it serves as a single entry point for entire app.
+
 </br>
 App router is an application which does internal communciations between micro services to give single entry point for user it communicates to XSUAA to get access tokens.
 
