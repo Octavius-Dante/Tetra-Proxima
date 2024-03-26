@@ -3,6 +3,7 @@
 #### BTP Training - Test applications (28/02/2024)
 #### Maven Repository : https://mvnrepository.com/
 #### Ui5 Libray : https://sapui5.hana.ondemand.com/#/controls  
+#### NPM Js repsoitory : https://npmjs.com  
 #### Spring framework reference documentation : https://docs.spring.io/spring-framework/docs/4.3.x/spring-framework-reference/htmlsingle/
 
  </br>
@@ -190,6 +191,17 @@ Node JS is also a great web framework for beigneers becuse it works great with d
 #### Applications of Node JS?
 </br>
 Build Business logic on server side, DB lookups, send emails, write valdiations, create microservices, add automations, show output, build servers, host web apps, make excel/pdf more.
+
+</br>
+</br>
+
+#### NPM - Node Pacakge Manager
+</br>
+
+- [X] It is dependency manager tool which gets installed along with node js in our system.
+- [X] Just like for java we had maven, we have npm for node js.
+- [X] we can find millions of resuabel node modules free on internet, which helps us avoid rebuilding everything/ reinvent the wheel.
+- [X] world largest resuable code repository NPM Js repsoitory : https://npmjs.com
 
 
 
