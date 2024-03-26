@@ -164,20 +164,16 @@ What is App router
 
 </br>
 App router is an application which does internal communciations between micro services to give single entry point for user it communicates to XSUAA to get access tokens.
-
 </br>
 </br>
 </br>
-
 What is XSUAA
 </br>
 </br>
 Extensibility services for user access authorizations which is responsible for authorization to access the BTP services
-
 </br>
 </br>
 </br>
-
 What is node JS.
 </br>
 </br>
