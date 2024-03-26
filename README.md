@@ -159,6 +159,7 @@ Apache Olingo is a Java library that implements the Open Data Protocol (OData). 
 
 #### What is App router 
 </br>
+
 - [X] It is a Node JS Application
 - [X] It is used to aautomate the process of authentication, authorization with XSUAA to do token exchange
 - [X] It sits in the middle of idp (identity provider) and XSUAA, it will redirect the request to our micorservice to XSUAA and eventually to IDP.
