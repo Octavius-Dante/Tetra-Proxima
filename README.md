@@ -176,20 +176,15 @@ Apache Olingo is a Java library that implements the Open Data Protocol (OData). 
 
 #### What is XSUAA
 </br>
-</br>
 Extensibility services for user access authorizations which is responsible for authorization to access the BTP services
 </br>
 </br>
-</br>  
 
 #### What is node JS.
 </br>
-</br>
 Node JS is an open source, cross platform Java Script runtime environemnt and used for executing Java Script code out side the web browser. Java and JavaScript are different by their nature, design and use case, Java Script was dominantly used as a web programming language. All the browsers directly understand Java Script.
 </br>
-</br>
 Node JS is also a great web framework for beigneers becuse it works great with data-intensive applciations like straming, real-time apps. it is free and easy to elarn Node JS.
-</br>
 </br>
 </br>
 
