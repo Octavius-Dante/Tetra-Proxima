@@ -203,5 +203,24 @@ Build Business logic on server side, DB lookups, send emails, write valdiations,
 - [X] we can find millions of resuabel node modules free on internet, which helps us avoid rebuilding everything/ reinvent the wheel.
 - [X] world largest resuable code repository NPM Js repsoitory : https://npmjs.com
 
+</br>
+</br>
 
-
+- [X] Globally at computer level, all projects can resue, option used to install CLI
+  </br>
+  ```bat
+  npm install -g module 
+  ```
+  </br>
+- [X] With in the project - @local project level, only single project can use
+  </br>
+  ```bat
+  npm install module
+  ```
+  </br>
+- [X] when we build java project we saw pom.xml which contains dependencies. we have the <b> package.json </b> file in the node project whcih contains details about the entire project and its dependencies to create this we use.
+</br>
+  ```bat
+  npm init
+  ```
+  </br>
