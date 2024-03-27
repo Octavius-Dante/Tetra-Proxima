@@ -57,6 +57,9 @@ console.log("Hello hacker");
    
    ```js
    
+//////////////////////////////////////////////////////////////////////
+// Reusable node moudle for programs 
+
 module.exports = {
 
 addNumbers : function(a,b)
@@ -93,4 +96,20 @@ PrintArray : (jsonInput) =>{
 
 }	
    
-   ```   
+   ```
+   </br>
+   </br>
+   
+#  consumeModule.js (from mai nfolder where index.js is)
+   
+   </br>
+   </br>   
+   
+   ```js
+
+
+
+   ```
+
+   </br>
+   </br>   
