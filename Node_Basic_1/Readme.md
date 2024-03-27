@@ -168,7 +168,7 @@ console.log("Months",months_2); // ["January", "February", "Tuesday"]
 console.log('\n'); 
 console.log('\n',"Array example 3: assign multiple array items from mentioned position to another array");
 
-let months_3 = ["January", "February", "March", "April","Monday", "Tuesday", "Wednesday", "Thursday"];
+let months_3 = ["January", "February", "March", "April", "Monday", "Tuesday", "Wednesday", "Thursday"];
 let days_3 = months_3.splice(2,3);
 
 console.log("Days",days_3); // [ 'March', 'April', 'Monday' ]
