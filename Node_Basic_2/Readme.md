@@ -1,5 +1,5 @@
- # Node JS - Basics - 2 
-   
+# Node JS - Basics - 2 
+# 2  
    
    </br>
    </br>
@@ -50,8 +50,8 @@ console.log("Hello hacker");
    </br>
    </br>
    
-#  UTIL folder resuse.js
-   
+# UTIL folder resuse.js
+# 3   
    </br>
    </br>   
    
@@ -100,8 +100,8 @@ PrintArray : (jsonInput) =>{
    </br>
    </br>
    
-#  consumeModule.js (from main folder where index.js is)
-    
+# consumeModule.js (from main folder where index.js is)
+# 3    
    </br>
    </br>   
    
@@ -122,7 +122,8 @@ reuse.PrintArray([75,95,25,67,83,56,19,33,42]);
    </br>
    </br>
 
-#  async.js (from main folder where index.js is)
+# async.js (from main folder where index.js is)
+# 4
 
 </br>
 </br>
@@ -192,3 +193,20 @@ myfunction();
 
    </br>
    </br>
+
+# events.js (from main folder where index.js is)
+# 5
+
+</br>
+</br>
+</br>
+
+```js
+
+
+
+```
+
+</br>
+</br>
+</br>
