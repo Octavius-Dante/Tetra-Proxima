@@ -1,5 +1,5 @@
 
-### Promises in JavaScript
+# Promises in JavaScript
 
 </br>   
 </br>
@@ -8,9 +8,9 @@ First of all, a Promise is an object. There are 3 states of the Promise object:
    
 </br>
 
- [X] Pending: Initial State, before the Promise succeeds or fails
- [X] Resolved: Completed Promise
- [X] Rejected: Failed Promise
+- [X] Pending: Initial State, before the Promise succeeds or fails
+- [X] Resolved: Completed Promise
+- [X] Rejected: Failed Promise
    
    </br>   
    </br>
