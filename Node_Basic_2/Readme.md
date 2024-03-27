@@ -51,7 +51,7 @@ console.log("Hello hacker");
    </br>
    
 # UTIL folder resuse.js
-# 3   
+# 3 a   
    </br>
    </br>   
    
@@ -101,7 +101,8 @@ PrintArray : (jsonInput) =>{
    </br>
    
 # consumeModule.js (from main folder where index.js is)
-# 3    
+# 3 b
+
    </br>
    </br>   
    
