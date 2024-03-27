@@ -4,7 +4,8 @@
 </br>   
 </br>
 
-What is a Promise?
+### What is a Promise?
+
 </br>
 </br>
 A promise in JavaScript is similar to a promise in real life. When we make a promise in real life, it is a guarantee that we are going to do something in the future. Because promises can only be made for the future.
@@ -85,7 +86,8 @@ const myPromise = new Promise((resolve, reject) => {
    </br>
 
 
-What is Chaining?
+### What is Chaining?
+
    </br>
    </br>
 Callback functions have been used alone for asynchronous operations in JavaScript for many years. But in some cases, using Promises can be a better option.
