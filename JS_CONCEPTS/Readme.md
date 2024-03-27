@@ -95,7 +95,9 @@ Callback functions have been used alone for asynchronous operations in JavaScrip
    </br>
 If there are multiple async operations to be done and if we try to use good-old Callbacks for them, we’ll find ourselves quickly inside a situation called 
    </br>
-<b>Callback hell:</b>
+   </br>
+
+### Callback hell: 
    </br>
    </br>
 
