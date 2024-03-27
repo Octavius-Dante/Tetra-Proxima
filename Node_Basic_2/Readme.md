@@ -205,6 +205,48 @@ myfunction();
 
 
 
+var util = require('util');
+var events = require('events');
+
+// define class with name attribute 
+var pokemon = function(name){
+    this.name = name;
+}
+
+util.inherits(pokemon, events.EventEmitter);
+
+// create class objects 
+var raichu = new pokemon('raichu');
+var pikachu = new pokemon('pikachu');
+
+// put these objects inside array 
+var myPokies = [raichu, pikachu];
+
+//Loop over each objects to add an event handler 
+myPokies.forEach(element => {
+    element.on('jump', (length) => {
+        console.log(element.name + " is jumped " + length + " KM")
+    });
+});
+
+pikachu.emit('jump', 20);
+raichu.emit('jump', 50);
+
+// In-built node modules inside NodeJS
+// which auto install when we install node
+
+// Event Concept in node
+
+// var events = require('events');
+// var dante = new events.EventEmitter();
+
+// dante.on('speak', () => {
+//     console.log("hey fellas how is life");
+// });
+
+// dante.emit('speak');
+
+
 ```
 
 </br>
