@@ -8,7 +8,7 @@
    
 console.log('\n',"Example 5 : Array of JSON objects");
 //////////////////////////////////////////////////////////////////////
-// Example 5 : Array of JSON objects - multiple records (row) with fields column)  
+// Example 5 : Array of JSON objects - multiple records (row) with fields (column)  
 // Simialr like internal table in ABAP 
 
 var aEmployees = [{
