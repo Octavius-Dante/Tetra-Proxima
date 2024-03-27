@@ -67,7 +67,7 @@ This option to run script will be avialable after adding the script command in p
 </br>
 </br>
 
-### script.js 
+### server.js 
 
 </br>
 </br>
