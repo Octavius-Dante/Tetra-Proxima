@@ -105,7 +105,7 @@ for (const key in oEmp) {
 console.log('\n',"Example 3 : Array variables");
 console.log('\n');
 //////////////////////////////////////////////////////////////////////
-// Example 3 : working with Array varibles 
+// Example 3 : working with Array variables 
 // <2> Array variables - stores multiple values of same data types 
 // index item of array stars with zero 
 // array created using set brackets - []
