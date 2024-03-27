@@ -200,7 +200,6 @@ myfunction();
 
 </br>
 </br>
-</br>
 
 ```js
 
@@ -208,6 +207,5 @@ myfunction();
 
 ```
 
-</br>
 </br>
 </br>
