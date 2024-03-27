@@ -93,7 +93,7 @@ const myPromise = new Promise((resolve, reject) => {
 Callback functions have been used alone for asynchronous operations in JavaScript for many years. But in some cases, using Promises can be a better option.
    </br>
    </br>
-If there are multiple async operations to be done and if we try to use good-old Callbacks for them, we’ll find ourselves quickly inside a situation called 
+If there are multiple async operations to be done and if we try to use good-old Callbacks for them, we’ll find ourselves quickly inside a situation called callback hell
    </br>
    </br>
 
