@@ -122,7 +122,11 @@ reuse.PrintArray([75,95,25,67,83,56,19,33,42]);
    </br>
    </br>
 
-#  async.js for call back function with asynchronours and synchronous waiting example (from main folder where index.js is)
+#  async.js (from main folder where index.js is)
+
+</br>
+</br>
+### Call back function with asynchronours and synchronous waiting example 
    
    </br>
    </br>
