@@ -75,18 +75,25 @@ This option to run script will be avialable after adding the script command in p
 ```js
 
 
+
 console.log("Hello server!");
 //console.log('Hello server!');
 
+// Getting the object of reusable module
 const express = require('express')
+
+// Initializing an app 
 const app = express()
 
+// Add an end point  = /"blank" - this is the default endpoint 
+// Which will trigger when app starts 
 app.get('/', function (req, res) {
-  res.send('Hello World')
+  res.send('Hello SAP developer and programmers !!');
 })
 
 console.log("local server is running on http://localhost:3000");
 
+// Start server at port 3000
 app.listen(3000)
 
 ```
