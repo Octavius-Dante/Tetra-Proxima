@@ -100,8 +100,8 @@ PrintArray : (jsonInput) =>{
    </br>
    </br>
    
-#  consumeModule.js (from mai nfolder where index.js is)
-   
+#  consumeModule.js (from main folder where index.js is)
+    
    </br>
    </br>   
    
@@ -120,4 +120,41 @@ reuse.PrintArray([75,95,25,67,83,56,19,33,42]);
    ```
 
    </br>
-   </br>   
+   </br>
+
+#  async.js for call back function with asynchronours and synchronous waiting example (from main folder where index.js is)
+   
+   </br>
+   </br>
+
+   ```js
+
+//////////////////////////////////////////////////////////////////////
+// sample call back function not waiting Asynchronous behaviour 
+
+// const myfunction = () =>{
+//     console.log("before calling the timer");
+//     setTimeout(
+//         // call back function, once processing is over
+//         function(){},5000);
+//     console.log("after calling the timer");
+// }
+
+// sample call back function with waiting functionality synchronous behaviour 
+const myfunction = () =>{
+    console.log("before calling the timer");
+    setTimeout(
+        // call back function, once processing is over
+        function(){
+            console.log("after calling the timer");
+        },5000);
+    // console.log("after calling the timer");
+}
+
+
+myfunction();
+
+   ```
+
+   </br>
+   </br>
