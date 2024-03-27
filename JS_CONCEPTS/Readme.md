@@ -37,6 +37,9 @@ First of all, a Promise is an object. There are 3 states of the Promise object:
 ////////////////////////////////////////////////////////////////////
 // promise function 
 
+////////////////////////////////////////////////////////////////////
+// sample code block for understanding
+
 return new Promise((resolve, reject) => {
    if(somethingSuccesfulHappened) {
       const successObject = {
@@ -54,7 +57,7 @@ return new Promise((resolve, reject) => {
 });
 
 ////////////////////////////////////////////////////////////////////
-// sample code block understanding
+// sample code block for understanding
 
 return new Promise((resolve, reject) => {
    if(somethingSuccesfulHappend) {
@@ -62,6 +65,19 @@ return new Promise((resolve, reject) => {
    } else {
       reject();
    }
+});
+
+////////////////////////////////////////////////////////////////////
+// sample code block for understanding
+
+const myPromise = new Promise((resolve, reject) => {  
+    let condition;  
+    
+    if(condition is met) {    
+        resolve('Promise is resolved successfully.');  
+    } else {    
+        reject('Promise is rejected');  
+    }
 });
 
    ```
