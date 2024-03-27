@@ -74,8 +74,9 @@ This option to run script will be avialable after adding the script command in p
 
 ```js
 
+
 console.log("Hello server!");
-console.log('Hello server!');
+//console.log('Hello server!');
 
 const express = require('express')
 const app = express()
@@ -83,6 +84,8 @@ const app = express()
 app.get('/', function (req, res) {
   res.send('Hello World')
 })
+
+console.log("local server is running on http://localhost:3000");
 
 app.listen(3000)
 
