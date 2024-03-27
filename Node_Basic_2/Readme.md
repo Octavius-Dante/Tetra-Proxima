@@ -1,0 +1,92 @@
+   </br>
+   
+   ```js
+   
+
+console.log('\n',"Example 6 : Creating Function ");
+//////////////////////////////////////////////////////////////////////
+// Function definition type-1
+
+var x = 10;
+var y = 20;
+
+var addNumber = function(a,b)
+{
+// In classical function we cannot access global variables this.tax  THIS IS FIXED IN 2024   
+    return a + b + this.tax;
+}
+
+var result = addNumber(x,y);
+
+console.log(result);
+
+//////////////////////////////////////////////////////////////////////
+// ES6 Standard -- arrow function is a new syntax fir creating function
+// Function definition type-2
+
+mixNumber = (a,b) => 
+{ 
+// In arrow function we can access global variables this.tax        
+    return a * b + this.tax; 
+}
+
+console.log(mixNumber(x,y));
+
+
+return; // below code wont be processed when return; statement is used.
+
+console.log('\n',"Example 1 : Print data on console");
+console.log('\n');
+//////////////////////////////////////////////////////////////////////
+//Example 1 : print data in console 
+
+console.log("Hello hacker");	
+   
+   ```
+   </br>
+   </br>
+   
+   UTIL folder resuse.js
+   
+   </br>
+   </br>   
+   
+   ```js
+   
+module.exports = {
+
+addNumbers : function(a,b)
+{
+    console.log(a+b);
+},
+
+productNumbers : function(a,b)
+{
+    console.log(a*b);
+},
+
+countArray : function(arr)
+{
+    console.log(arr.length);
+},
+
+PrintArray : (arrinp) =>
+{
+    for (let i = 0; i < array.length; i++) {
+        const element = array[i];
+        console.log(element);        
+    }
+},
+
+PrintArray : (jsonInput) =>{
+    for (const key in jsonInput) {
+        if (Object.hasOwnProperty.call(jsonInput, key)) {
+            const element = jsonInput[key];
+            console.log(element);
+        }
+    }
+}
+
+}	
+   
+   ```   
