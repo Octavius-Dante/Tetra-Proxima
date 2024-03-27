@@ -146,6 +146,7 @@ console.log("Last item in array : Position Last-->",arrFruits[arrFruits.length-1
 
 console.log('\n'); // Array example 1: assign all array items from mentioned position to another array
 console.log('\n',"Array example 1: assign all array items from mentioned position to another array")
+
 let months = ["January", "February", "Monday", "Tuesday"];
 let days = months.splice(2);
 
@@ -154,6 +155,7 @@ console.log("Months",months); // [ "January", "February"]
 
 console.log('\n'); // Array example 2: assign an array item from mentioned position to another array
 console.log('\n',"Array example 2: assign an array item from mentioned position to another array");
+
 let months_2 = ["January", "February", "Monday", "Tuesday"];
 let days_2 = months_2.splice(2,1);
 
@@ -162,6 +164,7 @@ console.log("Months",months_2); // ["January", "February", "Tuesday"]
 
 console.log('\n'); // Array example 3: assign multiple array items from mentioned position to another array
 console.log('\n',"Array example 3: assign multiple array items from mentioned position to another array");
+
 let months_3 = ["January", "February", "March", "April","Monday", "Tuesday", "Wednesday", "Thursday"];
 let days_3 = months_3.splice(2,3);
 
@@ -170,6 +173,7 @@ console.log("Months",months_3); // [ 'January', 'February', 'Tuesday', 'Wednesda
 
 console.log('\n'); // Array example 4: Splicing an array and assigning to other array also adding multiple values to array
 console.log('\n',"Array example 4: Splicing an array and assigning to other array also adding multiple values to array");
+
 let months_4 = ["January", "February", "Monday", "Tuesday"];
 let days_4 = months_4.splice(2, 2, "March", "April");
 
