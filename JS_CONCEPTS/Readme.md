@@ -3,7 +3,16 @@
 
 </br>   
 </br>
-   
+
+What is a Promise?
+</br>
+</br>
+A promise in JavaScript is similar to a promise in real life. When we make a promise in real life, it is a guarantee that we are going to do something in the future. Because promises can only be made for the future.
+</br>
+A promise has 2 possible outcomes: it will either be kept when the time comes, or it won’t.
+</br>
+This is also the same for promises in JavaScript. When we define a promise in JavaScript, it will be resolved when the time comes, or it will get rejected.
+</br>  
 First of all, a Promise is an object. There are 3 states of the Promise object:
    
 </br>
