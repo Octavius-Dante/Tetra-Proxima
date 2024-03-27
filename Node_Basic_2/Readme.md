@@ -136,6 +136,7 @@ reuse.PrintArray([75,95,25,67,83,56,19,33,42]);
 
 //////////////////////////////////////////////////////////////////////
 // sample call back function not waiting Asynchronous behaviour 
+// EXAMPLE 1 
 
 // const myfunction = () =>{
 //     console.log("before calling the timer");
@@ -156,8 +157,15 @@ const myfunction = () =>{
     // console.log("after calling the timer");
 }
 
-
 myfunction();
+
+
+//////////////////////////////////////////////////////////////////////
+// sample call back function Asynchronous converted to a promise
+// EXAMPLE 2
+
+
+
 
    ```
 
