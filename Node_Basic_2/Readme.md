@@ -135,6 +135,30 @@ reuse.PrintArray([75,95,25,67,83,56,19,33,42]);
    ```js
 
 //////////////////////////////////////////////////////////////////////
+// sample call back function Asynchronous converted to a promise
+// EXAMPLE 2
+
+const timerFunction = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+// create a wrapper to call promise and pass parameter value 
+const callMyFunction = () => {
+    // once the promise execution is finished a function gets called in then 
+    return timerFunction(5000).then( () => {
+        console.log("I am a wait function");
+    });
+}
+
+const myFunction_2 = async () => {
+    console.log("Before calling async function");
+    await callMyFunction();
+    console.log("End of my function");
+}
+
+myFunction_2();
+
+return;
+
+//////////////////////////////////////////////////////////////////////
 // sample call back function not waiting Asynchronous behaviour 
 // EXAMPLE 1 
 
@@ -157,12 +181,10 @@ const myfunction = () =>{
     // console.log("after calling the timer");
 }
 
+
 myfunction();
 
 
-//////////////////////////////////////////////////////////////////////
-// sample call back function Asynchronous converted to a promise
-// EXAMPLE 2
 
 
 
