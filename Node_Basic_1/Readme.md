@@ -55,7 +55,7 @@ console.log('\n',"Example 4 : JSON objects");
 console.log('\n');
 //////////////////////////////////////////////////////////////////////
 // Example 4 : working with Object varibles 
-// <3> Object variable - stores multipel variety of values
+// <3> Object variable - stores multiple variety of values
 // it is a ROW based store with line item with multiple different data types
 // JSON - Java script object notation
 // { 
