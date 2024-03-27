@@ -148,8 +148,10 @@ const callMyFunction = () => {
     });
 }
 
+// Following block of codei s await keyword waiting function to behave asynchronously 
 const myFunction_2 = async () => {
     console.log("Before calling async function");
+    // to make JS work sync we can use await keyword for a promsie function
     await callMyFunction();
     console.log("End of my function");
 }
@@ -183,6 +185,8 @@ const myfunction = () =>{
 
 
 myfunction();
+
+
 
    ```
 
