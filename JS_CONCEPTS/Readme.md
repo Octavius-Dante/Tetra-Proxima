@@ -83,3 +83,51 @@ const myPromise = new Promise((resolve, reject) => {
    ```
    </br>
    </br>
+
+
+What is Chaining?
+   </br>
+   </br>
+Callback functions have been used alone for asynchronous operations in JavaScript for many years. But in some cases, using Promises can be a better option.
+   </br>
+   </br>
+If there are multiple async operations to be done and if we try to use good-old Callbacks for them, we’ll find ourselves quickly inside a situation called 
+   </br>
+<b>Callback hell:</b>
+   </br>
+   </br>
+
+```js
+
+firstRequest(function(response) {  
+    secondRequest(response, function(nextResponse) {    
+        thirdRequest(nextResponse, function(finalResponse) {     
+            console.log('Final response: ' + finalResponse);    
+        }, failureCallback);  
+    }, failureCallback);
+}, failureCallback);
+
+```
+
+   </br>
+   </br>
+   </br>
+However if we handle the same operation with Promises, since we can attach Callbacks rather than passing them, 
+</br>
+this time the same code above looks much cleaner and easier to read:
+ </br>
+ </br>
+ 
+```js
+
+firstRequest()
+  .then(function(response) {
+    return secondRequest(response);
+}).then(function(nextResponse) {  
+    return thirdRequest(nextResponse);
+}).then(function(finalResponse) {  
+    console.log('Final response: ' + finalResponse);
+}).catch(failureCallback);
+
+```
+
