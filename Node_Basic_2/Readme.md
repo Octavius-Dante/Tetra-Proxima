@@ -107,6 +107,14 @@ PrintArray : (jsonInput) =>{
    
    ```js
 
+//////////////////////////////////////////////////////////////////////
+// consuming reusable module into the program
+
+var reuse = require('./util/reuse');
+
+reuse.addNumbers(50,30);
+reuse.printJson({"Team" : "liverpool", "Player":"Galliop David"});
+reuse.PrintArray([75,95,25,67,83,56,19,33,42]);
 
 
    ```
