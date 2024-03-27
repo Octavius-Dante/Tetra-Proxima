@@ -81,6 +81,12 @@ const myPromise = new Promise((resolve, reject) => {
     }
 });
 
+myPromise.then((message) => { 
+    console.log(message);
+}).catch((message) => { 
+    console.log(message);
+});
+
    ```
    </br>
    </br>
