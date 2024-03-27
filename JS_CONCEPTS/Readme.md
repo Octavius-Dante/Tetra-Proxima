@@ -1,24 +1,26 @@
+
 ### Promises in JavaScript
 
-   </br>   
-   </br>
+</br>   
+</br>
    
 First of all, a Promise is an object. There are 3 states of the Promise object:
    
-   </br>
-   
-[1] Pending: Initial State, before the Promise succeeds or fails
-[2] Resolved: Completed Promise
-[3] Rejected: Failed Promise
+</br>
+
+ [X] Pending: Initial State, before the Promise succeeds or fails
+ [X] Resolved: Completed Promise
+ [X] Rejected: Failed Promise
    
    </br>   
    </br>
    
-      <img src="./files/promise.png" > 
+   <img src="./files/promise.png" >
    
    </br>
    </br>   
-   ```js
+
+```js
 
 ////////////////////////////////////////////////////////////////////
 // promise function 
