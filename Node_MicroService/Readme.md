@@ -516,6 +516,11 @@ app.listen(process.env.PORT || 3000)
 
 ``` yml
 
+applications:
+- name: mynodemicro
+  random-route: true
+  memory: 256M
+
 ```
 
 </br>
