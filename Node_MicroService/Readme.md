@@ -63,6 +63,32 @@ This option to run script will be avialable after adding the script command in p
 
 - [X] node eco system npmjs.com site offers millions of modules available at disposal for resue 
      we choose express module from this link to create a web server (using the code) https://www.npmjs.com/package/express
+- [X] install the package express in terminal 
+- [X] now package.json file show the following dependencies added for the app
+
+</br>
+</br>
+
+``` json
+
+{
+  "name": "nodemicroservice",
+  "version": "1.0.0",
+  "description": "test node js mcs service ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "dante",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
+
+
+```
 
 </br>
 </br>
