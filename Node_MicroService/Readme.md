@@ -505,3 +505,15 @@ app.listen(3000)
 </br>
 </br>
 
+### manifest.yml
+
+</br>
+</br>
+
+``` yml
+
+```
+
+</br>
+</br>
+
