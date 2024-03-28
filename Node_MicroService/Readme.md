@@ -1,6 +1,11 @@
 # Node Microservice 
 
-#### adding external module to js code 
+#### adding external module called express to js code installed from npm repository
+
+</br>
+</br>
+
+#### Activities
 
 </br>
 </br>
@@ -9,6 +14,9 @@
 - [X] perform npm init in terminal (pre-req node js to be installed)
 - [X] add start script to launch the .js file in pacakge.json
 - [X] file name : server.js
+- [X] Create /webapp/ fodler and add 3 files (index.html, test.html, vendor.json)
+- [X] Create manifest.yml file in main directory
+- [X] Deploy the app to BTP account
 
 </br>
 
