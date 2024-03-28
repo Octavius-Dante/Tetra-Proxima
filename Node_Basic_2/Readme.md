@@ -204,8 +204,7 @@ myfunction();
 ```js
 
 
-
-var util = require('util');
+var utils = require('util');
 var events = require('events');
 
 // define class with name attribute 
@@ -213,7 +212,7 @@ var pokemon = function(name){
     this.name = name;
 }
 
-util.inherits(pokemon, events.EventEmitter);
+utils.inherits(pokemon, events.EventEmitter);
 
 // create class objects 
 var raichu = new pokemon('raichu');
