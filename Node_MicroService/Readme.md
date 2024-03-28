@@ -151,6 +151,8 @@ app.listen(3000)
 <html>
 <head>
     <style>
+```
+``` css
         * {
             margin: 0;
             padding: 0;
@@ -224,6 +226,8 @@ app.listen(3000)
                 width: 300px;
             }
         }
+```
+``` html
     </style>
 
 </head>
