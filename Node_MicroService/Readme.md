@@ -82,8 +82,8 @@ This option to run script will be avialable after adding the script command in p
   },
   "author": "dante",
   "license": "ISC",
-  "dependencies": {
-    "express": "^4.19.2"
+..  "dependencies": {
+..    "express": "^4.19.2"
   }
 }
 
