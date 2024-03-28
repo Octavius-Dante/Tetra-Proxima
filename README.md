@@ -168,7 +168,7 @@ Apache Olingo is a Java library that implements the Open Data Protocol (OData). 
 - [X] IDP sends the login screen to the user, user authenticates, which is taken to XSUAA, XSUAA issues JWT token(java authnticated web token), this JWT token is presented to api end points.
 - [X] App router takes th JWT token from XSUAA and give ir ro our microservices and even exchange this token to multiple microservices inside.
 - [X] It serves as a single entry point for entire app.
-- [X] To tell app router about our multiple microservices so that it can re-direct, we need to create a configuration file named as xs-app.json which contains the details.
+- [X] To tell app router about our multiple microservices so that it can re-direct, we need to create a configuration file named as <b>xs-app.json</b> which contains the details.
 </br>
 
 #### App router is an application which does internal communciations between micro services to give single entry point for user it communicates to XSUAA to get access tokens.
