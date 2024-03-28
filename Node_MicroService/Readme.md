@@ -146,6 +146,106 @@ app.listen(3000)
 </br>
 </br>
 
+``` html
+
+<html>
+<head>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            height: 100svh;
+            overflow: hidden;
+        }
+
+        #preloader {
+            height: 100%;
+            width: 100%;
+            background: #333;
+            position: relative;
+        }
+
+        .preload-item {
+            position: absolute;
+            width: 25px;
+            aspect-ratio: 1;
+            border: 1px solid greenyellow;
+            border-radius: 100vh;
+            top: 50%;
+            left: 50%;
+            translate: -50% -50%;
+            animation: preloader-animation 4s linear infinite var(--_delay, 0s);
+        }
+
+        .preload-item:nth-child(2) {
+            --_delay: .5s;
+        }
+
+        .preload-item:nth-child(3) {
+            --_delay: 1s;
+        }
+
+        .preload-item:nth-child(4) {
+            --_delay: 1.5s;
+        }
+
+        .preload-item:nth-child(5) {
+            --_delay: 2s;
+        }
+
+        .preload-item:nth-child(6) {
+            --_delay: 2.5s;
+        }
+
+        .preload-item:nth-child(7) {
+            --_delay: 3s;
+        }
+
+        .preload-item:nth-child(8) {
+            --_delay: 3.5s;
+        }
+
+        @keyframes preloader-animation {
+            from {
+                opacity: 0;
+            }
+
+            20%,
+            80% {
+                opacity: 1;
+            }
+
+            to {
+                opacity: 0;
+                width: 300px;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div id="preloader">
+        <div class="preload-item"></div>
+        <div class="preload-item"></div>
+        <div class="preload-item"></div>
+        <div class="preload-item"></div>
+        <div class="preload-item"></div>
+        <div class="preload-item"></div>
+        <div class="preload-item"></div>
+        <div class="preload-item"></div>
+    </div>
+
+</body>
+
+</html>
+
+```
 
 </br>
 </br>
