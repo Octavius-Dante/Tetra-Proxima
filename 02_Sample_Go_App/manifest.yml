@@ -1,4 +1,0 @@
-applications:
-- name: KREMA
-  memory: 256M
-  random-route: true
