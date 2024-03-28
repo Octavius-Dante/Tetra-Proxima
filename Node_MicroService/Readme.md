@@ -152,7 +152,7 @@ app.listen(3000)
 <head>
     <style>
 ```
-``` css
+```css
         * {
             margin: 0;
             padding: 0;
@@ -227,6 +227,7 @@ app.listen(3000)
             }
         }
 ```
+
 ``` html
     </style>
 
