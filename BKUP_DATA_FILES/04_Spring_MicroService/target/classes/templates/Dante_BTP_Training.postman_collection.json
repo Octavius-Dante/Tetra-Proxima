@@ -1,0 +1,110 @@
+{
+	"info": {
+		"_postman_id": "71b44359-66ba-4934-b481-99a4be66dc3c",
+		"name": "Dante_BTP_Training",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "33384359"
+	},
+	"item": [
+		{
+			"name": "GET all vendors",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "GET a single vendor data",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "POST to Create New Vendor",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"email\": \"calduronk@nep.com\",\r\n        \"status\": \"C\",\r\n        \"contactPerson\": \"parciwell\",\r\n        \"lastName\": \"Arthur\",\r\n        \"regDate\": \"1999-12-31\",\r\n        \"code\": \"vindor\",\r\n        \"companyName\": \"AlphaRomeo\",\r\n        \"firstName\": \"Kline\",\r\n        \"website\": \"www.gaggle.com\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/vendor",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"vendor"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UPDATE single Vendor data",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"email\": \"KELVIN@nep.com\",\r\n        \"status\": \"D\",\r\n        \"contactPerson\": \"Arthur\",\r\n        \"lastName\": \"Kline\",\r\n        \"regDate\": \"1990-06-06\",\r\n        \"code\": \"VENDORX_UPDATE\",\r\n        \"companyName\": \"AlphaRomeo\",\r\n        \"firstName\": \"Kelvin\",\r\n        \"website\": \"www.gaggle.com\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/vendor",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"vendor"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE Vendor data using microservice",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"email\": \"KELVIN@nep.com\",\r\n        \"status\": \"D\",\r\n        \"contactPerson\": \"Arthur\",\r\n        \"lastName\": \"Kline\",\r\n        \"regDate\": \"1990-06-06\",\r\n        \"code\": \"VENDORX_UPDATE\",\r\n        \"companyName\": \"AlphaRomeo\",\r\n        \"firstName\": \"Kelvin\",\r\n        \"website\": \"www.gaggle.com\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/vendor",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"vendor"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
