@@ -115,14 +115,20 @@ app.get('/', function (req, res) {
   res.send('Hello SAP developer and programmers !!');
 });
 
+////////////////////////////////////////////////////////////
+// Multiple end point links 
+
+// Endpoint - 1 
 app.get('/index', (req,res) => {
     res.sendFile(__dirname + '/webapp/index.html');
 });
 
+// Endpoint - 2
 app.get('/vendors', (req,res) => {
     res.sendFile(__dirname + '/webapp/vendor.json');
 });
 
+// Endpoint - 3
 app.get('/test', (req,res) => {
     res.sendFile(__dirname + '/webapp/test.html');
 });
