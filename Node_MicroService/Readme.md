@@ -109,6 +109,7 @@ This option to run script will be avialable after adding the script command in p
 ```js
 
 
+
 console.log("Hello server!");
 //console.log('Hello server!');
 
@@ -145,7 +146,10 @@ app.get('/test', (req,res) => {
 console.log("local server is running on http://localhost:3000");
 
 // Start server at port 3000
-app.listen(3000)
+// app.listen(3000)
+
+// Port grab teh avialble port from SAP BTP server if it is not there then use port 3000
+app.listen(process.env.PORT || 3000)
 
 ```
 
