@@ -72,7 +72,7 @@ This option to run script will be avialable after adding the script command in p
 </br>
 </br>
 
-### Now package.json file show the following dependencies added for the app
+### Now package.json file shows the following dependencies added for the app
 
 </br>
 </br>
