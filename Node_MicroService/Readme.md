@@ -224,7 +224,6 @@ app.listen(3000)
             }
         }
 ```
-
 ``` html
     </style>
 
