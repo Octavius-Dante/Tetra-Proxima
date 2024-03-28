@@ -102,6 +102,7 @@ This option to run script will be avialable after adding the script command in p
 
 
 
+
 console.log("Hello server!");
 //console.log('Hello server!');
 
@@ -115,7 +116,19 @@ const app = express()
 // Which will trigger when app starts 
 app.get('/', function (req, res) {
   res.send('Hello SAP developer and programmers !!');
-})
+});
+
+app.get('/index', (req,res) => {
+    res.sendFile(__dirname + '/webapp/index.html');
+});
+
+app.get('/vendors', (req,res) => {
+    res.sendFile(__dirname + '/webapp/vendor.json');
+});
+
+app.get('/test', (req,res) => {
+    res.sendFile(__dirname + '/webapp/test.html');
+});
 
 console.log("local server is running on http://localhost:3000");
 
