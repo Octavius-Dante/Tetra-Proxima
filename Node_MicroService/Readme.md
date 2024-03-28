@@ -100,9 +100,6 @@ This option to run script will be avialable after adding the script command in p
 
 ```js
 
-
-
-
 console.log("Hello server!");
 //console.log('Hello server!');
 
@@ -152,7 +149,7 @@ app.listen(3000)
 <head>
     <style>
 ```
-```css
+``` css
         * {
             margin: 0;
             padding: 0;
