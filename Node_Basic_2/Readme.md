@@ -50,7 +50,7 @@ console.log("Hello hacker");
    </br>
    </br>
    
-# UTIL folder resuse.js
+# UTIL folder reuse.js
 # 3 a   
    </br>
    </br>   
