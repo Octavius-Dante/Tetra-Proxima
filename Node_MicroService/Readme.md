@@ -100,6 +100,7 @@ This option to run script will be avialable after adding the script command in p
 
 ```js
 
+
 console.log("Hello server!");
 //console.log('Hello server!');
 
@@ -109,26 +110,26 @@ const express = require('express')
 // Initializing an app 
 const app = express()
 
+//Express module -- middleware to expose whole folder 
+app.use(express.static('webapp'));
+
+// inorder to avoid creating multiple following code above code is sufficient to access the objects but with right extension
+// example "index.html", "test.html", "vendor.json"
+
 // Add an end point  = /"blank" - this is the default endpoint 
 // Which will trigger when app starts 
 app.get('/', function (req, res) {
   res.send('Hello SAP developer and programmers !!');
 });
 
-////////////////////////////////////////////////////////////
-// Multiple end point links 
-
-// Endpoint - 1 
 app.get('/index', (req,res) => {
     res.sendFile(__dirname + '/webapp/index.html');
 });
 
-// Endpoint - 2
 app.get('/vendors', (req,res) => {
     res.sendFile(__dirname + '/webapp/vendor.json');
 });
 
-// Endpoint - 3
 app.get('/test', (req,res) => {
     res.sendFile(__dirname + '/webapp/test.html');
 });
