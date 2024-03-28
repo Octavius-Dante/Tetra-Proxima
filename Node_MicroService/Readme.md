@@ -13,7 +13,10 @@
 - [X] Create New folder in VS code 
 - [X] perform npm init in terminal (pre-req node js to be installed)
 - [X] add start script to launch the .js file in pacakge.json
-- [X] file name : server.js
+- [X] create file (server.js)
+- [X] node eco system npmjs.com site offers millions of modules available at disposal for resue 
+     we choose express module from this link to create a web server (using the code) https://www.npmjs.com/package/express
+- [X] install the package express in terminal (npm install express)
 - [X] Create /webapp/ fodler and add 3 files (index.html, test.html, vendor.json)
 - [X] Create manifest.yml file in main directory
 - [X] Deploy the app to BTP account
@@ -69,10 +72,7 @@ This option to run script will be avialable after adding the script command in p
 </br>
 </br>
 
-- [X] node eco system npmjs.com site offers millions of modules available at disposal for resue 
-     we choose express module from this link to create a web server (using the code) https://www.npmjs.com/package/express
-- [X] install the package express in terminal 
-- [X] now package.json file show the following dependencies added for the app
+### Now package.json file show the following dependencies added for the app
 
 </br>
 </br>
