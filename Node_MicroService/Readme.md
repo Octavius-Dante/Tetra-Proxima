@@ -271,7 +271,8 @@ app.listen(3000)
 
 <head>
     <style>
-       
+```
+``` css       
       :root {
         --dark-green: rgb(0, 35, 51);
         --light-green: #00ff84;
@@ -341,7 +342,8 @@ app.listen(3000)
         filter: blur(20px);
         box-shadow: 0 0 500px var(--light-green);
       }
-    
+```
+``` html    
     </style>
 </head>
 
