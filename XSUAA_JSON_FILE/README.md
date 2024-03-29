@@ -103,7 +103,7 @@ applications:
 <img src="./files/1xsuaa.png" >
 </br>   
 </br>      
-<img src="./files/2xsuaa.png" >
+<img src="./files/2xsuaa_2.png" >
 </br>   
 </br>      
 <img src="./files/3xsuaa.png" >
