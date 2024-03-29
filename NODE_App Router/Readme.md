@@ -4,8 +4,6 @@
 </br>
 
 #### Create following folders and files
-
-</br>
 </br>
 
 - [x] Create new application
