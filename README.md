@@ -282,9 +282,18 @@ Build Business logic on server side, DB lookups, send emails, write valdiations,
 </br>
 
 - [X] It's a SAP provided framework to develop Saas apps in BTP.
-- [X] if the developer wants to use open source technologies like Node and java.
+- [X] If the developer wants to use open source technologies like Node and java.
 - [X] Great cost saving and freedom of choice of technology and consultants availalbe easily in market.
 
+</br>
+</br>
+
+#### SAP RAP - Restful application programming model
+</br>
+
+- [X] It is based on ABAP on cloud. we can build extension and Saas application using this framework.
+- [X] The skill required will be ABAP and CDS knowledge. 
+- [X] The Deployment is very costly as compared to open source technologies used in CAP
 
 </br>
 </br>
