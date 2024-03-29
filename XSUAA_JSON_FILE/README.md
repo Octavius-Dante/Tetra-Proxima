@@ -18,7 +18,7 @@
 </br>   
 </br>   
 
-## xsuaa - JSON file for creating xsuaa instance (Authorization and Trust Management Service)
+## XSUAA  -  JSON file for creating xsuaa instance (Authorization and Trust Management Service)
 
 </br>   
 </br>   
