@@ -26,5 +26,8 @@ the CAP framework is used of building enterprise grade applications and extensio
 <p>
 Conceptually CDS is same concept in ABAP but with different flavour in CAPM, The concept says that , we have a design time object which is a cds file, we will create a *.cds file for almost everything eg. databse tables, view, model, services, Ui/UX
 <br>
-This design time object file is complires by CAPM framework (inside CAP we have node module called <b>@sap/cds</b>)
+<br>
+
+  - [x] This design time object file is complires by CAPM framework (inside CAP we have node module called <b>@sap/cds</b>)
+  - [x] Once the compilation is successeful a <b>runtime</b> object gets created
 </p>
