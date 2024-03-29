@@ -197,7 +197,7 @@ Apache Olingo is a Java library that implements the Open Data Protocol (OData). 
 </br>
 
 - [X] It is a Node JS Application
-- [X] It is used to aautomate the process of authentication, authorization with XSUAA to do token exchange
+- [X] It is used to automate the process of authentication, authorization with XSUAA to do token exchange
 - [X] It sits in the middle of idp (identity provider) and XSUAA, it will redirect the request to our micorservice to XSUAA and eventually to IDP.
 - [X] IDP sends the login screen to the user, user authenticates, which is taken to XSUAA, XSUAA issues JWT token(java authnticated web token), this JWT token is presented to api end points.
 - [X] App router takes th JWT token from XSUAA and give ir ro our microservices and even exchange this token to multiple microservices inside.
@@ -259,4 +259,34 @@ Build Business logic on server side, DB lookups, send emails, write valdiations,
   ```bat
   npm init
   ```
-  </br>
+</br>
+</br>
+</br>
+
+#### Challenges of building Apps on BTP
+</br>
+</br>
+
+- [X] Approuter implementation was difficult -> lot f effort is required as a developer to setup project.
+- [X] What is the best-practise/ gold-standard to build SAP BTP applications, recommendtaion by SAP.
+- [X] Are there any existing sampel apps which we can follow to build our app
+- [X] Many times, as a developer it is hard to add each part of app like files, dependencies, deploy descriptor, lot of code , can this process be simplified ?
+- [X] How can we have reusability of the code to speed up my development and use sap provided tools to generate the skeleton of the apps.
+- [X] As a developer we want to focus more on functional aspect implementation rather initital project setup.
+- [X] Our apps are something tightly couples with DB technology develop DB agnostic apps.
+- [X] No matter what is the area we belong FIN, SD, MM, PP, PM, APO, CRM, HR etc. eventually as a developer we all do same work. Design tables, write logic, build UI
+- [X] How to develop software in BTP, Which does not require too much time in handovers
+
+</br>
+</br>
+
+#### SAP CAPM - Cloud Application Programming Model
+
+</br>
+</br>
+
+- [X] TEST TEST 
+- [X] BEST BEST 
+
+</br>
+</br>
