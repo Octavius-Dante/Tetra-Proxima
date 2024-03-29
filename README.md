@@ -265,7 +265,6 @@ Build Business logic on server side, DB lookups, send emails, write valdiations,
 
 #### Challenges of building Apps on BTP
 </br>
-</br>
 
 - [X] Approuter implementation was difficult -> lot f effort is required as a developer to setup project.
 - [X] What is the best-practise/ gold-standard to build SAP BTP applications, recommendtaion by SAP.
@@ -276,15 +275,16 @@ Build Business logic on server side, DB lookups, send emails, write valdiations,
 - [X] Our apps are something tightly couples with DB technology develop DB agnostic apps.
 - [X] No matter what is the area we belong FIN, SD, MM, PP, PM, APO, CRM, HR etc. eventually as a developer we all do same work. Design tables, write logic, build UI
 - [X] How to develop software in BTP, Which does not require too much time in handovers
-
 </br>
 </br>
 
 #### SAP CAPM - Cloud Application Programming Model
 </br>
 
-- [X] TEST TEST 
-- [X] BEST BEST 
+- [X] It's a SAP provided framework to develop Saas apps in BTP.
+- [X] if the developer wants to use open source technologies like Node and java.
+- [X] Great cost saving and freedom of choice of technology and consultants availalbe easily in market.
+
 
 </br>
 </br>
