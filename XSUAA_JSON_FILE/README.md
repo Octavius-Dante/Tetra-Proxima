@@ -17,6 +17,11 @@
 
 </br>   
 </br>   
+
+## xsuaa - JSON file for creating xsuaa instance (Authorization and Trust Management Service)
+
+</br>   
+</br>   
    
    ```json
 {
@@ -63,3 +68,24 @@
    
 </br>   
 </br>      
+
+## manifest.yml 
+
+</br>   
+</br>      
+
+```yml
+
+---
+applications:
+- name: 06springbtpdb
+  path: target/06springbtpdb-0.0.1-SNAPSHOT.war
+  random-route: true
+  memory: 1024M
+  buildpacks:
+  - sap_java_buildpack
+  services:
+  - mysql
+  - minionx      
+
+```
