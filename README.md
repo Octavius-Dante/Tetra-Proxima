@@ -23,8 +23,19 @@ Following check list of items available under this topic
 - [x] JS Concepts Promise / Callback
 - [x] NODE JS BASIC 1- preapring ndoe js basic program 
 - [x] NODE JS BASIC 2- preapring ndoe js program with some essential concepts for CAPM app
-- [x] NODE Micro services - deploying a samll node js app to BTP
-- [x] NODE Approuter (WIP)
+- [x] NODE Micro services - deploying a small node js app to BTP
+- [x] CAPM Day 1 - CDS, 
+- [x] CAPM Day 2
+- [x] CAPM Day 3
+- [x] CAPM Day 4
+- [x] CAPM Day 5
+- [x] CAPM Day 6
+- [x] CAPM Day 7
+- [x] CAPM Day 8
+- [x] CAPM Day 9
+- [x] CAPM Day 10
+- [x] CAPM Day 11
+- [x] CAPM Day 12
 
 </br>
 </br>
