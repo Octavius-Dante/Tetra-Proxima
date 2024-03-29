@@ -12,30 +12,32 @@ Following check list of items available under this topic
 <br>
 <br>
 - [x] <a href="https://github.com/Octavius-Dante/Tetra_Proxima/tree/main/BTP_ACCOUNT_LAYOUT"> BTP Account layout overview for understanding </a>
-- [x] BTP Day 0 - Overview and account creation </a> 
-- [x] BTP Day 1 - Commands for application handling in BTP </a>
-- [x] BTP Day 2 - Maven and Spring STS services (Java and spring program) </a>
-- [x] BTP cloud app deployment via JAVA (NOT PREPARED - NOT INCLUDED) </a>
-- [x] SAP HANA DB creation </a>
-- [x] SAP HDI schema establishment </a>
-- [x] SAP Authorization and Trust Management Service - XSUAA (WIP) </a>
-- [x] VScode installation + Node JS installation (WIP)
-- [x] JS Concepts Promise / Callback </a>
-- [x] NODE JS BASIC 1- preapring ndoe js basic program </a>
-- [x] NODE JS BASIC 2- preapring ndoe js program with some essential concepts for CAPM app</a>
+- [x] <a href="https://github.com/Octavius-Dante/Tetra_Proxima/tree/main/BTP_DAY_00"> BTP Day 0 - Overview and account creation </a> 
+- [x] <a href="https://github.com/Octavius-Dante/Tetra_Proxima/tree/main/BTP_DAY_01_v1.0"> BTP Day 1 v1 - Commands for application handling in BTP </a>
+- [x] <a href="https://github.com/Octavius-Dante/Tetra_Proxima/tree/main/BTP_DAY_01_v2.0"> BTP Day 1 v2 - Commands for application handling in BTP </a>
+- [x] <a href="https://github.com/Octavius-Dante/Tetra_Proxima/tree/main/BTP_DAY_02_v1.0"> BTP Day 2 - Maven and Spring STS services (Java and spring program) </a>
+- [x] <a href=""> BTP cloud app deployment via JAVA (NOT PREPARED - NOT INCLUDED) </a>
+- [x] <a href="https://github.com/Octavius-Dante/Tetra_Proxima/tree/main/SAP_HANA_DB_CREATION"> BTP SAP HANA DB creation </a>
+- [x] <a href="https://github.com/Octavius-Dante/Tetra_Proxima/tree/main/SAP_HANA_HDI_SCHEMA_CREATION"> BTP SAP HDI schema establishment </a>
+- [x] <a href="https://github.com/Octavius-Dante/Tetra_Proxima/tree/main/XSUAA_JSON_FILE"> BTP SAP Authorization and Trust Management Service - XSUAA (WIP) </a>
+- [x] <a href=""> VScode installation + Node JS installation (WIP)
+- [x] <a href="https://github.com/Octavius-Dante/Tetra_Proxima/tree/main/JS_CONCEPTS"> JS Concepts Promise / Callback </a>
+- [x] <a href="https://github.com/Octavius-Dante/Tetra_Proxima/tree/main/NODE_Basic_1"> NODE JS BASIC 1- preapring ndoe js basic program </a>
+- [x] <a href="https://github.com/Octavius-Dante/Tetra_Proxima/tree/main/NODE_Basic_2"> NODE JS BASIC 2- preapring ndoe js program with some essential concepts for CAPM app</a>
 - [x] <a href="https://github.com/Octavius-Dante/Tetra_Proxima/tree/main/NODE_MicroService">NODE Micro services - deploying a small node js app to BTP </a>
-- [x] CAPM Day 1 - CDS, 
-- [x] CAPM Day 2
-- [x] CAPM Day 3
-- [x] CAPM Day 4
-- [x] CAPM Day 5
-- [x] CAPM Day 6
-- [x] CAPM Day 7
-- [x] CAPM Day 8
-- [x] CAPM Day 9
-- [x] CAPM Day 10
-- [x] CAPM Day 11
-- [x] CAPM Day 12
+- [x] <a href="https://github.com/Octavius-Dante/Tetra_Proxima/tree/main/NODE_MicroService"> NODE Micro services - deploying a small node js app to BTP </a>
+- [x] <a href=""> CAPM Day 1 - CDS, </a>
+- [x] <a href=""> CAPM Day 2 </a>
+- [x] <a href=""> CAPM Day 3 </a>
+- [x] <a href=""> CAPM Day 4 </a>
+- [x] <a href=""> CAPM Day 5 </a>
+- [x] <a href=""> CAPM Day 6 </a>
+- [x] <a href=""> CAPM Day 7 </a>
+- [x] <a href=""> CAPM Day 8 </a>
+- [x] <a href=""> CAPM Day 9 </a>
+- [x] <a href=""> CAPM Day 10 </a>
+- [x] <a href=""> CAPM Day 11 </a>
+- [x] <a href=""> CAPM Day 12 </a>
 
 </br>
 </br>
