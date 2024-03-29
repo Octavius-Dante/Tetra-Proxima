@@ -7,7 +7,9 @@
 </br>   
 https://learning.sap.com/learning-journey/discover-sap-business-technology-platform/illustrating-sap-authorization-and-trust-management-service-xsuaa-_b9fde282-4cff-4dca-b146-7c8f8dde9955
 </br>
+</br>   
 https://sap.github.io/cloud-sdk/docs/java/guides/cloud-foundry-xsuaa-service
+</br>   
 </br>
 https://community.sap.com/t5/technology-blogs-by-sap/demystifying-xsuaa-in-sap-cloud-foundry/ba-p/13468237
 
