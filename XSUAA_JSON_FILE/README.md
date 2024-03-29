@@ -20,41 +20,41 @@
    
    ```json
 {
-    "xsappname": "07springodata",
-    "tenant-mode": "dedicated",
+    "xsappname": "06springbtpdb",
     "scopes": [
         {
-            "name": "$XSAPPNAME.UserDisplay",
-            "description": "To Display vendor data"
+            "name": "$XSAPPNAME.Display",
+            "description": "display"
         },
         {
-            "name": "$XSAPPNAME.UserEdit",
-            "description": "To Create new vendor data"
+            "name": "$XSAPPNAME.Edit",
+            "description": "edit"
         }
     ],
     "role-templates": [
         {
             "name": "Viewer",
-            "description": "View, Vendor Details",
+            "description": "View all DATA",
+            "default-role-name": "Viewer: Authorized to Read All VENDOR",
             "scope-references": [
-                "$XSAPPNAME.UserDisplay"
+                "$XSAPPNAME.Display"
             ]
         },
         {
             "name": "Editor",
-            "description": "Edit and Create new Vendor Details",
+            "description": "Edit, DATA",
             "scope-references": [
-                "$XSAPPNAME.UserEdit"
+                "$XSAPPNAME.Edit"
             ]
         }
     ],
     "authorities": [
         "$ACCEPT_GRANTED_AUTHORITIES"
     ],
-    "aouth2-configuration": {
+    "oauth2-configuration": {
         "token-validity": 9000,
         "redirect-uris": [
-            "https://api.cf.us10-001.hana.ondemand.com/"
+            "https://*.cfapps.us10-001.hana.ondemand.com/login/callback"
         ]
     },
     "xsenableasyncservice": "true"
