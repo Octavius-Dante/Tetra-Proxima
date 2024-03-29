@@ -22,6 +22,8 @@
 </br>
 https://help.sap.com/docs/SAP_HANA_PLATFORM/4505d0bdaf4948449b7f7379d24d0f0d/6ba89596e3a64a5480c3977d4ea7fdba.html
 </br>
+https://help.sap.com/docs/SAP_HANA_PLATFORM/4505d0bdaf4948449b7f7379d24d0f0d/5f77e58ec01b46f6b64ee1e2afe3ead7.html
+</br>
 </br>
 https://help.sap.com/docs/build-work-zone-standard-edition/sap-build-work-zone-standard-edition/configure-application-routing-xs-app-json
 </br>
@@ -30,6 +32,75 @@ https://help.sap.com/docs/build-work-zone-standard-edition/sap-build-work-zone-s
 following link details is used to preapre <b>xs-app.json</b>
 </br>
 https://help.sap.com/docs/build-work-zone-standard-edition/sap-build-work-zone-standard-edition/routing-configuration-properties-and-syntax
+
+</br>
+</br>
+
+### Sample xs-app.json
+</br>
+</br>
+
+```json
+
+{
+  "welcomeFile": "index.html",
+  "authenticationMethod": "route",
+  "sessionTimeout": 10,
+  "pluginMetadataEndpoint": "/metadata",
+  "routes": [
+    {
+      "source": "^/sap/ui5/1(.*)$",
+      "target": "$1",
+      "destination": "ui5",
+      "csrfProtection": false
+    },
+    {
+      "source": "/employeeData/(.*)",
+      "target": "/services/employeeService/$1",
+      "destination": "employeeServices",
+      "authenticationType": "xsuaa",
+      "scope": ["$XSAPPNAME.viewer", "$XSAPPNAME.writer"],
+      "csrfProtection": true
+    },
+    {
+      "source": "^/(.*)$",
+      "target": "/web/$1",
+      "localDir": "static-content",
+      "replace": {
+        "pathSuffixes": ["/abc/index.html"],
+        "vars": ["NAME"]
+      }
+    }
+  ],
+  "login": {
+     "callbackEndpoint": "/custom/login/callback"
+  },
+  "logout": {
+     "logoutEndpoint": "/my/logout",
+     "logoutPage": "/logout-page.html"
+  },
+  "destinations": {
+     "employeeServices": {
+       "logoutPath": "/services/employeeService/logout",
+       "logoutMethod": "GET"
+     }
+  }, 
+  "compression": { 
+     "minSize": 2048
+  },
+  "whitelistService": {
+     "endpoint": "/allowlist/service"
+  },
+  "websockets": {
+    "enabled": true
+  },
+  "errorPage": [
+    {"status": [400,401,402], "file": "/custom-err-4xx.html"},
+    {"status": 501, "file": "/custom-err-501.html"}
+  ] 
+}
+
+```
 
 </br>
 </br>
