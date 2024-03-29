@@ -1,5 +1,10 @@
  # Node JS - Basics - 1  (index.js) # 1
- 
+
+
+   </br>
+   </br>
+
+ Scroll down to bottom of the page for first example - Bottom Up approach
    
    </br>
    </br>
