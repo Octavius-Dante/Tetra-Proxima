@@ -281,8 +281,6 @@ Build Business logic on server side, DB lookups, send emails, write valdiations,
 </br>
 
 #### SAP CAPM - Cloud Application Programming Model
-
-</br>
 </br>
 
 - [X] TEST TEST 
