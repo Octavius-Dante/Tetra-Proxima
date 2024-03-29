@@ -36,68 +36,35 @@ https://help.sap.com/docs/build-work-zone-standard-edition/sap-build-work-zone-s
 </br>
 </br>
 
-### Sample xs-app.json
+### xs-app.json used in node app router
 </br>
 </br>
 
 ```json
 
 {
-  "welcomeFile": "index.html",
-  "authenticationMethod": "route",
-  "sessionTimeout": 10,
-  "pluginMetadataEndpoint": "/metadata",
-  "routes": [
-    {
-      "source": "^/sap/ui5/1(.*)$",
-      "target": "$1",
-      "destination": "ui5",
-      "csrfProtection": false
-    },
-    {
-      "source": "/employeeData/(.*)",
-      "target": "/services/employeeService/$1",
-      "destination": "employeeServices",
-      "authenticationType": "xsuaa",
-      "scope": ["$XSAPPNAME.viewer", "$XSAPPNAME.writer"],
-      "csrfProtection": true
-    },
-    {
-      "source": "^/(.*)$",
-      "target": "/web/$1",
-      "localDir": "static-content",
-      "replace": {
-        "pathSuffixes": ["/abc/index.html"],
-        "vars": ["NAME"]
-      }
-    }
-  ],
-  "login": {
-     "callbackEndpoint": "/custom/login/callback"
-  },
-  "logout": {
-     "logoutEndpoint": "/my/logout",
-     "logoutPage": "/logout-page.html"
-  },
-  "destinations": {
-     "employeeServices": {
-       "logoutPath": "/services/employeeService/logout",
-       "logoutMethod": "GET"
-     }
-  }, 
-  "compression": { 
-     "minSize": 2048
-  },
-  "whitelistService": {
-     "endpoint": "/allowlist/service"
-  },
-  "websockets": {
-    "enabled": true
-  },
-  "errorPage": [
-    {"status": [400,401,402], "file": "/custom-err-4xx.html"},
-    {"status": 501, "file": "/custom-err-501.html"}
-  ] 
+    "welcomeFile": "ui/index.html",
+    "authenticationMethod": "route",
+    "routes": [ 
+        { 
+            "source": "^/java", 
+            "target": "/", 
+            "destination": "javaapp", 
+            "authenticationType": "xsuaa"
+        },
+        { 
+            "source": "^/node", 
+            "target": "/", 
+            "destination": "nodeapp", 
+            "authenticationType": "xsuaa"
+        },
+        { 
+            "source": "^/ui/(.*)$", 
+            "target": "$1", 
+            "localDir": "resources", 
+            "authenticationType": "xsuaa"
+        }  
+    ]
 }
 
 ```
