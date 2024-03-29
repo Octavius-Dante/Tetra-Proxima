@@ -12,7 +12,7 @@
 - [x] We need to bind our app with this backing service
 - [x] If we use Java, we need to add a security module (Spring) to restrict access to end points
 </br> https://github.com/SAP/cloud-security-xsuaa-integration
-- [x]Deploy and Test our app
+- [x] Deploy and Test our app
 
 
 </br>   
