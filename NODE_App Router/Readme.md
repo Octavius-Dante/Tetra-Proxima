@@ -12,17 +12,17 @@ create following folders and files
 </br>
 </br>
 
--[x] Create new application
--[x] Add subfolders for different microservices
--[x] Add subfolder approuter (Add resources folder for creating ui files for the app)
--[x] Add subfolder javaapp (Copy the amven build *.War file from java spring boot app)
--[x] Add subfolder nodeapp (Add previous task node microservices files to this folder and delete manifest.yml)
--[x] In main folder create manifest.yml file
--[x] Copy the fiori app code from java app to the resource folder and change the address of service to
+- [x] Create new application
+- [x] Add subfolders for different microservices
+- [x] Add subfolder approuter (Add resources folder for creating ui files for the app)
+- [x] Add subfolder javaapp (Copy the amven build *.War file from java spring boot app)
+- [x] Add subfolder nodeapp (Add previous task node microservices files to this folder and delete manifest.yml)
+- [x] In main folder create manifest.yml file
+- [x] Copy the fiori app code from java app to the resource folder and change the address of service to
     /java/vendor because our java spring service starts from /java end point 
--[x] Initialize node project inside approuter directory 
--[x] install approuter sap app from npmjs repository site to approputer folder  https://npmjs.com/package/@sap/approuter
--[x] As instructed from https://npmjs.com/package/@sap/approuter this link add the start scrip accordingly for package-json inside approuter folder
+- [x] Initialize node project inside approuter directory 
+- [x] install approuter sap app from npmjs repository site to approputer folder  https://npmjs.com/package/@sap/approuter
+- [x] As instructed from https://npmjs.com/package/@sap/approuter this link add the start scrip accordingly for package-json inside approuter folder
 
 </br>
 </br>
