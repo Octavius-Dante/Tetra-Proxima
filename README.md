@@ -28,18 +28,18 @@ Following check list of items available under this topic
 - [x] <a href="https://github.com/Octavius-Dante/Tetra_Proxima/tree/main/NODE_MicroService">NODE Micro services - deploying a small node js app to BTP </a>
 - [x] Node approuter (NOT INCLUDED)
 </br>- due to java maven dependency frequent changes framework evolutionary changes and troubleshoot in deployment
-- [x] <a href=""> CAPM Day 1 - CDS, </a>
-- [x] <a href=""> CAPM Day 2 </a>
-- [x] <a href=""> CAPM Day 3 </a>
-- [x] <a href=""> CAPM Day 4 </a>
-- [x] <a href=""> CAPM Day 5 </a>
-- [x] <a href=""> CAPM Day 6 </a>
-- [x] <a href=""> CAPM Day 7 </a>
-- [x] <a href=""> CAPM Day 8 </a>
-- [x] <a href=""> CAPM Day 9 </a>
-- [x] <a href=""> CAPM Day 10 </a>
-- [x] <a href=""> CAPM Day 11 </a>
-- [x] <a href=""> CAPM Day 12 </a>
+- [x] <a href="https://github.com/Octavius-Dante/Tetra_Proxima/tree/main/CAPM-DAY-1"> CAPM Day 1 - CDS, </a>
+- [x] <a href="https://github.com/Octavius-Dante/Tetra_Proxima/tree/main/CAPM-DAY-2"> CAPM Day 2 </a>
+- [x] <a href="https://github.com/Octavius-Dante/Tetra_Proxima/tree/main/CAPM-DAY-3"> CAPM Day 3 </a>
+- [x] <a href="https://github.com/Octavius-Dante/Tetra_Proxima/tree/main/CAPM-DAY-4"> CAPM Day 4 </a>
+- [x] <a href="https://github.com/Octavius-Dante/Tetra_Proxima/tree/main/CAPM-DAY-5"> CAPM Day 5 </a>
+- [x] <a href="https://github.com/Octavius-Dante/Tetra_Proxima/tree/main/CAPM-DAY-6"> CAPM Day 6 </a>
+- [x] <a href="https://github.com/Octavius-Dante/Tetra_Proxima/tree/main/CAPM-DAY-7"> CAPM Day 7 </a>
+- [x] <a href="https://github.com/Octavius-Dante/Tetra_Proxima/tree/main/CAPM-DAY-8"> CAPM Day 8 </a>
+- [x] <a href="https://github.com/Octavius-Dante/Tetra_Proxima/tree/main/CAPM-DAY-9"> CAPM Day 9 </a>
+- [x] <a href="https://github.com/Octavius-Dante/Tetra_Proxima/tree/main/CAPM-DAY-10"> CAPM Day 10 </a>
+- [x] <a href="https://github.com/Octavius-Dante/Tetra_Proxima/tree/main/CAPM-DAY-11"> CAPM Day 11 </a>
+- [x] <a href="https://github.com/Octavius-Dante/Tetra_Proxima/tree/main/CAPM-DAY-12"> CAPM Day 12 </a>
 
 </br>
 </br>
