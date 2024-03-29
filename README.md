@@ -11,18 +11,18 @@
 Following check list of items available under this topic 
 <br>
 <br>
-- [x] BTP Account layout overview for understanding
-- [x] BTP Day 0 - Overview and account creation 
-- [x] BTP Day 1 - Commands for application handling in BTP 
-- [x] BTP Day 2 - Maven and Spring STS services (Java and spring program)
-- [x] BTP cloud app deployment via JAVA (NOT PREPARED - NOT INCLUDED)
-- [x] SAP HANA DB creation
-- [x] SAP HDI schema establishment
-- [x] SAP Authorization and Trust Management Service - XSUAA (WIP)
+- [x] <a href="https://github.com/Octavius-Dante/Tetra_Proxima/tree/main/BTP_ACCOUNT_LAYOUT"> BTP Account layout overview for understanding </a>
+- [x] BTP Day 0 - Overview and account creation </a> 
+- [x] BTP Day 1 - Commands for application handling in BTP </a>
+- [x] BTP Day 2 - Maven and Spring STS services (Java and spring program) </a>
+- [x] BTP cloud app deployment via JAVA (NOT PREPARED - NOT INCLUDED) </a>
+- [x] SAP HANA DB creation </a>
+- [x] SAP HDI schema establishment </a>
+- [x] SAP Authorization and Trust Management Service - XSUAA (WIP) </a>
 - [x] VScode installation + Node JS installation (WIP)
-- [x] JS Concepts Promise / Callback
-- [x] NODE JS BASIC 1- preapring ndoe js basic program 
-- [x] NODE JS BASIC 2- preapring ndoe js program with some essential concepts for CAPM app
+- [x] JS Concepts Promise / Callback </a>
+- [x] NODE JS BASIC 1- preapring ndoe js basic program </a>
+- [x] NODE JS BASIC 2- preapring ndoe js program with some essential concepts for CAPM app</a>
 - [x] <a href="https://github.com/Octavius-Dante/Tetra_Proxima/tree/main/NODE_MicroService">NODE Micro services - deploying a small node js app to BTP </a>
 - [x] CAPM Day 1 - CDS, 
 - [x] CAPM Day 2
