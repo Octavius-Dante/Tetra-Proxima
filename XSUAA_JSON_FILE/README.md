@@ -92,3 +92,16 @@ applications:
   - minionx      
 
 ```
+
+</br>   
+</br>      
+
+## XSUAA instance is created in BTP account using the JSON file 
+
+</br>   
+</br>      
+
+    <img src="./files/5xsuaa.png" >
+
+</br>   
+</br>      
