@@ -251,5 +251,12 @@ While creating DB object we also have context. it is used to describe additional
 transactional data, master, config, org.
 </br>
 </br>
-
+```cds 
+Context transaction{
+Entity Orders
+}
+transcation_orders
+```
+</br>
+</br>
 <p>
