@@ -140,8 +140,13 @@ if there is multiple node projects which is assocaited with different version us
 </br>
 </br>
 
-- - - [x] create a cds file by name 'mydemoservice.cds' in <b>SRV</b> folder with file contents as below 
+- [x] create 2 files with same name with differnt format (the file names should be identical  it is mandatory for CAP functionality to work)
+- - - - [x] A CDS file by name 'mydemoservice.cds' in <b>SRV</b> 
+- - - - [x] A JS file by name 'mydemoservice.js'  in <b>SRV</b> 
 </br>
+</br>
+
+#### CDS file content - mydemoservice.cds
 </br>
 
 ```cds
@@ -151,5 +156,14 @@ if there is multiple node projects which is assocaited with different version us
   
 </br>
 </br>
+
+
+#### JS file content - mydemoservice.js
+</br>
+
+```cds
+
+
+```
 
 <p>
