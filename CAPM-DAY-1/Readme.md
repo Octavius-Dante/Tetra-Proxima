@@ -89,17 +89,16 @@ node v
 <br>
 
 Check ypur cds version to get a valid response so that supported node version is checked by cds package
-
-![image](https://github.com/Octavius-Dante/Tetra_Proxima/assets/8819939/f23bbfb3-c8ea-4084-b703-57dcdb362247)
-
+<br>
+<br>
+   <img src="./files/capmd1-1.png" >
 <br>
 <br>
 
 if version is not supported following response will be given 
-
-![image](https://github.com/Octavius-Dante/Tetra_Proxima/assets/8819939/390b81a7-2992-4e96-9caa-387f79224317)
-
-
+<br>
+<br>
+  <img src="./files/capmd1-2.png" >
 <br>
 <br>
 
