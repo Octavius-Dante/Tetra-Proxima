@@ -236,12 +236,10 @@ cds watch
   for Example : in my compayn we haev 2 cap project, one for finance and other for HR.
   both project coincidently need to have employee table.. At runtime, each artifact which is generated has concatenate namespace.
   </br>
-  Finance                HR
+  Finance team : Entity employee - Finance_employee
   </br>
-  Entity employee        Entity employee
+   HR team : Entity employee - HR_employee
   </br>
-  <b>Finance_employee       HR_employee</b>
-  
 </p> 
 
 </br>
