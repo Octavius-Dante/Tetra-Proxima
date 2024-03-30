@@ -294,7 +294,7 @@ Compile this CDS file code as SQL for local db creation for teesting (SQlite a l
 </br>
 </br>
 
-The compilation of SQL usign following command <b> 'cds compile db/sample.cds --to sql' </b>
+The compilation of SQL using following command <b> 'cds compile db/sample.cds --to sql' </b>
 </br>
 
 ```bat
