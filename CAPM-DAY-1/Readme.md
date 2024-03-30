@@ -150,8 +150,11 @@ if there is multiple node projects which is assocaited with different version us
 </br>
 
 ```cds
+service MyService {
 
+    function helloCAP(name:String) returns String;
 
+}
 ```
   
 </br>
@@ -161,9 +164,39 @@ if there is multiple node projects which is assocaited with different version us
 #### JS file content - mydemoservice.js
 </br>
 
-```cds
-
-
+```js
+const Myservice = function(srv){
+    // this code bloc is like DPC extension class in SAP ODATA services  
+    srv.on('helloCAP', (req,res) => {
+        return "Hello CAP clodu developers, Welcome" + req.body.name;
+    });
+}
 ```
+</br>
+</br>
+Execuet the CDS file in terminal 
+
+</br>
+
+```bat
+cds run
+```
+</br>
+
+output of the execution will look like this (hold ctrl + click) this link to access the result 
+</br>
+</br>
+
+<img src="./files/capmd1-7.png" >
+</br>
+</br>
+
+the result will looke like this (to change the version mentioned in highlighted section)  check the <b>pacakage.json</b> file 
+</br>
+</br>
+
+<img src="./files/capmd1-8.png" >
+</br>
+</br>
 
 <p>
