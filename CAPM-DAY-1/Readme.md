@@ -90,7 +90,7 @@ node v
 <br>
 <br>
 
-### Check ypur cds version to get a valid response so that supported node version is checked by cds package
+### Check your cds version to get a valid response so that supported node version is checked by cds package
 <br>
 <br>
    <img src="./files/capmd1-1.png" >
