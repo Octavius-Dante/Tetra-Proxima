@@ -322,6 +322,7 @@ Install following SQL tools and drivers from extensions
 </br>
 <img src="./files/capmd1-17.png" >
 </br>
+</br>
 <img src="./files/capmd1-18.png" >
 </br>
 </br>
