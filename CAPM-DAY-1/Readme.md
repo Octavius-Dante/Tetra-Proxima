@@ -197,7 +197,7 @@ the result will looke like this (to change the version mentioned in highlighted 
 </br>
 </br>
 
-<img src="./files/capmd1-8.png" >
+<img src="./files/capmd1-8a.png" >
 </br>
 </br>
 
