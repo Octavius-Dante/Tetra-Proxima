@@ -88,4 +88,9 @@ node v
 <br>
 <br>
 
+Check ypur cds version to get a valid response so that supported node version is checked by cds package
+
+![image](https://github.com/Octavius-Dante/Tetra_Proxima/assets/8819939/f23bbfb3-c8ea-4084-b703-57dcdb362247)
+
+
 <p>
