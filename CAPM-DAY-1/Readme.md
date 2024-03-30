@@ -317,4 +317,11 @@ ds deploy --to sqlite:<table_name>
 <img src="./files/capmd1-16.png" >
 </br>
 </br>
+
+Install SQL tools from extensions for accessing the table which got created earlier
+</br>
+<img src="./files/capmd1-17.png" >
+</br>
+</br>
+
 <p>
