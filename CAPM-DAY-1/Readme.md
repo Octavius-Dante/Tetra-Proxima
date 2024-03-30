@@ -97,7 +97,7 @@ Check ypur cds version to get a valid response so that supported node version is
 
 if version is not supported following response will be given 
 
-![image](https://github.com/Octavius-Dante/Tetra_Proxima/assets/8819939/3da348e6-69f1-498d-9165-81b33246d979)
+![image](https://github.com/Octavius-Dante/Tetra_Proxima/assets/8819939/390b81a7-2992-4e96-9caa-387f79224317)
 
 
 <br>
