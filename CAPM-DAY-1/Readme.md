@@ -140,7 +140,7 @@ if there is multiple node projects which is assocaited with different version us
 </br>
 </br>
 
-- [x] create a cds file by name 'mydemoservice.cds' in <b>SRV</b> folder with file contents as below 
+- - - [x] create a cds file by name 'mydemoservice.cds' in <b>SRV</b> folder with file contents as below 
 </br>
 </br>
 
