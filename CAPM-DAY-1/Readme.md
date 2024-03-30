@@ -73,7 +73,7 @@ cds help
 <br>
 <br>
 
-### Node version should be 14 or higher , use following comamnds to check 
+### Node version should be 14 or higher , use following commands to check 
 <br>
 <br>
 
