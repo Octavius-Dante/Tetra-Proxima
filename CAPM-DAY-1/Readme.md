@@ -105,5 +105,11 @@ node v
 <br>
 <br>
 
+- [x] create a folder in your computer and run <b>cds init</b> command. This will create a project skeleton automatically which includes </b>db, srv, ui</b> folders. 
+<br>
+<br>
+  <img src="./files/capmd1-2.png" >
+<br>
+<br>
 
 <p>
