@@ -44,11 +44,16 @@ Conceptually CDS is same concept in ABAP but with different flavour in CAPM, The
   - [x] It comes along with cds CLI which will be used by developers to quickly generate the CAP project skeleton.
   - [x] This module needs to be installed globally in our system if we are using VS code, in case we use BAS, this module is pre-installed.
 <br>
+<br>
+
+install cds developer kit in your computer using command prompt  
+
+<br>
+<br>
 
 ```bat
 npm install -g @sap/cds-dk
 ```
-
 <br>
 <br>
 <p>
