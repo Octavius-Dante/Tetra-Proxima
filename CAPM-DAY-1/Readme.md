@@ -125,4 +125,12 @@ if there is multiple node projects which is assocaited with different version us
   <img src="./files/capmd1-4.png" >
 </br>
 </br>
+
+- [x] When CDS initialization in Vs code or BAS is successfull you may see following objects generted in your development folder 
+</br>
+</br>
+  <img src="./files/capmd1-5.png" >
+</br>
+</br>
+
 <p>
