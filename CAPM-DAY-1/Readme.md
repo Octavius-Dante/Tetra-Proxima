@@ -211,6 +211,10 @@ Output result of the app
 </br>
 </br>
 
+- [x] As a developer ou may haev to run the app every time after you made the changes instead of typing 'cds run' all the time use cds watch to automate restarting the app by framework when there is a change to the cds or js script files
+</br>
+</br>
 
-
+</br>
+</br>
 <p>
