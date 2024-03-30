@@ -298,7 +298,7 @@ The compilation of SQL usign following command <b> 'cds compile db/sample.cds --
 </br>
 
 ```bat
-cds compile db/sample.cds --to sql
+cds compile db/<cds file name>.cds --to sql
 ```
 </br>
 
