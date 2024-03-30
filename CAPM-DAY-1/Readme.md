@@ -215,6 +215,9 @@ Output result of the app
 </br>
 </br>
 
+```bat
+cds watch
+```
 </br>
 </br>
 <p>
