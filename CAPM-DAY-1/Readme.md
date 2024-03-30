@@ -251,6 +251,7 @@ While creating DB object we also have context. it is used to describe additional
 transactional data, master, config, org.
 </br>
 </br>
+
 ```cds 
 Context transaction{
 Entity Orders
@@ -259,4 +260,32 @@ transcation_orders
 ```
 </br>
 </br>
+
+Create a cds file name sample.cds in 'Db' folder and type down the the following code 
+</br>
+</br>
+
+<img src="./files/capmd1-13.png" >
+</br>
+</br>
+
+```cds 
+namespace com.dante.finance;
+
+context trans {
+    entity order {
+        key id            : Int16;
+            customer_name : String;
+            location      : String;
+            total         : Decimal(10, 2);
+            currency      : String;
+            created_on    : Date;
+            created_by    : String;
+    }
+}
+```
+
+</br>
+</br>
+
 <p>
