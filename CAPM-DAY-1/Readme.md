@@ -54,7 +54,7 @@ npm install -g @sap/cds-dk
 ```
 <br>
 <br>
-Post install verify installation of cds kit by using followign commands 
+Post install verify installation of cds kit by using following commands 
 <br>
 <br>
 
@@ -71,7 +71,7 @@ cds help
 <br>
 <br>
 
-Node version should 14 or higher , use following comamnds to check 
+Node version should be 14 or higher , use following comamnds to check 
 <br>
 <br>
 
