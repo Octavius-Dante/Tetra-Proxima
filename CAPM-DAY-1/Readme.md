@@ -45,9 +45,7 @@ Conceptually CDS is same concept in ABAP but with different flavour in CAPM, The
   - [x] This module needs to be installed globally in our system if we are using VS code, in case we use BAS, this module is pre-installed.
 <br>
 <br>
-
 install cds developer kit in your computer using command prompt  
-
 <br>
 <br>
 
