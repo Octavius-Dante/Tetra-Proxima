@@ -284,7 +284,25 @@ context trans {
     }
 }
 ```
+</br>
+</br>
+Compile this CDS file code as SQL for local db creation for teesting (SQlite a lite weight db used in cap development its a open source) 
+</br>
+</br>
 
+<img src="./files/capmd1-14.png" >
+</br>
+</br>
+
+The compilation of SQL usign following command <b> 'cds compile db/sample.cds --to sql' </b>
+</br>
+
+```bat
+cds compile db/sample.cds --to sql
+```
+</br>
+
+<img src="./files/capmd1-15.png" >
 </br>
 </br>
 
