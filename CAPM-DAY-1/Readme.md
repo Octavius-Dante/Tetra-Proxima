@@ -305,5 +305,14 @@ cds compile db/<cds file name>.cds --to sql
 <img src="./files/capmd1-15.png" >
 </br>
 </br>
+create the physical table in your project by executing the deploy command as below 
+</br>
 
+```bat
+ds deploy --to sqlite:<table_name>
+```
+</br>
+<img src="./files/capmd1-16.png" >
+</br>
+</br>
 <p>
