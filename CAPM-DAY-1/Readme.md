@@ -237,7 +237,9 @@ cds watch
   both project coincidently need to have employee table.. At runtime, each artifact which is generated has concatenate namespace.
   </br>
   Finance                HR
+  </br>
   Entity employee        Entity employee
+  </br>
   <b>Finance_employee       HR_employee</b>
   
 </p> 
