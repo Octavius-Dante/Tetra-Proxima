@@ -115,4 +115,6 @@ cds init
   <img src="./files/capmd1-3.png" >
 <br>
 <br>
+
+- [x] install node version manager nvm to manage node verison in system https://github.com/coreybutler/nvm-windows/releases/tag/1.1.12
 <p>
