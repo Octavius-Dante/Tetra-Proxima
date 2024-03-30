@@ -45,7 +45,8 @@ Conceptually CDS is same concept in ABAP but with different flavour in CAPM, The
   - [x] This module needs to be installed globally in our system if we are using VS code, in case we use BAS, this module is pre-installed.
 <br>
 <br>
-install cds developer kit in your computer using command prompt  
+
+### install cds developer kit in your computer using command prompt  
 <br>
 <br>
 
@@ -54,7 +55,7 @@ npm install -g @sap/cds-dk
 ```
 <br>
 <br>
-Post install verify installation of cds kit by using following commands 
+### Post install verify installation of cds kit by using following commands 
 <br>
 <br>
 
@@ -71,7 +72,7 @@ cds help
 <br>
 <br>
 
-Node version should be 14 or higher , use following comamnds to check 
+### Node version should be 14 or higher , use following comamnds to check 
 <br>
 <br>
 
@@ -88,14 +89,14 @@ node v
 <br>
 <br>
 
-Check ypur cds version to get a valid response so that supported node version is checked by cds package
+### Check ypur cds version to get a valid response so that supported node version is checked by cds package
 <br>
 <br>
    <img src="./files/capmd1-1.png" >
 <br>
 <br>
 
-if version is not supported following response will be given 
+### if version is not supported following response will be given 
 <br>
 <br>
   <img src="./files/capmd1-2.png" >
