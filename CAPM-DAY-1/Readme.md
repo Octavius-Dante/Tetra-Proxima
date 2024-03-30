@@ -318,9 +318,10 @@ ds deploy --to sqlite:<table_name>
 </br>
 </br>
 
-Install SQL tools from extensions for accessing the table which got created earlier
+Install following SQL tools and drivers from extensions 
 </br>
 <img src="./files/capmd1-17.png" >
+<img src="./files/capmd1-18.png" >
 </br>
 </br>
 
