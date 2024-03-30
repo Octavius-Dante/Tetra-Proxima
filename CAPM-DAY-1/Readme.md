@@ -246,4 +246,10 @@ cds watch
 </br>
 </br>
 
+While creating DB object we also have context. it is used to describe additional category of data, 
+</br>
+transactional data, master, config, org.
+</br>
+</br>
+
 <p>
