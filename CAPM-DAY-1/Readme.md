@@ -70,4 +70,22 @@ cds help
 ```
 <br>
 <br>
+
+Node version should 14 or higher 
+<br>
+<br>
+
+```bat
+node -v 
+```
+<br>
+or 
+<br>
+
+```bat
+node v 
+```
+<br>
+<br>
+
 <p>
