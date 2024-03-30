@@ -171,6 +171,8 @@ const Myservice = function(srv){
         return "Hello CAP clodu developers, Welcome" + req.body.name;
     });
 }
+
+return Myservice;
 ```
 </br>
 </br>
