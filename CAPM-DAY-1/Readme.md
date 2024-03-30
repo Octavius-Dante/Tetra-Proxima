@@ -286,7 +286,9 @@ context trans {
 ```
 </br>
 </br>
-Compile this CDS file code as SQL for local db creation for testing (SQlite a lite weight db used in cap development its a open source) 
+Compile this CDS file code as SQL for local db creation for testing 
+</br>
+(SQlite a lite weight db used in cap development its a open source file system based DB) 
 </br>
 </br>
 
