@@ -199,6 +199,18 @@ the result will looke like this (to change the version mentioned in highlighted 
 
 <img src="./files/capmd1-8a.png" >
 </br>
+Metadata of the app 
 </br>
+
+<img src="./files/capmd1-9.png" >
+</br>
+Output result of the app
+</br>
+
+<img src="./files/capmd1-10.png" >
+</br>
+</br>
+
+
 
 <p>
