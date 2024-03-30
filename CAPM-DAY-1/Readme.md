@@ -226,4 +226,23 @@ cds watch
 <img src="./files/capmd1-12.png" >
 </br>
 </br>
+
+### What is namespace in CDS 
+</br>
+</br>
+
+<p>
+  A namespace define a unique name for our group. It alsos give uniqueness to the project.
+  for Example : in my compayn we haev 2 cap project, one for finance and other for HR.
+  both project coincidently need to have employee table.. At runtime, each artifact which is generated has concatenate namespace.
+  </br>
+  Finance                HR
+  Entity employee        Entity employee
+  <b>Finance_employee       HR_employee</b>
+  
+</p> 
+
+</br>
+</br>
+
 <p>
