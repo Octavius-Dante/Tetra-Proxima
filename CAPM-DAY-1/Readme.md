@@ -32,3 +32,23 @@ Conceptually CDS is same concept in ABAP but with different flavour in CAPM, The
   - [x] Once the compilation is successeful a <b>runtime</b> object gets created
   - [x] Cloud Documentation CAPM - https://cap.cloud.sap/docs/about
 </p>
+<br>
+<br>
+
+### Modules for using CAP
+
+</br>
+</br>
+
+  - [x] We need to install <br>sap cds-dk</br> (development kit), This kit includes required framework libraries and source code to build, test deploy, run applications.
+  - [x] It comes along with cds CLI which will be used by developers to quickly generate the CAP project skeleton.
+  - [x] This module needs to be installed globally in our system if we are using VS code, in case we use BAS, this module is pre-installed.
+<br>
+
+```bat
+npm install -g @sap/cds-dk
+```
+
+<br>
+<br>
+<p>
