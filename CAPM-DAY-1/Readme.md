@@ -49,7 +49,6 @@ Conceptually CDS is same concept in ABAP but with different flavour in CAPM, The
 
 - [x] install cds developer kit in your computer using command prompt  
 <br>
-<br>
 
 ```bat
 npm install -g @sap/cds-dk
@@ -75,7 +74,6 @@ cds help
 <br>
 
 - [x] Node version should be 14 or higher , use following commands to check 
-<br>
 <br>
 
 ```bat
