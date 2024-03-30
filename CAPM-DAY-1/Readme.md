@@ -54,4 +54,20 @@ npm install -g @sap/cds-dk
 ```
 <br>
 <br>
+Post install verify installation
+<br>
+<br>
+
+```bat
+cds --help  
+```
+<br>
+or
+<br>
+
+```bat
+cds help  
+```
+<br>
+<br>
 <p>
