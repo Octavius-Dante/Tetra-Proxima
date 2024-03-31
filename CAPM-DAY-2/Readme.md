@@ -93,6 +93,12 @@ this global definition is called aspect in SAP capm cds terminology
 </br>
 </br>
 
+</br>
+</br>
+<img src ="./files/capmd2-4.png">
+</br>
+</br>
+
 ```cds
 
 namespace com.dante.commons;
