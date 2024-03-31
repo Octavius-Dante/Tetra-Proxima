@@ -405,15 +405,17 @@ SELECT * FROM com_dante_finance_trans_order;
 - [x] create a CSV folder inside DB folder as mentioned below
 </br>
 </br>
-
-</br>
-</br>
-
 - [x] create a CSV file in the name of the database table (internal DB table name : <b>com.dante.finance.trans-order.csv</b>)
 </br>
 </br>
+<img src="./files/capmd1-25.png" >
+</br>
+</br>
+SAP will install the records to the DB table automatically when this file contains records\
+</br>
+Need to fill mock data to csv file using website (https://www.mockaroo.com/) 
+</br>
+</br>
 
-</br>
-</br>
 <p>
 
