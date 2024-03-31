@@ -607,7 +607,7 @@ context trans {
             created_by : String;
     };
 
-// cuid aspect will fill generate automatic key 
+// cuid aspect will generate automatic id key 
 
     entity order_2 : commons.Amount, cuid { 
         // key id         : commons.Guid;
