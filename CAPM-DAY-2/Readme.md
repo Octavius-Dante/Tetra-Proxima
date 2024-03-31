@@ -581,7 +581,12 @@ annotate managed with {
 </br>
 </br>
 
-Now the above some of the above shown standard functionalities from '@sap/cds/common' will be used in our code as shown below 
+Some of the above shown standard functionalities from '@sap/cds/common' will be used in our code as shown below 
+</br>
+</br>
+
+</br> 1. Primary key auto geenration aspect by using <b>cuid </b> in order_2 table 
+</br> 2. Managed aspect by using <b>managed </b> in employee table to fill (created by, changed by)
 
 </br>
 </br>
