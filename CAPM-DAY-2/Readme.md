@@ -980,8 +980,7 @@ Add data to the currency tables using followign csv
 </br>
 </br>
 
-<a href="./files/sap.common-Currencies.csv"> sap.common-Currencies_texts.csv  </a>
-Currency - File name : sap.common-Currencies.csv
+Currency - File name : <a href="./files/sap.common-Currencies.csv"> sap.common-Currencies_texts.csv  </a>
 ```csv
 CODE,SYMBOL,NAME,DESCR
 EUR,€,Euro,European Euro
@@ -999,8 +998,7 @@ CNY,¥,Yuan,Chinese Yuan Renminbi
 </br>
 </br>
 
-<a href="./files/sap.common-Currencies_texts.csv"> sap.common-Currencies_texts.csv  </a>
-Currency text - File name : 
+Currency text - File name : <a href="./files/sap.common-Currencies_texts.csv"> sap.common-Currencies_texts.csv  </a>
 ```csv
 CODE,LOCALE,NAME,DESCR
 EUR,de,Euro,European Euro
