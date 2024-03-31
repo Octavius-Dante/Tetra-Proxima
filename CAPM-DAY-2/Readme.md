@@ -595,7 +595,7 @@ Some of the above shown standard functionalities from '@sap/cds/common' will be 
 </br>
 </br>
 
-</br> 1. Primary key auto geenration aspect by using <b>cuid </b> in order_2 table 
+</br> 1. Primary key auto generation aspect by using <b>cuid </b> in order_2 table 
 </br> 2. Managed aspect by using <b>managed </b> in employee table to fill (created by, changed by)
 
 </br>
