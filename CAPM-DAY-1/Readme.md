@@ -308,7 +308,7 @@ create the physical table in your project by executing the deploy command as bel
 </br>
 
 ```bat
-ds deploy --to sqlite:<table_name>
+cds deploy --to sqlite:<table_name>
 ```
 </br>
 </br>
