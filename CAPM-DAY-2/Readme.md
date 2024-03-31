@@ -1106,13 +1106,35 @@ service MyService {
 
 > [!NOTE]
 > It is essential to deploy the tables to DB, so the applciation will run successfull else it will display the odata page but not the data set properly it goes to dump
-> THIS IS FIXED IN CURRENT application 
+> Everytime when there is changes to (service.cds) file please deploy the tables to DB it is best practices
 
+</br>
+</br>
 
+Add Watch command to package.json file as whown below 
 </br>
 </br>
-</br>
-</br>
+```json
+{
+  "name": "01_BASIC_CAP",
+  "version": "1.0.0",
+  "description": "A simple CAP project.",
+  "repository": "<Add your repository here>",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "@sap/cds": "^7",
+    "express": "^4"
+  },
+  "devDependencies": {
+    "@cap-js/sqlite": "^1"
+  },
+  "scripts": {
+    "start": "cds run",
+    "watch": "cds watch"
+  }
+}
+```
 </br>
 </br>
 
