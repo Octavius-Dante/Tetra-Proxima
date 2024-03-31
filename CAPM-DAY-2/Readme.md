@@ -657,10 +657,21 @@ deployed the tables to db as shown below
 </br>
 </br>
 
-the id is auto generated for oder_2 table in DB as shown below 
+The id is auto generated for order_2 table in DB as shown below 
 </br>
 </br>
 <img src="./files/capmd2-14.png" >
+
+</br>
+</br>
+
+> [!TIP]
+> Documentation details : to implement the standard functionalities like above please refer : https://cap.cloud.sap/docs/cds/common
+</br>
+navigate the website by searching a specifc topic as shown below 
+</br>
+</br>
+<img src="./files/capmd2-15.png" >
 
 </br>
 </br>
