@@ -53,7 +53,12 @@ http://localhost:4004/odata/v4/my/helloCAP(name='dante')
 When we design database artifacts, at times we have many simialr objects and their datatypes.
 </br> Instead of hardcoding the type as primitive type, it is recommended to create custom types.
 </br> Using custom data type increase reusability and reduce maintenance.
-</br> when we create a seperate CDS file for reuse purpose and consume it, it is called aspect. 
+</br> when we create a seperate CDS file for reuse purpose and consume it, this file contains enumerators and aspects. 
+</br>
+aspect means a variable defined in seperate file whcih can be accessed globally. 
+</br>
+</br> There are common aspect provided by SAP, primary key generation, currency.
+</br> Admin data : created by, created date, changed by, changed date - these are called temporal data
 </p>
 
 </br>
@@ -153,6 +158,11 @@ context trans {
 }
 
 ```
+
+</br>
+</br>
+
+alterations to the main cds file (sample.cds)  // id data type int 16 is replaced with global variable 
 
 </br>
 </br>
