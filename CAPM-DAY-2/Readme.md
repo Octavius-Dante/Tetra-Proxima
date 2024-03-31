@@ -576,3 +576,17 @@ annotate managed with {
 //---------------------------------------------------------------------------
 
 ```
+
+</br>
+</br>
+</br>
+
+Now the above standard functionalities from '@sap/cds/common' will be used in our code as shown below 
+
+</br>
+</br>
+
+
+</br>
+</br>
+
