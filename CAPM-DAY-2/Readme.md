@@ -1,6 +1,12 @@
 ## CAPM - Day 2
 
 #### Correction to yesterday's CAP program
+
+<style>
+ x1{ font-family:Arial, Helvetica, sans-serif; color:#EBE834; font-size:14px; font-weight:800 }<!-- YELLOW -->
+</style>
+
+
 </br>
 </br>
 
@@ -325,7 +331,7 @@ To learn detail about available aspects : https://cap.cloud.sap/docs/cds/common
 </br>
 
 > [!IMPORTANT]
-> add the following block of code to your sample cds as shown below 
+> add the following block of code to your sample cds as shwon below 
 
 </br>
 </br>
@@ -344,7 +350,7 @@ using { } from '@sap/cds/common';
 </br>
 </br>
 
-Press ctrl + click the link on <b>'@sap/cds/common'</b> it navigates to sap standard common.cds block as shwon below 
+Press ctrl + click the link on <x1><b>'@sap/cds/common'</b></x1> it navigates to sap standard common.cds block as shwon below 
 
 </br>
 </br>
