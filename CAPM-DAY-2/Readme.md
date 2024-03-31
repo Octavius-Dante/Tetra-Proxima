@@ -1104,7 +1104,10 @@ service MyService {
 </br>
 </br>
 
-It is essential to deploy the tables to DB, so the applciation will run successfull else it will display the odata page but not the data set properly it goes to dump 
+> [!NOTE]
+> It is essential to deploy the tables to DB, so the applciation will run successfull else it will display the odata page but not the data set properly it goes to dump
+> THIS IS FIXED IN CURRENT application 
+
 
 </br>
 </br>
