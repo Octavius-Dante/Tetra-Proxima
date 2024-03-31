@@ -617,7 +617,9 @@ context trans {
             created_by : String;
     };
 
-    entity employee {
+// will add managed admin aspect to the table 
+
+    entity employee : managed{
         key id   : commons.Guid;
             name : String;
             city : String;
