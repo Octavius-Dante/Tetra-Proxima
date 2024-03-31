@@ -350,5 +350,6 @@ Press ctrl + click the link on <b>'@sap/cds/common'</b> it navigates to sap stan
 </br>
 </br>
 
+<img src="./files/capmd2-10.png" >
 </br>
 </br>
