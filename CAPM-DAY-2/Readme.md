@@ -55,6 +55,7 @@ When we design database artifacts, at times we have many simialr objects and the
 </br> Using custom data type increase reusability and reduce maintenance.
 </br> when we create a seperate CDS file for reuse purpose and consume it, this file contains enumerators and aspects. 
 </br>
+</br>
 aspect means a variable defined in seperate file whcih can be accessed globally. 
 </br>
 </br> There are common aspect provided by SAP, primary key generation, currency.
