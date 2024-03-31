@@ -1111,7 +1111,7 @@ service MyService {
 </br>
 </br>
 
-Add Watch command to package.json file as whown below 
+Add Watch command to package.json file as shown below 
 </br>
 </br>
 ```json
@@ -1138,8 +1138,13 @@ Add Watch command to package.json file as whown below
 </br>
 </br>
 
+Script to run watch command for the run parameter added to package.json file 
 </br>
 </br>
+
+```bat
+npm run watch
+``
 </br>
 </br>
 </br>
