@@ -319,3 +319,33 @@ change the DB connection to new name (supernova) and check the data of the order
 </br>
 </br>
 
+To learn detail about available aspects : https://cap.cloud.sap/docs/cds/common
+
+</br>
+</br>
+> [!IMPORTANT]
+> add the following block of code to your sample cds as shwon below 
+</br>
+</br>
+
+```cds
+
+// SAP standard common aspects 
+using { } from '@sap/cds/common';
+
+```
+
+</br>
+</br>
+
+<img src="./files/capmd2-9.png" >
+</br>
+</br>
+
+Press ctrl + click the link on <b>'@sap/cds/common'</b> it navigates to sap standard common.cds block as shwon below 
+
+</br>
+</br>
+
+</br>
+</br>
