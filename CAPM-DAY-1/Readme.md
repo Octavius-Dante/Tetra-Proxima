@@ -409,7 +409,7 @@ SELECT * FROM com_dante_finance_trans_order;
 </br>
 </br>
 
-- [x] create a CSV file in the name of the database table (internal DB table name : <b>com.dante.finance.trans-order</b>)
+- [x] create a CSV file in the name of the database table (internal DB table name : <b>com.dante.finance.trans-order.csv</b>)
 </br>
 </br>
 
