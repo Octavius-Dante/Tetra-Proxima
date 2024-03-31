@@ -325,7 +325,7 @@ To learn detail about available aspects : https://cap.cloud.sap/docs/cds/common
 </br>
 
 > [!IMPORTANT]
-> add the following block of code to your sample cds as shwon below 
+> add the following block of code to your sample cds as shown below 
 
 </br>
 </br>
