@@ -930,3 +930,18 @@ aspect Amount :{
 }
 
 ```
+
+</br>
+</br>
+
+make the following code changes to common.cds (CURRENCY_CODE to CURRENCY)
+
+``` cds 
+// Structure data type with resuable property of amount 
+aspect Amount :{
+    CURRENCY : Currency;
+    GROSS_AMOUNT: AmountX;
+    NET_AMOUNT: AmountX;
+    TAX_AMOUNT :AmountX;
+}
+```
