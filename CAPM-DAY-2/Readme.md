@@ -965,8 +965,8 @@ now deploy the table to the DB again and you can see 2 extra table for currency 
 
 </br>
 </br>
-   <img src="./files/capmd2-16.png" >
+   <img src="./files/capmd2-17.png" >
 </br>
-   <img src="./files/capmd2-17.png" >  
+   <img src="./files/capmd2-18.png" >  
 </br>
 </br>
