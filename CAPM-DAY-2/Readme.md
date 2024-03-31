@@ -60,6 +60,7 @@ When we design database artifacts, at times we have many simialr objects and the
 </br>
 </br>
 <b>Aspect means a variable defined in seperate file whcih can be accessed globally. </b>
+</br> it is combination of many fields.
 </br>
 </p>
 
