@@ -422,7 +422,7 @@ Need to fill mock data to csv file using website (https://www.mockaroo.com/)
 </br>
 </br>
 Insert of all these mock data record are automatically done when table deployment happens
-</br> so need to delete the table which we created earlier (disconnect the DB, delete the DB connection)
+</br> disconnect the DB and delete the table 
 </br>
 </br>
 Re-deploy the table again with same or different name
