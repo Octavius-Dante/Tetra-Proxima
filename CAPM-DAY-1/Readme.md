@@ -431,7 +431,10 @@ Re-deploy the table again with same or different name
 <img src="./files/capmd1-27c.png" >
 </br>
 </br>
-
+check the records in the db using sql query
+</br>
+</br>
+<img src="./files/capmd1-28.png" >
 </br>
 </br>
 
