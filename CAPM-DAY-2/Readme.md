@@ -759,7 +759,134 @@ cds compile db/sample.cds --to sql
 </br>
 </br>
 
-   <img src="./files/capmd2-17.png" >
+<details>
+  <summary> compiled text from terminal for reference  </summary> 
+
+</br>
+</br>
+
+```bat
+D:\TETRA_PROXIMA\CAPM\01_BASIC_CAP>cds compile db/sample.cds --to sql
+
+CREATE TABLE com_dante_finance_trans_order (
+  id NVARCHAR(32) NOT NULL,
+  customer NVARCHAR(255),
+  location NVARCHAR(255),
+  total DECIMAL(10, 2),
+  currency NVARCHAR(255),
+  created_on DATE_TEXT,
+  created_by NVARCHAR(255),
+  PRIMARY KEY(id)
+);
+
+CREATE TABLE com_dante_finance_trans_order_2 (
+  CURRENCY_CODE_code NVARCHAR(3),
+  GROSS_AMOUNT DECIMAL(10, 2),
+  NET_AMOUNT DECIMAL(10, 2),
+  TAX_AMOUNT DECIMAL(10, 2),
+  ID NVARCHAR(36) NOT NULL,
+  customer NVARCHAR(255),
+  location NVARCHAR(255),
+  created_on DATE_TEXT,
+  created_by NVARCHAR(255),
+  PRIMARY KEY(ID)
+);
+
+CREATE TABLE com_dante_finance_trans_employee (
+  createdAt TIMESTAMP_TEXT,
+  createdBy NVARCHAR(255),
+  modifiedAt TIMESTAMP_TEXT,
+  modifiedBy NVARCHAR(255),
+  id NVARCHAR(32) NOT NULL,
+  name NVARCHAR(255),
+  city NVARCHAR(255),
+  Gender NVARCHAR(1),
+  PRIMARY KEY(id)
+);
+
+CREATE TABLE sap_common_Currencies (
+  name NVARCHAR(255),
+  descr NVARCHAR(1000),
+  code NVARCHAR(3) NOT NULL,
+  symbol NVARCHAR(5),
+  minorUnit SMALLINT,
+  PRIMARY KEY(code)
+);
+
+CREATE TABLE sap_common_Currencies_texts (
+  locale NVARCHAR(14) NOT NULL,
+  name NVARCHAR(255),
+  descr NVARCHAR(1000),
+  code NVARCHAR(3) NOT NULL,
+  PRIMARY KEY(locale, code)
+);
+
+CREATE VIEW localized_sap_common_Currencies AS SELECT
+  coalesce(localized_1.name, L_0.name) AS name,
+  coalesce(localized_1.descr, L_0.descr) AS descr,
+  L_0.code,
+  L_0.symbol,
+  L_0.minorUnit
+FROM (sap_common_Currencies AS L_0 LEFT JOIN sap_common_Currencies_texts AS localized_1 ON localized_1.code = L_0.code AND localized_1.locale = 'en');
+
+CREATE VIEW localized_com_dante_finance_trans_order_2 AS SELECT
+  L.CURRENCY_CODE_code,
+  L.GROSS_AMOUNT,
+  L.NET_AMOUNT,
+  L.TAX_AMOUNT,
+  L.ID,
+  L.customer,
+  L.location,
+  L.created_on,
+  L.created_by
+FROM com_dante_finance_trans_order_2 AS L;
+
+CREATE VIEW localized_de_sap_common_Currencies AS SELECT
+  coalesce(localized_de_1.name, L_0.name) AS name,
+  coalesce(localized_de_1.descr, L_0.descr) AS descr,
+  L_0.code,
+  L_0.symbol,
+  L_0.minorUnit
+FROM (sap_common_Currencies AS L_0 LEFT JOIN sap_common_Currencies_texts AS localized_de_1 ON localized_de_1.code = L_0.code AND localized_de_1.locale = 'de');
+
+CREATE VIEW localized_fr_sap_common_Currencies AS SELECT
+  coalesce(localized_fr_1.name, L_0.name) AS name,
+  coalesce(localized_fr_1.descr, L_0.descr) AS descr,
+  L_0.code,
+  L_0.symbol,
+  L_0.minorUnit
+FROM (sap_common_Currencies AS L_0 LEFT JOIN sap_common_Currencies_texts AS localized_fr_1 ON localized_fr_1.code = L_0.code AND localized_fr_1.locale = 'fr');
+
+CREATE VIEW localized_de_com_dante_finance_trans_order_2 AS SELECT
+  L.CURRENCY_CODE_code,
+  L.GROSS_AMOUNT,
+  L.NET_AMOUNT,
+  L.TAX_AMOUNT,
+  L.ID,
+  L.customer,
+  L.location,
+  L.created_on,
+  L.created_by
+FROM com_dante_finance_trans_order_2 AS L;
+
+CREATE VIEW localized_fr_com_dante_finance_trans_order_2 AS SELECT
+  L.CURRENCY_CODE_code,
+  L.GROSS_AMOUNT,
+  L.NET_AMOUNT,
+  L.TAX_AMOUNT,
+  L.ID,
+  L.customer,
+  L.location,
+  L.created_on,
+  L.created_by
+FROM com_dante_finance_trans_order_2 AS L;
+
+
+D:\TETRA_PROXIMA\CAPM\01_BASIC_CAP>
+
+```
+
+</details>
    
 </br>
 </br>
