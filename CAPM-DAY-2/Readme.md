@@ -648,7 +648,7 @@ after
 </br>
 </br>
 
-deployed the tables to db as shwon below 
+deployed the tables to db as shown below 
 </br>
 </br>
 <img src="./files/capmd2-13.png" >
