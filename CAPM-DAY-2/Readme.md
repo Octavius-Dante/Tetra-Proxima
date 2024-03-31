@@ -1073,17 +1073,39 @@ SELECT * FROM com_dante_finance_trans_employee as emp
 INNER JOIN com_dante_finance_trans_order_2 AS ord 
 ON emp.id = ord.created_by_id
 ```
+</br>
+</br>
+
+## Service Creation 
+</br>
+</br>
+
+whenever we expose an entity in the service, SAP CDS engine will create a VIEW corresponding to that entity in the database table.
+</br> After defiing the entity to expose odata, we must deploy our changes again to database. Before performing cds/run watch 
 
 </br>
 </br>
+
+Now lets focus on publishing this table data using odata in web.
+</br>
+make change to the mydemoservice.cds file as shown below 
+</br>
+```cds
+using { com.dante.finance } from '../db/sample';
+
+service MyService {
+
+    entity OrderSet as projection on finance.trans.order_2;
+    entity EmployeeSet as projection on finance.trans.employee;
+    function helloCAP(name: String) returns String;
+
+}
+```
 </br>
 </br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
+
+It is essential to deploy the tables to DB, so the applciation will run successfull else it will display the odata page but not the data set properly it goes to dump 
+
 </br>
 </br>
 </br>
