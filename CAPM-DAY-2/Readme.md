@@ -249,3 +249,49 @@ context trans {
     }
 }
 ```
+
+</br>
+</br>
+
+order_2 table data *.csv file 
+
+</br>
+</br>
+
+```csv
+
+id,customer,location,created_on,created_by,GROSS_AMOUNT,NET_AMOUNT,TAX_AMOUNT,CURRENCY_CODE
+1,Wikibox,Az Zāhir,2024-01-22,Aime,439.49,400,250,YER
+2,Brightdog,Yuecheng,2024-11-24,Adelice,841.54,500,260,CNY
+3,Dazzlesphere,Agoo,2024-09-13,Lucky,163.65,750,213,PHP
+4,Livetube,Marseille,2024-07-03,Hasty,233.15,670,340,EUR
+5,Zoovu,San José de Ocoa,2024-08-31,Thor,127.18,780,40,DOP
+
+```
+
+</br>
+</br>
+
+employeee table data *.csv file 
+
+</br>
+</br>
+
+```csv
+
+id,name,city,gender
+1,Wikibox,Az Zāhir,m
+2,Brightdog,Yuecheng,f
+3,Dazzlesphere,Agoo,m
+4,Livetube,Marseille,f
+5,Zoovu,San José de Ocoa,m
+6,Zoomcast,Bulnes,f
+7,Gabtune,Daja Lorong,u
+8,Gabvine,La Caya,f
+9,Tagpad,Ciputih,u
+10,Browsedrive,Marteleira,f
+
+```
+
+</br>
+</br>
