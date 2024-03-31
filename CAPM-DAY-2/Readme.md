@@ -245,6 +245,7 @@ context trans {
         key id   : commons.Guid;
             name : String;
             city : String;
+            Gender : commons.Gender;
     }
 }
 ```
