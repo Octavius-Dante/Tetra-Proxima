@@ -1069,7 +1069,9 @@ execute a SQL query in db level with join to test the foreign key relation
 </br>
 
 ```sql
-
+SELECT * FROM com_dante_finance_trans_employee as emp 
+INNER JOIN com_dante_finance_trans_order_2 AS ord 
+ON emp.id = ord.created_by_id
 ```
 
 </br>
