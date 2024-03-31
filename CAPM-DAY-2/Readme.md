@@ -609,7 +609,7 @@ context trans {
 
 // cuid aspect will generate automatic id key 
 
- .   entity order_2 : commons.Amount, cuid { 
+   entity order_2 : commons.Amount, cuid { 
         // key id         : commons.Guid;
             customer   : String;
             location   : String;
@@ -619,7 +619,7 @@ context trans {
 
 // will add managed admin aspect to the table 
 
-.    entity employee : managed{
+    entity employee : managed{
         key id   : commons.Guid;
             name : String;
             city : String;
