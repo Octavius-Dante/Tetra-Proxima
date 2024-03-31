@@ -323,8 +323,10 @@ To learn detail about available aspects : https://cap.cloud.sap/docs/cds/common
 
 </br>
 </br>
+
 > [!IMPORTANT]
 > add the following block of code to your sample cds as shwon below 
+
 </br>
 </br>
 
