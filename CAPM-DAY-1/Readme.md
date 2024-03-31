@@ -389,5 +389,11 @@ SELECT * FROM com_dante_finance_trans_order;
 <img src="./files/capmd1-25.png" >
 </br>
 </br>
+</br>
+</br>
 
+### How to insert multiple records to sqlite table for testing purpose 
+
+</br>
+</br>
 <p>
