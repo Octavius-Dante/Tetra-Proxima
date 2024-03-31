@@ -53,6 +53,7 @@ http://localhost:4004/odata/v4/my/helloCAP(name='dante')
 When we design database artifacts, at times we have many simialr objects and their datatypes.
 </br> Instead of hardcoding the type as primitive type, it is recommended to create custom types.
 </br> Using custom data type increase reusability and reduce maintenance.
+</br> when we create a seperate CDS file for reuse purpose and consume it, it is called aspect. 
 </p>
 
 </br>
@@ -88,7 +89,8 @@ context trans {
 </br>
 define another cds file named commons.cds in db folder 
 </br>
-define a data type here this is like a global variable ready to be accessed by our table fields 
+define a data type here this is like a global variable ready to be accessed by our table fields
+this global definition is called aspect in SAP capm cds terminology 
 </br>
 </br>
 
@@ -108,6 +110,45 @@ create sample data for our employee table by copying and editing our old csv dat
 </br>
 
 <img src="./files/capmd2-3.png" >
+
+</br>
+</br>
+
+alterations to the main cds file (sample.cds)  
+
+</br>
+</br>
+
+```cds
+
+namespace com.dante.finance;
+
+// internal definition of namesapce  from './file name'
+
+// accessing the global aspect for consumption 
+using { com.dante.commons } from './commons';
+
+
+context trans {
+    entity order {
+        key id         : commons.Guid;
+            customer   : String;
+            location   : String;
+            total      : Decimal(10, 2);
+            currency   : String;
+            created_on : Date;
+            created_by : String;
+    }
+
+
+    entity employee {
+        key id   : commons.Guid;
+            name : String;
+            city : String;
+    }
+}
+
+```
 
 </br>
 </br>
