@@ -320,7 +320,7 @@ ds deploy --to sqlite:<table_name>
 </br>
 
 
-The physical table file got created in the project directory
+The physical table file got created in the project directory when 'deploy' command was executed 
 </br>
 </br>
 <img src="./files/capmd1-22.png" >
