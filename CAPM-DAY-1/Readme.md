@@ -437,7 +437,7 @@ check the records in the db as mentioned below
 <img src="./files/capmd1-29.png" >
 </br>
 </br>
-<img src="./files/capmd1-29.png" >
+<img src="./files/capmd1-30.png" >
 </br>
 </br>
 
