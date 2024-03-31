@@ -675,3 +675,11 @@ navigate the website by searching a specifc topic as shown below
 
 </br>
 </br>
+
+The managed details is auto generated for employee table in DB as shown below 
+</br>
+</br>
+<img src="./files/capmd2-16.png" >
+
+</br>
+</br>
