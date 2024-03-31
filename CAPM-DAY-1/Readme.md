@@ -314,9 +314,11 @@ create the physical table in your project by executing the deploy command as bel
 ds deploy --to sqlite:<table_name>
 ```
 </br>
+</br>
 <img src="./files/capmd1-16.png" >
 </br>
 </br>
+
 
 The physical table file got created in the project directory
 </br>
@@ -325,7 +327,9 @@ The physical table file got created in the project directory
 </br>
 </br>
 
+
 Install following SQL tools and drivers from extensions 
+</br>
 </br>
 <img src="./files/capmd1-17.png" >
 </br>
@@ -340,8 +344,11 @@ Establish database connection to the created table file in our project
 </br>
 <img src="./files/capmd1-19.png" >
 </br>
+</br>
+
 
 select the table file from the project folder directory where the file got created
+</br>
 </br>
 <img src="./files/capmd1-20.png" >
 </br>
