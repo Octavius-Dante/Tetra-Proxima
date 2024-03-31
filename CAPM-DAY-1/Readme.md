@@ -415,6 +415,25 @@ SAP will install the records to the DB table automatically when this file contai
 Need to fill mock data to csv file using website (https://www.mockaroo.com/) 
 </br>
 </br>
+<img src="./files/capmd1-27a.png" >
+</br>
+</br>
+<img src="./files/capmd1-27b.png" >
+</br>
+</br>
+Insert of all these mock data record are automatically done when table deployment happens
+</br> so need to delete the table which we created earlier (disconnect the DB, delete the DB connection)
+</br>
+</br>
+Re-deploy the table again with same or different name
+</br>
+</br>
+<img src="./files/capmd1-27c.png" >
+</br>
+</br>
+
+</br>
+</br>
 
 <p>
 
