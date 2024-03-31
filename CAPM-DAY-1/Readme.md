@@ -318,6 +318,13 @@ ds deploy --to sqlite:<table_name>
 </br>
 </br>
 
+The physical table file got created in the project directory
+</br>
+</br>
+<img src="./files/capmd1-22.png" >
+</br>
+</br>
+
 Install following SQL tools and drivers from extensions 
 </br>
 <img src="./files/capmd1-17.png" >
