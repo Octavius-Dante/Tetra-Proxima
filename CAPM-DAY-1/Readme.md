@@ -357,4 +357,11 @@ select the table file from the project folder directory where the file got creat
 </br>
 </br>
 
+Vs code may automatically suggest appropriate tool when you try to access the DB connection (it could be sqlite 3 for node) and also prompts to reload the window
+</br>
+</br>
+<img src="./files/capmd1-23.png" >
+</br>
+</br>
+
 <p>
