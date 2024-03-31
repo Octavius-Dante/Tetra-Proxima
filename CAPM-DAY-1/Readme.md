@@ -327,4 +327,18 @@ Install following SQL tools and drivers from extensions
 </br>
 </br>
 
+
+Establis database connection to the file connected usign followign steps 
+</br>
+</br>
+<img src="./files/capmd1-19.png" >
+</br>
+</br>
+<img src="./files/capmd1-20.png" >
+</br>
+</br>
+<img src="./files/capmd1-21.png" >
+</br>
+</br>
+
 <p>
