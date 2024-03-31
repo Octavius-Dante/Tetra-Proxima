@@ -168,7 +168,7 @@ service MyService {
 const Myservice = function(srv){
     // this code bloc is like DPC extension class in SAP ODATA services  
     srv.on('helloCAP', (req,res) => {
-        return "Hello CAP clodu developers, Welcome" + req.body.name;
+        return "Hello CAP cloud developers, Welcome" + req.body.name;
     });
 }
 
