@@ -314,6 +314,8 @@ change the DB connection to new name (supernova) and check the data of the order
 </br>
 </br>
 
+### Custom aspect usage in table has been tested now will focus on standard aspect provided by sap for database
 
-
+</br>
+</br>
 
