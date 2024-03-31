@@ -45,6 +45,6 @@ http://localhost:4004/odata/v4/my/helloCAP(name='dante')
 ## Database Concepts 
 </br>
 
-### Reuse Types ans aspects 
+### Reuse Types and aspects 
 </br>
 </br>
