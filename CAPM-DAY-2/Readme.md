@@ -586,6 +586,62 @@ Now the above standard functionalities from '@sap/cds/common' will be used in ou
 </br>
 </br>
 
+```cds
+
+namespace com.dante.finance;
+
+// internal definition of namesapce  from './file name' 
+using { com.dante.commons } from './commons';
+
+// SAP standard common aspects 
+using { cuid, temporal, Currency, managed } from '@sap/cds/common';
+
+context trans {
+    entity order {
+        key id         : commons.Guid;
+            customer   : String;
+            location   : String;
+            total      : Decimal(10, 2);
+            currency   : String;
+            created_on : Date;
+            created_by : String;
+    };
+
+// cuid aspect will fill generate automatic key 
+
+    entity order_2 : commons.Amount, cuid { 
+        // key id         : commons.Guid;
+            customer   : String;
+            location   : String;
+            created_on : Date;
+            created_by : String;
+    };
+
+    entity employee {
+        key id   : commons.Guid;
+            name : String;
+            city : String;
+            Gender : commons.Gender;
+    }
+}
+
+```
+
+</br>
+</br>
+
+remove the id values from the *.csv file  as shown below 
+
+</br>
+</br>
+
+before
+</br>
+<img src="./files/capmd2-11.png" >
+
+after
+</br>
+<img src="./files/capmd2-12.png" >
 
 </br>
 </br>
