@@ -354,10 +354,17 @@ Press ctrl + click the link on <b>'@sap/cds/common'</b> it navigates to sap stan
 </br>
 </br>
 
-
 > [!NOTE]
 > Following code block is for reference of sap standard - no need to create a *.cds file with this sample
 
+
+</br>
+</br>
+
+<details>
+  <summary> SAP common standard - Code block for reference </summary>
+  
+ ### @sap/cds/common
 </br>
 </br>
 
@@ -578,6 +585,9 @@ annotate managed with {
 ```
 
 </br>
+</br>
+</details>
+
 </br>
 </br>
 
