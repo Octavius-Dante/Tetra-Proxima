@@ -361,4 +361,33 @@ Vs code may automatically suggest appropriate tool when you try to access the DB
 </br>
 </br>
 
+SQL INSERT STATEMENT 
+</br>
+</br>
+
+```sql
+INSERT INTO com_dante_finance_trans_order VALUES
+(1, 'sap', 'in', 125.20, 'eur', '2023-03-30', 'dante');
+```
+
+</br>
+</br>
+<img src="./files/capmd1-24.png" >
+</br>
+</br>
+
+SQL SELECT STATEMENT 
+</br>
+</br>
+
+```sql
+SELECT * FROM com_dante_finance_trans_order;
+```
+
+</br>
+</br>
+<img src="./files/capmd1-25.png" >
+</br>
+</br>
+
 <p>
