@@ -405,6 +405,7 @@ SELECT * FROM com_dante_finance_trans_order;
 - [x] create a CSV folder inside DB folder as mentioned below
 </br>
 </br>
+
 - [x] create a CSV file in the name of the database table (internal DB table name : <b>com.dante.finance.trans-order.csv</b>)
 </br>
 </br>
