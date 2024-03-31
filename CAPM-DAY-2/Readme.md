@@ -747,13 +747,13 @@ aspect Amount :{
 </br>
 
 The chanegs are compiles as shown below 
-</br> <b>(we added the code chanegs in common.cds but compiling is done for 3rd table which uses it in sample.cds file)</b>
+</br> <b>(we added the code chanegs in common.cds but compiling is done for sample.cds file which uses it)</b>
 
 </br>
 </br>
 
 ```bat
-cds compile sample.cds --3 sql
+cds compile db/sample.cds --to sql
 ```
 
 </br>
