@@ -2,9 +2,6 @@
 
 #### Correction to yesterday's CAP program
 
- x1{ font-family:Arial, Helvetica, sans-serif; color:#EBE834; font-size:14px; font-weight:800 }<!-- YELLOW -->
-
-
 </br>
 </br>
 
@@ -348,7 +345,7 @@ using { } from '@sap/cds/common';
 </br>
 </br>
 
-Press ctrl + click the link on <x1><b>'@sap/cds/common'</b></x1> it navigates to sap standard common.cds block as shwon below 
+Press ctrl + click the link on <color:yellow><b>'@sap/cds/common'</b></color> it navigates to sap standard common.cds block as shwon below 
 
 </br>
 </br>
