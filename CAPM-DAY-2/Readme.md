@@ -2,9 +2,7 @@
 
 #### Correction to yesterday's CAP program
 
-<style>
  x1{ font-family:Arial, Helvetica, sans-serif; color:#EBE834; font-size:14px; font-weight:800 }<!-- YELLOW -->
-</style>
 
 
 </br>
