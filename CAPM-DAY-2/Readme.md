@@ -653,5 +653,14 @@ deployed the tables to db as shown below
 </br>
 <img src="./files/capmd2-13.png" >
 
+
+</br>
+</br>
+
+the id is auto generated for oder_2 table in DB as shown below 
+</br>
+</br>
+<img src="./files/capmd2-14.png" >
+
 </br>
 </br>
