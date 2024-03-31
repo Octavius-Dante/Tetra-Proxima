@@ -114,7 +114,7 @@ create sample data for our employee table by copying and editing our old csv dat
 </br>
 </br>
 
-alterations to the main cds file (sample.cds)  
+alterations to the main cds file (sample.cds)  // id data type int 16 is replaced with global variable 
 
 </br>
 </br>
