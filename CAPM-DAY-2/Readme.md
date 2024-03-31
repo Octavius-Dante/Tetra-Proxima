@@ -706,7 +706,11 @@ The managed details is auto generated for employee table in DB as shown below
 
 </br>
 </br>
+
+</br> 3. Now will focus on currency aspect in the table, (common.cds) is altered with new currency changes as shown below 
+
 </br>
+</br> 
 
 ```cds
 namespace com.dante.commons;
@@ -740,4 +744,22 @@ aspect Amount :{
 
 ```
 
+</br>
 
+The chanegs are compiles as shown below 
+</br> <b>(we added the code chanegs in common.cds but compiling is done for 3rd table which uses it in sample.cds file)</b>
+
+</br>
+</br>
+
+```bat
+cds compile sample.cds --3 sql
+```
+
+</br>
+</br>
+
+   <img src="./files/capmd2-17.png" >
+   
+</br>
+</br>
