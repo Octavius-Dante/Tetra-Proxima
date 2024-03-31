@@ -333,6 +333,8 @@ Establish database connection to the created table file in our project
 </br>
 <img src="./files/capmd1-19.png" >
 </br>
+
+select the table file from the project folder directory where the file got created
 </br>
 <img src="./files/capmd1-20.png" >
 </br>
