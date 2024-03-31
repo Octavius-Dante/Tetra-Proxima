@@ -686,7 +686,7 @@ The managed details is auto generated for employee table in DB as shown below
 
 > [!NOTE]
 > Earlier in ABAP these sy-datum and sy-uname and sy-uzit details of SAP standard is used to fill chanegd by, changed date, created by
-> all these functionalities are automatically taken care by aspect defined from this '@sap/cds/common'
+> all these functionalities are automatically taken care by aspect defined from this <b>'@sap/cds/common'</b>
 > it is stil evolving and these things are developed by SAP to focus less on technical and more on business need and requirement
 
 </br>
