@@ -254,8 +254,6 @@ context trans {
 </br>
 
 order_2 table data *.csv file 
-
-</br>
 </br>
 
 ```csv
@@ -273,8 +271,6 @@ id,customer,location,created_on,created_by,GROSS_AMOUNT,NET_AMOUNT,TAX_AMOUNT,CU
 </br>
 
 employeee table data *.csv file 
-
-</br>
 </br>
 
 ```csv
