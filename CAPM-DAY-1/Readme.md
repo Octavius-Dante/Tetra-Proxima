@@ -403,13 +403,10 @@ SELECT * FROM com_dante_finance_trans_order;
 </br>
 
 - [x] create a CSV folder inside DB folder as mentioned below
+- [x] create a CSV file in the name of the database table with differnt naming convention (internal DB table name : <b>com.dante.finance.trans-order.csv</b>)
 </br>
 </br>
-
-- [x] create a CSV file in the name of the database table (internal DB table name : <b>com.dante.finance.trans-order.csv</b>)
-</br>
-</br>
-<img src="./files/capmd1-25.png" >
+<img src="./files/capmd1-26.png" >
 </br>
 </br>
 SAP will install the records to the DB table automatically when this file contains records\
