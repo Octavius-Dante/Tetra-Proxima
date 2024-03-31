@@ -328,7 +328,7 @@ Install following SQL tools and drivers from extensions
 </br>
 
 
-Establis database connection to the file connected usign followign steps 
+Establish database connection to the created table file in our project
 </br>
 </br>
 <img src="./files/capmd1-19.png" >
