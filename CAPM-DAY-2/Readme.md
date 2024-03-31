@@ -295,3 +295,16 @@ id,name,city,gender
 
 </br>
 </br>
+
+deploy database with different name with 3 tables 
+
+</br>
+</br>
+
+![image](https://github.com/Octavius-Dante/Tetra_Proxima/assets/8819939/9ceb21db-a1c8-4197-a81b-0e72ee9adb9e)
+
+![image](https://github.com/Octavius-Dante/Tetra_Proxima/assets/8819939/0640ab98-070e-4884-ab35-1bde93f4f47b)
+
+
+</br>
+</br>
