@@ -890,3 +890,43 @@ D:\TETRA_PROXIMA\CAPM\01_BASIC_CAP>
    
 </br>
 </br>
+
+Now when this table get deployed it will give error due to a reason of currency_code field name 
+</br> there is already a currency property in sap-commons which will change the name to currency_code 
+</br> our file contains same name so now it will be currency_code_code (check the above termional refernce code for understanding)
+</br> so appropriate name change to the (csv file) and cds file is needed.
+
+</br>
+</br>
+
+```cds
+namespace com.dante.commons;
+
+using { Currency } from '@sap/cds/common';
+
+// similar like data element in abap defining in common.cds will make it available for global access
+type Guid   : String(32);
+
+// Enumerator data type like predefined values for a variable 
+type Gender : String(1) enum {
+
+    male   = 'M';
+    female = 'f';
+    undisclosed = 'u';
+};
+
+// Amount data type with currency property 
+type AmountX : Decimal(10,2)@(
+     semantics.Amount.currencyCode : 'CURRENCY_CODE',
+     sap.unit:'CURRENCY_CODE'
+);
+
+// Structure data type with resuable property of amount 
+aspect Amount :{
+    CURRENCY_CODE : Currency;
+    GROSS_AMOUNT: AmountX;
+    NET_AMOUNT: AmountX;
+    TAX_AMOUNT :AmountX;
+}
+
+```
