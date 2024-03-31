@@ -48,3 +48,66 @@ http://localhost:4004/odata/v4/my/helloCAP(name='dante')
 ### Reuse Types and aspects 
 </br>
 </br>
+
+<p>
+When we design database artifacts, at times we have many simialr objects and their datatypes.
+</br> Instead of hardcoding the type as primitive type, it is recommended to create custom types.
+</br> Using custom data type increase reusability and reduce maintenance.
+</p>
+
+</br>
+</br>
+create another table to the cds file employee as mentioned below 
+</br>
+</br>
+
+```cds 
+
+context trans {
+    entity order {
+        key id         : int16;
+            customer   : String;
+            location   : String;
+            total      : Decimal(10, 2);
+            currency   : String;
+            created_on : Date;
+            created_by : String;
+    }
+
+
+    entity employee {
+        key id   : int16;
+            name : String;
+            city : String;
+    }
+}
+
+```
+
+</br>
+</br>
+define another cds file named commons.cds in db folder 
+</br>
+define a data type here this is like a global variable ready to be accessed by our table fields 
+</br>
+</br>
+
+```cds
+
+namespace com.dante.commons;
+
+// similar like data element in abap defining in common.cds will make it available for global access
+type Guid: String(32);
+
+```
+
+</br>
+</br>
+create sample data for our employee table by copying and editing our old csv data file as shown below
+</br>
+</br>
+
+<img src="./files/capmd2-3.png" >
+
+</br>
+</br>
