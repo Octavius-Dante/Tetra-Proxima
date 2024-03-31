@@ -316,6 +316,12 @@ cds deploy --to sqlite:<table_name>
 </br>
 </br>
 
+The database table which get generated internally will be
+</br>
+</br>
+<img src="./files/capmd1-16a.png" >
+</br>
+</br>
 
 The physical table file got created in the project directory when 'deploy' command was executed 
 </br>
