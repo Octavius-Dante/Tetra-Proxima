@@ -967,6 +967,12 @@ now deploy the table to the DB again and you can see 2 extra table for currency 
 </br>
    <img src="./files/capmd2-17.png" >
 </br>
+</br>
+
+Currency table and Currency text table dont have any data this text table is for transaltion texts
+</br> <b> the purpose of these table is to act like check table in (SAP ABAP) if currency values are added to these tables </b>
+</br>
+</br>
    <img src="./files/capmd2-18.png" >  
 </br>
 </br>
