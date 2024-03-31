@@ -92,7 +92,7 @@ node v
 - [x] Check your cds version to get a valid response so that supported node version is checked by cds package
 </br>
 </br>
-   <img src="./files/capmd1-1.png" >
+   <img src="./files/capmd1-1.png">
 </br>
 </br>
 
