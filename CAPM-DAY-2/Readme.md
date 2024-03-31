@@ -976,3 +976,43 @@ Currency table and Currency text table dont have any data this text table is for
    <img src="./files/capmd2-18.png" >  
 </br>
 </br>
+Add data to the currency tables using followign csv 
+</br>
+</br>
+
+Currency - File name : sap.common-Currencies.csv
+```csv
+CODE,SYMBOL,NAME,DESCR
+EUR,€,Euro,European Euro
+USD,$,US Dollar,United States Dollar
+CAD,$,Canadian Dollar,Canadian Dollar
+AUD,$,Australian Dollar,Canadian Dollar
+GBP,£,British Pound,Great Britain Pound
+ILS,₪,Shekel,Israeli New Shekel
+INR,₹,Rupee,Indian Rupee
+QAR,﷼,Riyal,Katar Riyal
+SAR,﷼,Riyal,Saudi Riyal
+JPY,¥,Yen,Japanese Yen
+CNY,¥,Yuan,Chinese Yuan Renminbi
+```
+</br>
+</br>
+
+Currency text - File name : sap.common-Currencies_texts.csv 
+```csv
+CODE,LOCALE,NAME,DESCR
+EUR,de,Euro,European Euro
+USD,de,US-Dollar,United States Dollar
+CAD,de,Kanadischer Dollar,Kanadischer Dollar
+AUD,de,Australischer Dollar,Australischer Dollar
+GBP,de,Pfund,Britische Pfund
+ILS,de,Schekel,Israelische Schekel
+EUR,fr,euro,de la Zone euro
+USD,fr,dollar,dollar des États-Unis
+CAD,fr,dollar canadien,dollar canadien
+AUD,fr,dollar australien,dollar australien
+GBP,fr,livre sterling,pound sterling
+ILS,fr,Shekel,shekel israelien
+```
+</br>
+</br>
