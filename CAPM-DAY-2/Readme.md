@@ -169,3 +169,82 @@ alterations to the main cds file (sample.cds)  // id data type int 16 is replace
 
 </br>
 </br>
+
+defined new data types in common.cds file as mentioned below for reusability example 
+
+</br>
+</br>
+
+```cds
+
+namespace com.dante.commons;
+
+// similar like data element in abap defining in common.cds will make it available for global access
+type Guid   : String(32);
+
+// Enumerator data type like predefined values for a variable 
+type Gender : String(1) enum {
+
+    male   = 'M';
+    female = 'f';
+    undisclosed = 'u';
+};
+
+// Amount data type with currency property 
+type AmountX : Decimal(10,2)@(
+     semantics.Amount.currencyCode : 'CURRENCY_CODE',
+     sap.unit:'CURRENCY_CODE'
+);
+
+// Structure data type with resuable property of amount 
+aspect Amount :{
+    CURRENCY_CODE : String(4);
+    GROSS_AMOUNT: AmountX;
+    NET_AMOUNT: AmountX;
+    TAX_AMOUNT :AmountX;
+}
+
+
+```
+
+</br>
+</br>
+
+using of the Amount global varaible from common.cds into sample.cds file 
+
+</br>
+</br>
+
+```cds
+namespace com.dante.finance;
+
+// internal definition of namesapce  from './file name' 
+using { com.dante.commons } from './commons';
+
+
+context trans {
+    entity order {
+        key id         : commons.Guid;
+            customer   : String;
+            location   : String;
+            total      : Decimal(10, 2);
+            currency   : String;
+            created_on : Date;
+            created_by : String;
+    };
+
+    entity order_2 : commons.Amount { 
+        key id         : commons.Guid;
+            customer   : String;
+            location   : String;
+            created_on : Date;
+            created_by : String;
+    };
+
+    entity employee {
+        key id   : commons.Guid;
+            name : String;
+            city : String;
+    }
+}
+```
