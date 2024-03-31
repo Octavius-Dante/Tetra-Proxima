@@ -894,7 +894,7 @@ D:\TETRA_PROXIMA\CAPM\01_BASIC_CAP>
 Now when this table get deployed it will give error due to a reason of currency_code field name 
 </br> there is already a currency property in sap-commons which will change the name to currency_code 
 </br> our file contains same name so now it will be currency_code_code (check the above termional refernce code for understanding)
-</br> so appropriate name change to the (csv file) and cds file is needed.
+</br> so appropriate name change to the (csv) file and (cds) file is needed.
 
 </br>
 </br>
@@ -934,7 +934,25 @@ aspect Amount :{
 </br>
 </br>
 
-make the following code changes to common.cds (CURRENCY_CODE to CURRENCY)
+make the following code changes to common.cds (CURRENCY_CODE to CURRENCY) - cds file changed 
+
+``` cds 
+// Structure data type with resuable property of amount 
+aspect Amount :{
+    CURRENCY : Currency;
+    GROSS_AMOUNT: AmountX;
+    NET_AMOUNT: AmountX;
+    TAX_AMOUNT :AmountX;
+}
+```
+
+</br>
+</br>
+
+</br>
+</br>
+
+make the following changes to .csv file as shown below
 
 ``` cds 
 // Structure data type with resuable property of amount 
