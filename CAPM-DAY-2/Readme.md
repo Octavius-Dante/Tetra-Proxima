@@ -302,3 +302,18 @@ deploy database with different name with 3 tables
 <img src="./files/capmd2-6.png" >
 </br>
 </br>
+
+change the DB connection to new name and test the order_2 table and employee table
+
+</br>
+</br>
+<img src="./files/capmd2-7.png" >
+</br>
+</br>
+<img src="./files/capmd2-8.png" >
+</br>
+</br>
+
+
+
+
