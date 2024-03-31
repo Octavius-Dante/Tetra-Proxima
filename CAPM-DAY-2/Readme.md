@@ -935,6 +935,7 @@ aspect Amount :{
 </br>
 
 make the following code changes to common.cds (CURRENCY_CODE to CURRENCY) - cds file changed 
+</br>
 
 ``` cds 
 // Structure data type with resuable property of amount 
@@ -949,17 +950,23 @@ aspect Amount :{
 </br>
 </br>
 
-</br>
+make the following change to the .csv file as shown below (CURRENCY_CODE to CURRENCY_code) small chane to the currency field 
 </br>
 
-make the following changes to .csv file as shown below
-
-``` cds 
-// Structure data type with resuable property of amount 
-aspect Amount :{
-    CURRENCY : Currency;
-    GROSS_AMOUNT: AmountX;
-    NET_AMOUNT: AmountX;
-    TAX_AMOUNT :AmountX;
+``` csv
+customer,location,created_on,created_by,GROSS_AMOUNT,NET_AMOUNT,TAX_AMOUNT,CURRENCY_code
 }
 ```
+
+</br>
+</br>
+
+now deploy the table to the DB again and you can see 2 extra table for currency and currency text can be found 
+
+</br>
+</br>
+   <img src="./files/capmd2-16.png" >
+</br>
+   <img src="./files/capmd2-17.png" >  
+</br>
+</br>
