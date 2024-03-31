@@ -1144,7 +1144,8 @@ Script to run watch command for the run parameter added to package.json file
 
 ```bat
 npm run watch
-``
+```
+
 </br>
 </br>
 </br>
