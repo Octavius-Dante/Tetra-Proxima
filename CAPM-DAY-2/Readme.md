@@ -334,14 +334,14 @@ To learn detail about available aspects : https://cap.cloud.sap/docs/cds/common
 ```cds
 
 // SAP standard common aspects 
-using { } from '@sap/cds/common';
+using { cuid, temporal, Currency, managed } from '@sap/cds/common';
 
 ```
 
 </br>
 </br>
 
-<img src="./files/capmd2-9.png" >
+<img src="./files/capmd2-9a.png" >
 </br>
 </br>
 
