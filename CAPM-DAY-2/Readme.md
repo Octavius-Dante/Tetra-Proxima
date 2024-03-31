@@ -73,8 +73,7 @@ context trans {
             currency   : String;
             created_on : Date;
             created_by : String;
-    }
-
+    };
 
     entity employee {
         key id   : int16;
@@ -138,8 +137,7 @@ context trans {
             currency   : String;
             created_on : Date;
             created_by : String;
-    }
-
+    };
 
     entity employee {
         key id   : commons.Guid;
