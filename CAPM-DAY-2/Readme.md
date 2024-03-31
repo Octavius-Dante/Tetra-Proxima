@@ -56,7 +56,7 @@ When we design database artifacts, at times we have many simialr objects and the
 </br> when we create a seperate CDS file for reuse purpose and consume it, this file contains enumerators and aspects. 
 </br>
 </br>
-aspect means a variable defined in seperate file whcih can be accessed globally. 
+<b>Aaspect means a variable defined in seperate file whcih can be accessed globally. </b>
 </br>
 </br> There are common aspect provided by SAP, primary key generation, currency.
 </br> Admin data : created by, created date, changed by, changed date - these are called temporal data
