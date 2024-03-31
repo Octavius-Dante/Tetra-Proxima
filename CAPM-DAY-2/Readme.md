@@ -303,7 +303,7 @@ deploy database with different name with 3 tables
 </br>
 </br>
 
-change the DB connection to new name and test the order_2 table and employee table
+change the DB connection to new name (supernova) and check the data of the order_2 table and employee table
 
 </br>
 </br>
