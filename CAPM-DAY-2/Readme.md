@@ -41,3 +41,7 @@ http://localhost:4004/odata/v4/my/helloCAP(name='dante')
    <img src="./files/capmd2-2.png" >
 </br>
 </br>
+
+## Database Concepts 
+</br>
+## Reuse Tpes ans aspects 
