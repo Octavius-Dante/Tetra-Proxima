@@ -1016,3 +1016,33 @@ ILS,fr,Shekel,shekel israelien
 ```
 </br>
 </br>
+
+Now we focus on the assocaition concept of establishing foreign key relation to tables
+</br> make the followign code change to order_2 table 
+</br>
+</br>
+
+```cds
+// cuid aspect will generate automatic id key 
+
+    entity order_2 : commons.Amount, cuid { 
+        // key id         : commons.Guid;
+            customer   : String;
+            location   : String;
+            created_on : Date;
+            created_by : Association to employee;
+    };
+```
+</br>
+</br>
+
+make the field header change in csv file <b>(from created_by to created_by_id)</b>
+</br>
+</br>
+
+```csv
+customer,location,created_on,created_by_id,GROSS_AMOUNT,NET_AMOUNT,TAX_AMOUNT,CURRENCY_CODE
+```
+
+</br>
+</br>
