@@ -345,7 +345,7 @@ using { } from '@sap/cds/common';
 </br>
 </br>
 
-Press ctrl + click the link on <code style="color : #51FF00"> <b>'@sap/cds/common'</b> </code> it navigates to sap standard common.cds block as shwon below 
+Press ctrl + click the link on <code style="color : #51FF00"> '@sap/cds/common' </code> it navigates to sap standard common.cds block as shwon below 
 
 </br>
 </br>
