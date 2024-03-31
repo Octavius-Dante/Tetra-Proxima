@@ -1018,7 +1018,7 @@ ILS,fr,Shekel,shekel israelien
 </br>
 
 Now we focus on the assocaition concept of establishing foreign key relation to tables
-</br> make the followign code change to order_2 table 
+</br> make the following code change to order_2 table 
 </br>
 </br>
 
@@ -1037,12 +1037,25 @@ Now we focus on the assocaition concept of establishing foreign key relation to 
 </br>
 
 make the field header change in csv file <b>(from created_by to created_by_id)</b>
+</br> and also change the respective data for hte field from names to numbers matching the id from employee table 
 </br>
 </br>
 
 ```csv
 customer,location,created_on,created_by_id,GROSS_AMOUNT,NET_AMOUNT,TAX_AMOUNT,CURRENCY_CODE
+Wikibox,Az Zāhir,2024-01-22,2,439.49,400,250,YER
+Brightdog,Yuecheng,2024-11-24,4,841.54,500,260,CNY
+Dazzlesphere,Agoo,2024-09-13,6,163.65,750,213,PHP
+Livetube,Marseille,2024-07-03,8,233.15,670,340,EUR
+Zoovu,San José de Ocoa,2024-08-31,9,127.18,780,40,DOP
+
 ```
 
 </br>
 </br>
+
+Deploy the tables to DB and check the data as shown below
+
+</br>
+</br>
+
