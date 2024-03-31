@@ -648,3 +648,10 @@ after
 </br>
 </br>
 
+deployed the tables to db as shwon below 
+</br>
+</br>
+<img src="./files/capmd2-13.png" >
+
+</br>
+</br>
