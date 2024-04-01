@@ -21,7 +21,7 @@ BAS is a SAP properitary web environemnt used for developing SAP applciations
 
 if account is not created 
 
-follow the develope blogs mentioend below to get it completed 
+follow the developer blogs mentioend below to get it completed 
 
 (1) https://developers.sap.com/tutorials/appstudio-onboarding.html
 
