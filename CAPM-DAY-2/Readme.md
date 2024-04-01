@@ -1428,7 +1428,7 @@ create new file (i18n_de.properties) unders (i18n) folder and add following text
 ```cds
 GROSS-Amount=Dante-Bruttobetrag
 NET-Amount=Nettoauszahlung
-TAX-Betrag=Steuergebühren
+TAX-Amount=Steuergebühren
 ```
 
 </br>
