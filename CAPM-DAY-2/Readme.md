@@ -1165,7 +1165,7 @@ Now will test the odata services by publishing it to web and test it via postman
 <details>
  <summary> Postman testing GET all orders 1 </summary>  
  
- #### test
+ #### calling GET operations OrderSet 1 from postaman using following url code (many records)
 </br>
  
  ```bat
@@ -1178,7 +1178,7 @@ Now will test the odata services by publishing it to web and test it via postman
 <details>
  <summary> Postman testing GET all orders 2 </summary>   
  
- #### test
+ #### calling GET operations OrderSet 2 from postaman using following url code (few records)
 </br>
  
   ```bat
