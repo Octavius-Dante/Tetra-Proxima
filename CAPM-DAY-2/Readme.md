@@ -1090,17 +1090,23 @@ Now lets focus on publishing this table data using odata in web.
 </br>
 make change to the mydemoservice.cds file as shown below 
 </br>
+
 ```cds
 using { com.dante.finance } from '../db/sample';
+using { sap.common.Currencies } from '@sap/cds/common';
 
 service MyService {
-
-    entity OrderSet as projection on finance.trans.order_2;
+    
+    entity OrderSet as projection on finance.trans.order;
+    entity OrderSet2 as projection on finance.trans.order_2;
     entity EmployeeSet as projection on finance.trans.employee;
+    entity CurrencySet as projection on Currencies;
     function helloCAP(name: String) returns String;
 
 }
+
 ```
+
 </br>
 </br>
 
@@ -1148,6 +1154,12 @@ npm run watch
 
 </br>
 </br>
+
+Now will test the odata services by publishing it to web and test it via postman using odata '$' dollar operations 
+</br>
+</br>
+</br>
+
 </br>
 </br>
 </br>
