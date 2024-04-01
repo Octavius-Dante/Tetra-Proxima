@@ -142,12 +142,7 @@ entity orders : cuid {
 }
 ```
 </br>
-After creating the file right click the demo.cds file and you will get the CDS Graphic modeler option in command
-</br>
-
-</br>
-<img src="./files/capmd3-16.png" >
-<img src="./files/capmd3-17.png" >
+After creating the file you can notice that in (Data models and services) section in left pane
 </br>
 This gets created when cds file in db gets generated.
 </br>
@@ -155,9 +150,18 @@ This Data models and services is only avilable in BAS not in VScode and this hel
 </br>
 <img src="./files/capmd3-18.png" >
 </br>
+
+After creating the file right click the demo.cds file and you will get the CDS Graphic modeler option in command as shown below
 </br>
 </br>
+<img src="./files/capmd3-16.png" >
+<img src="./files/capmd3-17.png" >
 </br>
+</br>
+
+When CDS Graphic modeler is selected it is opens a new graphical editor which looks like SQVI in ABAP 
+</br>
+
 </br>
 </br>
 </br>
