@@ -1411,11 +1411,35 @@ TAX-Amount=Tax fees
 
 re-deploy and run the application and check fiori preview
 
-
 </br>
 </br>
 
 <img src='./files/capmd2-35.png'>
+
+</br>
+</br>
+
+Now will do German translated labesl for same texts and test (used google translate)
+
+</br>
+create new file (i18n_de.properties) unders (i18n) folder and add following texts
+</br>
+
+```cds
+GROSS-Amount=Dante-Bruttobetrag
+NET-Amount=Nettoauszahlung
+TAX-Betrag=Steuergebühren
+```
+
+</br>
+</br>
+
+Re-launch the browser in german language and test 
+
+</br>
+</br>
+
+<img src='./files/capmd2-36.png'>
 
 </br>
 </br>
