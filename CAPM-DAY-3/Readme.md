@@ -149,7 +149,9 @@ After creating the file right click the demo.cds file and you will get the CDS G
 <img src="./files/capmd3-16.png" >
 <img src="./files/capmd3-17.png" >
 </br>
-This Data models and services is only avilable in BAS not in VScode and this helps to see the overview of DB objects avaialble in he project
+This gets created when cds file in db gets generated.
+</br>
+This Data models and services is only avilable in BAS not in VScode and this helps to see the overview of DB objects avaialble in the project.
 </br>
 <img src="./files/capmd3-18.png" >
 </br>
