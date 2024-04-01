@@ -10,8 +10,9 @@ BAS is a SAP properitary web environemnt used for developing SAP applciations
 </br>it will get an allocated own space for designing applciation
 </br>in trial BTP account of 90 days 
 </br>
-</br>
-(BAS) as 30 days expiry if it is not accessed in 30 days space will be deleted by SAP 
+
+> [!NOTE]
+> (BAS) as 30 days expiry if it is not accessed in 30 days dev space will be deleted by SAP 
  
 </br>
 </br>
