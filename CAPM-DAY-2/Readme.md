@@ -1300,6 +1300,31 @@ http://localhost:4004/odata/v4/my/OrderSet2/6f95ff68-02db-4bfe-a9b7-0e070565ee23
 </br>
 </details>
 
+<details>
+<summary> POST operation creating an order for orders 2 </summary>   
+ 
+ #### calling POST operations on OrderSet 2 in postman to create an entry - json data used is given below
+</br>
+ 
+```json
+{
+    "CURRENCY_code": "USD",
+    "GROSS_AMOUNT": 19990.15,
+    "NET_AMOUNT": 5789,
+    "TAX_AMOUNT": 500,
+    "customer": "Nguyen",
+    "location": "Winniepeg",
+    "created_on": "2024-07-03",
+    "created_by_id": "8"
+}
+ ```
+</br>
+<img src='./files/capmd2-30.png'>
+</br>
+
+
+</details>
+
 </br>
 </br>
 </br>
