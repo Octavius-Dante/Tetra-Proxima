@@ -1228,9 +1228,77 @@ http://localhost:4004/odata/v4/my/OrderSet?$orderby=created_by asc
 </br>
 <img src='./files/capmd2-24c.png'>
 </br>
-
 </details>
 
+<details>
+ <summary> $top, $skip orders 1 </summary>   
+ 
+ #### calling GET operations on OrderSet 1 from postman for $top and $skip operations
+</br>
+ 
+```bat
+http://localhost:4004/odata/v4/my/OrderSet?$top=10&$skip=5
+ ```
+</br>
+<img src='./files/capmd2-25.png'>
+</br>
+</details>
+
+<details>
+<summary> $filter, $count orders 1 </summary>   
+ 
+ #### calling GET operations on OrderSet 1 from postman for $filter and $count operations
+</br>
+ 
+```bat
+http://localhost:4004/odata/v4/my/OrderSet?$filter=customer eq 'Zooveo'&$count=true
+ ```
+</br>
+<img src='./files/capmd2-26.png'>
+</br>
+</details>
+
+<details>
+<summary> Get record filtered by key on orders 2 </summary>   
+ 
+ #### calling GET operations on OrderSet 2 from postman filtering record by key field
+</br>
+ 
+```bat
+http://localhost:4004/odata/v4/my/OrderSet2/6f95ff68-02db-4bfe-a9b7-0e070565ee23
+ ```
+</br>
+<img src='./files/capmd2-27.png'>
+</br>
+</details>
+
+<details>
+<summary> $expand on orders 2 and employee table </summary>   
+ 
+ #### calling GET operations on OrderSet 2 and EmployeeSet from postman to retrieve all records related with key field
+</br>
+ 
+```bat
+http://localhost:4004/odata/v4/my/OrderSet2?$expand=created_by
+ ```
+</br>
+<img src='./files/capmd2-28.png'>
+</br>
+</details>
+
+<details>
+<summary> $expand filtering by key field on orders 2 and employee table </summary>   
+ 
+ #### calling GET operations on OrderSet 2 and EmployeeSet from postman to retrieve single record based on key
+</br>
+ 
+```bat
+http://localhost:4004/odata/v4/my/OrderSet2/6f95ff68-02db-4bfe-a9b7-0e070565ee23?$expand=created_by
+ ```
+</br>
+<img src='./files/capmd2-29.png'>
+</br>
+</details>
 
 </br>
 </br>
