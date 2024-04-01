@@ -126,6 +126,18 @@ if there is multiple node projects which is assocaited with different version us
 </br>
 </br>
 
+```bat
+nvm install 16  	      <<- install the version 
+
+nvm list 		            <<- display list of version available in system
+
+nvm use <version no.> 	<<- select the node version to run actively 
+
+node -v 		            <<- check node version 
+```
+</br>
+</br>
+
 - [x] When CDS initialization in Vs code or BAS is successfull you may see following objects generted in your development folder 
 </br>
 </br>
