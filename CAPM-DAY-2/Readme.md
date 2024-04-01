@@ -1163,29 +1163,43 @@ Now will test the odata services by publishing it to web and test it via postman
 </br>
 
 <details>
- <summary> Postman testing GET all orders 1 </summary>  
+ <summary> GET $metadata </summary> 
+#### calling GET operations to see the metadata of the app in postman using following url code 
+</br>
  
- #### calling GET operations OrderSet 1 from postaman using following url code (many records)
+ ```bat
+ http://localhost:4004/odata/v4/my/$metadata
+ ```
+</br>
+<img src='./files/capmd2-21.png'>
+</br>
+</details>
+
+<details>
+ <summary> GET all orders 1 (many records) </summary>  
+ 
+ #### calling GET operations OrderSet 1 from postman using following url code (many records)
 </br>
  
  ```bat
  http://localhost:4004/odata/v4/my/OrderSet
  ```
 </br>
-<img src='./files/capmd2-21.png'>
+<img src='./files/capmd2-22.png'>
 </br>
 </details>
+
 <details>
- <summary> Postman testing GET all orders 2 </summary>   
+ <summary> GET all orders 2 (few records) </summary>   
  
- #### calling GET operations OrderSet 2 from postaman using following url code (few records)
+ #### calling GET operations OrderSet 2 from postman using following url code (few records)
 </br>
  
   ```bat
  http://localhost:4004/odata/v4/my/OrderSet2
  ```
 </br>
-<img src='./files/capmd2-21.png'>
+<img src='./files/capmd2-23.png'>
 </br>
 </details>
 
