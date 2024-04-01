@@ -1161,9 +1161,26 @@ npm run watch
 Now will test the odata services by publishing it to web and test it via postman using odata '$' dollar operations 
 </br>
 </br>
+
+<details>
+  <summary> Postman testing get all orders 1 </summary>
+  
+ ### @sap/cds/common
 </br>
+</br>
+</details>
 
 </br>
+</br>
+
+<details>
+  <summary> Postman testing get all orders 2 </summary>
+  
+ ### @sap/cds/common
+</br>
+</br>
+</details>
+
 </br>
 </br>
 </br>
