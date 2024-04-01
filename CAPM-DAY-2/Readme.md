@@ -1153,7 +1153,7 @@ Script to run watch command for the run parameter added to package.json file  or
 npm run watch
 ```
 
-<img src='./files/capmd2-20.png'>
+<img src='./files/capmd2-20a.png'>
 
 </br>
 </br>
