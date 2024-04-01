@@ -99,7 +99,7 @@ Change the theme for BAS as shown below in case White is not comfortable for the
 
 </br>
 </br>
-create a project folder like shown below to star your development 
+create a project folder like shown below to start your development 
 </br>
 
 ```bat
