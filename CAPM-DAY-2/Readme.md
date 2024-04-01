@@ -1349,3 +1349,19 @@ in output screen look for Fiori preview option and click that and perform search
 <img src='./files/capmd2-34.png'>
 </br>
 </br>
+
+lets add custom text for the fiori screen field labels and do translation for the field labes using i18n standard 
+
+
+</br>
+</br>
+sample.cds file is altered as follows 
+</br>
+</br>
+
+```cds 
+
+```
+</br>
+</br>
+
