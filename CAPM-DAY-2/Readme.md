@@ -1444,4 +1444,11 @@ Re-launch the browser in german language and test
 </br>
 </br>
 
+CAPM has limitation in language tranaslation it only supports some of the localization which is listed in the following link
 
+https://cap.cloud.sap/docs/guides/i18n#normalized-locales
+
+![image](https://github.com/Octavius-Dante/Tetra_Proxima/assets/8819939/8a619ba0-05ef-4d26-ba3b-887572781f51)
+
+</br>
+</br>
