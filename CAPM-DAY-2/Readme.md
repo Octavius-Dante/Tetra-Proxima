@@ -1360,8 +1360,64 @@ sample.cds file is altered as follows
 </br>
 
 ```cds 
+namespace com.dante.commons;
+
+using { Currency } from '@sap/cds/common';
+
+// similar like data element in abap defining in common.cds will make it available for global access
+type Guid   : String(32);
+
+// Enumerator data type like predefined values for a variable 
+type Gender : String(1) enum {
+
+    male   = 'M';
+    female = 'f';
+    undisclosed = 'u';
+};
+
+// Amount data type with currency property 
+type AmountX : Decimal(10,2)@(
+     semantics.Amount.currencyCode : 'CURRENCY_CODE',
+     sap.unit:'CURRENCY_CODE'
+);
+
+// Structure data type with resuable property of amount 
+aspect Amount :{
+    CURRENCY : Currency;
+    GROSS_AMOUNT: AmountX @(title : '{i18n>GROSS-Amount}');
+    NET_AMOUNT: AmountX @(title : '{i18n>NET-Amount}');
+    TAX_AMOUNT :AmountX @(title : '{i18n>TAX-Amount}');
+}
 
 ```
+
 </br>
 </br>
+
+Maintain a new file called (i18n.properties) under folder (i18n) inside (db) folder 
+
+</br>
+i18n file contents as below
+</br>
+
+```cds
+GROSS-Amount=Dante Gross Amount
+NET-Amount=Net payout
+TAX-Amount=Tax fees 
+```
+
+</br>
+</br>
+
+re-deploy and run the application and check fiori preview
+
+
+</br>
+</br>
+
+<img src='./files/capmd2-35.png'>
+
+</br>
+</br>
+
 
