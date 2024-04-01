@@ -1336,41 +1336,16 @@ http://localhost:4004/odata/v4/my/OrderSet2/6f95ff68-02db-4bfe-a9b7-0e070565ee23
 </br>
 </br>
 
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
+in output screen look for Fiori preview option and click that and perform search filter in the output page
 
 </br>
 </br>
+<img src='./files/capmd2-32.png'>
 </br>
 </br>
+<img src='./files/capmd2-33.png'>
 </br>
 </br>
+<img src='./files/capmd2-34.png'>
 </br>
 </br>
-
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-
-
-
-
