@@ -114,14 +114,12 @@ mkdir <folder name>
 </br>
 initialise the project skeleton by using cds init command 
 </br>
-<img src="./files/capmd3-14.png" >
-</br>
-</br>
-
 ```bat
 cds init
 ```
-
+</br>
+<img src="./files/capmd3-14.png" >
+</br>
 </br>
 </br>
 </br>
