@@ -1120,6 +1120,7 @@ service MyService {
 Add Watch command to package.json file as shown below 
 </br>
 </br>
+
 ```json
 {
   "name": "01_BASIC_CAP",
@@ -1144,13 +1145,15 @@ Add Watch command to package.json file as shown below
 </br>
 </br>
 
-Script to run watch command for the run parameter added to package.json file 
+Script to run watch command for the run parameter added to package.json file  or select the run script from package.json
 </br>
 </br>
 
 ```bat
 npm run watch
 ```
+
+<img src='./files/capmd2-2.png'>
 
 </br>
 </br>
