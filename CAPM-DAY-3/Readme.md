@@ -107,9 +107,9 @@ mkdir <folder name>
 ```
 </br>
 </br>
-<img src="./files/capmd3-10.png" >
+<img src="./files/capmd3-12.png" >
 </br>
-<img src="./files/capmd3-11.png" >
+<img src="./files/capmd3-13.png" >
 </br>
 
 </br>
