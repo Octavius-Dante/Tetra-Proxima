@@ -21,7 +21,9 @@ Following check list of items available under this topic
 - [x] <a href="https://github.com/Octavius-Dante/Tetra_Proxima/tree/main/SAP_HANA_DB_CREATION"> BTP SAP HANA DB creation </a>
 - [x] <a href="https://github.com/Octavius-Dante/Tetra_Proxima/tree/main/SAP_HANA_HDI_SCHEMA_CREATION"> BTP SAP HDI schema establishment </a>
 - [x] <a href="https://github.com/Octavius-Dante/Tetra_Proxima/tree/main/XSUAA_JSON_FILE"> BTP SAP Authorization and Trust Management Service - XSUAA (WIP) </a>
-- [x] VScode installation + Node JS installation (WIP)
+
+(Pre-requisite- vs code and nodej should be installed in the system)
+
 - [x] <a href="https://github.com/Octavius-Dante/Tetra_Proxima/tree/main/JS_CONCEPTS"> JS Concepts Promise / Callback </a>
 - [x] <a href="https://github.com/Octavius-Dante/Tetra_Proxima/tree/main/NODE_Basic_1"> NODE JS BASIC 1- preapring ndoe js basic program </a>
 - [x] <a href="https://github.com/Octavius-Dante/Tetra_Proxima/tree/main/NODE_Basic_2"> NODE JS BASIC 2- preapring ndoe js program with some essential concepts for CAPM app</a>
