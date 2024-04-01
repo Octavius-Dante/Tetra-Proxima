@@ -1204,6 +1204,34 @@ Now will test the odata services by publishing it to web and test it via postman
 </br>
 </details>
 
+<details>
+ <summary> $orderby for orders 1 </summary>   
+ 
+ #### calling GET operations on OrderSet from postman using following url code to apply $orderby operations
+</br>
+ 
+```bat
+Ascending - customer
+http://localhost:4004/odata/v4/my/OrderSet?$orderby=customer asc
+
+Descending -Customer 
+http://localhost:4004/odata/v4/my/OrderSet?$orderby=customer desc
+
+Ascending - created_by
+http://localhost:4004/odata/v4/my/OrderSet?$orderby=created_by asc
+ 
+ ```
+</br>
+<img src='./files/capmd2-24a.png'>
+</br>
+<img src='./files/capmd2-24b.png'>
+</br>
+<img src='./files/capmd2-24c.png'>
+</br>
+
+</details>
+
+
 </br>
 </br>
 </br>
