@@ -1164,6 +1164,7 @@ Now will test the odata services by publishing it to web and test it via postman
 
 <details>
  <summary> GET $metadata </summary> 
+ 
 #### calling GET operations to see the metadata of the app in postman using following url code 
 </br>
  
