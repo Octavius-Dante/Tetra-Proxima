@@ -114,6 +114,7 @@ mkdir <folder name>
 </br>
 initialise the project skeleton by using cds init command 
 </br>
+
 ```bat
 cds init
 ```
