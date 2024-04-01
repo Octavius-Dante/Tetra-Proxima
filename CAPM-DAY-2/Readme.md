@@ -1174,9 +1174,6 @@ Now will test the odata services by publishing it to web and test it via postman
 <img src='./files/capmd2-21.png'>
 </br>
 </details>
-
-</br>
-
 <details>
  <summary> Postman testing GET all orders 2 </summary>   
  #### test
