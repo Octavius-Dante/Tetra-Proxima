@@ -122,9 +122,14 @@ cds init
 <img src="./files/capmd3-14.png" >
 </br>
 </br>
+
+Create a file demo.cds under (BD) folder as shown below
+</br>
+<img src="./files/capmd3-15.png" >
 </br>
 </br>
-</br>
+
+
 </br>
 </br>
 </br>
