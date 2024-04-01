@@ -123,16 +123,35 @@ cds init
 </br>
 </br>
 
-Create a file demo.cds under (BD) folder as shown below
+Create a file demo.cds under (DB) folder as shown below
 </br>
 <img src="./files/capmd3-15.png" >
 </br>
 </br>
 
+Type down the following script in that cds file 
+</br>
+</br>
+
+```cds
+namespace dante_cap;
+using { cuid } from '@sap/cds/common';
+
+entity orders : cuid {
+
+}
+```
+</br>
+After creating the file right click the demo.cds file and you will get the CDS Graphic modeler option in command
+</br>
 
 </br>
+<img src="./files/capmd3-16.png" >
+<img src="./files/capmd3-17.png" >
 </br>
+This Data models and services is only avilable in BAS not in VScode and this helps to see the overview of DB objects avaialble in he project
 </br>
+<img src="./files/capmd3-18.png" >
 </br>
 </br>
 </br>
