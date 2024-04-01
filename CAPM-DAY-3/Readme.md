@@ -111,9 +111,17 @@ mkdir <folder name>
 </br>
 <img src="./files/capmd3-13.png" >
 </br>
+</br>
+initialise the project skeleton by using cds init command 
+</br>
+<img src="./files/capmd3-14.png" >
+</br>
+</br>
 
-</br>
-</br>
+```bat
+cds init
+```
+
 </br>
 </br>
 </br>
