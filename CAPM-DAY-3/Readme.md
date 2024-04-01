@@ -106,9 +106,10 @@ create a project folder like shown below to star your development
 mkdir <folder name>
 ```
 </br>
-
 </br>
-
+<img src="./files/capmd3-10.png" >
+</br>
+<img src="./files/capmd3-11.png" >
 </br>
 
 </br>
