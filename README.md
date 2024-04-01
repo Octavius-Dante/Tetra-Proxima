@@ -28,7 +28,7 @@ Following check list of items available under this topic
 - [x] <a href="https://github.com/Octavius-Dante/Tetra_Proxima/tree/main/NODE_Basic_2"> NODE JS BASIC 2- preapring ndoe js program with some essential concepts for CAPM app</a>
 - [x] <a href="https://github.com/Octavius-Dante/Tetra_Proxima/tree/main/NODE_MicroService">NODE Micro services - deploying a small node js app to BTP </a>
 - [x] Node approuter (NOT INCLUDED) dependency issues (for java app)
-- [x] <a href="https://github.com/Octavius-Dante/Tetra_Proxima/tree/main/CAPM-DAY-1"> CAPM Day 1 - CDS, </a>
+- [x] <a href="https://github.com/Octavius-Dante/Tetra_Proxima/tree/main/CAPM-DAY-1"> CAPM Day 1 </a>
 - [x] <a href="https://github.com/Octavius-Dante/Tetra_Proxima/tree/main/CAPM-DAY-2"> CAPM Day 2 </a>
 - [x] <a href="https://github.com/Octavius-Dante/Tetra_Proxima/tree/main/CAPM-DAY-3"> CAPM Day 3 </a>
 - [x] <a href="https://github.com/Octavius-Dante/Tetra_Proxima/tree/main/CAPM-DAY-4"> CAPM Day 4 </a>
