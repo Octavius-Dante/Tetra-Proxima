@@ -1321,8 +1321,15 @@ http://localhost:4004/odata/v4/my/OrderSet2/6f95ff68-02db-4bfe-a9b7-0e070565ee23
 </br>
 <img src='./files/capmd2-30.png'>
 </br>
+</details>
 
-
+<details>
+<summary> PATCH operation to update a record in orders 2 </summary>   
+ 
+ #### calling PATCH operations in postman 
+</br>
+ <img src='./files/capmd2-31.png'>
+</br>
 </details>
 
 </br>
