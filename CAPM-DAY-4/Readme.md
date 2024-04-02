@@ -105,14 +105,11 @@ use <b>(?$format=json) </b> to the link and you will see the following page pres
 - Search for odata-v2-adapter (pick the proxy one)
 - install the adapter using command
 - create JS file is (srv) directory (./srv/server.js:) and copy the contents 
-
-</br>
 </br>
 
 ```bat
 npm install @sap/cds-odata-v2-adapter-proxy -s
 ```
-</br>
 </br>
 
 ### server.js
