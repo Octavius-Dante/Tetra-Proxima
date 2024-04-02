@@ -467,7 +467,7 @@ check the records in the db as mentioned below
 </br>
 </br>
 
-# CAPM - DAY 2 - Aspects and Reuse Tables
+# NEXT ------ CAPM - DAY 2 - Aspects and Reuse Tables
 
 <p align="center"> 
 <a href="https://github.com/Octavius-Dante/Tetra_Proxima/tree/main/CAPM-DAY-2"> CAPM Day 2 - Aspects and Reuse Tables</a> 
