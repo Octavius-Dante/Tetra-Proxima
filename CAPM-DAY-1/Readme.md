@@ -465,13 +465,15 @@ check the records in the db as mentioned below
 </br>
 </br>
 </br>
-<p align="center"> 
+</br>
 
-<a href="https://github.com/Octavius-Dante/Tetra_Proxima/tree/main/CAPM-DAY-2">
-  
 # CAPM - DAY 2 - Aspects and Reuse Tables
-</a>
+
+<p align="center"> 
+<a href="https://github.com/Octavius-Dante/Tetra_Proxima/tree/main/CAPM-DAY-2"> CAPM Day 2 - Aspects and Reuse Tables</a> 
 </p>
 
+</br>
+</br>
 </br>
 </br>
