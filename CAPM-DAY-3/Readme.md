@@ -285,6 +285,7 @@ using { dan.commons } from './commons'; // custom
 // master table
 context master {
 
+// Business partner TABLE 
 entity businesspartner {
     key NODE_KEY: commons.Guid; // Commons is my cutoms cds -- Common is Standard 
     BP_ROLE: String(2);
@@ -297,8 +298,8 @@ entity businesspartner {
     COMPANY_NAME: String(250);
 }
 
+// Business partner ADDRESS TABLE 
 entity address {
-
     key NODE_KEY: commons.Guid;
     CITY: String(44);
     POSTAL_CODE: String(8);
@@ -314,14 +315,25 @@ entity address {
     businesspartner.ADDRESS_GUID = $self; // table link to business partner
 }
 
+// Product TABLE 
+entity product {
+    key NODE_KEY: String(28);
+    PRODUCT_ID: String(28);
+    TYPE_CODE: String(2);
+    CATEGORY: String(32);
+    DESCRIPTION: localized String(255); // localized will generate multiple transaltion text table at runtime 
+    SUPPLIER_GUID: Association to master.businesspartner;  // SUPPLIER_GUID is assocaited to teh primary key of business partner 
+    TAX_TRAFFIC_CODE: Integer;
+    MEASURE_UNIT: String(2);
+    WEIGHT_MEASURE: Decimal(5,2);
+}
+
 }
 
 // transaction table 
 context transaction {
 
 
-}
-}
 }
 ```
 </br>
