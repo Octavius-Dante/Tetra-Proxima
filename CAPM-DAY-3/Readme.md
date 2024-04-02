@@ -445,9 +445,14 @@ Check the DB tables and records as shown below
 ## CDS Views 
 </br>
 </br>
-Why we need views ? 
+
+### Why we need views ? 
 </br>
 </br>
 
+- [X] usually we have all our data distributed across multiple tables and if we need to get this data out, we need to write complex queries with joins.
+
+- [X] it becomes very compelx to handle the maintenance of these large queires views will simplify the consumption and make it easy to maintain
+- [X] 
 </br>
 </br>
