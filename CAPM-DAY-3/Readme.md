@@ -175,7 +175,7 @@ but will discuss this later.
 </br>
 </br>
 
-Will use the commons.cds file from previous day to being our development
+Will use the commons.cds file from previous day to begin our development
 </br>
 
 ```cds
