@@ -229,6 +229,7 @@ When copied the data of some random GET and modified it for posting following co
  </br> (https://www.tutorialspoint.com/checking-for-valid-email-address-using-regular-expressions-in-java)
 
 </br>
+</br>
 
 ```json
 
@@ -262,6 +263,7 @@ type Email: String(255)@assert.format : '^[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+$';
 </br>
 </br>
 When POST system is successfully triggered it will looks like below
+</br>
 </br>
 <img src="./files/capmd4-13.png" >
 </br>
