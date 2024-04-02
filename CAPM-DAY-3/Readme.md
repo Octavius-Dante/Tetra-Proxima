@@ -324,9 +324,17 @@ entity product {
     CATEGORY: String(32);
     DESCRIPTION: localized String(255); // localized will generate multiple transaltion text table at runtime 
     SUPPLIER_GUID: Association to master.businesspartner;  // SUPPLIER_GUID is assocaited to teh primary key of business partner 
-    TAX_TRAFFIC_CODE: Integer;
+    TAX_TARIF_CODE: Integer;
     MEASURE_UNIT: String(2);
     WEIGHT_MEASURE: Decimal(5,2);
+    WEIGHT_UNIT: String(2);
+    CURRENCY_CODE:String(4);
+    PRICE: Decimal(15,2);
+    WIDTH:Decimal(5,2);	
+    DEPTH:Decimal(5,2);	
+    HEIGHT:	Decimal(5,2);
+    DIM_UNIT:String(2);
+
 }
 
 entity employees: cuid {
@@ -368,6 +376,7 @@ context transaction {
 
 
 }
+
 
 ```
 </br>
