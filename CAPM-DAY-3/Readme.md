@@ -1,4 +1,4 @@
-## CAPM - Day 3
+## CAPM - Day 3 - EPM - Data model building
 
 #### Login to BTP to access BAS (Business Applciation Studio)
 
