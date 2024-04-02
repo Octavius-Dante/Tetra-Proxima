@@ -212,9 +212,54 @@ aspect Amount :{
 </br>
 </br>
 
+Now we will add validation of data type in JS for example phone number and email using REGEX concept 
+
+</br>
+A Regular Expression (or Regex) is a pattern (or filter) that describes a set of strings that matches the pattern. 
+</br> In other words, a regex accepts a certain set of strings and rejects the rest.
 </br>
 </br>
 
+```cds
+namespace com.dante.commons;
+
+using { Currency } from '@sap/cds/common';
+
+// similar like data element in abap defining in common.cds will make it available for global access
+type Guid   : String(32);
+
+// Enumerator data type like predefined values for a variable 
+type Gender : String(1) enum {
+
+    male   = 'M';
+    female = 'f';
+    undisclosed = 'u';
+};
+
+// Amount data type with currency property 
+type AmountX : Decimal(10,2)@(
+     semantics.Amount.currencyCode : 'CURRENCY_CODE',
+     sap.unit:'CURRENCY_CODE'
+);
+
+// Structure data type with resuable property of amount 
+aspect Amount :{
+    CURRENCY : Currency;
+    GROSS_AMOUNT: AmountX @(title : '{i18n>GROSS-Amount}');
+    NET_AMOUNT: AmountX @(title : '{i18n>NET-Amount}');
+    TAX_AMOUNT :AmountX @(title : '{i18n>TAX-Amount}');
+}
+
+type Guid: String(32);
+
+// validating phone number using REGEX
+//alternative// type PhoneNumber: String(30)@assert.format : '^(\+\d{1,2}\s?)?1?\-?\.?\s?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$';
+
+type PhoneNumber: String(30)@assert.format : '^\s*(?:\+?(\d{1,3}))?[-. (]*(\d{3})[-. )]*(\d{3})[-. ]*(\d{4})(?: *x(\d+))?\s*$';
+
+// validating email using REGEX
+type Email: String(255)@assert.format : '';
+```
 </br>
 </br>
 
