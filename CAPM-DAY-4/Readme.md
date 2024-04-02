@@ -75,15 +75,17 @@ Now we can check developer tools in browser for identifying odata vesion as show
 
 older version example go to this web page https://services.odata.org/ and select any link 
 </br>
-</br>
 <img src="./files/capmd4-5.png" >
+</br>
+</br>
+
+and use <b>(?$format=json) </b> to the link and you will see the following page press f12 and check the version 
 </br>
 <img src="./files/capmd4-7.png" >
 </br>
-<img src="./files/capmd4-8.png" >
 </br>
 
-</br>
+
 </br>
 </br>
 </br>
