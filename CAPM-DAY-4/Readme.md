@@ -68,11 +68,16 @@ Now run the applicaiton through terminal and test it as shown below (i didnt dep
 </br>
 </br>
 
+Now we can check developer tools in browser for identifying odata vesion as whown below 
+</br>
+<img src="./files/capmd4-6.png" >
+</br>
 
+older version may have some thing like this below 
 </br>
+<img src="./files/capmd4-5.png" >
 </br>
-</br>
-</br>
+
 </br>
 </br>
 </br>
