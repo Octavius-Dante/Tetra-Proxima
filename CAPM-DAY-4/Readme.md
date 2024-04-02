@@ -75,7 +75,7 @@ Now we can check developer tools in browser for identifying odata vesion as show
 
 older version example go to this web page https://services.odata.org/ and select any link 
 </br>
-<img src="./files/capmd4-5.png" >
+<img src="./files/capmd4-5a.png" >
 </br>
 </br>
 
