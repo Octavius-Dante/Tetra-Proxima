@@ -694,6 +694,7 @@ context CDSViews {
 Deploy the tables and cds tp DB and test as shown below
 </br>
 </br>
-
+<img src="./files/capmd3-35.png" >
+<img src="./files/capmd3-36.png" >
 </br>
 </br>
