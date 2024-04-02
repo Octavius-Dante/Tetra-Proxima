@@ -405,9 +405,10 @@ Go to (packge.json) file and look for any dependencies error you can right click
 </br>
 </br>
 
+Depoy the DB using (cds deploy --to sql:dante.db)
+</br>
+</br>
 
-</br>
-</br>
 </br>
 </br>
 </br>
