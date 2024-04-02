@@ -446,7 +446,7 @@ Check the DB tables and records as shown below
 </br>
 </br>
 
-### Why we need views ? 
+### Why we need CDS views ? 
 </br>
 </br>
 
