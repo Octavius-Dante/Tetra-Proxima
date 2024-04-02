@@ -58,18 +58,14 @@ After making the file with mentioend contents dont just run it deploy it and run
 </br>
 </br>
 
-
-
-
-
-Change the theme for BAS as shown below in case White is not comfortable for the eyes 
-
+Now run the applciaiton through terminal and test it as shown below 
+</br>
+<img src="./files/capmd4-3.png" >
+</br>
+<img src="./files/capmd4-4.png" >
+</br>
 </br>
 
-
-```JS
-
-```
 
 </br>
 </br>
