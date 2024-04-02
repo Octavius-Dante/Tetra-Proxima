@@ -249,7 +249,16 @@ The length of the Edm.String value must not be greater than the MaxLength facet 
 
 </br>
 </br>
+
+changed the code as mentioned below and tested (commons.cds)
 </br>
+
+```cds 
+// validating email using REGEX
+type Email: String(255)@assert.format : '^[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+$';
+
+// type Email: String(255)@assert.format : '/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/';
+```
 </br>
 </br>
 </br>
