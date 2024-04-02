@@ -724,7 +724,8 @@ Now we want to eliminate this long decimal values in the view, do teh following 
 ```
 </br>
 </br>
-</br>
+<img src="./files/capmd3-38.png" >
+
 </br>
 </br>
 </br>
