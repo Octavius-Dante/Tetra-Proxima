@@ -12,10 +12,7 @@ Will continue today from yesterdays application
 </br>
 
 Go to our application SRV folder and create a file (CatalogService.cds) as shown below 
-
 </br>
-</br>
-
 ```cds
 // importing data models and views to our service
 using {dan.db} from '../db/datamodel';
