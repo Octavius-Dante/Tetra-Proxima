@@ -414,4 +414,15 @@ cds depoly --to sqlite:dante.db
 <img src="./files/capmd3-27.png" >
 </br>
 </br>
+
+Conenct the DB to SQL tools as shown below (go to terminal and get the local directory details) copy it and paste it 
+</br>
+```bat
+pwd
+```
+</br>
+<img src="./files/capmd3-28.png" >
+</br>
+</br>
+
 </br>
