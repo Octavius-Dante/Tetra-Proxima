@@ -251,7 +251,7 @@ The length of the Edm.String value must not be greater than the MaxLength facet 
 </br>
 </br>
 
-changed the code as mentioned below and tested (commons.cds)
+changed the code for email REGEX as mentioned below and tested (commons.cds)
 </br>
 
 ```cds 
