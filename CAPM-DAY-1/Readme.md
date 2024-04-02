@@ -278,6 +278,11 @@ Create a cds file name sample.cds in 'Db' folder and type down the the following
 </br>
 </br>
 
+### Entity means - table 
+
+</br>
+</br>
+
 ```cds 
 namespace com.dante.finance;
 
