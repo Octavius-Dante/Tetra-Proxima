@@ -236,6 +236,16 @@ The length of the Edm.String value must not be greater than the MaxLength facet 
 
 ```
 
+```json
+{
+  "error": {
+    "code": "400",
+    "message": "Value \"sunny.winter@Ey.com\" is not in specified format \"/^\\w+([\\.-]?\\w+)*@\\w+([\\.-]?\\w+)*(\\.\\w{2,3})+$/\"",
+    "target": "email",
+    "@Common.numericSeverity": 4
+  }
+```
+
 </br>
 </br>
 </br>
