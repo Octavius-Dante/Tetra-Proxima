@@ -465,7 +465,7 @@ Check the DB tables and records as shown below
 </br>
 </br>
 
-Create (CDSViews.cds) file under db folder as shwon below 
+Create (CDSViews.cds) file under db folder as shown below 
 </br>
 </br>
 
