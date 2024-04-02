@@ -168,7 +168,13 @@ use it and create table like shown below
 <img src="./files/capmd3-21.png" >
 </br>
 </br>
+
+when you create multple entity and you can define foreign key relation, association, composition as shown below 
+<img src="./files/capmd3-22.png" >
+but will discuss this later.
 </br>
+
+
 </br>
 </br>
 </br>
