@@ -94,8 +94,19 @@ use <b>(?$format=json) </b> to the link and you will see the following page pres
 </br>
 
 
+### Backward compatibility 
 </br>
 </br>
+
+> default sap fiori which comes out of on-prem is odata v2 
+> defualt sap fiori which comes out of cloud is odata v4
+> SAP applicaitons developed in odata v2 cannot be used for odata v4 - requries (redesign or code changes)
+> To avoid this maintenace thing
+
+</br>
+</br>
+
+
 </br>
 </br>
 </br>
