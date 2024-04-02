@@ -415,7 +415,7 @@ cds depoly --to sqlite:dante.db
 </br>
 </br>
 
-Conenct the DB to SQL tools as shown below (go to terminal and get the local directory details) copy it and paste it 
+Connect the DB to SQL tools as shown below (go to terminal and get the local directory details) copy it and paste it 
 </br> add the db details along with the directory <b> (/home/user/dante_cap/dante.db) </b>
 </br>
 ```bat
@@ -426,4 +426,10 @@ pwd
 </br>
 </br>
 
+
+Post DB connection the tables should display as shown below.
+</br>
+</br>
+<img src="./files/capmd3-29.png" >
+</br>
 </br>
