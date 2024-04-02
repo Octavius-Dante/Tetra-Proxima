@@ -700,7 +700,7 @@ Deploy the tables and cds to DB and you can see the list of CDS views created in
 </br>
 
 
-Now we want to eliminate this long decimal values in the view, do teh following correction in CDSViews.cds and re-deploy to db and check 
+Now we want to eliminate this long decimal values in the view, do the following correction in CDSViews.cds and re-deploy to db and check 
 </br>
 </br>
 <img src="./files/capmd3-37.png" >
@@ -726,6 +726,23 @@ Now we want to eliminate this long decimal values in the view, do teh following 
 </br>
 <img src="./files/capmd3-38.png" >
 
+</br>
+</br>
+</br>
+</br>
+
+### How to downlaod the code locally from BAS ? 
+</br> (before download delete the node_modules folder) 
+</br> it can be installed use terminal and use command (npm install) to get it back.
+</br>
+<img src="./files/capmd3-39.png" >
+</br>
+</br>
+
+The downladoed file is in *.tar file format same can be used to upload into bas (use winrar to oepn the file)
+</br>
+<img src="./files/capmd3-40.png" >
+</br>
 </br>
 </br>
 </br>
