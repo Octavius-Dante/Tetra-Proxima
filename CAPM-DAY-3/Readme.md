@@ -458,7 +458,7 @@ Check the DB tables and records as shown below
 
 - [X] security , CDS views are also the contracts for data consumption
 
-- [X] They incldue annotation that drives functionality
+- [X] They incldue annotations which drives functionality (read only) write protected
 
 - [X] View provide also loose coupling to load data (association - join on demand), where as when we use queries and joins thay are always tight coupling. which  brings all the data all the time.
 </br>
