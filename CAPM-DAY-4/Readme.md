@@ -189,15 +189,19 @@ create tester.http (any name of your choice *.http) file under (srv) folder like
 </br>
 
 determine the correct link before you add it to tester.http file 
-
+</br>
 <img src="./files/capmd4-12a.png" >
 </br>
 <img src="./files/capmd4-12c.png" >
+</br>
+</br>
 
 click the link (send request) to test
 </br>
 <img src="./files/capmd4-12b.png" >
 </br>
+</br>
+
 if the link is correct following output window will appear with right data 
 </br>
 <img src="./files/capmd4-12d.png" >
