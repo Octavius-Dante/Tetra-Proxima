@@ -231,6 +231,7 @@ https://www.w3resource.com/javascript/form/email-validation.php#:~:text=To%20get
 </br>
 
 ### commons.cds
+
 ```cds
 namespace dan.commons;
 
@@ -274,6 +275,7 @@ type Email: String(255)@assert.format : '/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{
 </br>
 
 ### datamodels.cds
+
 ```cds
 namespace dan.db;
 
