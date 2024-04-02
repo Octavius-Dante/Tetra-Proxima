@@ -359,7 +359,7 @@ context transaction {
 ### Aspect : (like ABAP - Include structure but only on top)
 </br> it is like a structure with collection of different fields defined in commons.cds reuse library and used in our db cds file.
 </br>
-### Type :
+### Type : (like data element in abap) 
 </br>it is a single field property with data type specific like quantity and currency or any other which user define in commons reuse library
 </br>
 </br>
