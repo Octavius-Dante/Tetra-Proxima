@@ -50,9 +50,9 @@ service CatalogService @(path: 'CatalogService') {
 </br>
 </br>
 
-After making the file with mentioend contents dont just run it deploy it and run
-</br> if it is run directly - it goes to dump liek shown below 
-</br>
+After making the file with mentioend contents dont just run it deploy it and run 
+</br> (from 2024 onwards Npm takes care of this) you can directly run it 
+</br> if you find cds-serve in package.json - it takes care automatically (instead if you find cds run, cds watch) then you have to manually do it - deploy it and run 
 
 <img src="./files/capmd4-2.png" >
 </br>
