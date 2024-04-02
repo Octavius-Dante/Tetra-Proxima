@@ -405,10 +405,13 @@ Go to (packge.json) file and look for any dependencies error you can right click
 </br>
 </br>
 
-Depoy the DB using (cds deploy --to sql:dante.db)
+Deploy the DB 
 </br>
+```bat
+cds depoly --to sqlite:dante.db
+```
 </br>
-
+<img src="./files/capmd3-27.png" >
 </br>
 </br>
 </br>
