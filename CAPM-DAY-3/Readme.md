@@ -703,7 +703,7 @@ Deploy the tables and cds to DB and you can see the list of CDS views created in
 Now we want to eliminate this long decimal values in the view, do teh following correction in CDSViews.cds and re-deploy to db and check 
 </br>
 </br>
-<img src="./files/capmd3-36.png" >
+<img src="./files/capmd3-37.png" >
 </br>
 </br>
 
