@@ -433,3 +433,11 @@ Post DB connection the tables should display as shown below.
 <img src="./files/capmd3-29.png" >
 </br>
 </br>
+
+
+Check the DB tables and records as shown below 
+</br>
+</br>
+<img src="./files/capmd3-30.png" >
+</br>
+</br>
