@@ -506,3 +506,14 @@ deploy it to db (cds depoly --to sqlite:dante.db) and check the views as shown b
 </br>
 </br>
 
+Lets create additional cds view as value help (similar like F4 help in ABAP)
+</br>
+</br>
+
+```CDS
+
+
+```
+</br>
+</br>
+
