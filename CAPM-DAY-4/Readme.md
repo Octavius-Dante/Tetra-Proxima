@@ -222,9 +222,10 @@ Contents of tester.http
 
 ### Testing POST call testing challenges - and troubleshoot 
 </br>
+
 When copied the data of some random GET and modified it for posting following corrections carried out 
-- serialization error for bank id error sample (change the length) of BANKID
-- Email format error (we have to modify the REGEX expression in our program)
+ - serialization error for bank id error sample (change the length) of BANKID
+ - Email format error (we have to modify the REGEX expression in our program)
 
 </br>
 
