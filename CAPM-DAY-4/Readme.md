@@ -104,7 +104,16 @@ use <b>(?$format=json) </b> to the link and you will see the following page pres
 - SAP provided this adpters as node module (goto npm site : https://www.npmjs.com/search?q=odata-v2-adapter)
 - Search for odata-v2-adapter (pick the proxy one)
 
+
 </br>
+</br>
+
+```bat
+npm install @sap/cds-odata-v2-adapter-proxy -s
+```
+</br>
+</br>
+
 </br>
 <img src="./files/capmd4-8.png" >
 </br>
