@@ -517,3 +517,12 @@ Lets create additional cds view as value help (similar like F4 help in ABAP)
 </br>
 </br>
 
+
+We can collapse the statement as shown below for better readability when there is more code
+</br>
+</br>
+<img src="./files/capmd3-33.png" >
+<img src="./files/capmd3-34.png" >
+</br>
+</br>
+
