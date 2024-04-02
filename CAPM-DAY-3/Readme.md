@@ -173,12 +173,55 @@ when you create multple entity and you can define foreign key relation, associat
 <img src="./files/capmd3-22.png" >
 but will discuss this later.
 </br>
+</br>
+
+Will use the commons.cds file from previous day to being our development
+</br>
+
+```cds
+namespace com.dante.commons;
+
+using { Currency } from '@sap/cds/common';
+
+// similar like data element in abap defining in common.cds will make it available for global access
+type Guid   : String(32);
+
+// Enumerator data type like predefined values for a variable 
+type Gender : String(1) enum {
+
+    male   = 'M';
+    female = 'f';
+    undisclosed = 'u';
+};
+
+// Amount data type with currency property 
+type AmountX : Decimal(10,2)@(
+     semantics.Amount.currencyCode : 'CURRENCY_CODE',
+     sap.unit:'CURRENCY_CODE'
+);
+
+// Structure data type with resuable property of amount 
+aspect Amount :{
+    CURRENCY : Currency;
+    GROSS_AMOUNT: AmountX @(title : '{i18n>GROSS-Amount}');
+    NET_AMOUNT: AmountX @(title : '{i18n>NET-Amount}');
+    TAX_AMOUNT :AmountX @(title : '{i18n>TAX-Amount}');
+}
+```
+<img src="./files/capmd3-23.png" >
+</br>
+</br>
+
+</br>
+</br>
+
+</br>
+</br>
+
+</br>
+</br>
 
 
-</br>
-</br>
-</br>
-</br>
 </br>
 </br>
 </br>
