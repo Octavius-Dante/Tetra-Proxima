@@ -356,6 +356,12 @@ context transaction {
 </br>
 </br>
 
+### Aspect : it is like a structure with collection of different fields defiend in commons resue library and used in our db cds file.
+
+</br>
+</br>
+
+### Type : it is a single field property with data type specific like quanity and currency or any other which user define in commons reuse library
 
 </br>
 </br>
