@@ -192,11 +192,11 @@ determine the correct link before you add it to tester.http file
 
 <img src="./files/capmd4-12a.png" >
 </br>
-<img src="./files/capmd4-12b.png" >
+<img src="./files/capmd4-12c.png" >
 
 click the link (send request) to test
 </br>
-<img src="./files/capmd4-12c.png" >
+<img src="./files/capmd4-12b.png" >
 </br>
 if the link is correct following output window will appear with right data 
 </br>
