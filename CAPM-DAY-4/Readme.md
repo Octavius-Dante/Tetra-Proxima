@@ -100,11 +100,16 @@ use <b>(?$format=json) </b> to the link and you will see the following page pres
 - default sap fiori which comes out of on-prem is odata v2 
 - defualt sap fiori which comes out of cloud is odata v4
 - SAP applicaitons developed in odata v2 cannot be used for odata v4 - requries (redesign or code changes)
-- To avoid this we have an <b>adapter</b> which will use v2 version as v4 
+- To avoid this we have an <b>adapter</b> which will use v2 version as v4
+- SAP provided this adpters as node module (goto npm site : https://www.npmjs.com/search?q=odata-v2-adapter)
+- Search for odata-v2-adapter (pick the proxy one)
 
 </br>
 </br>
-
+<img src="./files/capmd4-8.png" >
+</br>
+<img src="./files/capmd4-9.png" >
+</br>
 
 </br>
 </br>
