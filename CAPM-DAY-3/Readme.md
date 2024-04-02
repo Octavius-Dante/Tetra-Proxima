@@ -230,8 +230,9 @@ https://www.w3resource.com/javascript/form/email-validation.php#:~:text=To%20get
 </br>
 </br>
 
+### commons.cds
 ```cds
-namespace com.dante.commons;
+namespace dan.commons;
 
 using { Currency } from '@sap/cds/common';
 
@@ -270,7 +271,12 @@ type Email: String(255)@assert.format : '/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{
 ```
 </br>
 </br>
+</br>
+### datamodels.cds
 
+```cds
+
+```
 </br>
 </br>
 
