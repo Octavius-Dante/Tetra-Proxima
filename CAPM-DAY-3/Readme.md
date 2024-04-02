@@ -511,8 +511,56 @@ Lets create additional cds view as value help (similar like F4 help in ABAP)
 </br>
 
 ```CDS
+namespace dante.cds;
+
+using { dan.db.master, dan.db.transaction } from './datamodel';
+
+context CDSViews {
+    define view![POWorklist] as // to make it case sensitive even in output and runtime 
+     select from transaction.purchaseorder{
+        key PO_ID as![PurchaseOrderID],
+        key Items.PO_ITEM_POS as![ItemPosition],
+        PARTNER_GUID as![PartnerID],
+        PARTNER_GUID.COMPANY_NAME as ![CompanyName],
+        GROSS_AMOUNT as![GrossAmount],
+        NET_AMOUNT as![NEtAmount],
+        TAX_AMOUNT as![TAxAmount],
+        CURRENCY as![CurrencyCode],
+        OVERALL_STATUS as![Status],
+        Items.PRODUCT_GUID.PRODUCT_ID as![ProductId],
+        Items.PRODUCT_GUID.DESCRIPTION as![ProductName],      
+        PARTNER_GUID.ADDRESS_GUID.CITY as![City],
+        PARTNER_GUID.ADDRESS_GUID.COUNTRY as![Country],
+     };
 
 
+     define view![ProductValueHelp] as
+     select from master.product{
+      @EndUserText.label:[
+         {
+            language: 'EN',
+            text: 'Product id'
+         },
+         {
+            language: 'DE',
+            text: 'Prodekt id'            
+         }
+      ]
+      PRODUCT_ID as![ProductId],
+            @EndUserText.label:[
+         {
+            language: 'EN',
+            text: 'Product Description'
+         },
+         {
+            language: 'DE',
+            text: 'Prodekt Beschreibung'            
+         }
+      ]
+      DESCRIPTION as![Description]
+     }
+
+}
 ```
 </br>
 </br>
