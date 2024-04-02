@@ -463,3 +463,45 @@ Check the DB tables and records as shown below
 - [X] View provide also loose coupling to load data (association - join on demand), where as when we use queries and joins thay are always tight coupling. which  brings all the data all the time.
 </br>
 </br>
+</br>
+
+Create (CDSViews.cds) file under db folder as shwon below 
+</br>
+</br>
+
+```cds
+namespace dante.cds;
+
+using { dan.db.master, dan.db.transaction } from './datamodel';
+
+context CDSViews {
+    define view![POWorklist] as // to make it case sensitive even in output and runtime 
+     select from transaction.purchaseorder{
+        key PO_ID as![PurchaseOrderID],
+        key Items.PO_ITEM_POS as![ItemPosition],
+        PARTNER_GUID as![PartnerID],
+        PARTNER_GUID.COMPANY_NAME as ![CompanyName],
+        GROSS_AMOUNT as![GrossAmount],
+        NET_AMOUNT as![NEtAmount],
+        TAX_AMOUNT as![TAxAmount],
+        CURRENCY as![CurrencyCode],
+        OVERALL_STATUS as![Status],
+        Items.PRODUCT_GUID.PRODUCT_ID as![ProductId],
+        Items.PRODUCT_GUID.DESCRIPTION as![ProductName],      
+        PARTNER_GUID.ADDRESS_GUID.CITY as![City],
+        PARTNER_GUID.ADDRESS_GUID.COUNTRY as![Country],
+     }
+}
+```
+</br>
+</br>
+<img src="./files/capmd3-31.png" >
+</br>
+</br>
+
+deploy it ot db (cds depoly --to sqlite:dante.db) adn check the views as shown below
+</br>
+<img src="./files/capmd3-32.png" >
+</br>
+</br>
+
