@@ -103,7 +103,8 @@ use <b>(?$format=json) </b> to the link and you will see the following page pres
 - To avoid this we have an <b>adapter</b> which will use v2 version as v4
 - SAP provided this adpters as node module (goto npm site : https://www.npmjs.com/search?q=odata-v2-adapter)
 - Search for odata-v2-adapter (pick the proxy one)
-
+- install the adapter using command
+- create JS file is (srv) directory (./srv/server.js:) and copy the contents 
 
 </br>
 </br>
@@ -113,6 +114,16 @@ npm install @sap/cds-odata-v2-adapter-proxy -s
 ```
 </br>
 </br>
+
+### server.js
+</br>
+
+```js
+const cds = require("@sap/cds");
+const cov2ap = require("@sap/cds-odata-v2-adapter-proxy");
+cds.on("bootstrap", (app) => app.use(cov2ap()));
+module.exports = cds.server;
+```
 
 </br>
 <img src="./files/capmd4-8.png" >
