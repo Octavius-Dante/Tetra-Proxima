@@ -220,6 +220,16 @@ A Regular Expression (or Regex) is a pattern (or filter) that describes a set of
 </br>
 </br>
 
+Telephone REGEX is garbbe from 
+</br> https://stackoverflow.com/questions/16699007/regular-expression-to-match-standard-10-digit-phone-number
+
+Email REGEX is grabbed from 
+</br> 
+https://www.w3resource.com/javascript/form/email-validation.php#:~:text=To%20get%20a%20valid%20email,%5D%2B)*%24%2F.
+
+</br>
+</br>
+
 ```cds
 namespace com.dante.commons;
 
@@ -250,15 +260,13 @@ aspect Amount :{
     TAX_AMOUNT :AmountX @(title : '{i18n>TAX-Amount}');
 }
 
-type Guid: String(32);
-
 // validating phone number using REGEX
 //alternative// type PhoneNumber: String(30)@assert.format : '^(\+\d{1,2}\s?)?1?\-?\.?\s?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$';
 
 type PhoneNumber: String(30)@assert.format : '^\s*(?:\+?(\d{1,3}))?[-. (]*(\d{3})[-. )]*(\d{3})[-. ]*(\d{4})(?: *x(\d+))?\s*$';
 
 // validating email using REGEX
-type Email: String(255)@assert.format : '';
+type Email: String(255)@assert.format : '/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/';
 ```
 </br>
 </br>
