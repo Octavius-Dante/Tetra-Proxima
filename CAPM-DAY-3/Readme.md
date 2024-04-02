@@ -356,7 +356,7 @@ context transaction {
 </br>
 </br>
 
-### Aspect : (like ABAP - Include structure but only on top)
+### Aspect : (like ABAP - Include structure but can be used only on top in entity definition)
 </br> it is like a structure with collection of different fields defined in commons.cds reuse library and used in our db cds file.
 </br>
 ### Type : (like data element in abap) 
