@@ -499,7 +499,8 @@ context CDSViews {
 </br>
 </br>
 
-deploy it ot db (cds depoly --to sqlite:dante.db) adn check the views as shown below
+deploy it to db (cds depoly --to sqlite:dante.db) and check the views as shown below
+</br>
 </br>
 <img src="./files/capmd3-32.png" >
 </br>
