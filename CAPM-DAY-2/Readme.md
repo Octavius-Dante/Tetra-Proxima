@@ -1452,3 +1452,19 @@ https://cap.cloud.sap/docs/guides/i18n#normalized-locales
 
 </br>
 </br>
+
+</br>
+</br>
+</br>
+</br>
+
+# NEXT ------ CAPM - DAY 3 - EPM data model and CDS
+
+<p align="center"> 
+<a href="https://github.com/Octavius-Dante/Tetra_Proxima/tree/main/CAPM-DAY-3"> CAPMDAY 3 - EPM data model and CDS</a> 
+</p>
+
+</br>
+</br>
+</br>
+</br>
