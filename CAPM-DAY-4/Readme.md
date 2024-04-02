@@ -72,6 +72,7 @@ Now run the applicaiton through terminal and test it as shown below (i didnt dep
 
 Now we can check developer tools in browser for identifying odata vesion as shown below 
 </br>
+</br>
 <img src="./files/capmd4-6.png" >
 </br>
 </br>
@@ -79,12 +80,14 @@ Now we can check developer tools in browser for identifying odata vesion as show
 
 older version example go to this web page https://services.odata.org/ and select any link 
 </br>
+</br>
 <img src="./files/capmd4-5a.png" >
 </br>
 </br>
 </br>
 
 use <b>(?$format=json) </b> to the link and you will see the following page press f12 and check the version 
+</br>
 </br>
 <img src="./files/capmd4-7.png" >
 </br>
