@@ -292,6 +292,7 @@ entity businesspartner {
     PHONE_NUMBER: String(32);
     FAX_NUMBER: String(34);
     WEB_ADDRESS: String(44);
+    ADDRESS_GUID: Association to address; // table liknk to address
     BP_ID: String(32);
     COMPANY_NAME: String(250);
 }
@@ -309,6 +310,8 @@ entity address {
     VAL_END_DATE: Date;
     LATITUDE: Decimal;
     LONGITUDE: Decimal;
+    businesspartner: Association to one businesspartner on
+    businesspartner.ADDRESS_GUID = $self; // table link to business partner
 }
 
 }
@@ -317,6 +320,7 @@ entity address {
 context transaction {
 
 
+}
 }
 }
 ```
