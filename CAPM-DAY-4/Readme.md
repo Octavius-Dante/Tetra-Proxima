@@ -101,7 +101,10 @@ use <b>(?$format=json) </b> to the link and you will see the following page pres
 - SAP provided this adpters as node module (goto npm site : https://www.npmjs.com/search?q=odata-v2-adapter)
 - Search for odata-v2-adapter (pick the proxy one)
 - install the adapter using command
-- create JS file is (srv) directory (./srv/server.js:) and copy the contents 
+- create JS file is (srv) directory (./srv/server.js:) and copy the contents
+- run and test the application
+  - OData V2 service will be available at http://localhost:4004/v2/
+  - OData V4 service will be available at http://localhost:4004/
 </br>
 
 ```bat
