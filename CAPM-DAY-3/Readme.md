@@ -10,6 +10,7 @@ BAS is a SAP properitary web environemnt used for developing SAP applciations
 </br>it will get an allocated own space for designing applciation
 </br>in trial BTP account of 90 days 
 </br>
+</br>
 
 > [!NOTE]
 > (BAS) as 30 days expiry if it is not accessed in 30 days dev space will be deleted by SAP 
@@ -394,10 +395,17 @@ Create CSV folder and load the files provided here as shown below
 </br>
 </br>
 <img src="./files/capmd3-25.png" >
+</br>
+</br>
 
+Go to (packge.json) file and look for any dependencies error you can right click the highlighted error and click (fix all dependencies) 
+</br> if that option is not found then install the fix manually using (npm install) command in terminal
+</br>
+<img src="./files/capmd3-26.png" >
 </br>
 </br>
-</br>
+
+
 </br>
 </br>
 </br>
