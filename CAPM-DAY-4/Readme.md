@@ -127,6 +127,8 @@ module.exports = cds.server;
 </br>
 <img src="./files/capmd4-9.png" >
 </br>
+<img src="./files/capmd4-10.png" >
+</br>
 
 </br>
 </br>
