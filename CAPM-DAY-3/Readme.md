@@ -328,6 +328,23 @@ entity product {
     WEIGHT_MEASURE: Decimal(5,2);
 }
 
+entity employees: cuid {
+    nameFirst: String(40);
+    nameMiddle: String(40);
+    nameLast: String(40);
+    nameInitials: String(40);
+    sex: commons.Gender;
+    language: String(1);
+    phoneNumber: commons.PhoneNumber;
+    email: commons.Email;
+    loginName: String(12);
+    Currency: Currency;
+    salaryAmount: commons.AmountX;
+    accountNumber: String(16);
+    bankId: String(8);
+    bankName: String(40);
+}
+
 }
 
 // transaction table 
