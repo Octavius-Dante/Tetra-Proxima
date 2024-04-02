@@ -386,9 +386,15 @@ The above db design datamodel.cds file is based on following chart image
 </br>it is a single field property with data type specific like quantity and currency or any other which user define in commons reuse library
 </br>
 </br>
-
-
 </br>
+
+Create CSV folder and load the files provided here as shown below 
+
+</br><b>(on top of the page you can see csv folder in github use those csv files)</b>
+</br>
+</br>
+<img src="./files/capmd3-25.png" >
+
 </br>
 </br>
 </br>
