@@ -130,6 +130,15 @@ module.exports = cds.server;
 <img src="./files/capmd4-10.png" >
 </br>
 
+
+</br>
+</br>
+### OData v2 
+</br>
+it can be identified by represneration d in front of result set 
+</br>
+</br>
+
 </br>
 </br>
 cloud BAS main page
