@@ -148,7 +148,7 @@ cloud BAS main page
 
 local VSCode main page
 </br>
-<img src="./files/capmd4-10b.png" >
+<img src="./files/capmd4-11a.png" >
 </br>
 
 </br> Add v2/ after the cloud link an then navigate from thae page 
@@ -166,7 +166,7 @@ local VSCode main page
 
 </br>
 cloud BAS
-<img src="./files/capmd4-11a.png" >
+<img src="./files/capmd4-10b.png" >
 </br>
 </br>
 VSCode
