@@ -372,6 +372,13 @@ context transaction {
 </br>
 </br>
 
+The above db design datamodel.cds fiel is based on following chart image
+</br>
+</br>
+<img src="./files/capmd3-24.png" >
+</br>
+</br>
+
 ### Aspect : (like ABAP - Include structure but can be used only on top in entity definition)
 </br> it is like a structure with collection of different fields defined in commons.cds reuse library and used in our db cds file.
 </br>
