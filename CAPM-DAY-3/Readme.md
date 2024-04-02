@@ -349,9 +349,25 @@ entity employees: cuid {
 
 // transaction table 
 context transaction {
+    entity purchaseorder: commons.Amount{
+        key NODE_KEY: commons.Guid;
+        PO_ID: String(40);
+        PARTNER_GUID: Association to master.businesspartner;
+        LIFECYCLE_STATUS: String(1);
+        OVERALL_STATUS: String(1);
+        Items: Association to many poitems on Items.PARENT_KEY = $self;
+    }
+
+    entity poitems: commons.Amount{
+        key NODE_KEY: commons.Guid;
+        PARENT_KEY: Association to purchaseorder;
+        PO_ITEM_POS: Integer;
+        PRODUCT_GUID: Association to master.product;
+}
 
 
 }
+
 ```
 </br>
 </br>
