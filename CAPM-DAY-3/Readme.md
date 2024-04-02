@@ -441,3 +441,13 @@ Check the DB tables and records as shown below
 <img src="./files/capmd3-30.png" >
 </br>
 </br>
+
+## CDS Views 
+</br>
+</br>
+Why we need views ? 
+</br>
+</br>
+
+</br>
+</br>
