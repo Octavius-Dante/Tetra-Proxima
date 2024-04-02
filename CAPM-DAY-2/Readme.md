@@ -1017,7 +1017,7 @@ ILS,fr,Shekel,shekel israelien
 </br>
 </br>
 
-Now we focus on the assocaition concept of establishing foreign key relation to tables
+Now we focus on the association concept of establishing foreign key relation to tables
 </br> make the following code change to order_2 table 
 </br>
 </br>
