@@ -52,8 +52,6 @@ service CatalogService @(path: 'CatalogService') {
 
 After creationg the file deploy it and run (best practise) 
 #### (service creation - no need to deploy, DB and View creation need to deploy)
-</br>
-
 #### (from 2024 onwards Npm takes care of this) you can directly run it 
 #### if you find cds-serve in package.json - it takes care automatically (instead if you find cds run, cds watch) then you have to manually do it - deploy it and run 
 <img src="./files/capmd4-2.png" >
