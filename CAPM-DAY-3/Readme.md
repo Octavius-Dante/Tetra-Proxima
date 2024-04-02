@@ -372,7 +372,7 @@ context transaction {
 </br>
 </br>
 
-The above db design datamodel.cds fiel is based on following chart image
+The above db design datamodel.cds file is based on following chart image
 </br>
 </br>
 <img src="./files/capmd3-24.png" >
