@@ -129,8 +129,16 @@ module.exports = cds.server;
 </br>
 <img src="./files/capmd4-10.png" >
 </br>
+
+
 </br>
 </br>
+### OData v2 
+</br>
+it can be identified by represneration d in front of result set 
+</br>
+</br>
+
 </br>
 </br>
 cloud BAS main page
@@ -166,7 +174,11 @@ VSCode
 </br>
 </br>
 
+</br>
 
+### CURDQ Testing for cloud 
+</br>
+ We cannot test CURD operation through postman on this cloud application it is not supported only local VS code works with postman
 </br>
 </br>
 </br>
