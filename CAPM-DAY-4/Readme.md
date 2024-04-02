@@ -220,7 +220,7 @@ Contents of tester.http
 </br>
 </br>
 
-Testing POST call cahllenges - and troubleshoot 
+### Testing POST call testing challenges - and troubleshoot 
 </br>
 When copied the data of some random GET and modified it for posting following corrections carried out 
 - serialization error for bank id error sample (change the length) of BANKID
