@@ -461,3 +461,16 @@ check the records in the db as mentioned below
 
 <p>
 </p>
+
+</br>
+</br>
+</br>
+# Navigate to CAPM - DAY 2 
+</br>
+
+- [x] <a href="https://github.com/Octavius-Dante/Tetra_Proxima/tree/main/CAPM-DAY-2"> CAPM Day 2 - Aspects and Reuse Tables</a>
+
+</br>
+</br>
+</br>
+</br>
