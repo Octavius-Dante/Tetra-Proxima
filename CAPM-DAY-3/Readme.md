@@ -574,7 +574,7 @@ We can collapse the statement as shown below for better readability when there i
 </br>
 </br>
 
-Lets create additional cds view an Item CDS view for product
+Lets create additional cds view an Item CDS view
 </br>
 </br>
 
