@@ -465,6 +465,7 @@ check the records in the db as mentioned below
 </br>
 </br>
 </br>
+
 # Navigate to CAPM - DAY 2 
 </br>
 
