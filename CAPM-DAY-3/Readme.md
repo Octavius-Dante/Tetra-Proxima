@@ -739,7 +739,7 @@ Now we want to eliminate this long decimal values in the view, do the following 
 </br>
 </br>
 
-The downladoed file is in *.tar file format same can be used to upload into bas (use winrar to oepn the file)
+The downloaded file is in *.tar file format same can be used to upload into bas (use winrar to open the file)
 </br>
 <img src="./files/capmd3-40.png" >
 </br>
