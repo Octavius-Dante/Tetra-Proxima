@@ -691,7 +691,7 @@ context CDSViews {
 </br>
 </br>
 
-Deploy the tables and cds tp DB and test as shown below
+Deploy the tables and cds to DB and you can see the list of CDS views created in DB
 </br>
 </br>
 <img src="./files/capmd3-35.png" >
