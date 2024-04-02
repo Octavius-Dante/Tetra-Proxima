@@ -275,7 +275,29 @@ type Email: String(255)@assert.format : '/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{
 ### datamodels.cds
 
 ```cds
+namespace dan.db;
 
+using { cuid, managed, temporal, Currency } from '@sap/cds/common'; // standard 
+using { dan.commons } from './commons'; // custom 
+
+// master table
+context master {
+
+entity businesspartner {
+    key NODE_KEY: commons.Guid; // Commons is my cutoms cds -- Common is Standard 
+    BP_ROLE: String(2);
+    EMAIL_ADDRESS: String(105);
+    PHONE_NUMBER: String(32);
+    FAX_NUMBER: String(44);
+}
+
+}
+
+// transaction table 
+context transaction {
+
+
+}
 ```
 </br>
 </br>
