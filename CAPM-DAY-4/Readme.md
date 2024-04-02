@@ -130,11 +130,40 @@ module.exports = cds.server;
 
 </br>
 </br>
+cloud BAS main page
+</br>
+<img src="./files/capmd4-10a.png" >
+</br>
+
+local VSCode main page
+</br>
+<img src="./files/capmd4-10b.png" >
+</br>
+
+</br> Add v2/ after the cloud link an then navigate from thae page 
+</br> https://port4004-workspaces-ws-n8568.us10.trial.applicationstudio.cloud.sap/v2/
+</br>
+</br> SAP cloud BAS
+</br> https://port4004-workspaces-ws-n8568.us10.trial.applicationstudio.cloud.sap/v2/odata/v4/CatalogService/BusinessPartnerSet
 </br>
 </br>
+</br>  Add v2/ after the local host link an then navigate from thae page
+</br> http://localhost:4004/v2/
+</br>
+</br> VSCode
+</br> http://localhost:4004/v2/odata/v4/CatalogService/BusinessPartnerSet
+
+</br>
+cloud BAS
+<img src="./files/capmd4-11a.png" >
 </br>
 </br>
+VSCode
+<img src="./files/capmd4-11b.png" >
 </br>
+</br>
+
+
 </br>
 </br>
 </br>
