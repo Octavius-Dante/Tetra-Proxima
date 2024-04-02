@@ -181,10 +181,21 @@ VSCode
  We cannot test CURD operation through postman on this cloud application it is not supported only local VS code works with postman
 </br>
 </br>
+
+### A way to test CURDQ in cloud 
+</br>
+create tester.http (any name of your choice *.http) file under (srv) folder like shown below 
 </br>
 </br>
+
+Contents of tester.http
 </br>
-</br>
+
+```http
+
+
+
+```
 </br>
 </br>
 </br>
