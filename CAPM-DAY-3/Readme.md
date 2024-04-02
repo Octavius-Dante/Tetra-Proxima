@@ -453,6 +453,13 @@ Check the DB tables and records as shown below
 - [X] usually we have all our data distributed across multiple tables and if we need to get this data out, we need to write complex queries with joins.
 
 - [X] it becomes very compelx to handle the maintenance of these large queires views will simplify the consumption and make it easy to maintain
-- [X] 
+
+- [X] We can perform the operations like aggregations on the view
+
+- [X] security , CDS views are also the contracts for data consumption
+
+- [X] They incldue annotation that drives functionality
+
+- [X] View provide also loose coupling to load data (association on demand - join on demand), where as when we use queries and joins thay are always tight coupling. which  brings all the data all the time.
 </br>
 </br>
