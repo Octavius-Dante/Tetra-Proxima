@@ -161,8 +161,11 @@ After creating the file right click the demo.cds file and you will get the CDS G
 
 When CDS Graphic modeler is selected it is opens a new graphical editor which looks like SQVI in ABAP 
 </br>
-
+use it and create table like shown below 
 </br>
+<img src="./files/capmd3-19.png" >
+<img src="./files/capmd3-20.png" >
+<img src="./files/capmd3-21.png" >
 </br>
 </br>
 </br>
