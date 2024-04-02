@@ -416,6 +416,7 @@ cds depoly --to sqlite:dante.db
 </br>
 
 Conenct the DB to SQL tools as shown below (go to terminal and get the local directory details) copy it and paste it 
+</br> add the db details along with the directory <b> (/home/user/dante_cap/dante.db) </b>
 </br>
 ```bat
 pwd
