@@ -460,6 +460,6 @@ Check the DB tables and records as shown below
 
 - [X] They incldue annotation that drives functionality
 
-- [X] View provide also loose coupling to load data (association on demand - join on demand), where as when we use queries and joins thay are always tight coupling. which  brings all the data all the time.
+- [X] View provide also loose coupling to load data (association - join on demand), where as when we use queries and joins thay are always tight coupling. which  brings all the data all the time.
 </br>
 </br>
