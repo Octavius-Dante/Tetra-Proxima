@@ -841,7 +841,50 @@ service MyService {
 </br>
 
 ```js
+const cds = require("@sap/cds");
+const { employees } = cds.entities("dan.db.master");
+const mysrvdemo = function (srv) {
 
+    // Generic handler 
+    srv.on("READ", "ReadEmployeeSrv", async (req, res) => {
+
+        var results = [];
+
+        // Example 1 : hardcoded data
+        // results.push({
+        //         "ID":"56AD5671-9034567-12340-ER89GH-6789",
+        //         "nameFirst": "Leonardo",
+        //         "nameLast": "davinci"
+        // });
+
+        // Example 2 : use Select on DB table 
+        // results = await cds.tx(req).run(SELECT.from(employees).limit(10));
+
+        // Example 3 : use Select on DB table 
+        // results = await cds.tx(req).run(SELECT.from(employees).limit(10).where({"nameFirst":"Susan"} ) );
+
+
+        // use /entity/key/
+
+        // Example 4 : Caller will pass the condition like ID
+        var whereCondition = req.data;
+        console.log(whereCondition);
+        if (whereCondition.hasOwnProperty("ID")) {
+            results = await cds.tx(req).run(SELECT.from(employees).limit(10).where({ "nameFirst": "Susan" }));
+        } else {
+            results = await cds.tx(req).run(SELECT.from(employees).limit(1));
+        }
+
+        // https://cap.cloud.sap/docs/node.js/cds-ql#where
+
+        return results;
+
+    });
+
+};
+
+
+module.exports = mysrvdemo;
 ```
 
 </br>
