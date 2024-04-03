@@ -539,8 +539,18 @@ GET http://localhost:4004/odata/v4/CatalogService/POs/74867AD200E41EDBA5D8B0C98D
 </br>
 </br>
 
-
 ## CatalogService.js
+</br>
+</br>
+
+```js
+
+
+```
+</br>
+</br>
+
+## CatalogService.cds
 </br>
 </br>
 
@@ -550,7 +560,6 @@ GET http://localhost:4004/odata/v4/CatalogService/POs/74867AD200E41EDBA5D8B0C98D
 ```
 </br>
 </br>
-
 
 </br>
 </br>
