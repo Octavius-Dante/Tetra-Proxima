@@ -185,7 +185,6 @@ To Debug we need to create config - (launch.json) file needs to be configures as
 </br>
 
 
-</br>
 ### launch.json
 </br>
 </br> change few more parameters to the config details added as shown below (project directory, and cds watch command, name description)
