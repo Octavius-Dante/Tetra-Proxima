@@ -333,8 +333,13 @@ Patch request is tested for the app as shown below (same post request key is use
 
 </br>
 The CAPM framework generates most of the code to perform CURDQ operations on the nentity.
-</br> it does not know what validations to perform
+</br> it does not know what validations to perform on our business data.
 </br>
+</br> As a developer when we want to attach a pre-check (validations) / post-check (post-processing code) 
+</br> on an entity operation, we can use generic handlers. 
+</br>
+</br> All these operations are performed <b></b>SYNCHONOUSLY</b>
+
 
 </br>
 </br>
