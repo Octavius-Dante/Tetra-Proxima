@@ -397,7 +397,7 @@ module.exports = cds.service.impl(async function () {
 
 }
 );
-````
+```
 </br>
 </br>
 
@@ -466,12 +466,92 @@ This has return value and it is used to perform an action and returns the value 
 
 ### Will Implement Action and Function in our application will test it using test.http
 </br>
+make changes to tester.http file for getting purchase orders and $expand as shwon below 
+</br>
+</br>
+</br>
+
+## tester.http
+</br>
+</br>
+
+```http
+
+GET http://localhost:4004/odata/v4/CatalogService
+
+##### Read Service metadata
+GET http://localhost:4004/odata/v4/CatalogService/$metadata
+
+
+##### GET top 2 employees
+GET http://localhost:4004/odata/v4/CatalogService/EmployeeSet?$top=2
+
+
+##### POST call - creating new employee 
+POST http://localhost:4004/odata/v4/CatalogService/EmployeeSet
+Content-Type: application/json    
+    
+    {
+      "ID": "02BD2137-0890-1EEA-A6C2-BB55C190999A",
+      "nameFirst": "Sunny",
+      "nameMiddle": null,
+      "nameLast": "Winter",
+      "nameInitials": null,
+      "sex": "F",
+      "language": "E",
+      "phoneNumber": null,
+      "email": "sunny.winter@Ey.com",
+      "loginName": "WINTERS",
+      "Currency_code": "USD",
+      "salaryAmount": 999989,
+      "accountNumber": "9988776655",
+      "bankId": "11000358",
+      "bankName": "My Bank of San Francisco"
+    }
+
+#### GET the employee which got created using POST    
+GET http://localhost:4004/odata/v4/CatalogService/EmployeeSet/02BD2137-0890-1EEA-A6C2-BB55C190999A
+
+#### PATCH request for an employee salary 
+PATCH http://localhost:4004/odata/v4/CatalogService/EmployeeSet/02BD2137-0890-1EEA-A6C2-BB55C190999A
+Content-Type: application/json
+
+{
+
+      "salaryAmount": 1200001,
+      "Currency_code": "EUR"
+
+}
+
+#### GET Display all Purchase orders 
+GET http://localhost:4004/odata/v4/CatalogService/POs
+
+
+#### GET Single Purchase orders 
+GET http://localhost:4004/odata/v4/CatalogService/POs/74867AD200E41EDBA5D8B0C98DC28052
+
+
+#### GET Main entity and associated entity together $expand
+GET http://localhost:4004/odata/v4/CatalogService/POs/74867AD200E41EDBA5D8B0C98DC28052?$expand=Items
+
+```
 
 </br>
 </br>
+
+
+## CatalogService.js
 </br>
 </br>
+
+```cds
+
+
+```
 </br>
+</br>
+
+
 </br>
 </br>
 </br>
