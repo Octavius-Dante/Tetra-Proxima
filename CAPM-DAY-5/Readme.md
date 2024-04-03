@@ -247,7 +247,7 @@ When Debuggin is successfully launched following screen changes can be identifie
 </br>
 </br>
 
-Colour of the BAS / VScode layout will be changed
+Colour of the BAS will be changed
 </br>
 </br>
 <img src="./files/capmd5-6.png" >
