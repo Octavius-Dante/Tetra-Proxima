@@ -378,7 +378,6 @@ create a file called <b>(CatalogService.js)</b> in (SRV) folder
 
 ### CatalogService.js
 </br>
-</br>
 
 ```js
 // This module block will never change its liek a template 
