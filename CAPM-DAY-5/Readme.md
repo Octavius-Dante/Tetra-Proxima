@@ -193,33 +193,34 @@ To Debug we need to create config - (launch.json) file needs to be configures as
 
 ```json
 {
- {
   "version": "0.2.0",
   "configurations": [
-   
+
+
     {
-      "command": "npm watch",
+      "command": "cds watch",
       "name": "Debug My CAP Application",
       "request": "launch",
       "type": "node-terminal",
       "cwd": "${workspaceFolder}/dante_cap"
-    },
+    } ,
 
     {
       "name": "cds serve",
       "request": "launch",
       "type": "node",
-      "cwd": "${workspaceFolder}",
-      "runtimeExecutable": "cds",
+      "cwd": "${workspaceFolder}/dante_cap",
+      "runtimeExecutable": "npx",
       "args": [
-        "serve",
-        "--with-mocks",
-        "--in-memory?"
+      "cds",
+      "serve",
+      "--with-mocks",
+      "--in-memory?"
       ],
       "skipFiles": [
-        "<node_internals>/**"
+      "<node_internals>/**"
       ]
-    }
+      }
   ]
 }
 ```
