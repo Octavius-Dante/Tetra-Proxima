@@ -348,9 +348,11 @@ At times we want to
 - We want to change data before insert/update <b>(WHICH OPERATION?)</b>
 - Read some extra information while GET calls <b>(WHAT ?)</b>
 
+</br>
+</br>
 
-</br>
-</br>
+To remmber when is teh appropriate time to use the handlers (remmebr the question pointed above)
+
 </br>
 </br>
 </br>
