@@ -199,7 +199,13 @@ After confguring the launch.json file will looks liek as follows
 ```json
 {
   "version": "0.2.0",
-  "configurations": [   
+  "configurations": [
+    {
+      "command": "npm start",
+      "name": "Run npm start",
+      "request": "launch",
+      "type": "node-terminal"
+    },
     
     {
       "name": "Launch Chrome",
