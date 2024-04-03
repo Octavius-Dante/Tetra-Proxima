@@ -340,7 +340,8 @@ The CAPM framework generates most of the code to perform CURDQ operations on the
 </br>
 </br> All these operations are performed <b>SYNCHONOUSLY</b>
 </br>
-</br> At times we want to 
+</br>
+ At times we want to 
        - a
        - b
        - c
