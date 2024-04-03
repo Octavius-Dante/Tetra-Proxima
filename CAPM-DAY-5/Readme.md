@@ -177,35 +177,33 @@ To Debug we need to create config - (launch.json) file needs to be configures as
 <img src="./files/capmd5-3a.png" >
 </br>
 <img src="./files/capmd5-3b.png" >
-</br>
-<img src="./files/capmd5-3c.png" >
-</br>
+<!-- </br>
+<img src="./files/capmd5-3c.png" > -->
+</br> 
 <img src="./files/capmd5-3d.png" >
 </br>
 </br>
 
-After confguring the launch.json, the file should look like below json sample code 
+
 </br>
 ### launch.json
+</br>
+</br> change few more parameters to the config details added as shown below (project directory, and cds watch command, name description)
+</br> After confguring the launch.json, the file should look like below json sample code 
 </br>
 
 ```json
 {
+ {
   "version": "0.2.0",
   "configurations": [
+   
     {
-      "command": "npm start",
-      "name": "Run npm start",
+      "command": "npm watch",
+      "name": "Debug My CAP Application",
       "request": "launch",
-      "type": "node-terminal"
-    },
-    
-    {
-      "name": "Launch Chrome",
-      "request": "launch",
-      "type": "chrome",
-      "url": "http://localhost:8080",
-      "webRoot": "${workspaceFolder}"
+      "type": "node-terminal",
+      "cwd": "${workspaceFolder}/dante_cap"
     },
 
     {
