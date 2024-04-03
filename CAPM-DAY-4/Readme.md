@@ -404,7 +404,7 @@ module.exports = cds.service.impl(async function () {
 now will test the code as shown below using testr.http
 </br>
 </br>
-
+<img src="./files/capmd4-16.png" >
 </br>
 </br>
 
