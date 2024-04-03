@@ -425,7 +425,7 @@ module.exports = cds.service.impl(async function () {
     // step 1: get the object of our odata entities
     const { EmployeeSet, POs } = this.entities;
 
-    // step 2:define generic handler for validaiton
+    // step 2:define generic handler for validation
     this.before('UPDATE', EmployeeSet, (req, res) => {
         console.log("It came here " + req.data.salaryAmount);
         if(parseFloat(req.data.salaryAmount) >= 1000000){
