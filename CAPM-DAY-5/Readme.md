@@ -184,7 +184,7 @@ To Debug we need to create config - (launch.json) file needs to be configures as
 </br>
 </br>
 
-After confguring the launch.json file will looks liek as follows 
+After confguring the launch.json, the file should look like below json sample code 
 </br>
 ### launch.json
 </br>
