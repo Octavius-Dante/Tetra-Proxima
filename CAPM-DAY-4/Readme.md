@@ -438,6 +438,7 @@ module.exports = cds.service.impl(async function () {
 );
 ````
 </br>
+The testing of validation is shown below 
 </br>
 <img src="./files/capmd4-17.png" >
 </br>
