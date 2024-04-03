@@ -828,13 +828,20 @@ To Control other DB activities like insert and delete sample is shown below
     entity BusinessPartnerSet as projection on db.master.businesspartner;
 ```
 
+</br>
+</br>
+</br>
+
+## How to define your own Custom - CURD operations 
+</br>
+So far we have used - POST, PATCH and GET using standard CAP functionalities to perfrom CURD operations.
+</br> If user wants to take control of defining their own logic of updating, creating, deleting, and reading data
+</br> they need to define custom service definition and implementation lets focus on how it can be done.
 
 </br>
 </br>
-</br>
-</br>
-</br>
-</br>
+### Create a CDS and JS file of same namespace <b>(Myservice.cds, Myservice.js)</b>
+
 </br>
 </br>
 </br>
