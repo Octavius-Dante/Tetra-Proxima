@@ -343,10 +343,10 @@ The CAPM framework generates most of the code to perform CURDQ operations on the
 </br>
 
 At times we want to 
-1 Take full control of our implementation
-2 We want to add some validation before data is inserted or updated
-3 We want to change data before insert/update
-4 Read some extra information while GET calls
+-1 Take full control of our implementation
+-2 We want to add some validation before data is inserted or updated
+-3 We want to change data before insert/update
+-4 Read some extra information while GET calls
 
 
 </br>
