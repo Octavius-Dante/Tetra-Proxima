@@ -229,8 +229,9 @@ To Debug we need to create config - (launch.json) file needs to be configures as
 Set a breakpoint to our <b>MyService.js</b> code as shown below
 </br>
 </br>
-<img src="./files/capmd5-4.png" >
+<img src="./files/capmd5-4a.png" >
 </br>
+<img src="./files/capmd5-4b.png" >
 </br>
 
 ```cds
