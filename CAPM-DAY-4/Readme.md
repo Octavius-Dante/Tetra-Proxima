@@ -706,7 +706,7 @@ context transaction {
 ## Testing Action and Function 
 </br>
 
-FIRST - Trigger this in tester.http 
+FIRST - Trigger this in tester.http (ACTION call)
 </br>
 </br>
 
@@ -718,6 +718,23 @@ Content-Type: application/json
 {}
 ```
 </br>
+<img src="./files/capmd4-19.png" >
+</br>
+</br>
+</br>
+
+SECOND - Trigger this in tester.http (FUNCTION call)
+</br>
+</br>
+
+```http
+#### GET Single Purchase orders 
+GET http://localhost:4004/odata/v4/CatalogService/POs/74867AD200E41EDBA5D8B0C98DC28052
+
+{}
+```
+</br>
+<img src="./files/capmd4-20.png" >
 </br>
 
 
