@@ -848,6 +848,8 @@ service MyService {
 </br>
 </br>
 
+Go through the Node section documents for CDS QUERY LANGUAGE - usage 
+</br> https://cap.cloud.sap/docs/node.js/cds-ql#where
 
 </br>
 </br>
