@@ -339,10 +339,11 @@ The CAPM framework generates most of the code to perform CURDQ operations on the
 </br> on an entity operation, we can use generic handlers. 
 </br>
 </br> All these operations are performed <b>SYNCHONOUSLY</b>
-
-
 </br>
-</br>
+</br> At times we want to 
+       - a
+       - b
+       - c
 </br>
 </br>
 </br>
