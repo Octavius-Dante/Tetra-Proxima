@@ -840,6 +840,7 @@ So far we have used - POST, PATCH and GET using standard CAP functionalities to 
 
 </br>
 </br>
+
 ### Create a CDS and JS file of same namespace <b>(Myservice.cds, Myservice.js)</b>
 
 </br>
