@@ -822,7 +822,7 @@ To Control other DB activities like insert and delete sample is shown below
 </br>
 
 ```cds
-// I want to insert but ddont want to delete
+// I want to insert but dont want to delete
     @Capabilities : { Insertable, Deletable: false }
     entity BusinessPartnerSet as projection on db.master.businesspartner;
 ```
