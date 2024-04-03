@@ -383,6 +383,8 @@ create a file called <b>(CatalogService.js)</b> in (SRV) folder
 // This module block will never change its liek a template 
 // -- whats inside this block will cahnge according to business Req
 
+// async - here means run in synchronised manner
+
 module.exports = cds.service.Impl(async function () {  
 
     // step 1: get the object of our odata entities
@@ -395,7 +397,6 @@ module.exports = cds.service.Impl(async function () {
 
 }
 );
-
 ````
 </br>
 </br>
