@@ -351,7 +351,7 @@ At times we want to
 </br>
 </br>
 
-To remmber when is teh appropriate time to use the handlers (remmebr the question pointed above)
+when to use the handlers (remmebr the question pointed above) and the scenarios
 
 </br>
 </br>
