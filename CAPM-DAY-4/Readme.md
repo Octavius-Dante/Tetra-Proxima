@@ -401,7 +401,7 @@ module.exports = cds.service.impl(async function () {
 </br>
 </br>
 
-now will test the code as shown below using testr.http
+now will test the code as shown below using <b>(tester.http)</b>
 </br>
 </br>
 <img src="./files/capmd4-16.png" >
