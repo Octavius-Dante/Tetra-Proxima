@@ -552,7 +552,7 @@ Content-Type: application/json
 {}
 
 ### Action for POST calls 
-### Function is for GET calls (it retruns value)
+### Function is for GET calls (it returns value)
 
 
 #### GET largest order -- it is a function so () paranthesis is needed
