@@ -132,12 +132,9 @@ module.exports = mysrvdemo;
 </br>
 </br>
 After making the code changes deploy it and run
-
-</br>
 </br>
 
 ## tester.http (add these lines) 
-</br>
 </br>
 
 ```http
