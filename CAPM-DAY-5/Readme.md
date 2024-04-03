@@ -136,6 +136,10 @@ After making the code changes deploy it and run
 </br>
 </br>
 
+## tester.http (add these lines) 
+</br>
+</br>
+
 ```http
 #### POST to insert data
 POST http://localhost:4004/odata/v4/mysrvdemo/InsertEmployeeSrv
