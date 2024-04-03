@@ -332,7 +332,7 @@ Patch request is tested for the app as shown below (same post request key is use
 ## Generic handlers in CAP
 
 </br>
-The CAPM framework generates most of the code to perform CURDQ operations on the nentity.
+The CAPM framework generates most of the code to perform CURDQ operations on the entity.
 </br> it does not know what validations to perform on our business data.
 </br>
 </br> As a developer when we want to attach a pre-check (validations) / post-check (post-processing code) 
