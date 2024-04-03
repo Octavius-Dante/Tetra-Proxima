@@ -385,10 +385,10 @@ create a file called <b>(CatalogService.js)</b> in (SRV) folder
 
 // async - here means run in synchronised manner
 
-module.exports = cds.service.Impl(async function () {  
+module.exports = cds.service.impl(async function () {
 
     // step 1: get the object of our odata entities
-    const { employeeSet, POs } = this.entities;
+    const { EmployeeSet, POs } = this.entities;
 
     // step 2:define generic handler for validaiton
     this.before('UPDATE', EmployeeSet, (req, res) => {
