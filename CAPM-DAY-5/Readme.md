@@ -174,7 +174,9 @@ will test the application now
 </br>
 </br>
 
-will troubleshoot it by debugging now 
+Will troubleshoot it by debugging now.
+</br>
+To Debug we need to create config - (launch.json) file needs to be configures as shown below
 </br>
 </br>
 <img src="./files/capmd5-2.png" >
