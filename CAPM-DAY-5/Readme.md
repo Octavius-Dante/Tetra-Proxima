@@ -8,9 +8,6 @@
 Will continue today from yesterdays application 
 </br> - will focus on creating Custom service (Insert, Update and delete) <b>MyServices.cds , Myservice.js</b>
 
-</br>
-</br>
-
 ## MyService.js  - (CURD)
 </br>
 </br>
