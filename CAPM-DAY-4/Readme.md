@@ -408,9 +408,31 @@ now will test the code as shown below using <b>(tester.http)</b>
 </br>
 </br>
 
+Now will add validation to teh block to handle teh scenario
 </br>
+</br>
+### CatalogService.js (with validation)
 </br>
 
+```js
+// This module block will never change its liek a template 
+// -- whats inside this block will cahnge according to business Req
+
+// async - here means run in synchronised manner
+
+module.exports = cds.service.impl(async function () {
+
+    // step 1: get the object of our odata entities
+    const { EmployeeSet, POs } = this.entities;
+
+    // step 2:define generic handler for validaiton
+    this.before('UPDATE', EmployeeSet, (req, res) => {
+        console.log("It came here " + req.data.salaryAmount);
+    });
+
+}
+);
+````
 </br>
 </br>
 </br>
