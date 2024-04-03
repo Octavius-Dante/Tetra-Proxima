@@ -16,7 +16,7 @@ Go to our application SRV folder and create a file (CatalogService.cds) as shown
 </br>
 </br>
 
-## MyService.js 
+## MyService.js  - (CURD)
 </br>
 </br>
 
