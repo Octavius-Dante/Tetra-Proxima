@@ -234,6 +234,14 @@ Set a breakpoint to our <b>MyService.js</b> code as shown below
 <img src="./files/capmd5-4b.png" >
 </br>
 
+</br>
+</br>
+To launch the Debugging 
+</br>
+<img src="./files/capmd5-5a.png" >
+</br>
+</br>
+
 ```cds
 
 ```
