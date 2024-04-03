@@ -782,7 +782,19 @@ context transaction {
 </br>
 </br>
 </br>
+
+To Control post operation to restrict creating record in an entity use @readonly in catalogservice.cds as shown below 
 </br>
+
+## catalogService.cds
+</br>
+
+```cds
+// I want to restrict CAP from doing post on employee use @readonly 
+    @readonly   
+    entity EmployeeSet        as projection on db.master.employees;
+```
+
 </br>
 </br>
 </br>
