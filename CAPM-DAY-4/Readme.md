@@ -381,7 +381,21 @@ create a file called <b>(CatalogService.js)</b> in (SRV) folder
 </br>
 
 ```js
+// This module block will never change its liek a template 
+// -- whats inside this block will cahnge according to business Req
 
+module.exports = cds.service.Impl(async function () {  
+
+    // step 1: get the object of our odata entities
+    const { employeeSet, POs } = this.entities;
+
+    // step 2:define generic handler for validaiton
+    this.before('UPDATE', EmployeeSet, (req, res) => {
+        console.log("It came here " + req.data.salaryAmount);
+    });
+
+}
+);
 
 ````
 </br>
