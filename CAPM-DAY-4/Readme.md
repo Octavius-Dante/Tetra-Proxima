@@ -369,15 +369,21 @@ As per above handlers appropriate usage questioning
 </br>
 </br>
 
+### Now lets focus on building generic handlers validaiton for our app 
+</br>
+</br>
+create a file called <b>(CatalogService.js)</b> in (SRV) folder
 </br>
 </br>
 
+### CatalogService.js
 </br>
 </br>
 
-</br>
-</br>
+```js
 
+
+````
 </br>
 </br>
 
