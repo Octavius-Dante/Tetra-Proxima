@@ -539,7 +539,47 @@ GET http://localhost:4004/odata/v4/CatalogService/POs/74867AD200E41EDBA5D8B0C98D
 </br>
 </br>
 
-## CatalogService.js
+
+## CatalogService.cds  (Action , Function Definition)
+</br>
+</br>
+
+```cds
+// importing data models and views to our service
+using {dan.db} from '../db/datamodel';
+using {dante.cds} from '../db/CDSViews';
+
+// so in cap services odata will trim tha name when there is upper case in the word
+// example MyName will be dispalyed as My the part (Name) will be removed
+// to avoid this we use @(path:<service-name>) annotation
+
+service CatalogService @(path: 'CatalogService') {
+
+    entity BusinessPartnerSet as projection on db.master.businesspartner;
+    entity AddressSet         as projection on db.master.address;
+    entity EmployeeSet        as projection on db.master.employees;
+    entity PurchseOrderItems  as projection on db.transaction.poitems;
+
+    entity POs                as
+        projection on db.transaction.purchaseorder {
+            *,
+            Items : redirected to PurchseOrderItems
+        } actions {
+// Definition Part - need to do implementation part - in JS file             
+            action boost();
+            function largestorder() returns array of  POs;
+        };
+
+    entity CProductValuesView as projection on cds.CDSViews.CProductValuesView;
+
+}
+
+
+```
+</br>
+</br>
+
+## CatalogService.js (Action , Function Implementation)
 </br>
 </br>
 
@@ -550,16 +590,7 @@ GET http://localhost:4004/odata/v4/CatalogService/POs/74867AD200E41EDBA5D8B0C98D
 </br>
 </br>
 
-## CatalogService.cds
-</br>
-</br>
 
-```cds
-
-
-```
-</br>
-</br>
 
 </br>
 </br>
