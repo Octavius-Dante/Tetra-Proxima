@@ -551,6 +551,16 @@ Content-Type: application/json
 
 {}
 
+### Action for POST calls 
+### Function is for GET calls (it retruns value)
+
+
+#### GET largest order -- it is a function so () paranthesis is needed
+GET http://localhost:4004/odata/v4/CatalogService/POs('74867AD200E41EDBA5D8B0C98DC28052')/CatalogService.largestOrder()
+Content-Type: application/json
+
+{}
+
 ```
 
 </br>
