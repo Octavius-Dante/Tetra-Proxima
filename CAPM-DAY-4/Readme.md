@@ -345,17 +345,24 @@ The CAPM framework generates most of the code to perform CURDQ operations on the
 At times we want to 
 - Take full control of our implementation <b>(WHEN? -- On, Before, After)</b>
 - We want to add some validation before data is inserted or updated <b>(FOR WHOM? - Entity)</b>
-- We want to change data before insert/update <b>(WHICH OPERATION? - CREATE, UPDATE, DELETE, RETRIEVE )</b>
-- Read some extra information while GET calls <b>(WHAT Business Logic ?)</b>
+- We want to change data before insert/update <b>(WHICH OPERATION? - CREATE, UPDATE, (POST, PATCH) )</b>
+- Read some extra information while GET calls <b>(WHAT? Business Logic )</b>
 
-</br>
-</br>
-
-</br>
 </br>
 </br>
 </br>
 
+As per above handlers appropriate usage questioning 
+</br> lets consider it for a sceanrio (validate salary) before updating or creating entry in table 
+</br> following question suits as shown below 
+</br>
+
+- WHEN? -- <b>validate Before</b> 
+- FOR WHOM? - <b>Entity - Employees</b>
+- WHICH OPERATION? - CREATE, UPDATE, (POST, PATCH) 
+- WHAT Business Logic ? - Check if salary is < (condition value)
+
+</br>
 </br>
 </br>
 </br>
