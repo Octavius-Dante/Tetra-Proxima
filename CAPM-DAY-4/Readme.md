@@ -907,4 +907,15 @@ Go through the Node section documents for CDS QUERY LANGUAGE - usage
 </br>
 </br>
 </br>
+</br>
 
+# NEXT ------ CAPM - DAY 4 - Generic Handlers
+
+<p align="center"> 
+<a href="https://github.com/Octavius-Dante/Tetra_Proxima/tree/main/CAPM-DAY-4"> CAPM DAY 4 - Generic Handlers</a> 
+</p>
+
+</br>
+</br>
+</br>
+</br>
