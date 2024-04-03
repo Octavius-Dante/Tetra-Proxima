@@ -284,12 +284,34 @@ A debug navigation window will have all the navigation buttons enabled for usage
 
 Navigation window options 
 </br>
+<img src="./files/capmd5-7a.png" >
+</br>
+</br>
+
+</br>
 </br>
 <img src="./files/capmd5-7a.png" >
+</br>
+</br>
+
+</br>
+</br>
 <img src="./files/capmd5-7b.png" >
+</br>
+</br>
+
+</br>
+</br>
 <img src="./files/capmd5-7c.png" >
+</br>
+</br>
+
+</br>
+</br>
 <img src="./files/capmd5-7d.png" >
 </br>
+</br>
+
 </br>
 
 you can check the data of the variable in debug console as shown below 
