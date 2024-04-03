@@ -13,7 +13,6 @@ Will continue today from yesterdays application
 </br>
 
 ```js
-
 const cds = require("@sap/cds");
 const { employees } = cds.entities("dan.db.master");
 const mysrvdemo = function (srv) {
