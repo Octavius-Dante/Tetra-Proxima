@@ -703,6 +703,30 @@ context transaction {
 </br>
 </br>
 
+## Testing Action and Function 
+</br>
+
+FIRST - Trigger this in tester.http 
+</br>
+</br>
+
+```http
+#### Boosting a Order - TYPE 1 (CALL)
+POST http://localhost:4004/odata/v4/CatalogService/POs/74867AD200E41EDBA5D8B0C98DC28052/boost
+Content-Type: application/json
+
+{}
+```
+</br>
+</br>
+
+
+</br>
+</br>
+</br>
+</br>
+</br>
+
 To Control post operation to restrict creating record in an entity use @readonly in catalogservice.cds as shown below 
 </br>
 
