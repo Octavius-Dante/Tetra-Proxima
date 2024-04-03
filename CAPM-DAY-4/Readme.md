@@ -448,6 +448,16 @@ The testing of validation is shown below
 
 </br>
 </br>
+
+## Action 
+</br>
+This doesnt have return value and it is used to perform a calculation or some action some process in a Buisness Logic
+
+</br>
+## Function
+</br>
+This has return value and it is used to perform an action and returns the value in a business logic
+
 </br>
 </br>
 </br>
