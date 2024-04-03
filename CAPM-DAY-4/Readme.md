@@ -539,7 +539,7 @@ GET http://localhost:4004/odata/v4/CatalogService/POs/74867AD200E41EDBA5D8B0C98D
 GET http://localhost:4004/odata/v4/CatalogService/POs/74867AD200E41EDBA5D8B0C98DC28052?$expand=Items
 
 
-#### Boosting a Order 
+#### Boosting a Order - TYPE 1 (CALL)
 POST http://localhost:4004/odata/v4/CatalogService/POs/74867AD200E41EDBA5D8B0C98DC28052/boost
 Content-Type: application/json
 
