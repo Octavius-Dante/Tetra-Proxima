@@ -239,8 +239,77 @@ Set a breakpoint to our <b>MyService.js</b> code as shown below
 </br>
 To launch the Debugging 
 </br>
-<img src="./files/capmd5-5a.png" >
+<img src="./files/capmd5-5.png" >
 </br>
+</br>
+
+When Debuggin is successfully launched following screen changes can be identified
+</br>
+</br>
+
+Colour of the BAS / VScode layout will be changed
+</br>
+</br>
+<img src="./files/capmd5-6.png" >
+</br>
+</br>
+
+A small debug navigation window will appear - this prooves that debuggin mode is active 
+</br>
+</br>
+<img src="./files/capmd5-6a.png" >
+</br>
+</br>
+
+Go to tester.http and trigger the POST call for our MyService.js (Insert Employee service) 
+</br>
+</br>
+<img src="./files/capmd5-6b.png" >
+</br>
+</br>
+
+The trigger from tester.http file should stop at breakpoint as shown in the screen
+</br>
+</br>
+<img src="./files/capmd5-6c.png" >
+</br>
+</br>
+
+A debug navigation window will have all the navigation buttons enabled for usage
+</br>
+</br>
+<img src="./files/capmd5-6d.png" >
+</br>
+</br>
+
+Navigation window options 
+</br>
+</br>
+<img src="./files/capmd5-7a.png" >
+<img src="./files/capmd5-7b.png" >
+<img src="./files/capmd5-7c.png" >
+<img src="./files/capmd5-7d.png" >
+</br>
+</br>
+
+you can check the data of the variable in debug console as shown below 
+</br>
+</br>
+<img src="./files/capmd5-8a.png" >
+</br>
+</br>
+
+The successful post of the data is refelected in response window
+</br>
+</br>
+<img src="./files/capmd5-9.png" >
+</br>
+</br>
+
+</br>
+</br>
+
+Colour of the BAS / VScode layout will be changed
 </br>
 
 ```cds
