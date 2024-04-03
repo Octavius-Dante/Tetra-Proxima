@@ -167,23 +167,16 @@ Content-Type: application/json
       "bankName": "Bank of NY"
     }
 ```
-
-</br> 
 </br>
 will test the application now 
-</br>
 </br>
 <img src="./files/capmd5-1.png" >
 </br>
 </br>
 
-</br>
-</br>
 will troubleshoot it by debugging now 
 </br>
 </br>
-
-
 
 ```cds
 
