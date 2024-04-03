@@ -628,6 +628,7 @@ module.exports = cds.service.impl(async function () {
                 
     });
 
+// ACTION
     this.on('boost', async (req,res) => {
         try {
             const ID = req.params[0];
@@ -644,6 +645,7 @@ module.exports = cds.service.impl(async function () {
         }        
     });
 
+// FUNCTION 
     this.on( 'largestOrder', async (req,res) => {
         try {
             const ID = req.params[0];
@@ -673,7 +675,6 @@ module.exports = cds.service.impl(async function () {
 // Durability - data base should be durable enought to perform the transaction else transaction will be rejected 
 
 // it is an api provided by sap for cds transaction - can check the deailed info here https://cap.cloud.sap/docs/node.js/cds-tx
-
 ```
 </br>
 </br>
