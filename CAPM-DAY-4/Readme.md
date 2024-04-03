@@ -815,7 +815,22 @@ So far we have used - POST, PATCH and GET using standard CAP functionalities to 
 </br>
 
 ```cds
+using { dan.db.master, dan.db.transaction } from '../db/datamodel';
 
+// I dont want CAP to control CURD operations 
+// I want my custom operations for CURD - thats why the following definitions created 
+
+service MyService {
+
+    @readonly
+    entity ReadEmployeeSrv as projection on master.employees;
+    @insertonly
+    entity InsrEmployeeSrv as projection on master.employees;
+    @updateonly
+    entity UpdateEmployeeSrv as projection on master.employees;
+    @Deleteonly
+    entity DeleteEmployeeSrv as projection on master.employees;
+}
 ```
 
 </br>
