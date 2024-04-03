@@ -79,8 +79,9 @@ const mysrvdemo = function (srv) {
                 req.error(500,"Create Failed");
             }
         }).catch( err => {
-            req.error(500," There was an error "+ err.tostring());
-        })
+            req.error(500," There was an error "+ err.toString());
+        });
+        return returnData;
     });
 
 // UPDATE DATA 
@@ -105,8 +106,9 @@ const mysrvdemo = function (srv) {
                 req.error(500,"Update Failed");
             }
         }).catch( err => {
-            req.error(500," There was an error "+ err.tostring());
-        })
+            req.error(500," There was an error "+ err.toString());
+        });
+        return returnData;
     });
 
 // DELETE DATA     
@@ -125,11 +127,9 @@ const mysrvdemo = function (srv) {
                 req.error(500,"Delete Failed");
             }
         }).catch( err => {
-            req.error(500," There was an error "+ err.tostring());
-        })
-
+            req.error(500," There was an error "+ err.toString());
+        });
         return returnData;
-
     });
 };
 
