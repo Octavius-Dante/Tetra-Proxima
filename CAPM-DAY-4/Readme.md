@@ -582,7 +582,71 @@ service CatalogService @(path: 'CatalogService') {
 </br>
 
 ```js
+// This module block will never change its liek a template 
+// -- whats inside this block will cahnge according to business Req
 
+// async - here means run in synchronised manner
+
+module.exports = cds.service.impl(async function () {
+
+    // step 1: get the object of our odata entities
+    const { EmployeeSet, POs } = this.entities;
+
+    // step 2:define generic handler for validaiton
+    this.before('UPDATE', EmployeeSet, (req, res) => {
+        console.log("It came here " + req.data.salaryAmount);
+        if(parseFloat(req.data.salaryAmount) >= 1000000){
+            req.error(500, "Salary must be less than a million for employee");
+        }
+                
+    });
+
+    this.on('boost', async (req,res) => {
+        try {
+            const ID = req.params[0];
+            console.log("Hey Amigo you purcahse order with id " + req.param[0] + " will be boosted");
+
+// CDS querly language converted from JS to cds 
+            const tx = cds.tx(req);
+            await tx.update(POs).with({
+                GROSS_AMOUNT: { '+=' : 20000 },
+                NOTE: 'Boosted!!'
+            }).where(ID);
+        } catch (error) {
+            return "Error" + error.toString();
+        }        
+    });
+
+    this.on( 'largestOrder', async (req,res) => {
+        try {
+            const ID = req.params[0];
+            const tx = cds.tx(req);
+            
+            // SELECT * UPTO 1 Row from dbtab ORDERBY GROSS_AMOUNT desc
+            const reply = await tx.read(POs).orderBy({
+                GROSS_AMOUNT: 'desc'
+            }).limit(1);
+
+
+            return reply;
+        } catch (error) {
+            
+        }
+
+    });
+
+}
+);
+
+
+// cds.tx is called CDS Transaction management
+// ACID 
+// Atomicity - Either completely fail or completley success 
+// Consistency - Transction should leave DB in a consistent state
+// Isolation - Each transaction is isoalted from each other 
+// Durability - data base should be durable enought to perform the transaction else transaction will be rejected 
+
+// it is an api provided by sap for cds transaction - can check the deailed info here https://cap.cloud.sap/docs/node.js/cds-tx
 
 ```
 </br>
