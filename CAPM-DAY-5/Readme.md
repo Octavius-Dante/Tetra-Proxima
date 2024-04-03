@@ -189,6 +189,45 @@ To Debug we need to create config - (launch.json) file needs to be configures as
 </br>
 <img src="./files/capmd5-3d.png" >
 </br>
+</br>
+
+After confguring the launch.json file will looks liek as follows 
+</br>
+### launch.json
+</br>
+
+```json
+{
+  "version": "0.2.0",
+  "configurations": [   
+    
+    {
+      "name": "Launch Chrome",
+      "request": "launch",
+      "type": "chrome",
+      "url": "http://localhost:8080",
+      "webRoot": "${workspaceFolder}"
+    },
+
+    {
+      "name": "cds serve",
+      "request": "launch",
+      "type": "node",
+      "cwd": "${workspaceFolder}",
+      "runtimeExecutable": "cds",
+      "args": [
+        "serve",
+        "--with-mocks",
+        "--in-memory?"
+      ],
+      "skipFiles": [
+        "<node_internals>/**"
+      ]
+    }
+  ]
+}
+```
+</br>
 
 </br>
 </br>
