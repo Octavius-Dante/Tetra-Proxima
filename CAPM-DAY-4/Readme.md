@@ -539,13 +539,13 @@ GET http://localhost:4004/odata/v4/CatalogService/POs/74867AD200E41EDBA5D8B0C98D
 GET http://localhost:4004/odata/v4/CatalogService/POs/74867AD200E41EDBA5D8B0C98DC28052?$expand=Items
 
 
-#### Boosting a Order - TYPE 1 (CALL)
+#### Boosting a Order - TYPE 1 (ACTION CALL)
 POST http://localhost:4004/odata/v4/CatalogService/POs/74867AD200E41EDBA5D8B0C98DC28052/boost
 Content-Type: application/json
 
 {}
 
-#### Boosting a Order - TYPE 2 (CALL)
+#### Boosting a Order - TYPE 2 (ACTION CALL)
 POST http://localhost:4004/odata/v4/CatalogService/POs('74867AD200E41EDBA5D8B0C98DC28052')/CatalogService.boost
 Content-Type: application/json
 
@@ -555,7 +555,7 @@ Content-Type: application/json
 ### Function is for GET calls (it returns value)
 
 
-#### GET largest order -- it is a function so () paranthesis is needed
+#### GET largest order -- it is a function so () paranthesis is needed (FUNCTION CALL)
 GET http://localhost:4004/odata/v4/CatalogService/POs('74867AD200E41EDBA5D8B0C98DC28052')/CatalogService.largestOrder()
 Content-Type: application/json
 
@@ -736,10 +736,16 @@ GET http://localhost:4004/odata/v4/CatalogService/POs/74867AD200E41EDBA5D8B0C98D
 </br>
 <img src="./files/capmd4-20.png" >
 </br>
+</br>
 
-
+To check whether this testing is done correctly 
+- - pick a POs key with status NULL
+- - use it on BOOST (ACTION call)
+- - check the status using GET POs it should be updated as BOOSTED 
 </br>
 </br>
+
+
 </br>
 </br>
 </br>
