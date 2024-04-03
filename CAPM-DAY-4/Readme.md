@@ -458,7 +458,7 @@ This doesnt have return value and it is used to perform a calculation or some ac
 
 ## Function
 </br>
-This has return value and it is used to perform an action and returns the value in a business logic
+This has return value and it is used to perform an action and returns the value in a Business logic
 </br>
 
 </br>
