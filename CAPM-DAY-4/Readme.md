@@ -353,7 +353,7 @@ At times we want to
 </br>
 
 As per above handlers appropriate usage questioning 
-</br> lets consider it for a sceanrio (validate salary) before updating or creating entry in table 
+</br> lets consider it for a sceanrio (validate salary greater than 1 million) before updating or creating entry in table 
 </br> following question suits as shown below 
 </br>
 
