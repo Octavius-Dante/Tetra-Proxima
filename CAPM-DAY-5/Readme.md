@@ -58,7 +58,7 @@ const mysrvdemo = function (srv) {
 
 // CAPM DAY -5
 // CREATE DATA 
-    srv.on("CREATE", "InsrEmployeeSrv", async (req, res) => {
+    srv.on("CREATE", "InsertEmployeeSrv", async (req, res) => {
         var dataSet = [];
         let returnData = await cds.transaction(req).run([
 
@@ -129,6 +129,7 @@ const mysrvdemo = function (srv) {
 module.exports = mysrvdemo;
 
 ```
+
 </br>
 </br>
 After making the code changes deploy it and run
