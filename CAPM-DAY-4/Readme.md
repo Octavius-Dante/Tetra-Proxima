@@ -479,6 +479,7 @@ make changes to tester.http file for getting purchase orders and $expand as shwo
 
 GET http://localhost:4004/odata/v4/CatalogService
 
+
 ##### Read Service metadata
 GET http://localhost:4004/odata/v4/CatalogService/$metadata
 
@@ -512,6 +513,7 @@ Content-Type: application/json
 #### GET the employee which got created using POST    
 GET http://localhost:4004/odata/v4/CatalogService/EmployeeSet/02BD2137-0890-1EEA-A6C2-BB55C190999A
 
+
 #### PATCH request for an employee salary 
 PATCH http://localhost:4004/odata/v4/CatalogService/EmployeeSet/02BD2137-0890-1EEA-A6C2-BB55C190999A
 Content-Type: application/json
@@ -533,6 +535,19 @@ GET http://localhost:4004/odata/v4/CatalogService/POs/74867AD200E41EDBA5D8B0C98D
 
 #### GET Main entity and associated entity together $expand
 GET http://localhost:4004/odata/v4/CatalogService/POs/74867AD200E41EDBA5D8B0C98DC28052?$expand=Items
+
+
+#### Boosting a Order 
+POST http://localhost:4004/odata/v4/CatalogService/POs/74867AD200E41EDBA5D8B0C98DC28052/boost
+Content-Type: application/json
+
+{}
+
+#### Boosting a Order - TYPE 2 (CALL)
+POST http://localhost:4004/odata/v4/CatalogService/POs('74867AD200E41EDBA5D8B0C98DC28052')/CatalogService.boost
+Content-Type: application/json
+
+{}
 
 ```
 
