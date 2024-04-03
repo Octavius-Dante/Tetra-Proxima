@@ -557,9 +557,6 @@ Content-Type: application/json
 
 #### GET largest order -- it is a function so () paranthesis is needed (FUNCTION CALL)
 GET http://localhost:4004/odata/v4/CatalogService/POs('74867AD200E41EDBA5D8B0C98DC28052')/CatalogService.largestOrder()
-Content-Type: application/json
-
-{}
 
 ```
 
@@ -703,10 +700,10 @@ context transaction {
 </br>
 </br>
 
-## Testing Action and Function 
+## Testing Action 
 </br>
 
-FIRST - Trigger this in tester.http (ACTION call)
+FIRST - Trigger this in tester.http (ACTION call) (POST)
 </br>
 </br>
 
@@ -723,7 +720,7 @@ Content-Type: application/json
 </br>
 </br>
 
-SECOND - Trigger this in tester.http (FUNCTION call)
+SECOND - Trigger this in tester.http (GET) 
 </br>
 </br>
 
@@ -746,9 +743,22 @@ To check whether this testing is done correctly
 </br>
 
 
+## Testing Function
+</br>
+This is just a simple get call which returns the purchase order with highest GROSS_AMOUNT value
+</br>
+
+Trigger this (Function call)
+</br>
+```http
+#### GET largest order -- it is a function so () paranthesis is needed (FUNCTION CALL)
+GET http://localhost:4004/odata/v4/CatalogService/POs('74867AD200E41EDBA5D8B0C98DC28052')/CatalogService.largestOrder()
+```
 </br>
 </br>
 </br>
+
+
 
 To Control post operation to restrict creating record in an entity use @readonly in catalogservice.cds as shown below 
 </br>
