@@ -90,7 +90,7 @@ use <b>(?$format=json) </b> to the link and you will see the following page pres
 </br>
 </br>
 
-### Backward compatibility 
+### Backward compatibility - Odata V2
 </br>
 </br>
 
