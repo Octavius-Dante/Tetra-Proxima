@@ -464,7 +464,7 @@ This has return value and it is used to perform an action and returns the value 
 </br>
 
 
-### Will Implement Action and Function in our application will test it using test.http
+### Will Implement Action and Function in our application will test it using (tester.http) file 
 </br>
 make changes to tester.http file for getting purchase orders and $expand as shwon below 
 </br>
