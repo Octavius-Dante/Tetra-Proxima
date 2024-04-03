@@ -329,7 +329,7 @@ Patch request is tested for the app as shown below (same post request key is use
 </br>
 </br>
 
-## Generic ahandlers in CAP
+## Generic handlers in CAP
 
 </br>
 The CAPM framework generates most of the code to perform CURDQ operations on the nentity.
