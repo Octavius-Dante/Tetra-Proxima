@@ -542,7 +542,6 @@ GET http://localhost:4004/odata/v4/CatalogService/POs/74867AD200E41EDBA5D8B0C98D
 
 ## CatalogService.cds  (Action , Function Definition)
 </br>
-</br>
 
 ```cds
 // importing data models and views to our service
@@ -580,7 +579,6 @@ service CatalogService @(path: 'CatalogService') {
 </br>
 
 ## CatalogService.js (Action , Function Implementation)
-</br>
 </br>
 
 ```js
