@@ -473,7 +473,7 @@ make changes to tester.http file for getting purchase orders and $expand as shwo
 </br>
 </br>
 
-## tester.http
+## tester.http  (Complete File)
 </br>
 </br>
 
@@ -551,12 +551,22 @@ Content-Type: application/json
 
 {}
 
+
 ### Action for POST calls 
 ### Function is for GET calls (it returns value)
 
-
 #### GET largest order -- it is a function so () paranthesis is needed (FUNCTION CALL)
 GET http://localhost:4004/odata/v4/CatalogService/POs('74867AD200E41EDBA5D8B0C98DC28052')/CatalogService.largestOrder()
+
+
+#### GET - Custome code GET entity 
+GET http://localhost:4004/odata/v4/mysrvdemo/ReadEmployeeSrv
+
+
+#### GET Custom code - GET entity - with dynamic where 
+GET http://localhost:4004/odata/v4/mysrvdemo/ReadEmployeeSrv/02BD2137-0890-1EEA-A6C2-BB55C190999A
+
+
 
 ```
 
