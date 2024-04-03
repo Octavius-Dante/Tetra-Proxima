@@ -186,10 +186,10 @@ To Debug we need to create config - (launch.json) file needs to be configures as
 
 
 ### launch.json
-</br>
+
 </br> change few more parameters to the config details added as shown below (project directory, and cds watch command, name description)
 </br> After confguring the launch.json, the file should look like below json sample code 
-</br>
+
 
 ```json
 {
