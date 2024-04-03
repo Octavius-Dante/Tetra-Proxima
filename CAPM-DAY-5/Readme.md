@@ -138,20 +138,51 @@ module.exports = mysrvdemo;
 
 ```
 </br>
+</br>
+After making the code changes deploy it and run
+
+</br>
+</br>
+
+```http
+#### POST to insert data
+POST http://localhost:4004/odata/v4/mysrvdemo/InsertEmployeeSrv
+Content-Type: application/json    
+    
+    {
+      "ID": "02BD2137-0890-1EEA-A6C2-BB55C190999A",
+      "nameFirst": "John",
+      "nameMiddle": null,
+      "nameLast": "RAMBO",
+      "nameInitials": null,
+      "sex": "Max-Forwards: ",
+      "language": "E",
+      "phoneNumber": null,
+      "email": "J.Rambo@Ey.com",
+      "loginName": "RAMBOJ",
+      "Currency_code": "USD",
+      "salaryAmount": 999989,
+      "accountNumber": "9988776655",
+      "bankId": "77052358",
+      "bankName": "Bank of NY"
+    }
+```
+
+</br> 
+</br>
+will test the application now 
+</br>
+</br>
 <img src="./files/capmd5-1.png" >
 </br>
 </br>
 
-After making the file with mentioend contents dont just run it deploy it and run
-</br> if it is run directly - it goes to dump liek shown below 
 </br>
-
-<img src="./files/capmd4-5.png" >
+</br>
+will troubleshoot it by debugging now 
 </br>
 </br>
 
-
-</br>
 
 
 ```cds
