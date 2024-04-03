@@ -315,10 +315,12 @@ When POST system is successfully triggered as shown below
 </br>
 <img src="./files/capmd4-13a.png" >
 </br>
+</br>
 
+Patch request is tested for the app as shown below (same post request key is used)
 </br>
 </br>
-</br>
+<img src="./files/capmd4-14.png" >
 </br>
 
 </br>
