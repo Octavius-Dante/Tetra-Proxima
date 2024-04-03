@@ -815,16 +815,16 @@ To Control post operation to restrict creating record in an entity use @readonly
 </br>
 </br>
 
-To Control post operation to restrict creating record in an entity use @readonly in catalogservice.cds as shown below 
+To Control other DB activities like insert and delete sample is shown below
 </br>
 
 ## catalogService.cds
 </br>
 
 ```cds
-// I want to restrict CAP from doing post on employee use @readonly 
-    @readonly   
-    entity EmployeeSet        as projection on db.master.employees;
+// I want to insert but ddont want to delete
+    @Capabilities : { Insertable, Deletable: false }
+    entity BusinessPartnerSet as projection on db.master.businesspartner;
 ```
 
 
