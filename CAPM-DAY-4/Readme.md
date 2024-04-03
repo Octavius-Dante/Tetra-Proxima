@@ -338,7 +338,7 @@ The CAPM framework generates most of the code to perform CURDQ operations on the
 </br> As a developer when we want to attach a pre-check (validations) / post-check (post-processing code) 
 </br> on an entity operation, we can use generic handlers. 
 </br>
-</br> All these operations are performed <b></b>SYNCHONOUSLY</b>
+</br> All these operations are performed <b>SYNCHONOUSLY</b>
 
 
 </br>
