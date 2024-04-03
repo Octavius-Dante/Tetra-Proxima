@@ -278,15 +278,14 @@ The trigger from tester.http file should stop at breakpoint as shown in the scre
 A debug navigation window will have all the navigation buttons enabled for usage
 </br>
 </br>
-<img src="./files/capmd5-6d.png" >
-</br>
-</br>
-
-Navigation window options 
-</br>
 <img src="./files/capmd5-7.png" >
 </br>
 </br>
+
+### Navigation window options 
+</br>
+</br>
+
 
 </br>
 </br>
