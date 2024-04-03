@@ -619,7 +619,7 @@ module.exports = cds.service.impl(async function () {
     this.on('boost', async (req,res) => {
         try {
             const ID = req.params[0];
-            console.log("Hey Amigo you purcahse order with id " + req.param[0] + " will be boosted");
+            console.log("Hey Amigo you purcahse order with id " + JSON.stringify(req.params[0]) + " will be boosted");
 
 // CDS querly language converted from JS to cds 
             const tx = cds.tx(req);
@@ -637,11 +637,10 @@ module.exports = cds.service.impl(async function () {
             const ID = req.params[0];
             const tx = cds.tx(req);
             
-            // SELECT * UPTO 1 Row from dbtab ORDERBY GROSS_AMOUNT desc
+// SELECT * UPTO 1 Row from dbtab ORDERBY GROSS_AMOUNT desc
             const reply = await tx.read(POs).orderBy({
                 GROSS_AMOUNT: 'desc'
             }).limit(1);
-
 
             return reply;
         } catch (error) {
