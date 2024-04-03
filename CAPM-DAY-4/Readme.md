@@ -428,6 +428,10 @@ module.exports = cds.service.impl(async function () {
     // step 2:define generic handler for validaiton
     this.before('UPDATE', EmployeeSet, (req, res) => {
         console.log("It came here " + req.data.salaryAmount);
+        if(parseFloat(req.data.salaryAmount) >= 1000000){
+            req.error(500, "Salary must be less than a million for employee");
+        }
+                
     });
 
 }
