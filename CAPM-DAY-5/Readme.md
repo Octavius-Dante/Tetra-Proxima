@@ -60,7 +60,7 @@ const mysrvdemo = function (srv) {
 // CREATE DATA 
     srv.on("CREATE", "InsrEmployeeSrv", async (req, res) => {
         var dataSet = [];
-        let returnData = await cds.transaction(tx).run([
+        let returnData = await cds.transaction(req).run([
 
 // INSERT operation             
             INSERT.into(employees).entries(dataSet)
@@ -79,7 +79,7 @@ const mysrvdemo = function (srv) {
 // UPDATE DATA 
     srv.on("UPDATE", "UpdateEmployeeSrv", async (req, res) => {
         var dataSet = [];
-        let returnData = await cds.transaction(tx).run([
+        let returnData = await cds.transaction(req).run([
 
 // Update Operation
             UPDATE.into(employees).set ({
@@ -107,7 +107,7 @@ const mysrvdemo = function (srv) {
     srv.on("DELETE", "DeleteEmployeeSrv", async (req, res) => {
 
         var dataSet = [];
-        let returnData = await cds.transaction(tx).run([
+        let returnData = await cds.transaction(req).run([
 
 // DELETE Operation
             DELETE.from(employees).where({ID: req.data.ID})
