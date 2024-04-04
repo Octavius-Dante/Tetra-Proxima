@@ -641,7 +641,7 @@ module.exports = cds.service.impl(async function () {
             const ID = req.params[0];
             console.log("Hey Amigo you purcahse order with id " + JSON.stringify(req.params[0]) + " will be boosted");
 
-// CDS querly language converted from JS to cds 
+// (CQL) CDS query language converted from JS to cds 
             const tx = cds.tx(req);
             await tx.update(POs).with({
                 GROSS_AMOUNT: { '+=' : 20000 },
