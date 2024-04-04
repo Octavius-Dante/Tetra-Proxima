@@ -486,14 +486,28 @@ Will focus on using FIori elements list view report for quick deployment.
 
 First need to install this exptension in VS code / BAS (usually in BAS it is installed automatically) if not follow the steps shown below 
 </br>
+<img src="./files/capmd5-fe1.png" >
 </br>
 </br>
+
+After installing go to view menu and select (command and pallette)
+</br>
+<img src="./files/capmd5-fe2.png" >
 </br>
 </br>
+
+it opens an active searc bar on top like shown below
+</br>
+<img src="./files/capmd5-fe3.png" >
 </br>
 </br>
+
+Search Fiori - it lists lot of option - (Fiori : Open application generator)
+</br>
+<img src="./files/capmd5-fe4.png" >
 </br>
 </br>
+
 </br>
 </br>
 </br>
