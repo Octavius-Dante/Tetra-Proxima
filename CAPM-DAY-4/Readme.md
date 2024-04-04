@@ -923,7 +923,7 @@ service CatalogService @(path: 'CatalogService') {
     entity AddressSet         as projection on db.master.address;
 
 // I want to restrict CAP from doing post on employee use @readonly 
-    // @readonly   
+    @readonly   
     entity EmployeeSet        as projection on db.master.employees;
     entity PurchseOrderItems  as projection on db.transaction.poitems;
     entity POs as projection on db.transaction.purchaseorder {
