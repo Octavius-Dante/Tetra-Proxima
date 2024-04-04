@@ -429,6 +429,8 @@ Reverting the changes
 </br>
 <img src="./files/capmd5-git8.png" >
 </br>
+</br>
+</br>
 
 Commiting to Git hub using auto sync option 
 </br>
@@ -437,6 +439,8 @@ Commiting to Git hub using auto sync option
 <img src="./files/capmd5-git10.png" >
 </br>
 <img src="./files/capmd5-git11.png" >
+</br>
+</br>
 </br>
 
 Commiting to git hub using graphical editor to - give version details 
