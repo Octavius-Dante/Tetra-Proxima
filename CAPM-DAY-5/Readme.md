@@ -508,7 +508,7 @@ Search Fiori - it lists lot of option - (Fiori : Open application generator)
 </br>
 </br>
 
-Select the App generator and this tempalte qizord opens
+Select the App generator and this tempalte wizord opens
 </br>
 <img src="./files/capmd5-fe5.png" >
 </br>
@@ -516,14 +516,20 @@ Select the App generator and this tempalte qizord opens
 
 Follow the steps shown below to generate the APP - using our CAP
 </br>
-
+<img src="./files/capmd5-fe6.png" >
+</br>
+<img src="./files/capmd5-fe7.png" >
+</br>
+<img src="./files/capmd5-fe8.png" >
+</br>
+<img src="./files/capmd5-fe9.png" >
+</br>
+<img src="./files/capmd5-fe10.png" >
+</br>
+<img src="./files/capmd5-fe11.png" >
 </br>
 </br>
 
-</br>
-</br>
-</br>
-</br>
 </br>
 </br>
 </br>
