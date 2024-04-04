@@ -371,26 +371,19 @@ Delete call tested
 </br>
 </br>
 
+</br>
+</br>
+## How to Initialize GITHUB for BAS 
+</br>
+</br>
+</br>
+</br>
 
 </br>
+</br>
+</br>
+</br>
 
-```cds
-
-```
-
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
 </br>
 </br>
 </br>
