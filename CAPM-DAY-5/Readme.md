@@ -311,6 +311,16 @@ you can check the data of the variable in debug console as shown below
 </br>
 <img src="./files/capmd5-8a.png" >
 </br>
+<img src="./files/capmd5-8b.png" >
+</br>
+<img src="./files/capmd5-8c.png" >
+</br>
+<img src="./files/capmd5-8d.png" >
+</br>
+<img src="./files/capmd5-8e.png" >
+</br>
+<img src="./files/capmd5-8f.png" >
+</br>
 
 The successful post of the data is refelected in response window
 </br>
