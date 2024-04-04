@@ -58,7 +58,7 @@ const mysrvdemo = function (srv) {
 // CAPM DAY -5
 // CREATE DATA 
     srv.on("CREATE", "InsertEmployeeSrv", async (req, res) => {
-        var dataSet = [];
+        var dataSet = req.data;
         let returnData = await cds.transaction(req).run([
 
 // INSERT operation             
@@ -77,18 +77,26 @@ const mysrvdemo = function (srv) {
 
 // UPDATE DATA 
     srv.on("UPDATE", "UpdateEmployeeSrv", async (req, res) => {
-        var dataSet = [];
+        var dataSet = req.data;
         let returnData = await cds.transaction(req).run([
 
 // Update Operation
-            UPDATE.into(employees).set ({
+            UPDATE(employees).set ({
                 nameFirst: req.data.nameFirst
             }).where({ID: req.data.ID}),
 
-// Multiple operations can be perfromed liek above 
-            UPDATE.into(employees).set ({
+// Multiple operations can be performed like above 
+            UPDATE(employees).set ({
                 nameLast: req.data.nameLast
             }).where({ID: req.data.ID}),
+
+            UPDATE(employees).set ({
+                nameMiddle: req.data.nameMiddle
+            }).where({ID: req.data.ID}),
+
+            UPDATE(employees).set ({
+                nameInitials: req.data.nameInitials
+            }).where({ID: req.data.ID})            
 
         ]).then((resolve, reject) => {
             if (typeof(resolve) !== undefined){
@@ -105,7 +113,8 @@ const mysrvdemo = function (srv) {
 // DELETE DATA     
     srv.on("DELETE", "DeleteEmployeeSrv", async (req, res) => {
 
-        var dataSet = [];
+        var dataSet = req.data;
+        console.log(req.data.ID)
         let returnData = await cds.transaction(req).run([
 
 // DELETE Operation
@@ -143,22 +152,39 @@ POST http://localhost:4004/odata/v4/mysrvdemo/InsertEmployeeSrv
 Content-Type: application/json    
     
     {
-      "ID": "02BD2137-0890-1EEA-A6C2-BB55C190999A",
-      "nameFirst": "John",
+      "ID": "18BD2137-0890-1EEA-A6C2-BB55C197E7FB",
+      "nameFirst": "JAVAX",
       "nameMiddle": null,
-      "nameLast": "RAMBO",
+      "nameLast": "vade",
       "nameInitials": null,
-      "sex": "Max-Forwards: ",
+      "sex": "M",
       "language": "E",
       "phoneNumber": null,
-      "email": "J.Rambo@Ey.com",
-      "loginName": "RAMBOJ",
+      "email": "JAX.VADE@Ey.com",
+      "loginName": "jaxvade",
       "Currency_code": "USD",
       "salaryAmount": 999989,
       "accountNumber": "9988776655",
       "bankId": "77052358",
       "bankName": "Bank of NY"
     }
+
+#### PATCH to Update data 
+PATCH http://localhost:4004/odata/v4/mysrvdemo/UpdateEmployeeSrv/16BD2137-0890-1EEA-A6C2-BB55C197E7FB
+Content-Type: application/json
+
+{
+
+      "nameFirst": "Genghis Khan",
+      "nameMiddle": "Altan Tseren delger",
+      "nameLast": "mongols",
+      "nameInitials": "GK"
+
+}
+
+#### DELETE data 
+DELETE http://localhost:4004/odata/v4/mysrvdemo/DeleteEmployeeSrv/18BD2137-0890-1EEA-A6C2-BB55C197E7FB
+
 ```
 </br>
 will test the application now 
