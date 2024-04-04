@@ -408,7 +408,7 @@ now will test the code as shown below using <b>(tester.http)</b>
 </br>
 </br>
 
-Now will add validation to teh block to handle teh scenario
+Now will add validation to the block to handle the scenario
 </br>
 </br>
 ### CatalogService.js (with validation)
