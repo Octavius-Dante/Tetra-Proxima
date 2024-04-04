@@ -396,7 +396,7 @@ git push -u origin main
 </br>
 
 For me Git was already logged in to the browser so the authentication was different 
-</br> but step is same, git connection step reamins same. only user authentication differs.
+</br> but step is same, git connection step remains same. only user authentication differs.
 
 
 
