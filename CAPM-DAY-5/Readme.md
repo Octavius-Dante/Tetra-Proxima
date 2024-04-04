@@ -578,11 +578,29 @@ How to distinquish between template based fiori app and freestyle one check the 
 
 This Fiori elements is annnotations driven applicaiton using cds annotation fiori screen elements can be defined.
 </br>
+</br>
 Now will delete all the existing Fiori screen code and write our own code, follow the steps shown below
 </br>
+Take backup of the origian annotation.cds file and delete the contents of annotaion.cds file as shown below
+</br>
+<img src="./files/capmd5-fe17.png" >
+</br>
+</br>
+
+Then add the following contents to annotaiton.cds file 
+</br>
+<img src="./files/capmd5-fe18.png" >
+</br>
+</br>
+
+```cds
+
+
+```
 </br>
 </br>
 </br>
 </br>
-</br>
-</br>
+
+
+
