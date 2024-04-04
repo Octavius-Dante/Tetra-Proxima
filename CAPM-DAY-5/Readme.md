@@ -326,7 +326,7 @@ This is New - there is JS code and CDS standard framework code
 </br>
 <img src="./files/capmd5-7c.png" >
 </br>
-This is like F7 in ABAP full execution of the current code block even going outside of the call stack
+This is like F7 in ABAP full execution of the current code block - current function 
 </br>
 <img src="./files/capmd5-7d.png" >
 </br>
