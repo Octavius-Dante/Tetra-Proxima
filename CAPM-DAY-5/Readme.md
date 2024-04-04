@@ -356,10 +356,16 @@ The successful post of the data is refelected in response window
 </br>
 
 </br>
+PATCH before posting 
 </br>
 <img src="./files/capmd5-9a.png" >
 </br>
+PATCH after posting  
+</br>
 <img src="./files/capmd5-9b.png" >
+</br>
+
+Delete call tested 
 </br>
 <img src="./files/capmd5-9c.png" >
 </br>
