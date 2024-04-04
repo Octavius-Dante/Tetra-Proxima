@@ -293,7 +293,7 @@ This is like F8 in ABAP full execution of the code
 </br>
 
 </br>
-This is like F8 in ABAP full execution of the code 
+This is like F5 in ABAP line by line execution
 </br>
 <img src="./files/capmd5-7b.png" >
 </br>
@@ -307,7 +307,7 @@ This is like F8 in ABAP full execution of the code
 </br>
 
 </br>
-This is like F8 in ABAP full execution of the code 
+This is like F7 in ABAP full execution of the current code block even going outside of the call stack
 </br>
 <img src="./files/capmd5-7d.png" >
 </br>
