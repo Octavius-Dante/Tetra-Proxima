@@ -547,9 +547,25 @@ Following option can be notices in endpoint screen as shown below
 </br>
 <img src="./files/capmd5-fe15.png" >
 </br>
+<img src="./files/capmd5-fe15a.png" >
+</br>
+<img src="./files/capmd5-fe15b.png" >
+</br>
+<img src="./files/capmd5-fe15c.png" >
+</br>
+<img src="./files/capmd5-fe15d.png" >
+</br>
+<img src="./files/capmd5-fe15e.png" >
+</br>
+<img src="./files/capmd5-fe15f.png" >
+</br>
+<img src="./files/capmd5-fe15g.png" >
+</br>
+<img src="./files/capmd5-fe15h.png" >
+</br>
+</br>
 </br>
 
-</br>
 This Fiori elements is annnotations driven applicaiton using cds annotation fiori screen elements can be defined.
 </br> how to distinquish between template based firoi app and freestyle one check the folllowing section 
 </br>
