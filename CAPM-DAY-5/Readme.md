@@ -329,17 +329,17 @@ The successful post of the data is refelected in response window
 <img src="./files/capmd5-8f.png" >
 </br>
 
+</br>
+</br>
+<img src="./files/capmd5-9a.png" >
+</br>
+<img src="./files/capmd5-9b.png" >
+</br>
+<img src="./files/capmd5-9c.png" >
+</br>
+</br>
 
-</br>
-</br>
-<img src="./files/capmd5-9.png" >
-</br>
-</br>
 
-</br>
-</br>
-
-Colour of the BAS / VScode layout will be changed
 </br>
 
 ```cds
