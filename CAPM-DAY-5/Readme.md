@@ -517,6 +517,7 @@ Select the App generator and this tempalte wizord opens
 Follow the steps shown below to generate the APP - using our CAP
 </br>
 <img src="./files/capmd5-fe6.png" >
+<img src="./files/capmd5-fe6a.png" >
 </br>
 <img src="./files/capmd5-fe7.png" >
 </br>
@@ -524,11 +525,18 @@ Follow the steps shown below to generate the APP - using our CAP
 </br>
 <img src="./files/capmd5-fe9.png" >
 </br>
-<img src="./files/capmd5-fe10.png" >
+<img src="./files/capmd5-fe10a.png" >
+<img src="./files/capmd5-fe10b.png" >
 </br>
 <img src="./files/capmd5-fe11.png" >
 </br>
+<img src="./files/capmd5-fe12.png" >
 </br>
+<img src="./files/capmd5-fe13a.png" >
+</br>
+<img src="./files/capmd5-fe13b.png" >
+</br>
+
 
 </br>
 </br>
