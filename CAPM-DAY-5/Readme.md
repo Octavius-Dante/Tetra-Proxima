@@ -539,9 +539,9 @@ Follow the steps shown below to generate the APP - using our CAP
 </br>
 
 
-Thats it , you have created Fiori app successfully when you run this applciation (cds run)
+Thats it , you have created Fiori app successfully when you run this application via (cds run)
 </br>
-Following option can be notices in endpoint screen as shown below
+Following option can be noticed in endpoint screen as shown below
 </br> 
 <img src="./files/capmd5-fe14.png" >
 </br>
