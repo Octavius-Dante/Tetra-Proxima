@@ -901,6 +901,53 @@ module.exports = mysrvdemo;
 </br>
 </br>
 
+## CatalogService.cds
+</br>
+</br>
+</br>
+
+```cds
+
+// importing data models and views to our service
+using {dan.db} from '../db/datamodel';
+using {dante.cds} from '../db/CDSViews';
+
+// so in cap services odata will trim tha name when there is upper case in the word
+// example MyName will be dispalyed as My the part (Name) will be removed
+// to avoid this we use @(path:<service-name>) annotation
+
+service CatalogService @(path: 'CatalogService') {
+// I want to insert but dont want to delete
+    @Capabilities : { Insertable, Deletable: false }
+    entity BusinessPartnerSet as projection on db.master.businesspartner;
+    entity AddressSet         as projection on db.master.address;
+
+// I want to restrict CAP from doing post on employee use @readonly 
+    // @readonly   
+    entity EmployeeSet        as projection on db.master.employees;
+    entity PurchseOrderItems  as projection on db.transaction.poitems;
+    entity POs as projection on db.transaction.purchaseorder {
+            *,
+// in case if gross amount is showing with extreme decimal value             
+            round(GROSS_AMOUNT) as GROSS_AMOUNT: Decimal(10,2),
+            Items : redirected to PurchseOrderItems
+        } actions {
+// Definition Part - need to do implementation part - in JS file             
+            action boost();
+            function largestOrder() returns array of  POs;
+        };
+
+    entity CProductValuesView as projection on cds.CDSViews.CProductValuesView;
+
+}
+
+
+```
+
+</br>
+</br>
+</br>
+
 Go through the Node section documents for CDS QUERY LANGUAGE - usage 
 </br> https://cap.cloud.sap/docs/node.js/cds-ql#where
 
