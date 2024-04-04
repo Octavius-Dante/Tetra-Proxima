@@ -311,6 +311,9 @@ you can check the data of the variable in debug console as shown below
 </br>
 <img src="./files/capmd5-8a.png" >
 </br>
+
+Have to navigate in the stacks to get the entry to edit 
+</br>
 <img src="./files/capmd5-8b.png" >
 </br>
 <img src="./files/capmd5-8c.png" >
@@ -319,10 +322,14 @@ you can check the data of the variable in debug console as shown below
 </br>
 <img src="./files/capmd5-8e.png" >
 </br>
-<img src="./files/capmd5-8f.png" >
 </br>
 
 The successful post of the data is refelected in response window
+</br>
+<img src="./files/capmd5-8f.png" >
+</br>
+
+
 </br>
 </br>
 <img src="./files/capmd5-9.png" >
