@@ -409,7 +409,12 @@ For me Git was already logged in to the browser so the authentication was differ
 <img src="./files/capmd5-git2.png" >
 </br>
 <img src="./files/capmd5-git3.png" >
+</br>
 
+when code changes were moade it appears like this 
+</br>
+<img src="./files/capmd5-git4.png" >
+</br>
 
 </br>
 </br>
