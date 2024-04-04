@@ -294,7 +294,9 @@ This is like F5 in ABAP line by line execution
 </br>
 <img src="./files/capmd5-7b.png" >
 </br>
-This is like F8 in ABAP full execution of the code 
+This is New - there is JS code and CDS standard framework code 
+</br> (all cds code is written inside a cds.transaction) if you want to step inside that specific block this button will help 
+</br> when step-by-step execution wont access places like this, then <b>"step into"</b>b> is used there.
 </br>
 <img src="./files/capmd5-7c.png" >
 </br>
