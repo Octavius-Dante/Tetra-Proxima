@@ -421,7 +421,7 @@ Code comparison
 <img src="./files/capmd5-git5.png" >
 </br>
 
-reverting the changes 
+Reverting the changes 
 </br>
 <img src="./files/capmd5-git6.png" >
 </br>
