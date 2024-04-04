@@ -508,12 +508,18 @@ Search Fiori - it lists lot of option - (Fiori : Open application generator)
 </br>
 </br>
 
+Select the App generator and this tempalte qizord opens
+</br>
+<img src="./files/capmd5-fe5.png" >
 </br>
 </br>
+
+Follow the steps shown below to generate the APP - using our CAP
+</br>
+
 </br>
 </br>
-</br>
-</br>
+
 </br>
 </br>
 </br>
