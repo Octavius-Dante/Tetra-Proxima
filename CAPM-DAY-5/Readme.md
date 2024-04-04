@@ -416,6 +416,12 @@ when code changes were moade it appears like this
 <img src="./files/capmd5-git4.png" >
 </br>
 
+Code comparison 
+</br>
+<img src="./files/capmd5-git5.png" >
+</br>
+
+
 </br>
 </br>
 </br>
