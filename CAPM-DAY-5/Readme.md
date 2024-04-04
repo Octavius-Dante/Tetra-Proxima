@@ -454,14 +454,18 @@ Commiting to git hub using graphical editor to - give version details
 
 ## HANA DB instance creation 
 </br>
-it is covered in following link please check 
+It is covered in following link please check 
 </br>
 https://github.com/Octavius-Dante/Tetra_Proxima/tree/main/SAP_HANA_DB_CREATION
 </br>
+</br>
 
+Followed by HDI Schema 
 </br>
+https://github.com/Octavius-Dante/Tetra_Proxima/tree/main/SAP_HANA_HDI_SCHEMA_CREATION
 </br>
-</br>
+
+
 </br>
 </br>
 </br>
