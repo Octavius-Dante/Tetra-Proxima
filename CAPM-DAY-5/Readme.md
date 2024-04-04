@@ -472,15 +472,20 @@ https://github.com/Octavius-Dante/Tetra_Proxima/tree/main/SAP_HANA_HDI_SCHEMA_CR
 </br>
 </br>
 
-
-</br>
-</br>
-</br>
-</br>
-</br>
+Further readin og fiori elements : https://ui5.sap.com//#/topic/03265b0408e2432c9571d6b3feb6b1fd
 </br>
 </br>
 
+Fiori elements is designed to quckly deploy apps to front end with less effort - it uses temepates provided by SAP 
+</br>
+FREE style UI5 has option to develop extensive UI/UX pages but Fiori elements provide options to deploy the page quickly on top of it , thsi can be enhanced for further user needs.
+</br>
+Will focus on using FIori elements list view report for quick deployment.
+</br>
+</br>
+
+First need to install this exptension in VS code / BAS (usually in BAS it is installed automatically) if not follow the steps shown below 
+</br>
 </br>
 </br>
 </br>
