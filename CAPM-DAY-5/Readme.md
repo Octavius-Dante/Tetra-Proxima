@@ -549,12 +549,12 @@ Following option can be notices in endpoint screen as shown below
 
 </br>
 This Fiori elements is annnotations driven applicaiton using cds annotation fiori screen elements can be defined.
+</br> how to distinquish between template based firoi app and freestyle one check the folllowing section 
 </br>
-how to distinquish between template based firoi app and freestyle one check the folllowing section 
+<img src="./files/capmd5-fe15.png" >
+</br>
 </br>
 
-</br>
-</br>
 </br>
 </br>
 </br>
