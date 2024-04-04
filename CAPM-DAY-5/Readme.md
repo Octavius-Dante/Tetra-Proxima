@@ -392,10 +392,24 @@ git branch -M main
 git remote add origin https://github.com/Octavius-Dante/CAP_TEST.git
 git push -u origin main
 ```
+</br>
+</br>
+
+For me Git was already logged in to the browser so the authentication was different 
+</br> but step is same, git connection step reamins same. only user authentication differs.
+
 
 
 </br>
 </br>
+<img src="./files/capmd5-git0.png" >
+</br>
+<img src="./files/capmd5-git1.png" >
+</br>
+<img src="./files/capmd5-git2.png" >
+</br>
+<img src="./files/capmd5-git3.png" >
+
 
 </br>
 </br>
