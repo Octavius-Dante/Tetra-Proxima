@@ -284,28 +284,30 @@ A debug navigation window will have all the navigation buttons enabled for usage
 
 ### Navigation window options 
 </br>
-</br>
-
 
 </br>
+This is like F8 in ABAP full execution of the code 
 </br>
 <img src="./files/capmd5-7a.png" >
 </br>
 </br>
 
 </br>
+This is like F8 in ABAP full execution of the code 
 </br>
 <img src="./files/capmd5-7b.png" >
 </br>
 </br>
 
 </br>
+This is like F8 in ABAP full execution of the code 
 </br>
 <img src="./files/capmd5-7c.png" >
 </br>
 </br>
 
 </br>
+This is like F8 in ABAP full execution of the code 
 </br>
 <img src="./files/capmd5-7d.png" >
 </br>
