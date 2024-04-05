@@ -833,38 +833,147 @@ Now lets add special status to the Current line iteme display (first will edit t
     
 Now instead of status flag will make a meaningful represntation text for status -make changes in (ServiceCatalog.cds) as mentioned below
 </br>
-</br>    
+</br>  
+
+## annotations.cds
+</br>
+</br>  
 
 ```cds
+// using CatalogService as service from '../../srv/CatalogService';
+
+using CatalogService as service from '../../srv/CatalogService';
+using mysrvdemo as service_2 from '../../srv/MyService';
+
+annotate CatalogService.POs with @(
+
+    UI :{
+        SelectionFields  : [
+            PO_ID,
+            GROSS_AMOUNT,
+            LIFECYCLE_STATUS,
+            CURRENCY_code,
+            PARTNER_GUID.COMPANY_NAME
+        ],
+
+        LineItem : [
+        {
+            $Type : 'UI.DataField',
+//            Label : 'PO_ID',
+            Value : PO_ID,
+        },
+        {
+            $Type : 'UI.DataField',
+           Label : 'Gross Amount',
+            Value : GROSS_AMOUNT,
+        },
+
+        {
+            $Type : 'UI.DataField',
+            Value : OVERALL_STATUS,
+            Criticality:Critical_report,
+
+// Criticality is a keyword for UI icons 
+// Critical report field from datamodel.cds is used to display icons 
+
+        },
+
+        {
+            $Type : 'UI.DataField',
+            Value : CURRENCY_code,
+        },
+
+        {
+            $Type : 'UI.DataField',
+            Value : PARTNER_GUID.COMPANY_NAME,
+        },
+        {
+            $Type : 'UI.DataField',
+            Label : 'Country',            
+            Value : PARTNER_GUID.ADDRESS_GUID.COUNTRY,
+        },
+        {
+            $Type : 'UI.DataField',
+            Value : TAX_AMOUNT,
+        },
+    ]
+
+    }
+
+);
 
 
 ```
 </br>
 </br>    
 
+## CatalogService.cds
+</br>
+</br> 
+
 ```cds
+// importing data models and views to our service
+using {dan.db} from '../db/datamodel';
+using {dante.cds} from '../db/CDSViews';
+
+// so in cap services odata will trim tha name when there is upper case in the word
+// example MyName will be dispalyed as My the part (Name) will be removed
+// to avoid this we use @(path:<service-name>) annotation
+
+service CatalogService @(path: 'CatalogService') {
+// I want to insert but dont want to delete
+    @Capabilities : { Insertable, Deletable: false }
+    entity BusinessPartnerSet as projection on db.master.businesspartner;
+    entity AddressSet         as projection on db.master.address;
+
+// I want to restrict CAP from doing post on employee use @readonly 
+    // @readonly   
+    entity EmployeeSet        as projection on db.master.employees;
+    entity PurchseOrderItems  as projection on db.transaction.poitems;
+    entity POs as projection on db.transaction.purchaseorder {
+            *,
+// Case statement for - displaying status text 
+            case OVERALL_STATUS
+                when 'N' then 'New'
+                when 'P' then 'Planned'
+                when 'B' then 'Blocked'
+                when 'D' then 'Delivered'
+                else 'Unknown'
+                end as OVERALL_STATUS: String(20),
+
+// This is colour coding - Criticality icons 
+                case OVERALL_STATUS
+                when 'N' then 2
+                when 'P' then 3
+                when 'B' then 1
+                when 'D' then 3
+                else 1
+                end as Critical_report: Integer,
+
+// in case if gross amount is showing with extreme decimal value             
+            round(GROSS_AMOUNT) as GROSS_AMOUNT: Decimal(10,2),
+            Items : redirected to PurchseOrderItems
+        } actions {
+// Definition Part - need to do implementation part - in JS file             
+            action boost();
+            function largestOrder() returns array of  POs;
+        };
+
+    entity CProductValuesView as projection on cds.CDSViews.CProductValuesView;
+
+}
 
 ```
+</br>
+</br>
+</br>
 
+<img src="./files/capmd5-fe25.png" >
+</br>
 </br>
 </details>
 
 
-<details>
-  <summary> TEST 4  </summary>
-</br>
-</br>
-test 4
-file contents
-</br>
-</br>
-
-```cds
-
-```
-
-</br>
-</details>
 
 </br>
 </br>
