@@ -85,7 +85,7 @@ when insert snippet is selcted the folowing code gets generated and the file is 
 
 
 <details>
-  <summary> Details page (side pop-in)  </summary>
+  <summary> Details page (Second level drill down)  </summary>
 </br>
 Now will add page map (detaild page pop in from side) next to existing report - follow the steps 
 </br>
@@ -584,8 +584,15 @@ also a small change in CatalogService.cds file as mentioned below
 </br>
 </details>
 
+<details>
+  <summary> Details page adding (Third level drill down)  </summary>
 </br>
 </br>
+
+</br>
+</br>
+</details>
+
 </br>
 </br>
 </br>
