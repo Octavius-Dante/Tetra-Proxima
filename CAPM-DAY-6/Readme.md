@@ -256,9 +256,94 @@ FieldGroup#DanteFields  : {
 </br>
 </br>
 
+Now will add additional data to the details page as shown below (add the face detaisl address) 
+</br>
+</br>
 
-</br>
-</br>
+``` cds 
+Facets  : [{
+    $Type: 'UI.ReferenceFacet',
+    Label: 'More Details',
+    Target: ![@UI.FieldGroup#DanteFields]
+},
+{
+    $Type: 'UI.ReferenceFacet',
+    Label: 'Address Details',
+    Target: ![@UI.FieldGroup#AddressFields]
+}
+    
+],
+
+
+FieldGroup#AddressFields  : {
+    $Type : 'UI.FieldGroupType',
+    Data:[
+        {
+            $Type: 'UI.DataField',
+            Value:PARTNER_GUID.ADDRESS_GUID.COUNTRY
+        },
+        {
+            $Type: 'UI.DataField',
+            Value:PARTNER_GUID.ADDRESS_GUID.STREET
+        },
+        {
+            $Type: 'UI.DataField',
+            Value:PARTNER_GUID.ADDRESS_GUID.CITY
+        }
+
+    ]
+                          
+},
+
+FieldGroup#DanteFields  : {
+    $Type : 'UI.FieldGroupType',
+    Data:[
+        {
+            $Type: 'UI.DataField',
+            Value:PO_ID
+        },
+        {
+            $Type: 'UI.DataField',
+            Value:PARTNER_GUID.NODE_KEY
+        },
+        {
+            $Type: 'UI.DataField',
+            Value:PARTNER_GUID.BP_ID
+        },        
+        {
+            $Type: 'UI.DataField',
+            Value:PARTNER_GUID.COMPANY_NAME 
+        },
+        {
+            $Type: 'UI.DataField',
+            Value:GROSS_AMOUNT
+        },
+        {
+            $Type: 'UI.DataField',
+            Value:NET_AMOUNT
+        },
+                {
+            $Type: 'UI.DataField',
+            Value:TAX_AMOUNT
+        },
+        {
+            $Type: 'UI.DataField',
+            Value:CURRENCY_code
+        },
+        {
+            $Type: 'UI.DataField',
+            Value:LIFECYCLE_STATUS
+        }
+                                
+    ]
+}
+    }
+
+);
+
+
+```
+
 </br>
 
 </br>
