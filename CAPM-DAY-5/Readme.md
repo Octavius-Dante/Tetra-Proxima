@@ -820,11 +820,18 @@ annotate transaction.poitems with {
 <details>
   <summary> TEST 3  </summary>
 </br>
-    Now lets add special status to the Current line iteme display
+Now lets add special status to the Current line iteme display (first will edit the records as shown below - purchase order.csv file)
 </br>
-file contents
+</br>    
+<img src="./files/capmd5-fe23.png" >
 </br>
 </br>
+
+Now will make the cahnges to other files 
+</br>
+</br>    
+<img src="./files/capmd5-fe24.png" >
+
 
 ```cds
 
