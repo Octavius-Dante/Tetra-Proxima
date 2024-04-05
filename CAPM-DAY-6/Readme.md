@@ -589,6 +589,138 @@ also a small change in CatalogService.cds file as mentioned below
 </br>
 </br>
 
+```cds
+
+// Purchase order item entity
+
+annotate CatalogService.PurchseOrderItems with @(
+
+UI: {
+        LineItem: [
+            {
+                $Type: 'UI.DataField',
+                Value: PO_ITEM_POS
+            },
+            {
+                $Type: 'UI.DataField',
+                Value: PRODUCT_GUID_NODE_KEY,
+            },
+            // {
+            //     $Type: 'UI.DataField',
+            //     Value: PRODUCT_GUID.ProductId,
+            // },
+
+            {
+                $Type: 'UI.DataField',
+                Value: GROSS_AMOUNT,
+            },
+            {
+                $Type: 'UI.DataField',
+                Value: NET_AMOUNT,
+            },
+            {
+                $Type: 'UI.DataField',
+                Value: TAX_AMOUNT,
+            },
+            {
+                $Type: 'UI.DataField',
+                Value: CURRENCY_code,
+            },
+        ], 
+        HeaderInfo  : {
+            $Type : 'UI.HeaderInfoType',
+            TypeName : 'Item',
+            TypeNamePlural : 'Items',
+            Title:{
+                $Type : 'UI.DataField',
+                Value : NODE_KEY,               
+            },
+            Description:{
+                $Type : 'UI.DataField',
+                Value : PO_ITEM_POS,               
+            },            
+        },
+        Facets : [
+                {
+                  $Type : 'UI.ReferenceFacet',
+                  Target: '@UI.FieldGroup#LineItemHeader',
+                  Label : 'More Info'
+                },
+                {
+                  $Type : 'UI.ReferenceFacet',
+                  Target: '@UI.FieldGroup#ProductDetails',
+                  Label : 'Product details'
+                },                
+        ],
+
+FieldGroup #LineItemHeader : {
+        $Type: 'UI.FieldGroupType',
+        Data : [
+            {
+                $Type: 'UI.DataField',
+                Value: PO_ITEM_POS
+            },
+            {
+                $Type: 'UI.DataField',
+                Value: PRODUCT_GUID_NODE_KEY
+            },
+            {
+                $Type: 'UI.DataField',
+                Value: GROSS_AMOUNT
+            },
+            {
+                $Type: 'UI.DataField',
+                Value: NET_AMOUNT
+            },
+            {
+                $Type: 'UI.DataField',
+                Value: TAX_AMOUNT
+            },
+            {
+                $Type: 'UI.DataField',
+                Value: CURRENCY_code
+            }                                                            
+            
+        ],
+    },
+
+FieldGroup #ProductDetails: {
+        $Type: 'UI.FieldGroupType',
+        Data : [
+            {
+                $Type: 'UI.DataField',
+                Value: PRODUCT_GUID.PRODUCT_ID
+            },
+            {
+                $Type: 'UI.DataField',
+                Value: PRODUCT_GUID.Description
+            },
+            {
+                $Type: 'UI.DataField',
+                Value: PRODUCT_GUID.TYPE_CODE
+            },
+            {
+                $Type: 'UI.DataField',
+                Value: PRODUCT_GUID.CATEGORY
+            },
+            {
+                $Type: 'UI.DataField',
+                Value: PRODUCT_GUID.SUPPLIER_GUID.COMPANY_NAME
+            },
+            {
+                $Type: 'UI.DataField',
+                Value: PRODUCT_GUID.TAX_TARIF_CODE
+            }    
+        ],
+    },    
+
+    }
+
+);
+
+
+```
+
 </br>
 </br>
 </details>
