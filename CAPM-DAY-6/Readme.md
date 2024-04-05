@@ -370,7 +370,7 @@ Facets                   : [{
 
 
 <details>
-      <summary> Adding correcting the facet collection   </summary>
+      <summary> Correcting the facet collection   </summary>
 </br>
 </br>
     
