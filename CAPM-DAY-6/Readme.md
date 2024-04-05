@@ -23,6 +23,7 @@ Will add records coun on top of the line item display
 ``` 
 
 </br>
+dont forget to add the comma it is the completion of previous block and adding the new block below
 </br>
 <img src="./files/capmd6-1.png" >
 </br>
