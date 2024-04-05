@@ -604,7 +604,7 @@ Then add the following contents to annotaiton.cds file
 <details>
   <summary> TEST 1  </summary>
 </br>
-(every change in annotaion.cds) re-run the application 
+(every change in annotaion.cds) re-run the application - if it doesnt work then it may need a deploy. 
 </br>
 
 ```cds
