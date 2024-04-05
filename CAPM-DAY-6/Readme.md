@@ -1,11 +1,11 @@
 ## CAPM - Day 6 - Fiori App Draft
 
+</br>
+</br>
 #### Continuing Fiori elements with additional changes to the app 
 
 </br>
 </br>
-
-
 
 <details>
   <summary> REFERENCE sample  3  </summary>
@@ -490,6 +490,17 @@ FieldGroup#DanteFields  : {
 </br>
 </br>
 </br>
+
+
+</br>
+</br>
+</br>
+</br>
+</br>
+
+
+## Fiori App Draft
+
 </br>
 </br>
 </br>
@@ -510,11 +521,8 @@ FieldGroup#DanteFields  : {
 </br>
 </br>
 </br>
-</br>
-</br>
-</br>
-</br>
-</br>
+
+
 </br>
 </br>
 </br>
