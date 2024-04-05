@@ -469,10 +469,14 @@ https://github.com/Octavius-Dante/Tetra_Proxima/tree/main/SAP_HANA_HDI_SCHEMA_CR
 
 
 ## Fiori Application development
+
+<details>
+  <summary> Fiori Elements implementation </summary>
+    
 </br>
 </br>
 
-Further readin og fiori elements : https://ui5.sap.com//#/topic/03265b0408e2432c9571d6b3feb6b1fd
+Further reading on fiori elements : https://ui5.sap.com//#/topic/03265b0408e2432c9571d6b3feb6b1fd
 </br>
 </br>
 
@@ -670,4 +674,8 @@ annotate CatalogService.POs with @(
 
 </details>
 
-
+</br>
+</br>
+</br>
+</br>
+</details>
