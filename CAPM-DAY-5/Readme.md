@@ -973,7 +973,32 @@ service CatalogService @(path: 'CatalogService') {
 </br>
 </details>
 
+</br>
+</br>
 
+## The difference between BAS depolyment and VS code deployment is shown below
+</br>
+</br>
+
+## BAS 
+</br>
+
+### BAS - Fiori open application generator is used and we get OPA (one page acceptance testing) + Qunit testing pages 
+</br>
+</br>
+<img src="./files/capmd5-fe26.png" >
+</br>
+</br>
+
+## VSCode
+</br>
+
+### There is no testing pages provided in Fiori auto generator for VScode 
+</br>
+</br>
+<img src="./files/capmd5-fe26.png" >
+</br>
+</br>
 
 </br>
 </br>
