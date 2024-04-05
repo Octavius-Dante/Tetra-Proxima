@@ -687,6 +687,11 @@ Adding i18n proerpties file for label and transaltion text for internationalizat
 English label (i18n.properties)    
 </br>
 </br>
+
+<img src="./files/capmd5-fe21.png" >
+</br>
+</br>
+
 ```txt
 po_node_key=Purchase Order key
 po_node_key_i=Items key
