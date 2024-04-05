@@ -627,12 +627,12 @@ annotate CatalogService.POs with @(
         LineItem : [
         {
             $Type : 'UI.DataField',
-            Label : 'PO_ID',
+//            Label : 'PO_ID',
             Value : PO_ID,
         },
         {
             $Type : 'UI.DataField',
-            Label : 'GROSS_AMOUNT',
+           Label : 'Gross Amount',
             Value : GROSS_AMOUNT,
         },
 
@@ -652,6 +652,7 @@ annotate CatalogService.POs with @(
         },
         {
             $Type : 'UI.DataField',
+            Label : 'Country',            
             Value : PARTNER_GUID.ADDRESS_GUID.COUNTRY,
         },
         {
@@ -663,6 +664,7 @@ annotate CatalogService.POs with @(
     }
 
 );
+
 
 
 ```
@@ -684,11 +686,15 @@ Adding i18n proerpties file for label and transaltion text for internationalizat
 </br>
 </br>
 
-English label (i18n.properties)    
+
+All the items needed are pointed out 
+</br>
+</br>
+<img src="./files/capmd5-fe21.png" >
 </br>
 </br>
 
-<img src="./files/capmd5-fe21.png" >
+English label (i18n.properties)    
 </br>
 </br>
 
