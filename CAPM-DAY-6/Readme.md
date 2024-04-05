@@ -727,11 +727,15 @@ FieldGroup #ProductDetails: {
 </br>
 </br>
 </br>
+</details>
 
-### Performing delete operation
+
+<details>
+<summary> Performing delete operation </summary>
 </br>
 </br>
 delete operation is available by default on the page app allows us to delete the records as shown below 
+</br>
 </br>
 <img src="./files/capmd6-23.png" >
 <img src="./files/capmd6-24.png" >
