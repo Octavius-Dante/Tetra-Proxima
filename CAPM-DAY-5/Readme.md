@@ -682,6 +682,7 @@ Adding i18n proerpties file for label and transaltion text for internationalizat
 </br>
 <img src="./files/capmd5-fe20.png" >
 </br>
+</br>
 
 English label (i18n.properties)    
 </br>
@@ -728,7 +729,7 @@ price=Preis
 </br>
 
 </br>
-To link all the labels created in i18 in with annotation.cds file we need to create another file index.cds as shown below 
+To link all the labels created in i18n with annotation.cds file we need to create another file index.cds as shown below 
 </br>
 </br>
 </br>
