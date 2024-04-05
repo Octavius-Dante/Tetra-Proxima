@@ -65,8 +65,13 @@ Right click purchaseorder app folder and select - show page map - option
 </br>
 <img src="./files/capmd6-9.png" >
 </br>
+</br>
+
+select the setting and go back to the purchase order page and refresh (use cds run / watch) if it is not running 
+</br>
 <img src="./files/capmd6-10.png" >
 </br>
+<img src="./files/capmd6-11.png" >
 </br>
 </br>
 </br>
