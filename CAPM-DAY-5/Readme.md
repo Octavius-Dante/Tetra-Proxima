@@ -820,6 +820,7 @@ annotate transaction.poitems with {
 <details>
   <summary> TEST 3  </summary>
 </br>
+</br>
 Now lets add special status to the Current line iteme display (first will edit the records as shown below - purchase order.csv file)
 </br>
 </br>    
@@ -827,12 +828,17 @@ Now lets add special status to the Current line iteme display (first will edit t
 </br>
 <img src="./files/capmd5-fe24.png" >
 </br>
-
-Now instead of status flag will make a meaningful represntation text for status 
+</br>
+</br>  
+    
+Now instead of status flag will make a meaningful represntation text for status -make changes in (ServiceCatalog.cds) as mentioned below
 </br>
 </br>    
 
+```cds
 
+
+```
 </br>
 </br>    
 
