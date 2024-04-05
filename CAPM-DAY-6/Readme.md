@@ -118,6 +118,133 @@ make the fcollwing changes to annotations.cds
 
 ```cds
 
+// using CatalogService as service from '../../srv/CatalogService';
+
+using CatalogService as service from '../../srv/CatalogService';
+using mysrvdemo as service_2 from '../../srv/MyService';
+
+annotate CatalogService.POs with @(
+
+    UI :{
+        SelectionFields  : [
+            PO_ID,
+            GROSS_AMOUNT,
+            LIFECYCLE_STATUS,
+            CURRENCY_code,
+            PARTNER_GUID.COMPANY_NAME
+        ],
+
+        LineItem : [
+        {
+            $Type : 'UI.DataField',
+//            Label : 'PO_ID',
+            Value : PO_ID,
+        },
+        {
+            $Type : 'UI.DataField',
+           Label : 'Gross Amount',
+            Value : GROSS_AMOUNT,
+        },
+
+        {
+            $Type : 'UI.DataField',
+            Value : OVERALL_STATUS,
+            Criticality:Critical_report,
+
+// Criticality is a keyword for UI icons 
+// Critical report field from datamodel.cds is used to display icons 
+
+        },
+
+        {
+            $Type : 'UI.DataField',
+            Value : CURRENCY_code,
+        },
+
+        {
+            $Type : 'UI.DataField',
+            Value : PARTNER_GUID.COMPANY_NAME,
+        },
+        {
+            $Type : 'UI.DataField',
+            Label : 'Country',            
+            Value : PARTNER_GUID.ADDRESS_GUID.COUNTRY,
+        },
+        {
+            $Type : 'UI.DataField',
+            Value : TAX_AMOUNT,
+        },
+    ],
+
+    HeaderInfo  : {
+        $Type : 'UI.HeaderInfoType',
+        TypeName : 'Purchase Order',
+        TypeNamePlural : 'Purchase Orders',
+        Title:{
+            Label : 'Purchase Order Id',
+            Value : PO_ID
+        },
+        Description:{
+            Label : 'Supplier',
+            Value : PARTNER_GUID.COMPANY_NAME
+        },
+        ImageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/SAP_2011_logo.svg/2560px-SAP_2011_logo.svg.png' 
+    },
+Facets  : [{
+    $Type: 'UI.ReferenceFacet',
+    Label: 'More Details',
+    Target: ![@UI.FieldGroup#DanteFields]
+}
+    
+],
+
+FieldGroup#DanteFields  : {
+    $Type : 'UI.FieldGroupType',
+    Data:[
+        {
+            $Type: 'UI.DataField',
+            Value:PO_ID
+        },
+        {
+            $Type: 'UI.DataField',
+            Value:PARTNER_GUID.NODE_KEY
+        },
+        {
+            $Type: 'UI.DataField',
+            Value:PARTNER_GUID.BP_ID
+        },        
+        {
+            $Type: 'UI.DataField',
+            Value:PARTNER_GUID.COMPANY_NAME 
+        },
+        {
+            $Type: 'UI.DataField',
+            Value:GROSS_AMOUNT
+        },
+        {
+            $Type: 'UI.DataField',
+            Value:NET_AMOUNT
+        },
+                {
+            $Type: 'UI.DataField',
+            Value:TAX_AMOUNT
+        },
+        {
+            $Type: 'UI.DataField',
+            Value:CURRENCY_code
+        },
+        {
+            $Type: 'UI.DataField',
+            Value:LIFECYCLE_STATUS
+        }
+                                
+    ]
+}
+
+    }
+
+);
+
 
 ```
 
