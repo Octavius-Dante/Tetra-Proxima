@@ -61,6 +61,7 @@ when insert snippet is selcted the folowing code gets generated and the file is 
 
 Now will add page map (detaild page pop in from side) next to existing report - follow the steps 
 </br>
+Right click purchaseorder app folder and select - show page map - option 
 </br>
 <img src="./files/capmd6-9.png" >
 </br>
