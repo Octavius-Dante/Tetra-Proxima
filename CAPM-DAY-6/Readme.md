@@ -564,8 +564,19 @@ add the following block of code below facet section as instructed in the image
 <img src="./files/capmd6-21.png" >
 </br>
 
+also a small change in CatalogService.cds file as mentioned below 
+</br>
+- comment the line (entity CProductValuesView)
+- add the line entity ProductSet
 </br>
 </br>
+
+```cds
+
+ entity ProductSet as projection on db.master.product; 
+    //entity CProductValuesView as projection on cds.CDSViews.CProductValuesView;
+
+```
 
 </br>
 </br>
