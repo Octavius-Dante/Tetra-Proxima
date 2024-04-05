@@ -40,12 +40,19 @@ you can access it by following steps <b> (Menu--> View--> Command and pallete) <
 </br>
 <img src="./files/capmd6-2.png" >
 </br>
+<img src="./files/capmd6-3.png" >
+</br>
+<img src="./files/capmd6-4.png" >
+</br>
+<img src="./files/capmd6-5.png" >
+</br>
+<img src="./files/capmd6-6.png" >
 </br>
 </br>
+
+when insert snippet is selcted the folowing code gets generated and the file is opened in Fiori application modeler
 </br>
-</br>
-</br>
-</br>
+<img src="./files/capmd6-7.png" >
 </br>
 </br>
 </br>
