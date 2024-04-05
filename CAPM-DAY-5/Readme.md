@@ -688,8 +688,12 @@ English label (i18n.properties)
 </br>
 </br>
 ```txt
-node_key=Purchase Order key
-po_id=Purchase Order Id
+po_node_key=Purchase Order key
+po_node_key_i=Items key
+product_key=product_key
+bp_key=Bp key
+bp_id=Supplier Id 
+po_id=Purchase order id 
 partner_guid=Supplier Id
 company_name=Supplier Name 
 overall_status=Status 
@@ -702,6 +706,7 @@ po_items=Purchase Order items
 product_guid=Product Id
 name=Product Name
 price=Price
+po_iem_pos= Item Position
 ```
 </br>
 </br>
@@ -735,11 +740,62 @@ create index.cds file in SRV folder
 </br>
 </br>
 
-file contents
+## index.cds
 </br>
 </br>
 
 ```cds
+using { dan.db.master, dan.db.transaction } from '../db/datamodel';
+
+annotate master.businesspartner with {
+
+        NODE_KEY @title: '{i18n>bp_key}';
+        BP_ID @title: '{i18n>bp_id}';
+        COMPANY_NAME @title: '{i18n>company_name}';
+
+};
+
+
+annotate master.product with {
+
+        NODE_KEY @title: '{i18n>product_key}';
+        PRODUCT_ID @title: '{i18n>product_guid}';
+        DESCRIPTION @title: '{i18n>name}';
+
+};
+
+
+annotate transaction.purchaseorder with {
+
+        NODE_KEY @title: '{i18n>po_node_key}';
+        PO_ID @title: '{i18n>po_id}';
+        PARTNER_GUID @title: '{i18n>partner_guid}';
+        LIFECYCLE_STATUS @title: '{i18n>lifecycle_status}';
+        OVERALL_STATUS @title: '{i18n>overall_status}';
+        NOTE @title: 'Notes';
+        GROSS_AMOUNT @title: '{i18n>gross_amount}';
+        TAX_AMOUNT @title: '{i18n>tax_amount}';
+        NET_AMOUNT @title: '{i18n>net_amount}';
+        CURRENCY @title: '{i18n>currency_code}';
+        Items @title: '{i18n>po_items}';
+
+};
+
+
+annotate transaction.poitems with {
+
+        NODE_KEY @title: '{i18n>po_node_key_i}';
+        PARENT_KEY @title: '{i18n>po_node_key}';
+        PO_ITEM_POS @title: '{i18n>}';
+        PRODUCT_GUID @title: '{i18n>product_guid}';
+        OVERALL_STATUS @title: '{i18n>overall_status}';
+        GROSS_AMOUNT @title: '{i18n>gross_amount}';
+        TAX_AMOUNT @title: '{i18n>tax_amount}';
+        NET_AMOUNT @title: '{i18n>net_amount}';
+        CURRENCY @title: '{i18n>currency_code}';
+
+};
+
 
 ```
 
