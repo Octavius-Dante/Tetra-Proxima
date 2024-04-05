@@ -822,7 +822,6 @@ annotate transaction.poitems with {
 </br>
     Now lets add special status to the Current line iteme display
 </br>
-test 3
 file contents
 </br>
 </br>
