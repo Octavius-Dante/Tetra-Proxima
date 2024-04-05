@@ -74,12 +74,42 @@ select the setting and go back to the purchase order page and refresh (use cds r
 <img src="./files/capmd6-11.png" >
 </br>
 </br>
+
+Now will add the details to the details page as shown below
 </br>
 </br>
+
+make the fcollwing changes to annotations.cds 
 </br>
 </br>
+
+``` cds 
+
+    HeaderInfo  : {
+        $Type : 'UI.HeaderInfoType',
+        TypeName : 'Purchase Order',
+        TypeNamePlural : 'Purchase Orders',
+        Title:{
+            Label : 'Purchase Order Id',
+            Value : PO_ID
+        },
+        Description:{
+            Label : 'Supplier',
+            Value : PARTNER_GUID.COMPANY_NAME
+        },
+        ImageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/SAP_2011_logo.svg/2560px-SAP_2011_logo.svg.png' 
+    },
+``` 
+
 </br>
 </br>
+<img src="./files/capmd6-12.png" >
+</br>
+<img src="./files/capmd6-13.png" >
+</br>
+</br>
+
+
 </br>
 </br>
 </br>
