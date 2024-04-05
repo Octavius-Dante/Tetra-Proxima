@@ -811,21 +811,16 @@ annotate transaction.poitems with {
 ```
 
 </br>
-
-file contents
+<img src="./files/capmd5-fe22.png" >
 </br>
 </br>
 
-```cds
-
-```
-
-</br>
 </details>
 
 <details>
   <summary> TEST 3  </summary>
 </br>
+    Now lets add special status to the Current line iteme display
 </br>
 test 3
 file contents
