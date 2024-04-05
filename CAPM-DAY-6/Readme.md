@@ -563,6 +563,9 @@ add the following block of code below facet section as instructed in the image
 </br>
 <img src="./files/capmd6-21.png" >
 </br>
+</br>
+</br>
+
 
 also a small change in CatalogService.cds file as mentioned below 
 </br>
@@ -577,13 +580,8 @@ also a small change in CatalogService.cds file as mentioned below
     //entity CProductValuesView as projection on cds.CDSViews.CProductValuesView;
 
 ```
-
 </br>
 </br>
-
-</br>
-</br>
-
 </details>
 
 </br>
