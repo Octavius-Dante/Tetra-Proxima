@@ -489,12 +489,90 @@ FieldGroup#DanteFields  : {
 
 
 <details>
-  <summary> <b> Adding line item to the detaisl page below facet </b> </summary>
+  <summary> <b> Adding line item to the details page below facet </b> </summary>
+</br>
+</br>
+
+We added UI proerpties so far to purchase order section we should add seperate bloc kfor purchase order line items as shown below
+</br>
+</br>
+
+add the following block of code below facet section 
+</br>
+</br>
+
+```cds
+annotate CatalogService.PurchseOrderItems with @(
+
+UI: {LineItem: [
+    {
+        $Type: 'UI.DataField',
+        Value: PO_ITEM_POS
+    },
+    {
+        $Type: 'UI.DataField',
+        Value: PRODUCT_GUID_NODE_KEY,
+    },
+    // {
+    //     $Type: 'UI.DataField',
+    //     Value: PRODUCT_GUID.ProductId,
+    // },
+
+    {
+        $Type: 'UI.DataField',
+        Value: GROSS_AMOUNT,
+    },
+    {
+        $Type: 'UI.DataField',
+        Value: NET_AMOUNT,
+    },
+    {
+        $Type: 'UI.DataField',
+        Value: TAX_AMOUNT,
+    },
+    {
+        $Type: 'UI.DataField',
+        Value: CURRENCY_code,
+    },
+
+], }
+
+);
+
+
+```
+
+</br>
+</br>
+
+add the following block of code below facet section as instructed in the image
+</br>
+</br>
+
+``` cds
+        {
+            $Type : 'UI.ReferenceFacet',
+            Label : 'Line Items',
+            Target: Items.![@UI.LineItem]
+        },
+```
+
+</br>
+<img src="./files/capmd6-20.png" >
+</br>
+</br>
+<img src="./files/capmd6-21.png" >
+</br>
+
 </br>
 </br>
 
 </br>
 </br>
+
+</br>
+</br>
+
 </details>
 
 </br>
