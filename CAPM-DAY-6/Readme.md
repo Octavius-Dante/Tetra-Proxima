@@ -728,8 +728,10 @@ FieldGroup #ProductDetails: {
 </br>
 </br>
 
-Now we haev seen the how the records are retrieved and shown in fiori it has delete 
-</br> option by default on the page which will allow us to delete the records as shown below 
+### Performing delete operation
+</br>
+</br>
+delete operation is available by default on the page app allows us to delete the records as shown below 
 </br>
 <img src="./files/capmd6-23.png" >
 <img src="./files/capmd6-24.png" >
