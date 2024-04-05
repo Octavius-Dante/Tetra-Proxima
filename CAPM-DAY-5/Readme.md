@@ -599,7 +599,7 @@ Then add the following contents to annotaiton.cds file
 
 
 
-## annotation.cds listed for different testing below
+## Fiori elements - page changes and testing
 
 <details>
   <summary> TEST 1  </summary>
@@ -996,7 +996,7 @@ service CatalogService @(path: 'CatalogService') {
 ### There is no testing pages provided in Fiori auto generator for VScode 
 </br>
 </br>
-<img src="./files/capmd5-fe26.png" >
+<img src="./files/capmd5-fe27.png" >
 </br>
 </br>
 
