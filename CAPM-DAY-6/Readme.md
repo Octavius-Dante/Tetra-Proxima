@@ -28,38 +28,77 @@ dont forget to add the comma it is the completion of previous block and adding t
 <img src="./files/capmd6-1.png" >
 </br>
 </br>
-
-## MyService.js 
-</br>
 </br>
 
-```js
-
-
-
-```
-</br>
-<img src="./files/capmd6-1.png" >
+There is another way to develop Fiori apps <b>(Fiori Open Guided Development)</b>
 </br>
 </br>
-
-After making the file with mentioend contents dont just run it deploy it and run
-</br> if it is run directly - it goes to dump liek shown below 
+This approach uses firoi development based on XML annotations not CDS annotations 
 </br>
-
+you can access it by followign steps
+</br>
 <img src="./files/capmd6-2.png" >
 </br>
 </br>
-
-
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
 </br>
 
-
-```cds
-
-```
-
 </br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+
 </br>
 </br>
 </br>
