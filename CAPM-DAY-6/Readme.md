@@ -10,15 +10,6 @@
 </br>
 
 <details>
-  <summary> <b> REFERENCE sample for drill down </b> </summary>
-</br>
-</br>
-
-</br>
-</br>
-</details>
-
-<details>
   <summary> <b> Add records count on top of the line item display </b> </summary>
 </br>
 </br>
