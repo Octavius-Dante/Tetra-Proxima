@@ -382,13 +382,117 @@ Facets                   : [{
 </br>
 </br>
 
+Now more details group look not fitting aesthetics so correcting the facet section breaking it to 3 groups as shown below 
+</br>
+</br>
+
+```cds
+
+Facets                   : [{
+        $Type : 'UI.CollectionFacet',
+        Facets: [
+            {
+                $Type : 'UI.ReferenceFacet',
+                Label : 'More Details',
+                Target: ![@UI.FieldGroup#DanteFields]
+            },
+            {
+                $Type : 'UI.ReferenceFacet',
+                Label : 'Address Details',
+                Target: ![@UI.FieldGroup#AddressFields]
+            },
+                        {
+                $Type : 'UI.ReferenceFacet',
+                Label : 'Amount Details',
+                Target: ![@UI.FieldGroup#AmountFields]
+            },
+        ],
+    },
+    
+],
+
+
+FieldGroup#AddressFields  : {
+    $Type : 'UI.FieldGroupType',
+    Data:[
+        {
+            $Type: 'UI.DataField',
+            Value:PARTNER_GUID.ADDRESS_GUID.COUNTRY
+        },
+        {
+            $Type: 'UI.DataField',
+            Value:PARTNER_GUID.ADDRESS_GUID.STREET
+        },
+        {
+            $Type: 'UI.DataField',
+            Value:PARTNER_GUID.ADDRESS_GUID.CITY
+        }
+
+    ]
+                          
+},
+
+
+FieldGroup#AmountFields  : {
+    $Type : 'UI.FieldGroupType',
+    Data:[
+        {
+            $Type: 'UI.DataField',
+            Value:GROSS_AMOUNT
+        },
+        {
+            $Type: 'UI.DataField',
+            Value:NET_AMOUNT
+        },
+                {
+            $Type: 'UI.DataField',
+            Value:TAX_AMOUNT
+        },
+        {
+            $Type: 'UI.DataField',
+            Value:CURRENCY_code
+        },
+
+    ]
+                          
+},
+
+FieldGroup#DanteFields  : {
+    $Type : 'UI.FieldGroupType',
+    Data:[
+        {
+            $Type: 'UI.DataField',
+            Value:PO_ID
+        },
+        {
+            $Type: 'UI.DataField',
+            Value:PARTNER_GUID.NODE_KEY
+        },
+        {
+            $Type: 'UI.DataField',
+            Value:PARTNER_GUID.BP_ID
+        },        
+        {
+            $Type: 'UI.DataField',
+            Value:PARTNER_GUID.COMPANY_NAME 
+        },
+        {
+            $Type: 'UI.DataField',
+            Value:LIFECYCLE_STATUS
+        }
+                                
+    ]
+}
+
+```
 
 </br>
 </br>
+<img src="./files/capmd6-19.png" >
 </br>
 </br>
-</br>
-</br>
+
+
 </br>
 </br>
 </br>
