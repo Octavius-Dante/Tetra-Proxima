@@ -596,6 +596,9 @@ Then add the following contents to annotaiton.cds file
 
 
 ## TEST 1 - annotation.cds 
+
+<details>
+  <summary> SAP common standard - Code block for reference </summary>
 </br>
 (every change in annotaion.cds) re-run the application 
 </br>
@@ -665,5 +668,6 @@ annotate CatalogService.POs with @(
 </br>
 </br>
 
+</details>
 
 
