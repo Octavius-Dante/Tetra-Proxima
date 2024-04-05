@@ -347,6 +347,8 @@ FieldGroup#DanteFields  : {
 </br>
 <img src="./files/capmd6-16.png" >
 </br>
+<img src="./files/capmd6-17.png" >
+</br>
 </br>
 
 
