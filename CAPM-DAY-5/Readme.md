@@ -825,13 +825,16 @@ Now lets add special status to the Current line iteme display (first will edit t
 </br>    
 <img src="./files/capmd5-fe23.png" >
 </br>
+<img src="./files/capmd5-fe24.png" >
 </br>
 
-Now will make the cahnges to other files 
+Now instead of status flag will make a meaningful represntation text for status 
 </br>
 </br>    
-<img src="./files/capmd5-fe24.png" >
 
+
+</br>
+</br>    
 
 ```cds
 
