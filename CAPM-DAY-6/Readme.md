@@ -723,6 +723,9 @@ FieldGroup #ProductDetails: {
 
 </br>
 </br>
+<img src="./files/capmd6-22.png" >
+</br>
+</br>
 </details>
 
 </br>
