@@ -674,6 +674,38 @@ annotate CatalogService.POs with @(
 
 </details>
 
+
+<details>
+  <summary> TEST 2  </summary>
+</br>
+Adding i18n proerpties file for label and transaltion text for internationalization
+</br>
+<img src="./files/capmd5-fe20.png" >
+</br>
+</br>
+
+file contents
+</br>
+</br>
+
+```txt
+
+```
+
+</br>
+</details>
+
+<details>
+  <summary> TEST 3  </summary>
+</br>
+</br>
+test 3
+</br>
+
+
+</br>
+</details>
+
 </br>
 </br>
 </br>
