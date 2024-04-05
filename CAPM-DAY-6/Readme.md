@@ -11,7 +11,7 @@ Will add records coun on top of the line item display
 </br>
 
 ``` cds 
-	
+],
     HeaderInfo  : {
         $Type : 'UI.HeaderInfoType',
         TypeName : 'Purchase Order',
