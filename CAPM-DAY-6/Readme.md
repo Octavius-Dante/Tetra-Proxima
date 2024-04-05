@@ -352,7 +352,7 @@ FieldGroup#DanteFields  : {
 </br>
 
 
-Now if i wan to combine two different blocks in same section need to define (Collection facets) as shown below
+Now if i want to combine two different blocks in same section need to define (Collection facets) as shown below
 </br>
 </br>
 
