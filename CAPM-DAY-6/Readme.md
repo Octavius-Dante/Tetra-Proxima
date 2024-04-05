@@ -8,7 +8,7 @@
 </br>
 
 <details>
-  <summary> <b> REFERENCE sample for drill down </b>b> </summary>
+  <summary> <b> REFERENCE sample for drill down </b> </summary>
 </br>
 </br>
 
@@ -481,6 +481,16 @@ FieldGroup#DanteFields  : {
 </br>
 </br>
 <img src="./files/capmd6-19.png" >
+</br>
+</br>
+</details>
+
+
+<details>
+  <summary> <b> Adding line item to the detaisl page below facet </b> </summary>
+</br>
+</br>
+
 </br>
 </br>
 </details>
