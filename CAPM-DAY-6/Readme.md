@@ -35,7 +35,8 @@ There is another way to develop Fiori apps <b>(Fiori Open Guided Development)</b
 </br>
 This approach uses firoi development based on XML annotations not CDS annotations 
 </br>
-you can access it by followign steps
+you can access it by following steps
+</br>
 </br>
 <img src="./files/capmd6-2.png" >
 </br>
