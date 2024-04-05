@@ -682,6 +682,55 @@ Adding i18n proerpties file for label and transaltion text for internationalizat
 </br>
 <img src="./files/capmd5-fe20.png" >
 </br>
+
+English label (i18n.properties)    
+</br>
+</br>
+```txt
+node_key=Purchase Order key
+po_id=Purchase Order Id
+partner_guid=Supplier Id
+company_name=Supplier Name 
+overall_status=Status 
+gross_amount=Gross amount
+net_amount=Net Amount 
+tax_amount=Tax Amount 
+currency_code=Currency currency_code
+lifecycle_status=Lifecycle Status
+po_items=Purchase Order items
+product_guid=Product Id
+name=Product Name
+price=Price
+```
+</br>
+</br>
+
+German label (i18n_de.properties)    
+</br>
+</br>
+```txt
+node_key=Bestellschlüssel
+po_id=Bestell-ID
+partner_guid=Lieferanten-ID
+company_name=Name des Lieferanten
+overall_status=Status
+gross_amount=Bruttobetrag
+net_amount=Nettobetrag
+tax_amount=Steuerbetrag
+currency_code=Währung Währungscode
+lifecycle_status=Lebenszyklusstatus
+po_items=Bestellartikel
+product_guid=Produkt-ID
+name=Produktname
+price=Preis
+```
+</br>
+</br>
+
+</br>
+To link all the labels created in i18 in with annotation.cds file we need to create another file index.cds as shown below 
+</br>
+</br>
 </br>
 
 file contents
