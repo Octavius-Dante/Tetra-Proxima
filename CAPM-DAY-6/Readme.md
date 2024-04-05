@@ -345,17 +345,30 @@ FieldGroup#DanteFields  : {
 ```
 
 </br>
+<img src="./files/capmd6-16.png" >
+</br>
+<img src="./files/capmd6-17.png" >
+</br>
+</br>
+
+
+Now if i wan to combine two different blocks in same section need to define (Collection facets) as shown below
+</br>
+</br>
+
+```cds 
+
+```
 
 </br>
 </br>
+<img src="./files/capmd6-18.png" >
+</br>
+<img src="./files/capmd6-19.png" >
 </br>
 </br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
+
+
 </br>
 </br>
 </br>
