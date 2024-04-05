@@ -110,9 +110,26 @@ make the fcollwing changes to annotations.cds
 </br>
 
 
+Now will add facets to the details page 
+</br>
+make the fcollwing changes to annotations.cds 
 </br>
 </br>
+
+```cds
+
+
+```
+
 </br>
+</br>
+<img src="./files/capmd6-14.png" >
+</br>
+<img src="./files/capmd6-15.png" >
+</br>
+</br>
+
+
 </br>
 </br>
 </br>
