@@ -357,7 +357,23 @@ Now if i want to combine two different blocks in same section need to define (Co
 </br>
 
 ```cds 
-
+Facets                   : [{
+        $Type : 'UI.CollectionFacet',
+        Facets: [
+            {
+                $Type : 'UI.ReferenceFacet',
+                Label : 'More Details',
+                Target: ![@UI.FieldGroup#DanteFields]
+            },
+            {
+                $Type : 'UI.ReferenceFacet',
+                Label : 'Address Details',
+                Target: ![@UI.FieldGroup#AddressFields]
+            },
+        ],
+    },
+    
+],
 ```
 
 </br>
