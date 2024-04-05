@@ -594,15 +594,74 @@ Then add the following contents to annotaiton.cds file
 </br>
 
 
-## annotation.cds 
+
+## TEST 1 - annotation.cds 
+</br>
+(every change in annotaion.cds) re-run the application 
 </br>
 
 ```cds
+
+// using CatalogService as service from '../../srv/CatalogService';
+
+using CatalogService as service from '../../srv/CatalogService';
+
+annotate CatalogService.POs with @(
+
+    UI :{
+        SelectionFields  : [
+            PO_ID,
+            GROSS_AMOUNT,
+            LIFECYCLE_STATUS,
+            CURRENCY_code,
+            PARTNER_GUID.COMPANY_NAME
+        ],
+
+        LineItem : [
+        {
+            $Type : 'UI.DataField',
+            Label : 'PO_ID',
+            Value : PO_ID,
+        },
+        {
+            $Type : 'UI.DataField',
+            Label : 'GROSS_AMOUNT',
+            Value : GROSS_AMOUNT,
+        },
+
+        {
+            $Type : 'UI.DataField',
+            Value : OVERALL_STATUS,
+        },
+
+        {
+            $Type : 'UI.DataField',
+            Value : CURRENCY_code,
+        },
+
+        {
+            $Type : 'UI.DataField',
+            Value : PARTNER_GUID.COMPANY_NAME,
+        },
+        {
+            $Type : 'UI.DataField',
+            Value : PARTNER_GUID.ADDRESS_GUID.COUNTRY,
+        },
+        {
+            $Type : 'UI.DataField',
+            Value : TAX_AMOUNT,
+        },
+    ]
+
+    }
+
+);
 
 
 ```
 </br>
 </br>
+<img src="./files/capmd5-fe19.png" >
 </br>
 </br>
 
