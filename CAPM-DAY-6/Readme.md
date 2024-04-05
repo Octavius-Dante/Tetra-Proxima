@@ -726,6 +726,17 @@ FieldGroup #ProductDetails: {
 <img src="./files/capmd6-22.png" >
 </br>
 </br>
+</br>
+
+Now we haev seen the how the records are retrieved and shown in fiori it has delete 
+</br> option by default on the page which will allow us to delete the records as shown below 
+</br>
+<img src="./files/capmd6-23.png" >
+<img src="./files/capmd6-24.png" >
+<img src="./files/capmd6-25.png" >
+</br>
+</br>
+</br>
 </details>
 
 </br>
@@ -744,7 +755,10 @@ FieldGroup #ProductDetails: {
 
 </br>
 </br>
+SAP as provided an option to Create and update and that can be done using Fiori App draft details explanation below
 </br>
+
+
 </br>
 </br>
 </br>
