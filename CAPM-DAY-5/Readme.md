@@ -731,6 +731,7 @@ price=Preis
 </br>
 To link all the labels created in i18n with annotation.cds file we need to create another file index.cds as shown below 
 </br>
+create index.cds file in SRV folder 
 </br>
 </br>
 
@@ -738,7 +739,17 @@ file contents
 </br>
 </br>
 
-```txt
+```cds
+
+```
+
+</br>
+
+file contents
+</br>
+</br>
+
+```cds
 
 ```
 
@@ -750,8 +761,30 @@ file contents
 </br>
 </br>
 test 3
+file contents
+</br>
 </br>
 
+```cds
+
+```
+
+</br>
+</details>
+
+
+<details>
+  <summary> TEST 4  </summary>
+</br>
+</br>
+test 4
+file contents
+</br>
+</br>
+
+```cds
+
+```
 
 </br>
 </details>
