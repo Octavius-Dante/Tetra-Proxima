@@ -57,8 +57,9 @@ when insert snippet is selcted the folowing code gets generated and the file is 
 <img src="./files/capmd6-8.png" >
 </br>
 </br>
+</br>
 
-Now will add page map (detaild page pop in from side) next to existing report 
+Now will add page map (detaild page pop in from side) next to existing report - follow the steps 
 </br>
 </br>
 <img src="./files/capmd6-9.png" >
