@@ -17,7 +17,7 @@
 </details>
 
 <details>
-  <summary> <b> Add records count on top of the line item display </b>b>  </summary>
+  <summary> <b> Add records count on top of the line item display </b> </summary>
 </br>
 </br>
 Make the following changes to <b>(annotations.cds)</b> as shown below 
