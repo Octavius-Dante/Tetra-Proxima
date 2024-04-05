@@ -797,7 +797,7 @@ annotate transaction.poitems with {
 
         NODE_KEY @title: '{i18n>po_node_key_i}';
         PARENT_KEY @title: '{i18n>po_node_key}';
-        PO_ITEM_POS @title: '{i18n>}';
+        PO_ITEM_POS @title: '{i18n>Item Position}';
         PRODUCT_GUID @title: '{i18n>product_guid}';
         OVERALL_STATUS @title: '{i18n>overall_status}';
         GROSS_AMOUNT @title: '{i18n>gross_amount}';
