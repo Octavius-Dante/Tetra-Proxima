@@ -993,7 +993,7 @@ service CatalogService @(path: 'CatalogService') {
 ## VSCode
 </br>
 
-### There is no testing pages provided in Fiori auto generator for VScode 
+### There is no testing pages provided in Fiori open application generator for VScode 
 </br>
 </br>
 <img src="./files/capmd5-fe27.png" >
