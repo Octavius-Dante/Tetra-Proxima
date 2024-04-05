@@ -497,7 +497,7 @@ We added UI proerpties so far to purchase order section we should add seperate b
 </br>
 </br>
 
-add the following block of code below facet section 
+add the following block of code below at the end of the file - a new section for purchase order line items
 </br>
 </br>
 
