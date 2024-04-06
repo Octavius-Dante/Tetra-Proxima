@@ -1080,7 +1080,7 @@ Add this code changes below overall status field.
 <img src="./files/capmd6-45.png" > 
 </br>
 </br>
-<img src="./files/capmd6-46.png" > 
+<img src="./files/capmd6-46a.png" > 
 </br>
 </br>
 </details>
