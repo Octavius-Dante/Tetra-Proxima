@@ -1011,7 +1011,7 @@ After selecting values from F4 help
 </br>
 </br>
 
-After F4 selection the values are meaningless (teh description should hlep the end user to understand what he selected 
+After F4 selection the values are meaningless (the description should hlep the end user to understand what he selected 
 </br> so making a description attached to the ID looks understandable to the end user 
 </br>
 </br>
