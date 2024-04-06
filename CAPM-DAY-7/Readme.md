@@ -93,6 +93,17 @@ HANA understand its own database object format example : hdbtable, hdbsequence, 
 </br>
 </details>
 
+<details>
+<summary> <b> do NPM install for installing the essentail packages - realted to ahan db </b> </summary>
+</br>
+</br>
+
+</br>
+</br>
+
+</br>
+</br>
+</details>
 
 <!--
 
