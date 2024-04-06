@@ -54,10 +54,19 @@ HANA understand its own database object format example : hdbtable, hdbsequence, 
 1. Add HANA configuration to our app, which tells CAP framwork that default DB is now HANA <b> -cds add hana </b>
 
 </br>
-</br>
+<img src="./files/capmd7-2.png" >
 </br>
 
+Check package.json for followign details 
+</br>
+<img src="./files/capmd7-3.png" >
+</br>
+<img src="./files/capmd7-4.png" >
+</br>
 
+add the following lines to the package.json
+</br>
+<img src="./files/capmd7-5.png" >
 </br>
 </br>
 </br>
