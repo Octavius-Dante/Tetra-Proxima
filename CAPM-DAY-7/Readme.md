@@ -11,22 +11,30 @@ So far we have our app running using SQLite and Postgres Sql in our system now w
 </br>
 our applciaiton contains following files which are type CDS in DB, in SRV HANA DB dosent udnerstand these *.cds type 
 </br>
-So what CAPM framework does when we connect our CAP with HDB it build this application is convert .cds table from DB to HDB 
+So what CAPM framework does when we connect our CAP with HDB it build files necessary for HDB 
+</br> the CAP application converts .cds table from DB to HDB as need version of files
 </br>
 </br>
-
 
 ### What HANA understand 
 </br>
 </br>
-
-</br>
 HANA understand its own database object format example : hdbtable, hdbsequence, hdbview, hdbprocedure, hdbi, hdbfunction...
+</br>
+</br>
 
 </br>
 </br>
 </br>
+## Steps for integrating CAP to HANA DB
 </br>
+</br>
+
+1 test
+2 test
+3 test
+4 test1 test
+
 </br>
 
 
