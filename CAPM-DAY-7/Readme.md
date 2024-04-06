@@ -36,6 +36,10 @@ HANA understand its own database object format example : hdbtable, hdbsequence, 
 
 1. Check the version of CDS (which must be >2.0) <b> cds -v </b>
 2. Start a HANA cloud instance ins SAP BTP 
+
+</br>
+</br>
+
 3. Main steps 
 	1. Add HANA configuration to our app, which tells CAP framwork taht default DB is now HANA <b> -cds add hana </b>
 
