@@ -966,6 +966,48 @@ context transaction {
 </br>
 </br>
 
+``` cds
+
+// Adding value list help for Business partner 
+@cds.odata.valuelist
+annotate CatalogService.BusinessPartnerSet with @(
+    UI.Identification:[{
+        $Type:'UI.DataField',
+        Value: COMPANY_NAME
+    }]
+) ;
+
+// Adding value list help for Produc
+@cds.odata.valuelist
+annotate CatalogService.ProductSet with @(
+    UI.Identification:[{
+        $Type:'UI.DataField',
+        Value: DESCRIPTION
+    }]
+) ;
+
+```
+</br>
+</br>
+
+Before triggerinf F4
+</br>
+</br>
+<img src="./files/capmd6-40.png" > 
+</br>
+</br>
+
+Before triggerinf F4
+</br>
+</br>
+<img src="./files/capmd6-41.png" > 
+</br>
+</br>
+
+After selecting values from F4 help
+</br>
+</br>
+<img src="./files/capmd6-42.png" > 
 </br>
 </br>
 </details>
