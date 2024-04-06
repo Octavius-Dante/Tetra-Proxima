@@ -774,7 +774,7 @@ A draft is a temporary version of a business entity that has not yet been explic
 </br>
 </br>
 
-Assocaition - a relationship betweene entitits which is a lose coupling. 
+Association - a relationship betweene entitits which is a lose coupling. 
 - Both objects should exist together. However, they can work independently. Example Airplane and passenger
 - A passenger can travel alone without depending on Airpalne 
 - An Airpalne can fly alone without depending on a passenger 
