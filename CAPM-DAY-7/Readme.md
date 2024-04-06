@@ -118,17 +118,24 @@ cds buil --production
 </br>
 </br>
 
-Before crating build - in APP directory 
+Cds build command execution 
 </br>
 </br>
 <img src="./files/capmd7-8.png" >
 </br>
 </br>
 
+Before crating build - in APP directory 
+</br>
+</br>
+<img src="./files/capmd7-9.png" >
+</br>
+</br>
+
 After creating build - in APP directory 
 </br>
 </br>
-<img src="./files/capmd7-8.png" >
+<img src="./files/capmd7-10.png" >
 </br>
 </br>
 </details>
