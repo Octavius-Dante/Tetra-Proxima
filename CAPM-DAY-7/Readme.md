@@ -103,7 +103,11 @@ HANA understand its own database object format example : hdbtable, hdbsequence, 
 </details>
 
 <details>
-<summary> <b> 5. We need to perform CDS build which creates GEN folder for integrating to HANA DB </b> </summary>
+<summary> <b> 5. We need to perform CDS build  </b> </summary>
+</br>
+
+This build creation will create GEN folder for integrating to HANA DB 
+</br> and create all the hana specific files which will be deployed to HANA cloud
 </br>
 </br>
 
