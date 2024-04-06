@@ -34,30 +34,39 @@ HANA understand its own database object format example : hdbtable, hdbsequence, 
 ### Pre-Requisite
 </br>
 
-### 1. Check the version of CDS (which must be >2.0) <b> cds -v </b>
+<details>
+<summary> <b> 1. Check the version of CDS (which must be >2.0) <b> cds -v </b> </summary>
 </br>
 </br>
 <img src="./files/capmd7-0.png" > 
 </br>
 </br>
+</details>
 
-### 2. Start a HANA cloud instance in SAP BTP
+<details>
+<summary> <b> 2. Start a HANA cloud instance in SAP BTP </b> </summary>
 </br>
 <img src="./files/capmd7-1.png" > 
 </br>
 <img src="./files/capmd7-2.png" >
 </br>
 </br>
+</details>
 
-### 3 Main steps 
+### Main steps 
+</br></br>
 
-1. Add HANA configuration to our app, which tells CAP framwork that default DB is now HANA <b> -cds add hana </b>
 
+<details>
+<summary> <b> 1. Add HANA configuration to our app, which tells CAP framwork that default DB is now HANA <b> -cds add hana </b> </b> </summary>
+</br>
 </br>
 <img src="./files/capmd7-3.png" >
 </br>
+</details>
 
-2. The above cds add hana command made following changes check package.json 
+<details>
+<summary> 2. The above cds add hana command made following changes check package.json  </summary>
 </br>
 </br>
 <img src="./files/capmd7-4.png" >
@@ -65,8 +74,10 @@ HANA understand its own database object format example : hdbtable, hdbsequence, 
 <img src="./files/capmd7-5.png" >
 </br>
 </br>
+</details>
 
-3. Add the following lines to the package.json below cds section 
+<details>
+<summary> 3. Add the following lines to the package.json below cds section  </summary>
 </br>
 </br>
 <img src="./files/capmd7-6.png" >
@@ -77,6 +88,10 @@ HANA understand its own database object format example : hdbtable, hdbsequence, 
     "deploy-format":"hdbtable"
   }
 ```
+</br>
+</br>
+</details>
+
 
 <!--
 
