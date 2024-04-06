@@ -847,6 +847,21 @@ Draft staging table for PO and Po items can be seen in DB as shwon below
 <img src="./files/capmd6-27.png" >
 </br>
 </br>
+
+
+<details>
+  <summary> <b> Items available in app after draft enabled </b> </summary>
+</br>
+</br>
+  <img src="./files/capmd6-28.png" >
+</br>
+  <img src="./files/capmd6-29.png" >
+</br>
+  <img src="./files/capmd6-30.png" >
+</br>
+</details>
+
+
 </br>
 </br>
 </br>
