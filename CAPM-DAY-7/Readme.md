@@ -22,7 +22,7 @@ So what CAPM framework does when we connect our CAP with HDB it build files nece
 HANA understand its own database object format example : hdbtable, hdbsequence, hdbview, hdbprocedure, hdbi, hdbfunction...
 </br>
 </br>
-
+<img src="./files/design-hana.png" > 
 </br>
 </br>
 </br>
