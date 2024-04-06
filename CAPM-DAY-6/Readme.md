@@ -957,10 +957,19 @@ context transaction {
 <img src="./files/capmd6-39.png" > 
 </br>
 </br>
+</details>
+
+
+
+<details>
+  <summary> <b> F4 help for screen field (AKA) <b> value help list </b> </b> </summary>
+</br>
+</br>
 
 </br>
 </br>
 </details>
+
 
 </br>
 </br>
