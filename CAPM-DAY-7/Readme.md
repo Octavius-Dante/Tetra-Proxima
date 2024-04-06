@@ -34,14 +34,14 @@ HANA understand its own database object format example : hdbtable, hdbsequence, 
 ### Pre-Requisite
 </br>
 
-1. Check the version of CDS (which must be >2.0) <b> cds -v </b>
+### 1. Check the version of CDS (which must be >2.0) <b> cds -v </b>
 </br>
 </br>
 
 </br>
 </br>
 
-2. Start a HANA cloud instance in SAP BTP
+### 2. Start a HANA cloud instance in SAP BTP
 </br>
 </br>
 <img src="./files/capmd7-1.png" > 
