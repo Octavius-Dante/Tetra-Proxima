@@ -260,9 +260,10 @@ if the app is not running and the link is accessed will get error message like b
    cds deploy --to sqlite:<data set name>
    ```
   </br>
-  anotehr option 
+  another option 
   </br>
- 
+  </br>
+  
    ```bat
    cds deploy --to sql:<data set name>
    ```
@@ -281,7 +282,9 @@ if the app is not running and the link is accessed will get error message like b
    </br>
    </br>
 
-  To run the app everytime after a change
+  To run the app everytime after a change with (2 functions)
+  - It deploys the DB files to local DB (cds deploy)
+  - And Runs the app (cds run)
    </br>
    </br>
    
