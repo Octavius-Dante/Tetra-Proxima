@@ -767,8 +767,6 @@ A draft is a temporary version of a business entity that has not yet been explic
 - To prevent data loss if an app terminates unexpectedly.
 </br>
 </br>
-</br>
-</br>
 
 ### Association vs Composition 
 </br>
