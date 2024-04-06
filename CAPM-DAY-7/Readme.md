@@ -94,10 +94,37 @@ HANA understand its own database object format example : hdbtable, hdbsequence, 
 </details>
 
 <details>
-<summary> <b> do NPM install for installing the essentail packages - related to hana db (by scanning package.json) </b> </summary>
+<summary> <b> 4. do NPM install for installing the essentail packages - related to hana db (by scanning package.json) </b> </summary>
 </br>
 </br>
 <img src="./files/capmd7-7.png" >
+</br>
+</br>
+</details>
+
+<details>
+<summary> <b> 5. We need to perform CDS build which creates GEN folder for integrating to HANA DB </b> </summary>
+</br>
+</br>
+
+```bat
+cds buil --production
+```
+
+</br>
+</br>
+
+Before crating build - in APP directory 
+</br>
+</br>
+<img src="./files/capmd7-8.png" >
+</br>
+</br>
+
+After creating build - in APP directory 
+</br>
+</br>
+<img src="./files/capmd7-8.png" >
 </br>
 </br>
 </details>
