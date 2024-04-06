@@ -1047,12 +1047,6 @@ annotate CatalogService.PurchseOrderItems with {
 <img src="./files/capmd6-44.png" > 
 </br>
 </br>
-<img src="./files/capmd6-45.png" > 
-</br>
-</br>
-<img src="./files/capmd6-46.png" > 
-</br>
-</br>
 </details>
 
 
