@@ -43,9 +43,7 @@ HANA understand its own database object format example : hdbtable, hdbsequence, 
 
 ### 2. Start a HANA cloud instance in SAP BTP
 </br>
-</br>
 <img src="./files/capmd7-1.png" > 
-</br>
 </br>
 <img src="./files/capmd7-2.png" >
 </br>
