@@ -945,6 +945,9 @@ context transaction {
 
 ### also remove the respective node key field in both po and po item *.csv files and load and deploy
 </br>
+- downlaod the .csv file (dan.db.transaction-purchaseorder.csv) , (dan.db.transaction-poitems.csv) from CSV folder
+- remove the node key fields
+- upload the csv file to the CSV folder 
 </br>
 
 Testing the automated key creation 
