@@ -1091,34 +1091,65 @@ Add this code changes below overall status field.
 </br>
 </br>
 
-
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-
-<!--
 <details>
-  <summary> <b> REFERENCE sample for drill down </b> </summary>
+<summary> <b> ALL CODE CHANGES - TODAY SESSION </b> </summary>
 </br>
 </br>
 
+## Annotation.cds 
 </br>
 </br>
+
+```cds
+
+```
+
+</br>
+</br>
+
+
+## CatalogService.cds
+</br>
+</br>
+
+```cds
+
+```
+
+</br>
+</br>
+
+## datamodel.cds
+</br>
+</br>
+
+```cds
+
+```
+
+</br>
+</br>
+
 </details>
--->
+
+
+
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
 
 
