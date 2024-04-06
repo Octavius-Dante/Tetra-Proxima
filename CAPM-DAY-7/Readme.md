@@ -59,12 +59,15 @@ HANA understand its own database object format example : hdbtable, hdbsequence, 
 
 Check package.json for followign details 
 </br>
+</br>
 <img src="./files/capmd7-3.png" >
 </br>
 <img src="./files/capmd7-4.png" >
 </br>
+</br>
 
 add the following lines to the package.json
+</br>
 </br>
 <img src="./files/capmd7-5.png" >
 </br>
