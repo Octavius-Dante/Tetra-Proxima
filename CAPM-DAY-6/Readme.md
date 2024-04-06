@@ -838,9 +838,13 @@ Make the following small changes to the purchase order table and deploy
 </br>
 <img src="./files/capmd6-26.png" >
 </br>
+</br>
 
+Draft staging table for PO and Po items can be seen in DB as shwon below 
+</br> (because it is defined as composition) 2 draft tables got created 
 </br>
 </br>
+<img src="./files/capmd6-27.png" >
 </br>
 </br>
 </br>
