@@ -960,7 +960,6 @@ context transaction {
 </details>
 
 
-
 <details>
   <summary> Creating F4 help for screen field Also Known As <b> Value help list </b> </summary>
 </br>
@@ -1049,6 +1048,29 @@ annotate CatalogService.PurchseOrderItems with {
 </br>
 </details>
 
+
+<details>
+<summary> <b> Boost Action - integration to Fiori Ui </b> </summary>
+</br>
+</br>
+
+  In previous exercise we created Boost Action, now we are going to use the BOOST action in our FIori report page 
+</br> 
+</br>
+### annotation.cds
+</br>
+</br>
+
+```cds
+
+
+```
+
+</br>
+</br>
+</br>
+</br>
+</details>
 
 </br>
 </br>
