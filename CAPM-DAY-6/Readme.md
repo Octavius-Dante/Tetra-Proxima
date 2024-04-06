@@ -821,11 +821,16 @@ Composition - a relationship betweene entitits which is a tight coupling.
 
 ## CatalogService.cds
 </br>
+</br>
+
+Make the following small changes to the purchase order table and deploy
+</br>
 
 ```cds
-
-
-
+    entity POs @(
+        title : 'Purchase Order',
+        odata.draft.enabled : true,    
+    ) as projection on db.transaction.purchaseorder {
 ```
 
 </br>
