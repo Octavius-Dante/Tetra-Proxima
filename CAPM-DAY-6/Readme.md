@@ -792,9 +792,7 @@ Composition - a relationship betweene entitits which is a tight coupling.
 </br>
 </br>
 
-So now our databse entites are using association and it needs change it ot composition as shown below
-</br>
-</br>
+## database entites are using association and it needs to be changed as composition as shown below
 </br>
 
 ## datamodel.cds
