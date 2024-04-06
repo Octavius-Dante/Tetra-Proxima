@@ -952,6 +952,15 @@ context transaction {
 </br>
 
 
+(po items file can be deleted as hwon below)
+</br>
+<img src="./files/capmd6-39.png" > 
+</br>
+</br>
+
+</br>
+</br>
+
 Testing the automated key creation 
 </br>
 </br>
