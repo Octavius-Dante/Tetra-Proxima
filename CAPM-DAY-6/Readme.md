@@ -762,7 +762,7 @@ A draft is a temporary version of a business entity that has not yet been explic
 </br>
 </br>
 
-### Drafts are used:
+### Why drafts are used:
 - To keep unsaved changes if an editing activity is interrupted, allowing users to resume editing later.
 - To prevent data loss if an app terminates unexpectedly.
 </br>
