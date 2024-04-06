@@ -797,6 +797,21 @@ So now our databse entites are using association and it needs change it ot compo
 </br>
 </br>
 
+## datamodel.cds
+</br>
+
+```cds
+    entity purchaseorder: commons.Amount{
+        key NODE_KEY: commons.Guid;
+        PO_ID: String(40);
+        PARTNER_GUID: Association to master.businesspartner;
+        LIFECYCLE_STATUS: String(1);
+        OVERALL_STATUS: String(1);
+        NOTE: String(45) default 'null';
+        Items: Composition of many poitems on Items.PARENT_KEY = $self;
+//        Items: Association to many poitems on Items.PARENT_KEY = $self;
+    }
+```
 
 
 
