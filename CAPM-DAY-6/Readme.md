@@ -1101,6 +1101,362 @@ Add this code changes below overall status field.
 </br>
 
 ```cds
+// using CatalogService as service from '../../srv/CatalogService';
+
+using CatalogService as service from '../../srv/CatalogService';
+using mysrvdemo as service_2 from '../../srv/MyService';
+
+// Purchase order entity
+annotate CatalogService.POs with @(
+
+UI: {
+        SelectionFields          : [
+            PO_ID,
+            GROSS_AMOUNT,
+            LIFECYCLE_STATUS,
+            CURRENCY_code,
+            PARTNER_GUID.COMPANY_NAME
+        ],
+
+        LineItem                 : [
+            {
+                $Type: 'UI.DataField',
+                // Label : 'PO_ID',
+                Value: PO_ID,
+            },
+            {
+                $Type: 'UI.DataField',
+                Label: 'Gross Amount',
+                Value: GROSS_AMOUNT,
+            },
+
+            {
+                $Type      : 'UI.DataField',
+                Value      : OVERALL_STATUS,
+                Criticality: Critical_report,
+                CriticalityRepresentation : #WithIcon
+
+            // Criticality is a keyword for UI icons
+            // Critical report field from datamodel.cds is used to display icons
+
+            },
+
+            {
+                $Type :'UI.DataFieldForAction',
+                Action : 'CatalogService.boost',
+                Label: 'Boost',
+                Inline: True,
+            },
+
+            {
+                $Type: 'UI.DataField',
+                Value: CURRENCY_code,
+            },
+
+            {
+                $Type: 'UI.DataField',
+                Value: PARTNER_GUID.COMPANY_NAME,
+            },
+            {
+                $Type: 'UI.DataField',
+                Label: 'Country',
+                Value: PARTNER_GUID.ADDRESS_GUID.COUNTRY,
+            },
+            {
+                $Type: 'UI.DataField',
+                Value: TAX_AMOUNT,
+            },
+        ],
+
+        HeaderInfo               : {
+            $Type         : 'UI.HeaderInfoType',
+            TypeName      : 'Purchase Order',
+            TypeNamePlural: 'Purchase Orders',
+            Title         : {
+                Label: 'Purchase Order Id',
+                Value: PO_ID
+            },
+            Description   : {
+                Label: 'Supplier',
+                Value: PARTNER_GUID.COMPANY_NAME
+            },
+            ImageUrl      : 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/SAP_2011_logo.svg/2560px-SAP_2011_logo.svg.png'
+        },
+
+        Facets                   : [
+            {
+                $Type : 'UI.CollectionFacet',
+                Facets: [
+                    {
+                        $Type : 'UI.ReferenceFacet',
+                        Label : 'More Details',
+                        Target: ![@UI.FieldGroup#DanteFields]
+                    },
+                    {
+                        $Type : 'UI.ReferenceFacet',
+                        Label : 'Address Details',
+                        Target: ![@UI.FieldGroup#AddressFields]
+                    },
+                    {
+                        $Type : 'UI.ReferenceFacet',
+                        Label : 'Amount Details',
+                        Target: ![@UI.FieldGroup#AmountFields]
+                    },
+                ],
+            },
+
+            {
+                $Type : 'UI.ReferenceFacet',
+                Label : 'Line Items',
+                Target: Items.![@UI.LineItem]
+            },
+
+        ],
+
+
+        FieldGroup #AddressFields: {
+            $Type: 'UI.FieldGroupType',
+            Data : [
+                {
+                    $Type: 'UI.DataField',
+                    Value: PARTNER_GUID.ADDRESS_GUID.COUNTRY
+                },
+                {
+                    $Type: 'UI.DataField',
+                    Value: PARTNER_GUID.ADDRESS_GUID.STREET
+                },
+                {
+                    $Type: 'UI.DataField',
+                    Value: PARTNER_GUID.ADDRESS_GUID.CITY
+                }
+
+            ]
+
+        },
+
+
+        FieldGroup #AmountFields : {
+            $Type: 'UI.FieldGroupType',
+            Data : [
+                {
+                    $Type: 'UI.DataField',
+                    Value: GROSS_AMOUNT
+                },
+                {
+                    $Type: 'UI.DataField',
+                    Value: NET_AMOUNT
+                },
+                {
+                    $Type: 'UI.DataField',
+                    Value: TAX_AMOUNT
+                },
+                {
+                    $Type: 'UI.DataField',
+                    Value: CURRENCY_code
+                },
+
+            ]
+
+        },
+
+        FieldGroup #DanteFields  : {
+            $Type: 'UI.FieldGroupType',
+            Data : [
+                {
+                    $Type: 'UI.DataField',
+                    Value: PO_ID
+                },
+                {
+                    $Type: 'UI.DataField',
+                    // Value: PARTNER_GUID.NODE_KEY
+                    Value: PARTNER_GUID_NODE_KEY
+                },
+                {
+                    $Type: 'UI.DataField',
+                    Value: PARTNER_GUID.BP_ID
+                },
+                {
+                    $Type: 'UI.DataField',
+                    Value: PARTNER_GUID.COMPANY_NAME
+                },
+                {
+                    $Type: 'UI.DataField',
+                    Value: LIFECYCLE_STATUS
+                }
+
+            ]
+        }
+
+    }
+
+);
+
+// Adding the COMPANY name to the GUID-KEY values value 
+annotate CatalogService.POs with {
+    PARTNER_GUID @(
+        Common : {
+            Text : PARTNER_GUID.COMPANY_NAME,
+        },
+        valuelist.entity : CatalogService.BusinessPartnerSet
+    )
+} ;
+
+// Adding the Product description to GUID-KEY values 
+annotate CatalogService.PurchseOrderItems with {
+    PRODUCT_GUID @(
+        Common : {
+            Text : PRODUCT_GUID.DESCRIPTION,
+        },
+        valuelist.entity : CatalogService.ProductSet
+    )
+} ;
+
+// Adding value list help for Business partner 
+@cds.odata.valuelist
+annotate CatalogService.BusinessPartnerSet with @(
+    UI.Identification:[{
+        $Type:'UI.DataField',
+        Value: COMPANY_NAME
+    }]
+) ;
+
+
+// Adding value list help for Produc
+@cds.odata.valuelist
+annotate CatalogService.ProductSet with @(
+    UI.Identification:[{
+        $Type:'UI.DataField',
+        Value: DESCRIPTION
+    }]
+) ;
+
+
+// Purchase order item entity
+
+annotate CatalogService.PurchseOrderItems with @(
+
+UI: {
+        LineItem: [
+            {
+                $Type: 'UI.DataField',
+                Value: PO_ITEM_POS
+            },
+            {
+                $Type: 'UI.DataField',
+                Value: PRODUCT_GUID_NODE_KEY,
+            },
+            // {
+            //     $Type: 'UI.DataField',
+            //     Value: PRODUCT_GUID.ProductId,
+            // },
+
+            {
+                $Type: 'UI.DataField',
+                Value: GROSS_AMOUNT,
+            },
+            {
+                $Type: 'UI.DataField',
+                Value: NET_AMOUNT,
+            },
+            {
+                $Type: 'UI.DataField',
+                Value: TAX_AMOUNT,
+            },
+            {
+                $Type: 'UI.DataField',
+                Value: CURRENCY_code,
+            },
+        ], 
+        HeaderInfo  : {
+            $Type : 'UI.HeaderInfoType',
+            TypeName : 'Item',
+            TypeNamePlural : 'Items',
+            Title:{
+                $Type : 'UI.DataField',
+                Value : PRODUCT_GUID_NODE_KEY,               
+            },
+            Description:{
+                $Type : 'UI.DataField',
+                Value : PO_ITEM_POS,               
+            },            
+        },
+        Facets : [
+                {
+                  $Type : 'UI.ReferenceFacet',
+                  Target: '@UI.FieldGroup#LineItemHeader',
+                  Label : 'More Info'
+                },
+                {
+                  $Type : 'UI.ReferenceFacet',
+                  Target: '@UI.FieldGroup#ProductDetails',
+                  Label : 'Product details'
+                },                
+        ],
+
+FieldGroup #LineItemHeader : {
+        $Type: 'UI.FieldGroupType',
+        Data : [
+            {
+                $Type: 'UI.DataField',
+                Value: PO_ITEM_POS
+            },
+            {
+                $Type: 'UI.DataField',
+                Value: PRODUCT_GUID_NODE_KEY
+            },
+            {
+                $Type: 'UI.DataField',
+                Value: GROSS_AMOUNT
+            },
+            {
+                $Type: 'UI.DataField',
+                Value: NET_AMOUNT
+            },
+            {
+                $Type: 'UI.DataField',
+                Value: TAX_AMOUNT
+            },
+            {
+                $Type: 'UI.DataField',
+                Value: CURRENCY_code
+            }                                                            
+            
+        ],
+    },
+
+FieldGroup #ProductDetails: {
+        $Type: 'UI.FieldGroupType',
+        Data : [
+            {
+                $Type: 'UI.DataField',
+                Value: PRODUCT_GUID.PRODUCT_ID
+            },
+            {
+                $Type: 'UI.DataField',
+                Value: PRODUCT_GUID.DESCRIPTION
+            },
+            {
+                $Type: 'UI.DataField',
+                Value: PRODUCT_GUID.TYPE_CODE
+            },
+            {
+                $Type: 'UI.DataField',
+                Value: PRODUCT_GUID.CATEGORY
+            },
+            {
+                $Type: 'UI.DataField',
+                Value: PRODUCT_GUID.SUPPLIER_GUID.COMPANY_NAME
+            },
+            {
+                $Type: 'UI.DataField',
+                Value: PRODUCT_GUID.TAX_TARIF_CODE
+            }    
+        ],
+    },    
+
+    }
+
+);
 
 ```
 
@@ -1113,7 +1469,140 @@ Add this code changes below overall status field.
 </br>
 
 ```cds
+// importing data models and views to our service
+using {dan.db} from '../db/datamodel';
+using {dante.cds} from '../db/CDSViews';
 
+// so in cap services odata will trim tha name when there is upper case in the word
+// example MyName will be dispalyed as My the part (Name) will be removed
+// to avoid this we use @(path:<service-name>) annotation
+
+service CatalogService @(path: 'CatalogService') {
+// I want to insert but dont want to delete
+    @Capabilities : { Insertable, Deletable: false }
+    entity BusinessPartnerSet as projection on db.master.businesspartner;
+    entity AddressSet         as projection on db.master.address;
+
+// I want to restrict CAP from doing post on employee use @readonly 
+    // @readonly   
+    entity EmployeeSet        as projection on db.master.employees;
+    entity PurchseOrderItems  as projection on db.transaction.poitems;
+
+//    entity POs as projection on db.transaction.purchaseorder {
+    entity POs @(
+        title : 'Purchase Order',
+        odata.draft.enabled : true,  
+        //odata.draft.enabled : true,    
+    ) as projection on db.transaction.purchaseorder {
+            *,
+// Case statement for - displaying status text 
+            case OVERALL_STATUS
+                when 'N' then 'New'
+                when 'P' then 'Planned'
+                when 'B' then 'Blocked'
+                when 'D' then 'Delivered'
+                else 'Unknown'
+                end as OVERALL_STATUS: String(20),
+
+// This is colour coding - Criticality icons 
+                case OVERALL_STATUS
+                when 'N' then 2
+                when 'P' then 3
+                when 'B' then 1
+                when 'D' then 3
+                else 1
+                end as Critical_report: Integer,
+
+// in case if gross amount is showing with extreme decimal value             
+            // round(GROSS_AMOUNT) as GROSS_AMOUNT: Decimal(10,2),
+            Items : redirected to PurchseOrderItems
+        } actions {
+// Definition Part - need to do implementation part - in JS file             
+            action boost();
+            function largestOrder() returns array of  POs;
+        };
+ entity ProductSet as projection on db.master.product; 
+    //entity CProductValuesView as projection on cds.CDSViews.CProductValuesView;
+
+}
+
+```
+
+</br>
+</br>
+
+## CatalogService.js
+</br>
+</br>
+
+```cds
+// This module block will never change its liek a template 
+// -- whats inside this block will cahnge according to business Req
+
+// async - here means run in synchronised manner
+
+module.exports = cds.service.impl(async function () {
+
+    // step 1: get the object of our odata entities
+    const { EmployeeSet, POs } = this.entities;
+
+    // step 2:define generic handler for validaiton
+    this.before('UPDATE', EmployeeSet, (req, res) => {
+        console.log("It came here " + req.data.salaryAmount);
+        if(parseFloat(req.data.salaryAmount) >= 1000000){
+            req.error(500, "Salary must be less than a million for employee");
+        }                
+    });
+
+// ACTION
+    this.on('boost', async (req,res) => {
+        try {
+            // const ID = req.params[0];
+            const ID = req.params[0].ID;            
+            // console.log("Hey Amigo you purcahse order with id " + JSON.stringify(req.params[0]) + " will be boosted");
+            console.log("Hey Amigo you purcahse order with id " + JSON.stringify(req.params[0].ID) + " will be boosted");
+// CDS querly language converted from JS to cds 
+            const tx = cds.tx(req);
+            await tx.update(POs).with({
+                GROSS_AMOUNT: { '+=' : 20000 },
+                NOTE: 'Boosted!!'
+            // }).where(ID);
+        }).where({ID: ID});            
+        } catch (error) {
+            return "Error" + error.toString();
+        }        
+    });
+
+// FUNCTION 
+    this.on( 'largestOrder', async (req,res) => {
+        try {
+            const ID = req.params[0];
+            const tx = cds.tx(req);
+            
+// SELECT * UPTO 1 Row from dbtab ORDERBY GROSS_AMOUNT desc
+            const reply = await tx.read(POs).orderBy({
+                GROSS_AMOUNT: 'desc'
+            }).limit(1);
+
+            return reply;
+        } catch (error) {
+            
+        }
+
+    });
+
+}
+);
+
+
+// cds.tx is called CDS Transaction management
+// ACID 
+// Atomicity - Either completely fail or completley success 
+// Consistency - Transction should leave DB in a consistent state
+// Isolation - Each transaction is isoalted from each other 
+// Durability - data base should be durable enought to perform the transaction else transaction will be rejected 
+
+// it is an api provided by sap for cds transaction - can check the deailed info here https://cap.cloud.sap/docs/node.js/cds-tx
 ```
 
 </br>
@@ -1124,6 +1613,106 @@ Add this code changes below overall status field.
 </br>
 
 ```cds
+namespace dan.db;
+
+using { cuid, managed, temporal, Currency } from '@sap/cds/common'; // standard 
+using { dan.commons } from './commons'; // custom 
+
+// master table
+context master {
+
+// Business partner TABLE 
+entity businesspartner {
+    key NODE_KEY: commons.Guid; // Commons is my cutoms cds -- Common is Standard 
+    BP_ROLE: String(2);
+    EMAIL_ADDRESS: String(105);
+    PHONE_NUMBER: String(32);
+    FAX_NUMBER: String(34);
+    WEB_ADDRESS: String(44);
+    ADDRESS_GUID: Association to address; // table liknk to address
+    BP_ID: String(32);
+    COMPANY_NAME: String(250);
+}
+
+// Business partner ADDRESS TABLE 
+entity address {
+    key NODE_KEY: commons.Guid;
+    CITY: String(44);
+    POSTAL_CODE: String(8);
+    STREET:String(44);
+    BUILDING: String(128);
+    COUNTRY: String(44);
+    ADDRESS_TYPE: String(44);
+    VAL_START_DATE: Date;
+    VAL_END_DATE: Date;
+    LATITUDE: Decimal;
+    LONGITUDE: Decimal;
+    businesspartner: Association to one businesspartner on
+    businesspartner.ADDRESS_GUID = $self; // table link to business partner
+}
+
+// Product TABLE 
+entity product {
+    key NODE_KEY: String(40);
+    PRODUCT_ID: String(28);
+    TYPE_CODE: String(2);
+    CATEGORY: String(32);
+    DESCRIPTION: localized String(255); // localized will generate multiple transaltion text table at runtime 
+    SUPPLIER_GUID: Association to master.businesspartner;  // SUPPLIER_GUID is assocaited to teh primary key of business partner 
+    TAX_TARIF_CODE: Integer;
+    MEASURE_UNIT: String(2);
+    WEIGHT_MEASURE: Decimal(5,2);
+    WEIGHT_UNIT: String(2);
+    CURRENCY_CODE:String(4);
+    PRICE: Decimal(15,2);
+    WIDTH:Decimal(5,2);	
+    DEPTH:Decimal(5,2);	
+    HEIGHT:	Decimal(5,2);
+    DIM_UNIT:String(2);
+
+}
+
+entity employees: cuid {
+    nameFirst: String(40);
+    nameMiddle: String(40);
+    nameLast: String(40);
+    nameInitials: String(40);
+    sex: commons.Gender;
+    language: String(1);
+    phoneNumber: commons.PhoneNumber;
+    email: commons.Email;
+    loginName: String(12);
+    Currency: Currency;
+    salaryAmount: commons.AmountX;
+    accountNumber: String(16);
+    bankId: String(8);
+    bankName: String(40);
+}
+
+}
+
+// transaction table 
+context transaction {
+    entity purchaseorder: cuid, commons.Amount{
+        // key NODE_KEY: commons.Guid;
+        PO_ID: String(40);
+        PARTNER_GUID: Association to master.businesspartner;
+        LIFECYCLE_STATUS: String(1);
+        OVERALL_STATUS: String(1);
+        NOTE: String(45) default 'null';
+        Items: Composition of many poitems on Items.PARENT_KEY = $self;
+//        Items: Association to many poitems on Items.PARENT_KEY = $self;
+    }
+
+    entity poitems: cuid, commons.Amount{
+        // key NODE_KEY: commons.Guid;
+        PARENT_KEY: Association to purchaseorder;
+        PO_ITEM_POS: Integer;
+        PRODUCT_GUID: Association to master.product;
+}
+
+
+}
 
 ```
 
