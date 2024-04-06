@@ -18,10 +18,13 @@ Following check list of items available under this topic
 - [x] <a href="https://github.com/Octavius-Dante/Tetra_Proxima/tree/main/BTP_DAY_02_v1.0"> BTP Day 2 - Maven and Spring STS (Only environment setup) </a>
 </br>
 
-- [x] BTP cloud app deployment - JAVA (NOT INCLUDED) dependency issues 
+- [x] BTP cloud app deployment - JAVA (NOT INCLUDED) dependency issues
+</br>
+
 - [x] <a href="https://github.com/Octavius-Dante/Tetra_Proxima/tree/main/SAP_HANA_DB_CREATION"> BTP SAP HANA DB creation </a>
 - [x] <a href="https://github.com/Octavius-Dante/Tetra_Proxima/tree/main/SAP_HANA_HDI_SCHEMA_CREATION"> BTP SAP HDI schema establishment </a>
 - [x] <a href="https://github.com/Octavius-Dante/Tetra_Proxima/tree/main/XSUAA_JSON_FILE"> BTP SAP Authorization and Trust Management Service - XSUAA (WIP) </a>
+
 </br>
 (Pre-requisite- VSCode and Node JS should be installed in the system)
 </br>
