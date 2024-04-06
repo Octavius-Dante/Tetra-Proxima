@@ -962,7 +962,7 @@ context transaction {
 
 
 <details>
-  <summary> <b> F4 help for screen field (AKA) <b> value help list </b> </b> </summary>
+  <summary> Creating F4 help for screen field Also Known As <b> Value help list </b> </summary>
 </br>
 </br>
 
