@@ -276,6 +276,18 @@ if the app is not running and the link is accessed will get error message like b
    </br>
    </br>
 
+  To run the app everytime after a change
+   </br>
+   </br>
+   
+   ```bat
+   cds watch
+   ```
+   </br>
+   </br>
+   </br>
+
+
 
 **Pre-requisities before app deployment**
 
