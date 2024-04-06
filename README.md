@@ -38,7 +38,6 @@ Following check list of items available under this topic
 
 - [x] Node approuter (NOT INCLUDED) dependency issues (for java app)
 </br>
-</br>
 
 - [x] <a href="https://github.com/Octavius-Dante/Tetra_Proxima/tree/main/CAPM-DAY-1"> CAPM Day 1 - First CAP App </a>
 - [x] <a href="https://github.com/Octavius-Dante/Tetra_Proxima/tree/main/CAPM-DAY-2"> CAPM Day 2 - Aspects and Reuse Tables</a>
