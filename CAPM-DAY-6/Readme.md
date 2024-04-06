@@ -1010,6 +1010,49 @@ After selecting values from F4 help
 <img src="./files/capmd6-42.png" > 
 </br>
 </br>
+
+After F4 selection the values are meaningless (teh description should hlep the end user to understand what he selected 
+</br> so making a description attached to the ID looks understandable to the end user 
+</br>
+</br>
+
+``` cds
+
+// Adding the COMPANY name to the GUID-KEY values value 
+annotate CatalogService.POs with {
+    PARTNER_GUID @(
+        Common : {
+            Text : PARTNER_GUID.COMPANY_NAME,
+        },
+        valuelist.entity : CatalogService.BusinessPartnerSet
+    )
+} ;
+
+// Adding the Product description to GUID-KEY values 
+annotate CatalogService.PurchseOrderItems with {
+    PRODUCT_GUID @(
+        Common : {
+            Text : PRODUCT_GUID.DESCRIPTION,
+        },
+        valuelist.entity : CatalogService.ProductSet
+    )
+} ;
+
+```
+</br>
+</br>
+<img src="./files/capmd6-43.png" > 
+</br>
+</br>
+<img src="./files/capmd6-44.png" > 
+</br>
+</br>
+<img src="./files/capmd6-45.png" > 
+</br>
+</br>
+<img src="./files/capmd6-46.png" > 
+</br>
+</br>
 </details>
 
 
