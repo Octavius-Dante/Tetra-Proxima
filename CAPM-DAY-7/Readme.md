@@ -30,10 +30,10 @@ HANA understand its own database object format example : hdbtable, hdbsequence, 
 </br>
 </br>
 test test 
- 1 test
- 2 test
- 3 test
- 4 test1 test
+ 1. test
+ 2. test
+ 3. test
+ 4. test1 test
 
 </br>
 
