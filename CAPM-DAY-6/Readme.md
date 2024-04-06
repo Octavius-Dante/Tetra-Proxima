@@ -870,9 +870,36 @@ Draft staging table for PO and Po items can be seen in DB as shwon below
 </br>
 </br>
 
+Anything which is entered and not saved can be found in own draft
+</br>
+<img src="./files/capmd6-33.png" >
+</br>
+</br>
+
+Now ill enter the values for header and items 
+</br>
+<img src="./files/capmd6-34.png" >
+</br>
+<img src="./files/capmd6-35.png" >
+</br>
+</br>
+
+A draft saved for header and items 
+</br>
+<img src="./files/capmd6-36.png" >
+</br>
+</br>
+
+save the values and you can see object created notification 
+</br>
+<img src="./files/capmd6-37.png" >
 </br>
 </br>
 </br>
+
+After saving you can see draft and saved version option on top 
+</br>
+<img src="./files/capmd6-38.png" >
 </br>
 </br>
 
