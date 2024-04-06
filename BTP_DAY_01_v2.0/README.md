@@ -258,7 +258,12 @@ if the app is not running and the link is accessed will get error message like b
    
    ```bat
    cds deploy --to sqlite:<data set name>
-(or)
+   ```
+  </br>
+  anotehr option 
+  </br>
+ 
+   ```bat
    cds deploy --to sql:<data set name>
    ```
    </br>
