@@ -53,6 +53,8 @@ HANA understand its own database object format example : hdbtable, hdbsequence, 
 </br>
 </details>
 
+</br></br>
+
 ### Main steps 
 </br></br>
 
