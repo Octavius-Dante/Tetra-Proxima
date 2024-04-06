@@ -838,7 +838,7 @@ Make the following small changes to the purchase order table and deploy
 </br>
 </br>
 
-Draft staging table for PO and Po items can be seen in DB as shwon below 
+Draft staging table for PO and Po items can be seen in DB as shown below 
 </br> (because it is defined as composition) 2 draft tables got created 
 </br>
 </br>
