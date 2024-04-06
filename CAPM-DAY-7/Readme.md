@@ -26,16 +26,18 @@ HANA understand its own database object format example : hdbtable, hdbsequence, 
 </br>
 </br>
 </br>
+
 ## Steps for integrating CAP to HANA DB
 </br>
 </br>
-test test 
+
+### Pre-Requisite
 </br>
 
-1. test
-2. test
-3. test
-4. test1 test
+1. Check the version of CDS (which must be >2.0) <b> cds -v </b>
+2. Start a HANA cloud instance ins SAP BTP 
+3. Main steps 
+	1. test1 test
 
 </br>
 
