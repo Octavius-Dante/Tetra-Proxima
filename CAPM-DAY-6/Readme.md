@@ -786,9 +786,18 @@ Association - a relationship betweene entitits which is a lose coupling.
 Composition - a relationship betweene entitits which is a tight coupling. 
 - Both objects must exist together. However, they cannot function independently. Example Airplane and wings
 - An Airpalne cannot fly without wings a dependency
-- A purchase order line items cannot be created without depending on Purchase order header info
+- A purchase order line items cannot exist without header simialr way items cannot be created depending on Purchase order header info
 
 </br>
+</br>
+</br>
+
+So now our databse entites are using association and it needs change it ot composition as shown below
+</br>
+</br>
+</br>
+
+
 
 
 <!--
