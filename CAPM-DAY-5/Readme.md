@@ -1006,3 +1006,21 @@ service CatalogService @(path: 'CatalogService') {
 </br>
 </br>
 </details>
+
+
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+
+# NEXT ------ CAPM - DAY 6 - Fiori App Draft
+
+<p align="center"> 
+<a href="https://github.com/Octavius-Dante/Tetra_Proxima/tree/main/CAPM-DAY-6"> CAPM DAY 6 - Fiori App Draft</a> 
+</p>
+
+
