@@ -754,7 +754,31 @@ delete operation is available by default on the page app allows us to delete the
 </br>
 SAP as provided an option to Create and update and that can be done using Fiori App draft details explanation below
 </br>
+</br>
 
+What is draft ? 
+</br>
+</br>
+A draft is a temporary version of a business entity that has not yet been explicitly saved as an active version.
+</br>
+</br>
+
+### Drafts are used:
+-To keep unsaved changes if an editing activity is interrupted, allowing users to resume editing later.
+-To prevent data loss if an app terminates unexpectedly.
+</br>
+</br>
+
+<!--
+<details>
+  <summary> <b> REFERENCE sample for drill down </b> </summary>
+</br>
+</br>
+
+</br>
+</br>
+</details>
+-->
 
 </br>
 </br>
