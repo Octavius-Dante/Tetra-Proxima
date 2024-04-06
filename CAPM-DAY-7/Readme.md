@@ -57,7 +57,7 @@ HANA understand its own database object format example : hdbtable, hdbsequence, 
 <img src="./files/capmd7-3.png" >
 </br>
 
-Check package.json for followign details 
+2. The above cds add hana command made following changes check package.json 
 </br>
 </br>
 <img src="./files/capmd7-4.png" >
@@ -73,6 +73,12 @@ add the following lines to the package.json
 </br>
 </br>
 </br>
+
+```json
+  "hana":{
+    "deploy-format":"hdbtable"
+  }
+```
 
 <!--
 
