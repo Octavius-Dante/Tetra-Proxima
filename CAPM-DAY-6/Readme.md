@@ -860,6 +860,22 @@ Draft staging table for PO and Po items can be seen in DB as shwon below
 </details>
 
 
+<details>
+  <summary> <b> Testing Draft - Creating PO </b> </summary>
+</br>
+</br>
+  <img src="./files/capmd6-31.png" >
+</br>
+</br>
+
+</br>
+</br>
+</br>
+</br>
+</br>
+
+</details>
+
 </br>
 </br>
 </br>
