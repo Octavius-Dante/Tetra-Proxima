@@ -767,6 +767,29 @@ A draft is a temporary version of a business entity that has not yet been explic
 - To prevent data loss if an app terminates unexpectedly.
 </br>
 </br>
+</br>
+</br>
+
+### Association vs Composition 
+</br>
+</br>
+
+Assocaition - a relationship betweene entitits which is a lose coupling. 
+- Both objects should exist together. However, they can work independently. Example Airplane and passenger
+- A passenger can travel alone without depending on Airpalne 
+- An Airpalne can fly alone without depending on a passenger 
+- In Similar way an Entity can be accessed seperately but it can be assocaited and accessed (header and line item) 
+
+</br>
+</br>
+
+Composition - a relationship betweene entitits which is a tight coupling. 
+- Both objects must exist together. However, they cannot function independently. Example Airplane and wings
+- An Airpalne cannot fly without wings a dependency
+- A purchase order line items cannot be created without depending on Purchase order header info
+
+</br>
+
 
 <!--
 <details>
