@@ -66,12 +66,10 @@ HANA understand its own database object format example : hdbtable, hdbsequence, 
 </br>
 </br>
 
-add the following lines to the package.json
+3. Add the following lines to the package.json below cds section 
 </br>
 </br>
 <img src="./files/capmd7-6.png" >
-</br>
-</br>
 </br>
 
 ```json
