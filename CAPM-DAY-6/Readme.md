@@ -739,12 +739,6 @@ delete operation is available by default on the page app allows us to delete the
 </br>
 </br>
 </br>
-
-
-</br>
-</br>
-</br>
-</br>
 </br>
 
 
@@ -752,7 +746,11 @@ delete operation is available by default on the page app allows us to delete the
 
 </br>
 </br>
-SAP as provided an option to Create and update and that can be done using Fiori App draft details explanation below
+
+So far our Fiori app performed retreiving line items in multiple level and deleted record 
+</br>  but not performed anuy CREATE or UPDATE operation yet.
+</br>  SAP as provided an option to Create and Ppdate and that can be done using Fiori App draft.
+
 </br>
 </br>
 
