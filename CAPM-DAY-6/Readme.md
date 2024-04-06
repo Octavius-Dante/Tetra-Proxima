@@ -902,7 +902,54 @@ After saving you can see draft and saved version option on top
 <img src="./files/capmd6-38.png" >
 </br>
 </br>
+</details>
 
+
+
+<details>
+  <summary> <b> Automating the Node key creation for Create process </b> </summary>
+</br>
+</br>
+
+Make the code changes in <b> datamodels.cds </b>  under transaction section 
+</br>
+</br>
+
+```cds
+
+// transaction table 
+context transaction {
+    entity purchaseorder: cuid, commons.Amount{
+        // key NODE_KEY: commons.Guid;
+        PO_ID: String(40);
+        PARTNER_GUID: Association to master.businesspartner;
+        LIFECYCLE_STATUS: String(1);
+        OVERALL_STATUS: String(1);
+        NOTE: String(45) default 'null';
+        Items: Composition of many poitems on Items.PARENT_KEY = $self;
+//        Items: Association to many poitems on Items.PARENT_KEY = $self;
+    }
+
+    entity poitems: cuid, commons.Amount{
+        // key NODE_KEY: commons.Guid;
+        PARENT_KEY: Association to purchaseorder;
+        PO_ITEM_POS: Integer;
+        PRODUCT_GUID: Association to master.product;
+}
+
+
+```
+
+</br>
+</br>
+
+### also remove the respective node key field in both po and po item *.csv files and load and deploy
+</br>
+</br>
+
+Testing the automated key creation 
+</br>
+</br>
 </details>
 
 </br>
