@@ -823,7 +823,7 @@ Composition - a relationship betweene entitits which is a tight coupling.
 </br>
 </br>
 
-Make the following small changes to the purchase order table and deploy
+Make the following small changes to the purchase order table and deploy <b>(only draft table will be created when deployed)</b>
 </br>
 
 ```cds
@@ -835,6 +835,7 @@ Make the following small changes to the purchase order table and deploy
 
 </br>
 </br>
+<img src="./files/capmd6-26.png" >
 </br>
 
 </br>
