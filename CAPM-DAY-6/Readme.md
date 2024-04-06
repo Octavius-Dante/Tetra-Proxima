@@ -866,6 +866,8 @@ Draft staging table for PO and Po items can be seen in DB as shwon below
 </br>
   <img src="./files/capmd6-31.png" >
 </br>
+  <img src="./files/capmd6-32.png" >
+</br>
 </br>
 
 </br>
