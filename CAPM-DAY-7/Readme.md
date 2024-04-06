@@ -37,7 +37,7 @@ HANA understand its own database object format example : hdbtable, hdbsequence, 
 ### 1. Check the version of CDS (which must be >2.0) <b> cds -v </b>
 </br>
 </br>
-
+<img src="./files/capmd7-0.png" > 
 </br>
 </br>
 
