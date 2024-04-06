@@ -1054,15 +1054,24 @@ annotate CatalogService.PurchseOrderItems with {
 </br>
 </br>
 
-  In previous exercise we created Boost Action, now we are going to use the BOOST action in our FIori report page 
+In previous exercise we created Boost Action, now we are going to use the BOOST action in our FIori report page 
 </br> 
 </br>
+
 ### annotation.cds
+</br>
+Add this code changes below overall status field.
 </br>
 </br>
 
 ```cds
 
+            {
+                $Type :'UI.DataFieldForAction',
+                Action : 'CatalogService.boost',
+                Label: 'Boost',
+                Inline: True,
+            },
 
 ```
 
