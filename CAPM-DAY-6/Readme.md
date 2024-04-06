@@ -792,7 +792,7 @@ Composition - a relationship betweene entitits which is a tight coupling.
 </br>
 </br>
 
-## database entites are using association and it needs to be changed as composition as shown below
+## Changing to composition
 </br>
 
 ## datamodel.cds
@@ -812,6 +812,54 @@ Composition - a relationship betweene entitits which is a tight coupling.
 ```
 
 
+</br>
+</br>
+</br>
+
+## Draft enabling using annotation
+</br>
+
+## CatalogService.cds
+</br>
+
+```cds
+
+
+
+```
+
+</br>
+</br>
+</br>
+
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+
+
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
 
 <!--
 <details>
@@ -824,39 +872,4 @@ Composition - a relationship betweene entitits which is a tight coupling.
 </details>
 -->
 
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
 
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-
-
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
