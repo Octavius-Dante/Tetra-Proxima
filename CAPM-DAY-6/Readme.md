@@ -756,7 +756,7 @@ SAP as provided an option to Create and update and that can be done using Fiori 
 </br>
 </br>
 
-What is draft ? 
+### What is draft ? 
 </br>
 </br>
 A draft is a temporary version of a business entity that has not yet been explicitly saved as an active version.
