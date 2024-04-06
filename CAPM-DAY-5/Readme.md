@@ -869,9 +869,10 @@ annotate CatalogService.POs with @(
         },
 
         {
-            $Type : 'UI.DataField',
-            Value : OVERALL_STATUS,
-            Criticality:Critical_report,
+                $Type      : 'UI.DataField',
+                Value      : OVERALL_STATUS,
+                Criticality: Critical_report,
+                CriticalityRepresentation : #WithIcon
 
 // Criticality is a keyword for UI icons 
 // Critical report field from datamodel.cds is used to display icons 
