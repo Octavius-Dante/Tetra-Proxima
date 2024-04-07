@@ -237,6 +237,11 @@ IF deployment worked well a new file calle <b>cdsrc-private.json</b> gets create
 </br> when multiple developers are working with same object. 
 
 </br>
+HDI container is application managed, Schema is user managed. 
+</br> There can be only one schema for one hdi container ( one Schema = one HDI container )
+</br>
+
+</br>
 </br>
  
 </br>	
