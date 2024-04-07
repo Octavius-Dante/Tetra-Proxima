@@ -825,7 +825,7 @@ copy the contents from this sample code from the website and add it to our file 
 </br>
 </br>
 
-## Default Xs-app.json from sap official document [officail_page](page https://help.sap.com/docs/build-work-zone-standard-edition/sap-build-work-zone-standard-edition/routing-configuration-properties-and-syntax)
+## Default Xs-app.json from sap official document [official_page](https://help.sap.com/docs/build-work-zone-standard-edition/sap-build-work-zone-standard-edition/routing-configuration-properties-and-syntax)
 </br>
 </br>
 ## modified xs-app.json 
