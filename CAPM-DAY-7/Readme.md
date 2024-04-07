@@ -139,10 +139,11 @@ After creating build - Gen folder in APP directory (GEN - Generated)
 <summary> <b> Need to login to CLoud foundry from BAS - cf login </b> </summary>
 </br>
 </br>
-
+<img src="./files/capmd7-10a.png" >
 </br>
+<img src="./files/capmd7-10b.png" >
 </br>
-
+<img src="./files/capmd7-10c.png" >
 </br>
 </br>
 </details>
