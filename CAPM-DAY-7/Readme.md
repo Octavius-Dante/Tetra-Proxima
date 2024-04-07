@@ -156,14 +156,83 @@ After creating build - Gen folder in APP directory (GEN - Generated)
 </details>
 
 <details>
-<summary> 7. Need to deploy the DB and everything to HANA  </summary>
+<summary> 7. Need to deploy the DB and everything to HANA </summary>
 </br>
 </br>
 all generated files will be deployed to HANA using the command  <b>  cds deploy --to hana:dante </b>
 </br>
 </br>
 
-## ONLY DB WILL BE DEPLOYED - CAP App wont connect to DB
+There are 2 version for deploying to DB 
+- one with package.json file with credential changes 
+- Two with no changes to package.json file but have to deploy it with profile command 
+
+</br>
+</br>
+
+## pacakge.json (with changes)
+</br>
+</br>
+
+```json
+
+{
+  "name": "dante_cap_2",
+  "version": "1.0.0",
+  "description": "A simple CAP project.",
+  "repository": "<Add your repository here>",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "@sap/cds": "^7",
+    "@sap/cds-odata-v2-adapter-proxy": "^1.9.21",
+    "express": "^4",
+    "@sap/cds-hana": "^2"
+  },
+  "devDependencies": {
+    "@cap-js/sqlite": "^1",
+    "cds-plugin-ui5": "^0.6.13"
+  },
+  "scripts": {
+    "start": "cds-serve",
+    "watch-purchaseorderapp": "cds watch --open com.dante.purchaseorderapp/index.html?sap-ui-xx-viewCache=false --livereload false"
+  },
+  "workspaces": [
+    "app/*"
+  ],
+  "sapux": [
+    "app/purchaseorderapp"
+  ],
+  "cds": {
+    "requires": {
+.      "db": {
+.        "kind": "hana-Cloud",
+.        "credentials": {
+.          "database": "dan-key"
+        }
+      }
+    }
+  },
+  "hana": {
+    "deploy-format": "hdbtable"
+  }
+}
+
+
+```
+
+</br>
+</br>
+
+### "dan-key" is the key file which is going to get created for db in BTP instance  
+</br> and get accessed when CAPM app is executed it connects with credentials to access HDB
+</br> the name should be as same as database name which you are going to give in command
+</br> (example if DB name is "dante" - this should be "dante-key")
+
+</br>
+</br>
+
+## TO deploy DB to HANA (package.json file changes required)
 </br>
 </br>
 
@@ -174,7 +243,7 @@ cds deploy --to hana:<DB name>
 </br>
 </br>
 
-## Alternative command to perfrom both - build and deploy - ONLY DB WILL BE DEPLOYED - CAP App wont connect to DB
+## Alternative command to perfrom both - build and deploy (package.json file changes required)
 </br>
 </br>
 
@@ -185,7 +254,7 @@ cds build --production && cds deploy --to hana:<DB name>
 </br>
 </br>
 
-## Please use this command - only this works with connecting our app to HANA DB
+## This command also works (package.json file changes NOT-required) 
 </br>
 </br>
 
@@ -196,13 +265,17 @@ cds build --production && cds deploy --to hana:<DB name> --profile hybrid
 </br>
 </br>
 
+sample how my code looked like 
+</br>
+</br>
+
 ```bat
 cds build --production && cds deploy --to hana:dante --profile hybrid
 ```
 </br>
 </br>
 
-> This command execution will take some tiem to complete
+> This command execution will take some time to complete
 
 
 </br>
@@ -210,7 +283,8 @@ cds build --production && cds deploy --to hana:dante --profile hybrid
 Why to use profile Hybrid ? 
 </br>
 </br>
-Because it is what expected from SAP BTP cloud end this configuration is expected during our build process this can be found after deploying in <b>.cdsrc-private.json</b>
+Because it is what expected from SAP BTP cloud end this configuration is expected during our build process
+</br> this can be found after deploying in <b>.cdsrc-private.json</b>
 </br>
 </br>
 </br>
