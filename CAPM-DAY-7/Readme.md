@@ -121,11 +121,13 @@ cds buil --production
 Cds build command execution 
 </br>
 </br>
-<img src="./files/capmd7-8.png" >
+<img src="./files/capmd7-8a.png" >
+</br>
+<img src="./files/capmd7-8b.png" >
 </br>
 </br>
 
-After creating build - in APP directory 
+After creating build - Gen folder in APP directory (GEN - Generated) 
 </br>
 </br>
 <img src="./files/capmd7-9.png" >
