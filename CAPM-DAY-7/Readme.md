@@ -620,7 +620,7 @@ resources:
 
 
 <details>
-<summary> 5. inside the app folder install app router </summary>
+<summary> 5. Inside the app folder install app router </summary>
 </br>
 </br>
 go to app directory via terminal and initiate npm init
@@ -716,6 +716,49 @@ This pacakge.json is created inside the app folder (dont mistake for the old pac
 </br>
 </br>
 <img src="./files/capmd7-21.png" >
+</br>
+</br>
+</details>
+
+
+<details>
+<summary> 6. Add xs-app.json, providfe the routes </summary>
+</br>
+</br>
+in npm js link https://www.npmjs.com/package/@sap/approuter search for xs-app.json 
+</br>
+</br>
+<img src="./files/capmd7-22.png" >
+</br>
+</br>
+  
+the exact code module will look like this 
+</br>
+</br>
+<img src="./files/capmd7-23.png" >
+</br>
+</br>
+
+## sample xs-app.json from [npmjs](https://www.npmjs.com/package/@sap/approuter) website 
+</br>
+</br>
+
+```json
+{
+  "source": "^/get/home(.*)",
+  "target": "$1",
+  "localDir": "resources",
+  "replace": {
+    "pathSuffixes": ["index.html"],
+    "vars": ["escaped_text", "NOT_ESCAPED"],
+    "services": {
+      "my-sapui5-service": {
+        "tag": "ui5"
+      }
+    }
+  }
+}
+```
 </br>
 </br>
 </details>
