@@ -165,9 +165,17 @@ cds deploy --to hanan:<DB name>
 
 > This command execution will take some tiem to complete
 
+
+
 </br>
 </br>
- 
+<a href="https://github.com/Octavius-Dante/Tetra_Proxima/blob/main/CAPM-DAY-7/error-log-HDB.txt"> CDS Deploy - Error Log Sample </a>
+</br>
+</br>
+<a href="https://github.com/Octavius-Dante/Tetra_Proxima/blob/main/CAPM-DAY-7/success-log-HDB.txt"> CDS Deploy - Success Log Sample </a>
+</br>
+</br>
+
 <img src="./files/capmd7-11a.png" >
 </br>
 <img src="./files/capmd7-11b.png" >
