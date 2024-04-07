@@ -911,7 +911,6 @@ copy the contents from this sample code from the website and add it to our file 
 </br>
 
 open the mta.yaml file using MTA editor as swhow below 
-
 </br>
 </br>
 <img src="./files/capmd7-26a.png" >
@@ -946,6 +945,13 @@ Now we need to provide destiantion proeprty
 </br>
 </br>
 <img src="./files/capmd7-26e.png" >
+</br>
+</br>
+
+now open the mta.yaml in text editor and see the changes as shown below
+</br>
+</br>
+<img src="./files/capmd7-26f.png" >
 </br>
 </br>
 
