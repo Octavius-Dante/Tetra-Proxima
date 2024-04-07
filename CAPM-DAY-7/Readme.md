@@ -164,7 +164,7 @@ cds deploy --to hanan:<DB name>
 </br>
 
 > [!NOTE]
-> This command execution will take some time to complete..
+> Useful information that users should know, even when skimming content.
 
 </br>
 </br>
