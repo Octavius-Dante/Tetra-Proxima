@@ -935,15 +935,14 @@ Scroll down and enter the destination in GROUP section
 </br>
 Now we need to provide destiantion proeprty 
 </br>
-</br>
-### 4 values 
-</br>
 
+
+### 4 values need to be added 
+</br>
 </br> name : srv-api
 </br> strict : true
 </br> forwardAuthToken : true
 </br> url : ~{srv-url}
-
 </br>
 </br>
 <img src="./files/capmd7-26e.png" >
