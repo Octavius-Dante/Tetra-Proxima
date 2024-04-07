@@ -204,6 +204,12 @@ cds build --production && cds deploy --to hana:dante --profile hybrid
 
 > This command execution will take some tiem to complete
 
+
+</br>
+</br>
+Why to use profile Hybrid ? 
+</br>
+Because it is what expected from SAP BTP cloud end this configuration this is expected during our build process this can be found after deploying in <b>.cdsrc-private.json</b>
 </br>
 </br>
 <a href="https://github.com/Octavius-Dante/Tetra_Proxima/blob/main/CAPM-DAY-7/error-log-HDB.txt"> CDS Deploy - Error Log Sample </a>
@@ -272,7 +278,8 @@ IF deployment worked well a new file calle <b>cdsrc-private.json</b> gets create
 <summary> 1. What is HDI container </summary>
 </br>
 </br>
-	HDI container is a databsae inside a database (HDB), 
+
+HDI container is a databsae inside a database (HDB), 
 </br> this is designed to avoid problems and conflict between data operations in database objects 
 </br> when multiple developers are working with same object. 
 
