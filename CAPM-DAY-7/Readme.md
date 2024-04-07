@@ -1033,16 +1033,13 @@ Right click MTA.yamal file and choose (build mta project) this will create mtar 
 </br>
 </br>
 
-iF there is any error encountered in the *mtar file build ing process then mta.yaml file needs to be altered
+if there is any error encountered in the *mtar file build ing process then mta.yaml file needs to be fixed with appropriate changes
 </br>
-trial and error, work around compare otehr mta yaml files from other projects are shared below for understanding 
-</br>
-MTA file sample directory : 
 </br>
 After building *.mtar file in the directory (right click and deploy)
 </br>
 </br>
-<img src="./files/capmd7-27.png" >
+<img src="./files/capmd7-28.png" >
 </br>
 </br>
 
