@@ -612,6 +612,7 @@ resources:
 
 </br>
 </br>
+<img src="./files/capmd7-17.png" >
 </br>
 </br>
 </details>
@@ -621,7 +622,7 @@ resources:
 <summary> 5. inside the app folder, add the package json and add teh app router module </summary>
 </br>
 </br>
-<img src="./files/capmd7-16.png" >
+<img src="./files/capmd7-17.png" >
 </br>
 </br>
 </br>
