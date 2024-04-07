@@ -347,8 +347,11 @@ Accessing hana db table and checking the analytics tool available in the system 
 <summary> 4. New Watch command for CDS to run with HANA DB </summary>
 </br>
 </br>
-use this new CDs watch command tp run the applciation with HANA db support it is suggested after ahana deployment log 
-</br> our hana db is deployed with profile hybrid from package.json so it is needed to run the watch fucntion using that profile 
+Use this new CDS watch command tp run the application with HANA DB support it is suggested in hana deployment log post successful deployment
+</br> our hana DB is deployed with profile hybrid command so it is needed to run the watch fucntion using that profile. 
+</br>
+</br>
+## Hybrid profile is the only profile which has CAP and DB connection communciating properly.
 </br>
 </br>
 
