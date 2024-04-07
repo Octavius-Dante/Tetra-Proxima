@@ -246,14 +246,16 @@ HDI container is application managed, Schema is user managed.
 </details>
 
 <details>
-<summary> 10. HDI container Access in HDB explorer </summary>
+<summary> 10. HDI container Access in Hand Database explorer </summary>
 </br>
 </br>
-
+<img src="./files/capmd7-12a.png" >
 </br>
+<img src="./files/capmd7-12b.png" >
 </br>
-
+<img src="./files/capmd7-12c.png" >
 </br>
+<img src="./files/capmd7-12d.png" >	
 </br>
 </details>
 
