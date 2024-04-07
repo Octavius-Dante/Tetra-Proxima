@@ -152,12 +152,12 @@ After creating build - Gen folder in APP directory (GEN - Generated)
 <summary> <b> 8. Need to deploy the DB and everything to HANA </b> </summary>
 </br>
 </br>
-all generated files will be deployed to HANA using the command  (cds deploy --to hanan:dante.db)
+all generated files will be deployed to HANA using the command  (cds deploy --to hanan:dante)
 </br>
 </br>
 
 ```bat
-cds deploy --to hanan:<DB name>.db
+cds deploy --to hanan:<DB name>
 ```
  
 <img src="./files/capmd7-11a.png" >
