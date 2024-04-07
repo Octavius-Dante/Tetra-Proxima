@@ -620,10 +620,10 @@ resources:
 
 
 <details>
-<summary> 5. inside the app folder, add the package json and add teh app router module </summary>
+<summary> 5. inside the app folder install app router </summary>
 </br>
 </br>
-go to app directory via termina and initiate npm init
+go to app directory via terminal and initiate npm init
 </br>
 </br>  
 
@@ -651,6 +651,11 @@ npm install @sap/approuter
 </br>
 </br>
 
+<details>
+<summary> 6. Add Start script to package.json </summary>
+</br>
+</br>
+  
 after app router installation, we need to add start script to pacakge.json as shown below
 </br>
 </br>
