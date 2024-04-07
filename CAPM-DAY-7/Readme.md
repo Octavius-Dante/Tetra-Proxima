@@ -903,13 +903,38 @@ copy the contents from this sample code from the website and add it to our file 
 </br>
 </br>
 </br>
-</br>
-</br>
-</br>
-
 </details>
 
+<details>
+<summary> 7. Configure srv-api in mta.yaml file </summary>
+</br>
+</br>
 
+open the mta.yaml file and add the following block of code to the file
+
+</br>
+</br>
+
+```yml
+
+```
+</br>
+</br>
+
+## final mta.yaml file after changes
+</br>
+</br>
+
+```yml
+
+```
+</br>
+</br>
+</br>
+<img src="./files/capmd7-26.png" >
+</br>
+</br>
+</details>
 
 </br>
 </br>
