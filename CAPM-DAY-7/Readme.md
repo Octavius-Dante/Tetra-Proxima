@@ -331,6 +331,26 @@ Accessing hana db table and checking the analytics tool available in the system 
 </details>
 
 
+<details>
+<summary> 4. New Watch command for CDS to run with HANA DB </summary>
+</br>
+</br>
+use this new CDs watch command tp run the applciation with HANA db support it is suggested after ahana deployment log 
+</br> our hana db is deployed with profile hybrid from package.json so it is needed to run the watch fucntion using that profile 
+</br>
+</br>
+
+```bat
+cds watch --profile hybrid
+```
+ 
+</br>
+</br>
+<img src="./files/capmd7-14.png" >
+</br>
+</br>	
+</details>
+
 <!--
 
 </br>
