@@ -495,7 +495,7 @@ cds add mta
 </br>
   
 
-## Defaul mta.yaml (which gets created) sample
+## Default mta.yaml (which gets created) sample
 </br>
 </br>
 
