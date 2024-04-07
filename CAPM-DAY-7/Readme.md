@@ -34,7 +34,7 @@ HANA understand its own database object format example : hdbtable, hdbsequence, 
 </br>
 
 <details>
-<summary> <b> 1. Check the version of CDS (which must be >2.0) <b> cds -v </b> </summary>
+<summary> 1. Check the version of CDS (which must be >2.0) <b> cds -v </b> </summary>
 </br>
 </br>
 <img src="./files/capmd7-0.png" > 
@@ -43,7 +43,7 @@ HANA understand its own database object format example : hdbtable, hdbsequence, 
 </details>
 
 <details>
-<summary> <b> 2. Start a HANA cloud instance in SAP BTP </b> </summary>
+<summary> 2. Start a HANA cloud instance in SAP BTP </summary>
 </br>
 <img src="./files/capmd7-1.png" > 
 </br>
