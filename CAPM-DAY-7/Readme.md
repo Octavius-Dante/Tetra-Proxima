@@ -112,7 +112,7 @@ This build creation will create GEN folder in our app directory for integrating 
 </br>
 
 ```bat
-cds buil --production
+cds build --production
 ```
 
 </br>
@@ -134,6 +134,19 @@ After creating build - Gen folder in APP directory (GEN - Generated)
 </br>
 </br>
 </details>
+
+<details>
+<summary> <b> Need to login to CLoud foundry from BAS - cf login </b> </summary>
+</br>
+</br>
+
+</br>
+</br>
+
+</br>
+</br>
+</details>
+
 
 <!--
 
