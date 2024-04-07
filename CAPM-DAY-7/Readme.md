@@ -294,7 +294,7 @@ Accessing hana db table and checking the analytics tool available in the system 
 </br>
 <img src="./files/capmd7-13-3.png" >
 </br>
-<img src="./files/capmd7-13-3.png" >	
+<img src="./files/capmd7-13-4.png" >	
 </br>	
 <img src="./files/capmd7-13a.png" >
 </br>
