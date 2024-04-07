@@ -487,27 +487,12 @@ cds add mta
 
 
 <details>
-<summary> 4. Now we need to add ui module similar like SRV module  </summary>
+<summary> 4. Now we need to add (Missing) modules </summary>
 </br>
 </br>
   
 
 ## Defaul mta.yaml (which gets created) sample
-</br>
-</br>
-
-## it has only SRV-module (Ui-module, DB-module, DB-deployer - #missing)
-
-</br>
-</br>
-
-We need to add 3 modules to the mta.yaml file manually it is not present - when its get created 
-- Ui-module
-- Db-module
-- Db-deployer
-
-</br> please compare the other mt.yaml file sample which has all the needed modules for reference
-
 </br>
 </br>
 
@@ -544,7 +529,29 @@ modules:
 </br>
 </br>
 
+## Default yaml has only SRV-module (Ui-module, DB-module, DB-deployer - #missing)
+</br>
+</br>
+
+We need to add 3 modules to the mta.yaml file manually - when its get created these 3 needed modules are missing as on (2024-April-07)
+- Ui-module
+- Db-module
+- Db-deployer
+
+</br> please compare default and other mta.yaml file sample which has all the needed modules for reference for understanding
+</br>
+</br>
+please change the app name and db name accordingly for your need
+</br>
+</br>
+
 ## mta.yaml (needed for our app with all services added)
+</br>
+</br>
+
+app name : dante_cap_2
+Db name : dan-db
+
 </br>
 </br>
 
