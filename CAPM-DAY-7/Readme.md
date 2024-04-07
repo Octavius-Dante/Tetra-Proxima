@@ -16,8 +16,7 @@ So what CAPM framework does when we connect our CAP with HDB it build files nece
 </br>
 </br>
 
-### What HANA understand 
-</br>
+### What HANA understands :
 </br>
 HANA understand its own database object format example : hdbtable, hdbsequence, hdbview, hdbprocedure, hdbi, hdbfunction...
 </br>
