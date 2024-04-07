@@ -548,6 +548,7 @@ modules:
 
 ```yml
 ---
+---
 _schema-version: '3.1'
 ID: dante_cap_2
 version: 1.0.0
@@ -575,7 +576,6 @@ modules:
     requires: 
       - name: dan-db    
 
-modules:
   - name: dante_cap_2-ui
     type: nodejs
     path: app
