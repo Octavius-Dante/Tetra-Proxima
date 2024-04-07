@@ -1021,10 +1021,32 @@ resources:
 </br>
 </details>
 
+
+<details>
+<summary> Create *.mtar file using mta.yaml </b> </summary>
+</br>
+</br>
+Right click MTA.yamal file and choose build (mta archive) this will create mtar file 
+</br>
+</br>
+<img src="./files/capmd7-27.png" >
 </br>
 </br>
 </br>
 </br>
+</br>
+</br>
+
+</details>
+
+
+</br>
+</br>
+</br>
+</br>
+
+
+
 
 
 <!--
