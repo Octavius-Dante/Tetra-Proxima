@@ -704,7 +704,7 @@ the start script mentioned in the website is added to our package.json
 </br>
 </br>
 
-This pacakge.json is created inside the app folder (donta mistake for teh old package.json) 
+This pacakge.json is created inside the app folder (dont mistake for the old package.json) 
 </br>
 </br>
 <img src="./files/capmd7-21.png" >
