@@ -179,6 +179,19 @@ cds deploy --to hanan:<DB name>
 Error log and success log are shared for your reference in case of any error - there will be manys errors listed 
 </br> - you can check the file and search for error and understand why error occured - mostly errros will be descriptive and understandable 
 
+</br>
+</br>
+
+### delete al lcsv files in the project and add teh files shared here and deploy 
+### these are HANA specifc files which will work proeprly when deploying  
+</br>
+</br>
+<a href="https://github.com/Octavius-Dante/Tetra_Proxima/tree/main/CAPM-DAY-7/hanacsv"> HANA CSV Folder </a>
+</br>
+</br>
+<a href="https://github.com/Octavius-Dante/Tetra_Proxima/tree/main/CAPM-DAY-7/hanacsv.zip"> HANA CSV *.rar file  </a>
+</br>
+</br>
 
 </br>
 </br>
