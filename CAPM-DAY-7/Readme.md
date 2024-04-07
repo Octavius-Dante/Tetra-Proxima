@@ -483,6 +483,9 @@ cds add mta
 ```
 </br>
 </br>
+<img src="./files/capmd7-16.png" >
+</br>
+</br>
 </details>
 
 
@@ -611,8 +614,6 @@ resources:
 ```
 
 </br>
-</br>
-<img src="./files/capmd7-16.png" >
 </br>
 </br>
 </details>
