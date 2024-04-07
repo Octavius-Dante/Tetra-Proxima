@@ -469,26 +469,28 @@ cds watch --profile hybrid
 </br>
 </br>
 
-<details>
-<summary> 1. Add mta.yml file </summary>
-</br>
-</br>
-  
-1. MTA - multi target application which is an advance version of manifest.yml file which we used in the past
-2. we use SAP provided CLI for MTA, this is pre-installed in BAs, the tool is called <b>mbt</b>
-3. First we run command cds add mta
-4. Now we need to add ui module similar like SRV module 
+1. Add mta.yml file - MTA - multi target application which is an advance version of manifest.yml file which we used in the past
+2. We use SAP provided CLI for MTA, this is pre-installed in BAs, the tool is called <b>mbt</b>
 
-</br> 
-</br> 
+
+<details>
+<summary> 3. First we run command cds add mta  </summary>
+</br>
+</br>
 
 ```bat
 cds add mta	
 ```
+</br>
+</br>
+</details>
 
+
+<details>
+<summary> 4. Now we need to add ui module similar like SRV module  </summary>
 </br>
 </br>
-</br>
+  
 
 ## Defaul mta.yaml (which gets created) sample
 </br>
@@ -499,7 +501,7 @@ cds add mta
 </br>
 </br>
 
-We need to add 3 modules to the mta.yaml file as 
+We need to add 3 modules to the mta.yaml file manually it is not present - when its get created 
 - Ui-module
 - Db-module
 - Db-deployer
@@ -607,6 +609,11 @@ resources:
 </br>
 </details>
 
+
+</br>
+</br>
+</br>
+</br>
 
 
 <!--
