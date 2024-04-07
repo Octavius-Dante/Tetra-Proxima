@@ -910,8 +910,47 @@ copy the contents from this sample code from the website and add it to our file 
 </br>
 </br>
 
-open the mta.yaml file and add the following block of code to the file
+open the mta.yaml file using MTA editor as swhow below 
 
+</br>
+</br>
+<img src="./files/capmd7-26a.png" >
+</br>
+</br>
+<img src="./files/capmd7-26b.png" >
+</br>
+</br>
+
+select the section app-ui
+</br>
+</br>
+<img src="./files/capmd7-26c.png" >
+</br>
+</br>
+Scroll down and enter the destination in GROUP section 
+</br>
+</br>
+<img src="./files/capmd7-26d.png" >
+</br>
+</br>
+Now we need to provide destiantion proeprty 
+</br>
+</br>
+### 4 values 
+</br>
+
+</br> name : srv-api
+</br> strict : true
+</br> forwardAuthToken : true
+</br> url : ~{srv-url}
+
+</br>
+</br>
+<img src="./files/capmd7-26e.png" >
+</br>
+</br>
+
+## Final mta.yaml file after changes
 </br>
 </br>
 
@@ -920,18 +959,8 @@ open the mta.yaml file and add the following block of code to the file
 ```
 </br>
 </br>
-
-## final mta.yaml file after changes
-</br>
 </br>
 
-```yml
-
-```
-</br>
-</br>
-</br>
-<img src="./files/capmd7-26.png" >
 </br>
 </br>
 </details>
