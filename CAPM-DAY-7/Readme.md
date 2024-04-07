@@ -226,7 +226,7 @@ IF deployment worked well a new file calle <b>cdsrc-private.json</b> gets create
 </br>
 <img src="./files/capmd7-11e.png" >
 </br>
-<details>
+</details>
 	
 <!--
 
