@@ -285,6 +285,12 @@ HDI container is application managed, Schema is user managed.
 <summary> 3. Data preview and checking analytics tool in HDB </summary>
 </br>
 </br>
+<img src="./files/capmd7-13-1.png" >
+</br>
+<img src="./files/capmd7-13-2.png" >
+</br>
+<img src="./files/capmd7-13-3.png" >
+</br>	
 <img src="./files/capmd7-13a.png" >
 </br>
 <img src="./files/capmd7-13b.png" >
