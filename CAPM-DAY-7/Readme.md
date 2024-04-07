@@ -654,7 +654,7 @@ npm install @sap/approuter
 after app router installation, we need to add start script to pacakge.json as shown below
 </br>
 </br>
-the documentaiton for adding the script detaisl aara vailalbe in 
+the documentation for adding the script details are available in 
 </br>
 </br>
 <img src="./files/capmd7-19.png" >
