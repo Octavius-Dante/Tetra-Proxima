@@ -257,6 +257,8 @@ HDI container is application managed, Schema is user managed.
 </br>
 <img src="./files/capmd7-12d.png" >	
 </br>
+<img src="./files/capmd7-12e.png" >	
+</br>	
 </details>
 
 
