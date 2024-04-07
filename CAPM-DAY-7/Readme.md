@@ -54,7 +54,7 @@ HANA understand its own database object format example : hdbtable, hdbsequence, 
 
 </br></br>
 
-### Main steps 
+### Main steps for HANA deployment
 </br>
 
 <details>
@@ -241,7 +241,7 @@ IF deployment worked well a new file calle <b>cdsrc-private.json</b> gets create
 
 </br></br>
 
-### Post HANA deploymeny
+### Post HANA deployment
 </br>
 
 
