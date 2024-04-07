@@ -445,21 +445,21 @@ cds watch --profile hybrid
 <summary> 5. Testing CAPM app with HANA DB </summary>
 </br>	
 </br>
-<img src="./files/capmd7-14.png" >
+<img src="./files/capmd7-15a.png" >
 </br>
-<img src="./files/capmd7-15.png" >	
+<img src="./files/capmd7-15b.png" >
 </br>
-<img src="./files/capmd7-16.png" >
+<img src="./files/capmd7-15c.png" >
 </br>
-<img src="./files/capmd7-17.png" >	
+<img src="./files/capmd7-15d.png" >
 </br>
-<img src="./files/capmd7-18.png" >	
+<img src="./files/capmd7-15e.png" >
 </br>
-<img src="./files/capmd7-19.png" >	
+<img src="./files/capmd7-15f.png" >
 </br>
-<img src="./files/capmd7-20.png" >	
+<img src="./files/capmd7-15g.png" >
 </br>
-<img src="./files/capmd7-21.png" >
+<img src="./files/capmd7-15h.png" >
 </br>
 </br>	
 </details>
