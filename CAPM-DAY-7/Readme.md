@@ -638,12 +638,12 @@ npm init
 </br>
 </br>
 
-Then perform npm install 
+Then perform npm install @sap/approuter which installs approuter specif packages to app folder 
 </br>
 </br>
 
 ```bat
-npm install
+npm install @sap/approuter
 ```
 </br>
 </br>
