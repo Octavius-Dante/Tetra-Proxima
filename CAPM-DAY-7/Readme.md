@@ -1023,7 +1023,7 @@ resources:
 
 
 <details>
-<summary> Create *.mtar file using mta.yaml </b> </summary>
+<summary> 8. Create *.mtar file using mta.yaml </b> </summary>
 </br>
 </br>
 Right click MTA.yamal file and choose (build mta project) this will create mtar file 
@@ -1044,7 +1044,6 @@ After building *.mtar file in the directory (right click and deploy)
 </br>
 
 </details>
-
 
 </br>
 </br>
@@ -1082,40 +1081,6 @@ After building *.mtar file in the directory (right click and deploy)
 
 
 -->
-
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-
 
 </br>
 </br>
