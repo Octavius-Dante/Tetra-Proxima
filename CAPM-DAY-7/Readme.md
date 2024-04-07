@@ -1026,7 +1026,7 @@ resources:
 <summary> Create *.mtar file using mta.yaml </b> </summary>
 </br>
 </br>
-Right click MTA.yamal file and choose build (mta archive) this will create mtar file 
+Right click MTA.yamal file and choose (build mta project) this will create mtar file 
 </br>
 </br>
 <img src="./files/capmd7-27.png" >
