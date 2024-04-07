@@ -143,7 +143,7 @@ After creating build - Gen folder in APP directory (GEN - Generated)
 </br>
 <img src="./files/capmd7-10b.png" >
 </br>
-<img src="./files/capmd7-10c.png" >
+<img src="./files/capmd7-10cd.png" >
 </br>
 </br>
 </details>
