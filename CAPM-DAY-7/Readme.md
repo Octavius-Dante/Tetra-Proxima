@@ -209,7 +209,9 @@ cds build --production && cds deploy --to hana:dante --profile hybrid
 </br>
 Why to use profile Hybrid ? 
 </br>
+</br>
 Because it is what expected from SAP BTP cloud end this configuration this is expected during our build process this can be found after deploying in <b>.cdsrc-private.json</b>
+</br>
 </br>
 </br>
 <a href="https://github.com/Octavius-Dante/Tetra_Proxima/blob/main/CAPM-DAY-7/error-log-HDB.txt"> CDS Deploy - Error Log Sample </a>
