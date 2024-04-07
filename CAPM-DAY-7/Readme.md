@@ -828,9 +828,77 @@ copy the contents from this sample code from the website and add it to our file 
 ## Default Xs-app.json from sap official document [official_page](https://help.sap.com/docs/build-work-zone-standard-edition/sap-build-work-zone-standard-edition/routing-configuration-properties-and-syntax)
 </br>
 </br>
-## modified xs-app.json 
+
+## Standard sample xs-app.json 
 </br>
 </br>
+
+```json
+{
+  "welcomeFile": "index.html",
+  "authenticationMethod": "route",
+  "sessionTimeout": 10,
+  "pluginMetadataEndpoint": "/metadata",
+  "routes": [				
+    {
+      "source": "^/sap/ui5/1(.*)$",
+      "target": "$1",
+      "destination": "ui5",
+      "csrfProtection": false
+    },
+    {
+      "source": "/employeeData/(.*)",
+	  "target": "/services/employeeService/$1",
+	  "destination": "employeeServices",
+	  "authenticationType": "xsuaa",
+	  "scope": ["$XSAPPNAME.viewer", "$XSAPPNAME.writer"],
+	  "csrfProtection": true
+    },
+    {
+      "source": "^/(.*)$",
+      "target": "/web/$1",
+      "localDir": "static-content",
+	  "replace": {
+        "pathSuffixes": ["/abc/index.html"],
+        "vars": ["NAME"]
+     },
+     {
+       "source": "^/user-api/currentUser$",
+       "target": "/currentUser",
+       "service": "sap-approuter-userapi"
+     }
+  ],
+  "login": {
+     "callbackEndpoint": "/custom/login/callback"
+  },
+  "logout": {
+     "logoutEndpoint": "/my/logout",
+     "logoutPage": "/logout-page.html"
+  },
+  "destinations": {
+     "employeeServices": {
+       "logoutPath": "/services/employeeService/logout",
+       "logoutMethod": "GET"
+     }
+  }, 
+  "responseHeaders" : [
+    {"name": "Content-Security-Policy", "value": "default-src 'self'"}
+  ],
+  "compression": { 
+     "minSize": 2048
+  },
+  "whitelistService": {
+     "endpoint": "/whitelist/service"
+  },
+  "websockets": {
+    "enabled": true
+  },
+  "errorPage": [
+    {"status": [400,401,402], "file": "/custom-err-4xx.html"},
+    {"status": 501, "file": "/custom-err-501.html"}
+  ] 
+}
+```
 
 </br>
 </br>
