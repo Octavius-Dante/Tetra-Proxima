@@ -163,8 +163,7 @@ cds deploy --to hanan:<DB name>
 </br>
 </br>
 
-> [!NOTE]
-> Useful information that users should know, even when skimming content.
+> This command execution will take some tiem to complete
 
 </br>
 </br>
