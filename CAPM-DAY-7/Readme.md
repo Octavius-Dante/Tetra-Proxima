@@ -182,7 +182,7 @@ Error log and success log are shared for your reference in case of any error - t
 </br>
 </br>
 
-### delete al lcsv files in the project and add teh files shared here and deploy 
+### delete all csv files in the project and add teh files shared here and deploy 
 ### these are HANA specifc files which will work proeprly when deploying  
 </br>
 </br>
