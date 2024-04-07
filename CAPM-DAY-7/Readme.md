@@ -176,6 +176,12 @@ cds deploy --to hanan:<DB name>
 </br>
 </br>
 
+Error log and success log are shared for your reference in case of any error - there will be manys errors listed 
+</br> - you can check the file and search for error and understand why error occured - mostly errros will be descriptive and understandable 
+
+
+</br>
+</br>
 <img src="./files/capmd7-11a.png" >
 </br>
 <img src="./files/capmd7-11b.png" >
