@@ -773,10 +773,69 @@ https://help.sap.com/docs/build-work-zone-standard-edition/sap-build-work-zone-s
 </br>
 </br>
 
+Create a new file xsa-app.json in app directory
+</br>
+</br>
+<img src="./files/capmd7-25.png" >
+</br>
+</br>
+
 https://help.sap.com/docs/build-work-zone-standard-edition/sap-build-work-zone-standard-edition/routing-configuration-properties-and-syntax
 </br>
 </br>
-copy the contents from this sample code from the website 
+copy the contents from this sample code from the website and add it to our file and modify accordinly
+</br>
+</br>
+
+## modified xs-app.json 
+</br>
+</br>
+
+```json
+
+{
+    "welcomeFile": "purchaseorderapp/index.html",
+    "authenticationMethod": "none",
+    "sessionTimeout": 10,
+    "pluginMetadataEndpoint": "/metadata",
+    "routes": [				
+      {
+        "source": "^/purchaseorderapp/webapp/(.*)",
+        "target": "$1",
+        "localDir": "/purchaseorderapp/webapp",
+        "csrfProtection": false
+      },
+      {
+        "source": "^/(.*)$",
+        "destination": "srv-api"
+      }
+    
+    ],
+    "logout": {
+       "logoutEndpoint": "/my/logout",
+       "logoutPage": "https://github.com/Octavius-Dante/Tetra_Proxima"
+    },
+    "errorPage": [
+      {"status": [400,401,402], "file": "/custom-err-4xx.html"},
+      {"status": 501, "file": "/custom-err-501.html"}
+    ] 
+  }
+
+```
+</br>
+</br>
+
+## Default Xs-app.json from sap official document [officail_page](page https://help.sap.com/docs/build-work-zone-standard-edition/sap-build-work-zone-standard-edition/routing-configuration-properties-and-syntax)
+</br>
+</br>
+## modified xs-app.json 
+</br>
+</br>
+
+</br>
+</br>
+</br>
+</br>
 </br>
 </br>
 
