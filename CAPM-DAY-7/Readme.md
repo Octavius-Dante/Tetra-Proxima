@@ -469,61 +469,54 @@ cds watch --profile hybrid
 </br>
 </br>
 
+<details>
+<summary> 1. Add mta.yml file </summary>
+</br>
+</br>
+1. MTA - multi target application which is an advance version of manifest.yml file which we used in the past
+2. we use SAP provided CLI for MTA, this is pre-installed in BAs, the tool is called <b>mbt</b>
+3. First we run command cds add mta	
+</br> 
+
+```bat
+cds add mta	
+```
 
 </br>
 </br>
 </br>
+</br>
+</br>
+</br>
 
-</br>
-</br>
-</br>
+</details>
 
 
 
 <!--
-
-</br>
-</br>
-
-``` cds 
-	
-
-
-``` 
-
-</br>
-</br>
-<img src="./files/capmd7-1.png" >
-</br>
-</br>
-
-## MyService.js 
-</br>
-</br>
-
-```js
-
-
-
-```
-</br>
-<img src="./files/capmd7-2.png" >
-</br>
-</br>
-
 
 
 <details>
 <summary> <b> ALL CODE CHANGES - TODAY SESSION </b> </summary>
 </br>
 </br>
-
+<img src="./files/capmd7-2.png" >
 </br>
 </br>
 
+```js
+
+```
+
 </br>
 </br>
+</br>
+</br>
+</br>
+</br>
+
 </details>
+
 
 
 -->
