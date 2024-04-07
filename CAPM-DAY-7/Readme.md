@@ -761,6 +761,25 @@ the exact code module will look like this
 ```
 </br>
 </br>
+
+you can also search in google and locate standard SAP doeumentation (recommended appraoch)
+
+</br>
+</br>
+https://help.sap.com/docs/build-work-zone-standard-edition/sap-build-work-zone-standard-edition/configure-application-routing-xs-app-json
+</br>
+</br>
+<img src="./files/capmd7-24.png" >
+</br>
+</br>
+
+https://help.sap.com/docs/build-work-zone-standard-edition/sap-build-work-zone-standard-edition/routing-configuration-properties-and-syntax
+</br>
+</br>
+copy the contents from this sample code from the website 
+</br>
+</br>
+
 </details>
 
 
