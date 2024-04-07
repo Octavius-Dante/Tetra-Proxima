@@ -210,7 +210,7 @@ cds build --production && cds deploy --to hana:dante --profile hybrid
 Why to use profile Hybrid ? 
 </br>
 </br>
-Because it is what expected from SAP BTP cloud end this configuration this is expected during our build process this can be found after deploying in <b>.cdsrc-private.json</b>
+Because it is what expected from SAP BTP cloud end this configuration is expected during our build process this can be found after deploying in <b>.cdsrc-private.json</b>
 </br>
 </br>
 </br>
