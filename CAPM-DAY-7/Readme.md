@@ -494,6 +494,21 @@ cds add mta
 </br>
 </br>
 
+## it has only SRV-module (Ui-module, DB-module, DB-deployer - #missing)
+
+</br>
+</br>
+
+We need to add 3 modules to the mta.yaml file as 
+- Ui-module
+- Db-module
+- Db-deployer
+
+</br> please compare the other mt.yaml file sample which has all the needed modules for reference
+
+</br>
+</br>
+
 ```yml
 ---
 _schema-version: '3.1'
