@@ -9,10 +9,10 @@ So far we have our app running using SQLite and Postgres Sql in our system now w
 </br> - Make the following changes to our app and connect to HANA DB 
 </br>
 </br>
-our applciaiton contains following files which are type CDS in DB, in SRV HANA DB dosent udnerstand these *.cds type 
+our applciaiton contains following files which are type CDS in DB, in SRV HANA DB dosent understand these *.cds type 
 </br>
-So what CAPM framework does when we connect our CAP with HDB it build files necessary for HDB 
-</br> the CAP application converts .cds table from DB to HDB as need version of files
+So what CAPM framework does when we connect our CAP with HDB it build files necessary for HDB in a folder called GEN
+</br> the CAP application converts .cds table from current local db to HANA DB's needed version of files
 </br>
 </br>
 
