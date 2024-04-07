@@ -59,6 +59,14 @@ HANA understand its own database object format example : hdbtable, hdbsequence, 
 
 <details>
 <summary> 1. Add HANA configuration to our app, which tells CAP framwork that default DB is now HANA <b> -cds add hana </b> </summary>
+
+</br>
+</br>
+
+```bat
+-cds add hana 
+```
+
 </br>
 </br>
 <img src="./files/capmd7-3.png" >
@@ -151,7 +159,7 @@ After creating build - Gen folder in APP directory (GEN - Generated)
 <summary> 7. Need to deploy the DB and everything to HANA  </summary>
 </br>
 </br>
-all generated files will be deployed to HANA using the command  <b>  cds deploy --to hana:dante) </b>
+all generated files will be deployed to HANA using the command  <b>  cds deploy --to hana:dante </b>
 </br>
 </br>
 
