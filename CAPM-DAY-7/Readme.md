@@ -165,8 +165,6 @@ cds deploy --to hanan:<DB name>
 
 > This command execution will take some tiem to complete
 
-
-
 </br>
 </br>
 <a href="https://github.com/Octavius-Dante/Tetra_Proxima/blob/main/CAPM-DAY-7/error-log-HDB.txt"> CDS Deploy - Error Log Sample </a>
@@ -182,8 +180,9 @@ Error log and success log are shared for your reference in case of any error - t
 </br>
 </br>
 
-### delete all csv files in the project and add teh files shared here and deploy 
-### these are HANA specifc files which will work proeprly when deploying  
+## delete all csv files in the project and add the files shared here and deploy 
+## these are HANA specifc files which will work properly when deploying  
+
 </br>
 </br>
 <a href="https://github.com/Octavius-Dante/Tetra_Proxima/tree/main/CAPM-DAY-7/hanacsv"> HANA CSV Folder </a>
@@ -196,14 +195,26 @@ Error log and success log are shared for your reference in case of any error - t
 </br>
 </br>
 <img src="./files/capmd7-11a.png" >
+
+</br>
+</br>
+</details>
+
+
+<details>
+<summary> <b> 9. When deployment is successful </b> </summary>
+</br>
+
+IF depl;oyment worked well a new file calle <b>cdsrc-private.json</b> gets created automatically.
+</br> this file contain the information about which container in SAP BTP HANA Cloud to connect to.
+</br> and private key is stored in this file.
+
+</br>
 </br>
 <img src="./files/capmd7-11b.png" >
 </br>
 <img src="./files/capmd7-11c.png" >
 </br>
-</br>
-</details>
-
 
 <!--
 
