@@ -136,7 +136,7 @@ After creating build - Gen folder in APP directory (GEN - Generated)
 </details>
 
 <details>
-<summary> <b> Need to login to CLoud foundry from BAS - cf login </b> </summary>
+<summary> <b> 7. Need to login to CLoud foundry from BAS - cf login </b> </summary>
 </br>
 </br>
 <img src="./files/capmd7-10a.png" >
@@ -144,6 +144,27 @@ After creating build - Gen folder in APP directory (GEN - Generated)
 <img src="./files/capmd7-10b.png" >
 </br>
 <img src="./files/capmd7-10cd.png" >
+</br>
+</br>
+</details>
+
+<details>
+<summary> <b> 8. Need to deploy the DB and everything to HANA </b> </summary>
+</br>
+</br>
+all generated files will be deployed to HANA using the command  (cds deploy --to hanan:dante.db)
+</br>
+</br>
+
+```bat
+cds deploy --to hanan:<DB name>.db
+```
+ 
+<img src="./files/capmd7-11a.png" >
+</br>
+<img src="./files/capmd7-11b.png" >
+</br>
+<img src="./files/capmd7-11c.png" >
 </br>
 </br>
 </details>
