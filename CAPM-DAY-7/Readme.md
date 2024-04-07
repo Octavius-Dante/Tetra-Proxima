@@ -159,6 +159,15 @@ all generated files will be deployed to HANA using the command  (cds deploy --to
 ```bat
 cds deploy --to hanan:<DB name>
 ```
+
+</br>
+</br>
+
+> [!NOTE]
+> This command execution will take some time to complete..
+
+</br>
+</br>
  
 <img src="./files/capmd7-11a.png" >
 </br>
