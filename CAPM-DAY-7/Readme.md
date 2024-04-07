@@ -722,7 +722,7 @@ This pacakge.json is created inside the app folder (dont mistake for the old pac
 
 
 <details>
-<summary> 6. Add xs-app.json, providfe the routes </summary>
+<summary> 6. Add xs-app.json, provide the routes </summary>
 </br>
 </br>
 in npm js link https://www.npmjs.com/package/@sap/approuter search for xs-app.json 
