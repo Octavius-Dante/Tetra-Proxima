@@ -151,7 +151,7 @@ After creating build - Gen folder in APP directory (GEN - Generated)
 <summary> 7. Need to deploy the DB and everything to HANA  </summary>
 </br>
 </br>
-all generated files will be deployed to HANA using the command  (cds deploy --to hana:dante)
+all generated files will be deployed to HANA using the command  <b>  cds deploy --to hana:dante) </b>
 </br>
 </br>
 
