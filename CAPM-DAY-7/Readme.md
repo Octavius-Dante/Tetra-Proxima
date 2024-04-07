@@ -58,7 +58,7 @@ HANA understand its own database object format example : hdbtable, hdbsequence, 
 </br>
 
 <details>
-<summary> <b> 1. Add HANA configuration to our app, which tells CAP framwork that default DB is now HANA <b> -cds add hana </b> </b> </summary>
+<summary> 1. Add HANA configuration to our app, which tells CAP framwork that default DB is now HANA <b> -cds add hana </b> </summary>
 </br>
 </br>
 <img src="./files/capmd7-3.png" >
@@ -93,7 +93,7 @@ HANA understand its own database object format example : hdbtable, hdbsequence, 
 </details>
 
 <details>
-<summary> <b> 4. do NPM install for installing the essentail packages - related to hana db (by scanning package.json) </b> </summary>
+<summary> 4. do NPM install for installing the essentail packages - related to hana db (by scanning package.json) </summary>
 </br>
 </br>
 <img src="./files/capmd7-7.png" >
@@ -102,7 +102,7 @@ HANA understand its own database object format example : hdbtable, hdbsequence, 
 </details>
 
 <details>
-<summary> <b> 5. We need to perform CDS build  </b> </summary>
+<summary> 5. We need to perform CDS build </summary>
 </br>
 
 This build creation will create GEN folder in our app directory for integrating to HANA DB 
@@ -135,7 +135,7 @@ After creating build - Gen folder in APP directory (GEN - Generated)
 </details>
 
 <details>
-<summary> <b> 7. Need to login to CLoud foundry from BAS - cf login </b> </summary>
+<summary> 6. Need to login to CLoud foundry from BAS - cf login </summary>
 </br>
 </br>
 <img src="./files/capmd7-10a.png" >
@@ -148,7 +148,7 @@ After creating build - Gen folder in APP directory (GEN - Generated)
 </details>
 
 <details>
-<summary> <b> 8. Need to deploy the DB and everything to HANA </b> </summary>
+<summary> 7. Need to deploy the DB and everything to HANA  </summary>
 </br>
 </br>
 all generated files will be deployed to HANA using the command  (cds deploy --to hanan:dante)
@@ -201,7 +201,7 @@ Error log and success log are shared for your reference in case of any error - t
 
 
 <details>
-<summary> <b> 9. When deployment is successful </b> </summary>
+<summary> 8. When deployment is successful </summary>
 </br>
 
 IF deployment worked well a new file calle <b>cdsrc-private.json</b> gets created automatically.
