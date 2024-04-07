@@ -449,17 +449,12 @@ cds watch --profile hybrid
 </br>
 <img src="./files/capmd7-15b.png" >
 </br>
+<img src="./files/capmd7-15b2.png" >
+</br>
 <img src="./files/capmd7-15c.png" >
 </br>
 <img src="./files/capmd7-15d.png" >
 </br>
-<img src="./files/capmd7-15e.png" >
-</br>
-<img src="./files/capmd7-15f.png" >
-</br>
-<img src="./files/capmd7-15g.png" >
-</br>
-<img src="./files/capmd7-15h.png" >
 </br>
 </br>	
 </details>
