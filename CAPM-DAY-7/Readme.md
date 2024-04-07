@@ -237,9 +237,17 @@ IF deployment worked well a new file calle <b>cdsrc-private.json</b> gets create
 <img src="./files/capmd7-11e.png" >
 </br>
 </details>
-	
+
+
+</br></br>
+
+### Post HANA deploymeny
+</br>
+
+
+ 
 <details>
-<summary> 9. What is HDI container </summary>
+<summary> 1. What is HDI container </summary>
 </br>
 </br>
 	HDI container is a databsae inside a database (HDB), 
@@ -256,7 +264,7 @@ HDI container is application managed, Schema is user managed.
 </details>
 
 <details>
-<summary> 10. HDI container Access in Hand Database explorer </summary>
+<summary> 2. HDI container Access in HANA Database explorer </summary>
 </br>
 </br>
 <img src="./files/capmd7-12a.png" >
@@ -268,6 +276,24 @@ HDI container is application managed, Schema is user managed.
 <img src="./files/capmd7-12d.png" >	
 </br>
 <img src="./files/capmd7-12e.png" >	
+</br>	
+</details>
+
+
+
+<details>
+<summary> 3. Data preview and checking analytics tool in HDB </summary>
+</br>
+</br>
+<img src="./files/capmd7-13a.png" >
+</br>
+<img src="./files/capmd7-13b.png" >
+</br>
+<img src="./files/capmd7-13c.png" >
+</br>
+<img src="./files/capmd7-13d.png" >	
+</br>
+<img src="./files/capmd7-13e.png" >	
 </br>	
 </details>
 
