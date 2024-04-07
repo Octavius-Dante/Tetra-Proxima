@@ -548,7 +548,6 @@ modules:
 
 ```yml
 ---
----
 _schema-version: '3.1'
 ID: dante_cap_2
 version: 1.0.0
