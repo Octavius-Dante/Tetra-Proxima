@@ -623,10 +623,31 @@ resources:
 <summary> 5. inside the app folder, add the package json and add teh app router module </summary>
 </br>
 </br>
+go to app directory via termina and initiate npm init
+</br>
+</br>  
+
+```bat
+cd app
+npm init
+```
+
+</br>
+</br>  
 <img src="./files/capmd7-17.png" >
 </br>
 </br>
+
+Then perform npm install 
 </br>
+</br>
+
+```bat
+npm install
+```
+</br>
+</br>
+<img src="./files/capmd7-18.png" >
 </br>
 </br>
 
