@@ -1023,7 +1023,7 @@ resources:
 
 
 <details>
-<summary> 8. Create *.mtar file using mta.yaml </b> </summary>
+<summary> 8. Create *.mtar file using mta.yaml for deployment </b> </summary>
 </br>
 </br>
 Right click MTA.yamal file and choose (build mta project) this will create mtar file 
