@@ -651,6 +651,65 @@ npm install @sap/approuter
 </br>
 </br>
 
+after app router installation, we need to add start script to pacakge.json as shown below
+</br>
+</br>
+the documentaiton for adding the script detaisl aara vailalbe in 
+</br>
+</br>
+<img src="./files/capmd7-19.png" >
+</br>
+</br>
+https://www.npmjs.com/package/@sap/approuter
+</br>
+</br>
+<img src="./files/capmd7-20.png" >
+</br>
+</br>
+the start script mentioned in the website is added to our package.json
+</br>
+</br>
+
+```json
+    "scripts": {
+        "start": "node node_modules/@sap/approuter/approuter.js"
+    }
+```
+
+</br>
+</br>
+
+## package.json (full file for reference) 
+</br>
+</br>
+
+```json
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+.    "start": "node node_modules/@sap/approuter/approuter.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sap/approuter": "^16.3.0"
+  }
+}
+
+```
+</br>
+</br>
+
+This pacakge.json is created inside the app folder (donta mistake for teh old package.json) 
+</br>
+</br>
+<img src="./files/capmd7-21.png" >
+</br>
+</br>
 </details>
 
 
