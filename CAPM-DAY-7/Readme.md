@@ -285,11 +285,16 @@ HDI container is application managed, Schema is user managed.
 <summary> 3. Data preview and checking analytics tool in HDB </summary>
 </br>
 </br>
+Accessing hana db table and checking the analytics tool available in the system with variety of options for the table data.
+</br>
+</br>	
 <img src="./files/capmd7-13-1.png" >
 </br>
 <img src="./files/capmd7-13-2.png" >
 </br>
 <img src="./files/capmd7-13-3.png" >
+</br>
+<img src="./files/capmd7-13-3.png" >	
 </br>	
 <img src="./files/capmd7-13a.png" >
 </br>
