@@ -30,7 +30,7 @@ HANA understand its own database object format example : hdbtable, hdbsequence, 
 </br>
 </br>
 
-### Pre-Requisite
+### Pre-Requisite 
 </br>
 
 <details>
@@ -54,7 +54,7 @@ HANA understand its own database object format example : hdbtable, hdbsequence, 
 
 </br></br>
 
-### Main steps for HANA deployment
+### Main steps for HANA Cloud integration
 </br>
 
 <details>
