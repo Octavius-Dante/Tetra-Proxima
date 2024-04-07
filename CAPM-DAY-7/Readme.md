@@ -476,6 +476,8 @@ cds watch --profile hybrid
 1. MTA - multi target application which is an advance version of manifest.yml file which we used in the past
 2. we use SAP provided CLI for MTA, this is pre-installed in BAs, the tool is called <b>mbt</b>
 3. First we run command cds add mta	
+
+</br> 
 </br> 
 
 ```bat
