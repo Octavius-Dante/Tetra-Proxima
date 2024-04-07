@@ -228,6 +228,22 @@ IF deployment worked well a new file calle <b>cdsrc-private.json</b> gets create
 </br>
 </details>
 	
+<details>
+<summary> 9. What is HDI container </summary>
+</br>
+</br>
+	HDI container is a databsae inside a database (HDB), 
+</br> this is designed to avoid problems and conflict between data operations in database objects 
+</br> when multiple developers are working with same object. 
+
+</br>
+</br>
+ 
+</br>	
+</br>
+</details>
+
+
 <!--
 
 </br>
