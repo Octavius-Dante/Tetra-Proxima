@@ -163,20 +163,42 @@ all generated files will be deployed to HANA using the command  <b>  cds deploy 
 </br>
 </br>
 
+## ONLY DB WILL BE DEPLOYED - CAP App wont connect to DB
+</br>
+</br>
+
 ```bat
 cds deploy --to hana:<DB name>
 ```
 
 </br>
 </br>
-alternative command to perfrom both - build and deploy 
+
+## Alternative command to perfrom both - build and deploy - ONLY DB WILL BE DEPLOYED - CAP App wont connect to DB
 </br>
 </br>
 
 ```bat
-cds build --production && cds deploy --to hana:dante
+cds build --production && cds deploy --to hana:<DB name>
 ```
 
+</br>
+</br>
+
+## Please use this command - only this works with connecting our app to HANA DB
+</br>
+</br>
+
+```bat
+cds build --production && cds deploy --to hana:<DB name> --profile hybrid
+```
+
+</br>
+</br>
+
+```bat
+cds build --production && cds deploy --to hana:dante --profile hybrid
+```
 </br>
 </br>
 
