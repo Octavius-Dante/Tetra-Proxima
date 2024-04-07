@@ -204,7 +204,7 @@ Error log and success log are shared for your reference in case of any error - t
 <summary> <b> 9. When deployment is successful </b> </summary>
 </br>
 
-IF depl;oyment worked well a new file calle <b>cdsrc-private.json</b> gets created automatically.
+IF deployment worked well a new file calle <b>cdsrc-private.json</b> gets created automatically.
 </br> this file contain the information about which container in SAP BTP HANA Cloud to connect to.
 </br> and private key is stored in this file.
 
@@ -214,7 +214,12 @@ IF depl;oyment worked well a new file calle <b>cdsrc-private.json</b> gets creat
 </br>
 <img src="./files/capmd7-11c.png" >
 </br>
-
+<img src="./files/capmd7-11d.png" >
+</br>
+<img src="./files/capmd7-11e.png" >
+</br>
+<details>
+	
 <!--
 
 </br>
