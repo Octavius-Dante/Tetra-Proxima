@@ -169,6 +169,16 @@ cds deploy --to hana:<DB name>
 
 </br>
 </br>
+alternative command to perfrom both - build and deploy 
+</br>
+</br>
+
+```bat
+cds build --production && cds deploy --to hana:dante
+```
+
+</br>
+</br>
 
 > This command execution will take some tiem to complete
 
