@@ -32,7 +32,10 @@ step 4
     <img src="./files/HDI_4.png" >
    </br>
    </br>
-
+    <img src="./files/HDI_4a.png" >
+   </br>
+   </br>
+   
 step 5
    </br>
    </br>  
