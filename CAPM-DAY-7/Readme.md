@@ -722,7 +722,7 @@ This pacakge.json is created inside the app folder (dont mistake for the old pac
 
 
 <details>
-<summary> 6. Add xs-app.json, provide the routes </summary>
+<summary> 7. Add xs-app.json, provide the routes </summary>
 </br>
 </br>
 in npm js link https://www.npmjs.com/package/@sap/approuter search for xs-app.json 
@@ -906,7 +906,7 @@ copy the contents from this sample code from the website and add it to our file 
 </details>
 
 <details>
-<summary> 7. Configure srv-api in mta.yaml file </summary>
+<summary> 8. Configure srv-api in mta.yaml file </summary>
 </br>
 </br>
 
@@ -1023,7 +1023,7 @@ resources:
 
 
 <details>
-<summary> 8. Create *.mtar file using mta.yaml for deployment </b> </summary>
+<summary> 9. Create *.mtar file using mta.yaml for deployment </b> </summary>
 </br>
 </br>
 Right click MTA.yamal file and choose (build mta project) this will create mtar file 
