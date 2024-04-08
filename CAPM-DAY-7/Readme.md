@@ -483,7 +483,7 @@ cds add mta
 ```
 </br>
 </br>
-<img src="./files/capmd7-16.png" >
+<img src="./files/capmd7-16a.png" >
 </br>
 </br>
 </details>
