@@ -500,9 +500,8 @@ cds add mta
 </br>
 
 ```yml
----
 _schema-version: '3.1'
-ID: dante_cap_2
+ID: dante_cap
 version: 1.0.0
 description: "A simple CAP project."
 parameters:
@@ -514,7 +513,7 @@ build-parameters:
         - npm ci
         - npx cds build --production
 modules:
-  - name: dante_cap_2-srv
+  - name: dante_cap-srv
     type: nodejs
     path: gen/srv
     parameters:
@@ -525,7 +524,50 @@ modules:
       - name: srv-api # required by consumers of CAP services (e.g. approuter)
         properties:
           srv-url: ${default-url}
-    requires: []
+    requires:
+      - name: dante_cap-auth
+      - name: dante_cap-db
+
+  - name: dante_cap
+    type: approuter.nodejs
+    path: app/router
+    parameters:
+      keep-existing-routes: true
+      disk-quota: 256M
+      memory: 256M
+    requires:
+      - name: srv-api
+        group: destinations
+        properties:
+          name: srv-api # must be used in xs-app.json as well
+          url: ~{srv-url}
+          forwardAuthToken: true
+      - name: dante_cap-auth
+
+  - name: dante_cap-db-deployer
+    type: hdb
+    path: gen/db
+    parameters:
+      buildpack: nodejs_buildpack
+    requires:
+      - name: dante_cap-db
+
+resources:
+  - name: dante_cap-auth
+    type: org.cloudfoundry.managed-service
+    parameters:
+      service: xsuaa
+      service-plan: application
+      path: ./xs-security.json
+      config:
+        xsappname: dante_cap-${org}-${space}
+        tenant-mode: dedicated
+  - name: dante_cap-db
+    type: com.sap.xs.hdi-container
+    parameters:
+      service: hana
+      service-plan: hdi-shared
+
 
 ```
 
