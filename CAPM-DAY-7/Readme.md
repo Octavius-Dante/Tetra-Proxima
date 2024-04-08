@@ -21,7 +21,7 @@ So what CAPM framework does when we connect our CAP with HDB it build files nece
 HANA understand its own database object format example : hdbtable, hdbsequence, hdbview, hdbprocedure, hdbi, hdbfunction...
 </br>
 </br>
-<img src="./files/design-hana.png" > 
+<img src="./files/mta_success.png" > 
 </br>
 </br>
 </br>
@@ -1084,13 +1084,20 @@ Right click MTA.yamal file and choose (build mta project) this will create mtar 
 if there is any error encountered in the *mtar file building process then mta.yaml file needs to be fixed with appropriate changes
 </br>
 </br>
+MTA build success will look like below 
+</br>
+<img src="./files/mta_success.png" > 
+</br>
+</br>
 After building *.mtar file in the directory (right click and deploy)
 </br>
 </br>
 <img src="./files/capmd7-28.png" >
 </br>
 </br>
-
+<img src="./files/mta_deploy_success.png" > 
+</br>
+</br>
 </details>
 
 </br>
