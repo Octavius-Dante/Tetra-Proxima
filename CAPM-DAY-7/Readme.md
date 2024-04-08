@@ -601,9 +601,8 @@ Db name : dan-db
 </br>
 
 ```yml
----
 _schema-version: '3.1'
-ID: dante_cap_2
+ID: dante_cap
 version: 1.0.0
 description: "A simple CAP project."
 parameters:
@@ -615,44 +614,51 @@ build-parameters:
         - npm ci
         - npx cds build --production
 modules:
-  - name: dante_cap_2-srv
+  - name: dante_cap-srv
     type: nodejs
     path: gen/srv
     parameters:
       buildpack: nodejs_buildpack
     build-parameters:
-      builder: npm ci
+      builder: npm
     provides:
       - name: srv-api # required by consumers of CAP services (e.g. approuter)
         properties:
           srv-url: ${default-url}
-    requires: 
-      - name: dan-db    
+    requires:
+      - name: dante_cap-db
 
-  - name: dante_cap_2-ui
+  - name: dante_cap-ui
     type: nodejs
-    path: app
+    path: app/router
     parameters:
-      buildpack: nodejs_buildpack
+      buildpack: nodejs_buildpack   
     build-parameters:
-      builder: npm ci
-    requires: 
-      - name: srv-api          
-    
-  - name: dan-db-deployer
+      builder: npm-ci
+    requires:
+      - name: srv-api
+        group: destinations
+        properties:
+          name: srv-api # must be used in xs-app.json as well
+          strictSSL: true
+          forwardAuthToken: true
+          url: ~{srv-url}
+
+  - name: dante_cap-db-deployer
     type: hdb
     path: gen/db
     parameters:
       buildpack: nodejs_buildpack
     requires:
-      - name: dan-db
+      - name: dante_cap-db
 
 resources:
-  - name: dan-db
+  - name: dante_cap-db
     type: com.sap.xs.hdi-container
     parameters:
       service: hana
       service-plan: hdi-shared
+
 ```
 
 </br>
