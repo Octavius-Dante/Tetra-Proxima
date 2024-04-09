@@ -1112,7 +1112,17 @@ After building *.mtar file in the directory (right click and deploy)
 </br>
 </br>
 
-
+## Working Sample app for your reference 
+</br>
+</br>
+[Working app sample](https://github.com/Octavius-Dante/Tetra_Proxima/blob/main/CAPM-DAY-7/mycapapp.zip)
+</br>
+</br>
+## TO use the working app in bas
+</br>
+</br>
+- [x] perform : import project go to menu file-->import project and select the zip file 
+- [x] project will be imported navigate to project folder mycapapp in terminal
 - [x] perform : npm install to project folder - mycapapp 
 - [x] perform : cds build --production
 - [x] perform build MTA project 
