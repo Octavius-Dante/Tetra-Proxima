@@ -1115,8 +1115,8 @@ After building *.mtar file in the directory (right click and deploy)
 ## Working Sample app for your reference 
 </br>
 </br>
- Working sample app : ( https://github.com/Octavius-Dante/Tetra_Proxima/blob/main/CAPM-DAY-7/mycapapp.zip )
-
+ 
+[Working sample app](https://github.com/Octavius-Dante/Tetra_Proxima/blob/main/CAPM-DAY-7/mycapapp.zip)
 </br>
 </br>
 ## TO use the working app in bas
