@@ -1122,6 +1122,7 @@ After building *.mtar file in the directory (right click and deploy)
 ## TO use the working app in bas
 </br>
 </br>
+
 - [x] perform : import project go to menu file-->import project and select the zip file 
 - [x] project will be imported navigate to project folder mycapapp in terminal
 - [x] perform : npm install to project folder - mycapapp 
