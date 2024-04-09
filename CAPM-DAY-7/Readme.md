@@ -1104,10 +1104,19 @@ After building *.mtar file in the directory (right click and deploy)
 </br>
 </br>
 </br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
 
 
-
-
+- [x] perform : npm install to project folder - mycapapp 
+- [x] perform : cds build --production
+- [x] perform build MTA project 
+- [x] perfoem deploy MTA archive 
 
 <!--
 
