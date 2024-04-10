@@ -60,7 +60,7 @@ So from previosu session we saw how to deploy our app to cloud
         "credentials": {
           "database": "dan-key"
         }
-.      },
+      },
 .      "auth":{
 .        "[production]":{
 .          "strategy": "JWT"
