@@ -23,9 +23,9 @@ Steps to implement XSUAA in cap
 2. Add the dependency of this newly created xs-uaa service to our microservice in require section
 
 3. Create the xs-security.json file using
-   	sap btp documentation : [xs-app.json document SAP](https://help.sap.com/docs/btp/sap-business-technology-platform/application-security-descriptor-configuration-syntax)
-	and aqdpat file to have 2 roles - viewer and the Admin role.
-	the Viewer role also have an attribute called bank name whcih will be for row level security.
+   	- sap btp documentation : [xs-app.json document SAP](https://help.sap.com/docs/btp/sap-business-technology-platform/application-security-descriptor-configuration-syntax)
+	- and adapt files to have 2 roles - viewer and the Admin role.
+	- the Viewer role also have an attribute called bank name whcih will be for row level security.
 	
 5. add 3 node module which will help in security configuration for our app 
 		-npm install passport; 
