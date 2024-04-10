@@ -56,7 +56,7 @@ So from previosu session we saw how to deploy our app to cloud
   "cds": {
     "requires": {
       "db": {
-        "kind": "hana-Cloud",
+        "kind": "hana",
         "credentials": {
           "database": "dan-key"
         }
