@@ -43,7 +43,32 @@ So from previosu session we saw how to deploy our app to cloud
 
 8. Additionally we configure demo local users for testing purpose authentication strategies section in following CAPIRE document section 
    (https://cap.cloud.sap/docs/node.js/authentication#enforcement)     
-	
+
+</br>
+</br>
+
+ Add following block of code under cds section in <b> package.json </b>
+</br>
+</br>
+
+```json
+
+      "auth":{
+        "[production]":{
+          "strategy": "JWT"
+        },
+        "[development]":{
+          "strategy": "mock",
+          "users":{
+            
+          }
+        }
+      }
+
+```
+
+
+
 
 <!--
 
