@@ -80,7 +80,7 @@ So from previosu session we saw how to deploy our app to cloud
 </br>
 </br>
 
-Add the user sectio nwit huser naem and assign : Viewer role and test 
+Add the user section with user name and assign : Viewer role and test 
 </br>
 </br>
 </br>
