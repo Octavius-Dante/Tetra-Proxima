@@ -53,17 +53,26 @@ So from previosu session we saw how to deploy our app to cloud
 
 ```json
 
-      "auth":{
-        "[production]":{
-          "strategy": "JWT"
-        },
-        "[development]":{
-          "strategy": "mock",
-          "users":{
-            
-          }
+  "cds": {
+    "requires": {
+      "db": {
+        "kind": "hana-Cloud",
+        "credentials": {
+          "database": "dan-key"
+        }
+.      },
+.      "auth":{
+.        "[production]":{
+.          "strategy": "JWT"
+.        },
+.        "[development]":{
+.         "strategy": "mock",
+.         "users":{           
+.          }
         }
       }
+    }
+  },
 
 ```
 
