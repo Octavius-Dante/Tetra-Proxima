@@ -154,7 +154,19 @@ Add the user section with user name and assign : Viewer role and test
 </br>
 </br>
 </br>
+command to check the logs of failed deployment 
 </br>
+
+actual command 
+```cds 
+cf logs <appname>-ui --recent
+```
+
+with app name 
+```cds 
+cf logs dante-ui --recent
+```
+
 </br>
 </br>
 </br>
