@@ -36,7 +36,7 @@ So from previosu session we saw how to deploy our app to cloud
    </br> Change authenticationMethod : route and add ( "auhenticationType" : "xsuaa"" )
 
 6. We need to secure our resource to only use authenticated user, hence we need to add an annotation in catalog services
-   ( resuire : 'authenticated-user')
+   </br> ( requires : 'authenticated-user')
 
 7. We need to tell system  taht if we run app locally (development environemnt) in BAS tool,
    </br> use mock strategy for testing security. After deployment to CF (production environemnt) we use JWT strategy.
