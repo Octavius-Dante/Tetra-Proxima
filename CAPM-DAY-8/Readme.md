@@ -33,16 +33,16 @@ So from previosu session we saw how to deploy our app to cloud
 	- npm install @sap/xsenv
 
 5. We need to inform app router to contact Xsuaa to mandate the use of JWT token in <b> xs-app.json </b> file
-   Change authenticationMethod : route and add ( "auhenticationType" : "xsuaa"" )
+   </br> Change authenticationMethod : route and add ( "auhenticationType" : "xsuaa"" )
 
 6. We need to secure our resource to only use authenticated user, hence we need to add an annotation in catalog services
    ( resuire : 'authenticated-user')
 
 7. We need to tell system  taht if we run app locally (development environemnt) in BAS tool,
-   use mock strategy for testing security. After deployment to CF (production environemnt) we use JWT strategy.
+   </br> use mock strategy for testing security. After deployment to CF (production environemnt) we use JWT strategy.
 
 8. Additionally we configure demo local users for testing purpose authentication strategies section in following CAPIRE document section 
-   (https://cap.cloud.sap/docs/node.js/authentication#enforcement)     
+   </br> [Capire Authentication document ](https://cap.cloud.sap/docs/node.js/authentication#enforcement)     
 
 </br>
 </br>
