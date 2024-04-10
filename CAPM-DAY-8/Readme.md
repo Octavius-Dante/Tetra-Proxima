@@ -76,6 +76,30 @@ So from previosu session we saw how to deploy our app to cloud
 
 ```
 
+</br>
+</br>
+</br>
+
+Add the user sectio nwit huser naem and assign : Viewer role and test 
+</br>
+</br>
+</br>
+
+```json
+
+"users":{
+            "dante":{
+              "roles":["Viewer"],
+              "userAttributes":{}
+            },
+            "dan":{
+              "roles":[],
+              "userAttributes":{}              
+            }
+          }
+
+```
+
 
 
 
