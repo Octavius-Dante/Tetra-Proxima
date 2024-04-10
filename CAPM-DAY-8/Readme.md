@@ -158,12 +158,12 @@ command to check the logs of failed deployment
 </br>
 
 actual command 
-```cds 
+```bat 
 cf logs <appname>-ui --recent
 ```
 
 with app name 
-```cds 
+```bat 
 cf logs dante-ui --recent
 ```
 
