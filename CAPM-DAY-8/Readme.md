@@ -28,9 +28,9 @@ Steps to implement XSUAA in cap
 	- the Viewer role also have an attribute called bank name whcih will be for row level security.
 	
 4. add 3 node module which will help in security configuration for our app 
-		- npm install passport; 
-		- npm install @sap/xssec; 
-		- npm install @sap/xsenv
+   	- npm install passport; 
+	- npm install @sap/xssec; 
+	- npm install @sap/xsenv
 
 5. We need to inform app router to contact Xsuaa to mandate the use of JWT token in <b> xs-app.json </b> file
    Change authenticationMethod : route and add ( "auhenticationType" : "xsuaa"" )
