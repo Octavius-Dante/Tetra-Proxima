@@ -206,7 +206,7 @@ There are 2 version for deploying to DB
   "cds": {
     "requires": {
 .      "db": {
-.        "kind": "hana-Cloud",
+.        "kind": "hana",
 .        "credentials": {
 .          "database": "dan-key"
         }
