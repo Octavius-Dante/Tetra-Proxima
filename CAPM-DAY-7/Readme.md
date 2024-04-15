@@ -1106,8 +1106,31 @@ After building *.mtar file in the directory (right click and deploy)
 </br>
 </br>
 </br>
+
+<details>
+<summary> 
+		
+## This deployment will definetley fail due to recent implementation of new cahnges by SAP.
+</summary>		
 </br>
 </br>
+
+- [x] The App should have component @sap/xssec 
+- [x] App should have component @sap/xsenv 
+- [x] App should have component passport
+- [x] Proper XSUAA should be implemented using (xs-security.json)
+- [x] Proper JWT token (Json Web token) should be implemented in package.json
+- [x] WITHOUT all the above deployment will fail
+
+</br>
+</br>
+</details>
+
+</br>
+</br>
+</br>
+</br>
+
 </br>
 </br>
 </br>
@@ -1129,7 +1152,7 @@ After building *.mtar file in the directory (right click and deploy)
 - [x] perform : npm install to project folder - mycapapp 
 - [x] perform : cds build --production
 - [x] perform build MTA project 
-- [x] perfoem deploy MTA archive 
+- [x] perform deploy MTA archive 
 
 <!--
 
