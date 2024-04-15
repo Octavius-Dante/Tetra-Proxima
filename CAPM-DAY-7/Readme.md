@@ -1108,7 +1108,7 @@ After building *.mtar file in the directory (right click and deploy)
 - [x] App should have component passport
 - [x] Proper XSUAA should be implemented using (xs-security.json)
 - [x] Proper JWT token (Json Web token) should be implemented in package.json
-- [x] WITHOUT all the above deployment will fail
+- [x] WITHOUT all the above deployment will fail <b> continue to next tutorial </b> understand XSUAA then  implement it and deploy, then it works
 
 </br>
 </br>
