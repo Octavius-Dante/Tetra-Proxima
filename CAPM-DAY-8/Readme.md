@@ -171,6 +171,13 @@ cf logs dante-ui --recent
 </br>
 </br>
 </br>
+
+Roles and scopes 
+
+[BTP XSUAA - SAP developers blog](https://developers.sap.com/tutorials/btp-app-prepare-xsuaa.html)
+
+[MTA deployment - SAP developers blog](https://developers.sap.com/tutorials/btp-app-cap-mta-deployment.html)
+
 </br>
 </br>
 </br>
