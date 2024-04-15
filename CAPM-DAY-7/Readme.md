@@ -1140,7 +1140,8 @@ After building *.mtar file in the directory (right click and deploy)
 - [x] perform : npm install to project folder - mycapapp 
 - [x] perform : cds build --production
 - [x] perform build MTA project 
-- [x] perform deploy MTA archive 
+- [x] perform deploy MTA archive
+- [x] have to implement necessary roles and role collection to your app to run it proeprly in BTP (post deployment) - follow the next tutorial for successful implementation of XSUAA
 
 <!--
 
