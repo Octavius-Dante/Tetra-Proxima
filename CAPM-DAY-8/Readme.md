@@ -47,7 +47,8 @@ So from previosu session we saw how to deploy our app to cloud
 </br>
 </br>
 
- Add following block of code under cds section in <b> package.json </b>
+Add following block of code under cds section in <b> package.json </b> and test it locally,
+Production deployment of app will check JWT token local test will check for mentioned users
 </br>
 </br>
 
