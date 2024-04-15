@@ -1096,22 +1096,10 @@ After building *.mtar file in the directory (right click and deploy)
 <img src="./files/capmd7-28.png" >
 </br>
 </br>
-<img src="./files/mta_deploy_success.png" > 
-</br>
-</br>
 </details>
 
-</br>
-</br>
-</br>
-</br>
-</br>
-
 <details>
-<summary> 
-		
-## This deployment will definetley fail due to recent implementation of new cahnges by SAP.
-</summary>		
+<summary> 10. This deployment will fail due to recent implementation of new changes to BTP</summary>		
 </br>
 </br>
 
