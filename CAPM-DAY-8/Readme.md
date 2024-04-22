@@ -269,13 +269,28 @@ Create a new file named xs-security.json as shown below
 	- npm install @sap/xssec 
 	- npm install @sap/xsenv
 
+
+<details>
+<summary> App router cahnges <b>xs-app.json</b> </summary>
+</br>
+</br>
 5. We need to inform app router to contact Xsuaa to mandate the use of JWT token in <b> xs-app.json </b> file
    </br> Change authenticationMethod : route and add ( "auhenticationType" : "xsuaa"" )
+</br>
+</br>   
+<img src="./files/capmd8-7.png" >
+</br>
+</br>
+<img src="./files/capmd8-8.png" >
+</br>
+</br>
+</details>
 
-6. We need to secure our resource to only use authenticated user, hence we need to add an annotation in catalog services
+
+7. We need to secure our resource to only use authenticated user, hence we need to add an annotation in catalog services
    </br> ( requires : 'authenticated-user')
 
-7. We need to tell system  taht if we run app locally (development environemnt) in BAS tool,
+8. We need to tell system  taht if we run app locally (development environemnt) in BAS tool,
    </br> use mock strategy for testing security. After deployment to CF (production environemnt) we use JWT strategy.
 
 
