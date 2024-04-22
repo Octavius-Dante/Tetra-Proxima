@@ -556,7 +556,7 @@ This is example for authentication failed (temporarily) edited the packge.json f
 </br>
 </br>
 
-post depolyment if any errors encountered use th following comamdnto check the logs specifically
+post deployment if any errors encountered use th following comamdnto check the logs specifically
 </br> command to check the logs of failed deployment 
 </br>
 
