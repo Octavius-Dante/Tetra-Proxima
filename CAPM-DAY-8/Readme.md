@@ -45,10 +45,19 @@ Using MTA yaml editor from the BAS open the MTA.yaml file and make the following
 <img src="./files/capmd8-1.png" >
 </br>
 </br>
+Define XSUAA section in MTA yaml file  
+</br>
+</br>
 <img src="./files/capmd8-2.png" >
 </br>
 </br>
+define the essential properties as shown below 
+</br>
+</br>
 <img src="./files/capmd8-3.png" >
+</br>
+</br>
+
 </br>
 </br>
 <img src="./files/capmd8-4.png" >
