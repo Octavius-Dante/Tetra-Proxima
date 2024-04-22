@@ -14,12 +14,17 @@ So from previosu session we saw how to deploy our app to cloud
 </br>
 </br>
 
-1. Create a new resource in MTA.yaml file for xs-uaa backing service with following proerties 
+<details>
+<summary> 1. Create a new resource in MTA.yaml file for xs-uaa backing service with following proerties  </summary>
+</br>
+</br>
 	- name == capp-xsuaa
 	- service == xsuaa
 	- service-plan == application
 	- path == ./xs-security.json
-    
+</br>
+</br>
+	
 ```yaml
   - name: capp-xsuaa
     type: org.cloudfoundry.managed-service
@@ -31,6 +36,31 @@ So from previosu session we saw how to deploy our app to cloud
         xsappname: capp-${org}-${space}
         tenant-mode: dedicated
 ```
+</br>
+</br>
+
+Using MTA yaml editor from the BAS open the MTA.yaml file and make the following changes
+</br>
+</br>
+<img src="./files/capmd8-1.png" >
+</br>
+</br>
+<img src="./files/capmd8-2.png" >
+</br>
+</br>
+<img src="./files/capmd8-3.png" >
+</br>
+</br>
+<img src="./files/capmd8-4.png" >
+</br>
+</br>
+</details>
+
+
+
+
+    
+
 
 2. Add the dependency of this newly created xs-uaa service to our microservice in require section
 
