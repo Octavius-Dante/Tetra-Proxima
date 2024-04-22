@@ -290,6 +290,35 @@ We need to inform app router to contact Xsuaa to mandate the use of JWT token in
 <img src="./files/capmd8-8.png" >
 </br>
 </br>
+
+## xs-app.json
+</br>
+</br>
+
+```json
+{
+    "welcomeFile": "purchaseorderapp/webapp/",
+    "authenticationMethod": "route",
+    "sessionTimeout": 100,
+    "pluginMetadataEndpoint": "/metadata",
+    "routes": [
+      {
+        "source": "^/purchaseorderapp/webapp/(.*)",
+        "target": "$1",
+        "localDir": "purchaseorderapp/webapp/",
+        "authenticationType": "xsuaa"
+      },
+      {
+        "source": "^/(.*)$",
+        "destination": "srv-api",
+        "authenticationType": "xsuaa"
+      }
+    ]
+  }
+```
+
+</br>
+</br> 
 </details>
 
 <details>
