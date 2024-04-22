@@ -376,8 +376,10 @@ by defining following block of code in package.json
 </details>
 
 <details>
-<summary> 8. Additionally we configure demo local users for testing purpose authentication strategies section in following CAPIRE document section  </summary>
+<summary> 8. Additionally we configure demo local users for testing purpose </summary>
 </br>
+</br>
+authentication strategies section in following CAPIRE document section 
 </br>
 
 [Capire Authentication document ](https://cap.cloud.sap/docs/node.js/authentication#enforcement)     
@@ -386,13 +388,7 @@ by defining following block of code in package.json
 <img src="./files/capmd8-14.png" > 
 </br>
 </br>
-</details>
-
-
-
 </br>
-</br>
-
 Add following block of code under cds section in <b> package.json </b> and test it locally,
 Production deployment of app will check JWT token local test will check for mentioned users
 </br>
