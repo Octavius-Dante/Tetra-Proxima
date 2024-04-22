@@ -277,7 +277,7 @@ Create a new file named xs-security.json as shown below
 </details>
 
 <details>
-<summary> 5. App router cahnges <b>xs-app.json</b> </summary>
+<summary> 5. App router changes <b>xs-app.json</b> </summary>
 </br>
 </br>
 We need to inform app router to contact Xsuaa to mandate the use of JWT token in <b> xs-app.json </b> file
