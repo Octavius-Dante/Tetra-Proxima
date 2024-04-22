@@ -264,11 +264,17 @@ Create a new file named xs-security.json as shown below
 </br>
 </details>
  
-4. add 3 node module which will help in security configuration for our app 
+
+<details>
+<summary>4. add 3 node module which will help in security configuration for our app </summary>
+</br>
+</br> 
    	- npm install passport 
 	- npm install @sap/xssec 
 	- npm install @sap/xsenv
-
+</br>
+</br> 
+</details>
 
 <details>
 <summary> 5. App router cahnges <b>xs-app.json</b> </summary>
