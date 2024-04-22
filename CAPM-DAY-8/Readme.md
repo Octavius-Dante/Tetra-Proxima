@@ -545,6 +545,42 @@ This is example for authentication failed (temporarily) edited the packge.json f
 </br>
 </details>
 
+
+<details>
+<summary> 10. Depolying the app with xsuaa to cloud and defining roles </summary>
+</br>
+</br>
+
+- Right click the mta.yaml file and select "Build MTA project"
+- mta_archives section of the app contains *.mtar file - right clikc and select "Deploy MTA archive"
+</br>
+</br>
+
+post depolyment if any errors encountered use th following comamdnto check the logs specifically
+</br> command to check the logs of failed deployment 
+</br>
+
+actual commands 
+```bat 
+cf logs <appname>-ui --recent
+cf logs <appname>-srv --recent
+cf logs <appname>-db --recent
+cf logs <appname>-bd-deployer --recent
+```
+
+with app name 
+```bat 
+cf logs dante-ui --recent
+cf logs dante-srv --recent
+cf logs dante-db --recent
+cf logs dante-db-deployer --recent
+
+```
+</br>
+</br>
+</details>
+
+
 <!--
 
 </br>
@@ -596,18 +632,7 @@ This is example for authentication failed (temporarily) edited the packge.json f
 </br>
 </br>
 </br>
-command to check the logs of failed deployment 
-</br>
 
-actual command 
-```bat 
-cf logs <appname>-ui --recent
-```
-
-with app name 
-```bat 
-cf logs dante-ui --recent
-```
 
 </br>
 </br>
