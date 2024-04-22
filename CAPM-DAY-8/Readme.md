@@ -196,7 +196,7 @@ Create a new file named xs-security.json as shown below
 - SAP BTP documentation : [xs-security.json document SAP](https://help.sap.com/docs/btp/sap-business-technology-platform/application-security-descriptor-configuration-syntax)
 - Add 2 roles - viewer and the Admin role.
 - Viewer role and Admin roles are defined to demonstrate example of row level security for the app.
-<img src="./files/capmd8-7.png" > 
+
 </br>
 </br>
 
