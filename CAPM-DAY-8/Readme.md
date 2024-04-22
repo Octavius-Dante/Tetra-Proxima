@@ -70,8 +70,98 @@ define the essential properties as shown below
 
     
 
+<details>
+<summary> 2. Add the dependency of this newly created xs-uaa service to our microservice in require section </summary>
+</br>
+</br>
+after adding xsuaa property to mta yaml file we need to add xsuaa aunthentication to SRV module and UI module in MTA yamil file as shown below
+</br>
+</br>
+<img src="./files/capmd8-4a.png" >
+</br>
+</br>
 
-2. Add the dependency of this newly created xs-uaa service to our microservice in require section
+## mta.yaml (final) 
+</br>
+</br>
+
+```yaml
+_schema-version: '3.1'
+ID: capp
+version: 1.0.0
+description: "A simple CAP project."
+parameters:
+  enable-parallel-deployments: true
+build-parameters:
+  before-all:
+    - builder: custom
+      commands:
+        - npx cds build --production
+modules:
+# start of UI Module code
+  - name: capp-ui
+    type: nodejs
+    path: app
+    parameters:
+      buildpack: nodejs_buildpack
+    build-parameters:
+      builder: npm-ci
+    requires:
+      - name: srv-api
+        group: destinations
+        properties:
+          name: srv-api
+          strictSSL: true
+          forwardAuthToken: true
+          url: '~{srv-url}'
+      - name: capp-xsuaa 
+# end of UI Module code
+
+  - name: capp-srv
+    type: nodejs
+    path: gen/srv
+    parameters:
+      buildpack: nodejs_buildpack
+    build-parameters:
+      builder: npm
+    provides:
+      - name: srv-api # required by consumers of CAP services (e.g. approuter)
+        properties:
+          srv-url: ${default-url}
+    requires:
+      - name: capp-db
+      - name: capp-xsuaa 
+
+  - name: capp-db-deployer
+    type: hdb
+    path: gen/db
+    parameters:
+      buildpack: nodejs_buildpack
+    requires:
+      - name: capp-db
+
+resources:
+  - name: capp-db
+    type: com.sap.xs.hdi-container
+    parameters:
+      service: hana
+      service-plan: hdi-shared
+  - name: capp-xsuaa
+    type: org.cloudfoundry.managed-service
+    parameters:
+      service: xsuaa
+      service-plan: application
+      path: ./xs-security.json
+      config:
+        xsappname: capp-${org}-${space}
+        tenant-mode: dedicated
+
+```
+
+</br>
+</br> 
+</details>
+
 
 3. Create the xs-security.json file using
    	- sap btp documentation : [xs-app.json document SAP](https://help.sap.com/docs/btp/sap-business-technology-platform/application-security-descriptor-configuration-syntax)
