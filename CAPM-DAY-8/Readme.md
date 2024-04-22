@@ -340,9 +340,40 @@ adding restriction to read employee set
 </details>
 
 
-8. We need to tell system  that if we run app locally (development environemnt) in BAS tool,
-   </br> use mock strategy for testing security. After deployment to CF (production environemnt) we use JWT strategy.
+<details>
+<summary> 7. Define XSUAA security strategy for local testing also for cloud </summary>
+</br>
+We need to tell system  that if we run app locally (development environemnt) in BAS tool,
+</br> use mock strategy for testing security. After deployment to CF (production environemnt) we use JWT strategy.
+</br>
+	
+by defining following block of code in package.json
+</br>
+</br>
 
+```json
+
+ "cds": {
+    "requires": {
+      "db": {
+        "kind": "hana",
+        "credentials": {
+          "database": "dan-key"
+        }
+      },
+.      "auth":{
+.        "[production]":{
+.          "strategy": "JWT"
+.        }
+      }
+    }
+  },
+
+```
+
+</br>
+</br>
+</details>
 
 <details>
 <summary> 8. Additionally we configure demo local users for testing purpose authentication strategies section in following CAPIRE document section  </summary>
@@ -420,8 +451,13 @@ Add the user section with user name and assign : Viewer role and test
 
 ```
 
+<img src="./files/capmd8-19.png" > 
+<img src="./files/capmd8-20.png" > 
+<img src="./files/capmd8-21.png" > 
+<img src="./files/capmd8-22.png" > 
 
-
+</br>
+</details>
 
 <!--
 
