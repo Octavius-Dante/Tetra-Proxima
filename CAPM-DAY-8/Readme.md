@@ -123,7 +123,8 @@ modules:
           url: '~{srv-url}'
       - name: capp-xsuaa 
 # end of UI Module code
-
+# -----------------------------------
+# start of SRV Module code
   - name: capp-srv
     type: nodejs
     path: gen/srv
@@ -139,6 +140,9 @@ modules:
       - name: capp-db
       - name: capp-xsuaa 
 
+# end of SRV Module code
+# -----------------------------------
+# start of DB - deployer Module code
   - name: capp-db-deployer
     type: hdb
     path: gen/db
@@ -147,12 +151,18 @@ modules:
     requires:
       - name: capp-db
 
+# end of DB - deployer Module code
+# -----------------------------------
+# start of DB Module code
 resources:
   - name: capp-db
     type: com.sap.xs.hdi-container
     parameters:
       service: hana
       service-plan: hdi-shared
+# end of DB Module code
+# -----------------------------------
+# start of XSUAA Module code
   - name: capp-xsuaa
     type: org.cloudfoundry.managed-service
     parameters:
@@ -162,7 +172,8 @@ resources:
       config:
         xsappname: capp-${org}-${space}
         tenant-mode: dedicated
-
+# -----------------------------------
+# end of XSUAA Module code
 ```
 
 </br>
