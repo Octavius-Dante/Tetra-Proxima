@@ -455,6 +455,23 @@ Add the user section with user name and assign : Viewer role and test
 </br>
 </details>
 
+
+<details>
+<summary> 9. Alternative testing of service with XSUAA using HTTP file</summary>
+</br>
+</br>
+<img src="./files/capmd8-23.png" > 
+<img src="./files/capmd8-24.png" > 
+</br>
+</br>
+
+This is example for authentication failed (temporarily) edited the packge.json file to show how error occurs
+</br>
+</br>
+<img src="./files/capmd8-25.png" > 
+</br>
+</details>
+
 <!--
 
 </br>
