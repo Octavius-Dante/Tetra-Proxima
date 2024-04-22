@@ -196,8 +196,7 @@ Create a new file named xs-security.json as shown below
 - SAP BTP documentation : [xs-security.json document SAP](https://help.sap.com/docs/btp/sap-business-technology-platform/application-security-descriptor-configuration-syntax)
 - Add 2 roles - viewer and the Admin role.
 - Viewer role and Admin roles are defined to demonstrate example of row level security for the app.
-<img src="./files/capmd8-8.png" >
-
+<img src="./files/capmd8-7.png" > 
 </br>
 </br>
 
@@ -328,14 +327,14 @@ We need to secure our resource to only use authenticated user, hence we need to 
    </br> ( requires : 'authenticated-user')
 </br>
 </br>
-![image](https://github.com/Octavius-Dante/Tetra_Proxima/assets/8819939/61a8b2f7-a0ac-440b-9a6a-15b1b35aa010)
+<img src="./files/capmd8-15a.png" >
 </br>
 </br>
  
 </details>
 
 
-8. We need to tell system  taht if we run app locally (development environemnt) in BAS tool,
+8. We need to tell system  that if we run app locally (development environemnt) in BAS tool,
    </br> use mock strategy for testing security. After deployment to CF (production environemnt) we use JWT strategy.
 
 
