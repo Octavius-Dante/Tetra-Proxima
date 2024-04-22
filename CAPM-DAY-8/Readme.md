@@ -75,6 +75,13 @@ define the essential properties as shown below
 </br>
 </br>
 after adding xsuaa property to mta yaml file we need to add xsuaa aunthentication to SRV module and UI module in MTA yamil file as shown below
+
+</br>
+</br>
+<img src="./files/capmd8-8.png" >
+</br>
+</br>
+<img src="./files/capmd8-9.png" >
 </br>
 </br>
 <img src="./files/capmd8-4a.png" >
