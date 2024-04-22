@@ -341,10 +341,10 @@ adding restriction to read employee set
 
 
 <details>
-<summary> 7. Define XSUAA security strategy for local testing also for cloud </summary>
+<summary> 7. Define XSUAA security strategy for cloud </summary>
 </br>
-We need to tell system  that if we run app locally (development environemnt) in BAS tool,
-</br> use mock strategy for testing security. After deployment to CF (production environemnt) we use JWT strategy.
+We need to tell system that if we run app in cloud foundry BTP (production environemnt) 
+</br> use JWT strategy for security. by defining it in package.json
 </br>
 	
 by defining following block of code in package.json
@@ -376,10 +376,10 @@ by defining following block of code in package.json
 </details>
 
 <details>
-<summary> 8. Additionally we configure demo local users for testing purpose </summary>
+<summary> 8. Define XSUAA security strategy for local testing with local users defined </summary>
 </br>
 </br>
-authentication strategies section in following CAPIRE document section 
+authentication strategies section can be located in following CAPIRE document link
 </br>
 
 [Capire Authentication document ](https://cap.cloud.sap/docs/node.js/authentication#enforcement)     
@@ -390,7 +390,7 @@ authentication strategies section in following CAPIRE document section
 </br>
 </br>
 Add following block of code under cds section in <b> package.json </b> and test it locally,
-Production deployment of app will check JWT token local test will check for mentioned users
+Production deployment of app will check JWT token, local XSUAA test will check for mentioned users
 </br>
 </br>
 
