@@ -19,6 +19,18 @@ So from previosu session we saw how to deploy our app to cloud
 	2. service == xsuaa
 	3. service-plan == application
 	4. path == ./xs-security.json
+    
+```yaml
+  - name: capp-xsuaa
+    type: org.cloudfoundry.managed-service
+    parameters:
+      service: xsuaa
+      service-plan: application
+      path: ./xs-security.json
+      config:
+        xsappname: capp-${org}-${space}
+        tenant-mode: dedicated
+```
 
 2. Add the dependency of this newly created xs-uaa service to our microservice in require section
 
