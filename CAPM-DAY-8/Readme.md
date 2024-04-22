@@ -520,7 +520,11 @@ Add the user section with user name and assign : Viewer role and test
 }
 
 ```
+</br>
+</br>
 
+<img src="./files/capmd8-27.png" > 
+</br>
 </br>
 </details>
 
