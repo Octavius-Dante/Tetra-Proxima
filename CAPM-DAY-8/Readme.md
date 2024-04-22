@@ -196,6 +196,7 @@ Create a new file named xs-security.json as shown below
 - SAP BTP documentation : [xs-security.json document SAP](https://help.sap.com/docs/btp/sap-business-technology-platform/application-security-descriptor-configuration-syntax)
 - Add 2 roles - viewer and the Admin role.
 - Viewer role and Admin roles are defined to demonstrate example of row level security for the app.
+<img src="./files/capmd8-8.png" >
 
 </br>
 </br>
@@ -264,8 +265,8 @@ Create a new file named xs-security.json as shown below
 </details>
  
 4. add 3 node module which will help in security configuration for our app 
-   	- npm install passport; 
-	- npm install @sap/xssec; 
+   	- npm install passport 
+	- npm install @sap/xssec 
 	- npm install @sap/xsenv
 
 5. We need to inform app router to contact Xsuaa to mandate the use of JWT token in <b> xs-app.json </b> file
@@ -277,8 +278,19 @@ Create a new file named xs-security.json as shown below
 7. We need to tell system  taht if we run app locally (development environemnt) in BAS tool,
    </br> use mock strategy for testing security. After deployment to CF (production environemnt) we use JWT strategy.
 
-8. Additionally we configure demo local users for testing purpose authentication strategies section in following CAPIRE document section 
-   </br> [Capire Authentication document ](https://cap.cloud.sap/docs/node.js/authentication#enforcement)     
+
+<details>
+<summary> 8. Additionally we configure demo local users for testing purpose authentication strategies section in following CAPIRE document section  </summary>
+</br>
+</br>
+</br> [Capire Authentication document ](https://cap.cloud.sap/docs/node.js/authentication#enforcement)     
+</br>
+<img src="./files/capmd8-14.png" > 
+</br>
+</br>
+</details>
+
+
 
 </br>
 </br>
