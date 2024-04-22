@@ -322,12 +322,16 @@ We need to inform app router to contact Xsuaa to mandate the use of JWT token in
 </details>
 
 <details>
-<summary> 7. Code changes in catalog services for XSUAA </summary>
+<summary> 6. Code changes in catalog services for XSUAA </summary>
 </br>
 We need to secure our resource to only use authenticated user, hence we need to add an annotation in catalog services
    </br> ( requires : 'authenticated-user')
 </br>
 </br>
+![image](https://github.com/Octavius-Dante/Tetra_Proxima/assets/8819939/61a8b2f7-a0ac-440b-9a6a-15b1b35aa010)
+</br>
+</br>
+ 
 </details>
 
 
