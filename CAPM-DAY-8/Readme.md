@@ -192,10 +192,10 @@ Create a new file named xs-security.json as shown below
 <img src="./files/capmd8-6.png" > 
 </br>
 </br>
-	
-        - SAP BTP documentation : [xs-security.json document SAP](https://help.sap.com/docs/btp/sap-business-technology-platform/application-security-descriptor-configuration-syntax)
-	- and adapt files to have 2 roles - viewer and the Admin role.
-	- the Viewer role also have an attribute called bank name whcih will be for row level security.
+
+- SAP BTP documentation : [xs-security.json document SAP](https://help.sap.com/docs/btp/sap-business-technology-platform/application-security-descriptor-configuration-syntax)
+- and adapt files to have 2 roles - viewer and the Admin role.
+- the Viewer role also have an attribute called bank name whcih will be for row level security.
 
 </br>
 </br>
