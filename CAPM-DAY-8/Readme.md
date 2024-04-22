@@ -181,11 +181,87 @@ resources:
 </details>
 
 
-3. Create the xs-security.json file using
-   	- sap btp documentation : [xs-app.json document SAP](https://help.sap.com/docs/btp/sap-business-technology-platform/application-security-descriptor-configuration-syntax)
+<details>
+<summary> 3. Create the xs-security.json file using </summary>
+</br>
+</br>
+Create a new file named xs-security.json as shown below 
+</br>
+</br>
+<img src="./files/capmd8-5.png" >
+<img src="./files/capmd8-6.png" > 
+</br>
+</br>
+        - SAP BTP documentation : [xs-security.json document SAP](https://help.sap.com/docs/btp/sap-business-technology-platform/application-security-descriptor-configuration-syntax)
 	- and adapt files to have 2 roles - viewer and the Admin role.
 	- the Viewer role also have an attribute called bank name whcih will be for row level security.
-	
+
+</br>
+</br>
+
+## xs-security.json
+</br>
+</br>
+
+```json
+{
+  "xsappname": "mycapapp",
+  "tenant-mode": "dedicated",
+  "scopes": [
+    {
+      "name": "$XSAPPNAME.Viewer",
+      "description": "someone can view data using this scope"
+    },
+    {
+      "name": "$XSAPPNAME.Admin",
+      "description": "someone can perform CURD on data using this scope"
+    }
+  ],
+  "attributes": [
+    {
+      "name": "BankName",
+      "description": "Bank Name property",
+      "valueType": "string"
+    }
+  ],
+  "role-templates": [
+    {
+      "name": "Viewer",
+      "description": "View all data from our Catalog service",
+      "default-role-name": "Viewer: Authorized to Read All Data",
+      "scope-references": [
+        "$XSAPPNAME.Viewer"
+      ],
+      "attribute-references": [
+        {
+          "name": "BankName"
+        }
+      ]
+    },
+    {
+      "name": "Admin",
+      "description": "Edit, delete all data from service",
+      "scope-references": [
+        "$XSAPPNAME.Admin"
+      ]
+    }
+  ],
+  "authorities": [
+    "$ACCEPT_GRANTED_AUTHORITIES"
+  ],
+  "oauth2-configuration": {
+    "token-validity": 9000,
+    "redirect-uris": [
+      "https://*.cfapps.us10-001.hana.ondemand.com/login/callback"
+    ]
+  },
+  "xsenableasyncservice": "true"
+}
+```
+</br>
+</br>
+</details>
+ 
 4. add 3 node module which will help in security configuration for our app 
    	- npm install passport; 
 	- npm install @sap/xssec; 
