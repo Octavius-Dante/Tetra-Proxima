@@ -292,9 +292,15 @@ We need to inform app router to contact Xsuaa to mandate the use of JWT token in
 </br>
 </details>
 
-
-7. We need to secure our resource to only use authenticated user, hence we need to add an annotation in catalog services
+<details>
+<summary> 7. Code changes in catalog services for XSUAA </summary>
+</br>
+We need to secure our resource to only use authenticated user, hence we need to add an annotation in catalog services
    </br> ( requires : 'authenticated-user')
+</br>
+</br>
+</details>
+
 
 8. We need to tell system  taht if we run app locally (development environemnt) in BAS tool,
    </br> use mock strategy for testing security. After deployment to CF (production environemnt) we use JWT strategy.
