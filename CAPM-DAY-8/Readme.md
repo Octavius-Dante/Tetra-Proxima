@@ -182,7 +182,7 @@ resources:
 
 
 <details>
-<summary> 3. Create the xs-security.json file using </summary>
+<summary> 3. Create the xs-security.json file using SAP Documentation </summary>
 </br>
 </br>
 Create a new file named xs-security.json as shown below 
@@ -194,8 +194,8 @@ Create a new file named xs-security.json as shown below
 </br>
 
 - SAP BTP documentation : [xs-security.json document SAP](https://help.sap.com/docs/btp/sap-business-technology-platform/application-security-descriptor-configuration-syntax)
-- and adapt files to have 2 roles - viewer and the Admin role.
-- the Viewer role also have an attribute called bank name whcih will be for row level security.
+- Add 2 roles - viewer and the Admin role.
+- Viewer role and Admin roles are defined to demonstrate example of row level security for the app.
 
 </br>
 </br>
