@@ -271,11 +271,11 @@ Create a new file named xs-security.json as shown below
 
 
 <details>
-<summary> App router cahnges <b>xs-app.json</b> </summary>
+<summary> 5. App router cahnges <b>xs-app.json</b> </summary>
 </br>
 </br>
-5. We need to inform app router to contact Xsuaa to mandate the use of JWT token in <b> xs-app.json </b> file
-   </br> Change authenticationMethod : route and add ( "auhenticationType" : "xsuaa"" )
+We need to inform app router to contact Xsuaa to mandate the use of JWT token in <b> xs-app.json </b> file
+</br> Change authenticationMethod : route and add ( "auhenticationType" : "xsuaa"" )
 </br>
 </br>   
 <img src="./files/capmd8-7.png" >
