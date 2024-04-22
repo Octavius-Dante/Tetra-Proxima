@@ -330,7 +330,13 @@ We need to secure our resource to only use authenticated user, hence we need to 
 <img src="./files/capmd8-15a.png" >
 </br>
 </br>
- 
+
+adding restriction to read employee set 
+</br>
+</br>
+<img src="./files/capmd8-15b.png" > 
+</br>
+</br>
 </details>
 
 
@@ -387,7 +393,11 @@ Production deployment of app will check JWT token local test will check for ment
 ```
 
 </br>
+Testing 
 </br>
+<img src="./files/capmd8-16.png" > 
+<img src="./files/capmd8-17.png" > 
+<img src="./files/capmd8-18.png" > 
 </br>
 
 Add the user section with user name and assign : Viewer role and test 
