@@ -283,7 +283,9 @@ Create a new file named xs-security.json as shown below
 <summary> 8. Additionally we configure demo local users for testing purpose authentication strategies section in following CAPIRE document section  </summary>
 </br>
 </br>
-</br> [Capire Authentication document ](https://cap.cloud.sap/docs/node.js/authentication#enforcement)     
+
+[Capire Authentication document ](https://cap.cloud.sap/docs/node.js/authentication#enforcement)     
+</br>
 </br>
 <img src="./files/capmd8-14.png" > 
 </br>
