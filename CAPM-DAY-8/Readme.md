@@ -14,11 +14,11 @@ So from previosu session we saw how to deploy our app to cloud
 </br>
 </br>
 
-1. Create a new resource in MTA.yaml file for xs-usaa backing service with following proerties 
-	1. name == capp-xsuaa
-	2. service == xsuaa
-	3. service-plan == application
-	4. path == ./xs-security.json
+1. Create a new resource in MTA.yaml file for xs-uaa backing service with following proerties 
+	- name == capp-xsuaa
+	- service == xsuaa
+	- service-plan == application
+	- path == ./xs-security.json
     
 ```yaml
   - name: capp-xsuaa
