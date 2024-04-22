@@ -71,7 +71,7 @@ define the essential properties as shown below
 <summary> 2. Add the dependency of this newly created xs-uaa service to our microservice in require section </summary>
 </br>
 </br>
-after adding xsuaa property to mta yaml file we need to add xsuaa aunthentication to SRV module and UI module in MTA yamil file as shown below
+Add xsuaa aunthentication to SRV module and UI module in MTA yaml file as shown below
 
 </br>
 </br>
@@ -79,6 +79,9 @@ after adding xsuaa property to mta yaml file we need to add xsuaa aunthenticatio
 </br>
 </br>
 <img src="./files/capmd8-10.png" >
+</br>
+</br>
+The finla file should look like this 
 </br>
 </br>
 <img src="./files/capmd8-4a.png" >
