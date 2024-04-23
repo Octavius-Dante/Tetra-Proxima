@@ -499,13 +499,13 @@ Add the user section with user name and assign : Viewer role and test
         "[development]":{
           "strategy": "mock",
           "users": {
-            "anubhav":{
+            "dante":{
               "roles":["Viewer"],
               "userAttributes":{
                 "BankName":["$UNRESTRICTED"]
               }
             },
-            "ananya":{
+            "dan":{
               "roles":["Viewer"],
               "userAttributes":{
                 "BankName":["My Bank of London","My Bank of New York","My Bank of San Francisco"]
