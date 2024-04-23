@@ -589,16 +589,16 @@ After deployment you get 2 sections (SRV and UI) srv represents our odata servic
 - SAP BTP cloud foundry will allow the user to access the App from ui without any issues as shown below
 </br>
 </br>
-<img src="./files/capmd8-28a.png" > 
+<img src="./files/capmd8-28-a.png" > 
 </br>
 </br>
 
 - But if the service (srv) is accessed it wont allow the user to see the data (It is restricted for security reasons)
 </br>
 </br>
-<img src="./files/capmd8-28b.png" > 
+<img src="./files/capmd8-28-b.png" > 
 </br>
-<img src="./files/capmd8-28c.png" > 
+<img src="./files/capmd8-28-c.png" > 
 </br>
 </br>
 
@@ -606,14 +606,14 @@ After deployment you get 2 sections (SRV and UI) srv represents our odata servic
 </br> with data set name as show here "/CatalogService/<dataset_name>" - (example : /CatalogService/EmployeeSet, /CatalogService/BusinesspartnerSet)
 </br>
 </br>
-<img src="./files/capmd8-28d.png" > 
+<img src="./files/capmd8-28-d.png" > 
 </br>
 </br>
 
 - In order to restrict this visbility we defined a restriction in CatalogService for (EmployeeSet) it still works here
 </br>
 </br>
-<img src="./files/capmd8-28e.png" > 
+<img src="./files/capmd8-28-e.png" > 
 </br>
 </br>
 
