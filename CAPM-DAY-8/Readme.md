@@ -577,7 +577,7 @@ cf logs <appname>-db --recent
 cf logs <appname>-bd-deployer --recent
 ```
 
-with app name 
+Commands example with app name 
 ```bat 
 cf logs dante-ui --recent
 cf logs dante-srv --recent
