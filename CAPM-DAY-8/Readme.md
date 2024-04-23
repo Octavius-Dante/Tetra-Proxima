@@ -584,10 +584,13 @@ After deployment you get 2 sections (SRV and UI) srv represents our odata servic
 <img src="./files/capmd8-28-00.png" > 
 </br>
 </br>
+</br>
+
 
 - SAP BTP cloud foundry will allow the user to access the App from ui without any issues as shown below
 </br>
 <img src="./files/capmd8-28-a.png" > 
+</br>
 </br>
 </br>
 
@@ -599,12 +602,14 @@ After deployment you get 2 sections (SRV and UI) srv represents our odata servic
 <img src="./files/capmd8-28-c.png" > 
 </br>
 </br>
+</br>
 
 - In order to see the data set we need to access it from ui link by adding the catalog service
 </br> with data set name as shown here
 </br> || (Cloud Link) + (/CatalogService/<dataset_name>) || - (example : /CatalogService/EmployeeSet, /CatalogService/BusinesspartnerSet)
 </br>
 <img src="./files/capmd8-28-d.png" > 
+</br>
 </br>
 </br>
 
