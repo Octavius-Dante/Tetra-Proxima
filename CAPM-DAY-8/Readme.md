@@ -330,13 +330,6 @@ We need to secure our resource to only use authenticated user, hence we need to 
 <img src="./files/capmd8-15a.png" >
 </br>
 </br>
-
-adding restriction to read employee set 
-</br>
-</br>
-<img src="./files/capmd8-15b.png" > 
-</br>
-</br>
 </details>
 
 
@@ -398,6 +391,23 @@ authentication strategies section can be located in following CAPIRE document li
 </br>
 </br>
 </br>
+
+adding restriction to read employee set in CatalogService.cds as shown in Capire documents
+</br>
+</br>
+<img src="./files/capmd8-15b.png" > 
+</br>
+</br>
+
+```cds
+
+
+
+```
+
+</br>
+</br>
+
 Add following block of code under cds section in <b> package.json </b> and test it locally,
 Production deployment of app will check JWT token, local XSUAA test will check for mentioned users
 </br>
