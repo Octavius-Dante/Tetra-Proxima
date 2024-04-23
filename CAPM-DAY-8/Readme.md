@@ -14,11 +14,6 @@ So from previosu session we saw how to deploy our app to cloud
 </br>
 </br>
 
-#### Acronym JWT - Json Web Token
-
-</br>
-</br>
-
 <details>
 <summary> 1. Create a new resource in MTA.yaml file for xs-uaa backing service with following proerties  </summary>
 </br>
@@ -732,8 +727,8 @@ After the role is assigned please open an incognito window in the browser and lo
 
 </br>
 </br>
-</br>
 
+#### Acronym JWT - Json Web Token
 
 </br>
 </br>
