@@ -1075,7 +1075,7 @@ resources:
 <summary> 9. Create *.mtar file using mta.yaml for deployment </b> </summary>
 </br>
 </br>
-Right click MTA.yamal file and choose (build mta project) this will create mtar file 
+Right click MTA.yaml file and choose (build mta project) this will create mtar file 
 </br>
 </br>
 <img src="./files/capmd7-27.png" >
@@ -1118,6 +1118,34 @@ After building *.mtar file in the directory (right click and deploy)
 </br>
 </br>
 </br>
+
+<details>
+<summary> 11. Build and deploy using commands</summary>		
+</br>
+</br>
+
+MTA archive building using command (defining *.mtar file inside folder gen)
+</br>
+</br>
+
+```bat
+mbt build -t gen --mtar mta.tar
+```
+</br>
+</br>	
+
+Deploying *.mtar file using command 
+</br>
+</br>	
+
+```bat
+cf deploy gen/mta.tar
+```
+
+</br>
+</br>	
+
+</details>	
 
 </br>
 </br>
