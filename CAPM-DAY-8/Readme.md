@@ -812,7 +812,9 @@ After the role is assigned please open an incognito window in the browser and lo
 </summary>
 </br>
 </br>
-
+<img src="./files/cook1.png" >
+<img src="./files/cook2.png" >
+<img src="./files/cook3.png" >
 </br>
 </br>
 </details>
