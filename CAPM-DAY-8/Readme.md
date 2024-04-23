@@ -581,7 +581,11 @@ cf logs dante-db-deployer --recent
 
 - SAP BTP cloud foundry will allow the user to access the App from ui without any issues
 - But if the service (srv) is accessed it wont allow the user to see the data
-- In order to see the data set we need to define the user roles (earlier in catalog service we defined only role for employee set)
+- In order to see the data set we need to access it from ui link by adding the catalog service
+</br> with data set name as show here "/CatalogService/<dataset_name>" - (example : /CatalogService/EmployeeSet )
+
+
+  define the user roles (earlier in catalog service we defined only role for employee set)
 - We need to define the same roles in security-roles, role collection section so employee set can be accessed
 </br> (by defauly all data sets wont be accessible in cloud environment if we have defined a role and mentioend that role in catalog service only that can be accessed)
 
