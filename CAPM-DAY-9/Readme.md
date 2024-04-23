@@ -129,28 +129,6 @@ Configuration Steps for BTP content Federation: -
 </br>
 </br>
 </br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
 
 
 </br>
@@ -162,8 +140,8 @@ Configuration Steps for BTP content Federation: -
 </br>
 </br>
 
-# NEXT ------ CAPM - DAY 8 - CAPM Security XSUAA
+# NEXT ------ CAPM - DAY 10 - Side by Side extension
 
 <p align="center"> 
-<a href="https://github.com/Octavius-Dante/Tetra_Proxima/tree/main/CAPM-DAY-8"> CAPM DAY 8 - CAPM Security XSUAA</a> 
+<a href="https://github.com/Octavius-Dante/Tetra_Proxima/tree/main/CAPM-DAY-10"> CAPM DAY 9 - Side by Side extension</a> 
 </p>
