@@ -800,6 +800,9 @@ After the role is assigned please open an incognito window in the browser and lo
 
 #### Acronym JWT - Json Web Token
 
+</br>
+</br>
+
 <details>
 <summary> 
 
