@@ -22,7 +22,18 @@ So from previosu session we saw how to deploy our app to cloud with XSUAA
 6. If I want to build multiple FIori apps on single odata offered by CAPM, what is the best practise ?
 7. When Fiori app is deployed Fiori, it was deployed as Node JS application, how can we deploy it as an independent Fiori app ?
 8. What is managed app router, I have heard about it but never used it?
-	
+
+</br>
+</br>
+
+<img src="./files/Serverless_Fiori_design.png" >
+
+</br>
+</br>
+
+[SAP Blog on SAP Build work zone](https://community.sap.com/t5/technology-blogs-by-members/access-fiori-apps-via-sap-build-work-zone-site-with-federated-sap-s-4hana/ba-p/13558780)
+
+
 
 <!--
 
