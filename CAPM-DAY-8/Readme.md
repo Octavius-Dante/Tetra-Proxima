@@ -799,6 +799,7 @@ After the role is assigned please open an incognito window in the browser and lo
 </br>
 
 #### Acronym JWT - Json Web Token
+
 <details>
 <summary> 
 
