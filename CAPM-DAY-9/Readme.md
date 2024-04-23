@@ -123,6 +123,16 @@ Fill the necessary values here
 </br>
 </br>
 
+Get the required values from BTP cloud accoutn and add it to Postman
+</br>
+</br>
+<img src="./files/capmd9-9.png" >
+</br>
+</br>
+<img src="./files/capmd9-10.png" >
+</br>
+</br>
+
 </details>
 
 
