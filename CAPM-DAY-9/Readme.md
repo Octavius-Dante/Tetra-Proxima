@@ -46,6 +46,27 @@ Configuration Steps for BTP content Federation: -
 </br>Step 8: - Access the federated content
 
 
+</br>
+</br>
+
+### Advantages of HTML5 apps over NodeJs Fiori app
+
+</br>
+</br>
+1. it provides a good isolation from oru CAP project, hence if there is a change in Ui, 
+   </br> we dont need to touch or re-deploy the cap application 
+
+2. In a global team, each team is responsilbe for one Fiori app, they can work independently
+   </br> in their apps with separate git repositories and different lifecycle and transport
+
+3. If we add all fiori apps inside cap project the project becomes bulkier,
+   </br> also if Ui developer has to go through lot of files and CAP application helps with
+   </br> lot of files seggregation, it is easy when Uis and SRV  built separtetley
+
+</br>
+</br>
+
+
 <!--
 
 </br>
