@@ -10,7 +10,7 @@ So from previosu session we saw how to deploy our app to cloud with XSUAA
 </br>
 </br>
 
-This session is an example for following Questions
+## This session is going to answerd for following Questions
 </br>
 </br>
 
