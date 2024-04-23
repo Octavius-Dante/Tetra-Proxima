@@ -375,6 +375,17 @@ by defining following block of code in package.json
 </br>
 </details>
 
+</br>
+</br>
+<details>
+<summary> Data Scope access design concept for defining roles - scenario where all data is accessed and specific data is accessed </summary>
+</br>
+<img src="./files/data_scope_design.png" >
+</br>
+</details>
+</br>
+</br>
+
 <details>
 <summary> 8. Define XSUAA security strategy for local testing with local users defined </summary>
 </br>
