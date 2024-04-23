@@ -95,6 +95,16 @@ When SRV module is accessed from cloud deployed app it appears like this
 </br>
 </br>
 
+Creating a call service in postman tool for our SRV module
+</br>
+</br>
+<img src="./files/capmd9-5.png" >
+</br>
+</br>
+<img src="./files/capmd9-6.png" >
+</br>
+</br>
+
 </details>
 
 
