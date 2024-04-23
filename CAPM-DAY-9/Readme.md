@@ -143,5 +143,5 @@ Configuration Steps for BTP content Federation: -
 # NEXT ------ CAPM - DAY 10 - Side by Side extension
 
 <p align="center"> 
-<a href="https://github.com/Octavius-Dante/Tetra_Proxima/tree/main/CAPM-DAY-10"> CAPM DAY 9 - Side by Side extension</a> 
+<a href="https://github.com/Octavius-Dante/Tetra_Proxima/tree/main/CAPM-DAY-10"> CAPM DAY 10 - Side by Side extension</a> 
 </p>
