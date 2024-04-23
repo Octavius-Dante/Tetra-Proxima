@@ -804,6 +804,23 @@ After the role is assigned please open an incognito window in the browser and lo
 </br>
 </br>
 
+
+<details>
+<summary> 
+	
+## Cookies Clearing in Browser 
+</summary>
+</br>
+</br>
+
+</br>
+</br>
+</details>
+
+</br>
+</br>
+</br>
+
 Roles and scopes extensive documentation 
 
 [BTP XSUAA - SAP developers blog](https://developers.sap.com/tutorials/btp-app-prepare-xsuaa.html)
