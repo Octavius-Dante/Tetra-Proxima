@@ -101,10 +101,25 @@ Creating a call service in postman tool for our SRV module
 <img src="./files/capmd9-5.png" >
 </br>
 </br>
+
+Select Authorization tab
+</br>
+</br>
 <img src="./files/capmd9-6.png" >
 </br>
 </br>
+
+Select Oauth 2.0 in this section
+</br>
+</br>
 <img src="./files/capmd9-7.png" >
+</br>
+</br>
+
+Fill the necessary values here 
+</br>
+</br>
+<img src="./files/capmd9-8.png" >
 </br>
 </br>
 
