@@ -75,7 +75,7 @@ Configuration Steps for BTP content Federation: -
 </br>
 
 <details>
-<summary> <b>1. Accessing OData service (SRV) module of our previosu app from postman </b> </summary>
+<summary> <b>1. Accessing OData service (SRV) module of our previous app from Postman Tool</b> </summary>
 </br>
 </br>
 
