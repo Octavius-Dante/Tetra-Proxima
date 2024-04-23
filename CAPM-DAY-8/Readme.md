@@ -581,13 +581,11 @@ cf logs dante-db-deployer --recent
 
 After deployment you get 2 sections (SRV and UI) srv represents our odata services, ui represents our Fiori Ui page
 </br>
-</br>
 <img src="./files/capmd8-28-00.png" > 
 </br>
 </br>
 
 - SAP BTP cloud foundry will allow the user to access the App from ui without any issues as shown below
-</br>
 </br>
 <img src="./files/capmd8-28-a.png" > 
 </br>
@@ -606,13 +604,11 @@ After deployment you get 2 sections (SRV and UI) srv represents our odata servic
 </br> with data set name as shown here
 </br> || (Cloud Link) + (/CatalogService/<dataset_name>) || - (example : /CatalogService/EmployeeSet, /CatalogService/BusinesspartnerSet)
 </br>
-</br>
 <img src="./files/capmd8-28-d.png" > 
 </br>
 </br>
 
 - In order to restrict this visbility we defined a restriction in CatalogService for (EmployeeSet) it still works here
-</br>
 </br>
 <img src="./files/capmd8-28-e.png" > 
 </br>
