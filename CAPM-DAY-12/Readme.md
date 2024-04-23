@@ -85,10 +85,9 @@
 </br>
 </br>
 
-# NEXT ------ CAPM - DAY 12 - Extension CI/CD
+# --------- End of CAPM Development ---------
 
 <p align="center"> 
-End of CAPM Development
 	
 </br>
 </br>
