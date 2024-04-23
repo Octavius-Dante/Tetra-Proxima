@@ -579,8 +579,20 @@ cf logs dante-db-deployer --recent
 </br>
 </br>
 
-- SAP BTP cloud foundry will allow the user to access the App from ui without any issues
+- SAP BTP cloud foundry will allow the user to access the App from ui without any issues as shown below
+</br>
+</br>
+<img src="./files/capmd8-28a.png" > 
+</br>
+</br>
+
 - But if the service (srv) is accessed it wont allow the user to see the data (It is restricted for security reasons)
+</br>
+</br>
+<img src="./files/capmd8-28b.png" > 
+</br>
+</br>
+
 - In order to see the data set we need to access it from ui link by adding the catalog service
 </br> with data set name as show here "/CatalogService/<dataset_name>" - (example : /CatalogService/EmployeeSet, /CatalogService/BusinesspartnerSet)
 - In order to restrict this visbility we defined a restriction in CatalogService earlier and defined roles locally in package.json 
