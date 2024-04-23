@@ -55,16 +55,16 @@ Configuration Steps for BTP content Federation: -
 </br>
 
 1. It provides a good isolation from oru CAP project, hence if there is a change in Ui, 
-   </br> we dont need to touch or re-deploy the cap application 
+   we dont need to touch or re-deploy the cap application 
 
 2. In a global team, each team is responsilbe for one Fiori app, they can work independently
-   </br> in their apps with separate git repositories and different lifecycle and transport
+   in their apps with separate git repositories and different lifecycle and transport
 
 3. If we add all fiori apps inside cap project the project becomes bulkier,
-   </br> also Ui developer has to go through lot of files when developing UI so separated from CAP gives less clutter. 
+   also Ui developer has to go through lot of files when developing UI so separated from CAP gives less clutter. 
    
-4. We can use managed app router with html5 apps, app router itself is a separate node applciation which requires memory and downtime when we deploy our app.
-   The managed app router is manged by Cloud OFundry environment in BTP.
+4. We can use managed app router with html5 apps, app router itself is a separate node application which requires memory and downtime when we deploy our app.
+   The managed app router is manged by Cloud Foundry environment in BTP.
 
 </br>
 </br>
