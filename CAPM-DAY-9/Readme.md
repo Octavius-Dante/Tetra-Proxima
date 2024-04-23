@@ -88,6 +88,12 @@ When SRV module is accessed from cloud deployed app it appears like this
 <img src="./files/capmd9-2.png" >
 </br>
 </br>
+<img src="./files/capmd9-3.png" >
+</br>
+</br>
+<img src="./files/capmd9-4.png" >
+</br>
+</br>
 
 </details>
 
