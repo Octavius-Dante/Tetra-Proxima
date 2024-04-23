@@ -646,12 +646,18 @@ Assigning the Roles to user id/account (mail-id)
 <img src="./files/capmd8-29-5.png" > 
 <img src="./files/capmd8-29-6.png" > 
 <img src="./files/capmd8-29-7.png" > 
+</br>
+</br>
+
+Assign your current cloud account mail-id (assigning a role to access your app)
+</br>
 <img src="./files/capmd8-29-8.png" > 
 </br>
 </br>
 </br>
 
 After the role is assigned please open an incognito window in the browser and login to your account and access the Ui with catalog service and check employeeset
+</br>
 </br> if its not logged in again you cannot access the data (because active session in cloud foundry cannot be refreshed) it will pick up the new roles only in next login 
 </br>
 <img src="./files/capmd8-30.png" > 
