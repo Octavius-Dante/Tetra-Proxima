@@ -104,6 +104,9 @@ Creating a call service in postman tool for our SRV module
 <img src="./files/capmd9-6.png" >
 </br>
 </br>
+<img src="./files/capmd9-7.png" >
+</br>
+</br>
 
 </details>
 
