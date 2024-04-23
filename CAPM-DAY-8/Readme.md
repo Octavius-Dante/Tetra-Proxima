@@ -583,8 +583,6 @@ cf logs dante-db-deployer --recent
 - But if the service (srv) is accessed it wont allow the user to see the data (It is restricted for security reasons)
 - In order to see the data set we need to access it from ui link by adding the catalog service
 </br> with data set name as show here "/CatalogService/<dataset_name>" - (example : /CatalogService/EmployeeSet, /CatalogService/BusinesspartnerSet)
-</br>
-</br>
 - In order to restrict this visbility we defined a restriction in employee data set earlier and defined roles locally in package.json 
 - We need to define the same roles in security-roles, role collection section so employee set can be accessed again from cloud
 
