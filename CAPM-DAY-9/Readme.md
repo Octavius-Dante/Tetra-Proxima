@@ -139,6 +139,16 @@ Get the required values from BTP cloud accoutn and add it to Postman
 </br>
 </br>
 
+Client ID & CLient Secret 
+</br>
+</br>
+<img src="./files/capmd9-13.png" >
+</br>
+</br>
+<img src="./files/capmd9-14.png" >
+</br>
+</br>
+
 </details>
 
 
