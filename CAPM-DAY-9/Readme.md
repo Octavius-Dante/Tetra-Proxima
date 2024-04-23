@@ -33,6 +33,17 @@ So from previosu session we saw how to deploy our app to cloud with XSUAA
 
 [SAP Blog on SAP Build work zone](https://community.sap.com/t5/technology-blogs-by-members/access-fiori-apps-via-sap-build-work-zone-site-with-federated-sap-s-4hana/ba-p/13558780)
 
+Configuration Steps for BTP content Federation: -
+</br>
+</br>
+</br>Step 1: - Subscribe to the SAP Build Work Zone, standard edition.
+</br>Step 2: - Cloud connector Setup
+</br>Step 3: - Setup the Runtime and Design-Time destinations in SAP BTP
+</br>Step 4: - Expose content from SAP S/4HANA
+</br>Step 5: - Import the content in SAP Build Work Zone, standard edition.
+</br>Step 6: - Assign the imported roles to the Site.
+</br>Step 7: - Add the roles to the user.
+</br>Step 8: - Access the federated content
 
 
 <!--
