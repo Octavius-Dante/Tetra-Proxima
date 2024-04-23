@@ -78,12 +78,17 @@ Configuration Steps for BTP content Federation: -
 <summary> <b>1. Accessing OData service (SRV) module of our previous app from Postman Tool</b> </summary>
 </br>
 </br>
-
+	
+When SRV module is accessed from cloud deployed app it appears like this
+</br>
+</br>
+<img src="./files/capmd9-1.png" >
+</br>
+</br>
+<img src="./files/capmd9-2.png" >
 </br>
 </br>
 
-</br>
-</br>
 </details>
 
 
