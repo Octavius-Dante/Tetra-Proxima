@@ -603,7 +603,8 @@ After deployment you get 2 sections (SRV and UI) srv represents our odata servic
 </br>
 
 - In order to see the data set we need to access it from ui link by adding the catalog service
-</br> with data set name as shown here || (Cloud Link) + (/CatalogService/<dataset_name>) || - (example : /CatalogService/EmployeeSet, /CatalogService/BusinesspartnerSet)
+</br> with data set name as shown here
+</br> || (Cloud Link) + (/CatalogService/<dataset_name>) || - (example : /CatalogService/EmployeeSet, /CatalogService/BusinesspartnerSet)
 </br>
 </br>
 <img src="./files/capmd8-28-d.png" > 
