@@ -150,8 +150,6 @@ Configuration Steps for BTP content Federation: -
 
 #### Previous Sessions
 </br>
-</br>
-
 <!--
 - [x] <a href="https://github.com/Octavius-Dante/Tetra_Proxima/tree/main/CAPM-DAY-12"> CAPM Day 12 - Extension CI CD</a>
 - [x] <a href="https://github.com/Octavius-Dante/Tetra_Proxima/tree/main/CAPM-DAY-11"> CAPM Day 11 - S4HANA Side by Side</a>
