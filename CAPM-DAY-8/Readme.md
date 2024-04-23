@@ -687,7 +687,7 @@ Roles and scopes
 </br>
 </br>
 
-# NEXT ------ CAPM - DAY 8 - CAPM Security XSUAA
+# NEXT ------ CAPM - DAY 9 - Serverless FIORI
 
 <p align="center"> 
 <a href="https://github.com/Octavius-Dante/Tetra_Proxima/tree/main/CAPM-DAY-8"> CAPM DAY 8 - CAPM Security XSUAA</a> 
