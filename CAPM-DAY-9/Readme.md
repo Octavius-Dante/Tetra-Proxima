@@ -53,6 +53,7 @@ Configuration Steps for BTP content Federation: -
 
 </br>
 </br>
+
 1. it provides a good isolation from oru CAP project, hence if there is a change in Ui, 
    </br> we dont need to touch or re-deploy the cap application 
 
