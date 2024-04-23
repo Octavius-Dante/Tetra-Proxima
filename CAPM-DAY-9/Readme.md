@@ -51,6 +51,8 @@ Configuration Steps for BTP content Federation: -
 
 ### Advantages of HTML5 apps over NodeJs Fiori app
 
+</br>
+
 1. It provides a good isolation from oru CAP project, hence if there is a change in Ui, 
    we dont need to touch or re-deploy the cap application 
 
