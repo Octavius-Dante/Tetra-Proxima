@@ -591,9 +591,17 @@ cf logs dante-db-deployer --recent
 </br>
 <img src="./files/capmd8-28b.png" > 
 </br>
+<img src="./files/capmd8-28c.png" > 
+</br>
 </br>
 
 - In order to see the data set we need to access it from ui link by adding the catalog service
+</br>
+</br>
+<img src="./files/capmd8-28d.png" > 
+</br>
+</br>
+
 </br> with data set name as show here "/CatalogService/<dataset_name>" - (example : /CatalogService/EmployeeSet, /CatalogService/BusinesspartnerSet)
 - In order to restrict this visbility we defined a restriction in CatalogService earlier and defined roles locally in package.json 
 - We need to define the same roles in cloud on security-roles section and assign the roles to user (mail-id) in role collection section so employee set can be accessed again from cloud
