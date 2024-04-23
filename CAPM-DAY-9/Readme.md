@@ -65,7 +65,7 @@ Configuration Steps for BTP content Federation: -
 4. We can use managed app router with html5 apps, app router itself is a separate node application which requires memory and downtime when we deploy our app.
    The managed app router is manged by Cloud Foundry environment in BTP.
 
-5. Integration with SAP Fiori Launchpad (Central Fiori launchpad) in SAP BTP. Because our app is available as a HTML5 app inside html5 repository.   
+5. Integration with SAP Fiori Launchpad <b> (Central Fiori launchpad aka SAP Build work zone) </b> in SAP BTP. Because our app is available as a HTML5 app inside html5 repository.   
 
 </br>
 </br>
