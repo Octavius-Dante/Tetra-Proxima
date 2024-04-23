@@ -798,16 +798,13 @@ After the role is assigned please open an incognito window in the browser and lo
 </br>
 </br>
 
-#### Acronym JWT - Json Web Token
+<b> Acronym JWT - Json Web Token </b>
 
 </br>
 </br>
 
 <details>
-<summary> 
-
-#### Cookies Clearing in Browser 
-</summary>
+<summary>  Cookies Clearing in Browser </summary>
 </br>
 </br>
 <img src="./files/cook1.png" >
