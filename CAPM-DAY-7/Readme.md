@@ -1116,8 +1116,6 @@ After building *.mtar file in the directory (right click and deploy)
 
 </br>
 </br>
-</br>
-</br>
 
 <details>
 <summary> 11. Build and deploy using commands</summary>		
