@@ -579,6 +579,13 @@ cf logs dante-db-deployer --recent
 </br>
 </br>
 
+After deployment you get 2 sections (SRV and UI) srv represents our odata services, ui represents our Fiori Ui page
+</br>
+</br>
+<img src="./files/capmd8-28-00.png" > 
+</br>
+</br>
+
 - SAP BTP cloud foundry will allow the user to access the App from ui without any issues as shown below
 </br>
 </br>
@@ -596,14 +603,22 @@ cf logs dante-db-deployer --recent
 </br>
 
 - In order to see the data set we need to access it from ui link by adding the catalog service
+</br> with data set name as show here "/CatalogService/<dataset_name>" - (example : /CatalogService/EmployeeSet, /CatalogService/BusinesspartnerSet)
 </br>
 </br>
 <img src="./files/capmd8-28d.png" > 
 </br>
 </br>
 
-</br> with data set name as show here "/CatalogService/<dataset_name>" - (example : /CatalogService/EmployeeSet, /CatalogService/BusinesspartnerSet)
-- In order to restrict this visbility we defined a restriction in CatalogService earlier and defined roles locally in package.json 
+- In order to restrict this visbility we defined a restriction in CatalogService for (EmployeeSet) it still works here
+</br>
+</br>
+<img src="./files/capmd8-28e.png" > 
+</br>
+</br>
+
+
+-  earlier and defined roles locally in package.json 
 - We need to define the same roles in cloud on security-roles section and assign the roles to user (mail-id) in role collection section so employee set can be accessed again from cloud
 
 </details>
