@@ -662,6 +662,7 @@ After the role is assigned please open an incognito window in the browser and lo
 </br>
 <img src="./files/capmd8-30.png" > 
 </br>
+<img src="./files/capmd8-31.png" > 
 </br>
 </br>
 </details>
