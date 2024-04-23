@@ -690,5 +690,5 @@ Roles and scopes
 # NEXT ------ CAPM - DAY 9 - Serverless Fiori App
 
 <p align="center"> 
-<a href="https://github.com/Octavius-Dante/Tetra_Proxima/tree/main/CAPM-DAY-8"> CAPM DAY 9 - Serverless Fiori App</a> 
+<a href="https://github.com/Octavius-Dante/Tetra_Proxima/tree/main/CAPM-DAY-9"> CAPM DAY 9 - Serverless Fiori App</a> 
 </p>
