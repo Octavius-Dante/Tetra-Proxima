@@ -132,6 +132,12 @@ Get the required values from BTP cloud accoutn and add it to Postman
 <img src="./files/capmd9-10.png" >
 </br>
 </br>
+<img src="./files/capmd9-11.png" >
+</br>
+</br>
+<img src="./files/capmd9-12.png" >
+</br>
+</br>
 
 </details>
 
