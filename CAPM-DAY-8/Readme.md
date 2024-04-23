@@ -14,7 +14,7 @@ So from previosu session we saw how to deploy our app to cloud
 </br>
 </br>
 
-### JWT - Json Web Token
+#### Acronym JWT - Json Web Token
 
 </br>
 </br>
