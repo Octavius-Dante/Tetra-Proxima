@@ -409,7 +409,7 @@ using {dante.cds} from '../db/CDSViews';
 // example MyName will be dispalyed as My the part (Name) will be removed
 // to avoid this we use @(path:<service-name>) annotation
 
-service CatalogService @(path: 'CatalogService') {
+service CatalogService @(path : 'CatalogService', requires: 'authenticated-user') {
 // I want to insert but dont want to delete
     @Capabilities : { Insertable, Deletable: false }
     entity BusinessPartnerSet as projection on db.master.businesspartner;
