@@ -1739,7 +1739,6 @@ context transaction {
 
 #### Previous Sessions
 </br>
-</br>
 
 <!--
 - [x] <a href="https://github.com/Octavius-Dante/Tetra_Proxima/tree/main/CAPM-DAY-12"> CAPM Day 12 - Extension CI CD</a>
