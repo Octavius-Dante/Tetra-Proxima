@@ -981,10 +981,10 @@ Configuration Steps for BTP content Federation: -
 </br>
 </br>
 
-# NEXT ------ CAPM - DAY 10 - Side by Side extension
+# NEXT ------ CAPM - DAY 9 - Serverless Fiori App
 
 <p align="center"> 
-<a href="https://github.com/Octavius-Dante/Tetra_Proxima/tree/main/CAPM-DAY-10"> CAPM DAY 10 - Side by Side extension</a> 
+<a href="https://github.com/Octavius-Dante/Tetra_Proxima/tree/main/CAPM-DAY-9"> CAPM DAY 9 - Serverless Fiori App</a> 
 	
 </br>
 </br>
@@ -1010,8 +1010,5 @@ Configuration Steps for BTP content Federation: -
 
 </br>
 </br>
-
-</p>
-
 
 </p>
