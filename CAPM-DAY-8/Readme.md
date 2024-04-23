@@ -618,11 +618,38 @@ After deployment you get 2 sections (SRV and UI) srv represents our odata servic
 <img src="./files/capmd8-28-e.png" > 
 </br>
 </br>
+</br>
 
 
--  earlier and defined roles locally in package.json 
-- We need to define the same roles in cloud on security-roles section and assign the roles to user (mail-id) in role collection section so employee set can be accessed again from cloud
+- To access the restricted Employeeset We need to define the roles in cloud the same roles we defined earlier during (mock strategy) for local xsuaa testing
+</br>
+</br>
 
+Defining Roles in security section 
+</br>
+</br>
+<img src="./files/capmd8-28-1.png" >
+<img src="./files/capmd8-28-2.png" >
+<img src="./files/capmd8-28-3.png" >
+<img src="./files/capmd8-28-4.png" > 
+</br>
+</br>
+</br>
+
+Assigning the Roles to user id/account (mail-id)
+</br>
+</br>
+<img src="./files/capmd8-29-1.png" >
+<img src="./files/capmd8-29-2.png" >
+<img src="./files/capmd8-29-3.png" >
+<img src="./files/capmd8-29-4.png" > 
+<img src="./files/capmd8-29-5.png" > 
+<img src="./files/capmd8-29-6.png" > 
+<img src="./files/capmd8-29-7.png" > 
+<img src="./files/capmd8-29-8.png" > 
+</br>
+</br>
+</br>
 </details>
 
 
