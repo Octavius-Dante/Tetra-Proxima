@@ -14,6 +14,11 @@ So from previosu session we saw how to deploy our app to cloud
 </br>
 </br>
 
+### JWT - Json Web Token
+
+</br>
+</br>
+
 <details>
 <summary> 1. Create a new resource in MTA.yaml file for xs-uaa backing service with following proerties  </summary>
 </br>
@@ -344,7 +349,7 @@ adding restriction to read employee set
 <summary> 7. Define XSUAA security strategy for cloud </summary>
 </br>
 We need to tell system that if we run app in cloud foundry BTP (production environemnt) 
-</br> use JWT strategy for security. by defining it in package.json
+</br> use JWT strategy for security. by defining it in package.json 
 </br>
 	
 by defining following block of code in package.json
