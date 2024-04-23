@@ -72,9 +72,10 @@ Configuration Steps for BTP content Federation: -
 
 
 ### Building Fiori App using exisitng SRV services 
+</br>
 
 <details>
-<summary> <b> Accessing OData service (SRV) module of our previosu app from postman </b> </summary>
+<summary> <b>1. Accessing OData service (SRV) module of our previosu app from postman </b> </summary>
 </br>
 </br>
 
