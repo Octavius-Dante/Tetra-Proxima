@@ -963,7 +963,6 @@ Go through the Node section documents for CDS QUERY LANGUAGE - usage
 
 #### Previous Sessions
 </br>
-</br>
 
 <!--
 - [x] <a href="https://github.com/Octavius-Dante/Tetra_Proxima/tree/main/CAPM-DAY-12"> CAPM Day 12 - Extension CI CD</a>
