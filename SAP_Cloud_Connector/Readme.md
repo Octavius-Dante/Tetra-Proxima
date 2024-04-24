@@ -57,7 +57,7 @@ Enter the cloud system details for connection
 </br>
 </br>
 
- Subaccount is connected with cloud conenctor initial handshake is complete
+ Subaccount is connected with cloud connector initial handshake is complete
 </br>
 </br>
 <img src="./files/scco_2.png" >
