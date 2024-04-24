@@ -8,9 +8,17 @@
 
 - [x] Go to sap tools.hana.ondemand website (https://tools.hana.ondemand.com/#cloud)
 - [x] download JVM, download SAP cloud connector 
+
+</br>
+</br>
+<img src="./files/scco_b.png" >
+</br>
+</br>
+
 - [x] place the JVM extraction to (c:\Program Files\Java) directory
 - [x] Start installation of sap cloud connector - (make note of port number)
-	choose java JDK select jvm which we palced earlier (c:\Program Files\Java\jvmXXX) proceed installation
+</br> choose java JDK select jvm which we palced earlier (c:\Program Files\Java\jvmXXX) proceed installation
+
 - [x] Post installation access the this link to launch cloud connector (https://localhost:8443/)
 - [x] Default username : Administrator || password : manage
 - [x] First login will request for password change 
