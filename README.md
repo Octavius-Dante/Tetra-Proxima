@@ -99,6 +99,7 @@ Ctrl + Shift + P - Show All commands
 </br>
 Ctrl + K N - New text File 
 </br>
+Ctrl + F4 - Close editor
 </br>
 </br>
 </br>
@@ -109,6 +110,15 @@ Ctrl + K N - New text File
 </br>
 </br>
 </br>
+
+
+| Left-aligned | Center-aligned | Right-aligned |
+| :---         |     :---:      |          ---: |
+| git status   | git status     | git status    |
+| git diff     | git diff       | git diff      |
+| `git status` | List all *new or modified* files | |
+| `git diff` | Show file differences that **haven't been** staged | |
+
 </details>
 
 
