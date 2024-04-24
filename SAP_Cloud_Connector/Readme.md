@@ -140,6 +140,14 @@ Another way to determine which is the right HTTP service
 <img src="./files/scco_20.png" >
 </br>
 </br>
+
+
+Add the resources to your cloud connection 
+</br>
+</br>
+<img src="./files/scco_21-00.png" >
+</br>
+</br>
 <img src="./files/scco_21a.png" >
 </br>
 </br>
@@ -147,6 +155,16 @@ Another way to determine which is the right HTTP service
 </br>
 </br>
 <img src="./files/scco_22.png" >
+</br>
+</br>
+
+If everything is done correctly in BTP account on cloud connectors section it will have the following detail 
+</br> (Resource created in cloud connector section)
+</br>
+</br>
+<img src="./files/scco_26.png" >
+</br>
+</br>
 </br>
 </br>
 
@@ -193,14 +211,6 @@ Test the connection - usually the connection will work
 </br>
 </br>
 
-If everything is correct and connection is working - in BTP cloud connector section following status should be displayed
-</br>
-</br>
-<img src="./files/scco_26.png" >
-</br>
-</br>
-</br>
-</br>
 
 </br>
 </br>
