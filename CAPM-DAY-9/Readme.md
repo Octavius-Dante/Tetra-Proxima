@@ -164,6 +164,26 @@ BTP Account userid and the password should be <b> BAS account password </b> dont
 <img src="./files/capmd9-16.png" >
 </br>
 </br>
+<img src="./files/capmd9-17.png" >
+</br>
+</br>
+
+Token added acknowledgement will be shown in right bottom of screen
+</br>
+</br>
+<img src="./files/capmd9-18.png" >
+</br>
+</br>
+
+Now fire the call service and it should bring the data
+</br>
+</br>
+<img src="./files/capmd9-19.png" >
+</br>
+</br>
+<img src="./files/capmd9-20.png" >
+</br>
+</br>
 </br>
 
 
