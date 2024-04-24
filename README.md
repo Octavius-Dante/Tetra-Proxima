@@ -79,77 +79,7 @@ NPM -node pacakge manager is a dependency manger for Node JS
 </br>
 </br>
 
- http://localhost:8080/APP_end_point_name 
-
- </br>
- </br>
- 
-https://developers.sap.com/tutorials/btp-cf-buildpacks-java-create.html
-
-https://github.com/SAP/btp-environment-variable-access
-
-https://help.sap.com/docs/btp/sap-business-technology-platform/developing-java-in-cloud-foundry-environment
-
-https://github.com/SAP/cloud-security-services-integration-library/blob/main/java-security/README.md
-
- </br>
- </br>
- 
-### Steps for Postgre DB integration : 
- <p>
- </br>
-1. Add conenction properties for our postgre DB running locally
- </br>
- </br>
-2. We need annotations to our POJO class to specify that our class will act like and entity.
-   </br>
-   We need to add annotations which will also tell JPA taht my entity have a primary key and colums.
-   </br>
-   It may so happen that your class property name and your DB columns names may different. EG. @Emtoty ,@Id
- </br>
- </br>
-3. We need to add a special interface which inherits from JPARepository interface, which will proovide all the runtime           
-   capabilities (CURDQ - Create, Update, Read, Delete, Query).
- </br>
- </br>
-4. Replace hardcoded data in our service class with Read DB Operations. 
- </br>
-  </br>
-  </p>
-
-
-### Spring Boot Connect to PostgreSQL Database Examples 
-
-https://www.codejava.net/frameworks/spring-boot/connect-to-postgresql-database-examples
-</br>
-https://studygyaan.com/spring-boot/how-to-connect-postgresql-database-in-spring-boot-project
-
-</br>
-</br>
-
-## Spring Boot + PostgreSQL + UUID String
-</br>
-
-It’s easy to use UUID String as Primary Key when you are using PostgreSQL database.
-</br>
-To archive this, just configure your Entity to use UUID2 generator.
-</br>
-
-```java
-
-@Id
-@GenericGenerator(name = "uuid2", strategy = "uuid2")
-@GeneratedValue(strategy = GenerationType.IDENTITY, generator = "uuid2")
-@Column(length = 36, nullable = false, updatable = false)
-private String id;
-
-```
- </br>
- </br>
- </br>
-
-
-## Shortcut keys  
+## Shortcut keys in Eclipse for JAVA development
  </br>
  </br>
  Ctrl + Shift + F  -- Code Alignment 
@@ -160,24 +90,6 @@ private String id;
  </br>
  Ctrl + Shift + L -- Show key assist
  
- </br> 
- </br>
- </br>
-https://www.baeldung.com/spring-data-jpa-batch-inserts
-</br>
-</br>
-
-</br>
-</br>
-Passing Native Query EXAMPLES 
-</br>
-https://stackoverflow.com/questions/66071165/how-to-pass-parameters-in-a-native-query-jpa
-
-</br>
-</br>
-https://www.bezkoder.com/jpa-native-query/
-
-
 </br>
 </br>
 
@@ -207,16 +119,6 @@ https://sapui5.hana.ondemand.com/
 </br>
 </br>
 XMLNS - XML namespace
-
-</br>
-</br>
-</br>
-
-
-#### What is the Apache Olingo Project? 
-</br>
-</br>
-Apache Olingo is a Java library that implements the Open Data Protocol (OData). Apache Olingo serves client and server aspects of OData. It currently supports OData 2.0 and will also support OData 4.0. The latter is the OASIS version of the protocol: OASIS Open Data Protocol (OData) TC.
 </br>
 </br>
 </br>
@@ -235,7 +137,6 @@ Apache Olingo is a Java library that implements the Open Data Protocol (OData). 
 
 #### App router is an application which does internal communciations between micro services to give single entry point for user it communicates to XSUAA to get access tokens.
 </br>
-
 
 #### What is XSUAA
 </br>
@@ -296,11 +197,11 @@ Build Business logic on server side, DB lookups, send emails, write valdiations,
 
 - [X] Approuter implementation was difficult -> lot f effort is required as a developer to setup project.
 - [X] What is the best-practise/ gold-standard to build SAP BTP applications, recommendtaion by SAP.
-- [X] Are there any existing sampel apps which we can follow to build our app
-- [X] Many times, as a developer it is hard to add each part of app like files, dependencies, deploy descriptor, lot of code , can this process be simplified ?
+- [X] Are there any existing sample apps which we can follow to build our app
+- [X] Many times, as a developer it is hard to add each part of app like files, dependencies, deploy descriptor, lot of code, how can this process be simplified ?
 - [X] How can we have reusability of the code to speed up my development and use sap provided tools to generate the skeleton of the apps.
 - [X] As a developer we want to focus more on functional aspect implementation rather initital project setup.
-- [X] Our apps are something tightly couples with DB technology develop DB agnostic apps.
+- [X] Our apps are something tightly coupled with DB technology develop DB agnostic apps.
 - [X] No matter what is the area we belong FIN, SD, MM, PP, PM, APO, CRM, HR etc. eventually as a developer we all do same work. Design tables, write logic, build UI
 - [X] How to develop software in BTP, Which does not require too much time in handovers
 </br>
@@ -309,7 +210,7 @@ Build Business logic on server side, DB lookups, send emails, write valdiations,
 #### SAP CAPM - Cloud Application Programming Model
 </br>
 
-- [X] It's a SAP provided framework to develop Saas apps in BTP.
+- [X] It's a SAP provided framework to develop SAAS apps in BTP. 
 - [X] If the developer wants to use open source technologies like Node and java.
 - [X] Great cost saving and freedom of choice of technology and consultants availalbe easily in market.
 
@@ -325,3 +226,11 @@ Build Business logic on server side, DB lookups, send emails, write valdiations,
 
 </br>
 </br>
+
+Software As A Service - SAAS
+Platform As A Service - PAAS
+Infrastructure As A Service - IAAS
+
+</br>
+</br>
+
