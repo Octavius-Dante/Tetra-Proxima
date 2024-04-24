@@ -274,12 +274,94 @@ A success message showing that connection is established
 <summary> 3. Create Freestyle Fiori app using BAS </summary>
 </br>
 </br>
+Go to BAS and press F1 and Search for 'Fiori Open Application generator'
+</br>
+</br>
+<img src="./files/capmd9-33.png" >
+</br>
+</br>
+
+Choose the template as shown below 
+</br>
+</br>
+<img src="./files/capmd9-34.png" >
+</br>
+</br>
+<img src="./files/capmd9-35.png" >
+</br>
+</br>
+
+
+<details>
+<summary> Custom page template Error (when assigned odata v2) </summary>
+</br>
+</br>
+<img src="./files/capmd9-34a.png" >
+</br>
+</br>
+<img src="./files/capmd9-35a.png" >
+</br>
+</br>
+</details>
 
 </br>
 </br>
 
 </br>
 </br>
+
+</br>
+</br>
+
+</br>
+</br>
+
+</br>
+</br>
+
+</br>
+</br>
+
+</br>
+</br>
+
+</br>
+</br>
+
+</br>
+</br>
+
+
+</br>
+</br>
+
+</br>
+</br>
+
+</br>
+</br>
+
+</br>
+</br>
+
+</br>
+</br>
+
+</br>
+</br>
+
+</br>
+</br>
+
+</br>
+</br>
+
+</br>
+</br>
+
+</br>
+</br>
+
 </details>
 
 
