@@ -167,7 +167,11 @@ If everything is correct and conenction is working - in BTP cloud connector sect
 <img src="./files/scco_26.png" >
 </br>
 </br>
+</br>
+</br>
 
+
+### This is how Cloud connection can be established for On-premise S4hana System
 
 <!--
 
@@ -217,16 +221,6 @@ If everything is correct and conenction is working - in BTP cloud connector sect
 
 -->
 
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
 
 
 </br>
