@@ -16,7 +16,10 @@
 - [x] First login will request for password change 
 - [x] goto subaccount section in left navigation bar and enter the - subaccount details to initiate handshake
 
-
+</br>
+</br>
+</br>
+</br>
 
 Login page 
 </br>
@@ -25,10 +28,14 @@ Login page
 </br>
 </br>
 
-Enter the cloud system details
+Get the BTP Sub accoutn details 
 </br>
 </br>
 <img src="./files/scco_a.png" >
+</br>
+</br>
+
+Enter the cloud system details for connection
 </br>
 </br>
 <img src="./files/scco_1.png" >
