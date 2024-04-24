@@ -113,7 +113,7 @@ Ctrl + F4 - Close editor
 
 
 | Command Key combination | Command Description | 
-| :---         |          ---: |
+| :---         |          :---: |
 | git status   | git status    |
 | git diff     | git diff      |
 | `git status` | List all *new or modified* files |
