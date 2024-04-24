@@ -202,7 +202,7 @@ Now we need to decrypt the JWT Token go to the website : https://www.base64decod
 
 
 <details>
-<summary> 2. Create Destination in BTP account </summary>
+<summary> 2. Create Destination in BTP account and establish connection </summary>
 </br>
 </br>
 
@@ -264,8 +264,19 @@ A success message showing that connection is established
 <img src="./files/capmd9-32.png" >
 </br>
 </br>
+
+</br>
+</br>
+</details>
+
+
+<details>
+<summary> 3. Create Freestyle Fiori app using BAS </summary>
+</br>
 </br>
 
+</br>
+</br>
 
 </br>
 </br>
