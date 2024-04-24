@@ -205,7 +205,7 @@ The destination section of SAP BTP account will have a destination automatically
 
 Test the connection - usually the connection will work 
 </br>(since my demo system is non-S4 hana so conenction failure is reported)
-</br> but my BAS account is already connected to NPL demo system and displayed all available odata services listed 
+</br> but my BAS account is already connected to NPL demo system and displayed all available odata services - (Which means its working) 
 </br> now we are good to go for development
 </br>
 </br>
