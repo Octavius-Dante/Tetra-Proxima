@@ -77,7 +77,7 @@ Enter the cloud system details for connection
 </br>
 
 Another way to determine which is the right HTTP service 
-</br> go to odata maintain service transaction <b> /IWFND/MAINT_SERVICE </b>
+</br> go to odata maintain service transaction <b> /IWFND/MAINT_SERVICE </b> it should be called using /n /IWFND/MAINT_SERVICE
 </br> Click the call browser button 
 </br>
 </br>
