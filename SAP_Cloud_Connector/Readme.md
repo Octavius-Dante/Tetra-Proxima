@@ -125,7 +125,19 @@ Another way to determine which is the right HTTP service
 <img src="./files/scco_22.png" >
 </br>
 </br>
-<img src="./files/scco_23.png" >
+<img src="./files/scco_23a.png" >
+</br>
+</br>
+<img src="./files/scco_23b.png" >
+</br>
+</br>
+<img src="./files/scco_23c.png" >
+</br>
+</br>
+<img src="./files/scco_23d.png" >
+</br>
+</br>
+<img src="./files/scco_23e.png" >
 </br>
 </br>
 <img src="./files/scco_24.png" >
