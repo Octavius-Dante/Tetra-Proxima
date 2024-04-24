@@ -62,6 +62,65 @@ Following check list of items available under this topic
 </br>
 </br>
 
+
+<details>
+<summary>
+
+### BAS Shortcut keys 
+
+</summary>
+</br>
+</br>
+F1 - Access command pallete
+</br>
+F11 - Fullscreen mode
+</br>
+Ctrl + / - Line comment
+</br>
+Shift + Alt + A - Toggle Block comment 
+</br>
+Ctrl + Shift + E - Explorer
+</br>
+Ctrl + Shift + F - Search
+</br>
+Ctrl + Shift + G - Source control
+</br>
+Ctrl + Shift + D - Run
+</br>
+Ctrl + Shift + X - Extensions
+</br>
+Ctrl + Shift + M - Problems
+</br>
+Ctrl + Shift + U - Output
+</br>
+Ctrl + Shift + Y - Debug Console
+</br>
+Ctrl + ` - Terminal
+</br>
+Ctrl + Shift + ` - New Terminal
+</br>
+Ctrl + Shift + P - Show All commands
+</br>
+Ctrl + K N - New text File 
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</details>
+
+
+
+
+
+
+
 #### BTP Training - Test applications (28/02/2024)
 </br>
 
