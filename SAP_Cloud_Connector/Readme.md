@@ -18,6 +18,17 @@
 
 
 
+Login page 
+</br>
+</br>
+<img src="./files/scco_0.png" >
+</br>
+</br>
+
+Enter the cloud system details
+</br>
+</br>
+<img src="./files/scco_a.png" >
 </br>
 </br>
 <img src="./files/scco_1.png" >
