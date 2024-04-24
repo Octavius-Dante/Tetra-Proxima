@@ -293,7 +293,7 @@ Choose the template as shown below
 
 
 <details>
-<summary> **How to get the V2 odata path** </summary>
+<summary> How to get the V2 odata path </summary>
 </br>
 </br>
 <img src="./files/capmd9-36a.png" >
