@@ -208,6 +208,7 @@ Test the connection - usually the connection will work
 </br> but my BAS account is already connected to NPL demo system and displayed all available odata services listed 
 </br> now we are good to go for development
 </br>
+</br>
 <img src="./files/scco_25.png" >
 </br>
 </br>
