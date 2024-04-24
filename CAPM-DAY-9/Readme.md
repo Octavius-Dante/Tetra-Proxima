@@ -135,6 +135,11 @@ Get the required values from BTP cloud accoutn and add it to Postman
 <img src="./files/capmd9-11.png" >
 </br>
 </br>
+
+Before pasting the url need to add the following at the last of the url 
+</br> ( <b>/url/oauth/token</b> )
+</br>
+</br>
 <img src="./files/capmd9-12.png" >
 </br>
 </br>
