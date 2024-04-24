@@ -81,7 +81,7 @@ Following check list of items available under this topic
 | `Ctrl + Shift + D` | Run |
 | `Ctrl + Shift + X` | Extensions |
 | `Ctrl + Shift + M` | Problems | 
-| `C`trl + Shift + U` | Output |
+| `Ctrl + Shift + U` | Output |
 | `Ctrl + Shift + Y`| Debug Console |
 | `Ctrl + ` ` | Terminal |
 | `Ctrl + Shift +` ` | New Terminal |
