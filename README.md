@@ -75,7 +75,25 @@ Following check list of items available under this topic
 | `F11`                   | Fullscreen mode           |
 | `Ctrl + /`              | Line comment              |
 | `Shift + Alt + A`       | Toggle Block comment      |
-
+| `Ctrl + Shift + E` | Explorer |
+| `Ctrl + Shift + F` | Search |
+| `Ctrl + Shift + G` | Source control |
+| `Ctrl + Shift + D` | Run |
+| `Ctrl + Shift + X` | Extensions |
+| `Ctrl + Shift + M` | Problems | 
+| `C`trl + Shift + U` | Output |
+| `Ctrl + Shift + Y`| Debug Console |
+| `Ctrl + ` ` | Terminal |
+| `Ctrl + Shift +` ` | New Terminal |
+| `Ctrl + Shift + P` | Show All commands |
+| `Ctrl + K N` | New text File |
+| `Ctrl + K Shift + N` | New Window |
+| `Ctrl + Alt + Windows + N` | New file  |
+| `Ctrl + O` | open file |
+| `Ctrl + K Ctrl + O` | New Folder |
+| `Ctrl + S` | Save |
+| `Ctrl + Shift + S` | Save as... |
+| `Ctrl + F4` |  Close editor |
 
 <!--
 
@@ -126,6 +144,7 @@ Ctrl + F4 - Close editor
 </br>
 </br>
 </br>
+
 
 
 
