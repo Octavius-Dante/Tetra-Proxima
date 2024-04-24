@@ -210,13 +210,33 @@ We will use the available information from postman and this scope details from t
 </br>
 </br>
 </br>
+
+Go to the connectivity section in the sub account and click destination
+</br>
+</br>
 <img src="./files/capmd9-23.png" >
+</br>
+</br>
+
+select create new destiantion
 </br>
 </br>
 <img src="./files/capmd9-24.png" >
 </br>
 </br>
+
+Change the authentication type to - <b> OAuth2 User Token Exchange </b>
+</br>
+</br>
 <img src="./files/capmd9-25.png" >
+</br>
+</br>
+
+### Now fill the necesssary details from available data source as shown below
+</br>
+</br>
+
+Copy this link from postman or our OData SRV or from our deployed SRV application
 </br>
 </br>
 <img src="./files/capmd9-26.png" >
