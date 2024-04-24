@@ -57,6 +57,12 @@ Enter the cloud system details for connection
 <img src="./files/scco_6.png" >
 </br>
 </br>
+
+
+<details>
+<summary> Getting SAP system Ip-address and Port-number </b> </summary>
+</br>
+</br>
 <img src="./files/scco_7.png" >
 </br>
 </br>
@@ -84,6 +90,8 @@ Another way to determine which is the right HTTP service
 <img src="./files/scco_13.png" >
 </br>
 </br>
+</br>
+</details>
 
 <!--
 
