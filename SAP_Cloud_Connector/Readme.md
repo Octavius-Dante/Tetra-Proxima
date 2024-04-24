@@ -28,7 +28,7 @@ Login page
 </br>
 </br>
 
-Get the BTP Sub accoutn details 
+Get the BTP Sub account details 
 </br>
 </br>
 <img src="./files/scco_a.png" >
