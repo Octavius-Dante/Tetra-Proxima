@@ -155,7 +155,7 @@ Client ID & CLient Secret
 </br>
 </br>
 
-BTP Account userid and password 
+BTP Account userid and the password should be <b> BAS account password </b> dont confuse it with (BTP GLobal account password)
 </br>
 </br>
 <img src="./files/capmd9-15.png" >
