@@ -5,7 +5,7 @@
 </br>
 </br>
 
-So from previosu session we saw how to deploy our app to cloud 
+So from previous session we saw how to deploy our app to cloud 
 </br> Now we are going to add XSUAA service to our app using MTA editor to MTA yaml file
 </br>
 </br>
