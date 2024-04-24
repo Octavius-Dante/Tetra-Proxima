@@ -22,7 +22,7 @@
 - [x] Post installation access the this link to launch cloud connector (https://localhost:8443/)
 - [x] Default username : Administrator || password : manage
 - [x] First login will request for password change 
-- [x] goto subaccount section in left navigation bar and enter the - subaccount details to initiate handshake
+
 
 </br>
 </br>
@@ -54,6 +54,10 @@ Enter the cloud system details for connection
 </br>
 </br>
 <img src="./files/scco_1.png" >
+</br>
+</br>
+
+ Subaccount is connected with cloud conenctor initial handshake is complete
 </br>
 </br>
 <img src="./files/scco_2.png" >
