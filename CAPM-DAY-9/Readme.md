@@ -293,6 +293,22 @@ Choose the template as shown below
 
 
 <details>
+<summary> **How to get the V2 odata path** </summary>
+</br>
+</br>
+<img src="./files/capmd9-36a.png" >
+</br>
+</br>
+<img src="./files/capmd9-36b.png" >
+</br>
+</br>
+<img src="./files/capmd9-36c.png" >
+</br>
+</br>
+</details>
+
+
+<details>
 <summary> Custom page template Error (when assigned odata v2) </summary>
 </br>
 </br>
