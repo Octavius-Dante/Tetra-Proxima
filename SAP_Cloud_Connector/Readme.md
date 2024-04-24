@@ -161,6 +161,13 @@ Test the connection - usually the connection will work
 </br>
 </br>
 
+If everything is correct and conenction is working - in BTP cloud connector section will have the following status 
+</br>
+</br>
+<img src="./files/scco_26.png" >
+</br>
+</br>
+
 
 <!--
 
