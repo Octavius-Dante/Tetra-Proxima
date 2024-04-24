@@ -257,6 +257,10 @@ Copy this link from postman or our OData SRV or from our deployed SRV applicatio
 <img src="./files/capmd9-31.png" >
 </br>
 </br>
+
+A success message showing that connection is established 
+</br>
+</br>
 <img src="./files/capmd9-32.png" >
 </br>
 </br>
