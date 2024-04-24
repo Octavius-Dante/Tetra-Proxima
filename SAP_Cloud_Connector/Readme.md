@@ -93,6 +93,33 @@ Another way to determine which is the right HTTP service
 </br>
 </details>
 
+</br>
+</br>
+<img src="./files/scco_14.png" >
+</br>
+</br>
+<img src="./files/scco_15.png" >
+</br>
+</br>
+<img src="./files/scco_16.png" >
+</br>
+</br>
+<img src="./files/scco_17.png" >
+</br>
+</br>
+<img src="./files/scco_18.png" >
+</br>
+</br>
+<img src="./files/scco_19.png" >
+</br>
+</br>
+<img src="./files/scco_20.png" >
+</br>
+</br>
+<img src="./files/scco_21.png" >
+</br>
+</br>
+
 <!--
 
 </br>
