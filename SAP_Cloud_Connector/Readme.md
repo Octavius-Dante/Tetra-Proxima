@@ -259,10 +259,6 @@ If everything is correct and connection is working - in BTP cloud connector sect
 -->
 
 
-
-</br>
-</br>
-</br>
 </br>
 </br>
 </br>
