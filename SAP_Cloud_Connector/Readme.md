@@ -78,6 +78,12 @@ Another way to determine which is the right HTTP service
 <img src="./files/scco_11.png" >
 </br>
 </br>
+<img src="./files/scco_12.png" >
+</br>
+</br>
+<img src="./files/scco_13.png" >
+</br>
+</br>
 
 <!--
 
