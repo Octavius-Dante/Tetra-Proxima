@@ -23,7 +23,7 @@
 
 
 <details>
-<summary> <b> 1. Establish cloud connection to a BTP account from SAP cloud connector </b> </summary>
+<summary> <b> 1. Establish cloud connection </b> </summary>
 </br>
 </br>
 
@@ -59,9 +59,11 @@ Enter the cloud system details for connection
 </br>
 </details>
 
-
-
-
+<details>
+<summary> <b>2. Connect On premise system - Part 1 </b> </summary>
+</br>
+</br>
+</br>
 <img src="./files/scco_4.png" >
 </br>
 </br>
@@ -72,9 +74,13 @@ Enter the cloud system details for connection
 </br>
 </br>
 
+</br>
+</br>
+</details>
+
 
 <details>
-<summary> Getting SAP system Ip-address and Port-number </b> </summary>
+<summary> <b>3. Getting SAP system Ip-address and Port-number </b> </summary>
 </br>
 </br>
 <img src="./files/scco_7.png" >
@@ -107,6 +113,10 @@ Another way to determine which is the right HTTP service
 </br>
 </details>
 
+
+<details>
+<summary> <b>4. Connect On premise system - Part 2 </b> </summary>
+</br>
 </br>
 </br>
 <img src="./files/scco_14.png" >
@@ -140,7 +150,14 @@ Another way to determine which is the right HTTP service
 </br>
 </br>
 
+</br>
+</br>
+</details>
 
+<details>
+<summary> <b>5. Create destination and access On premise system through BAS</b> </summary>
+</br>
+</br>
 Go to SAP BAS account and choose service center tab 
 </br>
 </br>
@@ -184,6 +201,9 @@ If everything is correct and connection is working - in BTP cloud connector sect
 </br>
 </br>
 
+</br>
+</br>
+</details>
 
 ### This is how Cloud connection can be established for On-premise S4hana System
 
