@@ -125,6 +125,11 @@ Another way to determine which is the right HTTP service
 <img src="./files/scco_22.png" >
 </br>
 </br>
+
+
+Go to SAP BAS account and choose service center tab 
+</br>
+</br>
 <img src="./files/scco_23a.png" >
 </br>
 </br>
@@ -140,9 +145,22 @@ Another way to determine which is the right HTTP service
 <img src="./files/scco_23e.png" >
 </br>
 </br>
+
+The destination section of SAP BTP account will have following details entered in BAS in previous step
+</br>
+</br>
 <img src="./files/scco_24.png" >
 </br>
 </br>
+
+Test the connection - usually the connection will work 
+</br>(since my demo system is non-S4 hana so conenction failure is reported)
+</br> but my BAS account is already connected to NPL demo system now we are good to go for development
+</br>
+<img src="./files/scco_25.png" >
+</br>
+</br>
+
 
 <!--
 
