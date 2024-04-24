@@ -75,9 +75,9 @@ Following check list of items available under this topic
 | `F11`                   | Fullscreen mode           |
 | `Ctrl + /`              | Line comment              |
 | `Shift + Alt + A`       | Toggle Block comment      |
--->
 
-<!-->
+
+<!--
 F1 - Access command pallete
 </br>
 F11 - Fullscreen mode
