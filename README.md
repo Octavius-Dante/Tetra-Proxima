@@ -227,9 +227,9 @@ Build Business logic on server side, DB lookups, send emails, write valdiations,
 </br>
 </br>
 
-Software As A Service - SAAS
-Platform As A Service - PAAS
-Infrastructure As A Service - IAAS
+</br> Software As A Service - SAAS
+</br> Platform As A Service - PAAS
+</br> Infrastructure As A Service - IAAS
 
 </br>
 </br>
