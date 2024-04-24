@@ -186,7 +186,7 @@ Now fire the call service and it should bring the data
 </br>
 </br>
 
-Now we need to derypt the JWT Token go the website : https://www.base64decode.org
+Now we need to decrypt the JWT Token go to the website : https://www.base64decode.org
 </br>
 </br>
 <img src="./files/capmd9-21.png" >
