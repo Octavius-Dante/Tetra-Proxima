@@ -21,6 +21,12 @@
 </br>
 </br>
 
+
+<details>
+<summary> <b> 1. Establish cloud connection to a BTP account from SAP cloud connector </b> </summary>
+</br>
+</br>
+
 Login page 
 </br>
 </br>
@@ -48,6 +54,14 @@ Enter the cloud system details for connection
 <img src="./files/scco_3.png" >
 </br>
 </br>
+
+</br>
+</br>
+</details>
+
+
+
+
 <img src="./files/scco_4.png" >
 </br>
 </br>
