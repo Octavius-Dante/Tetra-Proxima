@@ -227,8 +227,8 @@ Apache Olingo is a Java library that implements the Open Data Protocol (OData). 
 - [X] It is a Node JS Application
 - [X] It is used to automate the process of authentication, authorization with XSUAA to do token exchange
 - [X] It sits in the middle of idp (identity provider) and XSUAA, it will redirect the request to our micorservice to XSUAA and eventually to IDP.
-- [X] IDP sends the login screen to the user, user authenticates, which is taken to XSUAA, XSUAA issues JWT token(java authnticated web token), this JWT token is presented to api end points.
-- [X] App router takes th JWT token from XSUAA and give ir ro our microservices and even exchange this token to multiple microservices inside.
+- [X] IDP sends the login screen to the user, user authenticates, which is taken to XSUAA, XSUAA issues JWT token (JSON web token), this JWT token is presented to api end points.
+- [X] App router takes th JWT token from XSUAA and give iT To our microservices and even exchange this token to multiple microservices inside.
 - [X] It serves as a single entry point for entire app.
 - [X] To tell app router about our multiple microservices so that it can re-direct, we need to create a configuration file named as <b>xs-app.json</b> which contains the details.
 </br>
