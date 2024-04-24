@@ -311,17 +311,6 @@ Choose the template as shown below
 </details>
 
 
-<details>
-<summary> Custom page template Error (when assigned odata v2) </summary>
-</br>
-</br>
-<img src="./files/capmd9-34a.png" >
-</br>
-</br>
-<img src="./files/capmd9-35a.png" >
-</br>
-</br>
-</details>
 
 </br>
 </br>
