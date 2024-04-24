@@ -116,6 +116,9 @@ Another way to determine which is the right HTTP service
 <img src="./files/scco_20.png" >
 </br>
 </br>
+<img src="./files/scco_21a.png" >
+</br>
+</br>
 <img src="./files/scco_21.png" >
 </br>
 </br>
