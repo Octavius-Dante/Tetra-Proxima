@@ -48,6 +48,36 @@ Enter the cloud system details for connection
 <img src="./files/scco_3.png" >
 </br>
 </br>
+<img src="./files/scco_4.png" >
+</br>
+</br>
+<img src="./files/scco_5.png" >
+</br>
+</br>
+<img src="./files/scco_6.png" >
+</br>
+</br>
+<img src="./files/scco_7.png" >
+</br>
+</br>
+<img src="./files/scco_8.png" >
+</br>
+</br>
+<img src="./files/scco_9.png" >
+</br>
+</br>
+<img src="./files/scco_10.png" >
+</br>
+</br>
+
+Another way to determine which is the right HTTP service 
+</br> go to odata maintain service transaction <b> </b>
+</br> Click the call browser button 
+</br>
+</br>
+<img src="./files/scco_11.png" >
+</br>
+</br>
 
 <!--
 
