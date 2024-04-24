@@ -148,6 +148,20 @@ Client ID & CLient Secret
 <img src="./files/capmd9-14.png" >
 </br>
 </br>
+</br>
+
+BTP Account userid and password 
+</br>
+</br>
+<img src="./files/capmd9-15.png" >
+</br>
+</br>
+<img src="./files/capmd9-16.png" >
+</br>
+</br>
+</br>
+
+
 
 </details>
 
