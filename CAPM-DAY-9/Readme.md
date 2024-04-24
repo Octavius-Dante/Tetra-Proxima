@@ -75,7 +75,7 @@ Configuration Steps for BTP content Federation: -
 </br>
 
 <details>
-<summary> <b>1. Accessing OData service (SRV) module of our previous app from Postman Tool</b> </summary>
+<summary> 1. Accessing OData service (SRV) module of our previous app from Postman Tool </summary>
 </br>
 </br>
 	
@@ -197,6 +197,54 @@ Now we need to decrypt the JWT Token go to the website : https://www.base64decod
 </br>
 </br>
 
+</details>
+
+
+
+<details>
+<summary> 2. Create Destination in BTP account </summary>
+</br>
+</br>
+
+We will use the available information from postman and this scope details from token to create Destination in BTP account as shown below
+</br>
+</br>
+</br>
+<img src="./files/capmd9-23.png" >
+</br>
+</br>
+<img src="./files/capmd9-24.png" >
+</br>
+</br>
+<img src="./files/capmd9-25.png" >
+</br>
+</br>
+<img src="./files/capmd9-26.png" >
+</br>
+</br>
+<img src="./files/capmd9-27.png" >
+</br>
+</br>
+<img src="./files/capmd9-28.png" >
+</br>
+</br>
+<img src="./files/capmd9-29.png" >
+</br>
+</br>
+<img src="./files/capmd9-30.png" >
+</br>
+</br>
+<img src="./files/capmd9-31.png" >
+</br>
+</br>
+<img src="./files/capmd9-32.png" >
+</br>
+</br>
+</br>
+
+
+</br>
+</br>
 </details>
 
 
