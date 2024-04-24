@@ -63,6 +63,10 @@ Enter the cloud system details for connection
 <img src="./files/scco_2.png" >
 </br>
 </br>
+
+In BTP account cloud connector section should show like this 
+</br>
+</br>
 <img src="./files/scco_3.png" >
 </br>
 </br>
