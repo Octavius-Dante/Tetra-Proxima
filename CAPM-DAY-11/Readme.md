@@ -1,6 +1,6 @@
 ## CAPM - Day 11 - S4HANA Side by Side
 
-#### XXXXXXXXXXXXX
+# WORK IN PROGRESS -  
 
 </br>
 </br>
