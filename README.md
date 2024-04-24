@@ -78,45 +78,31 @@ Following check list of items available under this topic
 
 
 <!--
+
 F1 - Access command pallete
-</br>
 F11 - Fullscreen mode
-</br>
 Ctrl + / - Line comment
-</br>
 Shift + Alt + A - Toggle Block comment 
-</br>
 Ctrl + Shift + E - Explorer
-</br>
 Ctrl + Shift + F - Search
-</br>
 Ctrl + Shift + G - Source control
-</br>
 Ctrl + Shift + D - Run
-</br>
 Ctrl + Shift + X - Extensions
-</br>
 Ctrl + Shift + M - Problems
-</br>
 Ctrl + Shift + U - Output
-</br>
 Ctrl + Shift + Y - Debug Console
-</br>
 Ctrl + ` - Terminal
-</br>
 Ctrl + Shift + ` - New Terminal
-</br>
 Ctrl + Shift + P - Show All commands
-</br>
 Ctrl + K N - New text File 
-</br>
+Ctrl + K Shift + N - New Window
+Ctrl + Alt + Windows + N - New file 
+Ctrl + O - open file 
+Ctrl + K Ctrl + O - New Folder 
+Ctrl + S - Save 
+Ctrl + Shift + S - Save as... 
 Ctrl + F4 - Close editor
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
+
 </br>
 </br>
 </br>
