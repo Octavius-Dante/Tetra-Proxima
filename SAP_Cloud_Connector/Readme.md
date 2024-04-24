@@ -36,6 +36,7 @@ Get the BTP Sub account details
 </br>
 
 Enter the cloud system details for connection
+</br> BTP Account userid and the password should be <b> BAS account password </b> dont confuse it with (BTP GLobal account password)
 </br>
 </br>
 <img src="./files/scco_1.png" >
