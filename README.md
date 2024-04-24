@@ -64,11 +64,7 @@ Following check list of items available under this topic
 
 
 <details>
-<summary>
-
-### BAS Shortcut keys 
-
-</summary>
+<summary> <b> BAS Shortcut keys </b> </summary>
 </br>
 </br>
 F1 - Access command pallete
