@@ -67,6 +67,17 @@ Following check list of items available under this topic
 <summary> <b> BAS Shortcut keys </b> </summary>
 </br>
 </br>
+
+
+| Command Key combination | Command Description | 
+| :---                    |          :---:      |
+| `F1`                    | Access command pallete    |
+| `F11`                   | Fullscreen mode           |
+| `Ctrl + /`              | Line comment              |
+| `Shift + Alt + A`       | Toggle Block comment      |
+-->
+
+<!-->
 F1 - Access command pallete
 </br>
 F11 - Fullscreen mode
@@ -111,14 +122,16 @@ Ctrl + F4 - Close editor
 </br>
 </br>
 
+-->
 
+<!--
 | Command Key combination | Command Description | 
 | :---         |          :---: |
 | git status   | git status    |
 | git diff     | git diff      |
 | `git status` | List all *new or modified* files |
 | `git diff` | Show file differences that **haven't been** staged |
-
+-->
 
 </details>
 
