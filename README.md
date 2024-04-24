@@ -94,6 +94,8 @@ Following check list of items available under this topic
 | `Ctrl + S` | Save |
 | `Ctrl + Shift + S` | Save as... |
 | `Ctrl + F4` |  Close editor |
+| `Ctrl + B` |  Primary Side Bar |
+| `Ctrl + Alt + B` |  Secondary Side Bar |
 
 <!--
 
