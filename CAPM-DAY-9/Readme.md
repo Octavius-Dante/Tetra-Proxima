@@ -740,11 +740,42 @@ Now the app is accessible
 <img src="./files/capmd9-82.png" >
 </br>
 </br>
-
-
 </details>
 
-       
+
+<details>
+<summary> Automatic role creation for HTML5app </summary>
+</br>
+</br>
+
+In case we want to create roles automatically like we did in nodejs app durign deployment it created xsuaa 
+</br> in same way we need to make changes in following places 
+</br>
+<img src="./files/capmd9-83.png" >
+</br>
+</br>
+<img src="./files/capmd9-84.png" >
+</br>
+</br>
+
+</br> in SAP build work zone we need to assign the 
+</br>
+</br>
+
+**App to role**
+
+Same role will be created in roles section in BTP and that role we have assign it to user 
+</br> In BTP we need to assign the 
+
+**Role to User**
+
+</br>
+</br>
+<img src="./files/capmd9-85.png" >
+</br>
+</br>
+</details>
+
 
 <!--
 
