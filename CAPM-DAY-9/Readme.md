@@ -7,7 +7,7 @@
 
 **Central Fiori Launchpad  (AKA) SAP Build Work Zone**
 
-So from previosu session we saw how to deploy our app to cloud with XSUAA
+So from previous session we saw how to deploy our app to cloud with XSUAA
 </br> Now we are going to create a freestyle fiori app just Ui by only using existing Srv -
 </br>
 </br>
