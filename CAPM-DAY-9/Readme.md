@@ -354,6 +354,14 @@ Choose the template as shown below
 </br>
 </br>
 
+- [x] Destiantion service - to read the destiantion from SAP BTP at runtime for the purpose of connection
+- [x] Connectivity service - once the destination is read, it will use connectivity service to connect to our OData service 
+- [x] HTML5 Deployer - this will be used to deploy our app to HTML% repository
+- [x]
+- [x]
+- [x]
+- [x]
+
 </br>
 </br>
 
