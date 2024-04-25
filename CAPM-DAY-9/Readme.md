@@ -5,6 +5,8 @@
 </br>
 </br>
 
+**Central Fiori Launchpad  (AKA) SAP Build Work Zone**
+
 So from previosu session we saw how to deploy our app to cloud with XSUAA
 </br> Now we are going to create a freestyle fiori app just Ui by only using existing Srv -
 </br>
@@ -365,8 +367,12 @@ Choose the template as shown below
 
 **Best place to learn fiori** : sapui5.hana.ondemand.com
 
+- [x] To make our Fiori app to interact with central fiori launchpad 
+
 </br>
 </br>
+
+
 
 </br>
 </br>
