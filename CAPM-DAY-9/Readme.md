@@ -636,6 +636,31 @@ Dont launch the app yet, need to assign the role permission for this app first
 </br>
 </br>
 
+<img src="./files/capmd9-58.png" >
+</br>
+</br>
+
+<img src="./files/capmd9-59.png" >
+</br>
+</br>
+
+<img src="./files/capmd9-60.png" >
+</br>
+</br>
+
+<img src="./files/capmd9-61.png" >
+</br>
+</br>
+
+<img src="./files/capmd9-62.png" >
+</br>
+</br>
+
+<img src="./files/capmd9-63.png" >
+</br>
+</br>
+
+<img src="./files/capmd9-64.png" >
 </br>
 </br>
 
