@@ -737,7 +737,7 @@ Now we can test the app
 Now the app is accessible 
 </br>
 </br>
-<img src="./files/capmd9-81.png" >
+<img src="./files/capmd9-82.png" >
 </br>
 </br>
 
