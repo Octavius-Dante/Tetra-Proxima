@@ -683,6 +683,16 @@ In some cases the deployed app wont get refelected in HTML5 repository in that c
 </br>
 </br>
 
+Now we create catalog from content explorer as shown below
+</br>
+</br>
+<img src="./files/capmd9-69.png" >
+</br>
+</br>
+<img src="./files/capmd9-70.png" >
+</br>
+</br>
+
 </details>
 
        
