@@ -391,7 +391,8 @@ Web Application - HTML5 Repo
 
 **Now this deployment wont got BTP cloud it goes to SAP HTML5 repository**
 </br> because if you take a look at the MTA.yaml file it as the clear explanation
-</br> earlier we deployed node js applciation with db deployer, Db and XSUAA now it has Fiori-Ui related artifacts and it is deployed as HTML5 applciation 
+</br> earlier we deployed node js applciation with db deployer, Db and XSUAA 
+</br> now it has Fiori-Ui related artifacts and XSUAA services and it is deployed as HTML5 application 
 
 </br>
 </br>
