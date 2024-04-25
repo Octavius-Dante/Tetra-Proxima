@@ -31,14 +31,22 @@ git push -u origin main
 <summary> <b> Creating a Private repository in GITHUB </b> </summary>
 </br>
 </br>
-
-
-</br>
-</br>
+Login to github account
 
 </br>
 </br>
+<img src="./files/bg_1.png" >
+</br>
+</br>
+<img src="./files/bg_2.png" >
+</br>
+</br>
+<img src="./files/bg_3.png" >
+</br>
+</br>
+
 </details>
+
 
 
 <!--
