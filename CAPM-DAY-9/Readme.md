@@ -620,54 +620,19 @@ Dont launch the app yet, need to assign the role permission for this app first
 </br>
 </details>
 
+<details>
+<summary> <b> Access the repository for publishing fiori tile </b> </summary>
+</br>
+</br>
 
-<!-- <details>
-<summary> <b> Detailed steps to add the settings </b> </summary>
 </br>
 </br>
-1. go to website [sapui5.hana.ondemand.com](https://sapui5.hana.ondemand.com/#/)
+
 </br>
 </br>
-<img src="./files/capmd9-48.png" >
-</br>
-</br>
-2. Search for manifest
-</br>
-</br>
-<img src="./files/capmd9-49.png" >
-</br>
-</br>
-<img src="./files/capmd9-50.png" >
-</br>
-</br>
-<img src="./files/capmd9-51.png" >
-</br>
-</br>
-<img src="./files/capmd9-52.png" >
-</br>
-</br>
-<img src="./files/capmd9-53.png" >
-</br>
-</br>
-</details> -->
+</details>
 
        
-
-
-</br>
-</br>
-
-
-
-</br>
-</br>
-
-</br>
-</br>
-
-</br>
-</br>
-
 
 <!--
 
