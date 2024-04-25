@@ -744,12 +744,13 @@ Now the app is accessible
 
 
 <details>
-<summary> Automatic role creation for HTML5app </summary>
+<summary><b> Automatic role creation for HTML5app </b></summary>
 </br>
 </br>
 
 In case we want to create roles automatically like we did in nodejs app durign deployment it created xsuaa 
 </br> in same way we need to make changes in following places 
+</br>
 </br>
 <img src="./files/capmd9-83.png" >
 </br>
