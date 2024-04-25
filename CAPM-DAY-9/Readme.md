@@ -715,6 +715,31 @@ Now we can test the app
 <img src="./files/capmd9-75.png" >
 </br>
 </br>
+<img src="./files/capmd9-76.png" >
+</br>
+</br>
+<img src="./files/capmd9-77.png" >
+</br>
+</br>
+<img src="./files/capmd9-78.png" >
+</br>
+</br>
+<img src="./files/capmd9-79.png" >
+</br>
+</br>
+<img src="./files/capmd9-80.png" >
+</br>
+</br>
+<img src="./files/capmd9-81.png" >
+</br>
+</br>
+
+Now the app is accessible 
+</br>
+</br>
+<img src="./files/capmd9-81.png" >
+</br>
+</br>
 
 
 </details>
