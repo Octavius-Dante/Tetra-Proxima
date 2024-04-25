@@ -375,7 +375,7 @@ Choose the template as shown below
 </br>
 </br>
 
-Approuter managed by BTP architecture 
+Web Application - HTML5 Repo
 </br>
 </br>
 <img src="./files/capmd9-48.png" >
