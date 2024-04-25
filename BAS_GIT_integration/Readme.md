@@ -58,9 +58,19 @@ copy the link shown below
 <img src="./files/bg_5.png" >
 </br>
 </br>
-
 </details>
 
+<details>
+<summary> <b> 2. Connecting github in BAS </b> </summary>
+</br>
+</br>
+<img src="./files/bg_6.png" >
+</br>
+</br>
+
+</br>
+</br>
+</details>
 
 
 <!--
