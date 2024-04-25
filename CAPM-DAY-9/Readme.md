@@ -576,13 +576,30 @@ cf html5-list
 <img src="./files/capmd9-49.png" >
 </br>
 </br>
-
-Now we access Fiori launchpad service to get this fiori app
-</br>
-</br>
 <img src="./files/capmd9-50.png" >
 </br>
 </br>
+
+
+<details>
+<summary> <b> Now we access Fiori launchpad service </b> </summary>
+</br>
+</br>
+</br>
+To get it we need to create an instance for SAP Build workzone, standard Edition
+</br>
+</br>
+<img src="./files/capmd9-51.png" >
+</br>
+</br>
+<img src="./files/capmd9-52.png" >
+</br>
+</br>
+<img src="./files/capmd9-53.png" >
+</br>
+</br>
+</details>
+
 
 <!-- <details>
 <summary> <b> Detailed steps to add the settings </b> </summary>
