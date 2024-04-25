@@ -664,6 +664,14 @@ Dont launch the app yet, need to assign the role permission for this app first
 </br>
 </br>
 
+<img src="./files/capmd9-65.png" >
+</br>
+</br>
+
+<img src="./files/capmd9-66.png" >
+</br>
+</br>
+
 </br>
 </br>
 </details>
