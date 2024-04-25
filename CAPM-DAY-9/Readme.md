@@ -595,6 +595,16 @@ To get it we need to create an instance for SAP Build workzone, standard Edition
 <img src="./files/capmd9-52.png" >
 </br>
 </br>
+
+We created the instance now we need to create a subscription for this instance separately
+</br>
+</br>
+<img src="./files/capmd9-53.png" >
+</br>
+</br>
+<img src="./files/capmd9-54.png" >
+</br>
+</br>
 </details>
 
 
