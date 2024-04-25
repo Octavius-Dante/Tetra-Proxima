@@ -303,6 +303,9 @@ Choose the template as shown below
 <img src="./files/capmd9-35.png" >
 </br>
 </br>
+</br>
+</br>
+
 
 <details>
 <summary> How to get the V2 odata path </summary>
@@ -321,6 +324,10 @@ Choose the template as shown below
 </br>
 </br>
 </details>
+</br>
+</br>
+</br>
+</br>
 
 <img src="./files/capmd9-36.png" >
 </br>
