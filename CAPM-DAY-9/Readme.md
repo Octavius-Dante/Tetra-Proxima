@@ -577,7 +577,12 @@ cf html5-list
 </br>
 </br>
 
-
+Now we access Fiori launchpad service to get this fiori app
+</br>
+</br>
+<img src="./files/capmd9-50.png" >
+</br>
+</br>
 
 <!-- <details>
 <summary> <b> Detailed steps to add the settings </b> </summary>
