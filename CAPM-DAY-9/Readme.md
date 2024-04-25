@@ -560,6 +560,25 @@ Use "cf dmol -i af8db2d6-02b5-11ef-a437-eeee0a83c17b" to download the logs of th
 </br>
 </details>
 
+</br>
+</br>
+
+Check the deployed app in repository using following command 
+</br>
+</br>
+
+```bat
+
+cf html5-list
+```
+</br>
+</br>
+<img src="./files/capmd9-49.png" >
+</br>
+</br>
+
+
+
 <!-- <details>
 <summary> <b> Detailed steps to add the settings </b> </summary>
 </br>
