@@ -81,8 +81,10 @@ Configuration Steps for BTP content Federation: -
 </br>
 </br>
 
+
 [some reading on postman](https://sap.github.io/cloud-sdk/docs/js/guides/retrieve-jwt)
 
+<img src="./files/OAuth2.0.png" >
 
 When SRV module is accessed from cloud deployed app it appears like this
 </br>
