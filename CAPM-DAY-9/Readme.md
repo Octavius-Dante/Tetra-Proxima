@@ -672,8 +672,17 @@ Dont launch the app yet, need to assign the role permission for this app first
 </br>
 </br>
 
+In some cases the deployed app wont get refelected in HTML5 repository in that case have to do the following
+</br> go to Channel manager and refresh the repository so the app gets updated for access
 </br>
 </br>
+<img src="./files/capmd9-67.png" >
+</br>
+</br>
+<img src="./files/capmd9-68.png" >
+</br>
+</br>
+
 </details>
 
        
