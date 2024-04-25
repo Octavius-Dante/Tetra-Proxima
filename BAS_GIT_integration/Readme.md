@@ -38,6 +38,10 @@ Login to github account
 <img src="./files/bg_1.png" >
 </br>
 </br>
+
+Create a repository
+</br>
+</br>
 <img src="./files/bg_2.png" >
 </br>
 </br>
@@ -45,6 +49,10 @@ Login to github account
 </br>
 </br>
 <img src="./files/bg_4.png" >
+</br>
+</br>
+
+copy the link shown below 
 </br>
 </br>
 <img src="./files/bg_5.png" >
