@@ -2,6 +2,8 @@
 
 ### Starter guide for cloud foundry BTP 
 
+### Click the images to see it clearly!  
+
 </br>
 </br>
 
