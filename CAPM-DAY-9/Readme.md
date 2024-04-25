@@ -372,6 +372,16 @@ Choose the template as shown below
          2. Cross Navigation : 'crossNavigation' - this allows the app to be navigated between launchpad service and repository 
 
 - [x] we have to deploy the generated app to BTP cloud via Central Fiori launchpad 
+</br>
+</br>
+
+Approuter managed by BTP architecture 
+</br>
+</br>
+<img src="./files/capmd9-48.png" >
+</br>
+</br>
+
 
 
 <!-- <details>
