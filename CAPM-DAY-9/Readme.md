@@ -365,7 +365,7 @@ Choose the template as shown below
 </br>
 </br>
 
-**Best place to learn fiori** : sapui5.hana.ondemand.com
+**Best place to learn fiori** : [sapui5.hana.ondemand.com](https://sapui5.hana.ondemand.com/#/)
 
 - [x] To make our Fiori app to interact with central fiori launchpad 
 
