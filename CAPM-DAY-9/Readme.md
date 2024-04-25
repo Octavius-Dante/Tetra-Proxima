@@ -365,9 +365,43 @@ Choose the template as shown below
 </br>
 </br>
 
-**Best place to learn fiori** : [sapui5.hana.ondemand.com](https://sapui5.hana.ondemand.com/#/)
+**Best place to learn fiori and access samples** : [sapui5.hana.ondemand.com](https://sapui5.hana.ondemand.com/#/)
 
-- [x] To make our Fiori app to interact with central fiori launchpad 
+- [x] To make our Fiori app to interact with central fiori launchpad service we need to add a special setting 
+
+
+<details>
+<summary> <b> Detailed steps to add the settings </b> </summary>
+</br>
+</br>
+1. go to website [sapui5.hana.ondemand.com](https://sapui5.hana.ondemand.com/#/)
+</br>
+</br>
+<img src="./files/capmd9-48.png" >
+</br>
+</br>
+2. Search for manifest
+</br>
+</br>
+<img src="./files/capmd9-49.png" >
+</br>
+</br>
+<img src="./files/capmd9-50.png" >
+</br>
+</br>
+
+</br>
+</br>
+
+</br>
+</br>
+
+</br>
+</br>
+</details>
+
+       
+
 
 </br>
 </br>
