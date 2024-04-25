@@ -759,8 +759,6 @@ In case we want to create roles automatically like we did in nodejs app durign d
 </br>
 
 </br> in SAP build work zone we need to assign the 
-</br>
-</br>
 
 **App to role**
 
