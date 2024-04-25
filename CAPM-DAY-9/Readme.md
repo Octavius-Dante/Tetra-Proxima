@@ -693,6 +693,22 @@ Now we create catalog from content explorer as shown below
 </br>
 </br>
 
+Lets create a group
+</br>
+</br>
+<img src="./files/capmd9-71.png" >
+</br>
+</br>
+<img src="./files/capmd9-72.png" >
+</br>
+</br>
+<img src="./files/capmd9-73.png" >
+</br>
+</br>
+<img src="./files/capmd9-74.png" >
+</br>
+</br>
+
 </details>
 
        
