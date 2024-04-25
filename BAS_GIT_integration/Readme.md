@@ -44,6 +44,12 @@ Login to github account
 <img src="./files/bg_3.png" >
 </br>
 </br>
+<img src="./files/bg_4.png" >
+</br>
+</br>
+<img src="./files/bg_5.png" >
+</br>
+</br>
 
 </details>
 
