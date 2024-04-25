@@ -80,7 +80,10 @@ Configuration Steps for BTP content Federation: -
 <summary> 1. Accessing OData service (SRV) module of our previous app from Postman Tool </summary>
 </br>
 </br>
-	
+
+[some reading on postman](https://sap.github.io/cloud-sdk/docs/js/guides/retrieve-jwt)
+
+
 When SRV module is accessed from cloud deployed app it appears like this
 </br>
 </br>
