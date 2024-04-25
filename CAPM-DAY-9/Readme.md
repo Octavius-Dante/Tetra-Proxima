@@ -81,8 +81,11 @@ Configuration Steps for BTP content Federation: -
 </br>
 </br>
 
+[some reading on postman on JWT](https://sap.github.io/cloud-sdk/docs/js/guides/retrieve-jwt)
+</br>
 
-[some reading on postman](https://sap.github.io/cloud-sdk/docs/js/guides/retrieve-jwt)
+[Reading on JWT and OAuth 2.0](https://frontegg.com/blog/oauth-vs-jwt#OAuth_vs_JWT_Key_Differences)
+</br>
 
 <img src="./files/OAuth2.0.png" >
 </br>
