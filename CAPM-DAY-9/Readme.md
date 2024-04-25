@@ -596,6 +596,26 @@ To get it we need to create an instance for SAP Build workzone, standard Edition
 </br>
 </br>
 
+Dont launch the app yet, need to assign the role permission for this app first
+</br>
+</br>
+<img src="./files/capmd9-52.png" >
+</br>
+</br>
+<img src="./files/capmd9-54.png" >
+</br>
+</br>
+<img src="./files/capmd9-55.png" >
+</br>
+</br>
+<img src="./files/capmd9-56.png" >
+</br>
+</br>
+
+**Post assignment of role need to logout and login to get the role to be reflected on my account**
+</br>
+</br>
+</details>
 
 
 <!-- <details>
