@@ -621,7 +621,7 @@ Dont launch the app yet, need to assign the role permission for this app first
 </details>
 
 <details>
-<summary> <b> Access the repository for publishing fiori tile </b> </summary>
+<summary> <b> Access the repository for publishing Fiori tile </b> </summary>
 </br>
 </br>
 
