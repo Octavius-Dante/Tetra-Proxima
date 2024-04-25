@@ -324,7 +324,8 @@ Build Business logic on server side, DB lookups, send emails, write valdiations,
 </br> Software As A Service - SAAS
 </br> Platform As A Service - PAAS
 </br> Infrastructure As A Service - IAAS
-
+</br> MTA Build Tool - MBT
+</br> Multi Targeted Application - MTA
 </br>
 </br>
 
