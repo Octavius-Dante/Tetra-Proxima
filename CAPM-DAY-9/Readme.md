@@ -133,7 +133,7 @@ Fill the necessary values here
 </br>
 </br>
 
-Get the required values from BTP cloud accoutn and add it to Postman
+Get the required values from BTP cloud account and add it to Postman
 </br>
 </br>
 <img src="./files/capmd9-9.png" >
