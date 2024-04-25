@@ -67,9 +67,27 @@ copy the link shown below
 <img src="./files/bg_6.png" >
 </br>
 </br>
+<img src="./files/bg_7.png" >
+</br>
+</br>
+<img src="./files/bg_8.png" >
+</br>
+</br>
+<img src="./files/bg_9.png" >
+</br>
+</br>
 
+in the next step copy the 3 lines from github repository and paste it in BAS
+to complete the push and proceed to connection
 </br>
 </br>
+<img src="./files/bg_10.png" >
+</br>
+</br>
+<img src="./files/bg_11.png" >
+</br>
+</br>
+
 </details>
 
 
