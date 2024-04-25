@@ -367,10 +367,14 @@ Choose the template as shown below
 
 **Best place to learn fiori and access samples** : [sapui5.hana.ondemand.com](https://sapui5.hana.ondemand.com/#/)
 
-- [x] To make our Fiori app to interact with central fiori launchpad service we need to add a special setting 
+- [x] To make our Fiori app to interact with central fiori launchpad service we need to check few settings in manifest.json file 
+         1. sap.cloud - this allows the ap pto be exposed to public access 
+         2. Cross Navigation : 'crossNavigation' - this allows the app to be navigated between launchpad service and repository 
+
+- [x] we have to deploy the generated app to BTP cloud via Central Fiori launchpad 
 
 
-<details>
+<!-- <details>
 <summary> <b> Detailed steps to add the settings </b> </summary>
 </br>
 </br>
@@ -398,7 +402,7 @@ Choose the template as shown below
 <img src="./files/capmd9-53.png" >
 </br>
 </br>
-</details>
+</details> -->
 
        
 
