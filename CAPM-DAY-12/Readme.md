@@ -1,19 +1,36 @@
 ## CAPM - Day 12 - Extension CI/CD
 
-#### XXXXXXXXXXXXX
+### CI - CD Pipeline in SAP BTP cloud 
+
+</br>
+</br>
+</br>
+
+### Prerequisite your BAS account should have an active git repository to perfrom CI and CD 
+</br> if github integration is not done earlier kindly perform this [BAS Github integration]()
+</br>
+</br>
+</br>
+
+An overview of the process
+</br>
+</br>
+<img src="./files/CI-CD.png" >
+</br>
+</br>
+
+<details>
+<summary> <b> 1. Subscribing CI and CD services in BTP </b> </summary>
+</br>
+</br>
+
 
 </br>
 </br>
 
-
-</br> 
 </br>
 </br>
-
-### The development in this session is regarding XXXX 
-</br>
-</br>
-
+</details>
 
 
 <!--
