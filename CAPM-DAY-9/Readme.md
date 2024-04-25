@@ -710,6 +710,12 @@ Lets create a group
 </br>
 
 Now we can test the app 
+</br>
+</br>
+<img src="./files/capmd9-75.png" >
+</br>
+</br>
+
 
 </details>
 
