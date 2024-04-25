@@ -615,6 +615,9 @@ Dont launch the app yet, need to assign the role permission for this app first
 **Post assignment of role need to logout and login to get the role to be reflected on my account**
 </br>
 </br>
+<img src="./files/capmd9-57.png" >
+</br>
+</br>
 </details>
 
 
