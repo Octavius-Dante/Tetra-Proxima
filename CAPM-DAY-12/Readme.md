@@ -7,7 +7,8 @@
 </br>
 
 ### Prerequisite your BAS account should have an active git repository to perfrom CI and CD 
-</br> if github integration is not done earlier kindly perform this [BAS Github integration]()
+</br> if github integration is not done earlier kindly perform this 
+</br> [BAS Github integration](https://github.com/Octavius-Dante/Tetra_Proxima/tree/main/BAS_GIT_integration)
 </br>
 </br>
 </br>
