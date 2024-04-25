@@ -397,6 +397,10 @@ Web Application - HTML5 Repo
 </br>
 </br>
 
+<details>
+<summary> <b> MTA.yaml sample </b> </summary>
+</br>
+
 ## MTA.yaml file (for reference)
 </br>
 </br>
@@ -502,8 +506,11 @@ parameters:
 ```
 
 </br>
-</br>
+</details>
 
+<details>
+<summary> <b> Deploy log </b> </summary>
+</br>
 
 ## Deploy log for reference 
 </br>
@@ -550,7 +557,8 @@ Use "cf dmol -i af8db2d6-02b5-11ef-a437-eeee0a83c17b" to download the logs of th
  *  Terminal will be reused by tasks, press any key to close it.
 
 ```
-
+</br>
+</details>
 
 <!-- <details>
 <summary> <b> Detailed steps to add the settings </b> </summary>
