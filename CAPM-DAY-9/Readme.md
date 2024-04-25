@@ -358,9 +358,12 @@ Choose the template as shown below
 - [x] Connectivity service - once the destination is read, it will use connectivity service to connect to our OData service 
 - [x] HTML5 Deployer - this will be used to deploy our app to HTML5 repository
 - [x] HTML5 Repo Runtime - Will load the Fiori app when requested at runtime 
-- [x]
-- [x]
-- [x]
+- [x] Fiori launchpad service - which displays Fiori apps as a tile (a central place for all fiori apps to appear as a tile)
+</br> (we cant provide end user with a link af every fiori app developed in business thats why this launchpad service is there)
+</br>
+</br>
+
+**Best place to learn fiori** : sapui5.hana.ondemand.com
 
 </br>
 </br>
