@@ -505,6 +505,53 @@ parameters:
 </br>
 
 
+## Deploy log for reference 
+</br>
+</br>
+
+```bat
+
+cf deploy /home/user/projects/freestylepo/mta_archives/comdantefreestylepo_0.0.1.mtar -f
+Deploying multi-target app archive /home/user/projects/freestylepo/mta_archives/comdantefreestylepo_0.0.1.mtar in org 5acbc7d5trial / space dev as lordes.cloud9@gmail.com...
+
+Uploading 1 files...
+  /home/user/projects/freestylepo/mta_archives/comdantefreestylepo_0.0.1.mtar
+
+ 0s  0 B / 7.72 KiB    0.00%
+ 0s  7.72 KiB / 7.72 KiB  100.00%
+ 0s  7.72 KiB / 7.72 KiB  100.00% 0s
+OK
+Operation ID: af8db2d6-02b5-11ef-a437-eeee0a83c17b
+Deploying in org "5acbc7d5trial" and space "dev"
+Detected MTA schema version: "3"
+No deployed MTA detected - this is initial deployment of MTA with ID "comdantefreestylepo"
+Detected new MTA version: "0.0.1"
+Processing service "comdantefreestylepo-xsuaa-srv"...
+Setting service "comdantefreestylepo-xsuaa-srv" parameters from "xs-security.json"
+Creating service "comdantefreestylepo-xsuaa-srv" from MTA resource "comdantefreestylepo-uaa"...
+Processing service "comdantefreestylepo-destination-service"...
+Creating service "comdantefreestylepo-destination-service" from MTA resource "comdantefreestylepo-destination-service"...
+Processing service "comdantefreestylepo-html5-srv"...
+Creating service "comdantefreestylepo-html5-srv" from MTA resource "comdantefreestylepo-repo-host"...
+1 of 1 done
+1 of 1 done
+1 of 1 done
+Creating service key "comdantefreestylepo-repo-host-key" for service instance "comdantefreestylepo-html5-srv"...
+Creating service key "comdantefreestylepo-destination-content-comdantefreestylepo-destination-service-credentials" for service instance "comdantefreestylepo-destination-service"...
+Creating service key "comdantefreestylepo-uaa-key" for service instance "comdantefreestylepo-xsuaa-srv"...
+Creating service key "comdantefreestylepo-app-content-comdantefreestylepo-repo-host-credentials" for service instance "comdantefreestylepo-html5-srv"...
+Uploading content module "comdantefreestylepo-app-content" in target service "comdantefreestylepo-repo-host"...
+Deploying content module "comdantefreestylepo-destination-content" in target service "comdantefreestylepo-destination-service"...
+Deploying content module "comdantefreestylepo-app-content" in target service "comdantefreestylepo-repo-host"...
+Skipping deletion of services, because the command line option "--delete-services" is not specified.
+Process finished.
+Use "cf dmol -i af8db2d6-02b5-11ef-a437-eeee0a83c17b" to download the logs of the process.
+
+ *  Terminal will be reused by tasks, press any key to close it.
+
+```
+
+
 <!-- <details>
 <summary> <b> Detailed steps to add the settings </b> </summary>
 </br>
