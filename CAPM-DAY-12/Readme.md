@@ -43,39 +43,45 @@ Create a subscription on Cloud Transport Mangement - Service 2
 </br>
 </details>
 
+<details>
+<summary> <b> 2. Granting Roles for CI / CD service</b> </summary>
+</br>
+</br>
+
+4 roles are needed for this service 
+</br>
+
+1. CICD Service Administrator
+2. CICD Service Developer
+3. TMS_LandscapeOperator_RC
+4. TMS_Viewer_RC
+</br>
+</br>
+
+Go to user sub-section in Security section on BTP account 
+</br>
+</br>
+<img src="./files/capmd12-4.png" >
+</br>
+</br>
+<img src="./files/capmd12-5.png" >
+</br>
+</br>
+<img src="./files/capmd12-6.png" >
+</br>
+</br>
+<img src="./files/capmd12-7.png" >
+</br>
+</br>
+</details>
+
+
+
+
+
+
 
 <!--
-
-</br>
-</br>
-
-``` cds 
-	
-
-
-``` 
-
-</br>
-</br>
-<img src="./files/capmd7-1.png" >
-</br>
-</br>
-
-## MyService.js 
-</br>
-</br>
-
-```js
-
-
-
-```
-</br>
-<img src="./files/capmd7-2.png" >
-</br>
-</br>
-
-
 
 <details>
 <summary> <b> ALL CODE CHANGES - TODAY SESSION </b> </summary>
@@ -89,19 +95,7 @@ Create a subscription on Cloud Transport Mangement - Service 2
 </br>
 </details>
 
-
 -->
-
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
 
 
 </br>
