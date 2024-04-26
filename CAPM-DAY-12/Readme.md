@@ -115,7 +115,17 @@ Create spaces qlt and prd
 </details>
 
 
+<details>
+<summary> <b> 4. Create Destinations for this landscapes </b> </summary>
+</br>
+</br>
 
+</br>
+</br>
+
+</br>
+</br>
+</details>
 
 <!--
 
