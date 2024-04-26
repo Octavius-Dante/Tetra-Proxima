@@ -120,8 +120,9 @@ Create spaces qlt and prd
 </br>
 </br>
 
-Default Destiantion setting for this CICD 
-</br> Type : HTP
+**Default Destiantion setting for this CICD**
+</br>
+</br> Type : HTTP
 </br> Proxy Type : Internet
 </br> Authentication : BasicAuthentication
 </br>
