@@ -249,10 +249,34 @@ Launch the Continuous integration from instance and subscription section
 </br>
 </br>
 
-Now will regeister our BTP repository
+Now will register our BTP repository
+</br>
+</br>
+<img src="./files/capmd12-32.png" >
+</br>
+</br>
 
 </br>
 </br>
+
+</br>
+</br>
+
+</br>
+</br>
+
+</br>
+</br>
+
+</br>
+</br>
+
+</br>
+</br>
+
+</br>
+</br>
+
 </details>
 
 <!--
