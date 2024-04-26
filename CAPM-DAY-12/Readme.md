@@ -191,7 +191,7 @@ https://deploy-service.cf.us10-001.hana.ondemand.com/slprot/31dfa10dtrial_qualit
 <img src="./files/capmd12-21.png" >
 </br>
 </br>
-<img src="./files/capmd12-21.png" >
+<img src="./files/capmd12-22.png" >
 </br>
 </br>
 
