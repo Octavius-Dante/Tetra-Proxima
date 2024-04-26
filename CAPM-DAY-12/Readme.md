@@ -120,7 +120,7 @@ Create spaces qlt and prd
 </br>
 </br>
 
-**Default Destiantion setting for this CICD**
+**Default Destination setting for this CICD**
 </br>
 </br> Type : HTTP
 </br> Proxy Type : Internet
