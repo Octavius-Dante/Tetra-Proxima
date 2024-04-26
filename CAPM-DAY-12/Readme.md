@@ -165,9 +165,13 @@ https://deploy-service.cf.<domain>/slprot/<myorg>/<myspace>/slp
 
 API Endpoint: https://api.cf.us10-001.hana.ondemand.com
 Org Name: 31dfa10dtrial_quality-prod-6cvvjzsk
-Space Name : QLT
+Space Name : QLT or PRD
 
 // Grab only this part : us10-001.hana.ondemand.com
+
+domain : us10-001.hana.ondemand.com
+myorg : 31dfa10dtrial_quality-prod-6cvvjzsk
+myspace : QLT
 
 // Final Link should look like this -- this should go in URL part of destination
 https://deploy-service.cf.us10-001.hana.ondemand.com/slprot/31dfa10dtrial_quality-prod-6cvvjzsk/QLT/slp
