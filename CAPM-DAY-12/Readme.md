@@ -265,6 +265,7 @@ Now will register our BTP repository
 Change the Github repository visibility to PUBLIC so the credentias is not required
 </br> now the github repository is private in my case so i mantianed a credential for (github account and password)
 </br>
+</br>
 <img src="./files/capmd12-35.png" >
 </br>
 </br>
