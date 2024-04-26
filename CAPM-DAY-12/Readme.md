@@ -138,14 +138,14 @@ we have to refere SAP's official documents for creating destination for (CICD ) 
 </br>
 </br>
 
-Click create destiantion 
+Click create destination 
 </br>
 </br>
 <img src="./files/capmd12-18.png" >
 </br>
 </br>
 
-Enter the detination details 
+Enter the destination details 
 </br>
 </br>
 <img src="./files/capmd12-19.png" >
