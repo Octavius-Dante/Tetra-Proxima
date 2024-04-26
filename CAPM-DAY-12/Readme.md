@@ -236,7 +236,16 @@ Launch the Continuous integration from instance and subscription section
 <img src="./files/capmd12-27.png" >
 </br>
 </br>
-
+<img src="./files/capmd12-28.png" >
+</br>
+</br>
+<img src="./files/capmd12-29.png" >
+</br>
+</br>
+<img src="./files/capmd12-30.png" >
+</br>
+</br>
+<img src="./files/capmd12-31.png" >
 </br>
 </br>
 
