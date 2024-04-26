@@ -377,6 +377,8 @@ Delete call tested
 ## How to Initialize GITHUB for BAS 
 </br>
 </br>
+</br>
+</br>
 
 <details>
 <summary> Git hub integration in detail </summary>
@@ -453,13 +455,11 @@ Commiting to git hub using graphical editor to - give version details
 <img src="./files/capmd5-git12.png" >
 </br>
 </br>
-</br>
-</br>
 </details>
-
-
-
-
+</br>
+</br>
+</br>
+</br>
 
 
 ## HANA DB instance creation 
@@ -479,6 +479,10 @@ https://github.com/Octavius-Dante/Tetra_Proxima/tree/main/SAP_HANA_HDI_SCHEMA_CR
 
 
 ## Fiori Application development
+</br>
+</br>
+</br>
+</br>
 
 <details>
   <summary> Fiori Elements implementation </summary>
