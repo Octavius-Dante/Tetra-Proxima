@@ -175,7 +175,7 @@ https://api.cf.us10-001.hana.ondemand.com
 us10-001.hana.ondemand.com
 
 
-// Replaced Link with needed values will look like this -- this should go in URL part of destination
+// Final Link should look like this -- this should go in URL part of destination
 
 https://deploy-service.cf.us10-001.hana.ondemand.com/slprot/31dfa10dtrial_quality-prod-6cvvjzsk/QLT/slp
 
