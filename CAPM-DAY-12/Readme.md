@@ -145,7 +145,7 @@ Click create destiantion
 </br>
 </br>
 
-Enter the detisantion details 
+Enter the detination details 
 </br>
 </br>
 <img src="./files/capmd12-19.png" >
