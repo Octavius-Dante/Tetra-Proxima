@@ -127,10 +127,11 @@ We need to create destination in this section
 </br>
 </br>
 
-we have to refere SAP's official documents for creating destination for (CICD ) and Cloud transport 
-</br> refer the link for official document foudn through googel search : 
+we have to refer SAP's official documents for creating destination for (CICD ) and Cloud transport 
+</br> refer the link for official document found through google search : 
+</br>
 </br> [Cloud transport mgmt Oauth2 password authentication](https://help.sap.com/docs/cloud-transport-management/sap-cloud-transport-management/creating-destinations-using-sap-cloud-deployment-service-with-oauth2password-authentication)
-
+</br>
 </br> [Cloud transport mgmt Basic authentication](https://help.sap.com/docs/cloud-transport-management/sap-cloud-transport-management/creating-destinations-using-sap-cloud-deployment-service-with-basic-authentication) -- this is what we used 
 </br>
 </br>
