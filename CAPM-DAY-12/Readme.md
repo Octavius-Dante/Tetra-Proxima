@@ -120,11 +120,55 @@ Create spaces qlt and prd
 </br>
 </br>
 
+We need to create destination in this section 
+</br> 
+</br>
+<img src="./files/capmd12-16.png" >
 </br>
 </br>
 
+we have to refere SAP's official documents for creating destination for (CICD ) and Cloud transport 
+</br> refer the link for official document foudn through googel search : 
+</br> [Cloud transport mgmt Oauth2 password authentication](https://help.sap.com/docs/cloud-transport-management/sap-cloud-transport-management/creating-destinations-using-sap-cloud-deployment-service-with-oauth2password-authentication)
+
+</br> [Cloud transport mgmt Basic authentication](https://help.sap.com/docs/cloud-transport-management/sap-cloud-transport-management/creating-destinations-using-sap-cloud-deployment-service-with-basic-authentication) -- this is what we used 
 </br>
 </br>
+<img src="./files/capmd12-17.png" >
+</br>
+</br>
+
+Click create destiantion 
+</br>
+</br>
+<img src="./files/capmd12-18.png" >
+</br>
+</br>
+
+Enter the detisantion details 
+</br>
+</br>
+<img src="./files/capmd12-19.png" >
+</br>
+</br>
+
+Paste the link from the sap document page and modify it 
+
+</br> the link value should be repalced as shown below 
+</br> https://deploy-service.cf.<domain>/slprot/<myorg>/<myspace>/slp
+</br>
+</br> <doamin> : This is the domain of your second sub account 
+</br> <myorg> : This is the org name of your second sub account 
+</br> <myspace> : This is the space name in your second sub account 
+</br>
+</br>
+<img src="./files/capmd12-20.png" >
+</br>
+</br>
+<img src="./files/capmd12-21.png" >
+</br>
+</br>
+
 </details>
 
 <!--
