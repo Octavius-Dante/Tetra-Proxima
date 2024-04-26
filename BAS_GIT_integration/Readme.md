@@ -236,7 +236,26 @@ Changes can be navigated using these tools
 <img src="./files/bg_30.png" >
 </br>
 </br>
+</br>
+</details>
 
+
+<details>
+<summary> <b> Marking the files for staging in GUI </b> </summary>
+</br>
+</br>
+
+No by selecting the plus button this file will be used for Staging
+</br>
+</br>
+<img src="./files/bg_31.png" >
+</br>
+</br>
+
+Stagign ready files and not staged files are listed
+</br>
+</br>
+<img src="./files/bg_32.png" >
 </br>
 </br>
 </details>
