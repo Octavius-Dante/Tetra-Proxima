@@ -272,7 +272,7 @@ Stagign ready files and not staged files are listed
 </br>
 </br>
 
-Github prompt for running periodic changes
+Github prompt for running periodic changes (Choosing Yes is advisable)
 </br>
 </br>
 <img src="./files/bg_35.png" >
