@@ -168,10 +168,20 @@ git push
 </details>
 
 
+<details>
+<summary> <b> 4. Code changes and code pushing using GUI</b> </summary>
+</br>
+</br>
+
+</br>
+</br>
+
+</br>
+</br>
+</details>
 
 
 </br>
-
 </br>
 </br>
 
