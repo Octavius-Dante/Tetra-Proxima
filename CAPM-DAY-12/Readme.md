@@ -297,6 +297,38 @@ We need to add webhook to github account
 <img src="./files/capmd12-43.png" >
 </br>
 </br>
+
+Goto Seting of your github repository and paste the generated webhook secret as shown below 
+</br>
+</br>
+
+</br>
+</br>
+
+</br>
+</br>
+
+</br>
+</br>
+
+</br>
+</br>
+
+</br>
+</br>
+
+</br>
+</br>
+
+</br>
+</br>
+
+</br>
+</br>
+
+
+
+
 </details>
 
 <!--
