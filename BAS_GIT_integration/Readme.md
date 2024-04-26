@@ -280,7 +280,11 @@ Github prompt for running periodic changes
 </br>
 
 Checking the reflected changes in Github
-
+</br>
+</br>
+<img src="./files/bg_36.png" >
+</br>
+</br>
 </details>
 
 
