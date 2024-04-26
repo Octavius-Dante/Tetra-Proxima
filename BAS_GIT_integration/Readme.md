@@ -115,7 +115,33 @@ Git repository got updated from BAS as shown below
 </br>
 </br>
 
-We can push the changes to git hub using followign command every time 
+Now code changes to project is tracked by BAS as shown below
+</br>
+</br>
+making small change in the code and it is reflected with a marker
+</br>
+</br>
+<img src="./files/bg_19.png" >
+</br>
+</br>
+<img src="./files/bg_20.png" >
+</br>
+</br>
+<img src="./files/bg_21.png" >
+</br>
+</br>
+<img src="./files/bg_22.png" >
+</br>
+</br>
+
+</br>
+</br>
+
+
+
+
+
+We can push the changes to git hub using following command every time 
 </br> when there is a build completion
 </br>
 </br>
