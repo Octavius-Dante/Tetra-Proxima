@@ -204,6 +204,13 @@ Test the connection for confirmation
 <img src="./files/capmd12-24.png" >
 </br>
 </br>
+
+Clone the connection and create it for PRD 
+</br>
+</br>
+<img src="./files/capmd12-25.png" >
+</br>
+</br>
 </details>
 
 <!--
