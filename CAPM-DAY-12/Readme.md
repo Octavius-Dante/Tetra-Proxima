@@ -249,6 +249,8 @@ Launch the Continuous integration from instance and subscription section
 </br>
 </br>
 
+Now will regeister our BTP repository
+
 </br>
 </br>
 </details>
