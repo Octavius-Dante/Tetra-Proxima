@@ -230,6 +230,13 @@ Clone the connection and create it for PRD
 </br>
 </br>
 
+Launch the Continuous integration from instance and subscription section
+</br>
+</br>
+<img src="./files/capmd12-27.png" >
+</br>
+</br>
+
 </br>
 </br>
 
