@@ -87,6 +87,24 @@ to complete the push and proceed to connection
 <img src="./files/bg_11.png" >
 </br>
 </br>
+<img src="./files/bg_12.png" >
+</br>
+</br>
+<img src="./files/bg_13.png" >
+</br>
+</br>
+<img src="./files/bg_14.png" >
+</br>
+</br>
+<img src="./files/bg_15.png" >
+</br>
+</br>
+<img src="./files/bg_16.png" >
+</br>
+</br>
+<img src="./files/bg_17.png" >
+</br>
+</br>
 
 </details>
 
