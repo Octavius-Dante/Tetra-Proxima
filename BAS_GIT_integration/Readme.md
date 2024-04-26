@@ -186,6 +186,8 @@ git push
 
 <details>
 <summary> <b> 4. Exploring the code changes in GUI</b> </summary>
+
+Making some random changes in multiple files
 </br>
 </br>
 <img src="./files/bg_23.png" >
