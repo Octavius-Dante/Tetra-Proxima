@@ -302,7 +302,6 @@ We need to add webhook to github account
 <details>
 <summary> <b> 5. Start Github Integration for CI and CD - PART 2</b> </summary>
 </br>
-</br>
 </br> Goto Seting of your github repository and paste the generated webhook secret as shown below 
 </br>
 </br>
