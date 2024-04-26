@@ -185,7 +185,7 @@ git push
 
 
 <details>
-<summary> <b> 4. Code changes and code pushing using GUI</b> </summary>
+<summary> <b> 4. Exploring the code changes in GUI</b> </summary>
 </br>
 </br>
 <img src="./files/bg_23.png" >
@@ -239,9 +239,8 @@ Changes can be navigated using these tools
 </br>
 </details>
 
-
 <details>
-<summary> <b> Marking the files for staging in GUI </b> </summary>
+<summary> <b> 5. Marking the files for staging in GUI </b> </summary>
 </br>
 </br>
 
@@ -256,6 +255,25 @@ Stagign ready files and not staged files are listed
 </br>
 </br>
 <img src="./files/bg_32.png" >
+</br>
+</br>
+</details>
+
+<details>
+<summary> <b> 6. Performing Commit and push </b> </summary>
+</br>
+</br>
+<img src="./files/bg_33.png" >
+</br>
+</br>
+<img src="./files/bg_34.png" >
+</br>
+</br>
+
+Checking the reflected changes in Github
+</br>
+</br>
+<img src="./files/bg_35.png" >
 </br>
 </br>
 </details>
