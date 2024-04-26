@@ -129,6 +129,23 @@ making small change in the code and it is reflected with a marker
 <img src="./files/bg_19.png" >
 </br>
 </br>
+
+We can push the changes to git hub using following commands every time 
+</br> when there is a build completion
+</br>
+
+```bat
+
+git add .
+git commit -m "your comment/description"
+git push
+
+```
+
+</br>
+</br>
+</br>
+
 <img src="./files/bg_20a.png" >
 </br>
 </br>
@@ -144,9 +161,7 @@ making small change in the code and it is reflected with a marker
 
 
 
-We can push the changes to git hub using following command every time 
-</br> when there is a build completion
-</br>
+
 </br>
 
 </br>
