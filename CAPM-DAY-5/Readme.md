@@ -377,8 +377,6 @@ Delete call tested
 ## How to Initialize GITHUB for BAS 
 </br>
 </br>
-</br>
-</br>
 
 <details>
 <summary> Git hub integration in detail </summary>
@@ -404,8 +402,6 @@ git push -u origin main
 
 For me Git was already logged in to the browser so the authentication was different 
 </br> but step is same, git connection step remains same. only user authentication differs.
-
-
 
 </br>
 </br>
@@ -456,8 +452,7 @@ Commiting to git hub using graphical editor to - give version details
 </br>
 </br>
 </details>
-</br>
-</br>
+
 </br>
 </br>
 
@@ -479,8 +474,6 @@ https://github.com/Octavius-Dante/Tetra_Proxima/tree/main/SAP_HANA_HDI_SCHEMA_CR
 
 
 ## Fiori Application development
-</br>
-</br>
 </br>
 </br>
 
