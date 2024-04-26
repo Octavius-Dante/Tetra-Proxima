@@ -378,6 +378,11 @@ Delete call tested
 </br>
 </br>
 
+<details>
+<summary> Git hub integration in detail </summary>
+</br>
+</br>
+
 - [x] Create a Private repository in GITHUB and copy the link of that git hub.
 - [x] Initiate git in bas using command (git init)
 - [x] Add all the files to git staging area using command (git add)
@@ -450,6 +455,11 @@ Commiting to git hub using graphical editor to - give version details
 </br>
 </br>
 </br>
+</details>
+
+
+
+
 
 
 ## HANA DB instance creation 
