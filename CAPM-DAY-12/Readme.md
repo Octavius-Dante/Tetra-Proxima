@@ -255,10 +255,17 @@ Now will register our BTP repository
 <img src="./files/capmd12-32.png" >
 </br>
 </br>
-
+<img src="./files/capmd12-33.png" >
+</br>
+</br>
+<img src="./files/capmd12-34.png" >
 </br>
 </br>
 
+Change the Github repository visibility to PUBLIC so the credentias is not required
+</br> now the github repository is private in my case so i mantianed a credential for (github account and password)
+</br>
+<img src="./files/capmd12-35.png" >
 </br>
 </br>
 
