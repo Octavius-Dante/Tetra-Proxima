@@ -270,21 +270,24 @@ Change the Github repository visibility to PUBLIC so the credentials is not requ
 </br>
 </br>
 
+We need to add webhook to github account 
 </br>
 </br>
-
+<img src="./files/capmd12-36.png" >
 </br>
 </br>
-
+<img src="./files/capmd12-37.png" >
 </br>
 </br>
-
+<img src="./files/capmd12-38.png" >
 </br>
 </br>
-
+<img src="./files/capmd12-39.png" >
 </br>
 </br>
-
+<img src="./files/capmd12-40.png" >
+</br>
+</br>
 </details>
 
 <!--
