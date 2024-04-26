@@ -305,25 +305,25 @@ We need to add webhook to github account
 <img src="./files/capmd12-43.png" >
 </br>
 </br>
-
+<img src="./files/capmd12-44.png" >
 </br>
 </br>
-
+<img src="./files/capmd12-45.png" >
 </br>
 </br>
-
+<img src="./files/capmd12-46.png" >
 </br>
 </br>
-
+<img src="./files/capmd12-47.png" >
 </br>
 </br>
-
+<img src="./files/capmd12-48.png" >
 </br>
 </br>
-
+<img src="./files/capmd12-49.png" >
 </br>
 </br>
-
+<img src="./files/capmd12-50.png" >
 </br>
 </br>
 
