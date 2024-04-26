@@ -37,6 +37,10 @@ Create a subscription on Cloud Transport Mangement - Service 2
 <img src="./files/capmd12-2.png" >
 </br>
 </br>
+
+<img src="./files/capmd12-3.png" >
+</br>
+</br>
 </details>
 
 
