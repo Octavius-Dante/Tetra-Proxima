@@ -28,7 +28,7 @@ git push -u origin main
 </br>
 
 <details>
-<summary> <b> Creating a Private repository in GITHUB </b> </summary>
+<summary> <b>1. Creating a Private repository in GITHUB </b> </summary>
 </br>
 </br>
 Login to github account
