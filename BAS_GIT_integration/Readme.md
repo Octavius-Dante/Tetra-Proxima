@@ -268,6 +268,10 @@ Stagign ready files and not staged files are listed
 <img src="./files/bg_33.png" >
 </br>
 </br>
+
+Next step
+</br>
+</br>
 <img src="./files/bg_34.png" >
 </br>
 </br>
