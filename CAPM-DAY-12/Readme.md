@@ -79,7 +79,34 @@ Go to user sub-section in Security section on BTP account
 </details>
 
 
+<details>
+<summary> <b> 3. Create another landscape </b> </summary>
+</br>
+</br>
 
+Create another sub account and space to simulate Quality and Production Landscape
+</br>
+</br>
+<img src="./files/capmd12-9.png" >
+</br>
+</br>
+
+Create spaces qlt and prd 
+</br>
+</br>
+<img src="./files/capmd12-10.png" >
+</br>
+</br>
+<img src="./files/capmd12-11.png" >
+</br>
+</br>
+<img src="./files/capmd12-12.png" >
+</br>
+</br>
+<img src="./files/capmd12-13.png" >
+</br>
+</br>
+</details>
 
 
 
