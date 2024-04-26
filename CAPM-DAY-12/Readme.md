@@ -149,7 +149,7 @@ Click create destination
 Enter the destination details 
 </br>
 </br>
-<img src="./files/capmd12-19.png" >
+<img src="./files/capmd12-19a.png" >
 </br>
 </br>
 
