@@ -288,6 +288,15 @@ We need to add webhook to github account
 <img src="./files/capmd12-40.png" >
 </br>
 </br>
+<img src="./files/capmd12-41.png" >
+</br>
+</br>
+<img src="./files/capmd12-42.png" >
+</br>
+</br>
+<img src="./files/capmd12-43.png" >
+</br>
+</br>
 </details>
 
 <!--
