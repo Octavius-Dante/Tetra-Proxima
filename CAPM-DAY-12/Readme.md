@@ -73,6 +73,9 @@ Go to user sub-section in Security section on BTP account
 <img src="./files/capmd12-7.png" >
 </br>
 </br>
+<img src="./files/capmd12-8.png" >
+</br>
+</br>
 </details>
 
 
