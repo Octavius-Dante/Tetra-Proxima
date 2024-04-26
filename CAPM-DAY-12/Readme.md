@@ -157,6 +157,11 @@ Paste the link from the sap document page and modify it
 
 </br> the link value should be repalced as shown below 
 </br> 
+</br> domain : This is the domain of your second sub account 
+</br> myorg : This is the org name of your second sub account 
+</br> myspace : This is the space name in your second sub account 
+</br> 
+</br> 
 
 ```html
 
@@ -178,10 +183,6 @@ https://deploy-service.cf.us10-001.hana.ondemand.com/slprot/31dfa10dtrial_qualit
 
 ```
 
-</br>
-</br> domain : This is the domain of your second sub account 
-</br> myorg : This is the org name of your second sub account 
-</br> myspace : This is the space name in your second sub account 
 </br>
 </br>
 <img src="./files/capmd12-20.png" >
