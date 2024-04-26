@@ -17,12 +17,28 @@
 - [x] No we do GIT push
 
 ```md
+// initiate Git in the project folder
 git init
+
+// adding only specific file with file name for staging
 git add README.md
+
+// adding all files for staging 
+git add .
+
+// staging command 
 git commit -m "first commit"
+
+// Initial connection setup commands
 git branch -M main
 git remote add origin https://github.com/Octavius-Dante/CAP_TEST.git
 git push -u origin main
+
+// Regular Git push commands
+git add .
+git commit -m "your comment/description"
+git push
+
 ```
 </br>
 </br>
