@@ -106,6 +106,12 @@ Create spaces qlt and prd
 <img src="./files/capmd12-13.png" >
 </br>
 </br>
+<img src="./files/capmd12-14.png" >
+</br>
+</br>
+<img src="./files/capmd12-15.png" >
+</br>
+</br>
 </details>
 
 
