@@ -212,15 +212,13 @@ All changes are listed in this section
 </br>
 </br>
 
-Changes can be reverted using this button 
+Changes can be compared when any item is slected here
 </br>
 </br>
 <img src="./files/bg_28.png" >
 </br>
 </br>
-<img src="./files/bg_28a.png" >
-</br>
-</br>
+
 
 Changes can be reverted using this button
 </br>
@@ -228,11 +226,14 @@ Changes can be reverted using this button
 <img src="./files/bg_29.png" >
 </br>
 </br>
+<img src="./files/bg_29a.png" >
+</br>
+</br>
 
 Changes can be navigated using these tools
 </br>
 </br>
-<img src="./files/bg_28.png" >
+<img src="./files/bg_30.png" >
 </br>
 </br>
 
