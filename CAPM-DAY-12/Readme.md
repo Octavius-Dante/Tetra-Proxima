@@ -226,7 +226,7 @@ Clone the connection and create it for PRD
 
 
 <details>
-<summary> <b> 5. Start Github Integration for CI and CD</b> </summary>
+<summary> <b> 5. Start Github Integration for CI and CD - PART 1</b> </summary>
 </br>
 </br>
 
@@ -297,39 +297,44 @@ We need to add webhook to github account
 <img src="./files/capmd12-43.png" >
 </br>
 </br>
-
-Goto Seting of your github repository and paste the generated webhook secret as shown below 
-</br>
-</br>
-
-</br>
-</br>
-
-</br>
-</br>
-
-</br>
-</br>
-
-</br>
-</br>
-
-</br>
-</br>
-
-</br>
-</br>
-
-</br>
-</br>
-
-</br>
-</br>
-
-
-
-
 </details>
+
+<details>
+<summary> <b> 5. Start Github Integration for CI and CD - PART 2</b> </summary>
+</br>
+</br>
+</br> Goto Seting of your github repository and paste the generated webhook secret as shown below 
+</br>
+</br>
+
+</br>
+</br>
+
+</br>
+</br>
+
+</br>
+</br>
+
+</br>
+</br>
+
+</br>
+</br>
+
+</br>
+</br>
+
+</br>
+</br>
+
+</br>
+</br>
+</details>
+
+
+
+
 
 <!--
 
