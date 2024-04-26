@@ -25,10 +25,16 @@ An overview of the process
 </br>
 </br>
 
-
+Create a subscription on Continuos Integration & Delivery in BTP account - Service 1
+</br> 
 </br>
-</br>
+<img src="./files/capmd12-1.png" >
 
+
+Create a subscription on Cloud Transport Mangement - Service 2 
+</br> 
+</br>
+<img src="./files/capmd12-2.png" >
 </br>
 </br>
 </details>
