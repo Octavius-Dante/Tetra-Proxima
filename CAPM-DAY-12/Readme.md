@@ -116,7 +116,7 @@ Create spaces qlt and prd
 
 
 <details>
-<summary> <b> 4. Create Destinations for this landscapes </b> </summary>
+<summary> <b> 4. Create Destinations for this System Landscapes </b> </summary>
 </br>
 </br>
 
