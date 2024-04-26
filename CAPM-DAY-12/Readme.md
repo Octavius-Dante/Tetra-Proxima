@@ -161,22 +161,15 @@ Paste the link from the sap document page and modify it
 ```html
 
 // Original Link
-
 https://deploy-service.cf.<domain>/slprot/<myorg>/<myspace>/slp
 
+API Endpoint: https://api.cf.us10-001.hana.ondemand.com
+Org Name: 31dfa10dtrial_quality-prod-6cvvjzsk
+Space Name : QLT
 
-//This is the API endpoint domain link
-
-https://api.cf.us10-001.hana.ondemand.com
-
-
-// Grab only this part
-
-us10-001.hana.ondemand.com
-
+// Grab only this part : us10-001.hana.ondemand.com
 
 // Final Link should look like this -- this should go in URL part of destination
-
 https://deploy-service.cf.us10-001.hana.ondemand.com/slprot/31dfa10dtrial_quality-prod-6cvvjzsk/QLT/slp
 
 ```
