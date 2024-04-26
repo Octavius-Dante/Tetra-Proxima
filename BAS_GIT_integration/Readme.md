@@ -172,7 +172,51 @@ git push
 <summary> <b> 4. Code changes and code pushing using GUI</b> </summary>
 </br>
 </br>
+<img src="./files/bg_23.png" >
+</br>
+</br>
+<img src="./files/bg_24.png" >
+</br>
+</br>
+<img src="./files/bg_25.png" >
+</br>
+</br>
 
+Now there is an extension in BAS we can access to see all the changes 
+</br>
+</br>
+<img src="./files/bg_26.png" >
+</br>
+</br>
+
+All changes are listed in this section 
+</br>
+</br>
+<img src="./files/bg_27.png" >
+</br>
+</br>
+
+Changes can be reverted using this button 
+</br>
+</br>
+<img src="./files/bg_28.png" >
+</br>
+</br>
+<img src="./files/bg_28a.png" >
+</br>
+</br>
+
+Chnages can be reverted usign this button
+</br>
+</br>
+<img src="./files/bg_29.png" >
+</br>
+</br>
+
+Changes can be navigated using these tools
+</br>
+</br>
+<img src="./files/bg_28.png" >
 </br>
 </br>
 
