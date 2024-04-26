@@ -155,7 +155,7 @@ Enter the destination details
 Paste the link from the sap document page and modify it 
 
 </br> the link value should be repalced as shown below 
-</br> <p>https://deploy-service.cf.<domain>/slprot/<myorg>/<myspace>/slp</p>
+</br> <code>https://deploy-service.cf.<domain>/slprot/<myorg>/<myspace>/slp</code>
 </br>
 </br> <doamin> : This is the domain of your second sub account 
 </br> <myorg> : This is the org name of your second sub account 
