@@ -222,7 +222,7 @@ Changes can be reverted using this button
 </br>
 </br>
 
-Chnages can be reverted using this button
+Changes can be reverted using this button
 </br>
 </br>
 <img src="./files/bg_29.png" >
