@@ -272,12 +272,15 @@ Stagign ready files and not staged files are listed
 </br>
 </br>
 
-Checking the reflected changes in Github
+Github prompt for running periodic changes
 </br>
 </br>
 <img src="./files/bg_35.png" >
 </br>
 </br>
+
+Checking the reflected changes in Github
+
 </details>
 
 
