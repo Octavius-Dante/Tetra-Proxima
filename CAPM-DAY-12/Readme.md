@@ -226,7 +226,7 @@ Clone the connection and create it for PRD
 
 
 <details>
-<summary> <b> 5. initiate Integration</b> </summary>
+<summary> <b> 5. Start Github Integration for CI and CD</b> </summary>
 </br>
 </br>
 
