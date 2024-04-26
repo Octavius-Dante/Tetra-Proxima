@@ -105,8 +105,6 @@ to complete the push and proceed to connection
 <img src="./files/bg_17.png" >
 </br>
 </br>
-</details>
-
 
 Git repository got updated from BAS as shown below 
 </br>
@@ -114,8 +112,15 @@ Git repository got updated from BAS as shown below
 <img src="./files/bg_18.png" >
 </br>
 </br>
+</details>
 
-Now code changes to project is tracked by BAS as shown below
+
+<details>
+<summary> <b> 3. Pushing the code using Push command</b> </summary>
+</br>
+</br>
+
+Now code any changes to project is tracked by BAS as shown below
 </br>
 </br>
 making small change in the code and it is reflected with a marker
@@ -133,11 +138,9 @@ making small change in the code and it is reflected with a marker
 <img src="./files/bg_22.png" >
 </br>
 </br>
-
 </br>
 </br>
-
-
+</details>
 
 
 
