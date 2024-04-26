@@ -105,8 +105,23 @@ to complete the push and proceed to connection
 <img src="./files/bg_17.png" >
 </br>
 </br>
-
 </details>
+
+
+Git repository got updated from BAS as shown below 
+</br>
+</br>
+<img src="./files/bg_18.png" >
+</br>
+</br>
+
+We can push the changes to git hub using followign command every time 
+</br> when there is a build completion
+</br>
+</br>
+
+</br>
+</br>
 
 
 <!--
