@@ -192,7 +192,19 @@ https://deploy-service.cf.us10-001.hana.ondemand.com/slprot/31dfa10dtrial_qualit
 <img src="./files/capmd12-21.png" >
 </br>
 </br>
+<img src="./files/capmd12-21.png" >
+</br>
+</br>
 
+Test the connection for confirmation
+</br>
+</br>
+<img src="./files/capmd12-23.png" >
+</br>
+</br>
+<img src="./files/capmd12-24.png" >
+</br>
+</br>
 </details>
 
 <!--
