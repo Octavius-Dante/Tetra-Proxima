@@ -45,7 +45,15 @@ Create a repository
 <img src="./files/bg_2.png" >
 </br>
 </br>
+
+next step
+</br>
+</br>
 <img src="./files/bg_3.png" >
+</br>
+</br>
+
+next step
 </br>
 </br>
 <img src="./files/bg_4.png" >
