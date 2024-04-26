@@ -120,6 +120,13 @@ Create spaces qlt and prd
 </br>
 </br>
 
+Default Destiantion setting for this CICD 
+</br> Type : HTP
+</br> Proxy Type : Internet
+</br> Authentication : BasicAuthentication
+</br>
+</br>
+
 We need to create destination in this section 
 </br> 
 </br>
