@@ -294,15 +294,15 @@ We need to add webhook to github account
 <img src="./files/capmd12-42.png" >
 </br>
 </br>
-<img src="./files/capmd12-43.png" >
-</br>
-</br>
 </details>
 
 <details>
 <summary> <b> 5. Start Github Integration for CI and CD - PART 2</b> </summary>
 </br>
 </br> Goto Seting of your github repository and paste the generated webhook secret as shown below 
+</br>
+</br>
+<img src="./files/capmd12-43.png" >
 </br>
 </br>
 
