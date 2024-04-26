@@ -12,7 +12,7 @@
 
 - [x] Create a Private repository in GITHUB and copy the link of that git hub.
 - [x] Initiate git in bas using command (git init)
-- [x] Add all the files to git staging area using command (git add)
+- [x] Add all the files to git staging area using command (git add .)
 - [x] Commit the changes using command (git commit -m "description" )
 - [x] No we do GIT push
 
