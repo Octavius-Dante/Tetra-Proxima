@@ -336,16 +336,32 @@ We need to add webhook to github account so creating webhook first
 Let's define a Job in CICD as shown below
 </br>
 </br>
-
+<img src="./files/capmd12-51.png" >
+</br>
+</br>
+<img src="./files/capmd12-52.png" >
 </br>
 </br>
 
+There is no Code check or sysntax check or unit testing so leave it untouched.
 </br>
 </br>
-
+<img src="./files/capmd12-53.png" >
 </br>
 </br>
-
+<img src="./files/capmd12-54.png" >
+</br>
+</br>
+<img src="./files/capmd12-55.png" >
+</br>
+</br>
+<img src="./files/capmd12-56.png" >
+</br>
+</br>
+<img src="./files/capmd12-57.png" >
+</br>
+</br>
+<img src="./files/capmd12-58.png" >
 </br>
 </br>
 </details>
