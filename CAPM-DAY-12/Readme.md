@@ -413,9 +413,12 @@ GO back to CICD - Jobs section and create a credentials for service key
 </br>
 </br>
 
+Now go back to the Job and link the service key credential we creataed earlier
 </br>
-
-
+</br>
+<img src="./files/capmd12-72.png" >
+</br>
+</br>
 
 </br>
 </br>
