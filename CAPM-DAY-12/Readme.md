@@ -441,7 +441,7 @@ Goto Subscription and launch Cloud transport management
 <img src="./files/capmd12-76.png" >
 </br>
 </br>
-
+<img src="./files/capmd12-77.png" >
 </br>
 </br>
 
