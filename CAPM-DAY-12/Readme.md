@@ -409,7 +409,7 @@ GO back to CICD - Jobs section and create a credentials for service key
 <img src="./files/capmd12-70.png" >
 </br>
 </br>
-<img src="./files/capmd12-71s.png" >
+<img src="./files/capmd12-71.png" >
 </br>
 </br>
 
