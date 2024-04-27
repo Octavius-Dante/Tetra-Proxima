@@ -326,13 +326,29 @@ We need to add webhook to github account
 <img src="./files/capmd12-50.png" >
 </br>
 </br>
+</details>
+
+<details>
+<summary> <b> 6. Start Github Integration for CI and CD - PART 3</b> </summary>
+</br>
+</br>
+
+Let's define a Job in CICD as shown below
+</br>
+</br>
+
+</br>
+</br>
+
+</br>
+</br>
+
+</br>
+</br>
 
 </br>
 </br>
 </details>
-
-
-
 
 
 <!--
