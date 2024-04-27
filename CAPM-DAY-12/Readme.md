@@ -383,6 +383,32 @@ We need to create an instance (Cloud transport management) -
 <img src="./files/capmd12-63.png" >
 </br>
 </br>
+<img src="./files/capmd12-64.png" >
+</br>
+</br>
+<img src="./files/capmd12-65.png" >
+</br>
+</br>
+<img src="./files/capmd12-66.png" >
+</br>
+</br>
+<img src="./files/capmd12-67.png" >
+</br>
+</br>
+<img src="./files/capmd12-68.png" >
+</br>
+</br>
+<img src="./files/capmd12-69.png" >
+</br>
+</br>
+<img src="./files/capmd12-70.png" >
+</br>
+</br>
+
+
+</br>
+
+
 
 </br>
 </br>
