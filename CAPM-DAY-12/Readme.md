@@ -450,14 +450,11 @@ Defining node
 </br>allow upload to node option means somebody can pull the changes from dev branch and push it to quality branch 
 </br>
 </br>
-<img src="./files/capmd12-77.png" >
+<img src="./files/capmd12-78.png" >
 </br>
 </br>
 
 low code no code approach so only node connection (Defining Prod Node)
-</br>
-</br>
-<img src="./files/capmd12-78.png" >
 </br>
 </br>
 <img src="./files/capmd12-79.png" >
