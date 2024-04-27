@@ -481,9 +481,17 @@ So this concludes the landscape definition for continuous delivery
 </details>
 
 <details>
-<summary> <b> 8. Defining Node for Continuous delivery - Cloud transport management system</b> </summary>
+<summary> <b> 9. Testing CI / CD flow with code changes </b> </summary>
 </br>
 </br>
+<img src="./files/capmd12-84.png" >
+</br>
+</br>
+<img src="./files/capmd12-85.png" >
+</br>
+</br>
+
+
 
 </br>
 </br>
