@@ -494,6 +494,18 @@ Watch the job section in CI/CD when git push happens there will be build details
 <img src="./files/capmd12-86.png" >
 </br>
 </br>
+<img src="./files/capmd12-87.png" >
+</br>
+</br>
+<img src="./files/capmd12-88.png" >
+</br>
+</br>
+<img src="./files/capmd12-89.png" >
+</br>
+</br>
+<img src="./files/capmd12-90.png" >
+</br>
+</br>
 </details>
 
 <!--
