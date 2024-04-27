@@ -364,6 +364,37 @@ There is no Code check or sysntax check or unit testing so leave it untouched.
 <img src="./files/capmd12-58.png" >
 </br>
 </br>
+<img src="./files/capmd12-59.png" >
+</br>
+</br>
+
+We need to create an instance (Cloud transport management) -
+</br>
+</br>
+<img src="./files/capmd12-60.png" >
+</br>
+</br>
+<img src="./files/capmd12-61.png" >
+</br>
+</br>
+<img src="./files/capmd12-62.png" >
+</br>
+</br>
+<img src="./files/capmd12-63.png" >
+</br>
+</br>
+
+</br>
+</br>
+
+</br>
+</br>
+
+</br>
+</br>
+
+</br>
+</br>
 </details>
 
 
