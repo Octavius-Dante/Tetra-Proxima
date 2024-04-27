@@ -428,7 +428,38 @@ Now go back to the Job and link the service key credential we creataed earlier
 
 
 <details>
-<summary> <b> Defining Node for Continuous delivery - Cloud transport management system</b> </summary>
+<summary> <b> 8. Defining Node for Continuous delivery - Cloud transport management system</b> </summary>
+</br>
+</br>
+
+Goto Subscription and launch Cloud transport management
+</br>
+</br>
+<img src="./files/capmd12-75.png" >
+</br>
+</br>
+<img src="./files/capmd12-76.png" >
+</br>
+</br>
+
+</br>
+</br>
+
+</br>
+</br>
+
+</br>
+</br>
+
+</br>
+</br>
+
+</br>
+</br>
+
+</br>
+</br>
+
 </br>
 </br>
 
