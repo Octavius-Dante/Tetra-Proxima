@@ -226,7 +226,7 @@ Clone the connection and create it for PRD
 
 
 <details>
-<summary> <b> 5. Start Github Integration for CI and CD - PART 1</b> </summary>
+<summary> <b> 5. Start Github Integration for CI and CD - PART 1 - Account setup</b> </summary>
 </br>
 </br>
 
@@ -297,7 +297,7 @@ We need to add webhook to github account
 </details>
 
 <details>
-<summary> <b> 6. Start Github Integration for CI and CD - PART 2</b> </summary>
+<summary> <b> 6. Start Github Integration for CI and CD - PART 2 - Github Webhook link</b> </summary>
 </br>
 </br> Goto Seting of your github repository and paste the generated webhook secret as shown below 
 </br>
@@ -329,7 +329,7 @@ We need to add webhook to github account
 </details>
 
 <details>
-<summary> <b> 7. Start Github Integration for CI and CD - PART 3</b> </summary>
+<summary> <b> 7. Start Github Integration for CI and CD - PART 3 - Job definition</b> </summary>
 </br>
 </br>
 
