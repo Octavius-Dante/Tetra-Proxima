@@ -491,8 +491,10 @@ So this concludes the landscape definition for continuous delivery
 </br>
 </br>
 
-
-
+Watch the job section in CI/CD when git push happens
+</br>
+</br>
+<img src="./files/capmd12-86.png" >
 </br>
 </br>
 </details>
