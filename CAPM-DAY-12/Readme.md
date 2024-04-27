@@ -402,7 +402,6 @@ We need to create an instance (Cloud transport management) -
 </br>
 </br>
 
-
 GO back to CICD - Jobs section and create a credentials for service key
 </br>
 </br>
@@ -419,10 +418,11 @@ Now go back to the Job and link the service key credential we creataed earlier
 <img src="./files/capmd12-72.png" >
 </br>
 </br>
+</details>
 
-</br>
-</br>
 
+<details>
+<summary> <b> Defining Node for Continuous delivery - Cloud transport management system</b> </summary>
 </br>
 </br>
 
@@ -432,6 +432,7 @@ Now go back to the Job and link the service key credential we creataed earlier
 </br>
 </br>
 </details>
+
 
 
 <!--
