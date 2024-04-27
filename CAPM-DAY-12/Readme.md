@@ -497,6 +497,12 @@ Watch the job section in CI/CD when git push happens
 <img src="./files/capmd12-86.png" >
 </br>
 </br>
+<img src="./files/capmd12-87.png" >
+</br>
+</br>
+<img src="./files/capmd12-88.png" >
+</br>
+</br>
 </details>
 
 <!--
