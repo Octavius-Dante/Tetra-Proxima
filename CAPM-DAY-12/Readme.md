@@ -445,32 +445,49 @@ Goto Subscription and launch Cloud transport management
 </br>
 </br>
 
+
+Defining node 
+</br>allow upload to node option means somebody can pull the changes from dev branch and push it to quality branch 
+</br>
+</br>
+<img src="./files/capmd12-77.png" >
 </br>
 </br>
 
+low code no code approach so only node connection (Defining Prod Node)
 </br>
 </br>
+<img src="./files/capmd12-78.png" >
+</br>
+</br>
+<img src="./files/capmd12-79.png" >
+</br>
+</br>
+<img src="./files/capmd12-80.png" >
+</br>
+</br>
+<img src="./files/capmd12-81.png" >
+</br>
+</br>
+<img src="./files/capmd12-82.png" >
+</br>
+</br>
+<img src="./files/capmd12-83.png" >
+</br>
+</br>
+So this concludes the landscape definition for continuous delivery  
+</br>
+</br>
+</details>
 
-</br>
-</br>
-
-</br>
-</br>
-
-</br>
-</br>
-
-</br>
-</br>
-
+<details>
+<summary> <b> 8. Defining Node for Continuous delivery - Cloud transport management system</b> </summary>
 </br>
 </br>
 
 </br>
 </br>
 </details>
-
-
 
 <!--
 
