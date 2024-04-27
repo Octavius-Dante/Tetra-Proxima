@@ -418,6 +418,12 @@ Now go back to the Job and link the service key credential we creataed earlier
 <img src="./files/capmd12-72.png" >
 </br>
 </br>
+<img src="./files/capmd12-73.png" >
+</br>
+</br>
+<img src="./files/capmd12-74.png" >
+</br>
+</br>
 </details>
 
 
