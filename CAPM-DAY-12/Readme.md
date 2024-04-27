@@ -401,10 +401,17 @@ We need to create an instance (Cloud transport management) -
 <img src="./files/capmd12-69.png" >
 </br>
 </br>
+
+
+GO back to CICD - Jobs section and create a credentials for service key
+</br>
+</br>
 <img src="./files/capmd12-70.png" >
 </br>
 </br>
-
+<img src="./files/capmd12-71s.png" >
+</br>
+</br>
 
 </br>
 
