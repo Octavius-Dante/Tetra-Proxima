@@ -2,6 +2,7 @@ In CI/CD (Continuous Integration/Continuous Delivery) pipelines, build failures 
 
 </br>
 </br>
+
 1. Versioning issues: If there are conflicts or inconsistencies between the versions of different components or dependencies, the build process can fail.
 2. Pipeline configuration errors: Incorrect or incomplete configuration files for the CI/CD pipeline can cause the build process to fail.
 3. Test failures: If there are issues with the automated tests that are run as part of the build process, the build can fail.
