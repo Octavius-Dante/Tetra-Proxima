@@ -1370,6 +1370,7 @@ Error in merge descriptors - Merging application type description is error (ther
 so started searching for this descriptor (nodejsnpm ins) in all the essentail files pacakge.json, pacakge-lock.json, mta.yaml
 </br> in mta.yaml the problem was identified 
 </br>
+</br>
 <img src="./files/capmd12-92.png" >
 </br>
 </br>
