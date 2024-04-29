@@ -511,7 +511,8 @@ Watch the job section in CI/CD when git push happens there will be build details
 
 <details>
 <summary> Build log (error) for reference </summary>
-
+</br>
+</br>
 First error log for reference deployment failure 
 </br>
 </br>
@@ -802,7 +803,6 @@ Added following lines in MTA yaml and proceeded build was successful but deploym
 <summary> Build log (error) for reference </summary>
 </br>
 </br>
-
 Second error log for reference deployment failure 
 </br>
 </br>
