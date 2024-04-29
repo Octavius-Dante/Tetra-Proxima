@@ -1370,7 +1370,12 @@ In the error log following line has highlighted what was the issue in deployment
 [2024-04-29T23:16:10.238Z] info  cloudFoundryDeploy - Detected MTA schema version: "3"
 [2024-04-29T23:16:10.239Z] info  cloudFoundryDeploy - Error merging descriptors: Unsupported module type "nodejsnpm ins" for platform type "CLOUD-FOUNDRY" 
 [2024-04-29T23:16:10.239Z] info  cloudFoundryDeploy - Process failed.
-
+[2024-04-29T23:16:10.239Z] info  cloudFoundryDeploy - Use "cf deploy -i 70d1ad25-067e-11ef-8669-eeee0a963137 -a abort" to abort the process.
+[2024-04-29T23:16:10.239Z] info  cloudFoundryDeploy - Use "cf deploy -i 70d1ad25-067e-11ef-8669-eeee0a963137 -a retry" to retry the process.
+[2024-04-29T23:16:10.239Z] info  cloudFoundryDeploy - Use "cf dmol -i 70d1ad25-067e-11ef-8669-eeee0a963137" to download the logs of the process.
+[2024-04-29T23:16:10.239Z] error cloudFoundryDeploy - Command '[deploy dancap.mtar -f --version-rule ALL]' failed. - running command 'cf' failed: cmd.Run() failed: exit status 1
+[2024-04-29T23:16:10.239Z] info  cloudFoundryDeploy - Logging out of Cloud Foundry
+[2024-04-29T23:16:10.239Z] info  cloudFoundryDeploy - running command: cf logout
 ```
 </br>
 </br>
@@ -1382,6 +1387,11 @@ so started searching for this descriptor (nodejsnpm ins) in all the essentail fi
 </br>
 </br>
 <img src="./files/capmd12-92.png" >
+</br>
+</br>
+
+Downloaded the log using command as mentioned in the above log (cf dmol -i 70d1ad25-067e-11ef-8669-eeee0a963137)
+</br> foudn the same description mentioned there
 </br>
 </br>
 <img src="./files/capmd12-93.png" >
