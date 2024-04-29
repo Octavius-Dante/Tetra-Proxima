@@ -1,6 +1,6 @@
 ## How to Connect BAS with GITHUB
 
-### This Github integration is essention for CI - CD Pipeline in SAP BTP cloud 
+### This Github integration is essential for CI - CD Pipeline in SAP BTP cloud 
 
 </br>
 </br>
