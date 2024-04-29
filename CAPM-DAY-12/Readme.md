@@ -507,7 +507,7 @@ Watch the job section in CI/CD when git push happens there will be build details
 </br>
 </br>
 
-## Build failure error analysis 
+## Build failure error analysis -1 
 
 <details>
 <summary> Build log (error) for reference </summary>
@@ -730,7 +730,617 @@ Stage Logs (DanteCICD-Demo #18 - Build)
 </br>
 </br>
 
+added following lines in MTA yaml and tested 
+</br>
+</br>
+
+```yaml
+      commands:
+        - npx cds build --production // doesnt work - gives error at mbt build start
+        - npx -p @sap/cds-dk cds build --production  // doesnt work - gives error at db-deployer stage
+```
+</br>
+</br>
+
+Did NPM install for following items 
+</br>
+</br>
+
+```bat
+npm isntall @sap/hana-client
+npm isntall @sap/hdi-deploy
+npm isntall @sap/cds-hana
+npm install @sap-cloud-sdk/http-client
+npm isntall @sap/cds-dk
+```
+</br>
+</br>
+
+corrected package.json as shown below 
+</br>
+</br>
+
+## package.json under Cds section
+
+</br>
+</br>
+
+```json
+
+  "cds": {
+    "hana": {
+      "deploy-format": "hdbtable",
+      "syntax": "hdi"
+    }
+
+```
+</br>
+</br>
+
+Still above things returned the same error 
+</br>
+</br>
+Added following lines in MTA yaml and proceeded build was successful but deployment failed 
+</br>
+</br>
+
+```yaml
+// Following commands succeeded in building - Failed during deployment - 
+      commands:
+        - npm install
+        - npx -p @sap/cds-dk cds build --production
+        - npm install @sap-cloud-sdk/http-client
+        - npm update --package-lock-only
+        - npm clean-install --production
+````
+
+
+## Build failure error analysis - 2 
+
+<details>
+<summary> Build log (error) for reference </summary>
+</br>
+</br>
+
+Second error log for reference deployment failure 
+</br>
+</br>
+
+```bat
+
+Stage Logs (DanteCICD-Demo #19 - Release)
+[2024-04-29T22:01:07.171Z] [INFO] No runFirst command defined for current stage (Release). Will not execute additional commands step
+[2024-04-29T22:01:07.589Z] Trying to acquire lock on [DanteCICD-Demo]
+[2024-04-29T22:01:07.593Z] Resource [DanteCICD-Demo] did not exist. Created.
+[2024-04-29T22:01:07.596Z] Lock acquired on [DanteCICD-Demo]
+[2024-04-29T22:01:07.629Z] Running on Jenkins in /jenkins_home/workspace/DanteCICD-Demo@2
+[2024-04-29T22:01:07.671Z] Unstash content: pipelineConfigAndTests
+[2024-04-29T22:01:07.702Z] Unstash content: buildDescriptor
+[2024-04-29T22:01:07.732Z] Unstash content: buildResult
+[2024-04-29T22:01:08.552Z] Unstash content: deployDescriptor
+[2024-04-29T22:01:08.584Z] Unstash content: source
+[2024-04-29T22:01:09.483Z] Unstash content: cloudcitransfer
+[2024-04-29T22:01:09.785Z] Unstash content: deployDescriptor
+[2024-04-29T22:01:10.072Z] --- Begin library step of: cloudFoundryDeploy ---
+[2024-04-29T22:01:10.345Z] + '[' -x ./piper ]
+[2024-04-29T22:01:10.356Z] Found piper binary in the workspace - skipping unstash
+[2024-04-29T22:01:10.375Z] Unstash content: pipelineConfigAndTests
+[2024-04-29T22:01:10.437Z] Step params [:]
+[2024-04-29T22:01:10.474Z] PIPER_parametersJSON: {}
+[2024-04-29T22:01:10.749Z] + ./piper getConfig --contextConfig --stepMetadata .pipeline/tmp/metadata/cloudFoundryDeploy.yaml --defaultConfig .pipeline/.pipeline/cicdCommonBaseDefaults.yml,.pipeline/.pipeline/cicdPipelineSpecificDefaults.yml --ignoreCustomDefaults
+[2024-04-29T22:01:10.750Z] time="2024-04-29T22:01:10Z" level=info msg="Version 3ae51e266142877d03c7f4dda5fe21668ba590dd" library=SAP/jenkins-library
+[2024-04-29T22:01:10.750Z] time="2024-04-29T22:01:10Z" level=info msg="Printing stepName " library=SAP/jenkins-library
+[2024-04-29T22:01:10.780Z] Context Config: [dockerImage:ppiper/cf-cli@sha256:34749e9b26a86ab2fca1bc93dae2c0e0cdfa013d9421af64072f23a0f2433473, dockerName:cfDeploy, dockerPullImage:false]
+[2024-04-29T22:01:10.801Z] [INFO] executing pipeline step 'cloudFoundryDeploy' with docker image 'ppiper/cf-cli@sha256:34749e9b26a86ab2fca1bc93dae2c0e0cdfa013d9421af64072f23a0f2433473'
+[2024-04-29T22:01:10.998Z] --- Begin library step of: dockerExecute ---
+[2024-04-29T22:01:11.332Z] --- Begin library step of: dockerExecuteOnKubernetes ---
+[2024-04-29T22:01:11.506Z] Stash content: workspace-5f33b092-6ffa-41ad-9bed-80fe007cf3ee (includes: **/*, excludes: nohup.out, useDefaultExcludes: true, allowEmpty: true)
+[2024-04-29T22:01:24.640Z] Stashed 75 file(s)
+[2024-04-29T22:01:31.457Z] Created Pod: kubernetes steward-run-bmd0t-main-p7h5c/dynamic-agent-5f33b092-6ffa-41ad-9bed-80fe007cf3ee-dm2kb-5swz3
+[2024-04-29T22:01:39.742Z] Still waiting to schedule task
+[2024-04-29T22:01:39.743Z] Waiting for next available executor on ‘dynamic-agent-5f33b092-6ffa-41ad-9bed-80fe007cf3ee-dm2kb-5swz3’
+[2024-04-29T22:01:48.299Z] Agent dynamic-agent-5f33b092-6ffa-41ad-9bed-80fe007cf3ee-dm2kb-5swz3 is provisioned from template dynamic-agent-5f33b092-6ffa-41ad-9bed-80fe007cf3ee-dm2kb
+[2024-04-29T22:01:48.303Z] Running on dynamic-agent-5f33b092-6ffa-41ad-9bed-80fe007cf3ee-dm2kb-5swz3 in /home/jenkins/agent/workspace/DanteCICD-Demo
+[2024-04-29T22:01:48.372Z] ContainerConfig: [name:container-exec]
+[2024-04-29T22:01:48.424Z] Unstash content: workspace-5f33b092-6ffa-41ad-9bed-80fe007cf3ee
+[2024-04-29T22:01:55.904Z] invalidate stash workspace-5f33b092-6ffa-41ad-9bed-80fe007cf3ee
+[2024-04-29T22:01:56.092Z] Stash content: workspace-5f33b092-6ffa-41ad-9bed-80fe007cf3ee (includes: **/*.*, excludes: **/*, useDefaultExcludes: true, allowEmpty: true)
+[2024-04-29T22:01:56.258Z] Warning: overwriting stash ‘workspace-5f33b092-6ffa-41ad-9bed-80fe007cf3ee’
+[2024-04-29T22:01:56.498Z] Stashed 0 file(s)
+[2024-04-29T22:01:56.512Z] [INFO][dockerExecute] Executing inside a Kubernetes Pod. Docker image: ppiper/cf-cli@sha256:34749e9b26a86ab2fca1bc93dae2c0e0cdfa013d9421af64072f23a0f2433473
+[2024-04-29T22:01:57.368Z] + ./piper writePipelineEnv
+[2024-04-29T22:01:57.368Z] time="2024-04-29T22:01:57Z" level=info msg="Version 3ae51e266142877d03c7f4dda5fe21668ba590dd" library=SAP/jenkins-library
+[2024-04-29T22:01:57.468Z] Unstash content: pipelineStepReports
+[2024-04-29T22:01:58.229Z] + ./piper cloudFoundryDeploy --defaultConfig .pipeline/.pipeline/cicdCommonBaseDefaults.yml,.pipeline/.pipeline/cicdPipelineSpecificDefaults.yml --ignoreCustomDefaults
+[2024-04-29T22:01:58.231Z] time="2024-04-29T22:01:58Z" level=info msg="Version 3ae51e266142877d03c7f4dda5fe21668ba590dd" library=SAP/jenkins-library
+[2024-04-29T22:01:58.232Z] info  cloudFoundryDeploy - General parameters: deployTool='', deployType='standard', cfApiEndpoint='https://api.cf.us10-001.hana.ondemand.com/', cfOrg='db4cbbc2trial', cfSpace='dev'
+[2024-04-29T22:01:58.232Z] info  cloudFoundryDeploy - Parameter deployTool not specified - deriving from buildTool 'mta': 'mtaDeployPlugin'
+[2024-04-29T22:01:58.232Z] info  cloudFoundryDeploy - Using additional environment variables: [CF_TRACE=cf.log]
+[2024-04-29T22:01:58.232Z] info  cloudFoundryDeploy - running command: cf version
+[2024-04-29T22:01:58.232Z] info  cloudFoundryDeploy - cf version 8.7.1+9c81242.2023-06-15
+[2024-04-29T22:01:58.232Z] info  cloudFoundryDeploy - Logging in to Cloud Foundry
+[2024-04-29T22:01:58.232Z] info  cloudFoundryDeploy - Logging into Cloud Foundry..
+[2024-04-29T22:01:58.232Z] info  cloudFoundryDeploy - running command: cf login -a https://api.cf.us10-001.hana.ondemand.com/ -o db4cbbc2trial -s dev -u **** -p ****
+[2024-04-29T22:01:58.232Z] info  cloudFoundryDeploy - API endpoint: https://api.cf.us10-001.hana.ondemand.com/
+[2024-04-29T22:01:58.232Z] info  cloudFoundryDeploy - 
+[2024-04-29T22:01:58.491Z] info  cloudFoundryDeploy - 
+[2024-04-29T22:01:58.491Z] info  cloudFoundryDeploy - Authenticating...
+[2024-04-29T22:01:59.052Z] info  cloudFoundryDeploy - OK
+[2024-04-29T22:01:59.052Z] info  cloudFoundryDeploy - 
+[2024-04-29T22:01:59.308Z] info  cloudFoundryDeploy - Targeted org db4cbbc2trial.
+[2024-04-29T22:01:59.308Z] info  cloudFoundryDeploy - 
+[2024-04-29T22:01:59.308Z] info  cloudFoundryDeploy - Targeted space dev.
+[2024-04-29T22:01:59.308Z] info  cloudFoundryDeploy - 
+[2024-04-29T22:01:59.308Z] info  cloudFoundryDeploy - API endpoint:   https://api.cf.us10-001.hana.ondemand.com
+[2024-04-29T22:01:59.308Z] info  cloudFoundryDeploy - API version:    3.159.0
+[2024-04-29T22:01:59.309Z] info  cloudFoundryDeploy - user:           ****
+[2024-04-29T22:01:59.310Z] info  cloudFoundryDeploy - org:            db4cbbc2trial
+[2024-04-29T22:01:59.310Z] info  cloudFoundryDeploy - space:          dev
+[2024-04-29T22:01:59.310Z] info  cloudFoundryDeploy - Logged in successfully to Cloud Foundry..
+[2024-04-29T22:01:59.311Z] info  cloudFoundryDeploy - running command: cf plugins
+[2024-04-29T22:01:59.311Z] info  cloudFoundryDeploy - Listing installed plugins...
+[2024-04-29T22:01:59.311Z] info  cloudFoundryDeploy - 
+[2024-04-29T22:01:59.311Z] info  cloudFoundryDeploy - plugin                version   command name                  command help
+[2024-04-29T22:01:59.311Z] info  cloudFoundryDeploy - blue-green-deploy     1.4.0     blue-green-deploy, bgd        Zero-downtime deploys with smoke tests
+[2024-04-29T22:01:59.311Z] info  cloudFoundryDeploy - Create-Service-Push   1.3.2     create-service-push, cspush   Works in the same manner as cf push, except that it will create services defined in a services-manifest.yml file first before performing a cf push.
+[2024-04-29T22:01:59.311Z] info  cloudFoundryDeploy - html5-plugin          1.4.6     html5-delete                  Delete one or multiple app-host service instances or content uploaded with these instances
+[2024-04-29T22:01:59.311Z] info  cloudFoundryDeploy - html5-plugin          1.4.6     html5-get                     Fetch content of single HTML5 application file by path, or whole application by name and version
+[2024-04-29T22:01:59.311Z] info  cloudFoundryDeploy - html5-plugin          1.4.6     html5-info                    Get size limit and status of app-host service instances
+[2024-04-29T22:01:59.311Z] info  cloudFoundryDeploy - html5-plugin          1.4.6     html5-list                    Display list of HTML5 applications or file paths of specified application
+[2024-04-29T22:01:59.312Z] info  cloudFoundryDeploy - html5-plugin          1.4.6     html5-push                    Push HTML5 applications to html5-apps-repo service
+[2024-04-29T22:01:59.312Z] info  cloudFoundryDeploy - multiapps             3.0.3     bg-deploy                     Deploy a multi-target app using blue-green deployment
+[2024-04-29T22:01:59.312Z] info  cloudFoundryDeploy - multiapps             3.0.3     deploy                        Deploy a new multi-target app or sync changes to an existing one
+[2024-04-29T22:01:59.312Z] info  cloudFoundryDeploy - multiapps             3.0.3     download-mta-op-logs, dmol    Download logs of multi-target app operation
+[2024-04-29T22:01:59.312Z] info  cloudFoundryDeploy - multiapps             3.0.3     mta                           Display health and status for a multi-target app
+[2024-04-29T22:01:59.312Z] info  cloudFoundryDeploy - multiapps             3.0.3     mta-ops                       List multi-target app operations
+[2024-04-29T22:01:59.312Z] info  cloudFoundryDeploy - multiapps             3.0.3     mtas                          List all multi-target apps
+[2024-04-29T22:01:59.312Z] info  cloudFoundryDeploy - multiapps             3.0.3     purge-mta-config              Purge no longer valid configuration entries
+[2024-04-29T22:01:59.312Z] info  cloudFoundryDeploy - multiapps             3.0.3     undeploy                      Undeploy a multi-target app
+[2024-04-29T22:01:59.312Z] info  cloudFoundryDeploy - 
+[2024-04-29T22:01:59.313Z] info  cloudFoundryDeploy - Use 'cf repo-plugins' to list plugins in registered repos available to install.
+[2024-04-29T22:01:59.313Z] info  cloudFoundryDeploy - running command: cf deploy dancap.mtar -f --version-rule ALL
+[2024-04-29T22:01:59.313Z] info  cloudFoundryDeploy - Deploying multi-target app archive dancap.mtar in org db4cbbc2trial / space dev as ****...
+[2024-04-29T22:01:59.313Z] info  cloudFoundryDeploy - 
+[2024-04-29T22:01:59.574Z] info  cloudFoundryDeploy - Uploading 1 files...
+[2024-04-29T22:01:59.575Z] info  cloudFoundryDeploy -   /home/jenkins/agent/workspace/DanteCICD-Demo/dancap.mtar
+[2024-04-29T22:02:02.088Z] info  cloudFoundryDeploy - OK
+[2024-04-29T22:02:02.088Z] info  cloudFoundryDeploy - Operation ID: 1b6ee557-0674-11ef-8669-eeee0a963137
+[2024-04-29T22:02:08.624Z] info  cloudFoundryDeploy - Deploying in org "db4cbbc2trial" and space "dev"
+[2024-04-29T22:02:08.625Z] info  cloudFoundryDeploy - Detected MTA schema version: "3"
+[2024-04-29T22:02:08.625Z] info  cloudFoundryDeploy - Error merging descriptors: Unsupported module type "nodejsnpm ins" for platform type "CLOUD-FOUNDRY" 
+[2024-04-29T22:02:08.625Z] info  cloudFoundryDeploy - Process failed.
+[2024-04-29T22:02:08.625Z] info  cloudFoundryDeploy - Use "cf deploy -i 1b6ee557-0674-11ef-8669-eeee0a963137 -a abort" to abort the process.
+[2024-04-29T22:02:08.625Z] info  cloudFoundryDeploy - Use "cf deploy -i 1b6ee557-0674-11ef-8669-eeee0a963137 -a retry" to retry the process.
+[2024-04-29T22:02:08.625Z] info  cloudFoundryDeploy - Use "cf dmol -i 1b6ee557-0674-11ef-8669-eeee0a963137" to download the logs of the process.
+[2024-04-29T22:02:08.625Z] error cloudFoundryDeploy - Command '[deploy dancap.mtar -f --version-rule ALL]' failed. - running command 'cf' failed: cmd.Run() failed: exit status 1
+[2024-04-29T22:02:08.625Z] info  cloudFoundryDeploy - Logging out of Cloud Foundry
+[2024-04-29T22:02:08.626Z] info  cloudFoundryDeploy - running command: cf logout
+[2024-04-29T22:02:08.626Z] info  cloudFoundryDeploy - Logging out ****...
+[2024-04-29T22:02:08.626Z] info  cloudFoundryDeploy - OK
+[2024-04-29T22:02:08.626Z] info  cloudFoundryDeploy - 
+[2024-04-29T22:02:08.626Z] info  cloudFoundryDeploy - Logged out successfully
+[2024-04-29T22:02:08.626Z] info  cloudFoundryDeploy - ### START OF CF CLI TRACE OUTPUT ###
+[2024-04-29T22:02:08.626Z] info  cloudFoundryDeploy - REQUEST: [2024-04-29T22:01:58Z]
+[2024-04-29T22:02:08.627Z] info  cloudFoundryDeploy - GET / HTTP/1.1
+[2024-04-29T22:02:08.628Z] info  cloudFoundryDeploy - Host: api.cf.us10-001.hana.ondemand.com
+[2024-04-29T22:02:08.628Z] info  cloudFoundryDeploy - Accept: application/json
+[2024-04-29T22:02:08.628Z] info  cloudFoundryDeploy - Content-Type: application/json
+[2024-04-29T22:02:08.628Z] info  cloudFoundryDeploy - User-Agent: cf/8.7.1+9c81242.2023-06-15 (go1.20.5; amd64 linux)
+[2024-04-29T22:02:08.628Z] info  cloudFoundryDeploy - [application/json Content Hidden]
+[2024-04-29T22:02:08.628Z] info  cloudFoundryDeploy - 
+[2024-04-29T22:02:08.628Z] info  cloudFoundryDeploy - RESPONSE: [2024-04-29T22:01:58Z]
+[2024-04-29T22:02:08.628Z] info  cloudFoundryDeploy - HTTP/1.1 200 OK
+[2024-04-29T22:02:08.628Z] info  cloudFoundryDeploy - Content-Length: 1321
+[2024-04-29T22:02:08.628Z] info  cloudFoundryDeploy - Content-Type: application/json;charset=utf-8
+[2024-04-29T22:02:08.629Z] info  cloudFoundryDeploy - Date: Mon, 29 Apr 2024 22:01:58 GMT
+[2024-04-29T22:02:08.629Z] info  cloudFoundryDeploy - Server: nginx
+[2024-04-29T22:02:08.629Z] info  cloudFoundryDeploy - Strict-Transport-Security: max-age=31536000; includeSubDomains; preload;
+[2024-04-29T22:02:08.629Z] info  cloudFoundryDeploy - X-B3-Spanid: 46a677b1a7fbda1d
+[2024-04-29T22:02:08.629Z] info  cloudFoundryDeploy - X-B3-Traceid: 472e55df0dc345fe46a677b1a7fbda1d
+[2024-04-29T22:02:08.629Z] info  cloudFoundryDeploy - X-Content-Type-Options: nosniff
+[2024-04-29T22:02:08.629Z] info  cloudFoundryDeploy - X-Vcap-Request-Id: 472e55df-0dc3-45fe-46a6-77b1a7fbda1d::13ee7a0d-24fe-460b-a971-4e4e7467a32d
+[2024-04-29T22:02:08.629Z] info  cloudFoundryDeploy - {
+[2024-04-29T22:02:08.629Z] info  cloudFoundryDeploy -   "links": {
+[2024-04-29T22:02:08.629Z] info  cloudFoundryDeploy -     "app_ssh": {
+[2024-04-29T22:02:08.629Z] info  cloudFoundryDeploy -       "href": "ssh.cf.us10-001.hana.ondemand.com:2222",
+[2024-04-29T22:02:08.630Z] info  cloudFoundryDeploy -       "meta": {
+[2024-04-29T22:02:08.630Z] info  cloudFoundryDeploy -         "host_key_fingerprint": "hcFy2BOoeSTDj3tMa7u4kAZ+mp70Ky4Ocfm9u5/y03A",
+[2024-04-29T22:02:08.630Z] info  cloudFoundryDeploy -         "oauth_client": "ssh-proxy"
+[2024-04-29T22:02:08.630Z] info  cloudFoundryDeploy -       }
+[2024-04-29T22:02:08.630Z] info  cloudFoundryDeploy -     },
+[2024-04-29T22:02:08.630Z] info  cloudFoundryDeploy -     "cloud_controller_v2": {
+[2024-04-29T22:02:08.630Z] info  cloudFoundryDeploy -       "href": "https://api.cf.us10-001.hana.ondemand.com/v2",
+[2024-04-29T22:02:08.630Z] info  cloudFoundryDeploy -       "meta": {
+[2024-04-29T22:02:08.630Z] info  cloudFoundryDeploy -         "version": "2.224.0"
+[2024-04-29T22:02:08.630Z] info  cloudFoundryDeploy -       }
+[2024-04-29T22:02:08.631Z] info  cloudFoundryDeploy -     },
+[2024-04-29T22:02:08.631Z] info  cloudFoundryDeploy -     "cloud_controller_v3": {
+[2024-04-29T22:02:08.631Z] info  cloudFoundryDeploy -       "href": "https://api.cf.us10-001.hana.ondemand.com/v3",
+[2024-04-29T22:02:08.631Z] info  cloudFoundryDeploy -       "meta": {
+[2024-04-29T22:02:08.631Z] info  cloudFoundryDeploy -         "version": "3.159.0"
+[2024-04-29T22:02:08.631Z] info  cloudFoundryDeploy -       }
+[2024-04-29T22:02:08.631Z] info  cloudFoundryDeploy -     },
+[2024-04-29T22:02:08.631Z] info  cloudFoundryDeploy -     "credhub": null,
+[2024-04-29T22:02:08.631Z] info  cloudFoundryDeploy -     "log_cache": {
+[2024-04-29T22:02:08.631Z] info  cloudFoundryDeploy -       "href": "https://log-cache.cf.us10-001.hana.ondemand.com"
+[2024-04-29T22:02:08.631Z] info  cloudFoundryDeploy -     },
+[2024-04-29T22:02:08.631Z] info  cloudFoundryDeploy -     "log_stream": {
+[2024-04-29T22:02:08.632Z] info  cloudFoundryDeploy -       "href": "https://log-stream.cf.us10-001.hana.ondemand.com"
+[2024-04-29T22:02:08.632Z] info  cloudFoundryDeploy -     },
+[2024-04-29T22:02:08.632Z] info  cloudFoundryDeploy -     "logging": {
+[2024-04-29T22:02:08.632Z] info  cloudFoundryDeploy -       "href": "wss://doppler.cf.us10-001.hana.ondemand.com:443"
+[2024-04-29T22:02:08.632Z] info  cloudFoundryDeploy -     },
+[2024-04-29T22:02:08.632Z] info  cloudFoundryDeploy -     "login": {
+[2024-04-29T22:02:08.632Z] info  cloudFoundryDeploy -       "href": "https://login.cf.us10-001.hana.ondemand.com"
+[2024-04-29T22:02:08.632Z] info  cloudFoundryDeploy -     },
+[2024-04-29T22:02:08.633Z] info  cloudFoundryDeploy -     "network_policy_v0": {
+[2024-04-29T22:02:08.633Z] info  cloudFoundryDeploy -       "href": "https://api.cf.us10-001.hana.ondemand.com/networking/v0/external"
+[2024-04-29T22:02:08.633Z] info  cloudFoundryDeploy -     },
+[2024-04-29T22:02:08.633Z] info  cloudFoundryDeploy -     "network_policy_v1": {
+[2024-04-29T22:02:08.633Z] info  cloudFoundryDeploy -       "href": "https://api.cf.us10-001.hana.ondemand.com/networking/v1/external"
+[2024-04-29T22:02:08.633Z] info  cloudFoundryDeploy -     },
+[2024-04-29T22:02:08.634Z] info  cloudFoundryDeploy -     "routing": null,
+[2024-04-29T22:02:08.634Z] info  cloudFoundryDeploy -     "self": {
+[2024-04-29T22:02:08.634Z] info  cloudFoundryDeploy -       "href": "https://api.cf.us10-001.hana.ondemand.com"
+[2024-04-29T22:02:08.634Z] info  cloudFoundryDeploy -     },
+[2024-04-29T22:02:08.634Z] info  cloudFoundryDeploy -     "uaa": {
+[2024-04-29T22:02:08.635Z] info  cloudFoundryDeploy -       "href": "https://uaa.cf.us10-001.hana.ondemand.com"
+[2024-04-29T22:02:08.635Z] info  cloudFoundryDeploy -     }
+[2024-04-29T22:02:08.635Z] info  cloudFoundryDeploy -   }
+[2024-04-29T22:02:08.635Z] info  cloudFoundryDeploy - }
+[2024-04-29T22:02:08.635Z] info  cloudFoundryDeploy - 
+[2024-04-29T22:02:08.635Z] info  cloudFoundryDeploy - REQUEST: [2024-04-29T22:01:58Z]
+[2024-04-29T22:02:08.635Z] info  cloudFoundryDeploy - GET /login HTTP/1.1
+[2024-04-29T22:02:08.636Z] info  cloudFoundryDeploy - Host: login.cf.us10-001.hana.ondemand.com
+[2024-04-29T22:02:08.636Z] info  cloudFoundryDeploy - Accept: application/json
+[2024-04-29T22:02:08.636Z] info  cloudFoundryDeploy - Authorization: [PRIVATE DATA HIDDEN]
+[2024-04-29T22:02:08.636Z] info  cloudFoundryDeploy - Connection: close
+[2024-04-29T22:02:08.636Z] info  cloudFoundryDeploy - User-Agent: cf/8.7.1+9c81242.2023-06-15 (go1.20.5; amd64 linux)
+[2024-04-29T22:02:08.636Z] info  cloudFoundryDeploy - 
+[2024-04-29T22:02:08.636Z] info  cloudFoundryDeploy - RESPONSE: [2024-04-29T22:01:58Z]
+[2024-04-29T22:02:08.636Z] info  cloudFoundryDeploy - HTTP/1.1 200 OK
+[2024-04-29T22:02:08.636Z] info  cloudFoundryDeploy - Cache-Control: no-store
+[2024-04-29T22:02:08.636Z] info  cloudFoundryDeploy - Content-Language: en-US
+[2024-04-29T22:02:08.636Z] info  cloudFoundryDeploy - Content-Security-Policy: script-src 'self'
+[2024-04-29T22:02:08.636Z] info  cloudFoundryDeploy - Content-Type: application/json;charset=UTF-8
+[2024-04-29T22:02:08.636Z] info  cloudFoundryDeploy - Date: Mon, 29 Apr 2024 22:01:58 GMT
+[2024-04-29T22:02:08.637Z] info  cloudFoundryDeploy - Set-Cookie: [PRIVATE DATA HIDDEN]
+[2024-04-29T22:02:08.637Z] info  cloudFoundryDeploy - Strict-Transport-Security: max-age=31536000; includeSubDomains; preload;
+[2024-04-29T22:02:08.637Z] info  cloudFoundryDeploy - X-Content-Type-Options: nosniff
+[2024-04-29T22:02:08.638Z] info  cloudFoundryDeploy - X-Frame-Options: DENY
+[2024-04-29T22:02:08.638Z] info  cloudFoundryDeploy - X-Vcap-Request-Id: 751d4f73-2b5d-4029-64ce-8a30b0dfa6af
+[2024-04-29T22:02:08.638Z] info  cloudFoundryDeploy - X-Xss-Protection: 1; mode=block
+[2024-04-29T22:02:08.638Z] info  cloudFoundryDeploy - {
+[2024-04-29T22:02:08.638Z] info  cloudFoundryDeploy -   "app": {
+[2024-04-29T22:02:08.638Z] info  cloudFoundryDeploy -     "version": "77.3.0"
+[2024-04-29T22:02:08.638Z] info  cloudFoundryDeploy -   },
+[2024-04-29T22:02:08.638Z] info  cloudFoundryDeploy -   "commit_id": "6c8e2f5",
+[2024-04-29T22:02:08.638Z] info  cloudFoundryDeploy -   "defaultIdpName": "sap.ids",
+[2024-04-29T22:02:08.638Z] info  cloudFoundryDeploy -   "entityID": "login.cf.us10-001.hana.ondemand.com",
+[2024-04-29T22:02:08.638Z] info  cloudFoundryDeploy -   "idpDefinitions": {},
+[2024-04-29T22:02:08.639Z] info  cloudFoundryDeploy -   "links": {
+[2024-04-29T22:02:08.639Z] info  cloudFoundryDeploy -     "login": "https://login.cf.us10-001.hana.ondemand.com",
+[2024-04-29T22:02:08.639Z] info  cloudFoundryDeploy -     "uaa": "https://uaa.cf.us10-001.hana.ondemand.com"
+[2024-04-29T22:02:08.639Z] info  cloudFoundryDeploy -   },
+[2024-04-29T22:02:08.639Z] info  cloudFoundryDeploy -   "prompts": {
+[2024-04-29T22:02:08.639Z] info  cloudFoundryDeploy -     "passcode": [
+[2024-04-29T22:02:08.639Z] info  cloudFoundryDeploy -       "password",
+[2024-04-29T22:02:08.639Z] info  cloudFoundryDeploy -       "Temporary Authentication Code ( Get one at https://login.cf.us10-001.hana.ondemand.com/passcode )"
+[2024-04-29T22:02:08.639Z] info  cloudFoundryDeploy -     ],
+[2024-04-29T22:02:08.639Z] info  cloudFoundryDeploy -     "password": "[PRIVATE DATA HIDDEN]",
+[2024-04-29T22:02:08.639Z] info  cloudFoundryDeploy -     "username": [
+[2024-04-29T22:02:08.639Z] info  cloudFoundryDeploy -       "text",
+[2024-04-29T22:02:08.640Z] info  cloudFoundryDeploy -       "Email"
+[2024-04-29T22:02:08.640Z] info  cloudFoundryDeploy -     ]
+[2024-04-29T22:02:08.640Z] info  cloudFoundryDeploy -   },
+[2024-04-29T22:02:08.640Z] info  cloudFoundryDeploy -   "showLoginLinks": true,
+[2024-04-29T22:02:08.640Z] info  cloudFoundryDeploy -   "timestamp": "2024-03-19T19:07:00+0000",
+[2024-04-29T22:02:08.640Z] info  cloudFoundryDeploy -   "zone_name": "uaa"
+[2024-04-29T22:02:08.640Z] info  cloudFoundryDeploy - }
+[2024-04-29T22:02:08.641Z] info  cloudFoundryDeploy - 
+[2024-04-29T22:02:08.641Z] info  cloudFoundryDeploy - REQUEST: [2024-04-29T22:01:58Z]
+[2024-04-29T22:02:08.641Z] info  cloudFoundryDeploy - POST /oauth/token HTTP/1.1
+[2024-04-29T22:02:08.641Z] info  cloudFoundryDeploy - Host: login.cf.us10-001.hana.ondemand.com
+[2024-04-29T22:02:08.641Z] info  cloudFoundryDeploy - Accept: application/json
+[2024-04-29T22:02:08.641Z] info  cloudFoundryDeploy - Authorization: [PRIVATE DATA HIDDEN]
+[2024-04-29T22:02:08.641Z] info  cloudFoundryDeploy - Connection: close
+[2024-04-29T22:02:08.641Z] info  cloudFoundryDeploy - Content-Type: application/x-www-form-urlencoded
+[2024-04-29T22:02:08.641Z] info  cloudFoundryDeploy - User-Agent: cf/8.7.1+9c81242.2023-06-15 (go1.20.5; amd64 linux)
+[2024-04-29T22:02:08.642Z] info  cloudFoundryDeploy - [PRIVATE DATA HIDDEN]
+[2024-04-29T22:02:08.642Z] info  cloudFoundryDeploy - RESPONSE: [2024-04-29T22:01:59Z]
+[2024-04-29T22:02:08.642Z] info  cloudFoundryDeploy - HTTP/1.1 200 OK
+[2024-04-29T22:02:08.642Z] info  cloudFoundryDeploy - Cache-Control: no-store
+[2024-04-29T22:02:08.642Z] info  cloudFoundryDeploy - Content-Security-Policy: script-src 'self'
+[2024-04-29T22:02:08.642Z] info  cloudFoundryDeploy - Content-Type: application/json;charset=UTF-8
+[2024-04-29T22:02:08.642Z] info  cloudFoundryDeploy - Date: Mon, 29 Apr 2024 22:01:59 GMT
+[2024-04-29T22:02:08.643Z] info  cloudFoundryDeploy - Pragma: no-cache
+[2024-04-29T22:02:08.643Z] info  cloudFoundryDeploy - Set-Cookie: [PRIVATE DATA HIDDEN]
+[2024-04-29T22:02:08.643Z] info  cloudFoundryDeploy - Set-Cookie: [PRIVATE DATA HIDDEN]
+[2024-04-29T22:02:08.643Z] info  cloudFoundryDeploy - Strict-Transport-Security: max-age=31536000; includeSubDomains; preload;
+[2024-04-29T22:02:08.643Z] info  cloudFoundryDeploy - X-Content-Type-Options: nosniff
+[2024-04-29T22:02:08.644Z] info  cloudFoundryDeploy - X-Frame-Options: DENY
+[2024-04-29T22:02:08.644Z] info  cloudFoundryDeploy - X-Vcap-Request-Id: 87035a7d-dec1-4f97-5e7d-0b1e28f9a890
+[2024-04-29T22:02:08.644Z] info  cloudFoundryDeploy - X-Xss-Protection: 1; mode=block
+[2024-04-29T22:02:08.644Z] info  cloudFoundryDeploy - {
+[2024-04-29T22:02:08.644Z] info  cloudFoundryDeploy -   "access_token": "[PRIVATE DATA HIDDEN]",
+[2024-04-29T22:02:08.644Z] info  cloudFoundryDeploy -   "expires_in": 1199,
+[2024-04-29T22:02:08.644Z] info  cloudFoundryDeploy -   "id_token": "[PRIVATE DATA HIDDEN]",
+[2024-04-29T22:02:08.645Z] info  cloudFoundryDeploy -   "jti": "56d08d7975a44831b52131d6cac5eed3",
+[2024-04-29T22:02:08.645Z] info  cloudFoundryDeploy -   "refresh_token": "[PRIVATE DATA HIDDEN]",
+[2024-04-29T22:02:08.645Z] info  cloudFoundryDeploy -   "scope": "openid uaa.user cloud_controller.read password.write cloud_controller.write",
+[2024-04-29T22:02:08.645Z] info  cloudFoundryDeploy -   "token_type": "[PRIVATE DATA HIDDEN]"
+[2024-04-29T22:02:08.645Z] info  cloudFoundryDeploy - }
+[2024-04-29T22:02:08.645Z] info  cloudFoundryDeploy - 
+[2024-04-29T22:02:08.646Z] info  cloudFoundryDeploy - REQUEST: [2024-04-29T22:01:59Z]
+[2024-04-29T22:02:08.646Z] info  cloudFoundryDeploy - GET /v3/organizations?names=db4cbbc2trial HTTP/1.1
+[2024-04-29T22:02:08.646Z] info  cloudFoundryDeploy - Host: api.cf.us10-001.hana.ondemand.com
+[2024-04-29T22:02:08.646Z] info  cloudFoundryDeploy - Accept: application/json
+[2024-04-29T22:02:08.646Z] info  cloudFoundryDeploy - Authorization: [PRIVATE DATA HIDDEN]
+[2024-04-29T22:02:08.647Z] info  cloudFoundryDeploy - Content-Type: application/json
+[2024-04-29T22:02:08.647Z] info  cloudFoundryDeploy - User-Agent: cf/8.7.1+9c81242.2023-06-15 (go1.20.5; amd64 linux)
+[2024-04-29T22:02:08.648Z] info  cloudFoundryDeploy - [application/json Content Hidden]
+[2024-04-29T22:02:08.648Z] info  cloudFoundryDeploy - 
+[2024-04-29T22:02:08.648Z] info  cloudFoundryDeploy - RESPONSE: [2024-04-29T22:01:59Z]
+[2024-04-29T22:02:08.648Z] info  cloudFoundryDeploy - HTTP/1.1 200 OK
+[2024-04-29T22:02:08.648Z] info  cloudFoundryDeploy - Content-Type: application/json; charset=utf-8
+[2024-04-29T22:02:08.648Z] info  cloudFoundryDeploy - Date: Mon, 29 Apr 2024 22:01:59 GMT
+[2024-04-29T22:02:08.648Z] info  cloudFoundryDeploy - Referrer-Policy: strict-origin-when-cross-origin
+[2024-04-29T22:02:08.649Z] info  cloudFoundryDeploy - Server: nginx
+[2024-04-29T22:02:08.649Z] info  cloudFoundryDeploy - Strict-Transport-Security: max-age=31536000; includeSubDomains; preload;
+[2024-04-29T22:02:08.649Z] info  cloudFoundryDeploy - Vary: Accept
+[2024-04-29T22:02:08.649Z] info  cloudFoundryDeploy - X-B3-Spanid: 481aeae222f16ca7
+[2024-04-29T22:02:08.649Z] info  cloudFoundryDeploy - X-B3-Traceid: 320541988d9a41d6481aeae222f16ca7
+[2024-04-29T22:02:08.649Z] info  cloudFoundryDeploy - X-Content-Type-Options: nosniff
+[2024-04-29T22:02:08.649Z] info  cloudFoundryDeploy - X-Download-Options: noopen
+[2024-04-29T22:02:08.649Z] info  cloudFoundryDeploy - X-Frame-Options: SAMEORIGIN
+[2024-04-29T22:02:08.649Z] info  cloudFoundryDeploy - X-Permitted-Cross-Domain-Policies: none
+[2024-04-29T22:02:08.650Z] info  cloudFoundryDeploy - X-Ratelimit-Limit: 20000
+[2024-04-29T22:02:08.651Z] info  cloudFoundryDeploy - X-Ratelimit-Remaining: 18000
+[2024-04-29T22:02:08.651Z] info  cloudFoundryDeploy - X-Ratelimit-Reset: 1714428800
+[2024-04-29T22:02:08.651Z] info  cloudFoundryDeploy - X-Runtime: 0.020322
+[2024-04-29T22:02:08.651Z] info  cloudFoundryDeploy - X-Vcap-Request-Id: 32054198-8d9a-41d6-481a-eae222f16ca7::9388a151-8fdf-4726-bb36-a71bdaa5d05b
+[2024-04-29T22:02:08.651Z] info  cloudFoundryDeploy - X-Xss-Protection: 1; mode=block
+[2024-04-29T22:02:08.651Z] info  cloudFoundryDeploy - {
+[2024-04-29T22:02:08.651Z] info  cloudFoundryDeploy -   "pagination": {
+[2024-04-29T22:02:08.651Z] info  cloudFoundryDeploy -     "first": {
+[2024-04-29T22:02:08.651Z] info  cloudFoundryDeploy -       "href": "https://api.cf.us10-001.hana.ondemand.com/v3/organizations?names=db4cbbc2trial&page=1&per_page=50"
+[2024-04-29T22:02:08.652Z] info  cloudFoundryDeploy -     },
+[2024-04-29T22:02:08.652Z] info  cloudFoundryDeploy -     "last": {
+[2024-04-29T22:02:08.652Z] info  cloudFoundryDeploy -       "href": "https://api.cf.us10-001.hana.ondemand.com/v3/organizations?names=db4cbbc2trial&page=1&per_page=50"
+[2024-04-29T22:02:08.652Z] info  cloudFoundryDeploy -     },
+[2024-04-29T22:02:08.652Z] info  cloudFoundryDeploy -     "next": null,
+[2024-04-29T22:02:08.652Z] info  cloudFoundryDeploy -     "previous": null,
+[2024-04-29T22:02:08.652Z] info  cloudFoundryDeploy -     "total_pages": 1,
+[2024-04-29T22:02:08.652Z] info  cloudFoundryDeploy -     "total_results": 1
+[2024-04-29T22:02:08.652Z] info  cloudFoundryDeploy -   },
+[2024-04-29T22:02:08.652Z] info  cloudFoundryDeploy -   "resources": [
+[2024-04-29T22:02:08.652Z] info  cloudFoundryDeploy -     {
+[2024-04-29T22:02:08.652Z] info  cloudFoundryDeploy -       "created_at": "2024-04-27T03:03:37Z",
+[2024-04-29T22:02:08.653Z] info  cloudFoundryDeploy -       "guid": "db107160-161c-44b0-a690-46cf48be191b",
+[2024-04-29T22:02:08.653Z] info  cloudFoundryDeploy -       "links": {
+[2024-04-29T22:02:08.653Z] info  cloudFoundryDeploy -         "default_domain": {
+[2024-04-29T22:02:08.653Z] info  cloudFoundryDeploy -           "href": "https://api.cf.us10-001.hana.ondemand.com/v3/organizations/db107160-161c-44b0-a690-46cf48be191b/domains/default"
+[2024-04-29T22:02:08.653Z] info  cloudFoundryDeploy -         },
+[2024-04-29T22:02:08.653Z] info  cloudFoundryDeploy -         "domains": {
+[2024-04-29T22:02:08.653Z] info  cloudFoundryDeploy -           "href": "https://api.cf.us10-001.hana.ondemand.com/v3/organizations/db107160-161c-44b0-a690-46cf48be191b/domains"
+[2024-04-29T22:02:08.653Z] info  cloudFoundryDeploy -         },
+[2024-04-29T22:02:08.654Z] info  cloudFoundryDeploy -         "quota": {
+[2024-04-29T22:02:08.654Z] info  cloudFoundryDeploy -           "href": "https://api.cf.us10-001.hana.ondemand.com/v3/organization_quotas/f4d9bff1-901d-48b3-91cc-f8a4b1306604"
+[2024-04-29T22:02:08.654Z] info  cloudFoundryDeploy -         },
+[2024-04-29T22:02:08.654Z] info  cloudFoundryDeploy -         "self": {
+[2024-04-29T22:02:08.654Z] info  cloudFoundryDeploy -           "href": "https://api.cf.us10-001.hana.ondemand.com/v3/organizations/db107160-161c-44b0-a690-46cf48be191b"
+[2024-04-29T22:02:08.654Z] info  cloudFoundryDeploy -         }
+[2024-04-29T22:02:08.654Z] info  cloudFoundryDeploy -       },
+[2024-04-29T22:02:08.654Z] info  cloudFoundryDeploy -       "metadata": {
+[2024-04-29T22:02:08.654Z] info  cloudFoundryDeploy -         "annotations": {},
+[2024-04-29T22:02:08.654Z] info  cloudFoundryDeploy -         "labels": {}
+[2024-04-29T22:02:08.654Z] info  cloudFoundryDeploy -       },
+[2024-04-29T22:02:08.655Z] info  cloudFoundryDeploy -       "name": "db4cbbc2trial",
+[2024-04-29T22:02:08.655Z] info  cloudFoundryDeploy -       "relationships": {
+[2024-04-29T22:02:08.655Z] info  cloudFoundryDeploy -         "quota": {
+[2024-04-29T22:02:08.655Z] info  cloudFoundryDeploy -           "data": {
+[2024-04-29T22:02:08.655Z] info  cloudFoundryDeploy -             "guid": "f4d9bff1-901d-48b3-91cc-f8a4b1306604"
+[2024-04-29T22:02:08.655Z] info  cloudFoundryDeploy -           }
+[2024-04-29T22:02:08.655Z] info  cloudFoundryDeploy -         }
+[2024-04-29T22:02:08.655Z] info  cloudFoundryDeploy -       },
+[2024-04-29T22:02:08.656Z] info  cloudFoundryDeploy -       "suspended": false,
+[2024-04-29T22:02:08.656Z] info  cloudFoundryDeploy -       "updated_at": "2024-04-27T03:03:38Z"
+[2024-04-29T22:02:08.656Z] info  cloudFoundryDeploy -     }
+[2024-04-29T22:02:08.656Z] info  cloudFoundryDeploy -   ]
+[2024-04-29T22:02:08.656Z] info  cloudFoundryDeploy - }
+[2024-04-29T22:02:08.656Z] info  cloudFoundryDeploy - 
+[2024-04-29T22:02:08.656Z] info  cloudFoundryDeploy - REQUEST: [2024-04-29T22:01:59Z]
+[2024-04-29T22:02:08.656Z] info  cloudFoundryDeploy - GET /v3/spaces?names=dev&organization_guids=db107160-161c-44b0-a690-46cf48be191b HTTP/1.1
+[2024-04-29T22:02:08.656Z] info  cloudFoundryDeploy - Host: api.cf.us10-001.hana.ondemand.com
+[2024-04-29T22:02:08.656Z] info  cloudFoundryDeploy - Accept: application/json
+[2024-04-29T22:02:08.680Z] info  cloudFoundryDeploy - Authorization: [PRIVATE DATA HIDDEN]
+[2024-04-29T22:02:08.680Z] info  cloudFoundryDeploy - Content-Type: application/json
+[2024-04-29T22:02:08.680Z] info  cloudFoundryDeploy - User-Agent: cf/8.7.1+9c81242.2023-06-15 (go1.20.5; amd64 linux)
+[2024-04-29T22:02:08.680Z] info  cloudFoundryDeploy - [application/json Content Hidden]
+[2024-04-29T22:02:08.680Z] info  cloudFoundryDeploy - 
+[2024-04-29T22:02:08.681Z] info  cloudFoundryDeploy - RESPONSE: [2024-04-29T22:01:59Z]
+[2024-04-29T22:02:08.681Z] info  cloudFoundryDeploy - HTTP/1.1 200 OK
+[2024-04-29T22:02:08.681Z] info  cloudFoundryDeploy - Content-Type: application/json; charset=utf-8
+[2024-04-29T22:02:08.681Z] info  cloudFoundryDeploy - Date: Mon, 29 Apr 2024 22:01:59 GMT
+[2024-04-29T22:02:08.681Z] info  cloudFoundryDeploy - Referrer-Policy: strict-origin-when-cross-origin
+[2024-04-29T22:02:08.681Z] info  cloudFoundryDeploy - Server: nginx
+[2024-04-29T22:02:08.681Z] info  cloudFoundryDeploy - Strict-Transport-Security: max-age=31536000; includeSubDomains; preload;
+[2024-04-29T22:02:08.681Z] info  cloudFoundryDeploy - Vary: Accept
+[2024-04-29T22:02:08.681Z] info  cloudFoundryDeploy - X-B3-Spanid: 6665438aa6ffb713
+[2024-04-29T22:02:08.681Z] info  cloudFoundryDeploy - X-B3-Traceid: 99a77bbc141445566665438aa6ffb713
+[2024-04-29T22:02:08.681Z] info  cloudFoundryDeploy - X-Content-Type-Options: nosniff
+[2024-04-29T22:02:08.681Z] info  cloudFoundryDeploy - X-Download-Options: noopen
+[2024-04-29T22:02:08.681Z] info  cloudFoundryDeploy - X-Frame-Options: SAMEORIGIN
+[2024-04-29T22:02:08.681Z] info  cloudFoundryDeploy - X-Permitted-Cross-Domain-Policies: none
+[2024-04-29T22:02:08.681Z] info  cloudFoundryDeploy - X-Ratelimit-Limit: 20000
+[2024-04-29T22:02:08.681Z] info  cloudFoundryDeploy - X-Ratelimit-Remaining: 18000
+[2024-04-29T22:02:08.681Z] info  cloudFoundryDeploy - X-Ratelimit-Reset: 1714428800
+[2024-04-29T22:02:08.681Z] info  cloudFoundryDeploy - X-Runtime: 0.036998
+[2024-04-29T22:02:08.681Z] info  cloudFoundryDeploy - X-Vcap-Request-Id: 99a77bbc-1414-4556-6665-438aa6ffb713::4c9589f3-b52f-487e-8c0d-86daa9e3f2e6
+[2024-04-29T22:02:08.682Z] info  cloudFoundryDeploy - X-Xss-Protection: 1; mode=block
+[2024-04-29T22:02:08.682Z] info  cloudFoundryDeploy - {
+[2024-04-29T22:02:08.682Z] info  cloudFoundryDeploy -   "pagination": {
+[2024-04-29T22:02:08.682Z] info  cloudFoundryDeploy -     "first": {
+[2024-04-29T22:02:08.682Z] info  cloudFoundryDeploy -       "href": "https://api.cf.us10-001.hana.ondemand.com/v3/spaces?names=dev&organization_guids=db107160-161c-44b0-a690-46cf48be191b&page=1&per_page=50"
+[2024-04-29T22:02:08.682Z] info  cloudFoundryDeploy -     },
+[2024-04-29T22:02:08.726Z] info  cloudFoundryDeploy -     "last": {
+[2024-04-29T22:02:08.726Z] info  cloudFoundryDeploy -       "href": "https://api.cf.us10-001.hana.ondemand.com/v3/spaces?names=dev&organization_guids=db107160-161c-44b0-a690-46cf48be191b&page=1&per_page=50"
+[2024-04-29T22:02:08.726Z] info  cloudFoundryDeploy -     },
+[2024-04-29T22:02:08.726Z] info  cloudFoundryDeploy -     "next": null,
+[2024-04-29T22:02:08.726Z] info  cloudFoundryDeploy -     "previous": null,
+[2024-04-29T22:02:08.727Z] info  cloudFoundryDeploy -     "total_pages": 1,
+[2024-04-29T22:02:08.727Z] info  cloudFoundryDeploy -     "total_results": 1
+[2024-04-29T22:02:08.727Z] info  cloudFoundryDeploy -   },
+[2024-04-29T22:02:08.727Z] info  cloudFoundryDeploy -   "resources": [
+[2024-04-29T22:02:08.727Z] info  cloudFoundryDeploy -     {
+[2024-04-29T22:02:08.727Z] info  cloudFoundryDeploy -       "created_at": "2024-04-27T03:03:39Z",
+[2024-04-29T22:02:08.727Z] info  cloudFoundryDeploy -       "guid": "e0c8df71-e3c1-4514-903d-fb93078d8c18",
+[2024-04-29T22:02:08.727Z] info  cloudFoundryDeploy -       "links": {
+[2024-04-29T22:02:08.727Z] info  cloudFoundryDeploy -         "apply_manifest": {
+[2024-04-29T22:02:08.728Z] info  cloudFoundryDeploy -           "href": "https://api.cf.us10-001.hana.ondemand.com/v3/spaces/e0c8df71-e3c1-4514-903d-fb93078d8c18/actions/apply_manifest",
+[2024-04-29T22:02:08.728Z] info  cloudFoundryDeploy -           "method": "POST"
+[2024-04-29T22:02:08.728Z] info  cloudFoundryDeploy -         },
+[2024-04-29T22:02:08.728Z] info  cloudFoundryDeploy -         "features": {
+[2024-04-29T22:02:08.729Z] info  cloudFoundryDeploy -           "href": "https://api.cf.us10-001.hana.ondemand.com/v3/spaces/e0c8df71-e3c1-4514-903d-fb93078d8c18/features"
+[2024-04-29T22:02:08.729Z] info  cloudFoundryDeploy -         },
+[2024-04-29T22:02:08.729Z] info  cloudFoundryDeploy -         "organization": {
+[2024-04-29T22:02:08.729Z] info  cloudFoundryDeploy -           "href": "https://api.cf.us10-001.hana.ondemand.com/v3/organizations/db107160-161c-44b0-a690-46cf48be191b"
+[2024-04-29T22:02:08.729Z] info  cloudFoundryDeploy -         },
+[2024-04-29T22:02:08.729Z] info  cloudFoundryDeploy -         "self": {
+[2024-04-29T22:02:08.729Z] info  cloudFoundryDeploy -           "href": "https://api.cf.us10-001.hana.ondemand.com/v3/spaces/e0c8df71-e3c1-4514-903d-fb93078d8c18"
+[2024-04-29T22:02:08.729Z] info  cloudFoundryDeploy -         }
+[2024-04-29T22:02:08.729Z] info  cloudFoundryDeploy -       },
+[2024-04-29T22:02:08.729Z] info  cloudFoundryDeploy -       "metadata": {
+[2024-04-29T22:02:08.729Z] info  cloudFoundryDeploy -         "annotations": {},
+[2024-04-29T22:02:08.730Z] info  cloudFoundryDeploy -         "labels": {}
+[2024-04-29T22:02:08.730Z] info  cloudFoundryDeploy -       },
+[2024-04-29T22:02:08.730Z] info  cloudFoundryDeploy -       "name": "dev",
+[2024-04-29T22:02:08.730Z] info  cloudFoundryDeploy -       "relationships": {
+[2024-04-29T22:02:08.730Z] info  cloudFoundryDeploy -         "organization": {
+[2024-04-29T22:02:08.730Z] info  cloudFoundryDeploy -           "data": {
+[2024-04-29T22:02:08.730Z] info  cloudFoundryDeploy -             "guid": "db107160-161c-44b0-a690-46cf48be191b"
+[2024-04-29T22:02:08.730Z] info  cloudFoundryDeploy -           }
+[2024-04-29T22:02:08.730Z] info  cloudFoundryDeploy -         },
+[2024-04-29T22:02:08.731Z] info  cloudFoundryDeploy -         "quota": {
+[2024-04-29T22:02:08.731Z] info  cloudFoundryDeploy -           "data": null
+[2024-04-29T22:02:08.731Z] info  cloudFoundryDeploy -         }
+[2024-04-29T22:02:08.731Z] info  cloudFoundryDeploy -       },
+[2024-04-29T22:02:08.731Z] info  cloudFoundryDeploy -       "updated_at": "2024-04-27T03:03:39Z"
+[2024-04-29T22:02:08.731Z] info  cloudFoundryDeploy -     }
+[2024-04-29T22:02:08.732Z] info  cloudFoundryDeploy -   ]
+[2024-04-29T22:02:08.732Z] info  cloudFoundryDeploy - }
+[2024-04-29T22:02:08.732Z] info  cloudFoundryDeploy - 
+[2024-04-29T22:02:08.732Z] info  cloudFoundryDeploy - 
+[2024-04-29T22:02:08.732Z] info  cloudFoundryDeploy - ### END OF CF CLI TRACE OUTPUT ###
+[2024-04-29T22:02:08.732Z] info  cloudFoundryDeploy - fatal error: errorDetails{"category":"undefined","correlationId":"n/a","error":"running command 'cf' failed: cmd.Run() failed: exit status 1","library":"SAP/jenkins-library","message":"step execution failed: running command 'cf' failed: cmd.Run() failed: exit status 1","result":"failure","stepName":"cloudFoundryDeploy","time":"2024-04-29T22:02:07.951710752Z"}
+[2024-04-29T22:02:08.732Z] fatal cloudFoundryDeploy - step execution failed: running command 'cf' failed: cmd.Run() failed: exit status 1 - running command 'cf' failed: cmd.Run() failed: exit status 1
+[2024-04-29T22:02:08.733Z] info  cloudFoundryDeploy - Step telemetry data:{"StepStartTime":"2024-04-29 22:01:58.033318537 +0000 UTC","PipelineURLHash":"50f013532a9770a2c2cfdc38b7581dd01df69b70","BuildURLHash":"50f013532a9770a2c2cfdc38b7581dd01df69b70","StageName":"Release","StepName":"cloudFoundryDeploy","ErrorCode":"1","StepDuration":"9919","ErrorCategory":"undefined","CorrelationID":"n/a","PiperCommitHash":"3ae51e266142877d03c7f4dda5fe21668ba590dd","ErrorDetail":{"category":"undefined","correlationId":"n/a","error":"running command 'cf' failed: cmd.Run() failed: exit status 1","library":"SAP/jenkins-library","message":"step execution failed: running command 'cf' failed: cmd.Run() failed: exit status 1","result":"failure","stepName":"cloudFoundryDeploy","time":"2024-04-29T22:02:07.951710752Z"}}
+[2024-04-29T22:02:09.496Z] + ./piper readPipelineEnv
+[2024-04-29T22:02:09.497Z] time="2024-04-29T22:02:09Z" level=info msg="Version 3ae51e266142877d03c7f4dda5fe21668ba590dd" library=SAP/jenkins-library
+[2024-04-29T22:02:09.543Z] Transfer Influx data
+[2024-04-29T22:02:09.643Z] Reading file from disk: .pipeline/influx/deployment_data/fields/artifactUrl
+[2024-04-29T22:02:09.697Z] Reading file from disk: .pipeline/influx/deployment_data/fields/deployTime
+[2024-04-29T22:02:09.743Z] Reading file from disk: .pipeline/influx/deployment_data/fields/jobTrigger
+[2024-04-29T22:02:09.782Z] Reading file from disk: .pipeline/influx/deployment_data/tags/cfApiEndpoint
+[2024-04-29T22:02:09.821Z] Reading file from disk: .pipeline/influx/deployment_data/tags/cfOrg
+[2024-04-29T22:02:09.859Z] Reading file from disk: .pipeline/influx/deployment_data/tags/cfSpace
+[2024-04-29T22:02:09.897Z] Reading file from disk: .pipeline/influx/deployment_data/tags/deployResult
+[2024-04-29T22:02:09.937Z] Reading file from disk: .pipeline/influx/deployment_data/tags/deployUser
+[2024-04-29T22:02:09.977Z] Stash content: pipelineStepReports (includes: .pipeline/stepReports/**, excludes: , useDefaultExcludes: true, allowEmpty: true)
+[2024-04-29T22:02:09.992Z] Warning: overwriting stash ‘pipelineStepReports’
+[2024-04-29T22:02:10.010Z] Stashed 0 file(s)
+[2024-04-29T22:02:10.808Z] Stash content: container-5f33b092-6ffa-41ad-9bed-80fe007cf3ee (includes: **/*, excludes: **/node_modules/**,nohup.out,.git/**, useDefaultExcludes: true, allowEmpty: true)
+[2024-04-29T22:02:29.719Z] Stashed 94 file(s)
+[2024-04-29T22:02:29.921Z] Unstash content: container-5f33b092-6ffa-41ad-9bed-80fe007cf3ee
+[2024-04-29T22:02:32.975Z] invalidate stash container-5f33b092-6ffa-41ad-9bed-80fe007cf3ee
+[2024-04-29T22:02:32.997Z] Stash content: container-5f33b092-6ffa-41ad-9bed-80fe007cf3ee (includes: **/*.*, excludes: **/*, useDefaultExcludes: true, allowEmpty: true)
+[2024-04-29T22:02:33.021Z] Warning: overwriting stash ‘container-5f33b092-6ffa-41ad-9bed-80fe007cf3ee’
+[2024-04-29T22:02:33.064Z] Stashed 0 file(s)
+[2024-04-29T22:02:33.154Z] ----------------------------------------------------------
+[2024-04-29T22:02:33.154Z] --- An error occurred in the library step: dockerExecuteOnKubernetes
+[2024-04-29T22:02:33.154Z] ----------------------------------------------------------
+[2024-04-29T22:02:33.154Z] 
+[2024-04-29T22:02:33.154Z] The following parameters were available to the step:
+[2024-04-29T22:02:33.154Z] ***
+[2024-04-29T22:02:33.154Z] *** to show step parameters, set verbose:true in general pipeline configuration
+[2024-04-29T22:02:33.154Z] *** WARNING: this may reveal sensitive information. ***
+[2024-04-29T22:02:33.155Z] ***
+[2024-04-29T22:02:33.155Z] 
+[2024-04-29T22:02:33.155Z] The error was:
+[2024-04-29T22:02:33.155Z] ***
+[2024-04-29T22:02:33.155Z] hudson.AbortException: [cloudFoundryDeploy] Step execution failed (category: undefined). Error: running command 'cf' failed: cmd.Run() failed: exit status 1
+[2024-04-29T22:02:33.155Z] ***
+[2024-04-29T22:02:33.155Z] 
+[2024-04-29T22:02:33.155Z] Further information:
+[2024-04-29T22:02:33.155Z] * Documentation of library step dockerExecuteOnKubernetes: https://sap.github.io/jenkins-library/steps/dockerExecuteOnKubernetes/
+[2024-04-29T22:02:33.155Z] * Source code of library step dockerExecuteOnKubernetes: https://github.com/SAP/jenkins-library/blob/master/vars/dockerExecuteOnKubernetes.groovy
+[2024-04-29T22:02:33.155Z] * Library documentation: https://sap.github.io/jenkins-library/
+[2024-04-29T22:02:33.155Z] * Library repository: https://github.com/SAP/jenkins-library/
+[2024-04-29T22:02:33.155Z] 
+[2024-04-29T22:02:33.155Z] ----------------------------------------------------------
+[2024-04-29T22:02:33.155Z] --- End library step of: dockerExecuteOnKubernetes ---
+[2024-04-29T22:02:33.208Z] ----------------------------------------------------------
+[2024-04-29T22:02:33.208Z] --- An error occurred in the library step: dockerExecute
+[2024-04-29T22:02:33.209Z] ----------------------------------------------------------
+[2024-04-29T22:02:33.209Z] 
+[2024-04-29T22:02:33.209Z] The following parameters were available to the step:
+[2024-04-29T22:02:33.209Z] ***
+[2024-04-29T22:02:33.209Z] *** to show step parameters, set verbose:true in general pipeline configuration
+[2024-04-29T22:02:33.209Z] *** WARNING: this may reveal sensitive information. ***
+[2024-04-29T22:02:33.209Z] ***
+[2024-04-29T22:02:33.210Z] 
+[2024-04-29T22:02:33.210Z] The error was:
+[2024-04-29T22:02:33.210Z] ***
+[2024-04-29T22:02:33.210Z] hudson.AbortException: [cloudFoundryDeploy] Step execution failed (category: undefined). Error: running command 'cf' failed: cmd.Run() failed: exit status 1
+[2024-04-29T22:02:33.210Z] ***
+[2024-04-29T22:02:33.210Z] 
+[2024-04-29T22:02:33.210Z] Further information:
+[2024-04-29T22:02:33.210Z] * Documentation of library step dockerExecute: https://sap.github.io/jenkins-library/steps/dockerExecute/
+[2024-04-29T22:02:33.210Z] * Source code of library step dockerExecute: https://github.com/SAP/jenkins-library/blob/master/vars/dockerExecute.groovy
+[2024-04-29T22:02:33.210Z] * Library documentation: https://sap.github.io/jenkins-library/
+[2024-04-29T22:02:33.211Z] * Library repository: https://github.com/SAP/jenkins-library/
+[2024-04-29T22:02:33.211Z] 
+[2024-04-29T22:02:33.211Z] ----------------------------------------------------------
+[2024-04-29T22:02:33.211Z] --- End library step of: dockerExecute ---
+[2024-04-29T22:02:33.334Z] ----------------------------------------------------------
+[2024-04-29T22:02:33.334Z] --- An error occurred in the library step: cloudFoundryDeploy
+[2024-04-29T22:02:33.334Z] ----------------------------------------------------------
+[2024-04-29T22:02:33.335Z] 
+[2024-04-29T22:02:33.335Z] The following parameters were available to the step:
+[2024-04-29T22:02:33.335Z] ***
+[2024-04-29T22:02:33.335Z] *** to show step parameters, set verbose:true in general pipeline configuration
+[2024-04-29T22:02:33.335Z] *** WARNING: this may reveal sensitive information. ***
+[2024-04-29T22:02:33.335Z] ***
+[2024-04-29T22:02:33.335Z] 
+[2024-04-29T22:02:33.335Z] The error was:
+[2024-04-29T22:02:33.335Z] ***
+[2024-04-29T22:02:33.335Z] hudson.AbortException: [cloudFoundryDeploy] Step execution failed (category: undefined). Error: running command 'cf' failed: cmd.Run() failed: exit status 1
+[2024-04-29T22:02:33.335Z] ***
+[2024-04-29T22:02:33.335Z] 
+[2024-04-29T22:02:33.335Z] Further information:
+[2024-04-29T22:02:33.336Z] * Documentation of library step cloudFoundryDeploy: https://sap.github.io/jenkins-library/steps/cloudFoundryDeploy/
+[2024-04-29T22:02:33.336Z] * Source code of library step cloudFoundryDeploy: https://github.com/SAP/jenkins-library/blob/master/vars/cloudFoundryDeploy.groovy
+[2024-04-29T22:02:33.336Z] * Library documentation: https://sap.github.io/jenkins-library/
+[2024-04-29T22:02:33.336Z] * Library repository: https://github.com/SAP/jenkins-library/
+[2024-04-29T22:02:33.336Z] 
+[2024-04-29T22:02:33.336Z] ----------------------------------------------------------
+[2024-04-29T22:02:33.336Z] --- End library step of: cloudFoundryDeploy ---
+[2024-04-29T22:02:33.363Z] Stash content: cloudcitransfer (includes: cloudcitransfer/**/*, excludes: cloudcitransfer/**/node_modules/**)
+[2024-04-29T22:02:33.392Z] Warning: overwriting stash ‘cloudcitransfer’
+[2024-04-29T22:02:33.393Z] Stashed 2 file(s)
+[2024-04-29T22:02:33.509Z] Lock released on resource [DanteCICD-Demo]
+
+```
+
+</br>
+</br>
 </details>
+
+
+</details>
+
+
+
 
 <!--
 
