@@ -796,11 +796,16 @@ Added following lines in MTA yaml and proceeded build was successful but deploym
         - npm clean-install --production
 ````
 
+</br>
+</br>
+<img src="./files/capmd12-91.png" >
+</br>
+</br>
 
-## Build failure error analysis - 2 
+## Deploy failure error analysis - 2 
 
 <details>
-<summary> Build log (error) for reference </summary>
+<summary> Deploy log (error) for reference </summary>
 </br>
 </br>
 Second error log for reference deployment failure 
