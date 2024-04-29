@@ -1374,6 +1374,9 @@ so started searching for this descriptor (nodejsnpm ins) in all the essentail fi
 <img src="./files/capmd12-92.png" >
 </br>
 </br>
+<img src="./files/capmd12-93.png" >
+</br>
+</br>
 
 
 </details>
