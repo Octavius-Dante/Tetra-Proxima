@@ -512,6 +512,7 @@ Watch the job section in CI/CD when git push happens there will be build details
 <details>
 <summary> Build log (error) for reference </summary>
 
+First error log for reference deployment failure 
 </br>
 </br>
 
