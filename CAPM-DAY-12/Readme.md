@@ -795,7 +795,10 @@ Added following lines in MTA yaml and proceeded build was successful but deploym
         - npm update --package-lock-only
         - npm clean-install --production
 ````
+</br>
+</br>
 
+Success in Build stage but deployment encountered error 
 </br>
 </br>
 <img src="./files/capmd12-91.png" >
