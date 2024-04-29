@@ -1346,6 +1346,35 @@ Stage Logs (DanteCICD-Demo #19 - Release)
 </details>
 
 
+## Problem identified 
+</br>
+</br>
+
+In the error log following line has highlighted what was the issue in deployment (un supported moduel type)
+</br>
+</br>
+
+```bat
+[2024-04-29T23:16:00.310Z] info  cloudFoundryDeploy - Operation ID: 70d1ad25-067e-11ef-8669-eeee0a963137
+[2024-04-29T23:16:10.238Z] info  cloudFoundryDeploy - Deploying in org "db4cbbc2trial" and space "dev"
+[2024-04-29T23:16:10.238Z] info  cloudFoundryDeploy - Detected MTA schema version: "3"
+[2024-04-29T23:16:10.239Z] info  cloudFoundryDeploy - Error merging descriptors: Unsupported module type "nodejsnpm ins" for platform type "CLOUD-FOUNDRY" 
+[2024-04-29T23:16:10.239Z] info  cloudFoundryDeploy - Process failed.
+
+```
+</br>
+</br>
+Error in merge descriptors - Merging application type description is error (there is no type called 'nodejsnpm ins' it is 'nodejs')
+</br>
+</br>
+so started searching for this descriptor (nodejsnpm ins) in all the essentail files pacakge.json, pacakge-lock.json, mta.yaml
+</br> in mta.yaml the problem was identified 
+</br>
+<img src="./files/capmd12-92.png" >
+</br>
+</br>
+
+
 </details>
 
 
