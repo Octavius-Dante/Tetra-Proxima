@@ -749,11 +749,11 @@ Did NPM install for following items
 </br>
 
 ```bat
-npm isntall @sap/hana-client
-npm isntall @sap/hdi-deploy
-npm isntall @sap/cds-hana
+npm install @sap/hana-client
+npm install @sap/hdi-deploy
+npm install @sap/cds-hana
 npm install @sap-cloud-sdk/http-client
-npm isntall @sap/cds-dk
+npm install @sap/cds-dk
 ```
 </br>
 </br>
@@ -783,6 +783,16 @@ Still above things returned the same error
 </br>
 </br>
 Added following lines in MTA yaml and proceeded build was successful but deployment failed 
+</br>
+</br>
+</br> 1. Did npm install for hdi component (npm install @sap/hdi-deploy) in commadn prompt
+</br> 2. Adding this command in mta.yaml is the appropriate solution (- npm install @sap/hdi-deploy)
+</br> 3. used npm install and clean npm install command in mta.yaml file overrided the problem - this installs everything needed by reading pacakge.json
+</br>
+</br>
+</br> i randomly checked and copied the line from sap forum but this component was not needed for our application 
+</br> (- npm install @sap-cloud-sdk/http-client )
+</br> needed component should be (- npm install @sap/hdi-deploy) for de-deployer error.
 </br>
 </br>
 
@@ -1378,6 +1388,7 @@ so started searching for this descriptor (nodejsnpm ins) in all the essentail fi
 </br>
 </br>
 
+Corrected the yaml file appropriatly and deployed again 
 
 </details>
 
