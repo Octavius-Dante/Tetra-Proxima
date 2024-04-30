@@ -10,11 +10,11 @@
 </br>
 </br>
 
-### The development in this session is regarding XXXX 
+### The development in this session is regarding BTP Side by side extension 
 </br>
 </br>
 
-
+[Side by side extension SAP official reading](https://learning.sap.com/learning-journeys/develop-advanced-extensions-with-sap-cloud-sdk/exploring-side-by-side-extensibility_f2f6f71d-d50c-4a48-b0f9-f5a87f717aa1)
 
 <!--
 
