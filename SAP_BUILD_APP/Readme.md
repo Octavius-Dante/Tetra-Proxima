@@ -23,15 +23,10 @@ it will fail saying an error (link an identity authentication tenant to sub acco
 
 ### How to setup cloud identity provider and give access to BTP trial sub account 
 </br> 
-</br> 
 
 This step is essential to get an authorization to create subscription for SAP build apps
 </br>
 </br>
-</br>
-
-
-
 
 <details>
 <summary> <b> Steps to create cloud IDP and provide access </b> </summary>
