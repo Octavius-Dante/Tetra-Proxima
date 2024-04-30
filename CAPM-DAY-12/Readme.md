@@ -1401,8 +1401,7 @@ In the error log following line has highlighted what was the issue in deployment
 Error in merge descriptors - Merging application type description is error (there is no type called 'nodejsnpm ins' it is 'nodejs')
 </br>
 </br>
-so started searching for this descriptor (nodejsnpm ins) in all the essential files package.json, package-lock.json, mta.yaml
-</br> in mta.yaml the problem was identified 
+so started searching for this descriptor (nodejsnpm ins) in mta.yaml as shown in the log
 </br>
 </br>
 <img src="./files/capmd12-92.png" >
@@ -1410,7 +1409,7 @@ so started searching for this descriptor (nodejsnpm ins) in all the essential fi
 </br>
 
 Downloaded the log using command as mentioned in the above log (cf dmol -i 70d1ad25-067e-11ef-8669-eeee0a963137)
-</br> foudn the same description mentioned there
+</br> found the same description mentioned there
 </br>
 </br>
 <img src="./files/capmd12-93.png" >
@@ -1515,7 +1514,7 @@ The specific error log lines for reference - this was clear and evident that HAN
 The build deployment is successfull now as shown below 
 </br>
 </br>
-It took 23 attempts to identify and fix all these issues so went on deployment spree with multiple changes to the files (MTA.yaml & Package.json) and installed components using (npm install XXXX) and figured out these issues also checked online forums 
+It took many attempts to identify and fix all these issues so went on deployment spree with multiple changes to the files (MTA.yaml & Package.json) and installed components using (npm install XXXX) and figured out these issues also checked online forums 
 </br> ( [refer this reading for better understandsing on CI CD deployment failures](https://github.com/Octavius-Dante/Tetra_Proxima/tree/main/CI-CD-Pipeline-Failure-Reasons) )
 </br>
 </br>
