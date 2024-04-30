@@ -809,8 +809,7 @@ Added following lines in MTA yaml and proceeded build was successful but deploym
 </br>
 </br>
 
-Alternative yaml file with exact db deployer fix 
-
+Alternative yaml file with db deployer component
 </br>
 </br>
 
