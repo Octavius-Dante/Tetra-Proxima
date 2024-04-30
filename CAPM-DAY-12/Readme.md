@@ -1449,7 +1449,7 @@ CICD - deployment log - reference below
 
 </br>
 </br>
-</br> Downloaded the logs usiong command (cf dmol -i 6fdc4c22-0685-11ef-8669-eeee0a963137) 
+</br> Downloaded the logs using command (cf dmol -i 6fdc4c22-0685-11ef-8669-eeee0a963137) 
 </br>
 </br>
 <img src="./files/capmd12-93.png" >
@@ -1487,6 +1487,9 @@ The specific error log lines for reference - this was clear and evident that HAN
 
 ```
 
+</br>
+</br>
+<img src="./files/capmd12-96a.png" >
 </br>
 </br>
 
