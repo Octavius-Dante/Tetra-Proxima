@@ -804,7 +804,27 @@ Added following lines in MTA yaml and proceeded build was successful but deploym
         - npm install @sap-cloud-sdk/http-client
         - npm update --package-lock-only
         - npm clean-install --production
-````
+```
+
+</br>
+</br>
+
+Alternative yaml file with exact db deployer fix 
+
+</br>
+</br>
+
+```yaml
+
+// Following commands succeeded in building - Failed during deployment - 
+      commands:
+        - npm install
+        - npx -p @sap/cds-dk cds build --production
+        - npm install @sap/hdi-deploy
+        - npm update --package-lock-only
+        - npm clean-install --production
+```
+
 </br>
 </br>
 
