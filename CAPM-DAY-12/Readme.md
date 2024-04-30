@@ -787,7 +787,7 @@ Added following lines in MTA yaml and proceeded build was successful but deploym
 </br>
 </br> 1. Did npm install for hdi component (npm install @sap/hdi-deploy) in commadn prompt
 </br> 2. Adding this command in mta.yaml is the appropriate solution (- npm install @sap/hdi-deploy)
-</br> 3. used npm install and clean npm install command in mta.yaml file overrided the problem - this installs everything needed by reading pacakge.json
+</br> 3. used npm install and clean npm install command in mta.yaml file overrided the problem - this installs everything needed by reading package.json
 </br>
 </br>
 </br> i randomly checked and copied the line from sap forum but this component was not needed for our application 
@@ -1401,7 +1401,7 @@ In the error log following line has highlighted what was the issue in deployment
 Error in merge descriptors - Merging application type description is error (there is no type called 'nodejsnpm ins' it is 'nodejs')
 </br>
 </br>
-so started searching for this descriptor (nodejsnpm ins) in all the essential files pacakge.json, pacakge-lock.json, mta.yaml
+so started searching for this descriptor (nodejsnpm ins) in all the essential files package.json, package-lock.json, mta.yaml
 </br> in mta.yaml the problem was identified 
 </br>
 </br>
