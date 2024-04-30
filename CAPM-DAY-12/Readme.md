@@ -1490,10 +1490,14 @@ The specific error log lines for reference - this was clear and evident that HAN
 </br>
 </br>
 
-The build deployment was successfull now as shown below 
+The build deployment is successfull now as shown below 
 </br>
 </br>
 <img src="./files/capmd12-97.png" >
+</br>
+</br>
+
+The application is also launched and tested
 </br>
 </br>
 <img src="./files/capmd12-98.png" >
