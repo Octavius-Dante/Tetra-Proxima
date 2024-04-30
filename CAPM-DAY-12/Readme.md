@@ -1467,7 +1467,7 @@ Detailed info is found in this log (dancap-db-deployer.log)
 </br>
 
 The specific error log lines for reference - this was clear and evident that HANA DB connection was not working 
-</br> Problem was HANA DB was not running started the HANA DB connection and deployed it again
+</br> Problem was HANA DB instance was not running started the HANA DB instance and deployed it again
 </br>
 
 ``` bat
