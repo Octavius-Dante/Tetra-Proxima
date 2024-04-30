@@ -211,7 +211,7 @@ Go to SAP BAS account and choose service center tab
 </br>
 </br>
 
-The destination section of SAP BTP account will have a destination automatically created as shown below based on 
+The destination section of SAP BTP account would have a destination automatically created as shown below based on 
 </br> the details entered in BAS on previous step
 </br>
 </br>
