@@ -1496,7 +1496,9 @@ The specific error log lines for reference - this was clear and evident that HAN
 The build deployment is successfull now as shown below 
 </br>
 </br>
-It took 23 attempts to identify and fix all these issues so went on deployment spree with multiple changes to the files (MTA.yaml & Package.json) and installed components using (npm install XXXX) and figured out these issues also checked online forums ( [refer this reading for better understandsing on CI CD deployment failures](https://github.com/Octavius-Dante/Tetra_Proxima/tree/main/CI-CD-Pipeline-Failure-Reasons) )
+It took 23 attempts to identify and fix all these issues so went on deployment spree with multiple changes to the files (MTA.yaml & Package.json) and installed components using (npm install XXXX) and figured out these issues also checked online forums 
+</br> ( [refer this reading for better understandsing on CI CD deployment failures](https://github.com/Octavius-Dante/Tetra_Proxima/tree/main/CI-CD-Pipeline-Failure-Reasons) )
+</br>
 </br>
 solution was there in the internet for component related issues but there is no solution for human errors and self negligence so need to deep dive in to the log and identofy the problem.
 </br>
