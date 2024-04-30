@@ -1452,12 +1452,53 @@ CICD - deployment log - reference below
 </br> Downloaded the logs usiong command (cf dmol -i 6fdc4c22-0685-11ef-8669-eeee0a963137) 
 </br>
 </br>
+<img src="./files/capmd12-93.png" >
+</br>
+</br>
+
+Detailed info is found in this log (dancap-db-deployer.log)
+</br>
+</br>
+<img src="./files/capmd12-95.png" >
+</br>
+</br>
+<img src="./files/capmd12-96.png" >
+</br>
+</br>
+
+The specific error log lines for reference - this was clear and evident that HANA DB connection was not working 
+</br> Problem was HANA DB was not running started the HANA DB connection and deployed it again
+</br>
+
+``` bat
+
+#2.0#2024 04 30 00:07:36.629#Z#DEBUG#com.sap.cloud.lm.sl.xs2.6fdc4c22-0685-11ef-8669-eeee0a963137.dancap-db-deployer.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-15237###
+[PollExecuteTaskStatusExecution] [dancap-db-deployer] d7a4fe3b-c808-4330-ad89-b0df41baf4d6 [2024-04-30T00:07:33.734485] Deployment to container 863BD006956A4B49A29786FA4A4DB6A5 failed - error: Connection failed (RTE:[200110] Invalid connect reply (server may not be SAP HANA) (10.151.77.225:39840 -> a99b9084-4256-4ae3-b809-5a53acc57a7f.hana.trial-us10.hanacloud.ondemand.com:443)) [Deployment ID: none]. (STDERR, APP/TASK/deploy)#
+
+#2.0#2024 04 30 00:07:36.629#Z#DEBUG#com.sap.cloud.lm.sl.xs2.6fdc4c22-0685-11ef-8669-eeee0a963137.dancap-db-deployer.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-15237###
+[PollExecuteTaskStatusExecution] [dancap-db-deployer] d7a4fe3b-c808-4330-ad89-b0df41baf4d6 [2024-04-30T00:07:33.734879] Deployment ended at 2024-04-30 00:07:33 (STDOUT, APP/TASK/deploy)#
+
+#2.0#2024 04 30 00:07:36.629#Z#DEBUG#com.sap.cloud.lm.sl.xs2.6fdc4c22-0685-11ef-8669-eeee0a963137.dancap-db-deployer.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-15237###
+[PollExecuteTaskStatusExecution] [dancap-db-deployer] d7a4fe3b-c808-4330-ad89-b0df41baf4d6 [2024-04-30T00:07:33.734921] Error: Connection failed (RTE:[200110] Invalid connect reply (server may not be SAP HANA) (10.151.77.225:39840 -> a99b9084-4256-4ae3-b809-5a53acc57a7f.hana.trial-us10.hanacloud.ondemand.com:443)) (STDERR, APP/TASK/deploy)#
 
 
+```
 
 </br>
 </br>
 
+The build deployment was successfull now as shown below 
+</br>
+</br>
+<img src="./files/capmd12-97.png" >
+</br>
+</br>
+<img src="./files/capmd12-98.png" >
+</br>
+</br>
 
 </details>
 
