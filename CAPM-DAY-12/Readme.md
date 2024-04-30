@@ -1401,7 +1401,7 @@ In the error log following line has highlighted what was the issue in deployment
 Error in merge descriptors - Merging application type description is error (there is no type called 'nodejsnpm ins' it is 'nodejs')
 </br>
 </br>
-so started searching for this descriptor (nodejsnpm ins) in all the essentail files pacakge.json, pacakge-lock.json, mta.yaml
+so started searching for this descriptor (nodejsnpm ins) in all the essential files pacakge.json, pacakge-lock.json, mta.yaml
 </br> in mta.yaml the problem was identified 
 </br>
 </br>
