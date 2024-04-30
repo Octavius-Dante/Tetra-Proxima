@@ -1500,7 +1500,7 @@ It took 23 attempts to identify and fix all these issues so went on deployment s
 </br> ( [refer this reading for better understandsing on CI CD deployment failures](https://github.com/Octavius-Dante/Tetra_Proxima/tree/main/CI-CD-Pipeline-Failure-Reasons) )
 </br>
 </br>
-solution was there in the internet for component related issues but there is no solution for human errors and self negligence so need to deep dive in to the log and identofy the problem.
+solution was there in the internet for component related issues but there is no solution for human errors and self negligence so need to deep dive into the log and identify the problem.
 </br>
 </br>
 <img src="./files/capmd12-97.png" >
