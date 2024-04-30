@@ -1400,6 +1400,65 @@ Downloaded the log using command as mentioned in the above log (cf dmol -i 70d1a
 
 Corrected the yaml file appropriatly and deployed again 
 
+
+## Deploy failure error analysis - 3
+
+</br>
+</br>
+</br>Error encountered during deployment - this time db-deployer failure 
+</br>
+</br>
+
+CICD - deployment log - reference below 
+
+```bat
+
+[2024-04-30T00:07:27.977Z] info  cloudFoundryDeploy - Application "dancap-db-deployer" staged
+[2024-04-30T00:07:29.883Z] info  cloudFoundryDeploy - Executing task "deploy" on application "dancap-db-deployer"...
+[2024-04-30T00:07:39.827Z] info  cloudFoundryDeploy - Scaling application "dancap-srv" to "1" instances... 
+[2024-04-30T00:07:39.827Z] info  cloudFoundryDeploy - Execution of task "deploy" on application "dancap-db-deployer" failed.
+[2024-04-30T00:07:39.827Z] info  cloudFoundryDeploy - Download the application logs via the dmol command and check them for more information.
+[2024-04-30T00:07:39.827Z] info  cloudFoundryDeploy - A step of the process has failed. Retrying it may solve the issue.
+[2024-04-30T00:07:39.827Z] info  cloudFoundryDeploy - Staging application "dancap-srv"...
+[2024-04-30T00:07:39.827Z] info  cloudFoundryDeploy - Proceeding with automatic retry... (3 of 3 attempts left)
+[2024-04-30T00:07:42.336Z] info  cloudFoundryDeploy - Executing task "deploy" on application "dancap-db-deployer"...
+[2024-04-30T00:08:00.364Z] info  cloudFoundryDeploy - Application "dancap-ui" staged
+[2024-04-30T00:08:00.365Z] info  cloudFoundryDeploy - Execution of task "deploy" on application "dancap-db-deployer" failed.
+[2024-04-30T00:08:00.365Z] info  cloudFoundryDeploy - Download the application logs via the dmol command and check them for more information.
+[2024-04-30T00:08:00.365Z] info  cloudFoundryDeploy - A step of the process has failed. Retrying it may solve the issue.
+[2024-04-30T00:08:00.365Z] info  cloudFoundryDeploy - Starting application "dancap-ui"...
+[2024-04-30T00:08:00.365Z] info  cloudFoundryDeploy - Proceeding with automatic retry... (2 of 3 attempts left)
+[2024-04-30T00:08:00.620Z] info  cloudFoundryDeploy - Executing task "deploy" on application "dancap-db-deployer"...
+[2024-04-30T00:08:18.667Z] info  cloudFoundryDeploy - Application "dancap-ui" started and available at "db4cbbc2trial-dev-dancap-ui.cfapps.us10-001.hana.ondemand.com"
+[2024-04-30T00:08:18.667Z] info  cloudFoundryDeploy - Execution of task "deploy" on application "dancap-db-deployer" failed.
+[2024-04-30T00:08:18.668Z] info  cloudFoundryDeploy - Download the application logs via the dmol command and check them for more information.
+[2024-04-30T00:08:18.668Z] info  cloudFoundryDeploy - A step of the process has failed. Retrying it may solve the issue.
+[2024-04-30T00:08:18.668Z] info  cloudFoundryDeploy - Proceeding with automatic retry... (1 of 3 attempts left)
+[2024-04-30T00:08:18.923Z] info  cloudFoundryDeploy - Executing task "deploy" on application "dancap-db-deployer"...
+[2024-04-30T00:08:40.834Z] info  cloudFoundryDeploy - Execution of task "deploy" on application "dancap-db-deployer" failed.
+[2024-04-30T00:08:40.834Z] info  cloudFoundryDeploy - Download the application logs via the dmol command and check them for more information.
+[2024-04-30T00:08:40.834Z] info  cloudFoundryDeploy - A step of the process has failed. Retrying it may solve the issue.
+[2024-04-30T00:08:40.834Z] info  cloudFoundryDeploy - Application "dancap-srv" staged
+[2024-04-30T00:08:40.834Z] info  cloudFoundryDeploy - Starting application "dancap-srv"...
+[2024-04-30T00:08:40.834Z] info  cloudFoundryDeploy - Process failed.
+[2024-04-30T00:08:40.834Z] info  cloudFoundryDeploy - Use "cf deploy -i 6fdc4c22-0685-11ef-8669-eeee0a963137 -a abort" to abort the process.
+[2024-04-30T00:08:40.834Z] info  cloudFoundryDeploy - Use "cf deploy -i 6fdc4c22-0685-11ef-8669-eeee0a963137 -a retry" to retry the process.
+[2024-04-30T00:08:40.834Z] info  cloudFoundryDeploy - Use "cf dmol -i 6fdc4c22-0685-11ef-8669-eeee0a963137" to download the logs of the process.
+
+```
+
+</br>
+</br>
+</br> Downloaded the logs usiong command (cf dmol -i 6fdc4c22-0685-11ef-8669-eeee0a963137) 
+</br>
+</br>
+
+
+
+</br>
+</br>
+
+
 </details>
 
 
