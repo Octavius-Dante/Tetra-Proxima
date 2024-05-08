@@ -16,6 +16,76 @@
 
 [Side by side extension SAP official reading](https://learning.sap.com/learning-journeys/develop-advanced-extensions-with-sap-cloud-sdk/exploring-side-by-side-extensibility_f2f6f71d-d50c-4a48-b0f9-f5a87f717aa1)
 
+</br>
+</br>
+
+### Extension Use case
+</br>
+</br>
+
+SAP BTP is the main technology platform for doing extension of existing ERP application in any org, 
+A main pillar of intelligent enterprise
+</br>
+
+1. Intelligent suite - solution like S/4 HANA
+2. Intelligent platform - SAP BTP 
+3. Intelligent technologies - SAC, RAP, CAP, SAP Build code, SAP Build App, SAP Build Automation, SAP Build Work zone..etc
+</br>
+</br>
+
+If we want to entend our standard ERP software, What are all the disadvantage of the approach we take
+</br>
+
+1. The Extensions have potential to break your standard software
+2. Extensions also take longer time to deliver change request
+3. Risks for upgrade
+4. Contamination of SAP Code 
+</br>
+</br>
+
+SAP Recommends to build extensions on top of BTP outside the stable core ERP
+</br>
+
+1. ERP core software is stable 
+2. We can deliver innovation at much faster phase
+3. Never cause any problem to sap upgrades becasue The extension is built outside the environment
+
+</br>
+</br>
+
+</br>
+</br>
+
+
+</br>
+</br>
+
+</br>
+</br>
+
+
+</br>
+</br>
+
+</br>
+</br>
+
+
+</br>
+</br>
+
+</br>
+</br>
+
+
+</br>
+</br>
+
+</br>
+</br>
+
+
+
 <!--
 
 </br>
