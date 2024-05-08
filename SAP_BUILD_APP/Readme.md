@@ -152,6 +152,11 @@ This step is essential to get an authorization to create subscription for SAP bu
 
 </br>
 </br>
+
+[Check the SAP developer blog to build an app](https://developers.sap.com/mission.appgyver-low-code.html)
+
+</br>
+</br>
 </br>
 </br>
 </br>
