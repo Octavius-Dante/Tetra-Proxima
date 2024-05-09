@@ -77,7 +77,6 @@ Before we proceed the cloud connection to ERP system is important it is a pre-re
 </br> If cloud connection to On-Premise or ERP is not performed kindly refer this link and establish connection 
 </br> [SAP Cloud connection](https://github.com/Octavius-Dante/Tetra_Proxima/tree/main/SAP_Cloud_Connector)
 </br> 
-</br> This demonstartion is practised in S/4 HANA 2023 On-Premise system
 
 </br>
 </br>
