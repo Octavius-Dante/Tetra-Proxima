@@ -138,7 +138,7 @@ identifying the implemented class in case if we want to make chanegs in ABAP for
 </br> Standard External service : SEPMRA_PROD_MAN - (in case of a Zclass used in service which can be modified as per user convenience)
 </br>
 </br>
-<img src="./files/capmd10-8.1.png" >
+<img src="./files/capmd10-8.0.png" >
 </br>
 </br>
 <img src="./files/capmd10-8.png" >
