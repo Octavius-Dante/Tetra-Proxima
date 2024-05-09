@@ -74,7 +74,7 @@ SAP Recommends to build extensions on top of BTP outside the stable core ERP
 </br>
 
 Before we proceed the cloud connection to ERP system is important it is a pre-requisite for this session 
-</br> If cloud connection to On-Premise or ERP is not performed kindly refere this link 
+</br> If cloud connection to On-Premise or ERP is not performed kindly refer this link and establish connection 
 </br> [SAP CLoud connection](https://github.com/Octavius-Dante/Tetra_Proxima/tree/main/SAP_Cloud_Connector)
 
 </br>
