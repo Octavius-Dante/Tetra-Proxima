@@ -61,7 +61,7 @@ SAP Recommends to build extensions on top of BTP outside the stable core ERP
 </br>
 </br>
 
-<img src="./files/Extension-1.png" >
+<img src="./files/Extension_explain.png" >
 </br>
 </br>
 
