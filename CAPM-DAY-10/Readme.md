@@ -112,7 +112,7 @@ Go to tcode /n/iwfnd/maint_services
 </br>
 </br>
 
-Selecting a service which we are going to use for our app building
+Selecting a service which we are going to use for our fiori app 
 </br>
 </br>
 <img src="./files/capmd10-5.png" >
