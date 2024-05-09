@@ -134,6 +134,11 @@ The data is dipslayed in the web in XML format (Odata service is accessible in w
 </br>
 
 identifying the implemented class in case if we want to make chanegs in ABAP for this exisitng ODATA services
+</br> this is a standard demo purpose odata class used in Zservice this SEPMRA_PROD_MAN is available in all S/4 HANA on-premise system
+</br> Standard External service : SEPMRA_PROD_MAN - (in case of a Zclass used in service which can be modified as per user convenience)
+</br>
+</br>
+<img src="./files/capmd10-8.1.png" >
 </br>
 </br>
 <img src="./files/capmd10-8.png" >
@@ -143,7 +148,7 @@ identifying the implemented class in case if we want to make chanegs in ABAP for
 </br>
 </br>
 
-in he web browser (SEPMRA_PROD_MAN/SEPMRA_C_PD_Product/?$format=json) add this block to the existing link and check the odat service and its version
+in the web browser (SEPMRA_PROD_MAN/SEPMRA_C_PD_Product/?$format=json) add this block to the existing link and check the odat service and its version
 </br>
 </br>
 <img src="./files/capmd10-10.png" >
