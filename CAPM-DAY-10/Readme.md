@@ -3,12 +3,6 @@
 # WORK IN PROGRESS - 
 
 </br>
-</br>
-
-
-</br> 
-</br>
-</br>
 
 ### The development in this session is regarding BTP Side by side extension 
 </br>
