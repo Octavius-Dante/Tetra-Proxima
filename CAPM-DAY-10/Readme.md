@@ -174,6 +174,9 @@ Press F12 in chrome browser and navigate to network section and relaod the page 
 <img src="./files/capmd10-13.png" >
 </br>
 </br>
+<img src="./files/capmd10-14.png" >
+</br>
+</br>
 </details>
 
 
