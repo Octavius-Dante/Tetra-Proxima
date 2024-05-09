@@ -17,7 +17,7 @@
 
 - [x] place the JVM extraction to (c:\Program Files\Java) directory
 - [x] Start installation of sap cloud connector - (make note of port number)
-</br> choose java JDK select jvm which we palced earlier (c:\Program Files\Java\jvmXXX) proceed installation
+</br> choose java JDK select jvm which we placed earlier (c:\Program Files\Java\jvmXXX) proceed installation
 
 - [x] Post installation access the this link to launch cloud connector (https://localhost:8443/)
 - [x] Default username : Administrator || password : manage
