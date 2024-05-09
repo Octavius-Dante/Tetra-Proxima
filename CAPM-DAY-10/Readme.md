@@ -164,6 +164,17 @@ Press F12 in chrome browser and navigate to network section and relaod the page 
 </details>
 
 
+<details>
+<summary> <b>3. Registering ERP system in BAS - linking erp to subaccount  </b> </summary>
+</br>
+</br>
+<img src="./files/capmd10-12.png" >
+</br>
+</br>
+<img src="./files/capmd10-13.png" >
+</br>
+</br>
+</details>
 
 
 </br>
