@@ -145,7 +145,7 @@ identifying the implemented class in case if we want to make chanegs in ABAP for
 </br>
 </br>
 
-in the web browser (SEPMRA_PROD_MAN/SEPMRA_C_PD_Product/?$format=json) add this block to the existing link and check the odat service and its version
+in the web browser (SEPMRA_PROD_MAN/SEPMRA_C_PD_Product/?$format=json) add this block to the existing link and check the sub category of an odata service
 </br>
 </br>
 <img src="./files/capmd10-10a.png" >
