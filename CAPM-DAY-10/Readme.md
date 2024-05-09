@@ -97,6 +97,7 @@ Before start building app in BAS btp side we should confirm wheher
 <img src="./files/capmd1-3.png" >
 </br>
 </br>
+
 </details>
 
 
