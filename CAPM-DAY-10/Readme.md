@@ -138,9 +138,6 @@ identifying the implemented class in case if we want to make chanegs in ABAP for
 </br> Standard External service : SEPMRA_PROD_MAN - (in case of a Zclass used in service which can be modified as per user convenience)
 </br>
 </br>
-<img src="./files/capmd10-8.0a.png" >
-</br>
-</br>
 <img src="./files/capmd10-8.png" >
 </br>
 </br>
@@ -152,6 +149,9 @@ in the web browser (SEPMRA_PROD_MAN/SEPMRA_C_PD_Product/?$format=json) add this 
 </br>
 </br>
 <img src="./files/capmd10-10a.png" >
+</br>
+</br>
+<img src="./files/capmd10-8.0a.png" >
 </br>
 </br>
 
