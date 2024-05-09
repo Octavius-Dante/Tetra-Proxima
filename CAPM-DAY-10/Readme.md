@@ -101,6 +101,66 @@ Before start building app in BAS btp side we should confirm wheher
 </details>
 
 
+<details>
+<summary> <b>2. Accessing on-prem system and checking the ODATA service </b> </summary>
+</br>
+</br>
+Go to tcode /n/iwfnd/maint_services
+</br>
+</br>
+<img src="./files/capmd10-4.png" >
+</br>
+</br>
+
+Selecting a service which we are going to use for our app building
+</br>
+</br>
+<img src="./files/capmd10-5.png" >
+</br>
+</br>
+
+Testing the service whether it is supplying data to web
+</br>
+</br>
+<img src="./files/capmd10-6.png" >
+</br>
+</br>
+
+The data is dipslayed in the web in XML format (Odata service is accessible in web)
+</br>
+</br>
+<img src="./files/capmd10-7.png" >
+</br>
+</br>
+
+identifying the implemented class in case if we want to make chanegs in ABAP for this exisitng ODATA services
+</br>
+</br>
+<img src="./files/capmd10-8.png" >
+</br>
+</br>
+<img src="./files/capmd10-9.png" >
+</br>
+</br>
+
+in he web browser (SEPMRA_PROD_MAN/SEPMRA_C_PD_Product/?$format=json) add this block to the existing link and check the odat service and its version
+</br>
+</br>
+<img src="./files/capmd10-10.png" >
+</br>
+</br>
+
+Press F12 in chrome browser and navigate to network section and relaod the page to see the type of odata service (product page is v2)
+</br>
+</br>
+<img src="./files/capmd10-11.png" >
+</br>
+</br>
+</details>
+
+
+
+
 </br>
 </br>
 
