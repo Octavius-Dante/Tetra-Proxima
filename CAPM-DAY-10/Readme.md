@@ -88,16 +88,15 @@ Before start building app in BAS btp side we should confirm wheher
 </br>systems are available for connection in destiantion section as shown below
 </br>
 </br>
-<img src="./files/capmd1-1.png" >
+<img src="./files/capmd10-1.png" >
 </br>
 </br>
-<img src="./files/capmd1-2.png" >
+<img src="./files/capmd10-2.png" >
 </br>
 </br>
-<img src="./files/capmd1-3.png" >
+<img src="./files/capmd10-3.png" >
 </br>
 </br>
-
 </details>
 
 
