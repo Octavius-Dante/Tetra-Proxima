@@ -151,7 +151,7 @@ in the web browser (SEPMRA_PROD_MAN/SEPMRA_C_PD_Product/?$format=json) add this 
 <img src="./files/capmd10-10a.png" >
 </br>
 </br>
-<img src="./files/capmd10-8.0a.png" >
+<img src="./files/capmd10-10b.png" >
 </br>
 </br>
 
