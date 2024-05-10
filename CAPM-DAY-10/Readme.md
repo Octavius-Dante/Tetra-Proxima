@@ -366,7 +366,7 @@ Go to SAP Fiori template (Fiori Open application generator via command palatte)
 ## annotation.xml before changes
 
 <details>
-<summary> annotaion.xml file sample </b> </summary>
+<summary> annotation.xml file sample </b> </summary>
 </br>
 </br>
 
@@ -401,7 +401,7 @@ Go to SAP Fiori template (Fiori Open application generator via command palatte)
 ## annotation.xml after changes
 
 <details>
-<summary> annotaion.xml file sample - modified</b> </summary>
+<summary> annotation.xml file sample - modified</b> </summary>
 </br>
 </br>
 
