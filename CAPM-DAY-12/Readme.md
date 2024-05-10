@@ -827,6 +827,24 @@ Alternative yaml file with db deployer component
 </br>
 </br>
 
+## The following yaml file commands mostly fix any problems during build and deployment 
+
+</br>
+</br>
+
+```yaml
+
+// Following commands succeeded in building - Failed during deployment - 
+      commands:
+        - npm install
+        - npx -p @sap/cds-dk cds build --production
+        - npm update --package-lock-only
+        - npm clean-install --production
+```
+
+</br>
+</br>
+
 Success in Build stage but deployment encountered error 
 </br>
 </br>
