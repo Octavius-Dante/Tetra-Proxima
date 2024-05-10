@@ -345,39 +345,10 @@ Go to SAP Fiori template (Fiori Open application generator via command palatte)
 </br>
 </br>
 </details>
-
-</br>
-</br>
 </br>
 </br>
 </details>
 
-
-
-</br>
-</br>
-
-</br>
-</br>
-</details>
-
-</br>
-</br>
-
-</br>
-</br>
-
-</br>
-</br>
-
-</br>
-</br>
-
-</br>
-</br>
-
-</br>
-</br>
 
 
 
