@@ -280,7 +280,7 @@ Go to SAP Fiori template (Fiori Open application generator via command palatte)
 <img src="./files/capmd10-35.png" >
 </br>
 </br>
-</details>
+
 
 ## annotation.xml before changes
 
@@ -348,6 +348,13 @@ Go to SAP Fiori template (Fiori Open application generator via command palatte)
 </br>
 </br>
 </details>
+
+</br>
+</br>
+</br>
+</br>
+</details>
+
 
 
 </br>
