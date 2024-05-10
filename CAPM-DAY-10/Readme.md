@@ -267,6 +267,11 @@ Go to SAP Fiori template (Fiori Open application generator via command palatte)
 </br>
 </br>
 
+<img src="./files/capmd10-32.png" >
+</br>
+</br>
+</details>
+
 </br>
 </br>
 
