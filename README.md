@@ -248,7 +248,7 @@ Extensibility services for user access authorizations which is responsible for a
 </br>
 Node JS is an open source, cross platform Java Script runtime environemnt and used for executing Java Script code out side the web browser. Java and JavaScript are different by their nature, design and use case, Java Script was dominantly used as a web programming language. All the browsers directly understand Java Script.
 </br>
-Node JS is also a great web framework for beigneers becuse it works great with data-intensive applciations like straming, real-time apps. it is free and easy to elarn Node JS.
+Node JS is also a great web framework for beigners because it works great with data-intensive applications like streaming real-time apps. it is free and easy to learn.
 </br>
 </br>
 
