@@ -262,6 +262,18 @@ Go to SAP Fiori template (Fiori Open application generator via command palatte)
 </details>
 
 
+<details>
+<summary> <b>5. making changes to the template built fiori app (annotations.xml) </b> </summary>
+</br>
+</br>
+
+</br>
+</br>
+
+</br>
+</br>
+</details>
+
 </br>
 </br>
 
