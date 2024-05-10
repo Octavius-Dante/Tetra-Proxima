@@ -359,7 +359,11 @@ Go to SAP Fiori template (Fiori Open application generator via command palatte)
 </br>
 </details>
 
+</br>
+</br>
 
+</br>
+</br>
 
 ## annotation.xml before changes
 
@@ -394,6 +398,8 @@ Go to SAP Fiori template (Fiori Open application generator via command palatte)
 </br>
 </details>
 
+</br>
+</br>
 
 ## annotation.xml after changes
 
@@ -428,7 +434,8 @@ Go to SAP Fiori template (Fiori Open application generator via command palatte)
 </br>
 </details>
 
-
+</br>
+</br>
 
 ## mta.yaml default - before changes 
 
