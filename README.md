@@ -59,7 +59,8 @@ Following check list of items available under this topic
 
 </br>
 </br>
-[Reading on what is Rest API](https://github.com/Octavius-Dante/Tetra_Proxima/tree/main/REST_API)
+
+</br> [Reading on what is Rest API](https://github.com/Octavius-Dante/Tetra_Proxima/tree/main/REST_API)
 
 </br>
 </br>
