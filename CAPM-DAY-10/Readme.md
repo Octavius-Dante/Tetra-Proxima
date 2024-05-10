@@ -363,7 +363,7 @@ Go to SAP Fiori template (Fiori Open application generator via command palatte)
 </br>
 </br>
 
-# NEXT ------ CAPM - DAY 11 - S4HANA Side by Side
+# NEXT ------ CAPM - DAY 11 - Side by Side extension 2.0
 
 <p align="center"> 
 <a href="https://github.com/Octavius-Dante/Tetra_Proxima/tree/main/CAPM-DAY-11"> CAPM DAY 11 - Side by Side extension 2.0</a> 

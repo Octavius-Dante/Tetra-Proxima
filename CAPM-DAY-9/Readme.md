@@ -852,7 +852,7 @@ Same role will be created in roles section in BTP and that role we have assign i
 </br>
 </br>
 
-# NEXT ------ CAPM - DAY 10 - Side by Side extension
+# NEXT ------ CAPM - DAY 10 - Side by Side extension 1.0
 
 <p align="center"> 
 <a href="https://github.com/Octavius-Dante/Tetra_Proxima/tree/main/CAPM-DAY-10"> CAPM DAY 10 - Side by Side extension</a> 
