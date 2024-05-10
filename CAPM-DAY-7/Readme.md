@@ -1167,7 +1167,7 @@ cf deploy gen/mta.tar
 - [x] perform : cds build --production
 - [x] perform build MTA project 
 - [x] perform deploy MTA archive
-- [x] have to implement necessary roles and role collection to your app to run it properly in BTP (post deployment) - follow the next tutorial for successful implementation of XSUAA
+- [x] have to implement necessary roles and role collection to your app to access SRV module in BTP (post deployment) - follow the next tutorial for successful implementation of XSUAA
 
 <!--
 
