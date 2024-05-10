@@ -174,6 +174,42 @@ Some times the available catalog services wont be displayed but since destinatio
 </details>
 
 
+<details>
+<summary> <b>4. Build Fiori applicaiton in BAS using Fiori elements template </b> </summary>
+</br>
+</br>
+
+<!--Leveraging the power of S/4 HANA in BTP in side by side extension -->
+Go to SAP Fiori template (Fiori Open application generator via command palatte) 
+</br> menu --> help --> get started  (or)  menu --> view --> command palette    
+</br> 
+</br>
+<img src="./files/capmd10-15.png" >
+</br>
+</br>
+
+<img src="./files/capmd10-16.png" >
+</br>
+</br>
+
+<img src="./files/capmd10-17.png" >
+</br>
+</br>
+
+<img src="./files/capmd10-18.png" >
+</br>
+</br>
+
+<img src="./files/capmd10-19a.png" >
+</br>
+</br>
+
+<img src="./files/capmd10-19b.png" >
+</br>
+</br>
+</details>
+
+
 </br>
 </br>
 
