@@ -460,7 +460,7 @@ Access the following link (which has $metadata added to it)
 1. Go to Vs code and create a new project and perform cds init </br></br>
 <img src="./files/capmd10-117.png" ></br> </br>
 
-2. do a cds watch 
+2. do a cds watch </br> </br>
 <img src="./files/capmd10-118.png" ></br> </br>
 
 3. drag and drop the *.edmx file to SRV folder </br></br>
