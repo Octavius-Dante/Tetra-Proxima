@@ -525,7 +525,7 @@ Creating a datamodel.cds and datamodel.js inside SRV folder</br> </br>
 
 open $metadata page of the NorthWind from this link ([https://services.odata.org/V3/Northwind/Northwind.svc/$metadata](https://services.odata.org/V3/Northwind/Northwind.svc/$metadata)) and look for Customers entity structure and check the details 
 </br> </br>
-<img src="./files/capmd10-138.png" ></br> </br>
+<img src="./files/capmd10-138a.png" ></br> </br>
 
 Following structure is picked from NorthWind.edmx file (now we generate some test data for this structure in [mockaroo.com](https://www.mockaroo.com/))
 </br> </br>
