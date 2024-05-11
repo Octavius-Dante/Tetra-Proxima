@@ -438,9 +438,16 @@ Deploy the app</br></br>
 </br>
 </br>
 
-1. Access the following link with  
+1. Access the following link (which has $metadata added to it)
 </br>[https://services.odata.org/V3/OData/OData.svc/$metadata](https://services.odata.org/V3/OData/OData.svc/$metadata)
-</br>[https://services.odata.org/V3/Northwind/Northwind.svc/$metadata](https://services.odata.org/V3/OData/OData.svc/$metadata)
+</br>
+</br> and save the page as *.edmx file 
+</br> 
+
+<img src="./files/capmd10-113.png" ></br> </br>
+<img src="./files/capmd10-114.png" ></br> </br>
+<img src="./files/capmd10-115.png" ></br> </br>
+
 
 </br>
 </br>
@@ -456,13 +463,7 @@ Deploy the app</br></br>
 <!-- 
 
 
-<img src="./files/capmd10-109.png" ></br> </br>
-<img src="./files/capmd10-110.png" ></br> </br>
-<img src="./files/capmd10-111.png" ></br> </br>
-<img src="./files/capmd10-112.png" ></br> </br>
-<img src="./files/capmd10-113.png" ></br> </br>
-<img src="./files/capmd10-114.png" ></br> </br>
-<img src="./files/capmd10-115.png" ></br> </br>
+
 <img src="./files/capmd10-116.png" ></br> </br>
 <img src="./files/capmd10-117.png" ></br> </br>
 <img src="./files/capmd10-118.png" ></br> </br>
@@ -478,6 +479,8 @@ Deploy the app</br></br>
 <img src="./files/capmd10-128.png" ></br> </br>
 <img src="./files/capmd10-129.png" ></br> </br>
 <img src="./files/capmd10-130.png" ></br> </br>
+
+
 <img src="./files/capmd10-131.png" ></br> </br>
 <img src="./files/capmd10-132.png" ></br> </br>
 <img src="./files/capmd10-133.png" ></br> </br>
