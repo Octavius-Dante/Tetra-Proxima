@@ -884,18 +884,6 @@ parameters:
 </br>
 </br>
 </br>
-</br>
-</br>
-
-
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
 
 # NEXT ------ CAPM - DAY 11 - Side by Side extension 2.0
 
