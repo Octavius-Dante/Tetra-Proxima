@@ -395,6 +395,8 @@ Deploy the app</br></br>
 <img src="./files/capmd10-104.png" ></br> </br>
 <img src="./files/capmd10-105.png" ></br> </br>
 <img src="./files/capmd10-106.png" ></br> </br>
+<img src="./files/capmd10-107.png" ></br> </br>
+<img src="./files/capmd10-108.png" ></br> </br>
 </br>
 </br>
 </br>
@@ -403,8 +405,7 @@ Deploy the app</br></br>
 
 <!-- 
 
-<img src="./files/capmd10-107.png" ></br> </br>
-<img src="./files/capmd10-108.png" ></br> </br>
+
 <img src="./files/capmd10-109.png" ></br> </br>
 <img src="./files/capmd10-110.png" ></br> </br>
 <img src="./files/capmd10-111.png" ></br> </br>
