@@ -67,6 +67,15 @@ SAP Recommends to build extensions on top of BTP outside the stable core ERP
 </br>
 </br>
 
+**Fee Api provided by Microsoft for testing purpose**
+</br>
+
+https://services.odata.org/
+https://services.odata.org/V3/OData/OData.svc/
+https://services.odata.org/V3/Northwind/Northwind.svc/
+</br>
+</br>
+
 Before we proceed the cloud connection to ERP system is important it is a pre-requisite for this session 
 </br> If cloud connection to On-Premise or ERP is not performed kindly refer this link and establish connection 
 </br> [SAP Cloud connection](https://github.com/Octavius-Dante/Tetra_Proxima/tree/main/SAP_Cloud_Connector)
@@ -501,14 +510,17 @@ Deploy the app</br></br>
 <img src="./files/capmd10-187.png" ></br> </br> 
 
 -->
-
-
-
-
 </br>
 </br>
 
 
+## Case 2.0
+</br>
+</br>
+
+
+
+### CASE 1.0
 ## annotation.xml before changes
 
 <details>
