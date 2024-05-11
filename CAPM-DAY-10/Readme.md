@@ -438,12 +438,10 @@ Deploy the app</br></br>
 </br>
 </br>
 
-1. Access the following link (which has $metadata added to it)
+Access the following link (which has $metadata added to it)
 </br>[https://services.odata.org/V3/OData/OData.svc/$metadata](https://services.odata.org/V3/OData/OData.svc/$metadata)
 </br>
-</br> and save the page as *.edmx file 
-</br> 
-
+</br> and save the page as *.edmx file </br> </br> 
 <img src="./files/capmd10-113.png" ></br> </br>
 <img src="./files/capmd10-114.png" ></br> </br>
 <img src="./files/capmd10-115.png" ></br> </br>
