@@ -332,13 +332,21 @@ Go to SAP Fiori template (Fiori Open application generator via command palatte)
 <img src="./files/capmd10-77.png" ></br> </br>
 <img src="./files/capmd10-78.png" ></br> </br>
 <img src="./files/capmd10-79.png" ></br> </br>
-
-
 <img src="./files/capmd10-80.png" ></br> </br>
 <img src="./files/capmd10-81.png" ></br> </br>
 <img src="./files/capmd10-82.png" ></br> </br>
 <img src="./files/capmd10-83.png" ></br> </br>
 <img src="./files/capmd10-84.png" ></br> </br>
+</br>
+</br>
+</details>
+
+
+<details>
+<summary> <b>6. Deploying the fiori app to BTP cloud</b> </summary>
+</br>
+</br>
+
 <img src="./files/capmd10-85.png" ></br> </br>
 <img src="./files/capmd10-86.png" ></br> </br>
 <img src="./files/capmd10-87.png" ></br> </br>
@@ -448,10 +456,10 @@ Go to SAP Fiori template (Fiori Open application generator via command palatte)
 <img src="./files/capmd10-186.png" ></br> </br>
 <img src="./files/capmd10-187.png" ></br> </br>
 
-
 </br>
 </br>
 </details>
+
 
 </br>
 </br>
