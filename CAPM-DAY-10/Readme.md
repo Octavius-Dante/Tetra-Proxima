@@ -365,17 +365,17 @@ CF login  </br></br>
 
 Create MTA archive build </br></br>
 <img src="./files/capmd10-86.png" ></br> </br>
-</br></br>
-
-Deploy the app</br></br>
 <img src="./files/capmd10-87.png" ></br> </br>
 </br></br>
 
-
-
+Deploy the app</br></br>
 <img src="./files/capmd10-93.png" ></br> </br>
 <img src="./files/capmd10-94.png" ></br> </br>
 <img src="./files/capmd10-95.png" ></br> </br>
+</br></br>
+
+
+
 <img src="./files/capmd10-96.png" ></br> </br>
 <img src="./files/capmd10-97.png" ></br> </br>
 <img src="./files/capmd10-98.png" ></br> </br>
