@@ -67,7 +67,7 @@ SAP Recommends to build extensions on top of BTP outside the stable core ERP
 </br>
 </br>
 
-**Fee Api provided by Microsoft for testing purpose**
+**Free Api provided by Microsoft for testing purpose**
 </br>
 
 </br> https://services.odata.org/
