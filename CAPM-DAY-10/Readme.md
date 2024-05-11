@@ -415,6 +415,36 @@ Deploy the app</br></br>
 </br>
 </details>
 
+</br>
+</br>
+
+
+## Case 2.0
+</br>
+</br>
+
+**Free Api provided by Microsoft for testing purpose**
+</br>
+
+</br> https://services.odata.org/
+</br> https://services.odata.org/V3/OData/OData.svc/
+</br> https://services.odata.org/V3/Northwind/Northwind.svc/
+</br>
+</br>
+
+
+<details>
+<summary> <b>1. Access the 3rd party API and retrieve data structure </b> </summary>
+</br>
+</br>
+
+1. Access the following link with  
+</br>[https://services.odata.org/V3/OData/OData.svc/$metadata](https://services.odata.org/V3/OData/OData.svc/$metadata)
+</br>[https://services.odata.org/V3/Northwind/Northwind.svc/$metadata](https://services.odata.org/V3/OData/OData.svc/$metadata)
+
+</br>
+</br>
+</details>
 
 <!-- 
 
@@ -503,22 +533,8 @@ Deploy the app</br></br>
 <img src="./files/capmd10-187.png" ></br> </br> 
 
 -->
-</br>
-</br>
 
 
-## Case 2.0
-</br>
-</br>
-
-**Free Api provided by Microsoft for testing purpose**
-</br>
-
-</br> https://services.odata.org/
-</br> https://services.odata.org/V3/OData/OData.svc/
-</br> https://services.odata.org/V3/Northwind/Northwind.svc/
-</br>
-</br>
 
 
 ### Case 1.0 (files for reference)
