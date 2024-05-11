@@ -589,6 +589,48 @@ We have to instruct CAP framewrok to retrieve the data and map to our struture s
 </br> </br>
 <img src="./files/capmd10-150.png" ></br> </br>
 
+```js
+
+const cds = require('@sap/cds');
+
+module.exports = cds.service.impl(async function(){
+
+    const { Customers } = this.entities;
+
+    const service = await cds.connect.to('NorthWind')
+
+this.on('READ', Customers, async (request)=>{
+    
+    // check, pre-checks, make filters, authorization, security
+    var data = await service.tx(request).run(request.query);
+    console.log(data);
+
+    // data enrichment - adding our hardcoded data
+    data.push({
+
+        "CustomerID": "Cleon",
+        "CompanyName": "DANTE Cloud development",
+        "ContactName": "Arthelais",
+        "ContactTitle": "Chief Developer",
+        "Address": "kremlin rue",
+        "City": "Alaska",
+        "Region": "Northern region",
+        "PostalCode": "12SST",
+        "Country": "United States",
+        "Phone": "030-0074321",
+        "Fax": "030-0076545"
+        
+    })
+});
+
+});
+
+
+```
+</br>
+</br>
+
+
 </br>
 </br>
 </details>
