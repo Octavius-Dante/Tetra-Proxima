@@ -453,7 +453,7 @@ Access the following link (which has $metadata added to it)
 
 
 <details>
-<summary> <b>2. Build an app using the data structure </b> </summary>
+<summary> <b>2. Use the data structure file in app for defining a structure</b> </summary>
 </br>
 </br>
 
@@ -486,6 +486,16 @@ Access the following link (which has $metadata added to it)
 8. View the file</br></br>
 <img src="./files/capmd10-127.png" ></br> </br>
 <img src="./files/capmd10-128.png" ></br> </br>
+<img src="./files/capmd10-129.png" ></br> </br>
+
+</br>
+</br>
+</details>
+
+<details>
+<summary> <b>3. Use the file in app for defining table structure</b> </summary>
+</br>
+</br>
 
 </br>
 </br>
@@ -501,7 +511,7 @@ Access the following link (which has $metadata added to it)
 
 
 
-<img src="./files/capmd10-129.png" ></br> </br>
+
 <img src="./files/capmd10-130.png" ></br> </br>
 
 
