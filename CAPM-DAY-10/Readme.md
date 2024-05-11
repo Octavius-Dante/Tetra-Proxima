@@ -547,7 +547,7 @@ Deploy the app</br></br>
 ## Case 1.0 (files for reference)
 </br>
 
-## annotation.xml before changes
+**annotation.xml before changes**
 
 <details>
 <summary> annotation.xml file sample </b> </summary>
@@ -582,7 +582,7 @@ Deploy the app</br></br>
 
 </br>
 
-## annotation.xml after changes
+**annotation.xml after changes**
 
 <details>
 <summary> annotation.xml file sample - modified</b> </summary>
@@ -686,7 +686,7 @@ Deploy the app</br></br>
 
 </br>
 
-## mta.yaml default - before changes 
+**mta.yaml default - before changes** 
 
 <details>
 <summary> <b> mta.yaml file sample before changes </b> </summary>
@@ -799,7 +799,7 @@ parameters:
 
 </br>
 
-## mta.yaml default - after changes 
+**mta.yaml default - after changes** 
 
 <details>
 <summary> <b> mta.yaml file sample after changes </b> </summary>
