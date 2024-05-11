@@ -524,6 +524,75 @@ Go to SAP Fiori template (Fiori Open application generator via command palatte)
     </edmx:Reference>
     <edmx:DataServices>
         <Schema xmlns="http://docs.oasis-open.org/odata/ns/edm" Namespace="local">
+
+            <Annotations Target="SAP.SEPMRA_C_PD_ProductType">
+                <Annotation Term="UI.Facets" >
+                    <Collection>
+                        <Record Type="UI.ReferenceFacet">
+                            <PropertyValue Property="Target" AnnotationPath="@UI.FieldGroup#Dreamland"/>
+                            <PropertyValue Property="Label" String="More info"/>
+                        </Record>
+                        <Record Type="UI.ReferenceFacet">
+                            <PropertyValue Property="Target" AnnotationPath="to_ProductSalesData/@UI.LineItem#Wonderland"/>
+                            <PropertyValue Property="Label" String="Sales related to product"/>
+                        </Record>        
+                        <Record Type="UI.ReferenceFacet">
+                            <PropertyValue Property="Target" AnnotationPath="to_ProductSalesData/@UI.Chart#RevenueByCountry"/>
+                            <PropertyValue Property="Label" String="Insights"/>
+                        </Record>                                                
+                    </Collection>
+                </Annotation>
+               <Annotation Term="UI.FieldGroup" Qualifier="Dreamland">
+                   <Record Type="UI.FieldGroupType">
+                       <PropertyValue Property="Data">
+                           <Collection>
+                               <Record Type="UI.DataField">
+                                   <PropertyValue Property="Value" Path="Name"/>
+                                   <PropertyValue Property="Label" String="Name"/>
+                               </Record>
+                               <Record Type="UI.DataField">
+                                   <PropertyValue Property="Value" Path="Description"/>
+                                   <PropertyValue Property="Label" String="Description"/>
+                               </Record>
+                               <Record Type="UI.DataField">
+                                   <PropertyValue Property="Value" Path="Price"/>
+                                   <PropertyValue Property="Label" String="Price"/>
+                               </Record>
+                               <Record Type="UI.DataField">
+                                   <PropertyValue Property="Value" Path="Currency"/>
+                                   <PropertyValue Property="Label" String="Currency"/>
+                               </Record>
+                               <Record Type="UI.DataField">
+                                   <PropertyValue Property="Value" Path="DimensionUnit"/>
+                                   <PropertyValue Property="Label" String="DimensionUnit"/>
+                               </Record>
+                               <Record Type="UI.DataField">
+                                   <PropertyValue Property="Value" Path="Product"/>
+                                   <PropertyValue Property="Label" String="Id"/>
+                               </Record>                                                                                                                                                           
+                           </Collection>
+                       </PropertyValue>
+                   </Record>
+               </Annotation> 
+            </Annotations>
+            <Annotations Target="SAP.SEPMRA_C_PD_ProductSalesDataType">
+                <Annotation Term="UI.LineItem" Qualifier="Wonderland" >
+                    <Collection>
+                        <Record Type="UI.DataField">
+                            <PropertyValue Property="Value" Path="SalesOrder"/>
+                        </Record>
+                        <Record Type="UI.DataField">
+                            <PropertyValue Property="Value" Path="SoldToParty"/>
+                        </Record>
+                        <Record Type="UI.DataField">
+                            <PropertyValue Property="Value" Path="NetAmount"/>
+                        </Record>
+                        <Record Type="UI.DataField">
+                            <PropertyValue Property="Value" Path="SoldToPartyCountry"/>
+                        </Record>                                                                        
+                    </Collection>
+                </Annotation>
+            </Annotations>
         </Schema>
     </edmx:DataServices>
 </edmx:Edmx>
