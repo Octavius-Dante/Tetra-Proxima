@@ -520,7 +520,7 @@ Deploy the app</br></br>
 
 
 
-### CASE 1.0
+### Case 1.0 (files for reference)
 ## annotation.xml before changes
 
 <details>
