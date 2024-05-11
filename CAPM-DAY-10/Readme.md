@@ -439,7 +439,7 @@ Deploy the app</br></br>
 </br>
 
 Access the following link (which has $metadata added to it)
-</br>[https://services.odata.org/V3/OData/OData.svc/$metadata](https://services.odata.org/V3/OData/OData.svc/$metadata)
+</br>[https://services.odata.org/V3/Northwind/Northwind.svc/$metadata](https://services.odata.org/V3/Northwind/Northwind.svc/$metadata)
 </br>
 </br> and save the page as *.edmx file </br> </br> 
 <img src="./files/capmd10-113.png" ></br> </br>
@@ -452,9 +452,29 @@ Access the following link (which has $metadata added to it)
 </details>
 
 
+<details>
+<summary> <b>2. Build an app using the data structure </b> </summary>
 </br>
 </br>
 
+1. Go to Vs code and create a new project and perform cds init </br></br>
+<img src="./files/capmd10-117.png" ></br> </br>
+
+2. do a cds watch 
+<img src="./files/capmd10-118.png" ></br> </br>
+
+3. drag and drop the *.edmx file to SRV folder </br></br>
+<img src="./files/capmd10-119.png" ></br> </br>
+<img src="./files/capmd10-120.png" ></br> </br>
+<img src="./files/capmd10-121.png" ></br> </br>
+
+</br>
+</br>
+
+</details>
+
+</br>
+</br>
 </br>
 </br>
 
@@ -463,10 +483,7 @@ Access the following link (which has $metadata added to it)
 
 
 
-<img src="./files/capmd10-117.png" ></br> </br>
-<img src="./files/capmd10-118.png" ></br> </br>
-<img src="./files/capmd10-119.png" ></br> </br>
-<img src="./files/capmd10-120.png" ></br> </br>
+
 <img src="./files/capmd10-121.png" ></br> </br>
 <img src="./files/capmd10-122.png" ></br> </br>
 <img src="./files/capmd10-123.png" ></br> </br>
