@@ -469,8 +469,7 @@ Access the following link (which has $metadata added to it)
 </br> </br>
 
 > [!NOTE]
-> In case the file drag and drop is perfromed with wrong file name (northwind.edmx) 
-> please repeat the process (create new project folder, perform cds init , then perform Northwind.edmx with correct file name)
+> In case the file drag and drop is perfromed with wrong file name (northwind.edmx) please repeat the process (create new project folder, perform cds init , then perform Northwind.edmx with correct file name)
 
 </br> </br>
 
