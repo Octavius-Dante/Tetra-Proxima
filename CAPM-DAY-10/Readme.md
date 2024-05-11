@@ -465,8 +465,14 @@ Access the following link (which has $metadata added to it)
 
 3. drag and drop the *.edmx file to SRV folder </br></br>
 <img src="./files/capmd10-119.png" ></br> </br>
+
+4. in command prompt we can see some actions performed </br></br>
 <img src="./files/capmd10-120.png" ></br> </br>
+
+5. Access the link here and it takes to a SRV skeleton page as shown below
 <img src="./files/capmd10-121.png" ></br> </br>
+<img src="./files/capmd10-122.png" ></br> </br>
+<img src="./files/capmd10-123.png" ></br> </br>
 
 </br>
 </br>
@@ -480,13 +486,6 @@ Access the following link (which has $metadata added to it)
 
 <!-- 
 
-
-
-
-
-<img src="./files/capmd10-121.png" ></br> </br>
-<img src="./files/capmd10-122.png" ></br> </br>
-<img src="./files/capmd10-123.png" ></br> </br>
 <img src="./files/capmd10-124.png" ></br> </br>
 <img src="./files/capmd10-125.png" ></br> </br>
 <img src="./files/capmd10-126.png" ></br> </br>
