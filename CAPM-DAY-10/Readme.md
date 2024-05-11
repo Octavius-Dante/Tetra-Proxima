@@ -372,10 +372,7 @@ Deploy the app</br></br>
 </br></br>
 
 
-<img src="./files/capmd10-89.png" ></br> </br>
-<img src="./files/capmd10-90.png" ></br> </br>
-<img src="./files/capmd10-91.png" ></br> </br>
-<img src="./files/capmd10-92.png" ></br> </br>
+
 <img src="./files/capmd10-93.png" ></br> </br>
 <img src="./files/capmd10-94.png" ></br> </br>
 <img src="./files/capmd10-95.png" ></br> </br>
@@ -856,7 +853,10 @@ parameters:
 </br>
 </br>
 <img src="./files/capmd10-88.png" ></br> </br>
-
+<img src="./files/capmd10-89.png" ></br> </br>
+<img src="./files/capmd10-90.png" ></br> </br>
+<img src="./files/capmd10-91.png" ></br> </br>
+<img src="./files/capmd10-92.png" ></br> </br>
 </br>
 </br>
 </details>
