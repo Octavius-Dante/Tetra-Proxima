@@ -578,7 +578,22 @@ We have filled data from our local csv file ,Now we make changes to get data fro
 The catalog service will display error when accessed 
 </br> </br>
 <img src="./files/capmd10-146.png" ></br> </br>
+
+Following link is accessed in Postman as well as in browseer to see the data coming from API
+</br> </br>
+<img src="./files/capmd10-147.png" ></br> </br>
+<img src="./files/capmd10-148.png" ></br> </br>
+
+
+We have to instruct CAP framewrok to retrieve the data and map to our struture so we need to write code in datamodel.js for catalog service
+</br> </br>
+<img src="./files/capmd10-149.png" ></br> </br>
+
+</br>
+</br>
 </details>
+
+
 
 </br>
 </br>
@@ -587,17 +602,6 @@ The catalog service will display error when accessed
 
 <!-- 
 
-
-
-
-
-
-
-
-
-
-<img src="./files/capmd10-147.png" ></br> </br>
-<img src="./files/capmd10-148.png" ></br> </br>
 <img src="./files/capmd10-149.png" ></br> </br>
 <img src="./files/capmd10-150.png" ></br> </br>
 <img src="./files/capmd10-151.png" ></br> </br>
