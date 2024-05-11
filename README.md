@@ -373,12 +373,12 @@ REST is useful in modern applications and public APIs.</br> </br>
 YAML definition : It is a human-readable data serialization language. It is commonly used for configuration file.
 </br> 
 </br> 
-</br> package.json - installed dependency list (developemnt / runtime )
-</br> pacakge-lock.json - contains sub dependcies of a dependency item and 
-</br>- path details of the dependency item present in the app directory
-</br> xs-app.json - App router details 
-</br> xs-security.json - XSUAA - security setting definition
-</br> manifest.json - App Ui metadata 
+</br> package.json - installed dependency list (developemnt / runtime )</br> 
+</br> pacakge-lock.json - contains sub dependcies of a dependency item and </br> 
+</br>- path details of the dependency item present in the app directory</br> 
+</br> xs-app.json - App router details </br> 
+</br> xs-security.json - XSUAA - security setting definition</br> 
+</br> manifest.json - App Ui metadata </br> 
 </br> 
 </br> 
 </br> 
