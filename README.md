@@ -375,7 +375,7 @@ YAML definition : It is a human-readable data serialization language. It is comm
 </br> 
 </br> package.json - installed dependency list (developemnt / runtime )</br> 
 </br> pacakge-lock.json - contains sub dependcies of a dependency item and </br> 
-</br>- path details of the dependency item present in the app directory</br> 
+</br>- path details of the dependency item present in the app directory
 </br> xs-app.json - App router details </br> 
 </br> xs-security.json - XSUAA - security setting definition</br> 
 </br> manifest.json - App Ui metadata </br> 
