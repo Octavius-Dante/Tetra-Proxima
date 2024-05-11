@@ -70,9 +70,9 @@ SAP Recommends to build extensions on top of BTP outside the stable core ERP
 **Fee Api provided by Microsoft for testing purpose**
 </br>
 
-https://services.odata.org/
-https://services.odata.org/V3/OData/OData.svc/
-https://services.odata.org/V3/Northwind/Northwind.svc/
+</br> https://services.odata.org/
+</br> https://services.odata.org/V3/OData/OData.svc/
+</br> https://services.odata.org/V3/Northwind/Northwind.svc/
 </br>
 </br>
 
