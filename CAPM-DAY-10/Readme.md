@@ -496,24 +496,11 @@ Access the following link (which has $metadata added to it)
 </br>
 </br>
 
+**The goal is to display only one catalog services exposed with data to web out of many listed**
 </br>
 </br>
-</details>
-
-</br>
-</br>
-</br>
-</br>
-
-<!-- 
-
-
-
-
 
 <img src="./files/capmd10-130.png" ></br> </br>
-
-
 <img src="./files/capmd10-131.png" ></br> </br>
 <img src="./files/capmd10-132.png" ></br> </br>
 <img src="./files/capmd10-133.png" ></br> </br>
@@ -529,6 +516,21 @@ Access the following link (which has $metadata added to it)
 <img src="./files/capmd10-143.png" ></br> </br>
 <img src="./files/capmd10-144.png" ></br> </br>
 <img src="./files/capmd10-145.png" ></br> </br>
+
+</details>
+
+</br>
+</br>
+</br>
+</br>
+
+<!-- 
+
+
+
+
+
+
 
 
 
