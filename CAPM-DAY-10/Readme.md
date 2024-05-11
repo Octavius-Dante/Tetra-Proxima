@@ -589,6 +589,9 @@ We have to instruct CAP framewrok to retrieve the data and map to our struture s
 </br> </br>
 <img src="./files/capmd10-150.png" ></br> </br>
 
+Code sample used in datamodel.js 
+</br> </br>
+
 ```js
 
 const cds = require('@sap/cds');
