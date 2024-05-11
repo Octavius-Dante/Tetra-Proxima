@@ -462,8 +462,9 @@ Access the following link (which has $metadata added to it)
 2. do a cds watch </br> </br>
 <img src="./files/capmd10-118.png" ></br> </br>
 
-3. drag and drop the *.edmx file to SRV folder </br></br>
+3. drag and drop the *.edmx file to SRV folder make sure the naming should be in proper case (NorthWind.edmx)</br></br>
 <img src="./files/capmd10-119.png" ></br> </br>
+<img src="./files/capmd10-119a.png" ></br> </br>
 
 4. in command prompt we can see some actions performed </br></br>
 <img src="./files/capmd10-120.png" ></br> </br>
@@ -502,6 +503,10 @@ Access the following link (which has $metadata added to it)
 
 <img src="./files/capmd10-130.png" ></br> </br>
 <img src="./files/capmd10-131.png" ></br> </br>
+
+</br>
+</br>
+Creating a datamodel.cds and datamodel.js inside SRV folder</br> </br>
 <img src="./files/capmd10-132.png" ></br> </br>
 <img src="./files/capmd10-133.png" ></br> </br>
 <img src="./files/capmd10-134.png" ></br> </br>
