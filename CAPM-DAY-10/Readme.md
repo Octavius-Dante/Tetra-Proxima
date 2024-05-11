@@ -517,7 +517,7 @@ Creating a datamodel.cds and datamodel.js inside SRV folder</br> </br>
 <img src="./files/capmd10-132.png" ></br> </br>
 <img src="./files/capmd10-133.png" ></br> </br>
 <img src="./files/capmd10-134.png" ></br> </br>
-<img src="./files/capmd10-135.png" ></br> </br>
+<img src="./files/capmd10-135a.png" ></br> </br>
 <img src="./files/capmd10-136.png" ></br> </br>
 <img src="./files/capmd10-137.png" ></br> </br>
 </br> </br>
