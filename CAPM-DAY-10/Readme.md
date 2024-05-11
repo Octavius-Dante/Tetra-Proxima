@@ -569,11 +569,15 @@ Add the test data to the csv file (copy pasted)
 <img src="./files/capmd10-141.png" ></br> </br>
 <img src="./files/capmd10-142.png" ></br> </br>
 
-
+We have filled data from our local csv file ,Now we make changes to get data from api itself
+</br> </br>
 <img src="./files/capmd10-143.png" ></br> </br>
 <img src="./files/capmd10-144.png" ></br> </br>
 <img src="./files/capmd10-145.png" ></br> </br>
 
+The catalog service will display error when accessed 
+</br> </br>
+<img src="./files/capmd10-146.png" ></br> </br>
 </details>
 
 </br>
@@ -591,7 +595,7 @@ Add the test data to the csv file (copy pasted)
 
 
 
-<img src="./files/capmd10-146.png" ></br> </br>
+
 <img src="./files/capmd10-147.png" ></br> </br>
 <img src="./files/capmd10-148.png" ></br> </br>
 <img src="./files/capmd10-149.png" ></br> </br>
