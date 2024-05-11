@@ -347,6 +347,17 @@ Go to SAP Fiori template (Fiori Open application generator via command palatte)
 </br>
 </br>
 
+The deployment process is same only new thing is the MTA yaml contents will be different 
+</br>
+</br>
+
+1. DO cf login
+2. Perform building MTA archive 
+3. Deploy MTA archive
+
+</br>
+</br>
+
 <img src="./files/capmd10-85.png" ></br> </br>
 <img src="./files/capmd10-86.png" ></br> </br>
 <img src="./files/capmd10-87.png" ></br> </br>
