@@ -583,11 +583,11 @@ Following link is accessed in Postman as well as in browseer to see the data com
 </br> </br>
 <img src="./files/capmd10-147.png" ></br> </br>
 <img src="./files/capmd10-148.png" ></br> </br>
-
+<img src="./files/capmd10-149.png" ></br> </br>
 
 We have to instruct CAP framewrok to retrieve the data and map to our struture so we need to write code in datamodel.js for catalog service
 </br> </br>
-<img src="./files/capmd10-149.png" ></br> </br>
+<img src="./files/capmd10-150.png" ></br> </br>
 
 </br>
 </br>
@@ -602,7 +602,6 @@ We have to instruct CAP framewrok to retrieve the data and map to our struture s
 
 <!-- 
 
-<img src="./files/capmd10-149.png" ></br> </br>
 <img src="./files/capmd10-150.png" ></br> </br>
 <img src="./files/capmd10-151.png" ></br> </br>
 <img src="./files/capmd10-152.png" ></br> </br>
