@@ -340,6 +340,36 @@ Build Business logic on server side, DB lookups, send emails, write valdiations,
 </br> Yet another Markup language - YAML
 </br> 
 </br> 
+
+**REST Stands for Representational State Transfer**
+</br> 
+</br> 
+What is it?</br> 
+REST is an architecture style for designing communication interfaces.</br> </br> 
+
+Design</br> 
+REST API exposes the data.</br> </br> 
+
+Transport Protocol</br> 
+REST works only with HTTPS.</br> </br> 
+
+Data format</br> 
+REST supports XML, JSON, plain text, HTML.</br> </br> 
+
+Performance</br> 
+REST has faster performance due to smaller messages and caching support.</br> </br> 
+
+Scalability</br> 
+REST is easy to scale. It’s stateless, so every message is processed independently of previous messages.</br> </br> 
+
+Security</br> 
+REST supports encryption without affecting performance.</br> </br> 
+
+Use case</br> 
+REST is useful in modern applications and public APIs.</br> </br> 
+
+</br> 
+</br> 
 YAML definition : It is a human-readable data serialization language. It is commonly used for configuration file.
 </br> 
 </br> 
