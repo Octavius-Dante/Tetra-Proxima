@@ -479,7 +479,7 @@ Access the following link (which has $metadata added to it)
 7. A rough preview into the CSN file</br></br>
 <img src="./files/capmd10-125.png" ></br> </br>
 
-7. Install and extension in VSCode to view the EDMX file</br></br>
+7. Install an extension in VSCode to view the EDMX file</br></br>
 <img src="./files/capmd10-126.png" ></br> </br>
 
 8. View the file</br></br>
