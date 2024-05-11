@@ -379,7 +379,6 @@ Deploy the app</br></br>
 </details>
 
 
-
 <details>
 <summary> <b>7. Assigning teh deployed app to fiori tile in SAP build work zone </b> </summary>
 </br>
