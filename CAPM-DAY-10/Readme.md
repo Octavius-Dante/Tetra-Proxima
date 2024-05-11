@@ -469,7 +469,7 @@ Access the following link (which has $metadata added to it)
 4. in command prompt we can see some actions performed </br></br>
 <img src="./files/capmd10-120.png" ></br> </br>
 
-5. Access the link here and it takes to a SRV skeleton page as shown below
+5. Access the link here and it takes to a SRV skeleton page as shown below</br></br>
 <img src="./files/capmd10-121.png" ></br> </br>
 <img src="./files/capmd10-122.png" ></br> </br>
 <img src="./files/capmd10-123.png" ></br> </br>
