@@ -474,9 +474,18 @@ Access the following link (which has $metadata added to it)
 <img src="./files/capmd10-122.png" ></br> </br>
 <img src="./files/capmd10-123.png" ></br> </br>
 
-</br>
-</br>
+6. A CSN file gets created (CDS schema notation)</br></br>
+<img src="./files/capmd10-124.png" ></br> </br>
 
+7. Install and extension in VSCode to view the CSN file</br></br>
+<img src="./files/capmd10-125.png" ></br> </br>
+
+8. View the file</br></br>
+<img src="./files/capmd10-126.png" ></br> </br>
+
+
+</br>
+</br>
 </details>
 
 </br>
@@ -486,9 +495,7 @@ Access the following link (which has $metadata added to it)
 
 <!-- 
 
-<img src="./files/capmd10-124.png" ></br> </br>
-<img src="./files/capmd10-125.png" ></br> </br>
-<img src="./files/capmd10-126.png" ></br> </br>
+
 <img src="./files/capmd10-127.png" ></br> </br>
 <img src="./files/capmd10-128.png" ></br> </br>
 <img src="./files/capmd10-129.png" ></br> </br>
