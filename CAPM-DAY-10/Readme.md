@@ -520,7 +520,52 @@ Creating a datamodel.cds and datamodel.js inside SRV folder</br> </br>
 <img src="./files/capmd10-135.png" ></br> </br>
 <img src="./files/capmd10-136.png" ></br> </br>
 <img src="./files/capmd10-137.png" ></br> </br>
+</br> </br>
+
+
+open $metadata page of the NorthWind from this link ([https://services.odata.org/V3/Northwind/Northwind.svc/$metadata](https://services.odata.org/V3/Northwind/Northwind.svc/$metadata)) and look for Customers entity structure and check the details 
+</br> </br>
 <img src="./files/capmd10-138.png" ></br> </br>
+
+Following structure is picked from NorthWind.edmx file (now we generate some test data for this structure in [mockaroo.com](https://www.mockaroo.com/))
+</br> </br>
+
+```xml
+
+<Property Name="CustomerID" Type="Edm.String" Nullable="false" MaxLength="5" FixedLength="true" Unicode="true"/>
+<Property Name="CompanyName" Type="Edm.String" Nullable="false" MaxLength="40" FixedLength="false" Unicode="true"/>
+<Property Name="ContactName" Type="Edm.String" MaxLength="30" FixedLength="false" Unicode="true"/>
+<Property Name="ContactTitle" Type="Edm.String" MaxLength="30" FixedLength="false" Unicode="true"/>
+<Property Name="Address" Type="Edm.String" MaxLength="60" FixedLength="false" Unicode="true"/>
+<Property Name="City" Type="Edm.String" MaxLength="15" FixedLength="false" Unicode="true"/>
+<Property Name="Region" Type="Edm.String" MaxLength="15" FixedLength="false" Unicode="true"/>
+<Property Name="PostalCode" Type="Edm.String" MaxLength="10" FixedLength="false" Unicode="true"/>
+<Property Name="Country" Type="Edm.String" MaxLength="15" FixedLength="false" Unicode="true"/>
+<Property Name="Phone" Type="Edm.String" MaxLength="24" FixedLength="false" Unicode="true"/>
+<Property Name="Fax" Type="Edm.String" MaxLength="24" FixedLength="false" Unicode="true"/>
+
+CustomerID
+CompanyName
+ContactName
+ContactTitle
+Address
+City
+Region
+PostalCode
+Country
+Phone
+Fax
+
+```
+</br> </br>
+
+Test data generation
+</br> </br>
+
+
+</br> </br>
+
+
 <img src="./files/capmd10-139.png" ></br> </br>
 <img src="./files/capmd10-140.png" ></br> </br>
 <img src="./files/capmd10-141.png" ></br> </br>
