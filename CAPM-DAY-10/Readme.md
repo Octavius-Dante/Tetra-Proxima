@@ -561,15 +561,15 @@ Fax
 
 Test data generation
 </br> </br>
-
-
-</br> </br>
-
-
 <img src="./files/capmd10-139.png" ></br> </br>
+
+Add the test data to the csv file (copy pasted)
+</br> </br>
 <img src="./files/capmd10-140.png" ></br> </br>
 <img src="./files/capmd10-141.png" ></br> </br>
 <img src="./files/capmd10-142.png" ></br> </br>
+
+
 <img src="./files/capmd10-143.png" ></br> </br>
 <img src="./files/capmd10-144.png" ></br> </br>
 <img src="./files/capmd10-145.png" ></br> </br>
