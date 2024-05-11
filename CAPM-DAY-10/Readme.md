@@ -559,7 +559,7 @@ Fax
 ```
 </br> </br>
 
-Test data generation
+Test data generation, I manipulated the file for cusotmer id in excel (becasue the customerID lenght is 5)
 </br> </br>
 <img src="./files/capmd10-139.png" ></br> </br>
 
