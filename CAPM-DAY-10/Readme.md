@@ -354,14 +354,24 @@ The deployment process is same only new thing is the MTA yaml contents will be d
 1. DO cf login
 2. Perform building MTA archive 
 3. Deploy MTA archive
+4. Go to SAP build work zone and assign the deployed app to fiori page from HTML 5 repository 
 
 </br>
 </br>
 
+CF login  </br></br>
 <img src="./files/capmd10-85.png" ></br> </br>
+</br></br>
+
+Create MTA archive build </br></br>
 <img src="./files/capmd10-86.png" ></br> </br>
+</br></br>
+
+Deploy the app</br></br>
 <img src="./files/capmd10-87.png" ></br> </br>
-<img src="./files/capmd10-88.png" ></br> </br>
+</br></br>
+
+
 <img src="./files/capmd10-89.png" ></br> </br>
 <img src="./files/capmd10-90.png" ></br> </br>
 <img src="./files/capmd10-91.png" ></br> </br>
@@ -834,6 +844,18 @@ parameters:
 
 
 ```
+
+</br>
+</br>
+</details>
+
+</br>
+
+<details>
+<summary> Access this section of the BAS to get help for developing fiori app </summary>
+</br>
+</br>
+<img src="./files/capmd10-88.png" ></br> </br>
 
 </br>
 </br>
