@@ -67,14 +67,7 @@ SAP Recommends to build extensions on top of BTP outside the stable core ERP
 </br>
 </br>
 
-**Free Api provided by Microsoft for testing purpose**
-</br>
 
-</br> https://services.odata.org/
-</br> https://services.odata.org/V3/OData/OData.svc/
-</br> https://services.odata.org/V3/Northwind/Northwind.svc/
-</br>
-</br>
 
 Before we proceed the cloud connection to ERP system is important it is a pre-requisite for this session 
 </br> If cloud connection to On-Premise or ERP is not performed kindly refer this link and establish connection 
@@ -518,6 +511,14 @@ Deploy the app</br></br>
 </br>
 </br>
 
+**Free Api provided by Microsoft for testing purpose**
+</br>
+
+</br> https://services.odata.org/
+</br> https://services.odata.org/V3/OData/OData.svc/
+</br> https://services.odata.org/V3/Northwind/Northwind.svc/
+</br>
+</br>
 
 
 ### Case 1.0 (files for reference)
