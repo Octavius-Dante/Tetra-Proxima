@@ -374,21 +374,34 @@ Deploy the app</br></br>
 <img src="./files/capmd10-95.png" ></br> </br>
 </br></br>
 
+</br>
+</br>
+</details>
 
 
+
+<details>
+<summary> <b>7. Assigning teh deployed app to fiori tile in SAP build work zone </b> </summary>
+</br>
+</br>
+</br>
 <img src="./files/capmd10-96.png" ></br> </br>
 <img src="./files/capmd10-97.png" ></br> </br>
 <img src="./files/capmd10-98.png" ></br> </br>
 <img src="./files/capmd10-99.png" ></br> </br>
 <img src="./files/capmd10-100.png" ></br> </br>
-
-
 <img src="./files/capmd10-101.png" ></br> </br>
 <img src="./files/capmd10-102.png" ></br> </br>
 <img src="./files/capmd10-103.png" ></br> </br>
 <img src="./files/capmd10-104.png" ></br> </br>
 <img src="./files/capmd10-105.png" ></br> </br>
 <img src="./files/capmd10-106.png" ></br> </br>
+</br>
+</br>
+</br>
+</details>
+
+
 <img src="./files/capmd10-107.png" ></br> </br>
 <img src="./files/capmd10-108.png" ></br> </br>
 <img src="./files/capmd10-109.png" ></br> </br>
@@ -474,9 +487,7 @@ Deploy the app</br></br>
 <img src="./files/capmd10-186.png" ></br> </br>
 <img src="./files/capmd10-187.png" ></br> </br>
 
-</br>
-</br>
-</details>
+
 
 
 </br>
