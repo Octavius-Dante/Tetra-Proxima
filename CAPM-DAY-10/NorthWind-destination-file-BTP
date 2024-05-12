@@ -1,0 +1,12 @@
+#
+#Sun May 12 21:50:18 UTC 2024
+Description=NorthWind Connection
+Type=HTTP
+HTML5.Timeout=60000
+HTML5.DynamicDestination=true
+Authentication=NoAuthentication
+WebIDEUsage=odata_abap,odata_gen,ui5_execute_abap,dev_abap,bsp_execute_abap
+Name=NorthWind
+WebIDEEnabled=true
+URL=https\://services.odata.org
+ProxyType=Internet
