@@ -446,7 +446,7 @@ Deploy the app</br></br>
 10. Added the configuration to connect to destiantion in BTP. Change the configuration to support [Production] 
 </br>with credentials having destiantion and path (NorthWind : /V3/Northwind/Northwind.svc)
 
-11. Install SAP Cloud build tool - check [SAP Documentation](https://github.com/SAP/cloud-mta-build-tool/releases) -- check for setup file here [Github link for setup](https://github.com/SAP/cloud-mta-build-tool/releases)
+11. Install SAP Cloud build tool - check [SAP Documentation](https://sap.github.io/cloud-mta-build-tool/download/) -- check for setup file here [Github link for setup](https://github.com/SAP/cloud-mta-build-tool/releases)
 
 12. 
 
