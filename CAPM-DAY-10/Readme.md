@@ -799,6 +799,8 @@ npm install -g @sap/cds-dk
 
 </br>
 </br>
+</details>
+
 
 <details>
 <summary> <b>4. Preparing for deployment -- Part 3 </b> </summary>
@@ -824,9 +826,6 @@ npm install -g @sap/cds-dk
 </br>
 </details>
 
-</br>
-</br>
-</details>
 
 </br>
 </br>
