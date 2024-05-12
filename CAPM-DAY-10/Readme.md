@@ -955,9 +955,13 @@ npm install passport
 
 <img src="./files/capmd10-174.png" ></br> </br>
 
-
+13. Trying to make a build using command in vscode (ended up in error)</br> </br>
 <img src="./files/capmd10-175.png" ></br> </br>
+
+14. So archiving the project in VSCode and movign the app to BAS
 <img src="./files/capmd10-176.png" ></br> </br>
+
+
 <img src="./files/capmd10-177.png" ></br> </br>
 <img src="./files/capmd10-178.png" ></br> </br>
 <img src="./files/capmd10-179.png" ></br> </br>
