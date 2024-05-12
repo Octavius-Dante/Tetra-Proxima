@@ -929,6 +929,9 @@ resources:
 <img src="./files/capmd10-172.png" ></br> </br>
 <img src="./files/capmd10-173.png" ></br> </br>
 
+[Destination details for BTP download here just import it](https://github.com/Octavius-Dante/Tetra_Proxima/blob/main/CAPM-DAY-10/NorthWind-destination-file-BTP)
+</br> </br>
+
 12. Install security components to the app</br> </br>
 
 ```bat
