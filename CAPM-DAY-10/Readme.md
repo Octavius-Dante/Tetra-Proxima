@@ -769,7 +769,6 @@ npm install -g @sap/cds-dk
 <img src="./files/capmd10-165.png" ></br> </br>
 
 **package.json** </br> </br>
-</br> </br>
 
 ```json
 
