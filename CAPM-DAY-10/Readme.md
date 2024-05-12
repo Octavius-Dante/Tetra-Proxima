@@ -721,13 +721,63 @@ npm install -g @sap/cds-dk
 <img src="./files/capmd10-153.png" ></br> </br>
 
 
-**(*Lets assume the exposing data works and will proceed to other step of deploying the extension app*)**
+</br>
+</br>
+</details>
+
+</br>
+</br>
+**(*Lets assume the exposing data works and will proceed further to deploy the extension app*)**
+</br>
+</br>
+
+<details>
+<summary> <b>4. Preparing for deployment -- Part 1 </b> </summary>
+</br>
+</br>
+
+</br>
+</br>
 
 </br>
 </br>
 </details>
 
+<details>
+<summary> <b>4. Preparing for deployment -- Part 2 </b> </summary>
+</br>
+</br>
 
+</br>
+</br>
+
+<details>
+<summary> <b>4. Preparing for deployment -- Part 3 </b> </summary>
+</br>
+</br>
+
+</br>
+</br>
+
+</br>
+</br>
+</details>
+
+<details>
+<summary> <b>5. Deployment and testing via postman </b> </summary>
+</br>
+</br>
+
+</br>
+</br>
+
+</br>
+</br>
+</details>
+
+</br>
+</br>
+</details>
 
 </br>
 </br>
