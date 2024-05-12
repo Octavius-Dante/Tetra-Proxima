@@ -435,7 +435,7 @@ Deploy the app</br></br>
 </br> system will automatically generate external folder and generate a <b>*.csn</b> file 
 
 6. We could see the output for all entity sets, if we select any entity the data is empty
-7. We define a new custome **CDS** file **datamodel.cds** anad import the csn file to define our own custom entity
+7. define a new custome **CDS** file **datamodel.cds** anad import the csn file to define our own custom entity
 </br> from the available entities inside csn as a projection
 
 8. create a file **datamodel.js** and implement the generic handler to fetch the data from remote odata service.
@@ -446,9 +446,42 @@ Deploy the app</br></br>
 10. Added the configuration to connect to destiantion in BTP. Change the configuration to support [Production] 
 </br>with credentials having destiantion and path (NorthWind : /V3/Northwind/Northwind.svc)
 
-11. Install SAP Cloud build tool - check [SAP Documentation](https://sap.github.io/cloud-mta-build-tool/download/) -- check for setup file here [Github link for setup](https://github.com/SAP/cloud-mta-build-tool/releases)
+11. Install SAP Cloud build tool - check [SAP Documentation](https://sap.github.io/cloud-mta-build-tool/download/) -- check for setup file here [Github link for setup](https://github.com/SAP/cloud-mta-build-tool/releases) 
 
-12. 
+</br>
+
+```bat
+npm install -g mbt
+
+```
+</br>
+
+12. Also install make tool by downloading the **gnumake.4.3.exe** from gnu git [link for gnu git](https://github.com/mbuilov/gnumake-windows) 
+</br> and download it and rename it to make.exe
+
+13. Add the system environment variable in the **path**
+
+14. In the project we have added the mta.yaml file using command **cds add mta**
+
+15. define the resources which includes **XSUAA** and **destiantion**
+
+16. create the destination resource directly to cloud foundry cockpit 
+
+17. Added the xs-secuirty.json file using command **cds compile srv/ --to xsuaa > xs-security.json**
+
+</br>
+
+```bat
+cds compile srv/ --to xsuaa > xs-security.json
+
+```
+</br>
+
+18. Change the **xs-security.json** with the simple role 
+
+19. Need to add 3 moduled in our app so called **passport, @sap/xsenv, @sap/xssex**
+
+20. Now build our **mta.yaml** file using **mbt build** in VSCode or right click on BAS to choose Build MTA archive
 
 
 </br>
