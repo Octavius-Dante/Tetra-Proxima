@@ -587,7 +587,6 @@ Following link is accessed in Postman as well as in browseer to see the data com
 
 We have to instruct CAP framewrok to retrieve the data and map to our struture so we need to write code in datamodel.js for catalog service
 </br> </br>
-<img src="./files/capmd10-150.png" ></br> </br>
 
 Code sample used in datamodel.js 
 </br> </br>
