@@ -941,9 +941,6 @@ resources:
 <img src="./files/capmd10-171.png" ></br> </br>
 <img src="./files/capmd10-172.png" ></br> </br>
 <img src="./files/capmd10-173.png" ></br> </br>
-<img src="./files/capmd10-173a.png" ></br> </br>
-<img src="./files/capmd10-173b.png" ></br> </br>
-<img src="./files/capmd10-173c.png" ></br> </br>
 
 [Destination details for BTP download here just import it](https://github.com/Octavius-Dante/Tetra_Proxima/blob/main/CAPM-DAY-10/NorthWind-destination-file-BTP)
 </br> </br>
@@ -971,11 +968,10 @@ npm install passport
 <img src="./files/capmd10-179.png" ></br> </br>
 <img src="./files/capmd10-180.png" ></br> </br>
 <img src="./files/capmd10-181.png" ></br> </br>
-
-
-
 <img src="./files/capmd10-182.png" ></br> </br>
 <img src="./files/capmd10-183.png" ></br> </br>
+
+
 <img src="./files/capmd10-184.png" ></br> </br>
 <img src="./files/capmd10-185.png" ></br> </br>
 <img src="./files/capmd10-186.png" ></br> </br>
