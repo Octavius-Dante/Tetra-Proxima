@@ -757,7 +757,7 @@ npm install -g @sap/cds-dk
 5. Change the downloaded Gnumake.exe put it in D: or C: drive and rename it</br> </br>
 <img src="./files/capmd10-160.png" ></br> </br>
 
-6. Assign the make.exe directory to environment variables </br> </br>
+6. Assign the make.exe directory to environment variables **(Open the screenshot in new page to view it bigger)** </br> </br>
 <img src="./files/capmd10-161.png" ></br> </br>
 
 7. Add MTA.yaml file (cds add mta)</br> </br>
