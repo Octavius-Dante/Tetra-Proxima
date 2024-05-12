@@ -783,8 +783,10 @@ npm install -g @sap/cds-dk
     "@sap-cloud-sdk/http-client": "^3.15.0",
     "@sap/cds": "^7.9.0",
     "@sap/cds-dk": "^7.9.1",
-    "@sap/cds-hana": "^2.0.0",
-    "express": "^4"
+    "@sap/xsenv": "^5.1.0",
+    "@sap/xssec": "^3.6.1",
+    "express": "^4",
+    "passport": "^0.7.0"
   },
   "devDependencies": {
     "@cap-js/sqlite": "^1",
@@ -807,6 +809,7 @@ npm install -g @sap/cds-dk
     }
   }
 }
+
 
 
 ```
