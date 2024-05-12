@@ -451,8 +451,7 @@ Deploy the app</br></br>
 10. Added the configuration to connect to destiantion in BTP. Change the configuration to support [Production] 
 </br>with credentials having destiantion and path (NorthWind : /V3/Northwind/Northwind.svc)
 
-11. Install SAP Cloud build tool - check [SAP Documentation](https://sap.github.io/cloud-mta-build-tool/download/) -- check for setup file here [Github link for setup](https://github.com/SAP/cloud-mta-build-tool/releases) 
-
+11. Install SAP Cloud build tool - check [SAP Documentation](https://sap.github.io/cloud-mta-build-tool/) -- check for setup file here [Github link for setup](https://github.com/SAP/cloud-mta-build-tool/releases) [Github build download page](https://sap.github.io/cloud-mta-build-tool/download/) [Github make.exe download page](https://sap.github.io/cloud-mta-build-tool/makefile/)
 </br>
 
 ```bat
@@ -737,18 +736,81 @@ npm install -g @sap/cds-dk
 </br>
 </br>
 
+**Need to install MBT tool to windows system where vscode is running for building the MTA archive**
+</br>
+</br>
+
+1. Go to website (https://sap.github.io/cloud-mta-build-tool/) </br></br>
 <img src="./files/capmd10-154.png" ></br> </br>
+
+2. Access these pages</br> </br>
 <img src="./files/capmd10-155.png" ></br> </br>
 <img src="./files/capmd10-156.png" ></br> </br>
 <img src="./files/capmd10-157.png" ></br> </br>
+
+3. Use npm install -g mbt </br></br>
 <img src="./files/capmd10-158.png" ></br> </br>
+
+4. Download the GNU make from this github page</br> </br>
 <img src="./files/capmd10-159.png" ></br> </br>
+
+5. Change the downloaded Gnumake.exe put it in D: or C: drive and rename it</br> </br>
 <img src="./files/capmd10-160.png" ></br> </br>
+
+6. Assign the make.exe directory to environment variables </br> </br>
 <img src="./files/capmd10-161.png" ></br> </br>
+
+7. Add MTA.yaml file (cds add mta)</br> </br>
 <img src="./files/capmd10-162.png" ></br> </br>
 <img src="./files/capmd10-163.png" ></br> </br>
+
+8. Define destination details in package.json (in credentails section)</br> </br>
 <img src="./files/capmd10-164.png" ></br> </br>
 <img src="./files/capmd10-165.png" ></br> </br>
+
+**package.json** </br> </br>
+</br> </br>
+
+```json
+
+{
+  "name": "03_CAP",
+  "version": "1.0.0",
+  "description": "A simple CAP project.",
+  "repository": "<Add your repository here>",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "@sap-cloud-sdk/http-client": "^3.15.0",
+    "@sap/cds": "^7.9.0",
+    "@sap/cds-dk": "^7.9.1",
+    "@sap/cds-hana": "^2.0.0",
+    "express": "^4"
+  },
+  "devDependencies": {
+    "@cap-js/sqlite": "^1",
+    "@sap/cds": "^7.9.0",
+    "@sap/cds-dk": "^7.9.1"
+  },
+  "scripts": {
+    "start": "cds-serve"
+  },
+  "cds": {
+    "requires": {
+      "NorthWind": {
+        "kind": "odata-v2",
+        "model": "srv/external/NorthWind",
+        "credentials": {
+          "destination" : "NorthWind"
+        }
+      }
+    }
+  }
+}
+
+
+```
+
 <img src="./files/capmd10-166.png" ></br> </br>
 <img src="./files/capmd10-167.png" ></br> </br>
 <img src="./files/capmd10-168.png" ></br> </br>
