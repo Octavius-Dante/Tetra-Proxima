@@ -728,7 +728,7 @@ npm install -g @sap/cds-dk
 </br>
 </br>
 
-**(*Lets assume the exposing data works and will proceed further to deploy the extension app*)**
+**(*Lets assume the exposing data works and will proceed further to deploy the extension app to Cloud foundry*)**
 </br>
 </br>
 
