@@ -1229,6 +1229,11 @@ npm install @sap-cloud-sdk/http-client
 npm install -g @sap/cds-dk
 ```
 
+<img src="./files/capmd10-150.png" ></br> </br>
+<img src="./files/capmd10-151.png" ></br> </br>
+<img src="./files/capmd10-152.png" ></br> </br>
+<img src="./files/capmd10-153.png" ></br> </br>
+
 
 </br>
 </br>
@@ -1243,10 +1248,8 @@ npm install -g @sap/cds-dk
 
 <!-- 
 
-<img src="./files/capmd10-150.png" ></br> </br>
-<img src="./files/capmd10-151.png" ></br> </br>
-<img src="./files/capmd10-152.png" ></br> </br>
-<img src="./files/capmd10-153.png" ></br> </br>
+
+
 <img src="./files/capmd10-154.png" ></br> </br>
 <img src="./files/capmd10-155.png" ></br> </br>
 <img src="./files/capmd10-156.png" ></br> </br>
