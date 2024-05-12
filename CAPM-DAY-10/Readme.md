@@ -810,9 +810,76 @@ npm install -g @sap/cds-dk
 
 
 ```
+</br> </br>
 
+
+
+9. Need to add **xs-security** file to the app by using following command</br> </br>
+
+```bat
+
+cds compile srv/ --to xsuaa > xs-security.json
+
+```
+
+</br> </br>
 <img src="./files/capmd10-166.png" ></br> </br>
+
+
+10. Need to add 2 resources to MTA yaml file as shown below </br> </br>
 <img src="./files/capmd10-167.png" ></br> </br>
+
+MTA yaml sample for reference 
+</br> </br>
+
+```yaml
+
+_schema-version: '3.1'
+ID: 03_CAP
+version: 1.0.0
+description: "Cloud extension project using CAP"
+parameters:
+  enable-parallel-deployments: true
+build-parameters:
+  before-all:
+    - builder: custom
+      commands:
+        - npx -p @sap/cds-dk cds build --production
+modules:
+  - name: 03_CAP-srv
+    type: nodejs
+    path: gen/srv
+    parameters:
+      buildpack: nodejs_buildpack
+      readiness-health-check-type: http
+      readiness-health-check-http-endpoint: /health
+    build-parameters:
+      builder: npm-ci
+    provides:
+      - name: srv-api # required by consumers of CAP services (e.g. approuter)
+        properties:
+          srv-url: ${default-url}
+    requires:
+      - name: 03_CAP-destination
+      - name: 03_CAP-xsuaa
+
+resources:
+  - name: 03_CAP-destination
+    type: org.cloudfoundry.existing-service
+    parameters:
+      service-name: 03_CAP-destination
+      service-plan: lite
+  - name: 03_CAP-xsuaa
+    type: org.cloudfoundry.managed-service
+    parameters:
+      path: ./xs-security.json
+      service : xsuaa
+      service-plan: application       
+
+```
+
+</br> </br>
+
 <img src="./files/capmd10-168.png" ></br> </br>
 <img src="./files/capmd10-169.png" ></br> </br>
 <img src="./files/capmd10-170.png" ></br> </br>
