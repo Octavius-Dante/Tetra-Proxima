@@ -886,9 +886,10 @@ resources:
 <img src="./files/capmd10-170.png" ></br> </br>
 <img src="./files/capmd10-171.png" ></br> </br>
 <img src="./files/capmd10-172.png" ></br> </br>
-
-
 <img src="./files/capmd10-173.png" ></br> </br>
+
+
+
 <img src="./files/capmd10-174.png" ></br> </br>
 <img src="./files/capmd10-175.png" ></br> </br>
 <img src="./files/capmd10-176.png" ></br> </br>
