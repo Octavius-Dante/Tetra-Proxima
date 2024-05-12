@@ -800,7 +800,8 @@ npm install -g @sap/cds-dk
         "kind": "odata-v2",
         "model": "srv/external/NorthWind",
         "credentials": {
-          "destination" : "NorthWind"
+          "destination" : "NorthWind",
+          "path" : "/V3/Northwind/Northwind.svc"
         }
       }
     }
