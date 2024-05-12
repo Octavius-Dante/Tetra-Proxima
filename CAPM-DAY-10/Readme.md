@@ -483,11 +483,11 @@ cds compile srv/ --to xsuaa > xs-security.json
 
 18. Change the **xs-security.json** with the simple role 
 
-19. Need to add 3 moduled in our app so called **passport, @sap/xsenv, @sap/xssex**
+19. Need to add 3 security modules in our app so called **passport, @sap/xsenv, @sap/xssex**
 
 20. Now build our **mta.yaml** file using **mbt build** in VSCode or right click on BAS to choose Build MTA archive
 
-21. Now we can deploy the mta o cloud foundry, perform **cf login**
+21. Now we can deploy the mta on cloud foundry, perform **cf login**
 
 22. Then we right click the mta archive file and deploy
 
