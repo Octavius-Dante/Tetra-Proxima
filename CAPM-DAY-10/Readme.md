@@ -824,6 +824,41 @@ cds compile srv/ --to xsuaa > xs-security.json
 </br> </br>
 <img src="./files/capmd10-166.png" ></br> </br>
 
+visit this official page for sample [link 1](https://help.sap.com/docs/btp/sap-business-technology-platform/application-security-descriptor-configuration-syntax) [link 2](https://github.com/SAP-samples/cloud-application-security-sample/blob/main/spring-security-basis/security/xs-security.json) [link 3](https://github.com/SAP/cloud-security-services-integration-library/blob/main/samples/spring-security-xsuaa-usage/xs-security.json)
+
+**xs-security.json** file sample </br> </br>
+
+```json
+
+{
+  "xsappname": "03_CAP",
+  "tenant-mode": "dedicated",
+  "scopes": [
+    {
+      "name": "$XSAPPNAME.Viewer",
+      "description": "Read Permissions."
+    }
+  ],
+  "role-templates": [
+    {
+      "name": "Viewer",
+      "description": "View Data",
+      "attribute-references": [],
+      "scope-references": ["$XSAPPNAME.Viewer"]
+    }
+  ],
+  "oauth2-configuration": {
+    "token-validity": 60900,
+    "refresh-token-validity": 2592000,
+    "redirect-uris": [
+      "https://*.cfapps.us10-001.hana.ondemand.com/login/callback"
+    ]
+  }
+}
+
+
+```
+
 
 10. Need to add 2 resources to MTA yaml file as shown below </br> </br>
 <img src="./files/capmd10-167.png" ></br> </br>
