@@ -764,7 +764,7 @@ npm install -g @sap/cds-dk
 <img src="./files/capmd10-162.png" ></br> </br>
 <img src="./files/capmd10-163.png" ></br> </br>
 
-8. Define destination details in package.json (in credentails section)</br> </br>
+8. Define destination details in package.json (in credentials section) </br> </br>
 <img src="./files/capmd10-164.png" ></br> </br>
 <img src="./files/capmd10-165.png" ></br> </br>
 
@@ -881,7 +881,7 @@ resources:
 </br> </br>
 
 
-11. Define a destination service in BTP as shown below 
+11. Define a destination service in BTP as shown below </br> </br>
 <img src="./files/capmd10-168.png" ></br> </br>
 <img src="./files/capmd10-169.png" ></br> </br>
 <img src="./files/capmd10-170.png" ></br> </br>
