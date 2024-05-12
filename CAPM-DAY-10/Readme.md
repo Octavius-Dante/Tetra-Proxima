@@ -423,6 +423,38 @@ Deploy the app</br></br>
 </br>
 </br>
 
+**Complete steps for developing Case 2.1 extension app**
+</br>
+</br>
+
+1. Explore the opn source odat servive provided by microsoft (https://services.odata.org/V3/Northwind/Northwind.svc/)
+2. Download the metadata of the odata service as <b>*.edmx</b> file to our system (remember after download remove the xml extension).
+3. To view the EDMX file in VSCode we use CSDL modeler extension provided by SAP
+4. Create a new CAP application and perform **cds init**
+5. Inside the empty CAP application drag and drop the <b>*.edmx</b> file to SRV folder
+</br> system will automatically generate external folder and generate a<b>*.csn</b> file 
+
+6. We could see the output for all entity sets, if we select any entity the data is empty
+7. We define a new custome **CDS** file **datamodel.cds** anad import the csn file to define our own custom entity
+</br> from the available entities inside csn as a projection
+
+8. create a file **datamodel.js** and implement the generic handler to fetch the data from remote odata service.
+9. To test the configuration lcoally, we added the **credentials.url** in the **package.json** file and tested the app locally
+
+</br> --  Now the extension app is ready for deploy to Cf </br>
+
+10. Added the configuration to connect to destiantion in BTP. Change the configuration to support [Production] 
+</br>with credentials having destiantion and path (NorthWind : /V3/Northwind/Northwind.svc)
+
+11. Install SAP Cloud build tool - check [SAP Documentation](https://github.com/SAP/cloud-mta-build-tool/releases) -- check for setup file here [Github link for setup](https://github.com/SAP/cloud-mta-build-tool/releases)
+
+12. 
+
+
+</br>
+</br>
+</br>
+
 **Free Api provided by Microsoft for testing purpose**
 </br>
 
