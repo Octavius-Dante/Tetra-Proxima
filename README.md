@@ -65,6 +65,11 @@ Following check list of items available under this topic
 </br>
 </br>
 
+[VScode Set terminal as default for debug](https://github.com/Octavius-Dante/Tetra_Proxima/tree/main/VSCode_Debug_setting)
+
+</br>
+</br>
+
 ## General definition and overview on Topics involved in BTP and CAPM
 
 </br>
