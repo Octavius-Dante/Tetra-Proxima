@@ -928,9 +928,20 @@ resources:
 <img src="./files/capmd10-172.png" ></br> </br>
 <img src="./files/capmd10-173.png" ></br> </br>
 
+12. Install security components to the app</br> </br>
 
+```bat
+
+npm install @sap/xssec
+npm install @sap/xsenv
+npm install passport
+
+```
+</br> </br>
 
 <img src="./files/capmd10-174.png" ></br> </br>
+
+
 <img src="./files/capmd10-175.png" ></br> </br>
 <img src="./files/capmd10-176.png" ></br> </br>
 <img src="./files/capmd10-177.png" ></br> </br>
