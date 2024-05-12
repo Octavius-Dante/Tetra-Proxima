@@ -964,12 +964,13 @@ npm install passport
 14. So archiving the project in VSCode and moving the app to BAS</br> </br>
 <img src="./files/capmd10-176.png" ></br> </br>
 <img src="./files/capmd10-177.png" ></br> </br>
-
-
 <img src="./files/capmd10-178.png" ></br> </br>
 <img src="./files/capmd10-179.png" ></br> </br>
 <img src="./files/capmd10-180.png" ></br> </br>
 <img src="./files/capmd10-181.png" ></br> </br>
+
+
+
 <img src="./files/capmd10-182.png" ></br> </br>
 <img src="./files/capmd10-183.png" ></br> </br>
 <img src="./files/capmd10-184.png" ></br> </br>
