@@ -500,7 +500,7 @@ Access the following link (which has $metadata added to it)
 </details>
 
 <details>
-<summary> <b>3. Use the file in app for defining table structure</b> </summary>
+<summary> <b>3. Use the file to develop the extension app</b> </summary>
 </br>
 </br>
 
