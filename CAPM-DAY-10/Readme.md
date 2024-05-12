@@ -1190,41 +1190,33 @@ Code sample used in datamodel.js
 
 ```js
 
-const cds = require('@sap/cds');
+const cds = require("@sap/cds");
 
 module.exports = cds.service.impl(async function(){
-
-    const { Customers } = this.entities;
-
-    const service = await cds.connect.to('NorthWind')
-
-this.on('READ', Customers, async (request)=>{
-    
+  const { Customers } = this.entities;
+  const service = await cds.connect.to("NorthWind");
+  this.on("READ", Customers, async (request) => {    
     // check, pre-checks, make filters, authorization, security
     var data = await service.tx(request).run(request.query);
-    console.log(data);
-
-    // data enrichment - adding our hardcoded data
-    data.push({
-
-        "CustomerID": "Cleon",
-        "CompanyName": "DANTE Cloud development",
-        "ContactName": "Arthelais",
-        "ContactTitle": "Chief Developer",
-        "Address": "kremlin rue",
-        "City": "Alaska",
-        "Region": "Northern region",
-        "PostalCode": "12SST",
-        "Country": "United States",
-        "Phone": "030-0074321",
-        "Fax": "030-0076545"
-        
-    });
-
-    return data;
+    console.log(data);  // <------ This part works 
+    return data; // <------ This part didnt work so the web didnt return any data.
+                // data.push code block also didnt work 
+  });
 });
 
-});
+   // data.push({
+    //     "CustomerID": "CLEON",
+    //     "CompanyName": "Dante endeavous",
+    //     "ContactName": "cassian andor",
+    //     "ContactTitle": "Developer",
+    //     "Address": "KCD street",
+    //     "City": "Kuttenberg",
+    //     "Region": null,
+    //     "PostalCode": "12209",
+    //     "Country": "Hungary",
+    //     "Phone": "030-0074321",
+    //     "Fax": "030-0076545"
+    // });
 ```
 </br>
 </br>
