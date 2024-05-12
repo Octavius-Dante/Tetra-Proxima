@@ -825,15 +825,9 @@ cds compile srv/ --to xsuaa > xs-security.json
 <img src="./files/capmd10-166.png" ></br> </br>
 
 visit this official page for sample 
-</br>
-
-[SAP Official page](https://help.sap.com/docs/btp/sap-business-technology-platform/application-security-descriptor-configuration-syntax) 
-</br>
- 
-[Github sample 1](https://github.com/SAP-samples/cloud-application-security-sample/blob/main/spring-security-basis/security/xs-security.json)  
-</br> 
-
-[Github sample 2](https://github.com/SAP/cloud-security-services-integration-library/blob/main/samples/spring-security-xsuaa-usage/xs-security.json)
+</br> [SAP Official page](https://help.sap.com/docs/btp/sap-business-technology-platform/application-security-descriptor-configuration-syntax) 
+</br> [Github sample 1](https://github.com/SAP-samples/cloud-application-security-sample/blob/main/spring-security-basis/security/xs-security.json)
+</br> [Github sample 2](https://github.com/SAP/cloud-security-services-integration-library/blob/main/samples/spring-security-xsuaa-usage/xs-security.json)
 </br>
 
 **xs-security.json** file sample </br> </br>
