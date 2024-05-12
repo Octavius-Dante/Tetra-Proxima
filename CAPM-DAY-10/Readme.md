@@ -432,7 +432,7 @@ Deploy the app</br></br>
 3. To view the EDMX file in VSCode we use CSDL modeler extension provided by SAP
 4. Create a new CAP application and perform **cds init**
 5. Inside the empty CAP application drag and drop the <b>*.edmx</b> file to SRV folder
-</br> system will automatically generate external folder and generate a<b>*.csn</b> file 
+</br> system will automatically generate external folder and generate a <b>*.csn</b> file 
 
 6. We could see the output for all entity sets, if we select any entity the data is empty
 7. We define a new custome **CDS** file **datamodel.cds** anad import the csn file to define our own custom entity
