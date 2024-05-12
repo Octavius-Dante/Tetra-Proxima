@@ -961,7 +961,7 @@ npm install passport
 13. Trying to make a build using command in vscode (ended up in error)</br> </br>
 <img src="./files/capmd10-175.png" ></br> </br>
 
-14. So archiving the project in VSCode and moving the app to BAS
+14. So archiving the project in VSCode and moving the app to BAS</br> </br>
 <img src="./files/capmd10-176.png" ></br> </br>
 <img src="./files/capmd10-177.png" ></br> </br>
 
