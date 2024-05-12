@@ -683,18 +683,13 @@ const cds = require("@sap/cds");
 module.exports = cds.service.impl(async function(){
   const { Customers } = this.entities;
   const service = await cds.connect.to("NorthWind");
-  this.on("READ", Customers, async (request) => {    
+  this.on('READ', Customers, async (request) => {    
     // check, pre-checks, make filters, authorization, security
     var data = await service.tx(request).run(request.query);
-    console.log(data);  // <------ This part works 
-    return data; // <------ This part didnt work so the web didnt return any data.
-                // data.push code block also didnt work 
-  });
-});
-
-   // data.push({
+    console.log(data);  // <------ This part works       
+    // data.push({   // <------ This part didnt work -- Gives error in console 
     //     "CustomerID": "CLEON",
-    //     "CompanyName": "Dante endeavous",
+    //     "CompanyName": "Dante explore",
     //     "ContactName": "cassian andor",
     //     "ContactTitle": "Developer",
     //     "Address": "KCD street",
@@ -704,13 +699,17 @@ module.exports = cds.service.impl(async function(){
     //     "Country": "Hungary",
     //     "Phone": "030-0074321",
     //     "Fax": "030-0076545"
-    // });
+    // });    
+    return data// <------ This part didnt work so the web didnt return any data.
+  });
+});
+
 ```
 </br>
 </br>
 
 
-need to install a component to run things successfully  cloud sdk http client
+need to install a component to run things successfully cloud sdk http client is needed
 
 ```bat
 npm install @sap-cloud-sdk/http-client
@@ -721,6 +720,8 @@ npm install -g @sap/cds-dk
 <img src="./files/capmd10-152.png" ></br> </br>
 <img src="./files/capmd10-153.png" ></br> </br>
 
+
+**(*Lets assume the exposing data works and will proceed to other step of deploying the extension app*)**
 
 </br>
 </br>
