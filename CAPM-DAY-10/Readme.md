@@ -427,6 +427,11 @@ Deploy the app</br></br>
 </br>
 </br>
 
+<details>
+<summary> <b> ALL THE STEPS </b> </summary>
+</br>
+</br>
+
 1. Explore the opn source odat servive provided by microsoft (https://services.odata.org/V3/Northwind/Northwind.svc/)
 2. Download the metadata of the odata service as <b>*.edmx</b> file to our system (remember after download remove the xml extension).
 3. To view the EDMX file in VSCode we use CSDL modeler extension provided by SAP
@@ -490,9 +495,18 @@ cds compile srv/ --to xsuaa > xs-security.json
 23. We can test our app in POSTMAN by first obtaining the xsuaa token from OAuth 2.0 mechanism 
 </br> and call the REST API
 
+
+</br>
+</br>
+</details>
+
+
 </br>
 </br>
 </br>
+</br>
+
+
 
 **Free Api provided by Microsoft for testing purpose**
 </br>
