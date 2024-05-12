@@ -483,6 +483,12 @@ cds compile srv/ --to xsuaa > xs-security.json
 
 20. Now build our **mta.yaml** file using **mbt build** in VSCode or right click on BAS to choose Build MTA archive
 
+21. Now we can deploy the mta o cloud foundry, perform **cf login**
+
+22. Then we right click the mta archive file and deploy
+
+23. We can test our app in POSTMAN by first obtaining the xsuaa token from OAuth 2.0 mechanism 
+</br> and call the REST API
 
 </br>
 </br>
