@@ -880,10 +880,14 @@ resources:
 
 </br> </br>
 
+
+11. Define a destination service in BTP as shown below 
 <img src="./files/capmd10-168.png" ></br> </br>
 <img src="./files/capmd10-169.png" ></br> </br>
 <img src="./files/capmd10-170.png" ></br> </br>
 <img src="./files/capmd10-171.png" ></br> </br>
+
+
 <img src="./files/capmd10-172.png" ></br> </br>
 <img src="./files/capmd10-173.png" ></br> </br>
 <img src="./files/capmd10-174.png" ></br> </br>
