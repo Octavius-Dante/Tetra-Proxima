@@ -941,6 +941,9 @@ resources:
 <img src="./files/capmd10-171.png" ></br> </br>
 <img src="./files/capmd10-172.png" ></br> </br>
 <img src="./files/capmd10-173.png" ></br> </br>
+<img src="./files/capmd10-173a.png" ></br> </br>
+<img src="./files/capmd10-173b.png" ></br> </br>
+<img src="./files/capmd10-173c.png" ></br> </br>
 
 [Destination details for BTP download here just import it](https://github.com/Octavius-Dante/Tetra_Proxima/blob/main/CAPM-DAY-10/NorthWind-destination-file-BTP)
 </br> </br>
