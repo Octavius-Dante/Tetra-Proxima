@@ -866,7 +866,7 @@ visit this official page for sample - refer the following links to prepare the f
 ```
 
 
-10. Need to add 2 resources to MTA yaml file as shown below </br> </br>
+10. Need to add 2 resources to MTA yaml file as shown below alos made some formatting corrections</br> </br>
 <img src="./files/capmd10-167a.png" ></br> </br>
 
 
