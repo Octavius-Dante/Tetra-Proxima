@@ -633,7 +633,6 @@ npm install -g @sap/cds-dk
 ```
 
 <img src="./files/capmd10-150.png" ></br> </br>
-<img src="./files/capmd10-151.png" ></br> </br>
 <img src="./files/capmd10-152.png" ></br> </br>
 <img src="./files/capmd10-153.png" ></br> </br>
 
