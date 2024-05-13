@@ -1322,15 +1322,9 @@ Use "cf dmol -i f93b5548-10f2-11ef-b257-eeee0a95c02a" to download the logs of th
 
 ```
 
-</br>
-</br>
+</br> </br>
 
-</br>
-</br>
-</details>
-
-
-<!-- <img src="./files/capmd10-184.png" ></br> </br>
+<img src="./files/capmd10-184.png" ></br> </br>
 <img src="./files/capmd10-185.png" ></br> </br>
 <img src="./files/capmd10-186.png" ></br> </br>
 <img src="./files/capmd10-187.png" ></br> </br> 
@@ -1346,7 +1340,19 @@ Use "cf dmol -i f93b5548-10f2-11ef-b257-eeee0a95c02a" to download the logs of th
 <img src="./files/capmd10-197.png" ></br> </br>
 <img src="./files/capmd10-198.png" ></br> </br>
 <img src="./files/capmd10-199.png" ></br> </br>
-<img src="./files/capmd10-200.png" ></br> </br> -->
+<img src="./files/capmd10-200.png" ></br> </br>
+
+</br>
+</br>
+
+</br>
+</br>
+</details>
+
+
+<!-- 
+
+ -->
 
 </br>
 </br>
