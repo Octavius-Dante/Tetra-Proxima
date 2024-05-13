@@ -77,7 +77,7 @@ Before we proceed the cloud connection to ERP system is important it is a pre-re
 </br>
 </br>
 
-## Case 1.0
+## Case 1.0  - Ui only extension
 </br>
 </br>
 
@@ -678,8 +678,6 @@ parameters:
 </br>
 </br>
 </details>
-
-
 </br>
 </br>
 </details>
@@ -687,7 +685,7 @@ parameters:
 </br>
 </br>
 
-## Case 2.1
+## Case 2.1 - Building a CAP application (srv) like middelware for 3rd party API 
 </br>
 </br>
 
@@ -1288,13 +1286,6 @@ npm install passport
 </br>
 </br>
 
-
-
-
-</br>
-</br>
-</br>
-</br>
 
 <details>
 <summary> Access this section of the BAS to get help for developing fiori app </summary>
