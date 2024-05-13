@@ -99,6 +99,7 @@ Now filtering the API based on the business documentation</br> </br>
 <img src="./files/capmd11-22.png" ></br> </br>
 <img src="./files/capmd11-23.png" ></br> </br>
 <img src="./files/capmd11-24.png" ></br> </br>
+<img src="./files/capmd11-24a.png" ></br> </br>
 <img src="./files/capmd11-25.png" ></br> </br>
 <img src="./files/capmd11-26.png" ></br> </br>
 <img src="./files/capmd11-27.png" ></br> </br>
