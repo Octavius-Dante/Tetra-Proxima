@@ -4,13 +4,9 @@
 
 </br>
 </br>
-
-
-</br> 
-</br>
 </br>
 
-### The development in this session is regarding side by side extension using SAP standrad API
+### The development in this session is regarding side by side extension using SAP standard API
 </br>
 </br>
 <img src="./files/SAP_EXT_2.2.png" >
