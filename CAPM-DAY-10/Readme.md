@@ -781,6 +781,7 @@ npm install -g @sap/cds-dk
   "private": true,
   "dependencies": {
     "@sap-cloud-sdk/http-client": "^3.15.0",
+    "@sap/cds": "^7.9.0",
     "@sap/xsenv": "^5.1.0",
     "@sap/xssec": "^3.6.1",
     "express": "^4",
@@ -809,6 +810,7 @@ npm install -g @sap/cds-dk
     }
   }
 }
+
 
 
 ```
