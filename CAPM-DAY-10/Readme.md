@@ -643,7 +643,7 @@ Fax
 ```
 </br> </br>
 
-Test data generation, I manipulated the file for cusotmer id in excel (becasue the customerID lenght is 5)
+Test data generation, I manipulated the file for custmer id in excel (becasue the customerID lenght is 5)
 </br> </br>
 <img src="./files/capmd10-139.png" ></br> </br>
 
@@ -686,22 +686,23 @@ module.exports = cds.service.impl(async function(){
     // check, pre-checks, make filters, authorization, security
     var data = await service.tx(request).run(request.query);
     console.log(data);  // <------ This part works       
-    // data.push({   // <------ This part didnt work -- Gives error in console 
-    //     "CustomerID": "CLEON",
-    //     "CompanyName": "Dante explore",
-    //     "ContactName": "cassian andor",
-    //     "ContactTitle": "Developer",
-    //     "Address": "KCD street",
-    //     "City": "Kuttenberg",
-    //     "Region": null,
-    //     "PostalCode": "12209",
-    //     "Country": "Hungary",
-    //     "Phone": "030-0074321",
-    //     "Fax": "030-0076545"
-    // });    
-    return data// <------ This part didnt work so the web didnt return any data.
+    data.push({   // <------ This part works after installing  @sap/cds-dk , @sap/cds 
+        "CustomerID": "CLEON",
+        "CompanyName": "Dante explore",
+        "ContactName": "cassian andor",
+        "ContactTitle": "Developer",
+        "Address": "KCD street",
+        "City": "Kuttenberg",
+        "Region": null,
+        "PostalCode": "12209",
+        "Country": "Hungary",
+        "Phone": "030-0074321",
+        "Fax": "030-0076545"
+    });    
+    return data// <------ This part works after installing  @sap/cds-dk , @sap/cds 
   });
 });
+
 
 ```
 </br>
