@@ -1255,6 +1255,68 @@ npm install passport
 15. Deploy the app to Cloud foundry</br> </br>
 <img src="./files/capmd10-183a.png" ></br> </br>
 
+Faced difficulty in deploying ended up with error (cds-serve not found) cds start cannot be initiated
+</br> </br>
+
+**Solution :** </br></br>
+
+- create app in VSCode</br></br>
+- Do npm install @sap/cds-dk (in VSCode) </br></br>
+- Eventhough this component (@sap/cds-dk) is development time dependency it is needed in runtime </br></br>
+- Installing this in BAS in package.json athe assignment only happends for development time dependency</br></br>
+   this is needed in runtime also to work properly (some cases)
+- Deployed this app without (@sap/cds-dk) in runtime resulted in error
+- Finished all the development and local testing in VSCode and archived tha app (exported)
+- Imported the app to BAS and did (npm install -g) and all the component installation - except (@sap/cds-dk) 
+</br> because if i do this it will remove it from run time and only assign it with dev-dependencies which causes error in deployment
+
+</br> </br>
+
+
+**Deployment log for reference (App successfully deployed)**
+</br> </br>
+
+```bat
+
+cf deploy /home/user/projects/capi/mta_archives/capi_1.0.0.mtar -f
+Deploying multi-target app archive /home/user/projects/capi/mta_archives/capi_1.0.0.mtar in org f60a011etrial / space dev as lordes.cloud9@gmail.com...
+
+Uploading 1 files...
+  /home/user/projects/capi/mta_archives/capi_1.0.0.mtar
+
+ 0s  0 B / 5.44 MiB    0.00%
+ 0s  5.44 MiB / 5.44 MiB  100.00%
+ 0s  5.44 MiB / 5.44 MiB  100.00%
+ 0s  5.44 MiB / 5.44 MiB  100.00% 0s
+OK
+Operation ID: f93b5548-10f2-11ef-b257-eeee0a95c02a
+Deploying in org "f60a011etrial" and space "dev"
+Detected MTA schema version: "3"
+No deployed MTA detected - this is initial deployment of MTA with ID "capi"
+Detected new MTA version: "1.0.0"
+Processing service "capi-destination"...
+Processing service "capi-xsuaa"...
+Setting service "capi-xsuaa" parameters from "xs-security.json"
+Creating service "capi-xsuaa" from MTA resource "capi-xsuaa"...
+1 of 1 done
+1 of 1 done
+Creating application "capi-srv" from MTA module "capi-srv"...
+Binding service instance "capi-destination" to application "capi-srv"...
+Binding service instance "capi-xsuaa" to application "capi-srv"...
+Uploading application "capi-srv"...
+Started async upload of application "capi-srv"
+Staging application "capi-srv"...
+Application "capi-srv" staged
+Starting application "capi-srv"...
+Application "capi-srv" started and available at "f60a011etrial-dev-capi-srv.cfapps.us10-001.hana.ondemand.com"
+Skipping deletion of services, because the command line option "--delete-services" is not specified.
+Process finished.
+Use "cf dmol -i f93b5548-10f2-11ef-b257-eeee0a95c02a" to download the logs of the process.
+
+ *  Terminal will be reused by tasks, press any key to close it.
+
+```
+
 </br>
 </br>
 
