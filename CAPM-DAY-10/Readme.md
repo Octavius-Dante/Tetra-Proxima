@@ -895,6 +895,7 @@ build-parameters:
       commands:
         - npm install --production
         - npx -p @sap/cds-dk cds build --production
+        - npm clean-install --production
 #----------------------------------------------------------- 
 
 modules:
@@ -903,13 +904,17 @@ modules:
 #-----------------------------------------------------------  
     type: nodejs
     path: gen/srv
-    requires:
-      - name: 03_CAP-destination
-      - name: 03_CAP-xsuaa    
+    parameters:
+      buildpack: nodejs_buildpack
+    build-parameters:
+      builder: npm-ci      
     provides:
       - name: srv-api # required by consumers of CAP services (e.g. approuter)
         properties:
           srv-url: ${default-url}
+    requires:
+      - name: 03_CAP-destination
+      - name: 03_CAP-xsuaa    
           
 #-------------------END OF SERVER MODULE -------------------
 #----------------------------------------------------------- 
@@ -918,7 +923,7 @@ resources:
   - name: 03_CAP-destination
     type: org.cloudfoundry.managed-service
     parameters:
-      service-name: 03_CAP-destination
+      service: destination
       service-plan: lite
   - name: 03_CAP-xsuaa
     type: org.cloudfoundry.managed-service
@@ -927,7 +932,7 @@ resources:
       service : xsuaa
       service-plan: application   
 
-#-----------------------------------------------------------           
+#-----------------------------------------------------------              
 
 ```
 
