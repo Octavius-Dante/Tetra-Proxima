@@ -419,6 +419,274 @@ Deploy the app</br></br>
 </br>
 
 
+
+## Case 1.0 (files for reference)
+</br>
+</br>
+
+<details>
+<summary> <b> CASE 1.0 files </b> </summary>
+</br>
+</br>
+
+**annotation.xml before changes**
+
+<details>
+<summary> annotation.xml file sample </b> </summary>
+</br>
+</br>
+
+```xml
+
+<edmx:Edmx xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx" Version="4.0">
+    <edmx:Reference Uri="https://sap.github.io/odata-vocabularies/vocabularies/Common.xml">
+        <edmx:Include Namespace="com.sap.vocabularies.Common.v1" Alias="Common"/>
+    </edmx:Reference>
+    <edmx:Reference Uri="https://sap.github.io/odata-vocabularies/vocabularies/UI.xml">
+        <edmx:Include Namespace="com.sap.vocabularies.UI.v1" Alias="UI"/>
+    </edmx:Reference>
+    <edmx:Reference Uri="https://sap.github.io/odata-vocabularies/vocabularies/Communication.xml">
+        <edmx:Include Namespace="com.sap.vocabularies.Communication.v1" Alias="Communication"/>
+    </edmx:Reference>
+    <edmx:Reference Uri="/sap/opu/odata/sap/SEPMRA_PROD_MAN/$metadata">
+        <edmx:Include Namespace="SEPMRA_PROD_MAN" Alias="SAP"/>
+    </edmx:Reference>
+    <edmx:DataServices>
+        <Schema xmlns="http://docs.oasis-open.org/odata/ns/edm" Namespace="local">
+        </Schema>
+    </edmx:DataServices>
+</edmx:Edmx>
+
+```
+</br>
+</br>
+</details>
+
+</br>
+
+**annotation.xml after changes**
+
+<details>
+<summary> annotation.xml file sample - modified</b> </summary>
+</br>
+</br>
+
+```xml
+
+<edmx:Edmx xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx" Version="4.0">
+    <edmx:Reference Uri="https://sap.github.io/odata-vocabularies/vocabularies/Common.xml">
+        <edmx:Include Namespace="com.sap.vocabularies.Common.v1" Alias="Common"/>
+    </edmx:Reference>
+    <edmx:Reference Uri="https://sap.github.io/odata-vocabularies/vocabularies/UI.xml">
+        <edmx:Include Namespace="com.sap.vocabularies.UI.v1" Alias="UI"/>
+    </edmx:Reference>
+    <edmx:Reference Uri="https://sap.github.io/odata-vocabularies/vocabularies/Communication.xml">
+        <edmx:Include Namespace="com.sap.vocabularies.Communication.v1" Alias="Communication"/>
+    </edmx:Reference>
+    <edmx:Reference Uri="/sap/opu/odata/sap/SEPMRA_PROD_MAN/$metadata">
+        <edmx:Include Namespace="SEPMRA_PROD_MAN" Alias="SAP"/>
+    </edmx:Reference>
+    <edmx:DataServices>
+        <Schema xmlns="http://docs.oasis-open.org/odata/ns/edm" Namespace="local">
+
+            <Annotations Target="SAP.SEPMRA_C_PD_ProductType">
+                <Annotation Term="UI.Facets" >
+                    <Collection>
+                        <Record Type="UI.ReferenceFacet">
+                            <PropertyValue Property="Target" AnnotationPath="@UI.FieldGroup#Dreamland"/>
+                            <PropertyValue Property="Label" String="More info"/>
+                        </Record>
+                        <Record Type="UI.ReferenceFacet">
+                            <PropertyValue Property="Target" AnnotationPath="to_ProductSalesData/@UI.LineItem#Wonderland"/>
+                            <PropertyValue Property="Label" String="Sales related to product"/>
+                        </Record>        
+                        <Record Type="UI.ReferenceFacet">
+                            <PropertyValue Property="Target" AnnotationPath="to_ProductSalesData/@UI.Chart#RevenueByCountry"/>
+                            <PropertyValue Property="Label" String="Insights"/>
+                        </Record>                                                
+                    </Collection>
+                </Annotation>
+               <Annotation Term="UI.FieldGroup" Qualifier="Dreamland">
+                   <Record Type="UI.FieldGroupType">
+                       <PropertyValue Property="Data">
+                           <Collection>
+                               <Record Type="UI.DataField">
+                                   <PropertyValue Property="Value" Path="Name"/>
+                                   <PropertyValue Property="Label" String="Name"/>
+                               </Record>
+                               <Record Type="UI.DataField">
+                                   <PropertyValue Property="Value" Path="Description"/>
+                                   <PropertyValue Property="Label" String="Description"/>
+                               </Record>
+                               <Record Type="UI.DataField">
+                                   <PropertyValue Property="Value" Path="Price"/>
+                                   <PropertyValue Property="Label" String="Price"/>
+                               </Record>
+                               <Record Type="UI.DataField">
+                                   <PropertyValue Property="Value" Path="Currency"/>
+                                   <PropertyValue Property="Label" String="Currency"/>
+                               </Record>
+                               <Record Type="UI.DataField">
+                                   <PropertyValue Property="Value" Path="DimensionUnit"/>
+                                   <PropertyValue Property="Label" String="DimensionUnit"/>
+                               </Record>
+                               <Record Type="UI.DataField">
+                                   <PropertyValue Property="Value" Path="Product"/>
+                                   <PropertyValue Property="Label" String="Id"/>
+                               </Record>                                                                                                                                                           
+                           </Collection>
+                       </PropertyValue>
+                   </Record>
+               </Annotation> 
+            </Annotations>
+            <Annotations Target="SAP.SEPMRA_C_PD_ProductSalesDataType">
+                <Annotation Term="UI.LineItem" Qualifier="Wonderland" >
+                    <Collection>
+                        <Record Type="UI.DataField">
+                            <PropertyValue Property="Value" Path="SalesOrder"/>
+                        </Record>
+                        <Record Type="UI.DataField">
+                            <PropertyValue Property="Value" Path="SoldToParty"/>
+                        </Record>
+                        <Record Type="UI.DataField">
+                            <PropertyValue Property="Value" Path="NetAmount"/>
+                        </Record>
+                        <Record Type="UI.DataField">
+                            <PropertyValue Property="Value" Path="SoldToPartyCountry"/>
+                        </Record>                                                                        
+                    </Collection>
+                </Annotation>
+            </Annotations>
+        </Schema>
+    </edmx:DataServices>
+</edmx:Edmx>
+
+```
+</br>
+</br>
+</details>
+
+</br>
+
+**mta.yaml default - before changes** 
+
+<details>
+<summary> <b> mta.yaml file sample before changes </b> </summary>
+</br>
+</br>
+
+```yaml
+
+_schema-version: "3.2"
+ID: comdanteproductsmanagaeproduct
+description: Generated by Fiori Tools
+version: 0.0.1
+modules:
+- name: comdanteproductsmanagaeproduct-destination-content
+  type: com.sap.application.content
+  requires:
+  - name: comdanteproductsmanagaeproduct-destination-service
+    parameters:
+      content-target: true
+  - name: comdanteproductsmanagaeproduct-repo-host
+    parameters:
+      service-key:
+        name: comdanteproductsmanagaeproduct-repo-host-key
+  - name: comdanteproductsmanagaeproduct-uaa
+    parameters:
+      service-key:
+        name: comdanteproductsmanagaeproduct-uaa-key
+  parameters:
+    content:
+      instance:
+        destinations:
+        - Name: comdanteproductsmanagaeproduct_html_repo_host
+          ServiceInstanceName: comdanteproductsmanagaeproduct-html5-srv
+          ServiceKeyName: comdanteproductsmanagaeproduct-repo-host-key
+          sap.cloud.service: comdanteproductsmanagaeproduct
+        - Authentication: OAuth2UserTokenExchange
+          Name: comdanteproductsmanagaeproduct_uaa
+          ServiceInstanceName: comdanteproductsmanagaeproduct-xsuaa-srv
+          ServiceKeyName: comdanteproductsmanagaeproduct-uaa-key
+          sap.cloud.service: comdanteproductsmanagaeproduct
+        existing_destinations_policy: ignore
+  build-parameters:
+    no-source: true
+- name: comdanteproductsmanagaeproduct-app-content
+  type: com.sap.application.content
+  path: .
+  requires:
+  - name: comdanteproductsmanagaeproduct-repo-host
+    parameters:
+      content-target: true
+  build-parameters:
+    build-result: resources
+    requires:
+    - artifacts:
+      - comdanteproductsmanagaeproduct.zip
+      name: comdanteproductsmanagaeproduct
+      target-path: resources/
+- name: comdanteproductsmanagaeproduct
+  type: html5
+  path: .
+  build-parameters:
+    build-result: dist
+    builder: custom
+    commands:
+    - npm install
+    - npm run build:cf
+    supported-platforms: []
+resources:
+- name: comdanteproductsmanagaeproduct-destination-service
+  type: org.cloudfoundry.managed-service
+  parameters:
+    config:
+      HTML5Runtime_enabled: true
+      init_data:
+        instance:
+          destinations:
+          - Authentication: NoAuthentication
+            Name: ui5
+            ProxyType: Internet
+            Type: HTTP
+            URL: https://ui5.sap.com
+          existing_destinations_policy: update
+      version: 1.0.0
+    service: destination
+    service-name: comdanteproductsmanagaeproduct-destination-service
+    service-plan: lite
+- name: comdanteproductsmanagaeproduct-uaa
+  type: org.cloudfoundry.managed-service
+  parameters:
+    path: ./xs-security.json
+    service: xsuaa
+    service-name: comdanteproductsmanagaeproduct-xsuaa-srv
+    service-plan: application
+- name: comdanteproductsmanagaeproduct-repo-host
+  type: org.cloudfoundry.managed-service
+  parameters:
+    service: html5-apps-repo
+    service-name: comdanteproductsmanagaeproduct-html5-srv
+    service-plan: app-host
+parameters:
+  deploy_mode: html5-repo
+  enable-parallel-deployments: true
+
+
+```
+
+</br>
+</br>
+</details>
+
+
+</br>
+</br>
+</details>
+
+</br>
+</br>
+
 ## Case 2.1
 </br>
 </br>
@@ -1021,372 +1289,9 @@ npm install passport
 </br>
 
 
-## Case 1.0 (files for reference)
-</br>
 
-**annotation.xml before changes**
-
-<details>
-<summary> annotation.xml file sample </b> </summary>
-</br>
-</br>
-
-```xml
-
-<edmx:Edmx xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx" Version="4.0">
-    <edmx:Reference Uri="https://sap.github.io/odata-vocabularies/vocabularies/Common.xml">
-        <edmx:Include Namespace="com.sap.vocabularies.Common.v1" Alias="Common"/>
-    </edmx:Reference>
-    <edmx:Reference Uri="https://sap.github.io/odata-vocabularies/vocabularies/UI.xml">
-        <edmx:Include Namespace="com.sap.vocabularies.UI.v1" Alias="UI"/>
-    </edmx:Reference>
-    <edmx:Reference Uri="https://sap.github.io/odata-vocabularies/vocabularies/Communication.xml">
-        <edmx:Include Namespace="com.sap.vocabularies.Communication.v1" Alias="Communication"/>
-    </edmx:Reference>
-    <edmx:Reference Uri="/sap/opu/odata/sap/SEPMRA_PROD_MAN/$metadata">
-        <edmx:Include Namespace="SEPMRA_PROD_MAN" Alias="SAP"/>
-    </edmx:Reference>
-    <edmx:DataServices>
-        <Schema xmlns="http://docs.oasis-open.org/odata/ns/edm" Namespace="local">
-        </Schema>
-    </edmx:DataServices>
-</edmx:Edmx>
-
-```
-</br>
-</br>
-</details>
 
 </br>
-
-**annotation.xml after changes**
-
-<details>
-<summary> annotation.xml file sample - modified</b> </summary>
-</br>
-</br>
-
-```xml
-
-<edmx:Edmx xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx" Version="4.0">
-    <edmx:Reference Uri="https://sap.github.io/odata-vocabularies/vocabularies/Common.xml">
-        <edmx:Include Namespace="com.sap.vocabularies.Common.v1" Alias="Common"/>
-    </edmx:Reference>
-    <edmx:Reference Uri="https://sap.github.io/odata-vocabularies/vocabularies/UI.xml">
-        <edmx:Include Namespace="com.sap.vocabularies.UI.v1" Alias="UI"/>
-    </edmx:Reference>
-    <edmx:Reference Uri="https://sap.github.io/odata-vocabularies/vocabularies/Communication.xml">
-        <edmx:Include Namespace="com.sap.vocabularies.Communication.v1" Alias="Communication"/>
-    </edmx:Reference>
-    <edmx:Reference Uri="/sap/opu/odata/sap/SEPMRA_PROD_MAN/$metadata">
-        <edmx:Include Namespace="SEPMRA_PROD_MAN" Alias="SAP"/>
-    </edmx:Reference>
-    <edmx:DataServices>
-        <Schema xmlns="http://docs.oasis-open.org/odata/ns/edm" Namespace="local">
-
-            <Annotations Target="SAP.SEPMRA_C_PD_ProductType">
-                <Annotation Term="UI.Facets" >
-                    <Collection>
-                        <Record Type="UI.ReferenceFacet">
-                            <PropertyValue Property="Target" AnnotationPath="@UI.FieldGroup#Dreamland"/>
-                            <PropertyValue Property="Label" String="More info"/>
-                        </Record>
-                        <Record Type="UI.ReferenceFacet">
-                            <PropertyValue Property="Target" AnnotationPath="to_ProductSalesData/@UI.LineItem#Wonderland"/>
-                            <PropertyValue Property="Label" String="Sales related to product"/>
-                        </Record>        
-                        <Record Type="UI.ReferenceFacet">
-                            <PropertyValue Property="Target" AnnotationPath="to_ProductSalesData/@UI.Chart#RevenueByCountry"/>
-                            <PropertyValue Property="Label" String="Insights"/>
-                        </Record>                                                
-                    </Collection>
-                </Annotation>
-               <Annotation Term="UI.FieldGroup" Qualifier="Dreamland">
-                   <Record Type="UI.FieldGroupType">
-                       <PropertyValue Property="Data">
-                           <Collection>
-                               <Record Type="UI.DataField">
-                                   <PropertyValue Property="Value" Path="Name"/>
-                                   <PropertyValue Property="Label" String="Name"/>
-                               </Record>
-                               <Record Type="UI.DataField">
-                                   <PropertyValue Property="Value" Path="Description"/>
-                                   <PropertyValue Property="Label" String="Description"/>
-                               </Record>
-                               <Record Type="UI.DataField">
-                                   <PropertyValue Property="Value" Path="Price"/>
-                                   <PropertyValue Property="Label" String="Price"/>
-                               </Record>
-                               <Record Type="UI.DataField">
-                                   <PropertyValue Property="Value" Path="Currency"/>
-                                   <PropertyValue Property="Label" String="Currency"/>
-                               </Record>
-                               <Record Type="UI.DataField">
-                                   <PropertyValue Property="Value" Path="DimensionUnit"/>
-                                   <PropertyValue Property="Label" String="DimensionUnit"/>
-                               </Record>
-                               <Record Type="UI.DataField">
-                                   <PropertyValue Property="Value" Path="Product"/>
-                                   <PropertyValue Property="Label" String="Id"/>
-                               </Record>                                                                                                                                                           
-                           </Collection>
-                       </PropertyValue>
-                   </Record>
-               </Annotation> 
-            </Annotations>
-            <Annotations Target="SAP.SEPMRA_C_PD_ProductSalesDataType">
-                <Annotation Term="UI.LineItem" Qualifier="Wonderland" >
-                    <Collection>
-                        <Record Type="UI.DataField">
-                            <PropertyValue Property="Value" Path="SalesOrder"/>
-                        </Record>
-                        <Record Type="UI.DataField">
-                            <PropertyValue Property="Value" Path="SoldToParty"/>
-                        </Record>
-                        <Record Type="UI.DataField">
-                            <PropertyValue Property="Value" Path="NetAmount"/>
-                        </Record>
-                        <Record Type="UI.DataField">
-                            <PropertyValue Property="Value" Path="SoldToPartyCountry"/>
-                        </Record>                                                                        
-                    </Collection>
-                </Annotation>
-            </Annotations>
-        </Schema>
-    </edmx:DataServices>
-</edmx:Edmx>
-
-```
-</br>
-</br>
-</details>
-
-</br>
-
-**mta.yaml default - before changes** 
-
-<details>
-<summary> <b> mta.yaml file sample before changes </b> </summary>
-</br>
-</br>
-
-```yaml
-
-_schema-version: "3.2"
-ID: comdanteproductsmanagaeproduct
-description: Generated by Fiori Tools
-version: 0.0.1
-modules:
-- name: comdanteproductsmanagaeproduct-destination-content
-  type: com.sap.application.content
-  requires:
-  - name: comdanteproductsmanagaeproduct-destination-service
-    parameters:
-      content-target: true
-  - name: comdanteproductsmanagaeproduct-repo-host
-    parameters:
-      service-key:
-        name: comdanteproductsmanagaeproduct-repo-host-key
-  - name: comdanteproductsmanagaeproduct-uaa
-    parameters:
-      service-key:
-        name: comdanteproductsmanagaeproduct-uaa-key
-  parameters:
-    content:
-      instance:
-        destinations:
-        - Name: comdanteproductsmanagaeproduct_html_repo_host
-          ServiceInstanceName: comdanteproductsmanagaeproduct-html5-srv
-          ServiceKeyName: comdanteproductsmanagaeproduct-repo-host-key
-          sap.cloud.service: comdanteproductsmanagaeproduct
-        - Authentication: OAuth2UserTokenExchange
-          Name: comdanteproductsmanagaeproduct_uaa
-          ServiceInstanceName: comdanteproductsmanagaeproduct-xsuaa-srv
-          ServiceKeyName: comdanteproductsmanagaeproduct-uaa-key
-          sap.cloud.service: comdanteproductsmanagaeproduct
-        existing_destinations_policy: ignore
-  build-parameters:
-    no-source: true
-- name: comdanteproductsmanagaeproduct-app-content
-  type: com.sap.application.content
-  path: .
-  requires:
-  - name: comdanteproductsmanagaeproduct-repo-host
-    parameters:
-      content-target: true
-  build-parameters:
-    build-result: resources
-    requires:
-    - artifacts:
-      - comdanteproductsmanagaeproduct.zip
-      name: comdanteproductsmanagaeproduct
-      target-path: resources/
-- name: comdanteproductsmanagaeproduct
-  type: html5
-  path: .
-  build-parameters:
-    build-result: dist
-    builder: custom
-    commands:
-    - npm install
-    - npm run build:cf
-    supported-platforms: []
-resources:
-- name: comdanteproductsmanagaeproduct-destination-service
-  type: org.cloudfoundry.managed-service
-  parameters:
-    config:
-      HTML5Runtime_enabled: true
-      init_data:
-        instance:
-          destinations:
-          - Authentication: NoAuthentication
-            Name: ui5
-            ProxyType: Internet
-            Type: HTTP
-            URL: https://ui5.sap.com
-          existing_destinations_policy: update
-      version: 1.0.0
-    service: destination
-    service-name: comdanteproductsmanagaeproduct-destination-service
-    service-plan: lite
-- name: comdanteproductsmanagaeproduct-uaa
-  type: org.cloudfoundry.managed-service
-  parameters:
-    path: ./xs-security.json
-    service: xsuaa
-    service-name: comdanteproductsmanagaeproduct-xsuaa-srv
-    service-plan: application
-- name: comdanteproductsmanagaeproduct-repo-host
-  type: org.cloudfoundry.managed-service
-  parameters:
-    service: html5-apps-repo
-    service-name: comdanteproductsmanagaeproduct-html5-srv
-    service-plan: app-host
-parameters:
-  deploy_mode: html5-repo
-  enable-parallel-deployments: true
-
-
-```
-
-</br>
-</br>
-</details>
-
-</br>
-
-**mta.yaml default - after changes** 
-
-<details>
-<summary> <b> mta.yaml file sample after changes </b> </summary>
-</br>
-</br>
-
-```yaml
-
-_schema-version: "3.2"
-ID: comdanteproductsmanagaeproduct
-description: Generated by Fiori Tools
-version: 0.0.1
-modules:
-- name: comdanteproductsmanagaeproduct-destination-content
-  type: com.sap.application.content
-  requires:
-  - name: comdanteproductsmanagaeproduct-destination-service
-    parameters:
-      content-target: true
-  - name: comdanteproductsmanagaeproduct-repo-host
-    parameters:
-      service-key:
-        name: comdanteproductsmanagaeproduct-repo-host-key
-  - name: comdanteproductsmanagaeproduct-uaa
-    parameters:
-      service-key:
-        name: comdanteproductsmanagaeproduct-uaa-key
-  parameters:
-    content:
-      instance:
-        destinations:
-        - Name: comdanteproductsmanagaeproduct_html_repo_host
-          ServiceInstanceName: comdanteproductsmanagaeproduct-html5-srv
-          ServiceKeyName: comdanteproductsmanagaeproduct-repo-host-key
-          sap.cloud.service: comdanteproductsmanagaeproduct
-        - Authentication: OAuth2UserTokenExchange
-          Name: comdanteproductsmanagaeproduct_uaa
-          ServiceInstanceName: comdanteproductsmanagaeproduct-xsuaa-srv
-          ServiceKeyName: comdanteproductsmanagaeproduct-uaa-key
-          sap.cloud.service: comdanteproductsmanagaeproduct
-        existing_destinations_policy: ignore
-  build-parameters:
-    no-source: true
-- name: comdanteproductsmanagaeproduct-app-content
-  type: com.sap.application.content
-  path: .
-  requires:
-  - name: comdanteproductsmanagaeproduct-repo-host
-    parameters:
-      content-target: true
-  build-parameters:
-    build-result: resources
-    requires:
-    - artifacts:
-      - comdanteproductsmanagaeproduct.zip
-      name: comdanteproductsmanagaeproduct
-      target-path: resources/
-- name: comdanteproductsmanagaeproduct
-  type: html5
-  path: .
-  build-parameters:
-    build-result: dist
-    builder: custom
-    commands:
-    - npm install
-    - npm run build:cf
-    supported-platforms: []
-resources:
-- name: comdanteproductsmanagaeproduct-destination-service
-  type: org.cloudfoundry.managed-service
-  parameters:
-    config:
-      HTML5Runtime_enabled: true
-      init_data:
-        instance:
-          destinations:
-          - Authentication: NoAuthentication
-            Name: ui5
-            ProxyType: Internet
-            Type: HTTP
-            URL: https://ui5.sap.com
-          existing_destinations_policy: update
-      version: 1.0.0
-    service: destination
-    service-name: comdanteproductsmanagaeproduct-destination-service
-    service-plan: lite
-- name: comdanteproductsmanagaeproduct-uaa
-  type: org.cloudfoundry.managed-service
-  parameters:
-    path: ./xs-security.json
-    service: xsuaa
-    service-name: comdanteproductsmanagaeproduct-xsuaa-srv
-    service-plan: application
-- name: comdanteproductsmanagaeproduct-repo-host
-  type: org.cloudfoundry.managed-service
-  parameters:
-    service: html5-apps-repo
-    service-name: comdanteproductsmanagaeproduct-html5-srv
-    service-plan: app-host
-parameters:
-  deploy_mode: html5-repo
-  enable-parallel-deployments: true
-
-
-```
-
-</br>
-</br>
-</details>
-
 </br>
 </br>
 </br>
