@@ -1287,6 +1287,7 @@ npm install passport
 </br>
 
 
+## General info
 <details>
 <summary> Access this section of the BAS to get help for developing fiori app </summary>
 </br>
@@ -1348,9 +1349,6 @@ npm install passport
 
 -->
 
-</br>
-</br>
-</br>
 </br>
 </br>
 </br>
