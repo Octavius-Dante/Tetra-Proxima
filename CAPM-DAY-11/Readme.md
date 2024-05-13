@@ -22,6 +22,10 @@ The place where we can look for SAP standard API is their official website SAP A
 <summary> <b> How to Navigate in SAP API Hub website </b> </summary>
 </br>
 </br>
+
+SAP API business hub is a place for documentaion of the API and details of the entity type and entity sets
+</br>
+</br>
 <img src="./files/capmd11-1.png" ></br></br>
 <img src="./files/capmd11-2.png" ></br> </br>
 <img src="./files/capmd11-3.png" ></br> </br>
