@@ -92,7 +92,9 @@ Get the technical name of the API from the SAP API hub page </br> </br>
 </br>
 </details>
 
+Now filtering the API based on the business documentation</br> </br>
 <img src="./files/capmd11-18.png" ></br> </br>
+
 <img src="./files/capmd11-19.png" ></br> </br>
 <img src="./files/capmd11-20.png" ></br> </br>
 <img src="./files/capmd11-21.png" ></br> </br>
