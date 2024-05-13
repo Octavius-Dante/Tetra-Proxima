@@ -185,7 +185,7 @@ Some times the available catalog services wont be displayed but since destinatio
 
 
 <details>
-<summary> <b>4. Build Fiori applicaiton in BAS using Fiori elements template - CASE 1.0 </b> </summary>
+<summary> <b>4. Build Fiori applicaiton in BAS using Fiori elements template</b> </summary>
 </br>
 </br>
 
