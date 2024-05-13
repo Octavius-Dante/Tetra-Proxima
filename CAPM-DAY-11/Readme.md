@@ -10,9 +10,10 @@
 </br>
 </br>
 
-### The development in this session is regarding XXXX 
+### The development in this session is regarding side by side extension using SAP standrad API
 </br>
 </br>
+<img src="./files/SAP_EXT_2.2.png" >
 
 
 
@@ -29,7 +30,7 @@
 
 </br>
 </br>
-<img src="./files/capmd7-1.png" >
+<img src="./files/capmd11-1.png" >
 </br>
 </br>
 
@@ -43,7 +44,7 @@
 
 ```
 </br>
-<img src="./files/capmd7-2.png" >
+<img src="./files/capmd11-2.png" >
 </br>
 </br>
 
