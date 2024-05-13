@@ -76,7 +76,6 @@ Get the technical name of the API from the SAP API hub page </br> </br>
 <img src="./files/capmd11-16.png" ></br> </br>
 <img src="./files/capmd11-16a.png" ></br> </br>
 <img src="./files/capmd11-16b.png" ></br> </br>
-<img src="./files/capmd11-16c.png" ></br> </br>
 </br>
 </br>
 </details>
