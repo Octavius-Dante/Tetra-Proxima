@@ -728,9 +728,6 @@ npm install @sap/cds-dk
 </br>
 </details>
 
-</br>
-</br>
-
 <details>
 <summary> <b>4. Preparing for deployment -- Part 1 </b> </summary>
 </br>
