@@ -712,8 +712,11 @@ module.exports = cds.service.impl(async function(){
 need to install a component to run things successfully cloud sdk http client is needed
 
 ```bat
+
 npm install @sap-cloud-sdk/http-client
-npm install -g @sap/cds-dk
+npm install @sap/cds
+npm install @sap/cds-dk
+
 ```
 
 <img src="./files/capmd10-150.png" ></br> </br>
@@ -725,10 +728,6 @@ npm install -g @sap/cds-dk
 </br>
 </details>
 
-</br>
-</br>
-
-**(*Lets assume the exposing data works and will proceed further to deploy the extension app to Cloud foundry*)**
 </br>
 </br>
 
