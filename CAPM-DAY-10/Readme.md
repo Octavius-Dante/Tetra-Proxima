@@ -894,7 +894,6 @@ build-parameters:
       commands:
         - npm install --production
         - npx -p @sap/cds-dk cds build --production
-        - npm clean-install --production
 #----------------------------------------------------------- 
 
 modules:
@@ -903,17 +902,13 @@ modules:
 #-----------------------------------------------------------  
     type: nodejs
     path: gen/srv
-    parameters:
-      buildpack: nodejs_buildpack
-    build-parameters:
-      builder: npm-ci      
+    requires:
+      - name: 03_CAP-destination
+      - name: 03_CAP-xsuaa      
     provides:
       - name: srv-api # required by consumers of CAP services (e.g. approuter)
         properties:
-          srv-url: ${default-url}
-    requires:
-      - name: 03_CAP-destination
-      - name: 03_CAP-xsuaa    
+          srv-url: ${default-url} 
           
 #-------------------END OF SERVER MODULE -------------------
 #----------------------------------------------------------- 
@@ -931,7 +926,7 @@ resources:
       service : xsuaa
       service-plan: application   
 
-#-----------------------------------------------------------              
+#-----------------------------------------------------------                 
 
 ```
 
