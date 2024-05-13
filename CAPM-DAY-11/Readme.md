@@ -13,9 +13,9 @@
 
 </br>
 </br>
-The place where we can look for SAP standard API is their official website : </br>
+The place where we can look for SAP standard API is their official website SAP API Hub : </br>
 
-[SAP standard API website](https://www.api.sap.com)
+[SAP API website](https://api.sap.com/)
 
 
 <!--
