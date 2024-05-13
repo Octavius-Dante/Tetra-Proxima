@@ -69,8 +69,32 @@ Get the technical name of the API from the SAP API hub page </br> </br>
 <img src="./files/capmd11-13.png" ></br> </br>
 
 
+<details>
+<summary> API search Method - Filter </summary>
+</br>
+</br>
 <img src="./files/capmd11-16.png" ></br> </br>
+<img src="./files/capmd11-16a.png" ></br> </br>
+<img src="./files/capmd11-16b.png" ></br> </br>
+<img src="./files/capmd11-16c.png" ></br> </br>
+<img src="./files/capmd11-16d.png" ></br> </br>
+</br>
+</br>
+</details>
+
+<details>
+<summary> API search Method - 2 - Add service </summary>
+</br>
+</br>
 <img src="./files/capmd11-17.png" ></br> </br>
+<img src="./files/capmd11-17a.png" ></br> </br>
+<img src="./files/capmd11-17b.png" ></br> </br>
+<img src="./files/capmd11-17c.png" ></br> </br>
+<img src="./files/capmd11-17d.png" ></br> </br>
+</br>
+</br>
+</details>
+
 <img src="./files/capmd11-18.png" ></br> </br>
 <img src="./files/capmd11-19.png" ></br> </br>
 <img src="./files/capmd11-20.png" ></br> </br>
