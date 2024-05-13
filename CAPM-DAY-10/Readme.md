@@ -1052,11 +1052,26 @@ npm install @sap/cds-dk
     "@sap/xssec": "^3.6.1",
     "express": "^4",
     "passport": "^0.7.0"
+  },{
+  "name": "capi",
+  "version": "1.0.0",
+  "description": "A simple CAP project.",
+  "repository": "<Add your repository here>",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "@sap-cloud-sdk/http-client": "^3.15.0",
+    "@sap/cds": "^7.9.0",
+    "@sap/cds-dk": "^7.9.1",
+    "@sap/xsenv": "^5.1.0",
+    "@sap/xssec": "^3.6.1",
+    "express": "^4",
+    "passport": "^0.7.0"
   },
   "devDependencies": {
     "@cap-js/sqlite": "^1",
-    "@sap/cds": "^7.9.0",
-    "@sap/cds-dk": "^7.9.1"
+    "@sap/eslint-plugin-cds": "^3",
+    "eslint": "^9"
   },
   "scripts": {
     "start": "cds-serve"
@@ -1064,8 +1079,11 @@ npm install @sap/cds-dk
   "cds": {
     "requires": {
       "NorthWind": {
-        "kind": "odata-v2",
+        "kind": "odata",
         "model": "srv/external/NorthWind",
+        "credentials": {
+          "url": "https://services.odata.org/Northwind/Northwind.svc"
+        },
         "[production]": {
           "credentials": {
             "destination": "NorthWind",
@@ -1076,6 +1094,7 @@ npm install @sap/cds-dk
     }
   }
 }
+
 
 
 ```
