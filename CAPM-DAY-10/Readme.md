@@ -494,18 +494,12 @@ cds compile srv/ --to xsuaa > xs-security.json
 23. We can test our app in POSTMAN by first obtaining the xsuaa token from OAuth 2.0 mechanism 
 </br> and call the REST API
 
-
 </br>
 </br>
 </details>
 
-
 </br>
 </br>
-</br>
-</br>
-
-
 
 **Free Api provided by Microsoft for testing purpose**
 </br>
@@ -514,7 +508,6 @@ cds compile srv/ --to xsuaa > xs-security.json
 </br> https://services.odata.org/V3/Northwind/Northwind.svc/
 </br>
 </br>
-
 
 <details>
 <summary> <b>1. Access the 3rd party API and retrieve data structure </b> </summary>
@@ -993,7 +986,7 @@ npm install passport
 </br>
 </br>
 
-15. Deploy the app to Cloud foundry
+15. Deploy the app to Cloud foundry</br> </br>
 <img src="./files/capmd10-183.png" ></br> </br>
 
 </br>
