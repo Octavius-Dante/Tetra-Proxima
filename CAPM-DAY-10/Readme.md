@@ -988,7 +988,7 @@ npm install @sap/cds-dk
 </details>
 
 <details>
-<summary> <b>4. Preparing for deployment -- Part 1  |  MBT tool preparation in system </b> </summary>
+<summary> <b>4. Preparing for deployment -- Part 1 -- MBT tool preparation in system </b> </summary>
 </br>
 </br>
 
@@ -1025,7 +1025,7 @@ npm install @sap/cds-dk
 </details>
 
 <details>
-<summary> <b>5. Preparing for deployment -- Part 2  |  preparing package.json, mta.yaml, xs-security.json </b> </summary>
+<summary> <b>5. Preparing for deployment -- Part 2 -- preparing package.json, mta.yaml, xs-security.json </b> </summary>
 </br>
 </br>
 
@@ -1203,7 +1203,7 @@ resources:
 
 
 <details>
-<summary> <b>6. Preparing for deployment -- Part 3  |  Destination & Build creation </b> </summary>
+<summary> <b>6. Preparing for deployment -- Part 3 -- Destination & Build creation </b> </summary>
 </br>
 </br>
 
