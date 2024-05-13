@@ -35,7 +35,7 @@ The place where we can look for SAP standard API is their official website SAP A
 <img src="./files/capmd11-8.png" ></br> </br>
 <img src="./files/capmd11-9.png" ></br> </br>
 <img src="./files/capmd11-10.png" ></br> </br>
-<!-- <img src="./files/capmd11-11.png" ></br> </br>
+<img src="./files/capmd11-11.png" ></br> </br>
 <img src="./files/capmd11-12.png" ></br> </br>
 <img src="./files/capmd11-13.png" ></br> </br>
 <img src="./files/capmd11-14.png" ></br> </br>
@@ -224,7 +224,7 @@ The place where we can look for SAP standard API is their official website SAP A
 <img src="./files/capmd11-197.png" ></br> </br>
 <img src="./files/capmd11-198.png" ></br> </br>
 <img src="./files/capmd11-199.png" ></br> </br>
-<img src="./files/capmd11-200.png" ></br> </br> -->
+<img src="./files/capmd11-200.png" ></br> </br>
 
 
 
