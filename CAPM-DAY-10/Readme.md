@@ -1253,7 +1253,7 @@ npm install passport
 </br>
 
 15. Deploy the app to Cloud foundry</br> </br>
-<img src="./files/capmd10-183.png" ></br> </br>
+<img src="./files/capmd10-183a.png" ></br> </br>
 
 </br>
 </br>
