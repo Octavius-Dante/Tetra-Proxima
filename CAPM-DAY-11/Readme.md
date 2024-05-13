@@ -43,6 +43,31 @@ SAP API business hub is a place for documentaion of the API and details of the e
 <img src="./files/capmd11-11.png" ></br> </br>
 <img src="./files/capmd11-12.png" ></br> </br>
 <img src="./files/capmd11-13.png" ></br> </br>
+
+</br>
+</br>
+</details>
+
+</br> </br> </br> </br>
+
+## Steps for implementing side by side extension using SAP standard API 
+
+</br> </br> 
+
+
+<details>
+<summary> <b>1. Access the SAP On-premise system and look for the API  </b> </summary>
+</br>
+</br>
+
+</br>
+</br>
+
+</br>
+</br>
+</details>
+
+<!-- 
 <img src="./files/capmd11-14.png" ></br> </br>
 <img src="./files/capmd11-15.png" ></br> </br>
 <img src="./files/capmd11-16.png" ></br> </br>
@@ -229,13 +254,9 @@ SAP API business hub is a place for documentaion of the API and details of the e
 <img src="./files/capmd11-197.png" ></br> </br>
 <img src="./files/capmd11-198.png" ></br> </br>
 <img src="./files/capmd11-199.png" ></br> </br>
-<img src="./files/capmd11-200.png" ></br> </br>
+<img src="./files/capmd11-200.png" ></br> </br> -->
 
 
-
-</br>
-</br>
-</details>
 
 
 
