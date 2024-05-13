@@ -82,7 +82,7 @@ Get the technical name of the API from the SAP API hub page </br> </br>
 </details>
 
 <details>
-<summary> API search Method - 2 - Add service (Search all available API's for implementation) </summary>
+<summary> API search Method - Add service (Search all available API's for implementation) </summary>
 </br>
 </br>
 <img src="./files/capmd11-17.png" ></br> </br>
