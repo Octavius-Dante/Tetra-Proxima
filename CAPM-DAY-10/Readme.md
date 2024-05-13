@@ -1337,6 +1337,9 @@ Use "cf dmol -i f93b5548-10f2-11ef-b257-eeee0a95c02a" to download the logs of th
 <img src="./files/capmd10-194.png" ></br> </br>
 <img src="./files/capmd10-195.png" ></br> </br>
 <img src="./files/capmd10-196.png" ></br> </br>
+<img src="./files/capmd10-196a.png" ></br> </br>
+<img src="./files/capmd10-196b.png" ></br> </br>
+<img src="./files/capmd10-196c.png" ></br> </br>
 <img src="./files/capmd10-197.png" ></br> </br>
 <img src="./files/capmd10-198.png" ></br> </br>
 <img src="./files/capmd10-199.png" ></br> </br>
