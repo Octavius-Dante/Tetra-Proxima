@@ -1258,6 +1258,7 @@ npm install passport
 15. Deploy the app to Cloud foundry</br> </br>
 <img src="./files/capmd10-183a.png" ></br> </br>
 
+
 Faced difficulty in deploying ended up with error (cds-serve not found) cds start cannot be initiated
 </br> </br>
 
@@ -1275,6 +1276,9 @@ Faced difficulty in deploying ended up with error (cds-serve not found) cds star
 
 </br> </br>
 
+**package.json comparison - what actually needed to make this deployment successful**
+</br> </br>
+<img src="./files/capmd10-183b.png" ></br> </br>
 
 **Deployment log for reference (App successfully deployed)**
 </br> </br>
