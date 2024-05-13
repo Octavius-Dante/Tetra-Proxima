@@ -709,7 +709,7 @@ module.exports = cds.service.impl(async function(){
 </br>
 
 
-need to install a component to run things successfully cloud sdk http client is needed
+need to install few components to run things successfully </br> </br>
 
 ```bat
 
