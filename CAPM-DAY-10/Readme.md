@@ -1268,11 +1268,11 @@ Faced difficulty in deploying ended up with error (cds-serve not found) cds star
 - create app in VSCode</br></br>
 - Do npm install @sap/cds-dk (in VSCode) </br></br>
 - Eventhough this component (@sap/cds-dk) is development time dependency it is needed in runtime </br></br>
-- Installing this in BAS in package.json athe assignment only happends for development time dependency</br></br>
-   this is needed in runtime also to work properly (some cases)
-- Deployed this app without (@sap/cds-dk) in runtime resulted in error
-- Finished all the development and local testing in VSCode and archived tha app (exported)
-- Imported the app to BAS and did (npm install -g) and all the component installation - except (@sap/cds-dk) 
+- Installing this in BAS in package.json athe assignment only happends for development time dependency</br>
+   this is needed in runtime also to work properly (some cases)</br></br>
+- Deployed this app without (@sap/cds-dk) in runtime resulted in error</br></br>
+- Finished all the development and local testing in VSCode and archived tha app (exported)</br></br>
+- Imported the app to BAS and did (npm install -g) and all the component installation - except (@sap/cds-dk)
 </br> because if i do this it will remove it from run time and only assign it with dev-dependencies which causes error in deployment
 
 </br> </br>
