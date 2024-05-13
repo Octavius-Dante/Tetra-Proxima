@@ -61,15 +61,6 @@ SAP API business hub is a place for documentaion of the API and details of the e
 <summary> <b>1. Access the SAP On-premise system and look for the API  </b> </summary>
 </br>
 </br>
-
-</br>
-</br>
-
-</br>
-</br>
-</details>
-
-<!-- 
 <img src="./files/capmd11-14.png" ></br> </br>
 <img src="./files/capmd11-15.png" ></br> </br>
 <img src="./files/capmd11-16.png" ></br> </br>
@@ -87,6 +78,15 @@ SAP API business hub is a place for documentaion of the API and details of the e
 <img src="./files/capmd11-28.png" ></br> </br>
 <img src="./files/capmd11-29.png" ></br> </br>
 <img src="./files/capmd11-30.png" ></br> </br>
+</br>
+</br>
+
+</br>
+</br>
+</details>
+
+<!-- 
+
 <img src="./files/capmd11-31.png" ></br> </br>
 <img src="./files/capmd11-32.png" ></br> </br>
 <img src="./files/capmd11-33.png" ></br> </br>
