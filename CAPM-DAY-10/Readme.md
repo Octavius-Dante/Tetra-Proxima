@@ -729,7 +729,7 @@ npm install @sap/cds-dk
 </details>
 
 <details>
-<summary> <b>4. Preparing for deployment -- Part 1 </b> </summary>
+<summary> <b>4. Preparing for deployment -- Part 1 | MBT tool preparation in system </b> </summary>
 </br>
 </br>
 
@@ -760,6 +760,16 @@ npm install @sap/cds-dk
 7. Add MTA.yaml file (cds add mta)</br> </br>
 <img src="./files/capmd10-162.png" ></br> </br>
 <img src="./files/capmd10-163.png" ></br> </br>
+
+</br>
+</br>
+</details>
+
+<details>
+<summary> <b>5. Preparing for deployment -- Part 2 | preparing package.json, mta.yaml, xs-security.json </b> </summary>
+</br>
+</br>
+
 
 8. Define destination details in package.json (in credentials section) </br> </br>
 <img src="./files/capmd10-164.png" ></br> </br>
@@ -809,10 +819,8 @@ npm install @sap/cds-dk
 }
 
 
-
 ```
 </br> </br>
-
 
 
 9. Need to add **xs-security** file to the app by using following command</br> </br>
@@ -865,7 +873,6 @@ visit this official page for sample - refer the following links to prepare the f
 
 
 ```
-
 
 10. Need to add 2 resources to MTA yaml file as shown below alos made some formatting corrections</br> </br>
 <img src="./files/capmd10-167a.png" ></br> </br>
@@ -928,9 +935,18 @@ resources:
 #-----------------------------------------------------------                 
 
 ```
-
 </br> </br>
 
+
+</br>
+</br>
+</details>
+
+
+<details>
+<summary> <b>6. Preparing for deployment -- Part 3 | Destination & Build creation </b> </summary>
+</br>
+</br>
 
 11. Define a destination service in BTP as shown below </br> </br>
 <img src="./files/capmd10-168.png" ></br> </br>
@@ -967,10 +983,28 @@ npm install passport
 <img src="./files/capmd10-180.png" ></br> </br>
 <img src="./files/capmd10-181.png" ></br> </br>
 <img src="./files/capmd10-182.png" ></br> </br>
+
+</br>
+</br>
+</details>
+
+<details>
+<summary> <b>7. Deployment and testing via postman </b> </summary>
+</br>
+</br>
+
+15. Deploy the app to Cloud foundry
 <img src="./files/capmd10-183.png" ></br> </br>
 
+</br>
+</br>
 
-<img src="./files/capmd10-184.png" ></br> </br>
+</br>
+</br>
+</details>
+
+
+<!-- <img src="./files/capmd10-184.png" ></br> </br>
 <img src="./files/capmd10-185.png" ></br> </br>
 <img src="./files/capmd10-186.png" ></br> </br>
 <img src="./files/capmd10-187.png" ></br> </br> 
@@ -986,49 +1020,7 @@ npm install passport
 <img src="./files/capmd10-197.png" ></br> </br>
 <img src="./files/capmd10-198.png" ></br> </br>
 <img src="./files/capmd10-199.png" ></br> </br>
-<img src="./files/capmd10-200.png" ></br> </br>
-
-</br>
-</br>
-
-</br>
-</br>
-</details>
-
-<details>
-<summary> <b>4. Preparing for deployment -- Part 2 </b> </summary>
-</br>
-</br>
-
-</br>
-</br>
-</details>
-
-
-<details>
-<summary> <b>4. Preparing for deployment -- Part 3 </b> </summary>
-</br>
-</br>
-
-</br>
-</br>
-
-</br>
-</br>
-</details>
-
-<details>
-<summary> <b>5. Deployment and testing via postman </b> </summary>
-</br>
-</br>
-
-</br>
-</br>
-
-</br>
-</br>
-</details>
-
+<img src="./files/capmd10-200.png" ></br> </br> -->
 
 </br>
 </br>
