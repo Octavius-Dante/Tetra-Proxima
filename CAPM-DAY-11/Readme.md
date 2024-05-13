@@ -48,7 +48,9 @@ SAP API business hub is a place for documentaion of the API and details of the e
 </br>
 </details>
 
-</br> </br> </br> </br>
+<!-- </br> </br> </br> </br> -->
+
+</br> </br> 
 
 ## Steps for implementing side by side extension using SAP standard API 
 
