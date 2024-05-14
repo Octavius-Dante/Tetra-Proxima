@@ -140,7 +140,7 @@ Now filtering the API based on the business documentation</br> </br>
 </details>
 
 <details>
-<summary> <b>2. Developing the extension app -- Part # 1 -- Edmx import and defining catalog service</b> </summary>
+<summary> <b>2. Developing extension -- Part # 1 -- Edmx import and defining catalog service</b> </summary>
 </br>
 </br>
 <img src="./files/capmd11-25.png" ></br> </br>
@@ -190,7 +190,7 @@ service CatalogService @(path:'CatalogService') {
 
 
 <details>
-<summary> <b>2. Developing the extension app -- Part # 2 -- Cloud Sdk installtion and development</b> </summary>
+<summary> <b>2. Developing extension -- Part # 2 -- Cloud Sdk installtion and development</b> </summary>
 </br>
 </br>
 
