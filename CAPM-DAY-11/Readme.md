@@ -60,6 +60,7 @@ SAP API business hub is a place for documentaion of the API and details of the e
 <img src="./files/capmd11-11.png" ></br> </br>
 <img src="./files/capmd11-12.png" ></br> </br>
 <img src="./files/capmd11-13.png" ></br> </br>
+<img src="./files/capmd11-13a.png" ></br> </br>
 
 </br>
 </br>
