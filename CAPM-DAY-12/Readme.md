@@ -1585,7 +1585,7 @@ The application is also launched and tested
 </br>
 </br>
 <p align="center"> 
-- [x] <a href="https://github.com/Octavius-Dante/Tetra_Proxima/tree/main"> Main Page </a>
+<a href="https://github.com/Octavius-Dante/Tetra_Proxima/tree/main"> Main Page </a>
 
 </br>
 </br>
