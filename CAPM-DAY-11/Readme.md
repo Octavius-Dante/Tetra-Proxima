@@ -190,11 +190,8 @@ In last development we fetched data for open service now we are going to fetch d
 </br> </br>
 
 <details>
-<summary> <b> ALL CODE CHANGES - TODAY SESSION </b> </summary>
-</br>
-</br>
+<summary> <b> Method #1 -- implementing Cloud SDK </b> </summary>
 
-**Method 1**
 </br> </br>
 Go to API consumption section of API and follow the instrcutions provided there 
 </br> </br>
