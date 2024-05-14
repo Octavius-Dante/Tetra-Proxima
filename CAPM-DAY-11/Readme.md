@@ -18,6 +18,22 @@ The place where we can look for SAP standard API is their official website SAP A
 [SAP API website](https://api.sap.com/) </br></br>
 
 
+**SAP Business API hub** </br>
+
+SAP Business API hub provides teh docuemntation for all teh publically available APIs for integration with SAP Business solutions e.g.S/4 HANA
+</br>We can search APIs for different kinds, view their documentation, attributes and system details and integrate.
+</br> example this link shows sales order api : https://api.sap.com/api/OP_API_SALES_ORDER_SRV_0001/resource/Sales_Order_Header </br>
+</br>
+
+Pre-requisites</br>
+
+1. GO to the https://api.sap.com and check the avilable APIs
+2. GO to the technical specification of the API and download the edmx file
+3. Cross check if the same API is acticvated in S/4 HANA usign tcode /n/iwfnd/maint_service
+4. Test the service in the browser (or in postman)
+
+
+
 <details>
 <summary> <b> How to Navigate in SAP API Hub website </b> </summary>
 </br>
