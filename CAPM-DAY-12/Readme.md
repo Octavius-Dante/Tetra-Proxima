@@ -1588,8 +1588,13 @@ The application is also launched and tested
 </br>
 </br>
 
+- [x] <a href="https://github.com/Octavius-Dante/Tetra_Proxima/tree/main"> Main Page </a>
+</br>
+</br>
+
 #### Previous Sessions
 </br>
+
 <!--
 - [x] <a href="https://github.com/Octavius-Dante/Tetra_Proxima/tree/main/CAPM-DAY-12"> CAPM Day 12 - Extension CI CD</a>
 -->
