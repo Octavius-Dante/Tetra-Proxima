@@ -134,7 +134,7 @@ Now filtering the API based on the business documentation</br> </br>
 </br>
 </br>
 </details>
-s
+
 <details>
 <summary> <b>2. Developing the extension app - Part # 1</b> </summary>
 </br>
@@ -143,7 +143,7 @@ s
 <img src="./files/capmd11-26.png" ></br> </br>
 <img src="./files/capmd11-27.png" ></br> </br>
 <img src="./files/capmd11-28.png" ></br> </br>
-<img src="./files/capmd11-29.png" ></br> </br>
+<img src="./files/capmd11-29a.png" ></br> </br>
 <img src="./files/capmd11-30.png" ></br> </br>
 </br>
 </br>
