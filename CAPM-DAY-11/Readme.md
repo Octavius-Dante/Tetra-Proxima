@@ -84,7 +84,7 @@ SAP API business hub is a place for documentaion of the API and details of the e
 </br> Alternative way without cds watch -- just drag and drop and then use command <b>cds import</b> PATH_OF_EDMX
 
 3. Add a new **CatalogService.cds** and **CatalogService.js**
-4. S/4 HANA Clous sdk is SAP's portfolio of all the type safe API's (Node modules) to communicate to SAP APIS's in specif api page look for (Cloud SDK) or (APi consumption)
+4. S/4 HANA Clous sdk is SAP's portfolio of all the type safe API's (Node modules) to communicate to SAP APIS's in specif api page look for **(Cloud SDK) or (API consumption)**
 
 </br>
 </br>
