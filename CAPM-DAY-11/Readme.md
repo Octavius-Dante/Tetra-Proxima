@@ -140,7 +140,7 @@ Now filtering the API based on the business documentation</br> </br>
 </details>
 
 <details>
-<summary> <b>2. Developing the extension app -- Part # 1 -- Edmx import and custom catalog service defining</b> </summary>
+<summary> <b>2. Developing the extension app -- Part # 1 -- Edmx import and defining catalog service</b> </summary>
 </br>
 </br>
 <img src="./files/capmd11-25.png" ></br> </br>
@@ -184,6 +184,16 @@ service CatalogService @(path:'CatalogService') {
 ```
 </br> </br>
 
+</br>
+</br>
+</details>
+
+
+<details>
+<summary> <b>2. Developing the extension app -- Part # 2 -- Cloud Sdk installtion and development</b> </summary>
+</br>
+</br>
+
 In last development we fetched data for open service now we are going to fetch data from SAP specifc service 
 </bR> SAP has provided something called sap S/4 HANA Cloud sdk 
 </br> </br>
@@ -223,6 +233,9 @@ GO to this link https://sap.github.io/cloud-sdk/docs/js/getting-started and refe
 
 </br> </br>
 
+</br>
+</br>
+</details>
 
 <img src="./files/capmd11-37.png" ></br> </br>
 <img src="./files/capmd11-38.png" ></br> </br>
@@ -289,9 +302,7 @@ GO to this link https://sap.github.io/cloud-sdk/docs/js/getting-started and refe
 <img src="./files/capmd11-99.png" ></br> </br>
 <img src="./files/capmd11-100.png" ></br> </br>
 
-</br>
-</br>
-</details>
+
 
 <!-- 
 
