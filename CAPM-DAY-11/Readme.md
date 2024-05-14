@@ -27,8 +27,8 @@ SAP Business API hub provides teh docuemntation for all teh publically available
 
 Pre-requisites</br>
 
-1. GO to the https://api.sap.com and check the avilable APIs
-2. GO to the technical specification of the API and download the edmx file
+1. Go to the https://api.sap.com and check the avilable APIs
+2. Go to the technical specification of the API and download the edmx file
 3. Cross check if the same API is acticvated in S/4 HANA usign tcode /n/iwfnd/maint_service
 4. Test the service in the browser (or in postman)
 
