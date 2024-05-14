@@ -1582,13 +1582,11 @@ The application is also launched and tested
 </br>
 
 # --------- End of CAPM Development ---------
-
+</br>
+</br>
 <p align="center"> 
-	
-</br>
-</br>
-
 - [x] <a href="https://github.com/Octavius-Dante/Tetra_Proxima/tree/main"> Main Page </a>
+
 </br>
 </br>
 
