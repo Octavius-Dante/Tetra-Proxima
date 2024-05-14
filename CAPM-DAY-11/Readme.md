@@ -188,7 +188,36 @@ In last development we fetched data for open service now we are going to fetch d
 </bR> SAP has provided something called sap S/4 HANA Cloud sdk 
 
 </br> </br>
+
+<details>
+<summary> <b> ALL CODE CHANGES - TODAY SESSION </b> </summary>
+</br>
+</br>
+
+**Method 1**
+</br> </br>
+Go to API consumption section of API and follow the instrcutions provided there 
+</br> </br>
+
+1. Install Node and npm. We recommend the use of the LTS version.
+2. Download the API specification from the Overview -> API Specification section. Choose EDMX format.
+3. Store the specification file in your project in the folder resources/service-specs
+4. Install the generator by running: npm install @sap-cloud-sdk/generator
+5. Generate a typed client by running the generator: npx generate-odata-client --input resources/service-specs --outputDir src/generated
+</br> </br>
+
 <img src="./files/capmd11-34.png" ></br> </br>
+
+</br> </br>
+</br>
+
+</br>
+</br>
+</details>
+
+
+
+
 <img src="./files/capmd11-35.png" ></br> </br>
 <img src="./files/capmd11-36.png" ></br> </br>
 <img src="./files/capmd11-37.png" ></br> </br>
