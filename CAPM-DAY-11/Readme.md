@@ -79,7 +79,7 @@ SAP API business hub is a place for documentaion of the API and details of the e
 </br>
 
 1. Create a new capproject and do **cds init**
-2. Run **cds watch** and import the edmx file to the **srv** folder
+2. Run **cds watch** and drag drop the edmx file to the **srv** folder
 3. Add a new **CatalogService.cds** and **CatalogService.js**
 
 </br>
