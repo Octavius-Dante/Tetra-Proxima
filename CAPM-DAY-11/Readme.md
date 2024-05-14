@@ -186,9 +186,7 @@ service CatalogService @(path:'CatalogService') {
 
 In last development we fetched data for open service now we are going to fetch data from SAP specifc service 
 </bR> SAP has provided something called sap S/4 HANA Cloud sdk 
-
 </br> </br>
-
 <details>
 <summary> <b> Method #1 -- implementing Cloud SDK </b> </summary>
 
@@ -212,11 +210,24 @@ Go to API consumption section of API and follow the instrcutions provided there
 </br>
 </details>
 
+<details>
+<summary> <b> Method #2 -- implementing Cloud SDK </b> </summary>
 
-
-
+</br> </br>
+GO to this link https://sap.github.io/cloud-sdk/docs/js/getting-started
+</br> </br>
 <img src="./files/capmd11-35.png" ></br> </br>
 <img src="./files/capmd11-36.png" ></br> </br>
+</br> </br>
+</br>
+
+</br>
+</br>
+</details>
+
+</br> </br>
+
+
 <img src="./files/capmd11-37.png" ></br> </br>
 <img src="./files/capmd11-38.png" ></br> </br>
 <img src="./files/capmd11-39.png" ></br> </br>
