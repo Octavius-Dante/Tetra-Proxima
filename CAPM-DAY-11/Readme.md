@@ -190,7 +190,7 @@ service CatalogService @(path:'CatalogService') {
 
 
 <details>
-<summary> <b>2. Developing extension -- Part # 2 -- Cloud Sdk installtion and development</b> </summary>
+<summary> <b>3. Developing extension -- Part # 2 -- Cloud Sdk installtion and development</b> </summary>
 </br>
 </br>
 
@@ -210,32 +210,22 @@ Go to API consumption section of API and follow the instrcutions provided there
 4. Install the generator by running: npm install @sap-cloud-sdk/generator
 5. Generate a typed client by running the generator: npx generate-odata-client --input resources/service-specs --outputDir src/generated
 </br> </br>
-
 <img src="./files/capmd11-34.png" ></br> </br>
-
 </br> </br>
 </details>
 
 <details>
 <summary> <b> Method #2 -- implementing Cloud SDK </b> </summary>
-
 </br> </br>
-GO to this link https://sap.github.io/cloud-sdk/docs/js/getting-started and refer the guides provided there
+Go to this link https://sap.github.io/cloud-sdk/docs/js/getting-started and refer the guides provided there
 </br> </br>
 <img src="./files/capmd11-35.png" ></br> </br>
 <img src="./files/capmd11-36.png" ></br> </br>
 </br> </br>
-</br>
-
-</br>
-</br>
 </details>
-
 </br> </br>
 
-</br>
-</br>
-</details>
+Go to npmjs.com and search for @sap/cloud-sdk-vdm-sales the page will suggest many choose the appropriate one.
 
 <img src="./files/capmd11-37.png" ></br> </br>
 <img src="./files/capmd11-38.png" ></br> </br>
@@ -303,6 +293,17 @@ GO to this link https://sap.github.io/cloud-sdk/docs/js/getting-started and refe
 <img src="./files/capmd11-100.png" ></br> </br>
 
 
+</br> </br>
+
+</br>
+</br>
+</details>
+
+
+</br> </br>
+
+
+
 
 <!-- 
 
@@ -310,168 +311,12 @@ GO to this link https://sap.github.io/cloud-sdk/docs/js/getting-started and refe
 <summary> <b> ALL CODE CHANGES - TODAY SESSION </b> </summary>
 </br>
 </br>
-</br>
-</br>
-</br>
-</br>
-</details>
-
-
-
-
-
-<img src="./files/capmd11-101.png" ></br> </br>
-<img src="./files/capmd11-102.png" ></br> </br>
-<img src="./files/capmd11-103.png" ></br> </br>
-<img src="./files/capmd11-104.png" ></br> </br>
-<img src="./files/capmd11-105.png" ></br> </br>
-<img src="./files/capmd11-106.png" ></br> </br>
-<img src="./files/capmd11-107.png" ></br> </br>
-<img src="./files/capmd11-108.png" ></br> </br>
-<img src="./files/capmd11-109.png" ></br> </br>
-<img src="./files/capmd11-110.png" ></br> </br>
-<img src="./files/capmd11-111.png" ></br> </br>
-<img src="./files/capmd11-112.png" ></br> </br>
-<img src="./files/capmd11-113.png" ></br> </br>
-<img src="./files/capmd11-114.png" ></br> </br>
-<img src="./files/capmd11-115.png" ></br> </br>
-<img src="./files/capmd11-116.png" ></br> </br>
-<img src="./files/capmd11-117.png" ></br> </br>
-<img src="./files/capmd11-118.png" ></br> </br>
-<img src="./files/capmd11-119.png" ></br> </br>
-<img src="./files/capmd11-120.png" ></br> </br>
-<img src="./files/capmd11-121.png" ></br> </br>
-<img src="./files/capmd11-122.png" ></br> </br>
-<img src="./files/capmd11-123.png" ></br> </br>
-<img src="./files/capmd11-124.png" ></br> </br>
-<img src="./files/capmd11-125.png" ></br> </br>
-<img src="./files/capmd11-126.png" ></br> </br>
-<img src="./files/capmd11-127.png" ></br> </br>
-<img src="./files/capmd11-128.png" ></br> </br>
-<img src="./files/capmd11-129.png" ></br> </br>
-<img src="./files/capmd11-130.png" ></br> </br>
-<img src="./files/capmd11-131.png" ></br> </br>
-<img src="./files/capmd11-132.png" ></br> </br>
-<img src="./files/capmd11-133.png" ></br> </br>
-<img src="./files/capmd11-134.png" ></br> </br>
-<img src="./files/capmd11-135.png" ></br> </br>
-<img src="./files/capmd11-136.png" ></br> </br>
-<img src="./files/capmd11-137.png" ></br> </br>
-<img src="./files/capmd11-138.png" ></br> </br>
-<img src="./files/capmd11-139.png" ></br> </br>
-<img src="./files/capmd11-140.png" ></br> </br>
-<img src="./files/capmd11-141.png" ></br> </br>
-<img src="./files/capmd11-142.png" ></br> </br>
-<img src="./files/capmd11-143.png" ></br> </br>
-<img src="./files/capmd11-144.png" ></br> </br>
-<img src="./files/capmd11-145.png" ></br> </br>
-<img src="./files/capmd11-146.png" ></br> </br>
-<img src="./files/capmd11-147.png" ></br> </br>
-<img src="./files/capmd11-148.png" ></br> </br>
-<img src="./files/capmd11-149.png" ></br> </br>
-<img src="./files/capmd11-150.png" ></br> </br>
-<img src="./files/capmd11-151.png" ></br> </br>
-<img src="./files/capmd11-152.png" ></br> </br>
-<img src="./files/capmd11-153.png" ></br> </br>
-<img src="./files/capmd11-154.png" ></br> </br>
-<img src="./files/capmd11-155.png" ></br> </br>
-<img src="./files/capmd11-156.png" ></br> </br>
-<img src="./files/capmd11-157.png" ></br> </br>
-<img src="./files/capmd11-158.png" ></br> </br>
-<img src="./files/capmd11-159.png" ></br> </br>
-<img src="./files/capmd11-160.png" ></br> </br>
-<img src="./files/capmd11-161.png" ></br> </br>
-<img src="./files/capmd11-162.png" ></br> </br>
-<img src="./files/capmd11-163.png" ></br> </br>
-<img src="./files/capmd11-164.png" ></br> </br>
-<img src="./files/capmd11-165.png" ></br> </br>
-<img src="./files/capmd11-166.png" ></br> </br>
-<img src="./files/capmd11-167.png" ></br> </br>
-<img src="./files/capmd11-168.png" ></br> </br>
-<img src="./files/capmd11-169.png" ></br> </br>
-<img src="./files/capmd11-170.png" ></br> </br>
-<img src="./files/capmd11-171.png" ></br> </br>
-<img src="./files/capmd11-172.png" ></br> </br>
-<img src="./files/capmd11-173.png" ></br> </br>
-<img src="./files/capmd11-174.png" ></br> </br>
-<img src="./files/capmd11-175.png" ></br> </br>
-<img src="./files/capmd11-176.png" ></br> </br>
-<img src="./files/capmd11-177.png" ></br> </br>
-<img src="./files/capmd11-178.png" ></br> </br>
-<img src="./files/capmd11-179.png" ></br> </br>
-<img src="./files/capmd11-180.png" ></br> </br>
-<img src="./files/capmd11-181.png" ></br> </br>
-<img src="./files/capmd11-182.png" ></br> </br>
-<img src="./files/capmd11-183.png" ></br> </br>
-<img src="./files/capmd11-184.png" ></br> </br>
-<img src="./files/capmd11-185.png" ></br> </br>
-<img src="./files/capmd11-186.png" ></br> </br>
-<img src="./files/capmd11-187.png" ></br> </br>
-<img src="./files/capmd11-188.png" ></br> </br>
-<img src="./files/capmd11-189.png" ></br> </br>
-<img src="./files/capmd11-190.png" ></br> </br>
-<img src="./files/capmd11-191.png" ></br> </br>
-<img src="./files/capmd11-192.png" ></br> </br>
-<img src="./files/capmd11-193.png" ></br> </br>
-<img src="./files/capmd11-194.png" ></br> </br>
-<img src="./files/capmd11-195.png" ></br> </br>
-<img src="./files/capmd11-196.png" ></br> </br>
-<img src="./files/capmd11-197.png" ></br> </br>
-<img src="./files/capmd11-198.png" ></br> </br>
-<img src="./files/capmd11-199.png" ></br> </br>
-<img src="./files/capmd11-200.png" ></br> </br> -->
-
-
-
-
-
-
-<!--
-
-</br>
-</br>
-
-``` cds 
-	
-
-
-``` 
-
-</br>
-</br>
+</br></br>
 <img src="./files/capmd11-1.png" >
-</br>
-</br>
-
-## MyService.js 
-</br>
-</br>
-
-```js
-
-
-
-```
-</br>
-<img src="./files/capmd11-2.png" >
-</br>
-</br>
-
-
-
-<details>
-<summary> <b> ALL CODE CHANGES - TODAY SESSION </b> </summary>
-</br>
-</br>
-
-</br>
-</br>
-
+</br></br>
 </br>
 </br>
 </details>
-
-
 -->
 
 </br>
