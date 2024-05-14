@@ -150,6 +150,37 @@ Now filtering the API based on the business documentation</br> </br>
 <img src="./files/capmd11-32.png" ></br> </br>
 <img src="./files/capmd11-33.png" ></br> </br>
 
+**ServiceCatalog.cds** sample code # 1
+ </br>
+ 
+```cds
+
+namespace salesorderext.srv;
+
+using { OP_API_SALES_ORDER_SRV_0001 as external} from './external/OP_API_SALES_ORDER_SRV_0001';
+
+service CatalogService @(path:'CatalogService') {
+
+    entity SalesOrderSet as projection on external.A_SalesOrder{
+
+        key SalesOrder,
+        SalesOrganization,
+        SalesOrderType,
+        SalesOrderDate,
+        SoldToParty,
+        OverallDeliveryStatus,
+        to_Item.Material as Material,
+        to_Item.OrderQuantityUnit as OrderQuantityUnit,
+        to_Item.NetAmount as NetAmount
+    };
+    
+}
+
+
+```
+</br> </br>
+
+
 <img src="./files/capmd11-34.png" ></br> </br>
 <img src="./files/capmd11-35.png" ></br> </br>
 <img src="./files/capmd11-36.png" ></br> </br>
