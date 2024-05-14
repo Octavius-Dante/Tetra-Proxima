@@ -79,7 +79,9 @@ SAP API business hub is a place for documentaion of the API and details of the e
 </br>
 
 1. Create a new capproject and do **cds init**
-2. Run **cds watch** and drag drop the edmx file to the **srv** folder
+2. Run **cds watch** and drag drop the edmx file to the **srv** folder 
+</br> Alternative way without cds watch -- just drag and drop and then use command <b>cds import</b> PATH_OF_EDMX
+
 3. Add a new **CatalogService.cds** and **CatalogService.js**
 
 </br>
@@ -152,7 +154,7 @@ Now filtering the API based on the business documentation</br> </br>
 
 **ServiceCatalog.cds** sample code # 1
  </br>
- 
+
 ```cds
 
 namespace salesorderext.srv;
@@ -180,7 +182,10 @@ service CatalogService @(path:'CatalogService') {
 ```
 </br> </br>
 
+In last development we fetched data for open service now we are going to fetch data from SAP specifc service 
+</bR> SAP has provided something called sap S/4 HANA Cloud sdk 
 
+</br> </br>
 <img src="./files/capmd11-34.png" ></br> </br>
 <img src="./files/capmd11-35.png" ></br> </br>
 <img src="./files/capmd11-36.png" ></br> </br>
