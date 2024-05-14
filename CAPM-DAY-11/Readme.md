@@ -73,6 +73,20 @@ SAP API business hub is a place for documentaion of the API and details of the e
 
 </br> </br> 
 
+<details>
+<summary> <b> All the steps for developing standard API Extension </b> </summary>
+</br>
+</br>
+
+1. Create a new capproject and do **cds init**
+2. Run **cds watch** and import the edmx file to the **srv** folder
+3. Adda a new **CatalogService.cds** and **CatalogService.js**
+
+</br>
+</br>
+</details>
+
+</br> </br> 
 
 <details>
 <summary> <b>1. Access the SAP On-premise system and locate the API  </b> </summary>
