@@ -210,7 +210,7 @@ Go to API consumption section of API and follow the instrcutions provided there
 <summary> <b> Method #2 -- implementing Cloud SDK </b> </summary>
 
 </br> </br>
-GO to this link https://sap.github.io/cloud-sdk/docs/js/getting-started
+GO to this link https://sap.github.io/cloud-sdk/docs/js/getting-started and refer the guides provided there
 </br> </br>
 <img src="./files/capmd11-35.png" ></br> </br>
 <img src="./files/capmd11-36.png" ></br> </br>
