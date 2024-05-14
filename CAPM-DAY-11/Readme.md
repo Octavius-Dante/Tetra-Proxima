@@ -146,6 +146,7 @@ Now filtering the API based on the business documentation</br> </br>
 <img src="./files/capmd11-29a.png" ></br> </br>
 <img src="./files/capmd11-30.png" ></br> </br>
 <img src="./files/capmd11-30a.png" ></br> </br>
+<img src="./files/capmd11-31.png" ></br> </br>
 </br>
 </br>
 </details>
