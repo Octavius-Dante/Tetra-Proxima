@@ -413,10 +413,10 @@ Now filtering the API based on the business documentation</br> </br>
 </br>
 </br>
 
-# NEXT ------ CAPM - DAY 12 - Extension CI/CD
+# NEXT ------ CAPM - DAY 12 - CI/CD Pipeline
 
 <p align="center"> 
-<a href="https://github.com/Octavius-Dante/Tetra_Proxima/tree/main/CAPM-DAY-12"> CAPM DAY 12 - Extension CI/CD</a> 
+<a href="https://github.com/Octavius-Dante/Tetra_Proxima/tree/main/CAPM-DAY-12"> CAPM DAY 12 - CI/CD Pipeline</a> 
 	
 </br>
 </br>
