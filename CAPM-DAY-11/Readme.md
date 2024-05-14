@@ -131,9 +131,14 @@ Now filtering the API based on the business documentation</br> </br>
 <img src="./files/capmd11-23.png" ></br> </br>
 <img src="./files/capmd11-24a.png" ></br> </br>
 <img src="./files/capmd11-24b.png" ></br> </br>
+</br>
+</br>
+</details>
 
-
-
+<details>
+<summary> <b>2. Developing the extension app - PART # 1</b> </summary>
+</br>
+</br>
 <img src="./files/capmd11-25.png" ></br> </br>
 <img src="./files/capmd11-26.png" ></br> </br>
 <img src="./files/capmd11-27.png" ></br> </br>
@@ -142,12 +147,20 @@ Now filtering the API based on the business documentation</br> </br>
 <img src="./files/capmd11-30.png" ></br> </br>
 </br>
 </br>
+</details>
 
+<!-- 
+
+<details>
+<summary> <b> ALL CODE CHANGES - TODAY SESSION </b> </summary>
+</br>
+</br>
+</br>
+</br>
 </br>
 </br>
 </details>
 
-<!-- 
 
 <img src="./files/capmd11-31.png" ></br> </br>
 <img src="./files/capmd11-32.png" ></br> </br>
