@@ -147,26 +147,9 @@ Now filtering the API based on the business documentation</br> </br>
 <img src="./files/capmd11-30.png" ></br> </br>
 <img src="./files/capmd11-30a.png" ></br> </br>
 <img src="./files/capmd11-31.png" ></br> </br>
-</br>
-</br>
-</details>
-
-<!-- 
-
-<details>
-<summary> <b> ALL CODE CHANGES - TODAY SESSION </b> </summary>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</details>
-
-
-<img src="./files/capmd11-31.png" ></br> </br>
 <img src="./files/capmd11-32.png" ></br> </br>
 <img src="./files/capmd11-33.png" ></br> </br>
+
 <img src="./files/capmd11-34.png" ></br> </br>
 <img src="./files/capmd11-35.png" ></br> </br>
 <img src="./files/capmd11-36.png" ></br> </br>
@@ -234,6 +217,27 @@ Now filtering the API based on the business documentation</br> </br>
 <img src="./files/capmd11-98.png" ></br> </br>
 <img src="./files/capmd11-99.png" ></br> </br>
 <img src="./files/capmd11-100.png" ></br> </br>
+
+</br>
+</br>
+</details>
+
+<!-- 
+
+<details>
+<summary> <b> ALL CODE CHANGES - TODAY SESSION </b> </summary>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</details>
+
+
+
+
+
 <img src="./files/capmd11-101.png" ></br> </br>
 <img src="./files/capmd11-102.png" ></br> </br>
 <img src="./files/capmd11-103.png" ></br> </br>
