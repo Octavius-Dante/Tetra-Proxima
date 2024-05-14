@@ -831,17 +831,6 @@ Same role will be created in roles section in BTP and that role we have assign i
 
 -->
 
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-
 
 </br>
 </br>
