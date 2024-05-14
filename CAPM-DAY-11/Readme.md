@@ -136,7 +136,7 @@ Now filtering the API based on the business documentation</br> </br>
 </details>
 
 <details>
-<summary> <b>2. Developing the extension app - Part # 1 - Edmx import and custom catalog service defining</b> </summary>
+<summary> <b>2. Developing the extension app -- Part # 1 -- Edmx import and custom catalog service defining</b> </summary>
 </br>
 </br>
 <img src="./files/capmd11-25.png" ></br> </br>
