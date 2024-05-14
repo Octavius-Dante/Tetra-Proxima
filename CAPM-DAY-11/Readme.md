@@ -229,9 +229,15 @@ Go to this link https://sap.github.io/cloud-sdk/docs/js/getting-started and refe
 
 Go to npmjs.com and search for @sap/cloud-sdk-vdm-sales the page will suggest many choose the appropriate one.</br> </br>
 <img src="./files/capmd11-37.png" ></br> </br>
-
 <img src="./files/capmd11-38.png" ></br> </br>
 <img src="./files/capmd11-39.png" ></br> </br>
+
+```bat
+npm install @sap/cloud-sdk-vdm-sales-order-service
+```
+</br> </br>
+
+Make changes to package.json file</br> </br>
 <img src="./files/capmd11-40.png" ></br> </br>
 <img src="./files/capmd11-41.png" ></br> </br>
 <img src="./files/capmd11-42.png" ></br> </br>
