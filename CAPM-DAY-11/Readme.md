@@ -237,7 +237,7 @@ Go to **npmjs.com** and search for **@sap/cloud-sdk-vdm-sales** the page will su
 npm install @sap/cloud-sdk-vdm-sales-order-service
 npm install @sap-cloud-sdk/core
 npm install @sap-cloud-sdk/odata-v2
-npm install @sap-cloud-sdk/generator
+
 ```
 </br> 
 
@@ -380,6 +380,24 @@ once in a while SAP makes chanegs to framewrok or node module components so it w
 Go through this link https://sap.github.io/cloud-sdk/docs/js/features/odata/generate-client and refer the guide</br> </br>
 <img src="./files/capmd11-46.png" ></br> </br>
 
+
+The recommended steps from the website suggest to use the following component 
+</br> </br>
+
+item -1  </br></br>
+
+```bat
+npm install @sap-cloud-sdk/generator
+
+```
+
+item -2 
+</br> Generate a Client Using the Command Line Interface </br></br>
+
+```bat
+npx generate-odata-client --input path/to/your/service-specifications --outputDir path/to/store/generated/modulesnpm install @sap-cloud-sdk/generator
+
+```
 
 <img src="./files/capmd11-47.png" ></br> </br>
 <img src="./files/capmd11-48.png" ></br> </br>
