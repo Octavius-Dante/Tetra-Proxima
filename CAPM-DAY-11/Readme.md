@@ -86,7 +86,8 @@ SAP API business hub is a place for documentaion of the API and details of the e
 3. Add a new **CatalogService.cds** and **CatalogService.js**
 4. S/4 HANA Clous sdk is SAP's portfolio of all the type safe API's (Node modules) to communicate to SAP APIS's in specific api page look for **(Cloud SDK) or (API consumption)** and follow the steps  (OR)
 
-5. Install this **@sap/cloud-sdk-vdm-sales-order-service** node module to the project 
+5. Install this **@sap/cloud-sdk-vdm-sales-order-service** node module to the project .
+6. Add the configuration to test our api locally in **package.json**
 
 </br>
 </br>
@@ -237,8 +238,50 @@ npm install @sap/cloud-sdk-vdm-sales-order-service
 ```
 </br> </br>
 
-Make changes to package.json file</br> </br>
+Make changes to package.json file for local testing purpose add credentials</br> </br>
 <img src="./files/capmd11-40.png" ></br> </br>
+
+```json
+
+{
+  "name": "capi_ext2",
+  "version": "1.0.0",
+  "description": "A simple CAP project.",
+  "repository": "<Add your repository here>",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "@sap/cds": "^7",
+    "@sap/cloud-sdk-vdm-sales-order-service": "^2.1.0",
+    "express": "^4"
+  },
+  "devDependencies": {
+    "@cap-js/sqlite": "^1",
+    "@sap/eslint-plugin-cds": "^3",
+    "eslint": "^9"
+  },
+  "scripts": {
+    "start": "cds-serve"
+  },
+  "cds": {
+    "requires": {
+      "OP_API_SALES_ORDER_SRV_0001": {
+        "kind": "odata-v2",
+        "model": "srv/external/OP_API_SALES_ORDER_SRV_0001",
+        "credentials":{
+          "url": "123.123.123.123:9999",
+          "username": "Tesla",
+          "password": "Amazing@123"
+        }
+      }
+    }
+  }
+}
+
+
+```
+</br> </br>
+
 <img src="./files/capmd11-41.png" ></br> </br>
 <img src="./files/capmd11-42.png" ></br> </br>
 <img src="./files/capmd11-43.png" ></br> </br>
