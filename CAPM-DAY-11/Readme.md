@@ -424,7 +424,7 @@ module.exports = cds.service.impl(async function(srv){
 </details>
 
 <details>
-<summary> <b>3. Developing extension -- Part # 3 -- CatalogService.js >>(Error Fix) </b> </summary>
+<summary> <b>3. Developing extension -- Part # 3 --  </b> </summary>
 </br>
 </br>
 
