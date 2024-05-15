@@ -84,10 +84,12 @@ SAP API business hub is a place for documentaion of the API and details of the e
 </br> Alternative way without cds watch -- just drag and drop and then use command <b>cds import</b> PATH_OF_EDMX
 
 3. Add a new **CatalogService.cds** and **CatalogService.js**
-4. S/4 HANA Clous sdk is SAP's portfolio of all the type safe API's (Node modules) to communicate to SAP APIS's in specific api page look for **(Cloud SDK) or (API consumption)** and follow the steps  (OR)
+4. Install Components : 
+              4.1 Cloud Focundry security - **@sap/xssec, @sap/xsenv, passport**
+              4.2 OData V2 adapter - **@sap/cds-odata-v2-adapter-proxy**
+              4.3 Serving Odata V2 over Cloud SDK - **@sap-cloud-sdk/odata-v2**
+              4.4 To generate service code in node JS, Install Cloud SDK generator module using **@sap-cloud-sdk/generator**
 
-5. Install this **@sap/cloud-sdk-vdm-sales-order-service** node module to the project .
-6. Add the configuration to test our api locally in **package.json**
 
 </br>
 </br>
@@ -254,12 +256,15 @@ Make changes to package.json file for local testing purpose add credentials</br>
   "license": "UNLICENSED",
   "private": true,
   "dependencies": {
-    "@sap-cloud-sdk/core": "^1.54.2",
+    "@sap-cloud-sdk/generator": "^3.15.0",
     "@sap-cloud-sdk/odata-v2": "^3.15.0",
     "@sap/cds": "^7.9.1",
     "@sap/cds-dk": "^7.9.1",
-    "@sap/cloud-sdk-vdm-sales-order-service": "^2.1.0",
-    "express": "^4"
+    "@sap/cds-odata-v2-adapter-proxy": "^1.9.21",
+    "@sap/xsenv": "^5.1.0",
+    "@sap/xssec": "^3.6.1",
+    "express": "^4",
+    "passport": "^0.7.0"
   },
   "devDependencies": {
     "@cap-js/sqlite": "^1",
@@ -275,7 +280,7 @@ Make changes to package.json file for local testing purpose add credentials</br>
         "kind": "odata-v2",
         "model": "srv/external/OP_API_SALES_ORDER_SRV_0001",
         "credentials": {
-          "url": "123.123.123.123:9999",
+          "url": "123.456.789.123:9999",
           "username": "Tesla",
           "password": "Amazing@123"
         }
@@ -283,8 +288,6 @@ Make changes to package.json file for local testing purpose add credentials</br>
     }
   }
 }
-
-
 
 ```
 </br> </br>
