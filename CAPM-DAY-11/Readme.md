@@ -384,14 +384,14 @@ Go through this link https://sap.github.io/cloud-sdk/docs/js/features/odata/gene
 The recommended steps from the website suggest to use the following component 
 </br> </br>
 
-item -1 : Install Cloud generator component of Cloud SDK </br></br>
+**item -1 : Install Cloud generator component of Cloud SDK** </br></br>
 
 ```bat
 npm install @sap-cloud-sdk/generator
 
 ```
 
-item -2 : Generate a Client Using the Command Line Interface </br></br>
+**item -2 : Generate a Client Using the Command Line Interface** </br></br>
 
 ```bat
 // Command with Syntax
