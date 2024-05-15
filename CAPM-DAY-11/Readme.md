@@ -372,8 +372,8 @@ when executed this using **cds watch** encountered an error as shown below </br>
 <img src="./files/capmd11-44.png" ></br> </br>
 
 once in a while SAP makes chanegs to framewrok or node module components so it wont work, 
-</br> so when stuck with issues like this need to follow following steps 
-</br> as recommended in this page - follow the blog and go through the guided steps
+</br> so when stuck with issues like this need to follow steps as recommended
+</br> in this page - follow the blog and go through the guided steps
 <img src="./files/capmd11-45.png" ></br> </br>
 
 
