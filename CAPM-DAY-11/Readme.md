@@ -289,8 +289,7 @@ Make changes to package.json file for local testing purpose add credentials</br>
 ```
 </br> </br>
 
-Make code changes in **CatalogService.js** 
-</br> </br>
+Make code changes in **CatalogService.js**  # 1 </br> </br>
 
 ```js
 
@@ -310,7 +309,7 @@ module.exports = cds.service.impl(async function(){
 <img src="./files/capmd11-42.png" ></br> </br>
 <img src="./files/capmd11-43.png" ></br> </br>
 
-Make aadditional code changes to **CatalogService.js** as shown below</br> </br>
+Make code changes in **CatalogService.js**  # 2 </br> </br>
 
 ```js
 
@@ -413,6 +412,14 @@ npx generate-odata-client --input /home/user/projects/capi_ext2/srv/external/OP_
 
 As suggested in API documentation page make code changes</br> </br>
 <img src="./files/capmd11-52.png" ></br> </br>
+
+Make code changes in **CatalogService.js**  # 3 </br> </br>
+
+```js
+
+
+
+```
 
 <img src="./files/capmd11-53.png" ></br> </br>
 <img src="./files/capmd11-54.png" ></br> </br>
