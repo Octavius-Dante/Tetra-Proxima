@@ -193,7 +193,7 @@ service CatalogService @(path:'CatalogService') {
 
 
 <details>
-<summary> <b>3. Developing extension -- Part # 2 -- Cloud Sdk installation and package.json + service.js</b> </summary>
+<summary> <b>3. Developing extension -- Part # 2 -- Cloud Sdk installation and package.json >>(good) + service.js >>(Error) </b> </summary>
 </br>
 </br>
 
