@@ -85,10 +85,10 @@ SAP API business hub is a place for documentaion of the API and details of the e
 
 3. Add a new **CatalogService.cds** and **CatalogService.js**
 4. Install Components : 
-              4.1 Cloud Focundry security - **@sap/xssec, @sap/xsenv, passport**
-              4.2 OData V2 adapter - **@sap/cds-odata-v2-adapter-proxy**
-              4.3 Serving Odata V2 over Cloud SDK - **@sap-cloud-sdk/odata-v2**
-              4.4 To generate service code in node JS, Install Cloud SDK generator module using **@sap-cloud-sdk/generator**
+</br>         4.1 Cloud Focundry security - **@sap/xssec, @sap/xsenv, passport**
+</br>         4.2 OData V2 adapter - **@sap/cds-odata-v2-adapter-proxy**
+</br>         4.3 Serving Odata V2 over Cloud SDK - **@sap-cloud-sdk/odata-v2**
+</br>         4.4 To generate service code in node JS, Install Cloud SDK generator module using **@sap-cloud-sdk/generator**
 
 5. Generate the JS code to automatically get all the calls which will call the service 
    </br> 
