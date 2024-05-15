@@ -235,6 +235,8 @@ Go to **npmjs.com** and search for **@sap/cloud-sdk-vdm-sales** the page will su
 
 ```bat
 npm install @sap/cloud-sdk-vdm-sales-order-service
+npm install @sap-cloud-sdk/core
+
 ```
 </br> 
 
@@ -301,10 +303,17 @@ module.exports = cds.service.impl(async function(){
 
 <img src="./files/capmd11-41.png" ></br> </br>
 <img src="./files/capmd11-42.png" ></br> </br>
-
-
-
 <img src="./files/capmd11-43.png" ></br> </br>
+
+Make aadditional code changes to **CatalogService.js**</br> </br>
+
+```js
+
+
+
+```
+</br> </br>
+
 <img src="./files/capmd11-44.png" ></br> </br>
 <img src="./files/capmd11-45.png" ></br> </br>
 <img src="./files/capmd11-46.png" ></br> </br>
