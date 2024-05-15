@@ -80,17 +80,14 @@ SAP API business hub is a place for documentaion of the API and details of the e
 </br>
 
 1. Create a new capproject and do **cds init**
-2. Run **cds watch** and drag drop the edmx file to the **srv** folder it creates an External folder with *.csn file. 
-</br> recommended create **service-spec** folder inside srv and do drag and drop
 
-3. Add a new **CatalogService.cds** and **CatalogService.js**
-4. Install Components : </br>
-</br>         4.1 Cloud Focundry security - **@sap/xssec, @sap/xsenv, passport**
-</br>         4.2 OData V2 adapter - **@sap/cds-odata-v2-adapter-proxy**
-</br>         4.3 Serving Odata V2 over Cloud SDK - **@sap-cloud-sdk/odata-v2**
-</br>         4.4 To generate service code in node JS, Install Cloud SDK generator module using **@sap-cloud-sdk/generator**
+2. Install Components : </br>
+</br>         2.1 Cloud Focundry security - **@sap/xssec, @sap/xsenv, passport**
+</br>         2.2 OData V2 adapter - **@sap/cds-odata-v2-adapter-proxy**
+</br>         2.3 Serving Odata V2 over Cloud SDK - **@sap-cloud-sdk/odata-v2**
+</br>         2.4 To generate service code in node JS, Install Cloud SDK generator module using **@sap-cloud-sdk/generator**
 
-5. Generate the JS code to automatically get all the calls which will call the service 
+3. Generate the JS code to automatically get all the calls which will call the service 
    </br> 
    **npx generate-odata-client --input /home/user/projects/capi_ext2/srv/external/OP_API_SALES_ORDER_SRV_0001.edmx** 
    </br> 
@@ -98,7 +95,13 @@ SAP API business hub is a place for documentaion of the API and details of the e
 
    (in VSCode need to give edmx file folder path in input instead of file path)</br> </br> 
 
-6. In *CatalogService.cds** define the service definitioon by referncing the *.CSN file generated based on SAP OData
+4. Create folder **sales-order-api** in **srv**, Create **service-spec** folder in **srv**
+
+5. Run **cds watch** and drag drop the edmx file to **service-spec** folder it creates an External folder with *.csn file. 
+
+6. Add a new **CatalogService.cds** and **CatalogService.js**
+
+7. In **CatalogService.cds** define the service definition by referncing the *.csn file generated based on SAP OData
 
 </br>
 </br>
@@ -368,7 +371,8 @@ module.exports = cds.service.impl(async function(srv){
 
    var getAllSalesOrder = async function(){
 
-    
+    const { SalesOrderService } = require ('./')
+
    }
 
  // Read record for this salesorderset srv declared in CatalogService.cds
