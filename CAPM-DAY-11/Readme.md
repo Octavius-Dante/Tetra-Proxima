@@ -288,8 +288,8 @@ Make changes to package.json file for local testing purpose add credentials of S
 ```
 
 
-Go through this link https://sap.github.io/cloud-sdk/docs/js/features/odata/generate-client and refer the guide</br> </br>
-<img src="./files/capmd11-46.png" ></br> </br>
+As mentioned in official API website we perform the steps [API link](https://api.sap.com/api/OP_API_SALES_ORDER_SRV_0001/resource/) </br> </br>
+<img src="./files/capmd11-41.png" ></br> </br>
 
 
 The recommended steps from the website suggest to use the following component 
