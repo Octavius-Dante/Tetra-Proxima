@@ -236,7 +236,7 @@ Go to **npmjs.com** and search for **@sap/cloud-sdk-vdm-sales** the page will su
 ```bat
 npm install @sap/cloud-sdk-vdm-sales-order-service
 npm install @sap-cloud-sdk/core
-
+npm install @sap-cloud-sdk/odata-v2
 ```
 </br> 
 
@@ -253,7 +253,10 @@ Make changes to package.json file for local testing purpose add credentials</br>
   "license": "UNLICENSED",
   "private": true,
   "dependencies": {
-    "@sap/cds": "^7",
+    "@sap-cloud-sdk/core": "^1.54.2",
+    "@sap-cloud-sdk/odata-v2": "^3.15.0",
+    "@sap/cds": "^7.9.1",
+    "@sap/cds-dk": "^7.9.1",
     "@sap/cloud-sdk-vdm-sales-order-service": "^2.1.0",
     "express": "^4"
   },
