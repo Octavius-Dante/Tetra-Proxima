@@ -97,7 +97,7 @@ SAP API business hub is a place for documentaion of the API and details of the e
    **--outputDir /home/user/projects/capi_ext2/srv/module**
 
 </br> 
-   (in VSCode need to give edmx file folder path in input instead of file path)
+   (in VSCode need to give edmx file folder path in input instead of file path)</br> </br> 
 
 6. In *CatalogService.cds** define the service definitioon by referncing the *.CSN file generated based on SAP OData
 
