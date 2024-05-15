@@ -84,7 +84,7 @@ SAP API business hub is a place for documentaion of the API and details of the e
 </br> Alternative way without cds watch -- just drag and drop and then use command <b>cds import</b> PATH_OF_EDMX
 
 3. Add a new **CatalogService.cds** and **CatalogService.js**
-4. Install Components : 
+4. Install Components : </br>
 </br>         4.1 Cloud Focundry security - **@sap/xssec, @sap/xsenv, passport**
 </br>         4.2 OData V2 adapter - **@sap/cds-odata-v2-adapter-proxy**
 </br>         4.3 Serving Odata V2 over Cloud SDK - **@sap-cloud-sdk/odata-v2**
