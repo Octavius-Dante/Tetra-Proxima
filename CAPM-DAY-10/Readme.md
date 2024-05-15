@@ -1,4 +1,4 @@
-## CAPM - Day 10 - Side by Side extension
+## CAPM - Day 10 - S/4 HANA Side by Side Extension 1.0
 
 </br>
 
