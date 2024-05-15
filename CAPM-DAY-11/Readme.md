@@ -228,14 +228,14 @@ Go to this link https://sap.github.io/cloud-sdk/docs/js/getting-started and refe
 </details>
 </br> </br>
 
-Go to **npmjs.com** and search for **@sap/cloud-sdk-vdm-sales** the page will suggest many choose the appropriate one.</br> </br>
-<img src="./files/capmd11-37.png" ></br> </br>
-<img src="./files/capmd11-38.png" ></br> </br>
-<img src="./files/capmd11-39.png" ></br> </br>
+Install essential components for the project</br> </br>
+
 
 ```bat
-npm install @sap/cloud-sdk-vdm-sales-order-service
-npm install @sap-cloud-sdk/core
+npm install @sap/xssec
+npm install @sap/xsenv
+npm install passport
+npm install @sap/cds-odata-v2-adapter-proxy
 npm install @sap-cloud-sdk/odata-v2
 
 ```
@@ -295,12 +295,18 @@ Make code changes in **CatalogService.js**  # 1 </br> </br>
 
 const cds = require('@sap/cds');
 
-module.exports = cds.service.impl(async function(){
+module.exports = cds.service.impl(async function(srv){
 
-    const { SalesOrderSet } = cds.entities;
-    const { SalesOrder, SalesOrderItem } = require('@sap/cloud-sdk-vdm-sales-order-service');
+    const { SalesOrderSet } = this.entities;
 
-})
+ // Read record for this salesorderset srv declared in CatalogService.cds
+srv.on('READ', 'SalesOrderSet', async(req) => {
+        return [{
+            SalesOrder: 10
+        }]; 
+    });
+});
+
 
 ```
 
