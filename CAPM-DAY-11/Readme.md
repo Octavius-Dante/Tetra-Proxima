@@ -90,6 +90,11 @@ SAP API business hub is a place for documentaion of the API and details of the e
               4.3 Serving Odata V2 over Cloud SDK - **@sap-cloud-sdk/odata-v2**
               4.4 To generate service code in node JS, Install Cloud SDK generator module using **@sap-cloud-sdk/generator**
 
+5. Generate the JS code to automatically get all the calls which will call the service 
+   </br> 
+   **npx generate-odata-client --input /home/user/projects/capi_ext2/srv/external/OP_API_SALES_ORDER_SRV_0001.edmx** 
+   </br> 
+   **--outputDir /home/user/projects/capi_ext2/srv/module**
 
 </br>
 </br>
