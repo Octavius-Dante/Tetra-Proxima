@@ -366,6 +366,11 @@ module.exports = cds.service.impl(async function(srv){
 
     const { SalesOrderSet } = this.entities;
 
+   var getAllSalesOrder = async function(){
+
+    
+   }
+
  // Read record for this salesorderset srv declared in CatalogService.cds
 srv.on('READ', 'SalesOrderSet', async(req) => {
         return [{
