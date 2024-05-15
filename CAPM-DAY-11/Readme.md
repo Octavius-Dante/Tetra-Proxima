@@ -401,7 +401,7 @@ npx generate-odata-client --input path/to/your/service-specifications --outputDi
 // Command with actual values 
 // -- input - EDMX file path from external folder | -- Output - Module folder in srv folder (\srv\module)
 
-npx generate-odata-client --input /home/user/projects/capi_ext2/srv/external/OP_API_SALES_ORDER_SRV_0001.edmx --outputDir /home/user/projects/capi_ext2/srv/module install @sap-cloud-sdk/generator
+npx generate-odata-client --input /home/user/projects/capi_ext2/srv/external/OP_API_SALES_ORDER_SRV_0001.edmx --outputDir /home/user/projects/capi_ext2/srv/module 
 
 ```
 
