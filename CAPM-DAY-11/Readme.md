@@ -293,7 +293,7 @@ Make code changes in **CatalogService.js**
 </br> </br>
 
 <img src="./files/capmd11-41.png" ></br> </br>
-<img src="./files/capmd11-42.png" ></br> </br>
+<img src="./files/capmd11-42a.png" ></br> </br>
 
 
 
