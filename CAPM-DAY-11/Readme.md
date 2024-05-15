@@ -432,6 +432,7 @@ module.exports = cds.service.impl(async function(srv){
 
     // Requesting API to get all sales order from SAP S/4 HANA system
         function getAllSalesOrders() {
+// used the new variable to call request builder                       
         return salesOrderApi.requestBuilder().getAll().select(
             SalesOrder.SALES_ORDER,
             SalesOrder.SALES_ORGANIZATION,
