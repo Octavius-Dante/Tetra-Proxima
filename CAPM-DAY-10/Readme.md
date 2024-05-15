@@ -1,4 +1,4 @@
-## CAPM - Day 10 - Side by Side extension
+## CAPM - Day 10 - S/4 HANA Side by Side Extension 1.0
 
 </br>
 
@@ -1433,10 +1433,10 @@ Use "cf dmol -i f93b5548-10f2-11ef-b257-eeee0a95c02a" to download the logs of th
 </br>
 </br>
 
-# NEXT ------ CAPM - DAY 11 - Side by Side extension 2.0
+# NEXT ------ CAPM - DAY 11 - S/4 HANA Side by Side Extension 2.0
 
 <p align="center"> 
-<a href="https://github.com/Octavius-Dante/Tetra_Proxima/tree/main/CAPM-DAY-11"> CAPM DAY 11 - Side by Side extension 2.0</a> 
+<a href="https://github.com/Octavius-Dante/Tetra_Proxima/tree/main/CAPM-DAY-11"> CAPM DAY 11 - S/4 HANA Side by Side Extension 2.0</a> 
 	
 </br>
 </br>
