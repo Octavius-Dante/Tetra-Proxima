@@ -273,7 +273,7 @@ Make changes to package.json file for local testing purpose add credentials</br>
       "OP_API_SALES_ORDER_SRV_0001": {
         "kind": "odata-v2",
         "model": "srv/external/OP_API_SALES_ORDER_SRV_0001",
-        "credentials":{
+        "credentials": {
           "url": "123.123.123.123:9999",
           "username": "Tesla",
           "password": "Amazing@123"
@@ -282,6 +282,7 @@ Make changes to package.json file for local testing purpose add credentials</br>
     }
   }
 }
+
 
 
 ```
