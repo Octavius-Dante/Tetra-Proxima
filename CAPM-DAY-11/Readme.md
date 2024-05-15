@@ -312,30 +312,7 @@ Make changes to package.json file for local testing purpose add credentials of S
 }
 
 ```
-</br> </br>
 
-Make code changes in **CatalogService.js**  # 1 </br> </br>
-
-```js
-
-const cds = require('@sap/cds');
-
-module.exports = cds.service.impl(async function(srv){
-
-    const { SalesOrderSet } = this.entities;
-
- // Read record for this salesorderset srv declared in CatalogService.cds
-srv.on('READ', 'SalesOrderSet', async(req) => {
-        return [{
-            SalesOrder: 10
-        }]; 
-    });
-});
-
-
-```
-
-</br> </br> 
 
 
 Go through this link https://sap.github.io/cloud-sdk/docs/js/features/odata/generate-client and refer the guide</br> </br>
@@ -375,6 +352,32 @@ npx generate-odata-client --input /home/user/projects/capi_ext2/srv/external/OP_
 
 As suggested in API documentation page make code changes</br> </br>
 <img src="./files/capmd11-49.png" ></br> </br>
+
+
+</br> </br>
+
+Make code changes in **CatalogService.js**  # 1 </br> </br>
+
+```js
+
+const cds = require('@sap/cds');
+
+module.exports = cds.service.impl(async function(srv){
+
+    const { SalesOrderSet } = this.entities;
+
+ // Read record for this salesorderset srv declared in CatalogService.cds
+srv.on('READ', 'SalesOrderSet', async(req) => {
+        return [{
+            SalesOrder: 10
+        }]; 
+    });
+});
+
+
+```
+
+</br> </br> 
 
 </br> </br> 
 
