@@ -431,8 +431,7 @@ import { SalesOrderService } from './module/OP_API_SALES_ORDER_SRV_0001';
 module.exports = cds.service.impl(async function(srv){
 
     const { SalesOrderSet } = cds.entities;
-// Not using old declaration - so following line is commented
-    // const { SalesOrder, SalesOrderItem, salesOrderService } = require('@sap/cloud-sdk-vdm-sales-order-service');
+    const { SalesOrder, SalesOrderItem, salesOrderService } = require('@sap/cloud-sdk-vdm-sales-order-service');
 
     // New variable for module import 
     const { salesOrderApi } = SalesOrderService();
