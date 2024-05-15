@@ -377,7 +377,7 @@ As suggested in API documentation page make code changes</br> </br>
 
 </br> </br> 
 
-Make code changes in **CatalogService.js**  # 3 </br> </br>
+Make code changes in **CatalogService.js**  # 2 </br> </br>
 
 ```js
 
