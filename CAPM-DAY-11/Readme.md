@@ -377,7 +377,10 @@ once in a while SAP makes chanegs to framewrok or node module components so it w
 <img src="./files/capmd11-45.png" ></br> </br>
 
 
+Go through this link https://sap.github.io/cloud-sdk/docs/js/features/odata/generate-client and refer the guide</br> </br>
 <img src="./files/capmd11-46.png" ></br> </br>
+
+
 <img src="./files/capmd11-47.png" ></br> </br>
 <img src="./files/capmd11-48.png" ></br> </br>
 <img src="./files/capmd11-49.png" ></br> </br>
