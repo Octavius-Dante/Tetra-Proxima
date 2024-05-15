@@ -309,6 +309,7 @@ module.exports = cds.service.impl(async function(){
 <img src="./files/capmd11-42.png" ></br> </br>
 <img src="./files/capmd11-43.png" ></br> </br>
 
+</br> </br>
 Make code changes in **CatalogService.js**  # 2 </br> </br>
 
 ```js
@@ -365,7 +366,8 @@ module.exports = cds.service.impl(async function(srv){
 })
 
 ```
-</br> </br>
+</br> </br> 
+</br> </br> 
 
 when executed this using **cds watch** encountered an error as shown below </br> </br>
 <img src="./files/capmd11-44.png" ></br> </br>
