@@ -143,7 +143,7 @@ Now filtering the API based on the business documentation</br> </br>
 </details>
 
 <details>
-<summary> <b>2. Developing extension -- Part # 1 -- Edmx import and defining catalog service</b> </summary>
+<summary> <b>2. Developing extension -- Part # 1 -- Edmx import and defining CatalogService.cds</b> </summary>
 </br>
 </br>
 <img src="./files/capmd11-25.png" ></br> </br>
@@ -193,7 +193,7 @@ service CatalogService @(path:'CatalogService') {
 
 
 <details>
-<summary> <b>3. Developing extension -- Part # 2 -- Cloud Sdk installation and package.json >>(good) + service.js >>(Error) </b> </summary>
+<summary> <b>3. Developing extension -- Part # 2 -- Cloud Sdk installation and package.json >>(good) + CatalogService.js >>(Error) </b> </summary>
 </br>
 </br>
 
@@ -484,6 +484,15 @@ module.exports = cds.service.impl(async function(srv){
 
 </br> </br> 
 
+
+</br>
+</br>
+</details>
+
+<details>
+<summary> <b>3. Developing extension -- Part # 3 -- CatalogService.js >>(Error Fix) </b> </summary>
+</br>
+</br>
 
 <img src="./files/capmd11-54.png" ></br> </br>
 <img src="./files/capmd11-55.png" ></br> </br>
