@@ -87,17 +87,17 @@ SAP API business hub is a place for documentaion of the API and details of the e
 </br>         2.3 Serving Odata V2 over Cloud SDK - **@sap-cloud-sdk/odata-v2**
 </br>         2.4 To generate service code in node JS, Install Cloud SDK generator module using **@sap-cloud-sdk/generator**
 
-3. Generate the JS code to automatically get all the calls which will call the service 
+3. Create folder **sales-order-api** in **srv**, Create **service-spec** folder in **srv**
+
+4. Run **cds watch** and drag drop the edmx file to **service-spec** folder it creates an External folder with *.csn file. 
+
+5. Generate the JS code to automatically get all the calls which will call the service 
    </br> 
    **npx generate-odata-client --input /home/user/projects/capi_ext2/srv/external/OP_API_SALES_ORDER_SRV_0001.edmx** 
    </br> 
    **--outputDir /home/user/projects/capi_ext2/srv/module** </br> 
 
    (in VSCode need to give edmx file folder path in input instead of file path)</br> </br> 
-
-4. Create folder **sales-order-api** in **srv**, Create **service-spec** folder in **srv**
-
-5. Run **cds watch** and drag drop the edmx file to **service-spec** folder it creates an External folder with *.csn file. 
 
 6. Add a new **CatalogService.cds** and **CatalogService.js**
 
@@ -164,9 +164,8 @@ Now filtering the API based on the business documentation</br> </br>
 <img src="./files/capmd11-26.png" ></br> </br>
 <img src="./files/capmd11-27.png" ></br> </br>
 <img src="./files/capmd11-28.png" ></br> </br>
-<img src="./files/capmd11-29a.png" ></br> </br>
+<img src="./files/capmd11-29.png" ></br> </br>
 <img src="./files/capmd11-30.png" ></br> </br>
-<img src="./files/capmd11-30a.png" ></br> </br>
 <img src="./files/capmd11-31.png" ></br> </br>
 <img src="./files/capmd11-32.png" ></br> </br>
 <img src="./files/capmd11-33.png" ></br> </br>
