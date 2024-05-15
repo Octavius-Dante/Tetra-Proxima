@@ -96,6 +96,9 @@ SAP API business hub is a place for documentaion of the API and details of the e
    </br> 
    **--outputDir /home/user/projects/capi_ext2/srv/module**
 
+</br> </br> 
+   (in VSCode need to give edmx file folder path in input instead of file path)
+
 </br>
 </br>
 </details>
