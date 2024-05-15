@@ -80,8 +80,8 @@ SAP API business hub is a place for documentaion of the API and details of the e
 </br>
 
 1. Create a new capproject and do **cds init**
-2. Run **cds watch** and drag drop the edmx file to the **srv** folder. 
-</br> Alternative way without cds watch -- just drag and drop and then use command <b>cds import</b> PATH_OF_EDMX
+2. Run **cds watch** and drag drop the edmx file to the **srv** folder it creates an External folder with *.csn file. 
+</br> recommended create **service-spec** folder inside srv and do drag and drop
 
 3. Add a new **CatalogService.cds** and **CatalogService.js**
 4. Install Components : </br>
@@ -98,6 +98,9 @@ SAP API business hub is a place for documentaion of the API and details of the e
 
 </br> </br> 
    (in VSCode need to give edmx file folder path in input instead of file path)
+
+
+6.
 
 </br>
 </br>
