@@ -237,6 +237,7 @@ Go to **npmjs.com** and search for **@sap/cloud-sdk-vdm-sales** the page will su
 npm install @sap/cloud-sdk-vdm-sales-order-service
 npm install @sap-cloud-sdk/core
 npm install @sap-cloud-sdk/odata-v2
+npm install @sap-cloud-sdk/generator
 ```
 </br> 
 
