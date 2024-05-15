@@ -157,7 +157,7 @@ Now filtering the API based on the business documentation</br> </br>
 </details>
 
 <details>
-<summary> <b>2. Developing extension -- Part # 1 -- Edmx import and defining CatalogService.cds</b> </summary>
+<summary> <b>2. Developing extension -- Part # 1 -- Edmx import and npm componnets installation </b> </summary>
 </br>
 </br>
 <img src="./files/capmd11-25.png" ></br> </br>
@@ -167,9 +167,19 @@ Now filtering the API based on the business documentation</br> </br>
 <img src="./files/capmd11-29.png" ></br> </br>
 <img src="./files/capmd11-30.png" ></br> </br>
 <img src="./files/capmd11-31.png" ></br> </br>
-<img src="./files/capmd11-32.png" ></br> </br>
-<img src="./files/capmd11-33.png" ></br> </br>
 
+Install essential components for the project</br> </br>
+
+
+```bat
+npm install @sap/xssec
+npm install @sap/xsenv
+npm install passport
+npm install @sap/cds-odata-v2-adapter-proxy
+npm install @sap-cloud-sdk/odata-v2
+
+```
+</br> 
 
 </br> </br>
 
@@ -179,7 +189,7 @@ Now filtering the API based on the business documentation</br> </br>
 
 
 <details>
-<summary> <b>3. Developing extension -- Part # 2 -- Cloud Sdk installation and package.json + CatalogService.js </b> </summary>
+<summary> <b>3. Developing extension -- Part # 2 -- Cloud Sdk installation, package.json, CatalogService.js, CatalogService.cds </b> </summary>
 </br>
 </br>
 
@@ -214,18 +224,7 @@ Go to this link https://sap.github.io/cloud-sdk/docs/js/getting-started and refe
 </details>
 </br> </br>
 
-Install essential components for the project</br> </br>
 
-
-```bat
-npm install @sap/xssec
-npm install @sap/xsenv
-npm install passport
-npm install @sap/cds-odata-v2-adapter-proxy
-npm install @sap-cloud-sdk/odata-v2
-
-```
-</br> 
 
 Make changes to package.json file for local testing purpose add credentials of S/4 HANA On-Premise system (ABAP instance port)</br> </br>
 
@@ -287,7 +286,6 @@ Make changes to package.json file for local testing purpose add credentials of S
 }
 
 ```
-
 
 
 Go through this link https://sap.github.io/cloud-sdk/docs/js/features/odata/generate-client and refer the guide</br> </br>
