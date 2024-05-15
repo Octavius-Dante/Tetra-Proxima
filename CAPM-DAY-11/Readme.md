@@ -251,7 +251,7 @@ npm install @sap-cloud-sdk/odata-v2
 ```
 </br> 
 
-Make changes to package.json file for local testing purpose add credentials</br> </br>
+Make changes to package.json file for local testing purpose add credentials of S/4 HANA On-Premise system</br> </br>
 <img src="./files/capmd11-40.png" ></br> </br>
 
 ```json
