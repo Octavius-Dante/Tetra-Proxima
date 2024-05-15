@@ -409,7 +409,11 @@ npx generate-odata-client --input /home/user/projects/capi_ext2/srv/external/OP_
 <img src="./files/capmd11-48.png" ></br> </br>
 <img src="./files/capmd11-49.png" ></br> </br>
 <img src="./files/capmd11-50.png" ></br> </br>
+
+As suggested in API documentation page make code changes</br> </br>
 <img src="./files/capmd11-51.png" ></br> </br>
+
+
 <img src="./files/capmd11-52.png" ></br> </br>
 <img src="./files/capmd11-53.png" ></br> </br>
 <img src="./files/capmd11-54.png" ></br> </br>
