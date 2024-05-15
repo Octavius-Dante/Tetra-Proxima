@@ -413,6 +413,8 @@ npx generate-odata-client --input /home/user/projects/capi_ext2/srv/external/OP_
 As suggested in API documentation page make code changes</br> </br>
 <img src="./files/capmd11-52.png" ></br> </br>
 
+<img src="./files/capmd11-53.png" ></br> </br>
+
 Make code changes in **CatalogService.js**  # 3 </br> </br>
 
 ```js
@@ -476,7 +478,6 @@ module.exports = cds.service.impl(async function(srv){
 
 ```
 
-<img src="./files/capmd11-53.png" ></br> </br>
 <img src="./files/capmd11-54.png" ></br> </br>
 <img src="./files/capmd11-55.png" ></br> </br>
 <img src="./files/capmd11-56.png" ></br> </br>
