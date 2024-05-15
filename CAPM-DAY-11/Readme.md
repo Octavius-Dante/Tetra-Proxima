@@ -236,7 +236,7 @@ Go to **npmjs.com** and search for **@sap/cloud-sdk-vdm-sales** the page will su
 ```bat
 npm install @sap/cloud-sdk-vdm-sales-order-service
 ```
-</br> </br>
+</br> 
 
 Make changes to package.json file for local testing purpose add credentials</br> </br>
 <img src="./files/capmd11-40.png" ></br> </br>
