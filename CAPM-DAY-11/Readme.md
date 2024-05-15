@@ -310,17 +310,73 @@ module.exports = cds.service.impl(async function(){
 <img src="./files/capmd11-42.png" ></br> </br>
 <img src="./files/capmd11-43.png" ></br> </br>
 
-Make aadditional code changes to **CatalogService.js**</br> </br>
+Make aadditional code changes to **CatalogService.js** as shown below</br> </br>
 
 ```js
 
+const cds = require('@sap/cds');
 
+module.exports = cds.service.impl(async function(srv){
+
+    const { SalesOrderSet } = cds.entities;
+    const { SalesOrder, SalesOrderItem } = require('@sap/cloud-sdk-vdm-sales-order-service');
+
+    // Requesting API to get all sales order from SAP S/4 HANA system
+
+    function getAllSalesOrders() {
+        return SalesOrder.requestBuilder().getAll().select(
+            SalesOrder.SALES_ORDER,
+            SalesOrder.SALES_ORGANIZATION,
+            SalesOrder.SALES_ORDER_TYPE,
+            SalesOrder.SALES_ORDER_DATE,
+            SalesOrder.SOLD_TO_PARTY,
+            SalesOrder.OVERALL_TOTAL_DELIVERY_STATUS,
+            SalesOrder.TO_ITEM.select(
+                SalesOrderItem.MATERIAL,
+                SalesOrderItem.REQUESTED_QUANTITY_UNIT,
+                SalesOrderItem.NET_AMOUNT)
+        ).execute();
+    } 
+// // // Read record for this salesorderset srv declared in CatalogService.cds
+    srv.on('READ', 'SalesOrderSet', async(req) => {
+        var aRecords = [];
+        return await getAllSalesOrders().then(SalesOrdersTable => {
+// similar like loop at itab in abap
+            SalesOrdersTable.forEach(element => {
+                var line = {};
+                line.SalesOrder = element.SalesOrder;
+                line.SalesOrganization = element.SalesOrganization;
+                line.SalesOrderType = element.SalesOrderType;
+                line.SalesOrderDate = element.SalesOrderDate;
+                line.SoldToParty = element.SoldToParty;
+                line.OverallDeliveryStatus = element.OverallDeliveryStatus;
+// picking record from deep entity and assignign it to our structure
+// deep entity to flat entity 
+// flat entity = assigned from deep entity                 
+                line.Material = element.to_Item.Material;
+                line.OrderQuantityUnit = element.to_Item.OrderQuantityUnit;
+                line.NetAmount = element.to_Item.NetAmount;
+// push it in the records                 
+                aRecords.push(line);                
+            }); 
+            return aRecords;                       
+        });
+    });
+
+})
 
 ```
 </br> </br>
 
+when executed this using **cds watch** encountered an error as shown below </br> </br>
 <img src="./files/capmd11-44.png" ></br> </br>
+
+once in a while SAP makes chanegs to framewrok or node module components so it wont work, 
+</br> so when stuck with issues like this need to follow following steps 
+</br> as recommended in this page - follow the blog and go through the guided steps
 <img src="./files/capmd11-45.png" ></br> </br>
+
+
 <img src="./files/capmd11-46.png" ></br> </br>
 <img src="./files/capmd11-47.png" ></br> </br>
 <img src="./files/capmd11-48.png" ></br> </br>
