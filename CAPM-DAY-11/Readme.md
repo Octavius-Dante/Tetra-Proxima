@@ -1,4 +1,4 @@
-## CAPM - Day 11 - S/4 HANA Side by Side
+## CAPM - Day 11 - S/4 HANA Side by Side Extension 2.0
 
 # WORK IN PROGRESS -  
 
