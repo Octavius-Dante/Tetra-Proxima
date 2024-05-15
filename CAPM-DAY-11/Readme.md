@@ -262,8 +262,8 @@ Make changes to package.json file for local testing purpose add credentials of S
 
 **Go to Tcode SMICM - (goto->service) to get Port Number**
 </br> </br>
-<img src="./files/capmd11-38b.png" ></br> </br>
-<img src="./files/capmd11-38a.png" ></br> </br>
+<img src="./files/capmd11-38.png" ></br> </br>
+<img src="./files/capmd11-39.png" ></br> </br>
 
 <img src="./files/capmd11-40.png" ></br> </br>
 
