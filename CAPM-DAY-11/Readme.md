@@ -312,7 +312,7 @@ npx generate-odata-client --input path/to/your/service-specifications --outputDi
 // Command with actual values 
 // -- input - EDMX folder path from (\srv\external) folder | -- Output - sales-order-api folder (\srv\sales-order-api)
 
-npx generate-odata-client --input /home/user/projects/capi_ext2/srv/external --outputDir /home/user/projects/cap_api_ext2/srv/sales-order-api 
+npx generate-odata-client --input /home/user/projects/cap_api_ext2/srv/external --outputDir /home/user/projects/cap_api_ext2/srv/sales-order-api 
 
 ```
 
