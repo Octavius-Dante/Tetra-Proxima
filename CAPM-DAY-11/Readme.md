@@ -252,7 +252,19 @@ npm install @sap-cloud-sdk/odata-v2
 </br> 
 
 Make changes to package.json file for local testing purpose add credentials of S/4 HANA On-Premise system (ABAP instance port)</br> </br>
+</br> </br>
+
+SAP logon on pad - to get IP addredd
+</br> </br>
+<img src="./files/capmd11-37.png" ></br> </br>
+
+Go to Tcode SMICM - (goto->service)
+</br> </br>
+<img src="./files/capmd11-38b.png" ></br> </br>
+<img src="./files/capmd11-38a.png" ></br> </br>
+
 <img src="./files/capmd11-40.png" ></br> </br>
+
 
 ```json
 
