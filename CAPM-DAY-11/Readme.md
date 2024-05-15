@@ -396,6 +396,8 @@ item -2 : Generate a Client Using the Command Line Interface </br></br>
 ```bat
 npx generate-odata-client --input path/to/your/service-specifications --outputDir path/to/store/generated/modulesnpm install @sap-cloud-sdk/generator
 
+npx generate-odata-client --input path/to/your/service-specifications --outputDir path/to/store/generated/modulesnpm install @sap-cloud-sdk/generator
+
 ```
 
 <img src="./files/capmd11-47.png" ></br> </br>
