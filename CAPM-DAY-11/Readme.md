@@ -287,7 +287,14 @@ Make code changes in **CatalogService.js**
 
 ```js
 
+const cds = require('@sap/cds');
 
+module.exports = cds.service.impl(async function(){
+
+    const { SalesOrderSet } = cds.entities;
+    const { SalesOrder, SalesOrderItem } = require('@sap/cloud-sdk-vdm-sales-order-service');
+
+})
 
 ```
 </br> </br>
