@@ -282,8 +282,21 @@ Make changes to package.json file for local testing purpose add credentials</br>
 ```
 </br> </br>
 
+Make code changes in **CatalogService.js** 
+</br> </br>
+
+```js
+
+
+
+```
+</br> </br>
+
 <img src="./files/capmd11-41.png" ></br> </br>
 <img src="./files/capmd11-42.png" ></br> </br>
+
+
+
 <img src="./files/capmd11-43.png" ></br> </br>
 <img src="./files/capmd11-44.png" ></br> </br>
 <img src="./files/capmd11-45.png" ></br> </br>
