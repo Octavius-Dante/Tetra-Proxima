@@ -417,7 +417,61 @@ Make code changes in **CatalogService.js**  # 3 </br> </br>
 
 ```js
 
+const cds = require('@sap/cds');
 
+// New module import 
+import { SalesOrderService } from './module/OP_API_SALES_ORDER_SRV_0001';
+
+module.exports = cds.service.impl(async function(srv){
+
+    const { SalesOrderSet } = cds.entities;
+    const { SalesOrder, SalesOrderItem, salesOrderService } = require('@sap/cloud-sdk-vdm-sales-order-service');
+
+    // New variable for module import 
+    const { salesOrderApi } = SalesOrderService();
+
+    // Requesting API to get all sales order from SAP S/4 HANA system
+        function getAllSalesOrders() {
+        return salesOrderApi.requestBuilder().getAll().select(
+            SalesOrder.SALES_ORDER,
+            SalesOrder.SALES_ORGANIZATION,
+            SalesOrder.SALES_ORDER_TYPE,
+            SalesOrder.SALES_ORDER_DATE,
+            SalesOrder.SOLD_TO_PARTY,
+            SalesOrder.OVERALL_TOTAL_DELIVERY_STATUS,
+            SalesOrder.TO_ITEM.select(
+                SalesOrderItem.MATERIAL,
+                SalesOrderItem.REQUESTED_QUANTITY_UNIT,
+                SalesOrderItem.NET_AMOUNT)
+        ).execute();
+    } 
+// // // Read record for this salesorderset srv declared in CatalogService.cds
+    srv.on('READ', 'SalesOrderSet', async(req) => {
+        var aRecords = [];
+        return await getAllSalesOrders().then(SalesOrdersTable => {
+// similar like loop at itab in abap
+            SalesOrdersTable.forEach(element => {
+                var line = {};
+                line.SalesOrder = element.SalesOrder;
+                line.SalesOrganization = element.SalesOrganization;
+                line.SalesOrderType = element.SalesOrderType;
+                line.SalesOrderDate = element.SalesOrderDate;
+                line.SoldToParty = element.SoldToParty;
+                line.OverallDeliveryStatus = element.OverallDeliveryStatus;
+// picking record from deep entity and assignign it to our structure
+// deep entity to flat entity 
+// flat entity = assigned from deep entity                 
+                line.Material = element.to_Item.Material;
+                line.OrderQuantityUnit = element.to_Item.OrderQuantityUnit;
+                line.NetAmount = element.to_Item.NetAmount;
+// push it in the records                 
+                aRecords.push(line);                
+            }); 
+            return aRecords;                       
+        });
+    });
+
+})
 
 ```
 
