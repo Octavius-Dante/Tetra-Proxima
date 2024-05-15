@@ -93,9 +93,7 @@ SAP API business hub is a place for documentaion of the API and details of the e
 
 5. Generate the JS code to automatically get all the calls which will call the service 
    </br> 
-   **npx generate-odata-client --input /home/user/projects/capi_ext2/srv/external/OP_API_SALES_ORDER_SRV_0001.edmx** 
-   </br> 
-   **--outputDir /home/user/projects/capi_ext2/srv/module** </br> 
+   **npx generate-odata-client --input /home/user/projects/cap_api_ext2/srv/external --outputDir /home/user/projects/cap_api_ext2/srv/sales-order-api** </br> 
 
    (in VSCode need to give edmx file folder path in input instead of file path)</br> </br> 
 
@@ -315,7 +313,7 @@ npx generate-odata-client --input path/to/your/service-specifications --outputDi
 npx generate-odata-client --input /home/user/projects/cap_api_ext2/srv/external --outputDir /home/user/projects/cap_api_ext2/srv/sales-order-api 
 
 ```
-
+<img src="./files/capmd11-42.png" ></br> </br>
 <img src="./files/capmd11-43.png" ></br> </br>
 <img src="./files/capmd11-44.png" ></br> </br>
 <img src="./files/capmd11-45.png" ></br> </br>
