@@ -264,6 +264,8 @@ Make changes to package.json file for local testing purpose add credentials of S
 
 <img src="./files/capmd11-40.png" ></br> </br>
 
+**package.json** file sample for reference
+</br> 
 
 ```json
 
