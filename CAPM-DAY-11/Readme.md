@@ -394,14 +394,21 @@ npm install @sap-cloud-sdk/generator
 item -2 : Generate a Client Using the Command Line Interface </br></br>
 
 ```bat
-npx generate-odata-client --input path/to/your/service-specifications --outputDir path/to/store/generated/modulesnpm install @sap-cloud-sdk/generator
+// Command with Syntax
 
 npx generate-odata-client --input path/to/your/service-specifications --outputDir path/to/store/generated/modulesnpm install @sap-cloud-sdk/generator
+
+// Command with actal values 
+
+// -- input - EDMX path | Output dir module folder in srv folder (\srv\module)
+
+npx generate-odata-client --input /home/user/projects/capi_ext2/srv/external/OP_API_SALES_ORDER_SRV_0001.edmx --outputDir /home/user/projects/capi_ext2/srv/module install @sap-cloud-sdk/generator
 
 ```
 
 <img src="./files/capmd11-47.png" ></br> </br>
 <img src="./files/capmd11-48.png" ></br> </br>
+
 <img src="./files/capmd11-49.png" ></br> </br>
 <img src="./files/capmd11-50.png" ></br> </br>
 <img src="./files/capmd11-51.png" ></br> </br>
