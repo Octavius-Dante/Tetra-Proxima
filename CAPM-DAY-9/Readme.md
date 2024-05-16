@@ -8,7 +8,7 @@
 **Central Fiori Launchpad  (AKA) SAP Build Work Zone**
 
 So from previous session we saw how to deploy our app to cloud with XSUAA
-</br> Now we are going to create a freestyle fiori app just Ui by only using existing Srv -
+</br> Now we are going to create a freestyle Fiori app just Ui by only using existing Srv -
 </br>
 </br>
 
@@ -17,11 +17,11 @@ So from previous session we saw how to deploy our app to cloud with XSUAA
 </br>
 
 1. Can we build Free style Fiori application and deploy them on BTP ?
-2. Is it possible to show an example of freestlye app using CAPM odata ?
+2. Is it possible to show an example of free style app using CAPM OData ?
 3. If i want to build freestyle Fiori app as a separate microservice, what is the option for me ?
-4. I have heard about central Fioir launchpad in SAP BTP, waht is it and how to use ?
+4. I have heard about central Fiori launchpad in SAP BTP, what is it and how to use ?
 5. My company is building html5 apps in BTP which they call as Fiori apps, how it is different ?
-6. If I want to build multiple FIori apps on single odata offered by CAPM, what is the best practise ?
+6. If I want to build multiple Fiori apps on single OData offered by CAPM, what is the best practice ?
 7. When Fiori app is deployed Fiori, it was deployed as Node JS application, how can we deploy it as an independent Fiori app ?
 8. What is managed app router, I have heard about it but never used it?
 
@@ -55,17 +55,17 @@ Configuration Steps for BTP content Federation: -
 
 </br>
 
-1. It provides a good isolation from oru CAP project, hence if there is a change in Ui, 
-   we dont need to touch or re-deploy the cap application 
+1. It provides a good isolation from our CAP project, hence if there is a change in Ui, 
+   we don't need to touch or re-deploy the cap application 
 
-2. In a global team, each team is responsilbe for one Fiori app, they can work independently
+2. In a global team, each team is responsible for one Fiori app, they can work independently
    in their apps with separate git repositories and different lifecycle and transport
 
-3. If we add all fiori apps inside cap project the project becomes bulkier,
+3. If we add all Fiori apps inside cap project the project becomes bulkier,
    also Ui developer has to go through lot of files when developing UI so separated from CAP gives less clutter. 
    
 4. We can use managed app router with html5 apps, app router itself is a separate node application which requires memory and downtime when we deploy our app.
-   The managed app router is manged by Cloud Foundry environment in BTP.
+   The managed app router is managed by Cloud Foundry environment in BTP.
 
 5. Integration with SAP Fiori Launchpad <b> (Central Fiori launchpad aka SAP Build work zone) </b> in SAP BTP. Because our app is available as a HTML5 app inside html5 repository.   
 
@@ -73,7 +73,7 @@ Configuration Steps for BTP content Federation: -
 </br>
 
 
-### Building Fiori App using exisitng SRV services 
+### Building Fiori App using existing SRV services 
 </br>
 
 <details>
@@ -122,7 +122,7 @@ Select Authorization tab
 </br>
 </br>
 
-Select Oauth 2.0 in this section
+Select OAuth 2.0 in this section
 </br>
 </br>
 <img src="./files/capmd9-7.png" >
@@ -149,7 +149,7 @@ Get the required values from BTP cloud account and add it to Postman
 </br>
 </br>
 
-Before pasting the url need to add the following at the last of the url 
+Before pasting the url need to add the following at the last of the URL 
 </br> ( <b>/url/oauth/token</b> )
 </br>
 </br>
@@ -157,7 +157,7 @@ Before pasting the url need to add the following at the last of the url
 </br>
 </br>
 
-Client ID & CLient Secret 
+Client ID & Client Secret 
 </br>
 </br>
 <img src="./files/capmd9-13.png" >
@@ -168,7 +168,7 @@ Client ID & CLient Secret
 </br>
 </br>
 
-BTP Account userid and the password should be <b> BAS account password </b> dont confuse it with (BTP GLobal account password)
+BTP Account userid and the password should be <b> BAS account password </b> don't confuse it with (BTP GLobal account password)
 </br>
 </br>
 <img src="./files/capmd9-15.png" >
@@ -231,7 +231,7 @@ Go to the connectivity section in the sub account and click destination
 </br>
 </br>
 
-select create new destiantion
+select create new destination
 </br>
 </br>
 <img src="./files/capmd9-24.png" >
@@ -245,7 +245,7 @@ Change the authentication type to - <b> OAuth2 User Token Exchange </b>
 </br>
 </br>
 
-### Now fill the necesssary details from available data source as shown below
+### Now fill the necessary details from available data source as shown below
 </br>
 </br>
 
@@ -308,7 +308,7 @@ Choose the template as shown below
 
 
 <details>
-<summary> How to get the V2 odata path </summary>
+<summary> How to get the V2 OData path </summary>
 </br>
 </br>
 <img src="./files/capmd9-36a.png" >
@@ -374,18 +374,18 @@ Choose the template as shown below
 </br>
 </br>
 
-- [x] Destiantion service - to read the destiantion from SAP BTP at runtime for the purpose of connection
+- [x] Destination service - to read the destination from SAP BTP at runtime for the purpose of connection
 - [x] Connectivity service - once the destination is read, it will use connectivity service to connect to our OData service 
 - [x] HTML5 Deployer - this will be used to deploy our app to HTML5 repository
 - [x] HTML5 Repo Runtime - Will load the Fiori app when requested at runtime 
-- [x] Fiori launchpad service - which displays Fiori apps as a tile (a central place for all fiori apps to appear as a tile)
-</br> (we cant provide end user with a link af every fiori app developed in business thats why this launchpad service is there)
+- [x] Fiori launchpad service - which displays Fiori apps as a tile (a central place for all Fiori apps to appear as a tile)
+</br> (we cant provide end user with a link a every Fiori app developed in business that's why this launchpad service is there)
 </br>
 </br>
 
 **Best place to learn fiori and access samples** : [sapui5.hana.ondemand.com](https://sapui5.hana.ondemand.com/#/)
 
-- [x] To make our Fiori app to interact with central fiori launchpad service we need to check few settings in manifest.json file 
+- [x] To make our Fiori app to interact with central Fiori launchpad service we need to check few settings in manifest.json file 
          1. sap.cloud - this allows the app to be exposed to public access 
          2. Cross Navigation : 'crossNavigation' - this allows the app to be navigated between launchpad service and repository 
 
@@ -401,15 +401,15 @@ Web Application - HTML5 Repo
 </br>
 
 
-- [x] **Build MTA archive using MTA.yaml file (righclick-> Build mta project)**
-- [x] **After The build is complete select the archive *.mtar (righclick-> Deploy MTA archive)**
+- [x] **Build MTA archive using MTA.yaml file (right click-> Build mta project)**
+- [x] **After The build is complete select the archive *.mtar (right click-> Deploy MTA archive)**
 
 </br>
 </br>
 
 **Now this deployment wont go to BTP cloud it goes to SAP HTML5 repository**
 </br> because if you take a look at the MTA.yaml file it as the clear explanation
-</br> earlier we deployed node js applciation with db deployer, Db and XSUAA 
+</br> earlier we deployed node JS application with DB deployer, Db and XSUAA 
 </br> now it has Fiori-Ui related artifacts and XSUAA services and it is deployed as HTML5 application 
 
 </br>
@@ -604,7 +604,7 @@ cf html5-list
 </br>
 </br>
 </br>
-To get it we need to create an instance for SAP Build workzone, standard Edition
+To get it we need to create an instance for SAP Build work zone, standard Edition
 </br>
 </br>
 <img src="./files/capmd9-51.png" >
@@ -614,7 +614,7 @@ To get it we need to create an instance for SAP Build workzone, standard Edition
 </br>
 </br>
 
-Dont launch the app yet, need to assign the role permission for this app first
+Don't launch the app yet, need to assign the role permission for this app first
 </br>
 </br>
 <img src="./files/capmd9-52.png" >
@@ -679,7 +679,7 @@ Dont launch the app yet, need to assign the role permission for this app first
 </br>
 </br>
 
-In some cases the deployed app wont get refelected in HTML5 repository in that case have to do the following
+In some cases the deployed app wont get reflected in HTML5 repository in that case have to do the following
 </br> go to Channel manager and refresh the repository so the app gets updated for access
 </br>
 </br>
@@ -755,7 +755,7 @@ Now the app is accessible
 </br>
 </br>
 
-In case we want to create roles automatically like we did in nodejs app durign deployment it created xsuaa 
+In case we want to create roles automatically like we did in nodejs app during deployment it created xsuaa 
 </br> in same way we need to make changes in following places 
 </br>
 </br>

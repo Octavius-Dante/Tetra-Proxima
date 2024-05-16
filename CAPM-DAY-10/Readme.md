@@ -21,7 +21,7 @@ A main pillar of intelligent enterprise
 </br>
 </br>
 
-If we want to entend our standard ERP software, What are all the disadvantage of the approach we take
+If we want to extend our standard ERP software, What are all the disadvantage of the approach we take
 </br>
 
 1. The Extensions have potential to break your standard software
@@ -36,7 +36,7 @@ SAP Recommends to build extensions on top of BTP outside the stable core ERP
 
 1. ERP core software is stable 
 2. We can deliver innovation at much faster phase
-3. Never cause any problem to sap upgrades becasue The extension is built outside the environment
+3. Never cause any problem to sap upgrades because The extension is built outside the environment
 
 </br>
 </br>
@@ -83,8 +83,8 @@ Before we proceed the cloud connection to ERP system is important it is a pre-re
 <summary> <b>1. Checking the BTP destination details for connected system</b> </summary>
 </br>
 </br>
-Before start building app in BAS btp side we should confirm wheher 
-</br>systems are available for connection in destiantion section as shown below
+Before start building app in BAS BTP side we should confirm whether 
+</br>systems are available for connection in destination section as shown below
 </br>
 </br>
 <img src="./files/capmd10-1.png" >
@@ -110,7 +110,7 @@ Go to tcode /n/iwfnd/maint_services
 </br>
 </br>
 
-Selecting a service which we are going to use for our fiori app 
+Selecting a service which we are going to use for our Fiori app 
 </br>
 </br>
 <img src="./files/capmd10-5.png" >
@@ -124,15 +124,15 @@ Testing the service whether it is supplying data to web
 </br>
 </br>
 
-The data is dipslayed in the web in XML format (Odata service is accessible in web)
+The data is displayed in the web in XML format (OData service is accessible in web)
 </br>
 </br>
 <img src="./files/capmd10-7a.png" >
 </br>
 </br>
 
-identifying the implemented class in case if we want to make chanegs in ABAP for this exisitng ODATA services
-</br> this is a standard demo purpose odata class used in Zservice this SEPMRA_PROD_MAN is available in all S/4 HANA on-premise system
+identifying the implemented class in case if we want to make changes in ABAP for this existing ODATA services
+</br> this is a standard demo purpose OData class used in Zservice this SEPMRA_PROD_MAN is available in all S/4 HANA on-premise system
 </br> Standard External service : SEPMRA_PROD_MAN - (in case of a Zclass used in service which can be modified as per user convenience)
 </br>
 </br>
@@ -143,7 +143,7 @@ identifying the implemented class in case if we want to make chanegs in ABAP for
 </br>
 </br>
 
-in the web browser (SEPMRA_PROD_MAN/SEPMRA_C_PD_Product/?$format=json) add this block to the existing link and check the sub category of an odata service
+in the web browser (SEPMRA_PROD_MAN/SEPMRA_C_PD_Product/?$format=json) add this block to the existing link and check the sub category of an OData service
 </br>
 </br>
 <img src="./files/capmd10-10a.png" >
@@ -153,7 +153,7 @@ in the web browser (SEPMRA_PROD_MAN/SEPMRA_C_PD_Product/?$format=json) add this 
 </br>
 </br>
 
-Press F12 in chrome browser and navigate to network section and relaod the page to see the type of odata service (product page is v2)
+Press F12 in chrome browser and navigate to network section and reload the page to see the type of OData service (product page is v2)
 </br>
 </br>
 <img src="./files/capmd10-11.png" >
@@ -163,7 +163,7 @@ Press F12 in chrome browser and navigate to network section and relaod the page 
 
 
 <details>
-<summary> <b>3. Registering ERP system in BAS - linking erp to subaccount  </b> </summary>
+<summary> <b>3. Registering ERP system in BAS - linking ERP to subaccount  </b> </summary>
 </br>
 </br>
 <img src="./files/capmd10-12.png" >
@@ -183,12 +183,12 @@ Some times the available catalog services wont be displayed but since destinatio
 
 
 <details>
-<summary> <b>4. Build Fiori applicaiton in BAS using Fiori elements template</b> </summary>
+<summary> <b>4. Build Fiori application in BAS using Fiori elements template</b> </summary>
 </br>
 </br>
 
 <!--Leveraging the power of S/4 HANA in BTP in side by side extension -->
-Go to SAP Fiori template (Fiori Open application generator via command palatte) 
+Go to SAP Fiori template (Fiori Open application generator via command palette) 
 </br> menu --> help --> get started  (or)  menu --> view --> command palette    
 </br> 
 </br>
@@ -271,7 +271,7 @@ Go to SAP Fiori template (Fiori Open application generator via command palatte)
 
 
 <details>
-<summary> <b>5. making changes to the template built fiori app (annotations.xml) </b> </summary>
+<summary> <b>5. making changes to the template built Fiori app (annotations.xml) </b> </summary>
 </br>
 </br>
 
@@ -351,7 +351,7 @@ Go to SAP Fiori template (Fiori Open application generator via command palatte)
 
 
 <details>
-<summary> <b>6. Deploying the fiori app to BTP cloud</b> </summary>
+<summary> <b>6. Deploying the Fiori app to BTP cloud</b> </summary>
 </br>
 </br>
 
@@ -362,7 +362,7 @@ The deployment process is same only new thing is the MTA yaml contents will be d
 1. DO cf login
 2. Perform building MTA archive 
 3. Deploy MTA archive
-4. Go to SAP build work zone and assign the deployed app to fiori page from HTML 5 repository 
+4. Go to SAP build work zone and assign the deployed app to Fiori page from HTML 5 repository 
 
 </br>
 </br>
@@ -388,7 +388,7 @@ Deploy the app</br></br>
 
 
 <details>
-<summary> <b>7. Assigning the deployed app to fiori tile in SAP build work zone </b> </summary>
+<summary> <b>7. Assigning the deployed app to Fiori tile in SAP build work zone </b> </summary>
 </br>
 </br>
 </br>
@@ -683,7 +683,7 @@ parameters:
 </br>
 </br>
 
-## Case 2.1 - Building a CAP application (srv) like middelware for 3rd party API 
+## Case 2.1 - Building a CAP application (srv) like middleware for 3rd party API 
 </br>
 </br>
 
@@ -696,24 +696,24 @@ parameters:
 </br>
 </br>
 
-1. Explore the opn source odat servive provided by microsoft (https://services.odata.org/V3/Northwind/Northwind.svc/)
-2. Download the metadata of the odata service as <b>*.edmx</b> file to our system (remember after download remove the xml extension).
+1. Explore the open source OData service provided by Microsoft (https://services.odata.org/V3/Northwind/Northwind.svc/)
+2. Download the metadata of the OData service as <b>*.edmx</b> file to our system (remember after download remove the xml extension).
 3. To view the EDMX file in VSCode we use CSDL modeler extension provided by SAP
 4. Create a new CAP application and perform **cds init**
 5. Inside the empty CAP application drag and drop the <b>*.edmx</b> file to SRV folder
 </br> system will automatically generate external folder and generate a <b>*.csn</b> file 
 
 6. We could see the output for all entity sets, if we select any entity the data is empty
-7. define a new custome **CDS** file **datamodel.cds** anad import the csn file to define our own custom entity
-</br> from the available entities inside csn as a projection
+7. define a new custom **CDS** file **datamodel.cds** and import the CSN file to define our own custom entity
+</br> from the available entities inside CSN as a projection
 
-8. create a file **datamodel.js** and implement the generic handler to fetch the data from remote odata service.
-9. To test the configuration lcoally, we added the **credentials.url** in the **package.json** file and tested the app locally
+8. create a file **datamodel.js** and implement the generic handler to fetch the data from remote OData service.
+9. To test the configuration locally, we added the **credentials.url** in the **package.json** file and tested the app locally
 
 </br> --  Now the extension app is ready for deploy to Cf </br>
 
-10. Added the configuration to connect to destiantion in BTP. Change the configuration to support [Production] 
-</br>with credentials having destiantion and path (NorthWind : /V3/Northwind/Northwind.svc)
+10. Added the configuration to connect to destination in BTP. Change the configuration to support [Production] 
+</br>with credentials having destination and path (NorthWind : /V3/Northwind/Northwind.svc)
 
 11. Install SAP Cloud build tool - check [SAP Documentation](https://sap.github.io/cloud-mta-build-tool/) -- check for setup file here [Github link for setup](https://github.com/SAP/cloud-mta-build-tool/releases) [Github build download page](https://sap.github.io/cloud-mta-build-tool/download/) [Github make.exe download page](https://sap.github.io/cloud-mta-build-tool/makefile/)
 </br>
@@ -731,7 +731,7 @@ npm install -g mbt
 
 14. In the project we have added the mta.yaml file using command **cds add mta**
 
-15. define the resources which includes **XSUAA** and **destiantion**
+15. define the resources which includes **XSUAA** and **destination**
 
 16. create the destination resource directly to cloud foundry cockpit 
 
@@ -810,7 +810,7 @@ Access the following link (which has $metadata added to it)
 </br> </br>
 
 > [!NOTE]
-> In case the file drag and drop is perfromed with wrong file name (northwind.edmx) please repeat the process (create new project folder, perform cds init , then perform Northwind.edmx with correct file name)
+> In case the file drag and drop is performed with wrong file name (northwind.edmx) please repeat the process (create new project folder, perform cds init , then perform Northwind.edmx with correct file name)
 
 </br> </br>
 
@@ -900,7 +900,7 @@ Fax
 ```
 </br> </br>
 
-Test data generation, I manipulated the file for custmer id in excel (becasue the customerID lenght is 5)
+Test data generation, I manipulated the file for customer id in excel (because the customerID length is 5)
 </br> </br>
 <img src="./files/capmd10-139.png" ></br> </br>
 
@@ -910,7 +910,7 @@ Add the test data to the csv file (copy pasted)
 <img src="./files/capmd10-141.png" ></br> </br>
 <img src="./files/capmd10-142.png" ></br> </br>
 
-We have filled data from our local csv file ,Now we make changes to get data from api itself
+We have filled data from our local csv file ,Now we make changes to get data from API itself
 </br> </br>
 <img src="./files/capmd10-143.png" ></br> </br>
 <img src="./files/capmd10-144.png" ></br> </br>
@@ -920,13 +920,13 @@ The catalog service will display error when accessed
 </br> </br>
 <img src="./files/capmd10-146.png" ></br> </br>
 
-Following link is accessed in Postman as well as in browseer to see the data coming from API
+Following link is accessed in Postman as well as in browser to see the data coming from API
 </br> </br>
 <img src="./files/capmd10-147.png" ></br> </br>
 <img src="./files/capmd10-148a.png" ></br> </br>
 <img src="./files/capmd10-149.png" ></br> </br>
 
-We have to instruct CAP framewrok to retrieve the data and map to our struture so we need to write code in datamodel.js for catalog service
+We have to instruct CAP framework to retrieve the data and map to our structure so we need to write code in datamodel.js for catalog service
 </br> </br>
 
 Code sample used in datamodel.js 
@@ -990,7 +990,7 @@ npm install @sap/cds-dk
 </br>
 </br>
 
-**Need to install MBT tool to windows system where vscode is running for building the MTA archive**
+**Need to install MBT tool to windows system where VSCode is running for building the MTA archive**
 </br>
 </br>
 
@@ -1005,7 +1005,7 @@ npm install @sap/cds-dk
 3. Use npm install -g mbt </br></br>
 <img src="./files/capmd10-158.png" ></br> </br>
 
-4. Download the GNU make from this github page</br> </br>
+4. Download the GNU make from this GitHub page</br> </br>
 <img src="./files/capmd10-159.png" ></br> </br>
 
 5. Change the downloaded Gnumake.exe put it in D: or C: drive and rename it</br> </br>
@@ -1099,8 +1099,8 @@ cds compile srv/ --to xsuaa > xs-security.json
 visit this official page for sample - refer the following links to prepare the files
 </br>
 </br> [SAP Official page](https://help.sap.com/docs/btp/sap-business-technology-platform/application-security-descriptor-configuration-syntax) 
-</br> [Github sample 1](https://github.com/SAP-samples/cloud-application-security-sample/blob/main/spring-security-basis/security/xs-security.json)
-</br> [Github sample 2](https://github.com/SAP/cloud-security-services-integration-library/blob/main/samples/spring-security-xsuaa-usage/xs-security.json)
+</br> [GitHub sample 1](https://github.com/SAP-samples/cloud-application-security-sample/blob/main/spring-security-basis/security/xs-security.json)
+</br> [GitHub sample 2](https://github.com/SAP/cloud-security-services-integration-library/blob/main/samples/spring-security-xsuaa-usage/xs-security.json)
 </br>
 
 **xs-security.json** file sample </br> </br>
@@ -1136,7 +1136,7 @@ visit this official page for sample - refer the following links to prepare the f
 
 ```
 
-10. Need to add 2 resources to MTA yaml file as shown below alos made some formatting corrections</br> </br>
+10. Need to add 2 resources to MTA yaml file as shown below also made some formatting corrections</br> </br>
 <img src="./files/capmd10-167a.png" ></br> </br>
 
 
@@ -1234,7 +1234,7 @@ npm install passport
 
 <img src="./files/capmd10-174.png" ></br> </br>
 
-13. Trying to make a build using command in vscode (ended up in error)</br> </br>
+13. Trying to make a build using command in VSCode (ended up in error)</br> </br>
 <img src="./files/capmd10-175.png" ></br> </br>
 
 14. So archiving the project in VSCode and moving the app to BAS</br> </br>
@@ -1266,11 +1266,11 @@ Faced difficulty in deploying ended up with error (cds-serve not found) cds star
 
 - create app in VSCode</br></br>
 - Do npm install @sap/cds-dk (in VSCode) </br></br>
-- Eventhough this component (@sap/cds-dk) is development time dependency it is needed in runtime </br></br>
-- Installing this in BAS in package.json athe assignment only happends for development time dependency</br>
+- Even though this component (@sap/cds-dk) is development time dependency it is needed in runtime </br></br>
+- Installing this in BAS in package.json the assignment only happens for development time dependency</br>
    this is needed in runtime also to work properly (some cases)</br></br>
 - Deployed this app without (@sap/cds-dk) in runtime resulted in error</br></br>
-- Finished all the development and local testing in VSCode and archived tha app (exported)</br></br>
+- Finished all the development and local testing in VSCode and archived the app (exported)</br></br>
 - Imported the app to BAS and did (npm install -g) and all the component installation - except (@sap/cds-dk)
 </br> because if i do this it will remove it from run time and only assign it with dev-dependencies which causes error in deployment
 

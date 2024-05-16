@@ -15,7 +15,7 @@ So from previous session we saw how to deploy our app to cloud
 </br>
 
 <details>
-<summary> 1. Create a new resource in MTA.yaml file for xs-uaa backing service with following proerties  </summary>
+<summary> 1. Create a new resource in MTA.yaml file for xs-uaa backing service with following properties  </summary>
 </br>
 </br>
 	- name == capp-xsuaa
@@ -71,7 +71,7 @@ define the essential properties as shown below
 <summary> 2. Add the dependency of this newly created xs-uaa service to our microservice in require section </summary>
 </br>
 </br>
-Add xsuaa aunthentication to SRV module and UI module in MTA yaml file as shown below
+Add xsuaa authentication to SRV module and UI module in MTA yaml file as shown below
 
 </br>
 </br>
@@ -81,7 +81,7 @@ Add xsuaa aunthentication to SRV module and UI module in MTA yaml file as shown 
 <img src="./files/capmd8-10.png" >
 </br>
 </br>
-The finla file should look like this 
+The final file should look like this 
 </br>
 </br>
 <img src="./files/capmd8-4a.png" >
@@ -280,7 +280,7 @@ Create a new file named xs-security.json as shown below
 </br>
 </br>
 We need to inform app router to contact Xsuaa to mandate the use of JWT token in <b> xs-app.json </b> file
-</br> Change authenticationMethod : route and add ( "auhenticationType" : "xsuaa"" )
+</br> Change ( "authenticationMethod" : "route" ) to ( "authenticationType" : "xsuaa" )
 </br>
 </br>   
 <img src="./files/capmd8-7.png" >
@@ -336,7 +336,7 @@ We need to secure our resource to only use authenticated user, hence we need to 
 <details>
 <summary> 7. Define XSUAA security strategy for cloud </summary>
 </br>
-We need to tell system that if we run app in cloud foundry BTP (production environemnt) 
+We need to tell system that if we run app in cloud foundry BTP (production environment) 
 </br> use JWT strategy for security. by defining it in package.json 
 </br>
 	
@@ -468,7 +468,7 @@ service CatalogService @(path : 'CatalogService', requires: 'authenticated-user'
 </br>
 </br>
 
-Add following block of code under cds section in <b> package.json </b> and test it locally,
+Add following block of code under CDS section in <b> package.json </b> and test it locally,
 Production deployment of app will check JWT token, local XSUAA test will check for mentioned users
 </br>
 </br>
@@ -617,7 +617,7 @@ Add the user section with user name and assign : Viewer role and test
 </br>
 </br>
 
-This is example for authentication failed (temporarily) edited the packge.json file to show how error occurs
+This is example for authentication failed (temporarily) edited the package.json file to show how error occurs
 </br>
 </br>
 <img src="./files/capmd8-25.png" > 
@@ -626,16 +626,16 @@ This is example for authentication failed (temporarily) edited the packge.json f
 
 
 <details>
-<summary> 10. Depolying the app with xsuaa to cloud and defining roles </summary>
+<summary> 10. Deploying the app with xsuaa to cloud and defining roles </summary>
 </br>
 </br>
 
 - Right click the mta.yaml file and select "Build MTA project"
-- mta_archives section of the app contains *.mtar file - right clikc and select "Deploy MTA archive"
+- mta_archives section of the app contains *.mtar file - right click and select "Deploy MTA archive"
 </br>
 </br>
 
-post deployment if any errors encountered use th following comamdnto check the logs specifically
+post deployment if any errors encountered use the following command to check the logs specifically
 </br> command to check the logs of failed deployment 
 </br>
 
@@ -658,7 +658,7 @@ cf logs dante-db-deployer --recent
 </br>
 </br>
 
-After deployment you get 2 sections (SRV and UI) srv represents our odata services, ui represents our Fiori Ui page
+After deployment you get 2 sections (SRV and UI) srv represents our OData services, Ui represents our Fiori Ui page
 </br>
 <img src="./files/capmd8-28-00.png" > 
 </br>
@@ -666,14 +666,14 @@ After deployment you get 2 sections (SRV and UI) srv represents our odata servic
 </br>
 
 
-- SAP BTP cloud foundry will allow the user to access the App from ui without any issues as shown below
+- SAP BTP cloud foundry will allow the user to access the App from Ui without any issues as shown below
 </br>
 <img src="./files/capmd8-28-a.png" > 
 </br>
 </br>
 </br>
 
-- But if the service (srv) is accessed it wont allow the user to see the data (It is restricted for security reasons)
+- But if the service (SRV) is accessed it wont allow the user to see the data (It is restricted for security reasons)
 </br>
 </br>
 <img src="./files/capmd8-28-b.png" > 
@@ -683,7 +683,7 @@ After deployment you get 2 sections (SRV and UI) srv represents our odata servic
 </br>
 </br>
 
-- In order to see the data set we need to access it from ui link by adding the catalog service
+- In order to see the data set we need to access it from Ui link by adding the catalog service
 </br> with data set name as shown here
 </br> || (Cloud Link) + (/CatalogService/<dataset_name>) || - (example : /CatalogService/EmployeeSet, /CatalogService/BusinesspartnerSet)
 </br>
@@ -692,7 +692,7 @@ After deployment you get 2 sections (SRV and UI) srv represents our odata servic
 </br>
 </br>
 
-- In order to restrict this visbility we defined a restriction in CatalogService for (EmployeeSet) it still works here
+- In order to restrict this visibility we defined a restriction in CatalogService for (EmployeeSet) it still works here
 </br>
 <img src="./files/capmd8-28-e.png" > 
 </br>

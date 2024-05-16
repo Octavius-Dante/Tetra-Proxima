@@ -20,16 +20,16 @@ The place where we can look for SAP standard API is their official website SAP A
 
 **SAP Business API hub** </br>
 
-SAP Business API hub provides teh docuemntation for all teh publically available APIs for integration with SAP Business solutions e.g.S/4 HANA
+SAP Business API hub provides the documentation for all the publically available APIs for integration with SAP Business solutions e.g.S/4 HANA
 </br>We can search APIs for different kinds, view their documentation, attributes and system details and integrate.
 </br> example this link shows sales order api : https://api.sap.com/api/OP_API_SALES_ORDER_SRV_0001/resource/Sales_Order_Header </br>
 </br>
 
 Pre-requisites</br>
 
-1. Go to the https://api.sap.com and check the avilable APIs
+1. Go to the https://api.sap.com and check the available APIs
 2. Go to the technical specification of the API and download the edmx file
-3. Cross check if the same API is acticvated in S/4 HANA usign tcode /n/iwfnd/maint_service
+3. Cross check if the same API is activated in S/4 HANA using Tcode /n/iwfnd/maint_service
 4. Test the service in the browser (or in postman)
 
 </br>
@@ -40,7 +40,7 @@ Pre-requisites</br>
 </br>
 </br>
 
-SAP API business hub is a place for documentaion of the API and details of the entity type and entity sets
+SAP API business hub is a place for documentation of the API and details of the entity type and entity sets
 </br> and what types of API available in the SAP products ODATA v2, v2, SOAP and release version details 
 </br>
 </br>
@@ -82,9 +82,9 @@ SAP API business hub is a place for documentaion of the API and details of the e
 1. Create a new capproject and do **cds init**
 
 2. Install Components : </br>
-</br>         2.1 Cloud Focundry security - **@sap/xssec, @sap/xsenv, passport**
+</br>         2.1 Cloud Foundry security - **@sap/xssec, @sap/xsenv, passport**
 </br>         2.2 OData V2 adapter - **@sap/cds-odata-v2-adapter-proxy**
-</br>         2.3 Serving Odata V2 over Cloud SDK - **@sap-cloud-sdk/odata-v2**
+</br>         2.3 Serving OData V2 over Cloud SDK - **@sap-cloud-sdk/odata-v2**
 </br>         2.4 To generate service code in node JS, Install Cloud SDK generator module using **@sap-cloud-sdk/generator**
 
 3. Create folder **sales-order-api** in **srv**, Create **service-spec** folder in **srv**
@@ -99,9 +99,9 @@ SAP API business hub is a place for documentaion of the API and details of the e
 
 6. Add a new **CatalogService.cds** and **CatalogService.js**
 
-7. In **CatalogService.cds** define the service definition by referncing the *.csn file generated based on SAP OData
+7. In **CatalogService.cds** define the service definition by referencing the *.csn file generated based on SAP OData
 
-8. Define the service implementation in CatalogService.js file write code to generate type scriopt moduled whcih will act like bridge to communicate to our SAP OData business API.
+8. Define the service implementation in CatalogService.js file write code to generate type script module which will act like bridge to communicate to our SAP OData business API.
 
 9. Generate a Fiori Application using free style with local cap project.
 
@@ -115,15 +115,15 @@ SAP API business hub is a place for documentaion of the API and details of the e
 
 14. Add resources as destination and xsuaa. Maintain the **xs-security.json** file
 
-15. Get the pacakge.json file from sub directory of app folder move it to app folder.
+15. Get the package.json file from sub directory of app folder move it to app folder.
 
 16. Add app router component to project (npm install @sap/approuter) and include start script
 
 17. In xs-app.json file add routing paths
 
-18. Push the code to the github from VScode (for CI- CD pipeline) 
+18. Push the code to the GitHub from VSCode (for CI- CD pipeline) 
 
-19. Pull the code to BAS (in case created in BAS github code pulling is not needed)
+19. Pull the code to BAS (in case created in BAS GitHub code pulling is not needed)
 
 20. Build the MTA archive using mta.yaml and deploy the MTA archive to SAP BTP.
 
@@ -217,14 +217,14 @@ npm install @sap-cloud-sdk/odata-v2
 </br>
 </br>
 
-In last development we fetched data for open service now we are going to fetch data from SAP specifc service 
+In last development we fetched data for open service now we are going to fetch data from SAP specific service 
 </bR> SAP has provided something called sap S/4 HANA Cloud sdk 
 </br> </br>
 
 <details>
 <summary> <b> Method #1 -- implementing Cloud SDK </b> </summary>
 </br> </br>
-Go to API consumption section of API and follow the instrcutions provided there 
+Go to API consumption section of API and follow the instructions provided there 
 </br> </br>
 
 1. Install Node and npm. We recommend the use of the LTS version.
@@ -428,7 +428,7 @@ srv.on('READ', 'SalesOrderSet', async(req) => {
 <img src="./files/capmd11-50.png" ></br> </br>
 <img src="./files/capmd11-51.png" ></br> </br>
 
-Perform ctrl + click on the Sales api constant it will take you to the next window
+Perform ctrl + click on the Sales API constant it will take you to the next window
 </br> </br>
 <img src="./files/capmd11-52.png" ></br> </br>
 
@@ -441,7 +441,7 @@ lets make further code changes to **CatalogService.js**
 
 Make code changes in **CatalogService.js**  # 3 </br> </br>
 
-Addedd system details to connect to S/4 HANA On-premise
+Added system details to connect to S/4 HANA On-premise
 </br>
 
 ```js
@@ -508,7 +508,7 @@ srv.on('READ', 'SalesOrderSet', async(req) => {
 <img src="./files/capmd11-56.png" ></br> </br>
 <img src="./files/capmd11-57.png" ></br> </br>
 
-This request builder communicates to SAP system and we will be able to call functions from SAP odata service
+This request builder communicates to SAP system and we will be able to call functions from SAP OData service
 
 </br>
 </br>
@@ -598,7 +598,7 @@ srv.on('READ', MySalesOrder, async (request) => {
 <img src="./files/capmd11-59.png" ></br> </br>
 <img src="./files/capmd11-60.png" ></br> </br>
 
-The next step is building a Fiori app using Fiori open application generatoer, that is same as all the other previous sections can refer it for understanding, once odata service is exposed, it is used for building Fiori app  
+The next step is building a Fiori app using Fiori open application generator, that is same as all the other previous sections can refer it for understanding, once OData service is exposed, it is used for building Fiori app  
 
 </br>
 </br>
@@ -731,7 +731,7 @@ resources:
 </br>
 </br>
 
-Inside the app directory (After creating fiori elements based app) package.json file 
+Inside the app directory (After creating Fiori elements based app) package.json file 
 </br> will be inside the directory as shown below 
 
 ```bat

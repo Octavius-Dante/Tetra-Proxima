@@ -6,9 +6,9 @@
 </br>
 </br>
 
-### Prerequisite your BAS account should have an active git repository to perfrom CI and CD 
-</br> if github integration is not done earlier kindly perform this 
-</br> [BAS Github integration](https://github.com/Octavius-Dante/Tetra_Proxima/tree/main/BAS_GIT_integration)
+### Prerequisite your BAS account should have an active git repository to perform CI and CD 
+</br> if GitHub integration is not done earlier kindly perform this 
+</br> [BAS GitHub integration](https://github.com/Octavius-Dante/Tetra_Proxima/tree/main/BAS_GIT_integration)
 </br>
 </br>
 </br>
@@ -25,13 +25,13 @@ An overview of the process
 </br>
 </br>
 
-Create a subscription on Continuos Integration & Delivery in BTP account - Service 1
+Create a subscription on Continuous Integration & Delivery in BTP account - Service 1
 </br> 
 </br>
 <img src="./files/capmd12-1.png" >
 
 
-Create a subscription on Cloud Transport Mangement - Service 2 
+Create a subscription on Cloud Transport Management - Service 2 
 </br> 
 </br>
 <img src="./files/capmd12-2.png" >
@@ -91,7 +91,7 @@ Create another sub account and space to simulate Quality and Production Landscap
 </br>
 </br>
 
-Create spaces qlt and prd 
+Create spaces **qlt** and **prd** 
 </br>
 </br>
 <img src="./files/capmd12-10.png" >
@@ -138,9 +138,9 @@ We need to create destination in this section
 we have to refer SAP's official documents for creating destination for (CICD ) and Cloud transport 
 </br> refer the link for official document found through google search : 
 </br>
-</br> [Cloud transport mgmt Oauth2 password authentication](https://help.sap.com/docs/cloud-transport-management/sap-cloud-transport-management/creating-destinations-using-sap-cloud-deployment-service-with-oauth2password-authentication)
+</br> [Cloud transport management Oauth2 password authentication](https://help.sap.com/docs/cloud-transport-management/sap-cloud-transport-management/creating-destinations-using-sap-cloud-deployment-service-with-oauth2password-authentication)
 </br>
-</br> [Cloud transport mgmt Basic authentication](https://help.sap.com/docs/cloud-transport-management/sap-cloud-transport-management/creating-destinations-using-sap-cloud-deployment-service-with-basic-authentication) -- this is what we used 
+</br> [Cloud transport management Basic authentication](https://help.sap.com/docs/cloud-transport-management/sap-cloud-transport-management/creating-destinations-using-sap-cloud-deployment-service-with-basic-authentication) -- this is what we used 
 </br>
 </br>
 <img src="./files/capmd12-17.png" >
@@ -226,7 +226,7 @@ Clone the connection and create it for PRD
 
 
 <details>
-<summary> <b> 5. Start Github Integration for CI and CD - PART 1 - Account setup</b> </summary>
+<summary> <b> 5. Start GitHub Integration for CI and CD - PART 1 - Account setup</b> </summary>
 </br>
 </br>
 
@@ -262,15 +262,15 @@ Now will register our BTP repository
 </br>
 </br>
 
-Change the Github repository visibility to PUBLIC so the credentials is not required
-</br> now the github repository is private in my case so i mantianed a credential for (github account and password)
+Change the GitHub repository visibility to PUBLIC so the credentials is not required
+</br> now the GitHub repository is private in my case so i maintained a credential for (GitHub account and password)
 </br>
 </br>
 <img src="./files/capmd12-35.png" >
 </br>
 </br>
 
-We need to add webhook to github account so creating webhook first
+We need to add webhook to GitHub account so creating webhook first
 </br>
 </br>
 <img src="./files/capmd12-36.png" >
@@ -297,9 +297,9 @@ We need to add webhook to github account so creating webhook first
 </details>
 
 <details>
-<summary> <b> 6. Start Github Integration for CI and CD - PART 2 - Github Webhook link</b> </summary>
+<summary> <b> 6. Start GitHub Integration for CI and CD - PART 2 - GitHub Webhook link</b> </summary>
 </br>
-</br> Goto Seting of your github repository and paste the generated webhook secret as shown below 
+</br> Go to Setting of your GitHub repository and paste the generated webhook secret as shown below 
 </br>
 </br>
 <img src="./files/capmd12-43.png" >
@@ -329,7 +329,7 @@ We need to add webhook to github account so creating webhook first
 </details>
 
 <details>
-<summary> <b> 7. Start Github Integration for CI and CD - PART 3 - Job definition</b> </summary>
+<summary> <b> 7. Start GitHub Integration for CI and CD - PART 3 - Job definition</b> </summary>
 </br>
 </br>
 
@@ -343,7 +343,7 @@ Let's define a Job in CICD as shown below
 </br>
 </br>
 
-There is no Code check or sysntax check or unit testing so leave it untouched.
+There is no Code check or syntax check or unit testing so leave it untouched.
 </br>
 </br>
 <img src="./files/capmd12-53.png" >
@@ -412,7 +412,7 @@ GO back to CICD - Jobs section and create a credentials for service key
 </br>
 </br>
 
-Now go back to the Job and link the service key credential we creataed earlier
+Now go back to the Job and link the service key credential we created earlier
 </br>
 </br>
 <img src="./files/capmd12-72.png" >
@@ -432,7 +432,7 @@ Now go back to the Job and link the service key credential we creataed earlier
 </br>
 </br>
 
-Goto Subscription and launch Cloud transport management
+Go to Subscription and launch Cloud transport management
 </br>
 </br>
 <img src="./files/capmd12-75.png" >
@@ -785,9 +785,9 @@ Still above things returned the same error
 Added following lines in MTA yaml and proceeded build was successful but deployment failed 
 </br>
 </br>
-</br> 1. Did npm install for hdi component (npm install @sap/hdi-deploy) in commadn prompt
+</br> 1. Did npm install for hdi component (npm install @sap/hdi-deploy) in command prompt
 </br> 2. Adding this command in mta.yaml is the appropriate solution (- npm install @sap/hdi-deploy)
-</br> 3. used npm install and clean npm install command in mta.yaml file overrided the problem - this installs everything needed by reading package.json
+</br> 3. used npm install and clean npm install command in mta.yaml file overrides the problem - this installs everything needed by reading package.json
 </br>
 </br>
 </br> i randomly checked and copied the line from sap forum but this component was not needed for our application 
@@ -809,7 +809,7 @@ Added following lines in MTA yaml and proceeded build was successful but deploym
 </br>
 </br>
 
-Alternative yaml file with db deployer component
+Alternative yaml file with DB deployer component
 </br>
 </br>
 
@@ -1397,7 +1397,7 @@ Stage Logs (DanteCICD-Demo #19 - Release)
 </br>
 </br>
 
-In the error log following line has highlighted what was the issue in deployment (un supported moduel type)
+In the error log following line has highlighted what was the issue in deployment (un supported module type)
 </br>
 </br>
 
@@ -1434,7 +1434,7 @@ Downloaded the log using command as mentioned in the above log (cf dmol -i 70d1a
 </br>
 </br>
 
-Corrected the yaml file appropriatly and deployed again 
+Corrected the yaml file appropriately and deployed again 
 
 
 ## Deploy failure error analysis - 3
@@ -1529,11 +1529,11 @@ The specific error log lines for reference - this was clear and evident that HAN
 </br>
 </br>
 
-The build deployment is successfull now as shown below 
+The build deployment is successful now as shown below 
 </br>
 </br>
 It took many attempts to identify and fix all these issues so went on deployment spree with multiple changes to the files (MTA.yaml & Package.json) and installed components using (npm install XXXX) and figured out these issues also checked online forums 
-</br> ( [refer this reading for better understandsing on CI CD deployment failures](https://github.com/Octavius-Dante/Tetra_Proxima/tree/main/CI-CD-Pipeline-Failure-Reasons) )
+</br> ( [refer this reading for better understanding on CI CD deployment failures](https://github.com/Octavius-Dante/Tetra_Proxima/tree/main/CI-CD-Pipeline-Failure-Reasons) )
 </br>
 </br>
 solution was there in the internet for component related issues but there is no solution for human errors and self negligence so need to deep dive into the log and identify the problem.
