@@ -416,6 +416,9 @@ lets make further code changes to **CatalogService.js**
 
 Make code changes in **CatalogService.js**  # 3 </br> </br>
 
+Addedd system details to connect to S/4 HANA On-premise
+</br>
+
 ```js
 
 const cds = require('@sap/cds');
@@ -424,11 +427,21 @@ module.exports = cds.service.impl(async function(srv){
 
     const { SalesOrderSet } = this.entities;
 
-// the const defining here requires to be picked fromt the component OP_API_SALES_ORDER_SRV_0001
    var getAllSalesOrder = async function(){
 
     const { opApiSalesOrderSrv0001 } = require('./sales-order-api/OP_API_SALES_ORDER_SRV_0001');
     const { salesOrderApi } = opApiSalesOrderSrv0001();
+    const dataSalesData = await salesOrderApi.requestBuilder().getAll().top(5)
+    .execute({
+        // For BTP deployment prod
+        // destinationName: "S4HANA"  
+
+        // for local testing 
+        "url": "123.456.789.123:9999",
+        "username": "Tesla",
+        "password": "Amazing@111"        
+
+    })
 
    }
 
