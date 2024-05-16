@@ -237,7 +237,7 @@ Make changes to package.json file for local testing purpose add credentials of S
 
 <img src="./files/capmd11-40.png" ></br> </br>
 
-**package.json** file sample for reference
+**package.json** # 1
 </br> 
 
 ```json
@@ -272,12 +272,7 @@ Make changes to package.json file for local testing purpose add credentials of S
     "requires": {
       "OP_API_SALES_ORDER_SRV_0001": {
         "kind": "odata-v2",
-        "model": "srv/external/OP_API_SALES_ORDER_SRV_0001",
-        "credentials": {
-          "url": "123.456.789.123:9999",
-          "username": "Tesla",
-          "password": "Amazing@123"
-        }
+        "model": "srv/external/OP_API_SALES_ORDER_SRV_0001"
       }
     }
   }
@@ -332,18 +327,7 @@ using { OP_API_SALES_ORDER_SRV_0001 as external} from './external/OP_API_SALES_O
 
 service CatalogService @(path:'CatalogService') {
 
-    entity SalesOrderSet as projection on external.A_SalesOrder{
-
-        key SalesOrder,
-        SalesOrganization,
-        SalesOrderType,
-        SalesOrderDate,
-        SoldToParty,
-        OverallDeliveryStatus,
-        to_Item.Material as Material,
-        to_Item.OrderQuantityUnit as OrderQuantityUnit,
-        to_Item.NetAmount as NetAmount
-    };
+    entity SalesOrderSet as projection on external.A_SalesOrder;
     
 }
 
@@ -352,7 +336,7 @@ service CatalogService @(path:'CatalogService') {
 
 </br> </br>
 
-Make code changes in **CatalogService.js**  # 1 </br> </br>
+**CatalogService.js** sample code # 1 </br> 
 
 ```js
 
@@ -361,12 +345,6 @@ const cds = require('@sap/cds');
 module.exports = cds.service.impl(async function(srv){
 
     const { SalesOrderSet } = this.entities;
-
-   var getAllSalesOrder = async function(){
-
-    const { SalesOrderService } = require ('./')
-
-   }
 
  // Read record for this salesorderset srv declared in CatalogService.cds
 srv.on('READ', 'SalesOrderSet', async(req) => {
@@ -380,6 +358,10 @@ srv.on('READ', 'SalesOrderSet', async(req) => {
 ```
 
 </br> </br> 
+
+Execute the program using cds watch and test 
+<img src="./files/capmd11-46.png" ></br> </br>
+<img src="./files/capmd11-47.png" ></br> </br>
 
 </br> </br> 
 
