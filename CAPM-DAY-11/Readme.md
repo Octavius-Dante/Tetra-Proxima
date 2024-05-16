@@ -411,8 +411,10 @@ The above mentioned process remains the same for any SAP API implementation in C
 </br> </br>
 </br> 
 
-
+lets make further code changes to **CatalogService.js**
 <img src="./files/capmd11-53.png" ></br> </br>
+
+
 <img src="./files/capmd11-54.png" ></br> </br>
 <img src="./files/capmd11-55.png" ></br> </br>
 <img src="./files/capmd11-56.png" ></br> </br>
