@@ -334,7 +334,7 @@ service CatalogService @(path:'CatalogService') {
 
 ```
 
-</br> </br>
+</br>
 
 **CatalogService.js** sample code # 1 </br> 
 
