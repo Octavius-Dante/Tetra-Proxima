@@ -101,6 +101,20 @@ SAP API business hub is a place for documentaion of the API and details of the e
 
 7. In **CatalogService.cds** define the service definition by referncing the *.csn file generated based on SAP OData
 
+8. Define the service implementation in CatalogService.js file write code to generate type scriopt moduled whcih will act like bridge to communicate to our SAP OData business API.
+
+9. Generate a Fiori Application using free style with local cap project.
+
+10. Replace hardcoded credentails with destination.
+
+11. Create a destination service and maintain destination with name S4HANA because the same we used in our code.
+
+12. Create mta.yaml file for deployment.
+
+13. Add the modules srv and ui module.
+
+14. Add resources as destination and xsuaa.
+
 </br>
 </br>
 </details>
@@ -520,12 +534,12 @@ module.exports = cds.service.impl(async function(srv){
         )
     .execute({
         // For BTP deployment prod
-        //destinationName: "S4HANA"  
+        destinationName: "S4HANA"  
 
-        // for local testing 
-        "url": "123.456.789.123:9999",
-        "username": "Tesla",
-        "password": "Amazing@111"        
+        // // for local testing 
+        // "url": "123.456.789.123:9999",
+        // "username": "Tesla",
+        // "password": "Amazing@111"        
     });
     return dataSalesData;
 
