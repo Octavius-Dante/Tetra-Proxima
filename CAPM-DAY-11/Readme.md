@@ -1,6 +1,6 @@
 ## CAPM - Day 11 - S/4 HANA Side by Side Extension 2.0
 
-# WORK IN PROGRESS -  
+# WORK IN PROGRESS -- This session is Incomplete due to API functionality changes
 
 </br>
 </br>
