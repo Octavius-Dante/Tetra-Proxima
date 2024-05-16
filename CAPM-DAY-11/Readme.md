@@ -402,6 +402,9 @@ srv.on('READ', 'SalesOrderSet', async(req) => {
 <img src="./files/capmd11-49.png" ></br> </br>
 <img src="./files/capmd11-50.png" ></br> </br>
 <img src="./files/capmd11-51.png" ></br> </br>
+
+Perform ctrl + click on the Sales api constant it will take you to the next window
+</br> </br>
 <img src="./files/capmd11-52.png" ></br> </br>
 <img src="./files/capmd11-53.png" ></br> </br>
 <img src="./files/capmd11-54.png" ></br> </br>
