@@ -259,7 +259,6 @@ To Debug we need to create config - (launch.json) file needs to be configures as
 <details>
 <summary> Debugging steps and functionalities</summary>
 </br></br>
-</br></br>
 
 Set a breakpoint to our <b>MyService.js</b> code as shown below
 </br>
@@ -360,6 +359,8 @@ Have to navigate in the stacks to get the entry to edit
 
 </br>
 </details>
+
+</br></br>
 
 The successful post of the data is refelected in response window
 </br>
