@@ -424,9 +424,11 @@ module.exports = cds.service.impl(async function(srv){
 
     const { SalesOrderSet } = this.entities;
 
-   var getAllSalesOrder = async function(){
 // the const defining here requires to be picked fromt the component OP_API_SALES_ORDER_SRV_0001
-    const { opApiSalesOrderSrv0001 } = require ('./sales-order-api/OP_API_SALES_ORDER_SRV_0001')
+   var getAllSalesOrder = async function(){
+
+    const { opApiSalesOrderSrv0001 } = require('./sales-order-api/OP_API_SALES_ORDER_SRV_0001');
+    const { salesOrderApi } = opApiSalesOrderSrv0001();
 
    }
 
@@ -439,12 +441,26 @@ srv.on('READ', 'SalesOrderSet', async(req) => {
 });
 
 ```
+</br> </br>
+
+
+<details>
+<summary> Navigate the API for locating **Request builder fucntion** // For understanding </summary>
+</br>
+</br>
 
 <img src="./files/capmd11-54.png" ></br> </br>
 <img src="./files/capmd11-55.png" ></br> </br>
 <img src="./files/capmd11-56.png" ></br> </br>
 <img src="./files/capmd11-57.png" ></br> </br>
 <img src="./files/capmd11-58.png" ></br> </br>
+
+</br>
+</br>
+</details>
+
+</br> </br>
+
 <img src="./files/capmd11-59.png" ></br> </br>
 <img src="./files/capmd11-60.png" ></br> </br>
 <img src="./files/capmd11-61.png" ></br> </br>
