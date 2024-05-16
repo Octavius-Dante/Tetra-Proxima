@@ -367,7 +367,7 @@ Execute the program using cds watch and test </br> </br>
 </details>
 
 <details>
-<summary> <b>3. Developing extension -- Part # 3 --  </b> </summary>
+<summary> <b>3. Developing extension -- Part # 3 -- defining further logic in CatalogService.js & CatalogService.js </b> </summary>
 </br>
 </br>
 
