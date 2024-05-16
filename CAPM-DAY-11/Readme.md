@@ -810,7 +810,7 @@ Then add start script for the approuter in json file inside (xs-app.json inside 
 </br>
 </br>
 
-General info : How many destiantion services can be created in one destiantion service instance ? - 256.
+General info : How many destination services can be created in one destination service instance ? - 256.
 
 </br>
 </br>
