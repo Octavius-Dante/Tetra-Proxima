@@ -414,6 +414,31 @@ The above mentioned process remains the same for any SAP API implementation in C
 lets make further code changes to **CatalogService.js**
 <img src="./files/capmd11-53.png" ></br> </br>
 
+Make code changes in **CatalogService.js**  # 3 </br> </br>
+
+```js
+
+const cds = require('@sap/cds');
+
+module.exports = cds.service.impl(async function(srv){
+
+    const { SalesOrderSet } = this.entities;
+
+   var getAllSalesOrder = async function(){
+// the const defining here requires to be picked fromt the component OP_API_SALES_ORDER_SRV_0001
+    const { opApiSalesOrderSrv0001 } = require ('./sales-order-api/OP_API_SALES_ORDER_SRV_0001')
+
+   }
+
+ // Read record for this salesorderset srv declared in CatalogService.cds
+srv.on('READ', 'SalesOrderSet', async(req) => {
+        return [{
+            SalesOrder: 10
+        }]; 
+    });
+});
+
+```
 
 <img src="./files/capmd11-54.png" ></br> </br>
 <img src="./files/capmd11-55.png" ></br> </br>
