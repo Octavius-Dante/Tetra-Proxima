@@ -592,7 +592,7 @@ The next step is building a Fiori app using Fiori open application generatoer, t
 </details>
 
 <details>
-<summary> <b>5. Preparing MTA yaml for deployment </b> </summary>
+<summary> <b>5. Preparing MTA yaml and xs-security.json for deployment </b> </summary>
 </br>
 </br>
 
@@ -615,7 +615,7 @@ build-parameters:
     - builder: custom
       commands:
         - npx -p @sap/cds-dk cds build --production
-        
+
 # -------------- Begining of SRV module --------------
 #-----------------------------------------------------       
 modules:
