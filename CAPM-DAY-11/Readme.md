@@ -125,7 +125,7 @@ SAP API business hub is a place for documentaion of the API and details of the e
 
 19. Pull the code to BAS (in case created in BAS github code pulling is not needed)
 
-20. Build the MTA archive using mta.yaml and deploy the mta archive.
+20. Build the MTA archive using mta.yaml and deploy the MTA archive.
 
 </br>
 </br>
