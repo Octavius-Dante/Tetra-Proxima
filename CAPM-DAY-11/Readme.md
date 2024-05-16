@@ -427,32 +427,49 @@ module.exports = cds.service.impl(async function(srv){
 
     const { SalesOrderSet } = this.entities;
 
-   var getAllSalesOrder = async function(){
+   var getAllSalesOrders = async function(){
 
     const { opApiSalesOrderSrv0001 } = require('./sales-order-api/OP_API_SALES_ORDER_SRV_0001');
     const { salesOrderApi } = opApiSalesOrderSrv0001();
     const dataSalesData = await salesOrderApi.requestBuilder().getAll().top(5)
     .execute({
         // For BTP deployment prod
-        // destinationName: "S4HANA"  
+        //destinationName: "S4HANA"  
 
         // for local testing 
         "url": "123.456.789.123:9999",
         "username": "Tesla",
         "password": "Amazing@111"        
 
-    })
+});
+    return dataSalesData;
 
-   }
+   };
 
  // Read record for this salesorderset srv declared in CatalogService.cds
 srv.on('READ', 'SalesOrderSet', async(req) => {
-        return [{
-            SalesOrder: 10
-        }]; 
+        return await getAllSalesOrders().then(
+            salesOrderTable => {
+                var aRecord = [];
+                salesOrderTable.forEach(element => {
+                    var item = {};
+                    item.SalesOrder = element.salesOrder;
+                    item.SalesOrganization = element.SalesOrganization;
+                    item.SalesOrderType = element.SalesOrderType;
+                    item.SalesOrderDate = element.SalesOrderDate;
+                    item.SoldToParty = element.SoldToParty;
+                    item.OverallDeliveryStatus = element.OverallDeliveryStatus;
+                    item.Material = element.toItem.Material;
+                    item.OrderQuantityUnit = element.toItem.OrderQuantityUnit;
+                    item.RequestedQuantity = element.toItem.RequestedQuantity;
+                    item.NetAmount = element.toItem.NetAmount;
+                    aRecord.push(item);
+                });
+                return aRecord;
+            }
+        );
     });
 });
-
 ```
 </br> </br>
 
