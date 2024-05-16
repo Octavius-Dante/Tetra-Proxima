@@ -407,7 +407,10 @@ Perform ctrl + click on the Sales api constant it will take you to the next wind
 </br> </br>
 <img src="./files/capmd11-52.png" ></br> </br>
 
-### The above mentioned process remains the same for any SAP API - 
+The above mentioned process remains the same for any SAP API - 
+</br> </br>
+</br> 
+
 
 <img src="./files/capmd11-53.png" ></br> </br>
 <img src="./files/capmd11-54.png" ></br> </br>
