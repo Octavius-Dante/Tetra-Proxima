@@ -31,7 +31,7 @@ Make the following changes to <b>(annotations.cds)</b> as shown below
 ``` 
 
 </br>
-dont forget to add the comma it is the completion of previous block and adding the new block below
+don't forget to add the comma it is the completion of previous block and adding the new block below
 </br>
 <img src="./files/capmd6-1.png" >
 </br>
@@ -48,9 +48,9 @@ dont forget to add the comma it is the completion of previous block and adding t
 There is another way to develop Fiori apps <b>(Fiori Open Guided Development)</b>
 </br>
 </br>
-This approach uses firoi development based on XML annotations not CDS annotations 
+This approach uses Fiori development based on XML annotations not CDS annotations 
 </br>
-you can access it by following steps <b> (Menu--> View--> Command and pallete) </b>
+you can access it by following steps <b> (Menu--> View--> Command and palette) </b>
 </br>
 </br>
 <img src="./files/capmd6-2.png" >
@@ -65,7 +65,7 @@ you can access it by following steps <b> (Menu--> View--> Command and pallete) <
 </br>
 </br>
 
-when insert snippet is selcted the folowing code gets generated and the file is opened in Fiori application modeler
+when insert snippet is selected the following code gets generated and the file is opened in Fiori application modeler
 </br>
 <img src="./files/capmd6-7.png" >
 </br>
@@ -79,7 +79,7 @@ when insert snippet is selcted the folowing code gets generated and the file is 
 <details>
   <summary> Details page (Second level drill down)  </summary>
 </br>
-Now will add page map (detaild page pop in from side) next to existing report - follow the steps 
+Now will add page map (detailed page pop in from side) next to existing report - follow the steps 
 </br>
 Right click purchaseorder app folder and select - show page map - option 
 </br>
@@ -103,7 +103,7 @@ Now will add the details to the details page as shown below
 </br>
 </br>
 
-make the fcollwing changes to annotations.cds 
+make the following changes to annotations.cds 
 </br>
 </br>
 
@@ -485,7 +485,7 @@ FieldGroup#DanteFields  : {
 </br>
 </br>
 
-We added UI proerpties so far to purchase order section we should add seperate bloc kfor purchase order line items as shown below
+We added UI properties so far to purchase order section we should add separate block for purchase order line items as shown below
 </br>
 </br>
 
@@ -748,9 +748,9 @@ delete operation is available by default on the page app allows us to delete the
 </br>
 </br>
 
-So far our Fiori app performed retreiving line items in multiple level and deleted record 
-</br>  but not performed anuy CREATE or UPDATE operation yet.
-</br>  SAP as provided an option to Create and Ppdate and that can be done using Fiori App draft.
+So far our Fiori app performed retrieving line items in multiple level and deleted record 
+</br>  but not performed any CREATE or UPDATE operation yet.
+</br>  SAP as provided an option to Create and Update and that can be done using Fiori App draft.
 
 </br>
 </br>
@@ -772,19 +772,19 @@ A draft is a temporary version of a business entity that has not yet been explic
 </br>
 </br>
 
-Association - a relationship betweene entitits which is a lose coupling. 
+Association - a relationship between entities which is a lose coupling. 
 - Both objects should exist together. However, they can work independently. Example Airplane and passenger
-- A passenger can travel alone without depending on Airpalne 
-- An Airpalne can fly alone without depending on a passenger 
-- In Similar way an Entity can be accessed seperately but it can be assocaited and accessed (header and line item) 
+- A passenger can travel alone without depending on Airplane 
+- An Airplane can fly alone without depending on a passenger 
+- In Similar way an Entity can be accessed separately but it can be associated and accessed (header and line item) 
 
 </br>
 </br>
 
-Composition - a relationship betweene entitits which is a tight coupling. 
+Composition - a relationship between entities which is a tight coupling. 
 - Both objects must exist together. However, they cannot function independently. Example Airplane and wings
-- An Airpalne cannot fly without wings a dependency
-- A purchase order line items cannot exist without header simialr way items cannot be created depending on Purchase order header info
+- An Airplane cannot fly without wings a dependency
+- A purchase order line items cannot exist without header similar way items cannot be created depending on Purchase order header info
 
 </br>
 </br>
@@ -945,7 +945,7 @@ context transaction {
 
 ### also remove the respective node key field in both po and po item *.csv files and load and deploy
 </br>
-- downlaod the .csv file (dan.db.transaction-purchaseorder.csv) , (dan.db.transaction-poitems.csv) from CSV folder
+- download the .csv file (dan.db.transaction-purchaseorder.csv) , (dan.db.transaction-poitems.csv) from CSV folder
 - remove the node key fields
 - upload the csv file to the CSV folder 
 </br>
@@ -989,14 +989,14 @@ annotate CatalogService.ProductSet with @(
 </br>
 </br>
 
-Before triggerinf F4
+Before triggering F4
 </br>
 </br>
 <img src="./files/capmd6-40.png" > 
 </br>
 </br>
 
-Before triggerinf F4
+F4 Pop-up windows
 </br>
 </br>
 <img src="./files/capmd6-41.png" > 

@@ -13,6 +13,7 @@ Will continue today from yesterdays application
 
 Go to our application SRV folder and create a file (CatalogService.cds) as shown below 
 </br>
+
 ```cds
 // importing data models and views to our service
 using {dan.db} from '../db/datamodel';
@@ -36,8 +37,6 @@ service CatalogService @(path: 'CatalogService') {
         };
 
     entity CProductValuesView as projection on cds.CDSViews.CProductValuesView;
-
-}
 
 }
 
