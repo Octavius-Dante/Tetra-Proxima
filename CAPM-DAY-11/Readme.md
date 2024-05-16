@@ -105,15 +105,15 @@ SAP API business hub is a place for documentaion of the API and details of the e
 
 9. Generate a Fiori Application using free style with local cap project.
 
-10. Replace hardcoded credentails with destination.
+10. Replace hardcoded credentials with destination.
 
 11. Create a destination service and maintain destination with name S4HANA because the same we used in our code.
 
-12. Create mta.yaml file for deployment.
+12. Create **mta.yaml** file for deployment.
 
-13. Add the modules srv and ui module.
+13. Add the modules **srv** and **ui** module.
 
-14. Add resources as destination and xsuaa.
+14. Add resources as destination and xsuaa. Maintain the **xs-security.json** file
 
 </br>
 </br>
