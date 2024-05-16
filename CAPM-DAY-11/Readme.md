@@ -596,6 +596,95 @@ The next step is building a Fiori app using Fiori open application generatoer, t
 </br>
 </br>
 
+Command : **cds add mta** to create file to the project directory
+</br></br>
+
+## mta.ysmal file for reference
+</br></br>
+
+```yaml
+
+_schema-version: '3.1'
+ID: cap_api_ext2
+version: 1.0.0
+description: "A simple CAP project."
+parameters:
+  enable-parallel-deployments: true
+build-parameters:
+  before-all:
+    - builder: custom
+      commands:
+        - npx -p @sap/cds-dk cds build --production
+        
+# -------------- Begining of SRV module --------------
+#-----------------------------------------------------       
+modules:
+  - name: cap_api_ext2-srv
+    type: nodejs
+    path: gen/srv
+    requires:
+      - name: cap_api_ext2-destination
+      - name: cap_api_ext2-xsuaa
+    parameters:
+      buildpack: nodejs_buildpack
+    build-parameters:
+      builder: npm-ci
+    provides:
+      - name: srv-api # required by consumers of CAP services (e.g. approuter)
+        properties:
+          srv-url: ${default-url}
+          
+# -------------- End of SRV module -------------------
+#-----------------------------------------------------
+
+# -------------- Begining of UI module ---------------
+#-----------------------------------------------------
+  - name: cap_api_ext2-ui
+    type: nodejs
+    path: app
+    requires:
+      - name: srv-api
+        group: destinations
+        properties:
+          name: srv-api
+          strictssl: true
+          forwardAuthToken: true
+          url: '~{srv-url}'
+      - name: cap_api_ext2-xsuaa
+      - name: cap_api_ext2-destination
+
+# -------------- End of UI module --------------------      
+#-----------------------------------------------------
+
+# -------------- Begining of Resources ---------------
+#-----------------------------------------------------
+resources:
+  - name: cap_api_ext2-destination
+    type: org.cloudfoundry.existing-service
+    parameters:
+      service-name: cap_api_ext2-destination
+      service-plan: lite
+  - name: cap_api_ext2-xsuaa
+    type: org.cloudfoundry.managed-service
+    parameters:
+      path: ./xs-security.json
+
+# -------------- End of Resources --------------------      
+#-----------------------------------------------------
+
+```
+</br> </br>
+
+## Create Xs-security.json file 
+</br> </br>
+
+```json
+
+
+
+```
+</br> </br>
+
 <img src="./files/capmd11-60.png" ></br> </br>
 <img src="./files/capmd11-61.png" ></br> </br>
 <img src="./files/capmd11-62.png" ></br> </br>
