@@ -253,7 +253,7 @@ To Debug we need to create config - (launch.json) file needs to be configures as
 </br>
 </br>
 
-## How to debbug compelte steps 
+## How to debbug complete steps 
 
 </br></br>
 <details>
