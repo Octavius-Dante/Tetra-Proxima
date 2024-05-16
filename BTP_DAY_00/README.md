@@ -11,7 +11,7 @@
 
 </br>
 
-**Break down structure of the accouts**
+**Break down structure of the accounts**
 
 - [x] SAP Account it is the account of the company -- (Tier 1)
 - [x] SAP Global account for billing by SAP for BTP (BTP Trial / Business Account) -- (Tier 2)
@@ -32,7 +32,7 @@
 - [x] This contains service entitlements allocated from global account 
 - [x] Different sub account will have same or different services allocated for business needs 
 - [x] Users are granted access at this level 
-- [x] Instances of services will be availble here and each instance is capable of single or multiple Dev space
+- [x] Instances of services will be available here and each instance is capable of single or multiple Dev space
 - [x] One sub account can have multiple space
 
 
@@ -153,7 +153,7 @@ SAP Business Application Studio is a development environment available on SAP Bu
 In an Enterprise Account you can set up SAP Business Application Studio as a Free-Tier service by checking its free plan during its entitlement configuration.
    </br> 
    </br>  
-The business application studio provides a dev space for developers to create private workspace to have pre-defined dependencies installed for creating particular type of applications e.g. sap fiori, Native HANA development, Cloud application programming development etc.
+The business application studio provides a dev space for developers to create private workspace to have pre-defined dependencies installed for creating particular type of applications e.g. sap Fiori, Native HANA development, Cloud application programming development etc.
 
 </br> 
 </br> 

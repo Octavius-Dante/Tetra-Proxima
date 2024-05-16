@@ -50,7 +50,7 @@ Get the BTP Sub account details
 </br>
 
 Enter the cloud system details for connection
-</br> BTP Account userid and the password should be <b> BAS account password </b> dont confuse it with (BTP GLobal account password)
+</br> BTP Account userid and the password should be <b> BAS account password </b> don't confuse it with (BTP GLobal account password)
 </br>
 </br>
 <img src="./files/scco_1.png" >
@@ -113,7 +113,7 @@ In BTP account cloud connector section should show like this
 </br>
 
 Another way to determine which is the right HTTP service 
-</br> go to odata maintain service transaction <b> /IWFND/MAINT_SERVICE </b> it should be called using /n /IWFND/MAINT_SERVICE
+</br> go to OData maintain service transaction <b> /IWFND/MAINT_SERVICE </b> it should be called using /n /IWFND/MAINT_SERVICE
 </br> Click the call browser button 
 </br>
 </br>
@@ -220,8 +220,8 @@ The destination section of SAP BTP account would have a destination automaticall
 </br>
 
 Test the connection - usually the connection will work 
-</br>(since my demo system is non-S4 hana so conenction failure is reported)
-</br> but my BAS account is already connected to NPL demo system and displayed all available odata services - (Which means its working) 
+</br>(since my demo system is non-S4 HANA so connection failure is reported)
+</br> but my BAS account is already connected to NPL demo system and displayed all available OData services - (Which means its working) 
 </br> now we are good to go for development
 </br>
 </br>
@@ -333,8 +333,8 @@ Test the connection - usually the connection will work
 </br>
 
 - [x] <a href="https://github.com/Octavius-Dante/Tetra_Proxima/tree/main/JS_CONCEPTS"> JS Concepts Promise / Callback </a>
-- [x] <a href="https://github.com/Octavius-Dante/Tetra_Proxima/tree/main/NODE_Basic_1"> NODE JS BASIC 1- preapring node JS basic program </a>
-- [x] <a href="https://github.com/Octavius-Dante/Tetra_Proxima/tree/main/NODE_Basic_2"> NODE JS BASIC 2- preapring node JS program with some essential concepts for CAPM app</a>
+- [x] <a href="https://github.com/Octavius-Dante/Tetra_Proxima/tree/main/NODE_Basic_1"> NODE JS BASIC 1- preparing node JS basic program </a>
+- [x] <a href="https://github.com/Octavius-Dante/Tetra_Proxima/tree/main/NODE_Basic_2"> NODE JS BASIC 2- preparing node JS program with some essential concepts for CAPM app</a>
 - [x] <a href="https://github.com/Octavius-Dante/Tetra_Proxima/tree/main/NODE_MicroService">NODE Micro services - deploying a small node JS app to BTP </a>
 </br>
 

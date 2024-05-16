@@ -32,7 +32,7 @@
 </br>
 
 
-### Sample App deployment files from github repository
+### Sample App deployment files from GitHub repository
 
 </br>
 </br>
@@ -141,10 +141,10 @@ func main() {
 </br>
 </br>
 
-**Cloning Github repository to VSCode**
+**Cloning GitHub repository to VSCode**
 </br>
 </br>
- During this activity make sure you select the explorer tab (first one in the left) then proceed for clone repository option (else you wont get folder select options) this enables SSH connection of repository cloning else it will be a normal local cloning that wont work well for furhter activities (look below left side of the window with BLUE hightlight to confirm SSH connection)
+ During this activity make sure you select the explorer tab (first one in the left) then proceed for clone repository option (else you wont get folder select options) this enables SSH connection of repository cloning else it will be a normal local cloning that wont work well for further activities (look below left side of the window with BLUE highlight to confirm SSH connection)
 </br>
 </br>
     <img src="./files/4.APP_10.png" >
@@ -234,7 +234,7 @@ if the app is not running and the link is accessed will get error message like b
 **Additional command for generating sample application automatically**
    </br>
    </br>
-   In Vscode / BAS after proper cloning of github repositiory with (select folder options) projects folder this command is possible refer section github repository cloning (explorer tab)
+   In VSCode / BAS after proper cloning of GitHub repository with (select folder options) projects folder this command is possible refer section GitHub repository cloning (explorer tab)
    </br>
    </br>
    
@@ -252,7 +252,7 @@ if the app is not running and the link is accessed will get error message like b
    </br>
    </br>
 
-  to deploy the data set to local temp server for testing the cds app - this gets created under SRV folder 
+  to deploy the data set to local temp server for testing the CDS app - this gets created under SRV folder 
    </br>
    </br>
    
@@ -282,9 +282,9 @@ if the app is not running and the link is accessed will get error message like b
    </br>
    </br>
 
-  To run the app everytime after a change with (2 functions)
-  - It deploys the DB files to local DB (cds deploy)
-  - And Runs the app (cds run)
+  To run the app every time after a change with (2 functions)
+  - It deploys the DB files to local DB **(cds deploy)**
+  - And Runs the app **(cds run)**
    </br>
    </br>
    
@@ -297,7 +297,7 @@ if the app is not running and the link is accessed will get error message like b
 
 
 
-**Pre-requisities before app deployment**
+**Pre-requisites before app deployment**
 
 - [x] App should have manifest.yml file 
 - [x] App should have main file 
@@ -308,7 +308,7 @@ if the app is not running and the link is accessed will get error message like b
 **Manifest file should have - following components :**
 
 - [x] App name 
-- [x] App memeory size 
+- [x] App memory size 
 - [x] Instance number 
 - [x] Then URL to be involved in the app execution (random-route: true)
 

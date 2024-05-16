@@ -12,7 +12,7 @@
 
 </br>
 
-**Pre-requisities before app deployment**
+**Pre-requisites before app deployment**
 
 - [x] App should have manifest.yml file 
 - [x] App should have main file 
@@ -23,10 +23,10 @@
 **Manifest file should have - following components :**
 
 - [x] App name 
-- [x] App memeory size 
+- [x] App memory size 
 - [x] Instance number 
 - [x] Then URL to be involved in the app execution
-> (custom -defined url  or default cloud based url) // recommended -let cloud application to decide the url.
+> (custom -defined URL  or default cloud based URL) // recommended -let cloud application to decide the URL.
 
 </br>
 </br>
@@ -67,7 +67,7 @@
    </br>
    </br>
    
-2. Checking the available buildpacks in the cloud environment
+2. Checking the available build packs in the cloud environment
    </br>
    </br>
    
@@ -80,7 +80,7 @@
    </br>
    </br>
    
-3. Cloning Git hub repositiory link to local directory
+3. Cloning Git hub repository link to local directory
    </br>
    </br>
    

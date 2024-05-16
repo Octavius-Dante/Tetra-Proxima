@@ -1,6 +1,6 @@
 ## How to Connect BAS with GITHUB
 
-### This Github integration is essential for CI - CD Pipeline in SAP BTP cloud 
+### This GitHub integration is essential for CI - CD Pipeline in SAP BTP cloud 
 
 </br>
 </br>
@@ -47,7 +47,7 @@ git push
 <summary> <b>1. Creating a Private repository in GITHUB </b> </summary>
 </br>
 </br>
-Login to github account
+Login to GitHub account
 
 </br>
 </br>
@@ -85,7 +85,7 @@ copy the link shown below
 </details>
 
 <details>
-<summary> <b> 2. Connecting github in BAS </b> </summary>
+<summary> <b> 2. Connecting GitHub in BAS </b> </summary>
 </br>
 </br>
 <img src="./files/bg_6.png" >
@@ -101,7 +101,7 @@ copy the link shown below
 </br>
 </br>
 
-in the next step copy the 3 lines from github repository and paste it in BAS
+in the next step copy the 3 lines from GitHub repository and paste it in BAS
 to complete the push and proceed to connection
 </br>
 </br>
@@ -214,7 +214,7 @@ All changes are listed in this section
 </br>
 </br>
 
-Changes can be compared when any item is slected here
+Changes can be compared when any item is selected here
 </br>
 </br>
 <img src="./files/bg_28.png" >
@@ -253,7 +253,7 @@ No by selecting the plus button this file will be used for Staging
 </br>
 </br>
 
-Stagign ready files and not staged files are listed
+Staging ready files and not staged files are listed
 </br>
 </br>
 <img src="./files/bg_32.png" >
@@ -276,14 +276,14 @@ Next step
 </br>
 </br>
 
-Github prompt for running periodic changes (Choosing Yes is advisable)
+GitHub prompt for running periodic changes (Choosing Yes is advisable)
 </br>
 </br>
 <img src="./files/bg_35.png" >
 </br>
 </br>
 
-Checking the reflected changes in Github
+Checking the reflected changes in GitHub
 </br>
 </br>
 <img src="./files/bg_36.png" >
@@ -355,7 +355,7 @@ Checking the reflected changes in Github
 </br>
 </br>
 
-# --------- End of Github integration ---------
+# --------- End of GitHub integration ---------
 
 <p align="center"> 
 	
