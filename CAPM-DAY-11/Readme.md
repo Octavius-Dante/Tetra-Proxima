@@ -723,47 +723,6 @@ resources:
 ```
 </br> </br>
 
-<!-- <img src="./files/capmd11-61.png" ></br> </br>
-<img src="./files/capmd11-62.png" ></br> </br>
-<img src="./files/capmd11-63.png" ></br> </br>
-<img src="./files/capmd11-64.png" ></br> </br>
-<img src="./files/capmd11-65.png" ></br> </br>
-<img src="./files/capmd11-66.png" ></br> </br>
-<img src="./files/capmd11-67.png" ></br> </br>
-<img src="./files/capmd11-68.png" ></br> </br>
-<img src="./files/capmd11-69.png" ></br> </br>
-<img src="./files/capmd11-70.png" ></br> </br>
-<img src="./files/capmd11-71.png" ></br> </br>
-<img src="./files/capmd11-72.png" ></br> </br>
-<img src="./files/capmd11-73.png" ></br> </br>
-<img src="./files/capmd11-74.png" ></br> </br>
-<img src="./files/capmd11-75.png" ></br> </br>
-<img src="./files/capmd11-76.png" ></br> </br>
-<img src="./files/capmd11-77.png" ></br> </br>
-<img src="./files/capmd11-78.png" ></br> </br>
-<img src="./files/capmd11-79.png" ></br> </br>
-<img src="./files/capmd11-80.png" ></br> </br>
-<img src="./files/capmd11-81.png" ></br> </br>
-<img src="./files/capmd11-82.png" ></br> </br>
-<img src="./files/capmd11-83.png" ></br> </br>
-<img src="./files/capmd11-84.png" ></br> </br>
-<img src="./files/capmd11-85.png" ></br> </br>
-<img src="./files/capmd11-86.png" ></br> </br>
-<img src="./files/capmd11-87.png" ></br> </br>
-<img src="./files/capmd11-88.png" ></br> </br>
-<img src="./files/capmd11-89.png" ></br> </br>
-<img src="./files/capmd11-90.png" ></br> </br>
-<img src="./files/capmd11-91.png" ></br> </br>
-<img src="./files/capmd11-92.png" ></br> </br>
-<img src="./files/capmd11-93.png" ></br> </br>
-<img src="./files/capmd11-94.png" ></br> </br>
-<img src="./files/capmd11-95.png" ></br> </br>
-<img src="./files/capmd11-96.png" ></br> </br>
-<img src="./files/capmd11-97.png" ></br> </br>
-<img src="./files/capmd11-98.png" ></br> </br>
-<img src="./files/capmd11-99.png" ></br> </br>
-<img src="./files/capmd11-100.png" ></br> </br>  -->
-
 </details>
 
 
