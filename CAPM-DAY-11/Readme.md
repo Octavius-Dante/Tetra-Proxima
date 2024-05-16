@@ -453,14 +453,15 @@ srv.on('READ', 'SalesOrderSet', async(req) => {
 <img src="./files/capmd11-55.png" ></br> </br>
 <img src="./files/capmd11-56.png" ></br> </br>
 <img src="./files/capmd11-57.png" ></br> </br>
-<img src="./files/capmd11-58.png" ></br> </br>
+
+This request builder communicates to SAP system and we will be able to call functions from SAP odata service
 
 </br>
 </br>
 </details>
 
 </br> </br>
-
+<img src="./files/capmd11-58.png" ></br> </br>
 <img src="./files/capmd11-59.png" ></br> </br>
 <img src="./files/capmd11-60.png" ></br> </br>
 <img src="./files/capmd11-61.png" ></br> </br>
