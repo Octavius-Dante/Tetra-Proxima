@@ -17,10 +17,6 @@ Following check list of items available under this topic
 - [x] <a href="https://github.com/Octavius-Dante/Tetra_Proxima/tree/main/BTP_ACCOUNT_LAYOUT"> BTP Account layout overview for understanding </a>
 - [x] <a href="https://github.com/Octavius-Dante/Tetra_Proxima/tree/main/BTP_DAY_01_v1.0"> BTP Day 1 v1 - Commands for application handling in BTP </a>
 - [x] <a href="https://github.com/Octavius-Dante/Tetra_Proxima/tree/main/BTP_DAY_01_v2.0"> BTP Day 1 v2 - Commands for application handling in BTP </a>
-- [x] <a href="https://github.com/Octavius-Dante/Tetra_Proxima/tree/main/BTP_DAY_02_v1.0"> BTP Day 2 - Maven and Spring STS (Only environment setup) </a>
-</br>
-
-- [x] BTP cloud app deployment - JAVA (NOT INCLUDED) dependency issues
 </br>
 
 - [x] <a href="https://github.com/Octavius-Dante/Tetra_Proxima/tree/main/SAP_HANA_DB_CREATION"> BTP SAP HANA DB creation </a>
