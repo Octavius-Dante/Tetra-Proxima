@@ -756,6 +756,72 @@ resources:
 </br>
 </details>
 
+
+<details>
+<summary> <b>Install App router</b> </summary>
+</br>
+</br>
+
+1. inside the app directory (After creating fiori elements based app) package.json file 
+</br> will be inside the directory as shown below 
+
+```bat
+// By deafult the (ui) pacakges file -- pacakge.json will be in following directory
+
+home\usr\projects\cap_proj\app\salesorderapp\package.json
+
+// Move the file to following directory
+
+home\usr\projects\cap_proj\app\package.json
+
+```
+
+</br></br>
+
+Next install the node module for app router </br></br>
+
+```bat
+
+npm install @sap/approuter
+
+```
+
+</br></br>
+
+Then add start script for the approuter in json file inside (xs-app.json inside app directory)</br></br>
+
+## xs-app.json file for reference 
+</br></br>
+
+```json
+
+{
+    "welcomeFile": "salesorderapp/webapp/index.html",
+    "authenticationMethod": "route",
+    "routes":
+    [{ 
+        "source": "^/salesorderapp/webapp/(.*)$", 
+        "target": "$1",
+        "csrfProtection": false,
+        "authenticationType": "xsuaa",
+        "localDir": "salesorderapp/webapp/" 
+      }, 
+      { 
+        "source": "^/(.*)", 
+        "csrfProtection": false,
+        "authenticationType": "xsuaa",
+        "destination": "srv-api" 
+      } 
+    ]
+}
+
+```
+
+</br>
+</br>
+</details>
+
+
 <!-- 
 
 <details>
