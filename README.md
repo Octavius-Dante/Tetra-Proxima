@@ -65,7 +65,7 @@ Following check list of items available under this topic
 </br>
 </br>
 
-[VScode Set terminal as default for debug](https://github.com/Octavius-Dante/Tetra_Proxima/tree/main/VSCode_Debug_setting)
+[VSCode Set terminal as default for debug](https://github.com/Octavius-Dante/Tetra_Proxima/tree/main/VSCode_Debug_setting)
 
 </br>
 </br>
@@ -84,7 +84,7 @@ Following check list of items available under this topic
 
 | Command Key combination | Command Description | 
 | :---                    |          :---:      |
-| `F1`                    | Access command pallete    |
+| `F1`                    | Access command palette    |
 | `F11`                   | Fullscreen mode           |
 | `Ctrl + /`              | Line comment              |
 | `Shift + Alt + A`       | Toggle Block comment      |
@@ -112,7 +112,7 @@ Following check list of items available under this topic
 
 <!--
 
-F1 - Access command pallete
+F1 - Access command palette
 F11 - Fullscreen mode
 Ctrl + / - Line comment
 Shift + Alt + A - Toggle Block comment 
@@ -169,7 +169,7 @@ Ctrl + F4 - Close editor
 
 #### BTP Login - https://account.hanatrial.ondemand.com/trial/#/home/trial
 #### Maven Repository : https://mvnrepository.com/
-#### Ui5 Libray : https://sapui5.hana.ondemand.com/#/controls  
+#### Ui5 Library : https://sapui5.hana.ondemand.com/#/controls  
 #### NPM Js Repository : https://npmjs.com  
 #### JSON structure validator : https://jsonlint.com  
 #### Spring framework reference documentation : https://docs.spring.io/spring-framework/docs/4.3.x/spring-framework-reference/htmlsingle/
@@ -180,7 +180,7 @@ Ctrl + F4 - Close editor
 </br>
 Maven is a dependency manger for JAVA programming
 </br>
-NPM -node pacakge manager is a dependency manger for Node JS
+NPM -node package manager is a dependency manger for Node JS
 </br>
 </br>
 
@@ -206,7 +206,7 @@ NPM -node pacakge manager is a dependency manger for Node JS
 </br>
 </br>
 
-SAP UI5 is a  framework to develop responsive web applcaition for SAP.
+SAP UI5 is a  framework to develop responsive web application for SAP.
 
 </br>
 </br>
@@ -233,14 +233,14 @@ XMLNS - XML namespace
 
 - [X] It is a Node JS Application
 - [X] It is used to automate the process of authentication, authorization with XSUAA to do token exchange
-- [X] It sits in the middle of idp (identity provider) and XSUAA, it will redirect the request to our micorservice to XSUAA and eventually to IDP.
-- [X] IDP sends the login screen to the user, user authenticates, which is taken to XSUAA, XSUAA issues JWT token (JSON web token), this JWT token is presented to api end points.
-- [X] App router takes th JWT token from XSUAA and give iT To our microservices and even exchange this token to multiple microservices inside.
+- [X] It sits in the middle of IDP (identity provider) and XSUAA, it will redirect the request to our microservice to XSUAA and eventually to IDP.
+- [X] IDP sends the login screen to the user, user authenticates, which is taken to XSUAA, XSUAA issues JWT token (JSON web token), this JWT token is presented to API end points.
+- [X] App router takes the JWT token from XSUAA and give iT To our microservices and even exchange this token to multiple microservices inside.
 - [X] It serves as a single entry point for entire app.
 - [X] To tell app router about our multiple microservices so that it can re-direct, we need to create a configuration file named as <b>xs-app.json</b> which contains the details.
 </br>
 
-#### App router is an application which does internal communciations between micro services to give single entry point for user it communicates to XSUAA to get access tokens.
+#### App router is an application which does internal communications between micro services to give single entry point for user it communicates to XSUAA to get access tokens.
 </br>
 
 #### What is XSUAA
@@ -251,31 +251,31 @@ Extensibility services for user access authorizations which is responsible for a
 
 #### What is node JS.
 </br>
-Node JS is an open source, cross platform Java Script runtime environemnt and used for executing Java Script code out side the web browser. Java and JavaScript are different by their nature, design and use case, Java Script was dominantly used as a web programming language. All the browsers directly understand Java Script.
+Node JS is an open source, cross platform Java Script runtime environment and used for executing Java Script code out side the web browser. Java and JavaScript are different by their nature, design and use case, Java Script was dominantly used as a web programming language. All the browsers directly understand Java Script.
 </br>
-Node JS is also a great web framework for beigners because it works great with data-intensive applications like streaming real-time apps. it is free and easy to learn.
+Node JS is also a great web framework for beginners because it works great with data-intensive applications like streaming real-time apps. it is free and easy to learn.
 </br>
 </br>
 
 #### Applications of Node JS?
 </br>
-Build Business logic on server side, DB lookups, send emails, write valdiations, create microservices, add automations, show output, build servers, host web apps, make excel/pdf more.
+Build Business logic on server side, DB lookups, send emails, write validations, create microservices, add automations, show output, build servers, host web apps, make excel/pdf more.
 
 </br>
 </br>
 
-#### NPM - Node Pacakge Manager
+#### NPM - Node Package Manager
 </br>
 
 - [X] It is dependency manager tool which gets installed along with node js in our system.
 - [X] Just like for java we had maven, we have npm for node js.
-- [X] we can find millions of resuabel node modules free on internet, which helps us avoid rebuilding everything/ reinvent the wheel.
-- [X] world largest resuable code repository NPM Js repsoitory : https://npmjs.com
+- [X] we can find millions of reusable node modules free on internet, which helps us avoid rebuilding everything/ reinvent the wheel.
+- [X] world largest reusable code repository NPM Js repository : https://npmjs.com
 
 </br>
 </br>
 
-- [X] Globally at computer level, all projects can resue, option used to install CLI
+- [X] Globally at computer level, all projects can reuse, option used to install CLI
   </br>
   ```bat
   npm install -g module 
@@ -287,7 +287,7 @@ Build Business logic on server side, DB lookups, send emails, write valdiations,
   npm install module
   ```
   </br>
-- [X] when we build java project we saw pom.xml which contains dependencies. we have the <b> package.json </b> file in the node project whcih contains details about the entire project and its dependencies to create this we use.
+- [X] when we build java project we saw pom.xml which contains dependencies. we have the <b> package.json </b> file in the node project which contains details about the entire project and its dependencies to create this we use.
   </br>
   
   ```bat
@@ -301,11 +301,11 @@ Build Business logic on server side, DB lookups, send emails, write valdiations,
 </br>
 
 - [X] Approuter implementation was difficult -> lot f effort is required as a developer to setup project.
-- [X] What is the best-practise/ gold-standard to build SAP BTP applications, recommendtaion by SAP.
+- [X] What is the best-practice/ gold-standard to build SAP BTP applications, recommendation by SAP.
 - [X] Are there any existing sample apps which we can follow to build our app
 - [X] Many times, as a developer it is hard to add each part of app like files, dependencies, deploy descriptor, lot of code, how can this process be simplified ?
 - [X] How can we have reusability of the code to speed up my development and use sap provided tools to generate the skeleton of the apps.
-- [X] As a developer we want to focus more on functional aspect implementation rather initital project setup.
+- [X] As a developer we want to focus more on functional aspect implementation rather initial project setup.
 - [X] Our apps are something tightly coupled with DB technology develop DB agnostic apps.
 - [X] No matter what is the area we belong FIN, SD, MM, PP, PM, APO, CRM, HR etc. eventually as a developer we all do same work. Design tables, write logic, build UI
 - [X] How to develop software in BTP, Which does not require too much time in handovers
@@ -317,7 +317,7 @@ Build Business logic on server side, DB lookups, send emails, write valdiations,
 
 - [X] It's a SAP provided framework to develop SAAS apps in BTP. 
 - [X] If the developer wants to use open source technologies like Node and java.
-- [X] Great cost saving and freedom of choice of technology and consultants availalbe easily in market.
+- [X] Great cost saving and freedom of choice of technology and consultants available easily in market.
 
 </br>
 </br>
@@ -325,7 +325,7 @@ Build Business logic on server side, DB lookups, send emails, write valdiations,
 #### SAP RAP - Restful application programming model
 </br>
 
-- [X] It is based on ABAP on cloud. we can build extension and Saas application using this framework.
+- [X] It is based on ABAP on cloud. we can build extension and SAAS application using this framework.
 - [X] The skill required will be ABAP and CDS knowledge. 
 - [X] The Deployment is very costly as compared to open source technologies used in CAP
 
@@ -378,8 +378,8 @@ REST is useful in modern applications and public APIs.</br> </br>
 YAML definition : It is a human-readable data serialization language. It is commonly used for configuration file.
 </br> 
 </br> 
-</br> package.json - installed dependency list (developemnt / runtime )</br> 
-</br> pacakge-lock.json - contains sub dependcies of a dependency item and </br> 
+</br> package.json - installed dependency list (development / runtime )</br> 
+</br> package-lock.json - contains sub dependencies of a dependency item and </br> 
 </br>- path details of the dependency item present in the app directory
 </br> xs-app.json - App router details </br> 
 </br> xs-security.json - XSUAA - security setting definition</br> 
