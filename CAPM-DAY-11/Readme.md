@@ -155,7 +155,7 @@ Now filtering the API based on the business documentation</br> </br>
 </details>
 
 <details>
-<summary> <b>2. Developing extension -- Part # 1 -- Edmx import and npm componnets installation </b> </summary>
+<summary> <b>2. Developing extension -- Part # 1 -- Edmx import and npm components installation </b> </summary>
 </br>
 </br>
 <img src="./files/capmd11-25.png" ></br> </br>
@@ -362,7 +362,14 @@ Execute the program using cds watch and test </br> </br>
 <img src="./files/capmd11-46.png" ></br> </br>
 <img src="./files/capmd11-47.png" ></br> </br>
 
-</br> </br> 
+</br>
+</br>
+</details>
+
+<details>
+<summary> <b>3. Developing extension -- Part # 3 --  </b> </summary>
+</br>
+</br>
 
 Make code changes in **CatalogService.js**  # 2 </br> </br>
 
@@ -428,15 +435,6 @@ module.exports = cds.service.impl(async function(srv){
 ```
 
 </br> </br> 
-
-</br>
-</br>
-</details>
-
-<details>
-<summary> <b>3. Developing extension -- Part # 3 --  </b> </summary>
-</br>
-</br>
 
 <img src="./files/capmd11-54.png" ></br> </br>
 <img src="./files/capmd11-55.png" ></br> </br>
