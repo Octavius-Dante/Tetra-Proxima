@@ -255,10 +255,11 @@ To Debug we need to create config - (launch.json) file needs to be configures as
 
 ## How to debbug compelte steps 
 
+</br></br>
 <details>
 <summary> Debugging steps and functionalities</summary>
-</br>
-</br>
+</br></br>
+</br></br>
 
 Set a breakpoint to our <b>MyService.js</b> code as shown below
 </br>
