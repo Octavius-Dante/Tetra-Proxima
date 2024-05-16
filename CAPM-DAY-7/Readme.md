@@ -5,14 +5,14 @@
 </br>
 </br>
 
-So far we have our app running using SQLite and Postgres Sql in our system now we are going to use HANA DB 
+So far we have our app running using SQLite and Postgres SQL in our system now we are going to use HANA DB 
 </br> - Make the following changes to our app and connect to HANA DB 
 </br>
 </br>
-our applciaiton contains following files which are type CDS in DB, in SRV HANA DB dosent understand these *.cds type 
+our application contains following files which are type CDS in DB, in SRV HANA DB doesn't understand these *.cds type 
 </br>
 So what CAPM framework does when we connect our CAP with HDB it build files necessary for HDB in a folder called GEN
-</br> the CAP application converts .cds table from current local db to HANA DB's needed version of files
+</br> the CAP application converts .cds table from current local DB to HANA DB's needed version of files
 </br>
 </br>
 
@@ -58,7 +58,7 @@ HANA understand its own database object format example : hdbtable, hdbsequence, 
 </br>
 
 <details>
-<summary> 1. Add HANA configuration to our app, which tells CAP framwork that default DB is now HANA <b> -cds add hana </b> </summary>
+<summary> 1. Add HANA configuration to our app, which tells CAP framework that default DB is now HANA <b> -cds add hana </b> </summary>
 
 </br>
 </br>
@@ -74,7 +74,7 @@ HANA understand its own database object format example : hdbtable, hdbsequence, 
 </details>
 
 <details>
-<summary> 2. The above cds add hana command made following changes check package.json  </summary>
+<summary> 2. The above CDS add HANA command made following changes check package.json  </summary>
 </br>
 </br>
 <img src="./files/capmd7-4.png" >
@@ -85,7 +85,7 @@ HANA understand its own database object format example : hdbtable, hdbsequence, 
 </details>
 
 <details>
-<summary> 3. Add the following lines to the package.json below cds section  </summary>
+<summary> 3. Add the following lines to the package.json below CDS section  </summary>
 </br>
 </br>
 <img src="./files/capmd7-6.png" >
@@ -101,7 +101,7 @@ HANA understand its own database object format example : hdbtable, hdbsequence, 
 </details>
 
 <details>
-<summary> 4. do NPM install for installing the essentail packages - related to hana db (by scanning package.json) </summary>
+<summary> 4. do NPM install for installing the essential packages - related to HANA DB (by scanning package.json) </summary>
 </br>
 </br>
 <img src="./files/capmd7-7.png" >
@@ -114,7 +114,7 @@ HANA understand its own database object format example : hdbtable, hdbsequence, 
 </br>
 
 This build creation will create GEN folder in our app directory for integrating to HANA DB 
-</br> and create all the hana specific files which will be deployed to HANA cloud
+</br> and create all the HANA specific files which will be deployed to HANA cloud
 </br>
 </br>
 
@@ -125,7 +125,7 @@ cds build --production
 </br>
 </br>
 
-Cds build command execution 
+CDS build command execution 
 </br>
 </br>
 <img src="./files/capmd7-8a.png" >
@@ -224,7 +224,7 @@ There are 2 version for deploying to DB
 </br>
 </br>
 
-### "dan-key" is the key file which is going to get created for db in BTP instance  
+### "dan-key" is the key file which is going to get created for DB in BTP instance  
 </br> and get accessed when CAPM app is executed it connects with credentials to access HDB
 </br> the name should be as same as database name which you are going to give in command
 </br> (example if DB name is "dante" - this should be "dante-key")
@@ -243,7 +243,7 @@ cds deploy --to hana:<DB name>
 </br>
 </br>
 
-## Alternative command to perfrom both - build and deploy (package.json file changes required)
+## Alternative command to perform both - build and deploy (package.json file changes required)
 </br>
 </br>
 
@@ -295,14 +295,14 @@ Because it is what expected from SAP BTP cloud end this configuration is expecte
 </br>
 </br>
 
-Error log and success log are shared for your reference in case of any error - there will be manys errors listed 
-</br> - you can check the file and search for error and understand why error occured - mostly errros will be descriptive and understandable 
+Error log and success log are shared for your reference in case of any error - there will be many errors listed 
+</br> - you can check the file and search for error and understand why error occurred - mostly errors will be descriptive and understandable 
 
 </br>
 </br>
 
 ## delete all csv files in the project and add the files shared here and deploy 
-## these are HANA specifc files which will work properly when deploying  
+## these are HANA specific files which will work properly when deploying  
 
 </br>
 </br>
@@ -326,7 +326,7 @@ Error log and success log are shared for your reference in case of any error - t
 <summary> 8. When deployment is successful </summary>
 </br>
 
-IF deployment worked well a new file calle <b>cdsrc-private.json</b> gets created automatically.
+IF deployment worked well a new file call <b>cdsrc-private.json</b> gets created automatically.
 </br> this file contain the information about which container in SAP BTP HANA Cloud to connect to.
 </br> and private key is stored in this file.
 
@@ -358,7 +358,7 @@ IF deployment worked well a new file calle <b>cdsrc-private.json</b> gets create
 </br>
 </br>
 
-HDI container is a databsae inside a database (HDB), 
+HDI container is a database inside a database (HDB), 
 </br> this is designed to avoid problems and conflict between data operations in database objects 
 </br> when multiple developers are working with same object. 
 
@@ -393,7 +393,7 @@ HDI container is application managed, Schema is user managed.
 <summary> 3. Data preview and checking analytics tool in HDB </summary>
 </br>
 </br>
-Accessing hana db table and checking the analytics tool available in the system with variety of options for the table data.
+Accessing HANA DB table and checking the analytics tool available in the system with variety of options for the table data.
 </br>
 </br>	
 <img src="./files/capmd7-13-1.png" >
@@ -421,12 +421,12 @@ Accessing hana db table and checking the analytics tool available in the system 
 <summary> 4. New Watch command for CDS to run with HANA DB </summary>
 </br>
 </br>
-Use this new CDS watch command tp run the application with HANA DB support it is suggested in hana deployment log post successful deployment
-</br> our hana DB is deployed with profile hybrid command so it is needed to run the watch fucntion using that profile. 
+Use this new CDS watch command to run the application with HANA DB support it is suggested in HANA deployment log post successful deployment
+</br> our HANA DB is deployed with profile hybrid command so it is needed to run the watch function using that profile. 
 </br>
 </br>
 	
-## Hybrid profile is the only profile which has CAP and DB connection communciating properly.
+## Hybrid profile is the only profile which has CAP and DB connection communicating properly.
 </br>
 </br>
 
@@ -475,7 +475,7 @@ cds watch --profile hybrid
 
 
 <details>
-<summary> 3. First we run command cds add mta  </summary>
+<summary> 3. First we run command <b>cds add mta</b>  </summary>
 </br>
 </br>
 
@@ -587,7 +587,7 @@ We need to add 3 modules to the mta.yaml file manually - when its get created th
 </br> please compare default and other mta.yaml file sample which has all the needed modules for reference for understanding
 </br>
 </br>
-please change the app name and db name accordingly for your need
+please change the app name and DB name accordingly for your need
 </br>
 </br>
 
@@ -687,7 +687,7 @@ npm init
 </br>
 </br>
 
-Then perform npm install @sap/approuter which installs approuter specif packages to app folder 
+Then perform npm install @sap/approuter which installs approuter specific packages to app folder 
 </br>
 </br>
 
@@ -708,7 +708,7 @@ npm install @sap/approuter
 </br>
 </br>
   
-after app router installation, we need to add start script to pacakge.json as shown below
+after app router installation, we need to add start script to package.json as shown below
 </br>
 </br>
 the documentation for adding the script details are available in 
@@ -761,7 +761,7 @@ the start script mentioned in the website is added to our package.json
 </br>
 </br>
 
-This pacakge.json is created inside the app folder (dont mistake for the old package.json) 
+This pacakge.json is created inside the app folder (don't mistake for the old package.json) 
 </br>
 </br>
 <img src="./files/capmd7-21.png" >
@@ -811,7 +811,7 @@ the exact code module will look like this
 </br>
 </br>
 
-you can also search in google and locate standard SAP doeumentation (recommended appraoch)
+you can also search in google and locate standard SAP documentation (recommended approach)
 
 </br>
 </br>
@@ -910,7 +910,8 @@ copy the contents from this sample code from the website and add it to our file 
 	  "replace": {
         "pathSuffixes": ["/abc/index.html"],
         "vars": ["NAME"]
-     },
+     }, 
+    }
      {
        "source": "^/user-api/currentUser$",
        "target": "/currentUser",
@@ -959,7 +960,7 @@ copy the contents from this sample code from the website and add it to our file 
 </br>
 </br>
 
-open the mta.yaml file using MTA editor as swhow below 
+open the mta.yaml file using MTA editor as shown below 
 </br>
 </br>
 <img src="./files/capmd7-26a.png" >
@@ -981,7 +982,7 @@ Scroll down and enter the destination in GROUP section
 <img src="./files/capmd7-26d.png" >
 </br>
 </br>
-Now we need to provide destiantion proeprty 
+Now we need to provide destination property 
 </br>
 
 
@@ -1075,7 +1076,7 @@ resources:
 <summary> 9. Create *.mtar file using mta.yaml for deployment </b> </summary>
 </br>
 </br>
-Right click MTA.yaml file and choose (build mta project) this will create mtar file 
+Right click MTA.yaml file and choose (build mta project) this will create *.mtar file 
 </br>
 </br>
 <img src="./files/capmd7-27.png" >
