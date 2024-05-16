@@ -491,7 +491,87 @@ This request builder communicates to SAP system and we will be able to call func
 </details>
 
 </br> </br>
+
+Make code changes in **CatalogService.js**  # 4 -- Final code </br> </br>
+
+```js
+
+const cds = require("@sap/cds");
+
+// import { opApiSalesOrderSrv0001 } from './sales-order-api/OP_API_SALES_ORDER_SRV_0001';
+
+module.exports = cds.service.impl(async function(srv){
+
+    const { MySalesOrder } = this.entities;
+
+   var getAllSalesOrders = async function(){
+
+    const { opApiSalesOrderSrv0001 } = require('./sales-order-api/OP_API_SALES_ORDER_SRV_0001');
+    const { salesOrderApi } = opApiSalesOrderSrv0001();
+    // const dataSalesData = await salesOrderApi.requestBuilder().getAll().top(5)
+    const dataSalesData = await salesOrderApi.requestBuilder().getAll().top(100)
+        .select(
+            salesOrderApi.schema.SALES_ORDER,
+            salesOrderApi.schema.SALES_ORDER_TYPE,
+            salesOrderApi.schema.SALES_ORGANIZATION,
+            salesOrderApi.schema.SOLD_TO_PARTY,
+            salesOrderApi.schema.PAYMENT_METHOD,
+            salesOrderApi.schema.TO_ITEM
+        )
+    .execute({
+        // For BTP deployment prod
+        //destinationName: "S4HANA"  
+
+        // for local testing 
+        "url": "123.456.789.123:9999",
+        "username": "Tesla",
+        "password": "Amazing@111"        
+    });
+    return dataSalesData;
+
+   };
+
+ // Read record for this salesorderset srv declared in CatalogService.cds
+srv.on('READ', MySalesOrder, async (request) => {
+        return await getAllSalesOrders().then(
+            salesOrderTable => {
+                var aRecord = [];
+// what data we are getting from system we can print it here to diagnose the issues                
+                console.log(salesOrderTable);
+                salesOrderTable.forEach(element => {
+                    var item = {};
+                    item.SalesOrder = element.salesOrder;
+                    item.SalesOrganization = element.salesOrganization;
+                    item.SalesOrderType = element.salesOrderType;
+                    item.SalesOrderDate = element.salesOrderDate;
+                    item.SoldToParty = element.soldToParty;
+                    item.OverallDeliveryStatus = element.overallDeliveryStatus;
+// if item table contain values assign it                    
+                    if(element.toItem[0]){
+                        item.Material = element.toItem[0].material;
+                        item.OrderQuantityUnit = element.toItem[0].orderQuantityUnit;
+                        item.RequestedQuantity = element.toItem[0].requestedQuantity;
+                        item.NetAmount = element.toItem[0].netAmount;
+// if item table doesnt contain values show empty
+                    }else{
+                        item.Material = "";
+                        item.OrderQuantityUnit = "";
+                        item.RequestedQuantity = "";
+                        item.NetAmount = "";
+                    }
+                    aRecord.push(item);
+                });
+                return aRecord;
+            }
+        );
+    });
+});
+
+```
+
+</br> </br>
 <img src="./files/capmd11-58.png" ></br> </br>
+<!-- 
 <img src="./files/capmd11-59.png" ></br> </br>
 <img src="./files/capmd11-60.png" ></br> </br>
 <img src="./files/capmd11-61.png" ></br> </br>
@@ -533,8 +613,7 @@ This request builder communicates to SAP system and we will be able to call func
 <img src="./files/capmd11-97.png" ></br> </br>
 <img src="./files/capmd11-98.png" ></br> </br>
 <img src="./files/capmd11-99.png" ></br> </br>
-<img src="./files/capmd11-100.png" ></br> </br>
-
+<img src="./files/capmd11-100.png" ></br> </br> -->
 
 </br> </br>
 
