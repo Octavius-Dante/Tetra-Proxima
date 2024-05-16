@@ -294,7 +294,6 @@ Make changes to package.json file for local testing purpose add credentials of S
 
 ```
 
-
 As mentioned in official API website we perform the steps [API link](https://api.sap.com/api/OP_API_SALES_ORDER_SRV_0001/resource/) </br> </br>
 <img src="./files/capmd11-41x.png" ></br> </br>
 
@@ -486,7 +485,6 @@ srv.on('READ', 'SalesOrderSet', async(req) => {
 });
 ```
 </br> </br>
-
 
 <details>
 <summary> Navigate the API for locating <b>Request builder function</b> // For understanding </summary>
