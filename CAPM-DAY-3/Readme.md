@@ -13,7 +13,7 @@ BAS is a SAP properitary web environemnt used for developing SAP applciations
 </br>
 
 > [!NOTE]
-> (BAS) as 30 days expiry if it is not accessed in 30 days dev space will be deleted by SAP 
+> (BAS) as 30 days expiry if it is not accessed in 30 days dev space will be deleted by SAP for trial account 
  
 </br>
 </br>
