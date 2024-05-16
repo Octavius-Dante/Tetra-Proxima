@@ -316,13 +316,9 @@ npx generate-odata-client --input /home/user/projects/cap_api_ext2/srv/external 
 <img src="./files/capmd11-42.png" ></br> </br>
 <img src="./files/capmd11-43.png" ></br> </br>
 <img src="./files/capmd11-44.png" ></br> </br>
-<img src="./files/capmd11-45.png" ></br> </br>
-<img src="./files/capmd11-46.png" ></br> </br>
-<img src="./files/capmd11-47.png" ></br> </br>
-<img src="./files/capmd11-48.png" ></br> </br>
 
 As suggested in API documentation page make code changes</br> </br>
-<img src="./files/capmd11-49.png" ></br> </br>
+<img src="./files/capmd11-45.png" ></br> </br>
 
 
 **ServiceCatalog.cds** sample code # 1
