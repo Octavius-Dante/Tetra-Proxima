@@ -588,7 +588,15 @@ srv.on('READ', MySalesOrder, async (request) => {
 
 The next step is building a Fiori app using Fiori open application generatoer, that is same as all the other previous sections can refer it for understanding, once odata service is exposed, it is used for building Fiori app  
 
-<!-- 
+</br>
+</br>
+</details>
+
+<details>
+<summary> <b>4. Preparing MTA yaml for deployment </b> </summary>
+</br>
+</br>
+
 <img src="./files/capmd11-59.png" ></br> </br>
 <img src="./files/capmd11-60.png" ></br> </br>
 <img src="./files/capmd11-61.png" ></br> </br>
@@ -630,19 +638,11 @@ The next step is building a Fiori app using Fiori open application generatoer, t
 <img src="./files/capmd11-97.png" ></br> </br>
 <img src="./files/capmd11-98.png" ></br> </br>
 <img src="./files/capmd11-99.png" ></br> </br>
-<img src="./files/capmd11-100.png" ></br> </br> -->
-
-</br> </br>
+<img src="./files/capmd11-100.png" ></br> </br> 
 
 </br>
 </br>
 </details>
-
-
-</br> </br>
-
-
-
 
 <!-- 
 
