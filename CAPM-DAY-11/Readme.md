@@ -380,7 +380,7 @@ Execute the program using cds watch and test </br> </br>
 </details>
 
 <details>
-<summary> <b>3. Developing extension -- Part # 3 -- defining further logic in CatalogService.js & CatalogService.cds </b> </summary>
+<summary> <b>4. Developing extension -- Part # 3 -- defining further logic in CatalogService.js & CatalogService.cds </b> </summary>
 </br>
 </br>
 
@@ -591,7 +591,7 @@ The next step is building a Fiori app using Fiori open application generatoer, t
 </details>
 
 <details>
-<summary> <b>4. Preparing MTA yaml for deployment </b> </summary>
+<summary> <b>5. Preparing MTA yaml for deployment </b> </summary>
 </br>
 </br>
 
