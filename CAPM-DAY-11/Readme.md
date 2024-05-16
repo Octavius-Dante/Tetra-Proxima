@@ -445,7 +445,7 @@ srv.on('READ', 'SalesOrderSet', async(req) => {
 
 
 <details>
-<summary> Navigate the API for locating **Request builder fucntion** // For understanding </summary>
+<summary> Navigate the API for locating <b>Request builder fucntion</b> // For understanding </summary>
 </br>
 </br>
 
