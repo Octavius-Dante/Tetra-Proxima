@@ -996,7 +996,7 @@ Before triggering F4
 </br>
 </br>
 
-F4 Pop-up windows
+F4 Pop-up window
 </br>
 </br>
 <img src="./files/capmd6-41.png" > 
