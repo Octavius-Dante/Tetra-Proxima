@@ -571,6 +571,9 @@ srv.on('READ', MySalesOrder, async (request) => {
 
 </br> </br>
 <img src="./files/capmd11-58.png" ></br> </br>
+
+The next step is building a Fiori app using Fiori open application generatoer, that is same as all the other previous sections can refer it for understanding, once odata service is exposed, it is used for building Fiori app  
+
 <!-- 
 <img src="./files/capmd11-59.png" ></br> </br>
 <img src="./files/capmd11-60.png" ></br> </br>
