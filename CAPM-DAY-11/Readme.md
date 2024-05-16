@@ -317,7 +317,7 @@ As suggested in API documentation page make code changes</br> </br>
 
 
 **CatalogService.cds** sample code # 1
- </br>
+</br>
 
 ```cds
 
@@ -330,7 +330,6 @@ service CatalogService @(path:'CatalogService') {
     entity SalesOrderSet as projection on external.A_SalesOrder;
     
 }
-
 
 ```
 
@@ -429,7 +428,6 @@ module.exports = cds.service.impl(async function(srv){
 ```
 
 </br> </br> 
-
 
 </br>
 </br>
