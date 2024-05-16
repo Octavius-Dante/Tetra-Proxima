@@ -658,17 +658,7 @@ The next step is building a Fiori app using Fiori open application generatoer, t
 </details>
 -->
 
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-
+General info : How many destiantion services can be created in one destiantion service instance ? - 256.
 
 </br>
 </br>
