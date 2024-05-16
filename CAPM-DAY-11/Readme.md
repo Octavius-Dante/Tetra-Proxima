@@ -762,7 +762,7 @@ resources:
 </br>
 </br>
 
-1. inside the app directory (After creating fiori elements based app) package.json file 
+Inside the app directory (After creating fiori elements based app) package.json file 
 </br> will be inside the directory as shown below 
 
 ```bat
