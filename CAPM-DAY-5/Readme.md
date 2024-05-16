@@ -253,6 +253,13 @@ To Debug we need to create config - (launch.json) file needs to be configures as
 </br>
 </br>
 
+## How to debbug compelte steps 
+
+<details>
+<summary> Debugging steps and functionalities</summary>
+</br>
+</br>
+
 Set a breakpoint to our <b>MyService.js</b> code as shown below
 </br>
 </br>
@@ -269,7 +276,7 @@ To launch the Debugging
 </br>
 </br>
 
-When Debuggin is successfully launched following screen changes can be identified
+When Debugging is successfully launched following screen changes can be identified
 </br>
 </br>
 
@@ -350,6 +357,9 @@ Have to navigate in the stacks to get the entry to edit
 </br>
 </br>
 
+</br>
+</details>
+
 The successful post of the data is refelected in response window
 </br>
 <img src="./files/capmd5-8f.png" >
@@ -414,7 +424,7 @@ For me Git was already logged in to the browser so the authentication was differ
 <img src="./files/capmd5-git3.png" >
 </br>
 
-when code changes were moade it appears like this 
+when code changes were made it appears like this 
 </br>
 <img src="./files/capmd5-git4.png" >
 </br>
