@@ -1010,7 +1010,7 @@ After selecting values from F4 help
 </br>
 </br>
 
-After F4 selection the values are meaningless (the description should hlep the end user to understand what he selected 
+After F4 selection the values are meaningless (the description should help the end user to understand what he selected 
 </br> so making a description attached to the ID looks understandable to the end user 
 </br>
 </br>
@@ -1054,7 +1054,7 @@ annotate CatalogService.PurchseOrderItems with {
 </br>
 </br>
 
-In previous exercise we created Boost Action, now we are going to use the BOOST action in our FIori report page 
+In previous exercise we created Boost Action, now we are going to use the BOOST action in our Fiori report page 
 </br> 
 </br>
 
