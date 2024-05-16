@@ -316,7 +316,7 @@ As suggested in API documentation page make code changes</br> </br>
 <img src="./files/capmd11-45.png" ></br> </br>
 
 
-**ServiceCatalog.cds** sample code # 1
+**CatalogService.cds** sample code # 1
  </br>
 
 ```cds
