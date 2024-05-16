@@ -723,7 +723,6 @@ resources:
 ```
 </br> </br>
 
-
 <!-- <img src="./files/capmd11-61.png" ></br> </br>
 <img src="./files/capmd11-62.png" ></br> </br>
 <img src="./files/capmd11-63.png" ></br> </br>
@@ -765,8 +764,6 @@ resources:
 <img src="./files/capmd11-99.png" ></br> </br>
 <img src="./files/capmd11-100.png" ></br> </br>  -->
 
-</br>
-</br>
 </details>
 
 
