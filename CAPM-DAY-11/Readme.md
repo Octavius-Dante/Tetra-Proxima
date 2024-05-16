@@ -377,65 +377,33 @@ Make code changes in **CatalogService.js**  # 2 </br> </br>
 
 const cds = require('@sap/cds');
 
-// New module import 
-import { SalesOrderService } from './module/OP_API_SALES_ORDER_SRV_0001';
-
 module.exports = cds.service.impl(async function(srv){
 
-    const { SalesOrderSet } = cds.entities;
-    const { SalesOrder, SalesOrderItem, salesOrderService } = require('@sap/cloud-sdk-vdm-sales-order-service');
+    const { SalesOrderSet } = this.entities;
 
-    // New variable for module import 
-    const { salesOrderApi } = SalesOrderService();
+   var getAllSalesOrder = async function(){
+// the const defining here requires to be picked fromt the component OP_API_SALES_ORDER_SRV_0001
+    const { opApiSalesOrderSrv0001 } = require ('./sales-order-api/OP_API_SALES_ORDER_SRV_0001')
 
-    // Requesting API to get all sales order from SAP S/4 HANA system
-        function getAllSalesOrders() {
-// used the new variable to call request builder             
-        return salesOrderApi.requestBuilder().getAll().select(
-            SalesOrder.SALES_ORDER,
-            SalesOrder.SALES_ORGANIZATION,
-            SalesOrder.SALES_ORDER_TYPE,
-            SalesOrder.SALES_ORDER_DATE,
-            SalesOrder.SOLD_TO_PARTY,
-            SalesOrder.OVERALL_TOTAL_DELIVERY_STATUS,
-            SalesOrder.TO_ITEM.select(
-                SalesOrderItem.MATERIAL,
-                SalesOrderItem.REQUESTED_QUANTITY_UNIT,
-                SalesOrderItem.NET_AMOUNT)
-        ).execute();
-    } 
-// // // Read record for this salesorderset srv declared in CatalogService.cds
-    srv.on('READ', 'SalesOrderSet', async(req) => {
-        var aRecords = [];
-        return await getAllSalesOrders().then(SalesOrdersTable => {
-// similar like loop at itab in abap
-            SalesOrdersTable.forEach(element => {
-                var line = {};
-                line.SalesOrder = element.SalesOrder;
-                line.SalesOrganization = element.SalesOrganization;
-                line.SalesOrderType = element.SalesOrderType;
-                line.SalesOrderDate = element.SalesOrderDate;
-                line.SoldToParty = element.SoldToParty;
-                line.OverallDeliveryStatus = element.OverallDeliveryStatus;
-// picking record from deep entity and assignign it to our structure
-// deep entity to flat entity 
-// flat entity = assigned from deep entity                 
-                line.Material = element.to_Item.Material;
-                line.OrderQuantityUnit = element.to_Item.OrderQuantityUnit;
-                line.NetAmount = element.to_Item.NetAmount;
-// push it in the records                 
-                aRecords.push(line);                
-            }); 
-            return aRecords;                       
-        });
+   }
+
+ // Read record for this salesorderset srv declared in CatalogService.cds
+srv.on('READ', 'SalesOrderSet', async(req) => {
+        return [{
+            SalesOrder: 10
+        }]; 
     });
-
-})
+});
 
 ```
 
 </br> </br> 
-
+<img src="./files/capmd11-48.png" ></br> </br>
+<img src="./files/capmd11-49.png" ></br> </br>
+<img src="./files/capmd11-50.png" ></br> </br>
+<img src="./files/capmd11-51.png" ></br> </br>
+<img src="./files/capmd11-52.png" ></br> </br>
+<img src="./files/capmd11-53.png" ></br> </br>
 <img src="./files/capmd11-54.png" ></br> </br>
 <img src="./files/capmd11-55.png" ></br> </br>
 <img src="./files/capmd11-56.png" ></br> </br>
