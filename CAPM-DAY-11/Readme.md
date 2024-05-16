@@ -115,6 +115,18 @@ SAP API business hub is a place for documentaion of the API and details of the e
 
 14. Add resources as destination and xsuaa. Maintain the **xs-security.json** file
 
+15. Get the pacakge.json file from sub directory of app folder move it to app folder.
+
+16. Add app router component to project (npm install @sap/approuter) and include start script
+
+17. In xs-app.json file add routing paths
+
+18. Push the code to the github from VScode (for CI- CD pipeline) 
+
+19. Pull the code to BAS (in case created in BAS github code pulling is not needed)
+
+20. Build the MTA archive using mta.yaml and deploy the mta archive.
+
 </br>
 </br>
 </details>
