@@ -91,7 +91,7 @@ SAP API business hub is a place for documentaion of the API and details of the e
 
 4. Run **cds watch** and drag drop the edmx file to **service-spec** folder it creates an External folder with *.csn file. 
 
-5. Generate the JS code to automatically get all the calls which will call the service 
+5. Generate the JS code for api calls using sdk generator to our sales-order-api folder using this command
    </br> 
    **npx generate-odata-client --input /home/user/projects/cap_api_ext2/srv/external --outputDir /home/user/projects/cap_api_ext2/srv/sales-order-api** </br> 
 
