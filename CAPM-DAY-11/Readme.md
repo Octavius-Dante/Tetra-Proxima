@@ -406,6 +406,9 @@ srv.on('READ', 'SalesOrderSet', async(req) => {
 Perform ctrl + click on the Sales api constant it will take you to the next window
 </br> </br>
 <img src="./files/capmd11-52.png" ></br> </br>
+
+### The above mentioned process remains the same for any SAP API - 
+
 <img src="./files/capmd11-53.png" ></br> </br>
 <img src="./files/capmd11-54.png" ></br> </br>
 <img src="./files/capmd11-55.png" ></br> </br>
