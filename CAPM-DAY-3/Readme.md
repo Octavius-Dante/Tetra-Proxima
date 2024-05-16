@@ -5,9 +5,9 @@
 </br>
 </br>
 
-BAS is a SAP properitary web environemnt used for developing SAP applciations 
-</br>it is managed by userspace arhitecture every develoepr who access 
-</br>it will get an allocated own space for designing applciation
+BAS is a SAP proprietary web environment used for developing SAP applications 
+</br>it is managed by user space architecture every developer who access 
+</br>it will get an allocated own space for designing application
 </br>in trial BTP account of 90 days 
 </br>
 </br>
@@ -22,7 +22,7 @@ BAS is a SAP properitary web environemnt used for developing SAP applciations
 
 if account is not created 
 
-follow the developer blogs mentioend below to get it completed 
+follow the developer blogs mentioned below to get it completed 
 
 (1) https://developers.sap.com/tutorials/appstudio-onboarding.html
 
@@ -86,7 +86,7 @@ cat /etc/os-release
 </br>
 </br>
 
-all the CDS, NODE, nvm, npm all are pre installed in BAS thats the advantage in BAS 
+all the CDS, NODE, nvm, npm all are pre installed in BAS that's the advantage in BAS 
 
 </br>
 </br>
@@ -113,7 +113,7 @@ mkdir <folder name>
 <img src="./files/capmd3-13.png" >
 </br>
 </br>
-initialise the project skeleton by using cds init command 
+initialize the project skeleton by using cds init command 
 </br>
 
 ```bat
@@ -130,7 +130,7 @@ Create a file demo.cds under (DB) folder as shown below
 </br>
 </br>
 
-Type down the following script in that cds file 
+Type down the following script in that CDS file 
 </br>
 </br>
 
@@ -145,9 +145,9 @@ entity orders : cuid {
 </br>
 After creating the file you can notice that in (Data models and services) section in left pane
 </br>
-This gets created when cds file in db gets generated.
+This gets created when CDS file in DB gets generated.
 </br>
-This Data models and services is only avilable in BAS not in VScode and this helps to see the overview of DB objects avaialble in the project.
+This Data models and services is only available in BAS not in VScode and this helps to see the overview of DB objects available in the project.
 </br>
 <img src="./files/capmd3-18.png" >
 </br>
@@ -170,7 +170,7 @@ use it and create table like shown below
 </br>
 </br>
 
-when you create multple entity and you can define foreign key relation, association, composition as shown below 
+when you create multiple entity and you can define foreign key relation, association, composition as shown below 
 <img src="./files/capmd3-22.png" >
 but will discuss this later.
 </br>
@@ -221,7 +221,7 @@ A Regular Expression (or Regex) is a pattern (or filter) that describes a set of
 </br>
 </br>
 
-Telephone REGEX is garbbe from 
+Telephone REGEX is grabbed from 
 </br> https://stackoverflow.com/questions/16699007/regular-expression-to-match-standard-10-digit-phone-number
 
 Email REGEX is grabbed from 
@@ -382,7 +382,7 @@ context transaction {
 </br>
 </br>
 
-The above db design datamodel.cds file is based on following chart image
+The above DB design datamodel.cds file is based on following chart image
 </br>
 </br>
 <img src="./files/capmd3-24.png" >
@@ -390,7 +390,7 @@ The above db design datamodel.cds file is based on following chart image
 </br>
 
 ### Aspect : (like ABAP - Include structure but can be used only on top in entity definition)
-</br> it is like a structure with collection of different fields defined in commons.cds reuse library and used in our db cds file.
+</br> it is like a structure with collection of different fields defined in commons.cds reuse library and used in our DB cds file.
 </br>
 ### Type : (like data element in abap) 
 </br>it is a single field property with data type specific like quantity and currency or any other which user define in commons reuse library
@@ -400,14 +400,14 @@ The above db design datamodel.cds file is based on following chart image
 
 Create CSV folder and load the files provided here as shown below 
 
-</br><b>(on top of the page you can see csv folder in github use those csv files)</b>
+</br><b>(on top of the page you can see csv folder in Github use those csv files)</b>
 </br>
 </br>
 <img src="./files/capmd3-25.png" >
 </br>
 </br>
 
-Go to (packge.json) file and look for any dependencies error you can right click the highlighted error and click (fix all dependencies) 
+Go to (package.json) file and look for any dependencies error you can right click the highlighted error and click (fix all dependencies) 
 </br> if that option is not found then install the fix manually using (npm install) command in terminal
 </br>
 <img src="./files/capmd3-26.png" >
@@ -425,7 +425,7 @@ cds depoly --to sqlite:dante.db
 </br>
 
 Connect the DB to SQL tools as shown below (go to terminal and get the local directory details) copy it and paste it 
-</br> add the db details along with the directory <b> (/home/user/dante_cap/dante.db) </b>
+</br> add the DB details along with the directory <b> (/home/user/dante_cap/dante.db) </b>
 </br>
 ```bat
 pwd
@@ -461,20 +461,20 @@ Check the DB tables and records as shown below
 
 - [X] usually we have all our data distributed across multiple tables and if we need to get this data out, we need to write complex queries with joins.
 
-- [X] it becomes very compelx to handle the maintenance of these large queires views will simplify the consumption and make it easy to maintain
+- [X] it becomes very complex to handle the maintenance of these large queries views will simplify the consumption and make it easy to maintain
 
 - [X] We can perform the operations like aggregations on the view
 
 - [X] security , CDS views are also the contracts for data consumption
 
-- [X] They incldue annotations which drives functionality (read only) write protected
+- [X] They include annotations which drives functionality (read only) write protected
 
-- [X] View provide also loose coupling to load data (association - join on demand), where as when we use queries and joins thay are always tight coupling. which  brings all the data all the time.
+- [X] View provide also loose coupling to load data (association - join on demand), where as when we use queries and joins they are always tight coupling. which  brings all the data all the time.
 </br>
 </br>
 </br>
 
-Create (CDSViews.cds) file under db folder as shown below 
+Create (CDSViews.cds) file under DB folder as shown below 
 </br>
 </br>
 
@@ -508,14 +508,14 @@ context CDSViews {
 </br>
 </br>
 
-deploy it to db (cds depoly --to sqlite:dante.db) and check the views as shown below
+deploy it to db (cds deploy --to sqlite:dante.db) and check the views as shown below
 </br>
 </br>
 <img src="./files/capmd3-32.png" >
 </br>
 </br>
 
-Lets create additional cds view as value help (similar like F4 help in ABAP)
+Lets create additional CDS view as value help (similar like F4 help in ABAP)
 </br>
 </br>
 
@@ -583,7 +583,7 @@ We can collapse the statement as shown below for better readability when there i
 </br>
 </br>
 
-Lets create additional cds view an Item CDS view
+Lets create additional CDS view an Item CDS view
 </br>
 </br>
 
@@ -691,7 +691,7 @@ context CDSViews {
 </br>
 </br>
 
-Deploy the tables and cds to DB and you can see the list of CDS views created in DB
+Deploy the tables and CDS to DB and you can see the list of CDS views created in DB
 </br>
 </br>
 <img src="./files/capmd3-35.png" >
@@ -700,7 +700,7 @@ Deploy the tables and cds to DB and you can see the list of CDS views created in
 </br>
 
 
-Now we want to eliminate this long decimal values in the view, do the following correction in CDSViews.cds and re-deploy to db and check 
+Now we want to eliminate this long decimal values in the view, do the following correction in CDSViews.cds and re-deploy to DB and check 
 </br>
 </br>
 <img src="./files/capmd3-37.png" >
@@ -731,7 +731,7 @@ Now we want to eliminate this long decimal values in the view, do the following 
 </br>
 </br>
 
-### How to downlaod the code locally from BAS ? 
+### How to download the code locally from BAS ? 
 </br> (before download delete the node_modules folder) 
 </br> it can be installed use terminal and use command (npm install) to get it back.
 </br>

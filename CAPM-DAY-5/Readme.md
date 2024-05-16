@@ -214,7 +214,7 @@ To Debug we need to create config - (launch.json) file needs to be configures as
 ### launch.json
 
 </br> change few more parameters to the config details added as shown below (project directory, and cds watch command, name description)
-</br> After confguring the launch.json, the file should look like below json sample code 
+</br> After configuring the launch.json, the file should look like below json sample code 
 
 
 ```json
@@ -287,7 +287,7 @@ Colour of the BAS will be changed
 </br>
 </br>
 
-A small debug navigation window will appear - this prooves that debuggin mode is active 
+A small debug navigation window will appear - this proves that debugging mode is active 
 </br>
 </br>
 <img src="./files/capmd5-6a.png" >
@@ -328,7 +328,7 @@ This is like F5 in ABAP line by line execution
 <img src="./files/capmd5-7b.png" >
 </br>
 This is New - there is JS code and CDS standard framework code 
-</br> (all sql instruction is written inside a cds.transaction) if you want to step inside that specific block this button will help 
+</br> (all SQL instruction is written inside a cds.transaction) if you want to step inside that specific block this button will help 
 </br> when step-by-step execution wont access places like this, then <b>"step into"</b> is used.
 </br>
 <img src="./files/capmd5-7c.png" >
@@ -362,7 +362,7 @@ Have to navigate in the stacks to get the entry to edit
 
 </br></br>
 
-The successful post of the data is refelected in response window
+The successful post of the data is reflected in response window
 </br>
 <img src="./files/capmd5-8f.png" >
 </br>
@@ -396,9 +396,9 @@ Delete call tested
 </br>
 
 - [x] Create a Private repository in GITHUB and copy the link of that git hub.
-- [x] Initiate git in bas using command (git init)
-- [x] Add all the files to git staging area using command (git add)
-- [x] Commit the changes using command (git commit -m "description" )
+- [x] Initiate git in bas using command **(git init)**
+- [x] Add all the files to git staging area using command **(git add)**
+- [x] Commit the changes using command **(git commit -m "description" )**
 - [x] No we do GIT push
 
 ```md
@@ -447,7 +447,7 @@ Reverting the changes
 </br>
 </br>
 
-Commiting to Git hub using auto sync option 
+Committing to Git hub using auto sync option 
 </br>
 <img src="./files/capmd5-git9.png" >
 </br>
@@ -458,7 +458,7 @@ Commiting to Git hub using auto sync option
 </br>
 </br>
 
-Commiting to git hub using graphical editor to - give version details 
+Committing to git hub using graphical editor to - give version details 
 </br>
 <img src="./files/capmd5-git12.png" >
 </br>
@@ -495,31 +495,31 @@ https://github.com/Octavius-Dante/Tetra_Proxima/tree/main/SAP_HANA_HDI_SCHEMA_CR
 </br>
 </br>
 
-Further reading on fiori elements : https://ui5.sap.com//#/topic/03265b0408e2432c9571d6b3feb6b1fd
+Further reading on Fiori elements : https://ui5.sap.com//#/topic/03265b0408e2432c9571d6b3feb6b1fd
 </br>
 </br>
 
-Fiori elements is designed to quckly deploy apps to front end with less effort - it uses temepates provided by SAP 
+Fiori elements is designed to quickly deploy apps to front end with less effort - it uses templates provided by SAP 
 </br>
-FREE style UI5 has option to develop extensive UI/UX pages but Fiori elements provide options to deploy the page quickly on top of it , thsi can be enhanced for further user needs.
+FREE style UI5 has option to develop extensive UI/UX pages but Fiori elements provide options to deploy the page quickly on top of it , this can be enhanced for further user needs.
 </br>
-Will focus on using FIori elements list view report for quick deployment.
+Will focus on using Fiori elements list view report for quick deployment.
 </br>
 </br>
 
-First need to install this exptension in VS code / BAS (usually in BAS it is installed automatically) if not follow the steps shown below 
+First need to install this extension in VS code / BAS (usually in BAS it is installed automatically) if not follow the steps shown below 
 </br>
 <img src="./files/capmd5-fe1.png" >
 </br>
 </br>
 
-After installing go to view menu and select (command and pallette)
+After installing go to view menu and select (command and palette)
 </br>
 <img src="./files/capmd5-fe2.png" >
 </br>
 </br>
 
-it opens an active searc bar on top like shown below
+it opens an active search bar on top like shown below
 </br>
 <img src="./files/capmd5-fe3.png" >
 </br>
@@ -531,7 +531,7 @@ Search Fiori - it lists lot of option - (Fiori : Open application generator)
 </br>
 </br>
 
-Select the App generator and this tempalte wizord opens
+Select the App generator and this template wizard opens
 </br>
 <img src="./files/capmd5-fe5.png" >
 </br>
@@ -562,7 +562,7 @@ Follow the steps shown below to generate the APP - using our CAP
 </br>
 
 
-Thats it , you have created Fiori app successfully when you run this application via (cds run)
+That's it , you have created Fiori app successfully when you run this application via **(cds run)**
 </br>
 Following option can be noticed in endpoint screen as shown below
 </br> 
@@ -590,7 +590,7 @@ Following option can be noticed in endpoint screen as shown below
 </br>
 
 
-How to distinquish between template based fiori app and freestyle one check the folllowing section 
+How to distinguish between template based Fiori app and freestyle one check the following section 
 </br>
 <img src="./files/capmd5-fe16.png" >
 </br>
@@ -599,12 +599,12 @@ How to distinquish between template based fiori app and freestyle one check the 
 
 
 
-This Fiori elements is annnotations driven applicaiton using cds annotation fiori screen elements can be defined.
+This Fiori elements is annotations driven application using cds annotation Fiori screen elements can be defined.
 </br>
 </br>
 Now will delete all the existing Fiori screen code and write our own code, follow the steps shown below
 </br>
-Take backup of the origian annotation.cds file and delete the contents of annotaion.cds file as shown below
+Take backup of the original annotation.cds file and delete the contents of annotation.cds file as shown below
 </br>
 <img src="./files/capmd5-fe17.png" >
 </br>
@@ -623,7 +623,7 @@ Then add the following contents to annotaiton.cds file
 <details>
   <summary> TEST 1  </summary>
 </br>
-(every change in annotaion.cds) re-run the application - if it doesnt work then it may need a deploy. 
+(every change in annotaion.cds) re-run the application - if it doesn't work then it may need a deploy. 
 </br>
 
 ```cds
@@ -699,7 +699,7 @@ annotate CatalogService.POs with @(
 <details>
   <summary> TEST 2  </summary>
 </br>
-Adding i18n proerpties file for label and transaltion text for internationalization
+Adding i18n properties file for label and translation text for internationalization
 </br>
 <img src="./files/capmd5-fe20.png" >
 </br>
@@ -840,7 +840,7 @@ annotate transaction.poitems with {
   <summary> TEST 3  </summary>
 </br>
 </br>
-Now lets add special status to the Current line iteme display (first will edit the records as shown below - purchase order.csv file)
+Now lets add special status to the Current line item display (first will edit the records as shown below - purchase order.csv file)
 </br>
 </br>    
 <img src="./files/capmd5-fe23.png" >
@@ -850,7 +850,7 @@ Now lets add special status to the Current line iteme display (first will edit t
 </br>
 </br>  
     
-Now instead of status flag will make a meaningful represntation text for status -make changes in (ServiceCatalog.cds) as mentioned below
+Now instead of status flag will make a meaningful representation text for status -make changes in (ServiceCatalog.cds) as mentioned below
 </br>
 </br>  
 
@@ -996,7 +996,7 @@ service CatalogService @(path: 'CatalogService') {
 </br>
 </br>
 
-## The difference between BAS depolyment and VS code deployment is shown below
+## The difference between BAS deployment and VS code deployment is shown below
 </br>
 </br>
 
@@ -1013,7 +1013,7 @@ service CatalogService @(path: 'CatalogService') {
 ## VSCode
 </br>
 
-### There is no testing pages provided in Fiori open application generator for VScode 
+### There is no testing pages provided in Fiori open application generator for VSCode 
 </br>
 </br>
 <img src="./files/capmd5-fe27.png" >

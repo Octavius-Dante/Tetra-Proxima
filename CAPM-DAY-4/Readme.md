@@ -1,13 +1,13 @@
 ## CAPM - Day 4 - Generic Handlers
 
-### Creating odata services to our app 
+### Creating OData services to our app 
 
 </br>
 </br>
 
 Will continue today from yesterdays application 
 </br> - will focus on creating services on top of data model we created on previous day 
-</br> - odata services 
+</br> - OData services 
  
 </br>
 
@@ -47,17 +47,17 @@ service CatalogService @(path: 'CatalogService') {
 </br>
 </br>
 
-After creationg the file deploy it and run (best practise) 
+After creation of the file deploy it and run (best practice) 
 
 #### if you find cds-serve in package.json - it takes care automatically this is new feature from 2024
 #### (service creation - no need to deploy, DB and View creation need to deploy) - if you find cds-serve in package.json
-#### (instead if you find cds watch) then it takes care automatically
+#### (instead if you find CDS watch) then it takes care automatically
 
 <img src="./files/capmd4-2.png" >
 </br>
 </br>
 
-Now run the applicaiton through terminal and test it as shown below (i didnt deploy) i just run it works 
+Now run the application through terminal and test it as shown below (i didn't deploy) i just run it works 
 </br>
 <img src="./files/capmd4-3.png" >
 </br>
@@ -67,7 +67,7 @@ Now run the applicaiton through terminal and test it as shown below (i didnt dep
 </br>
 </br>
 
-Now we can check developer tools in browser for identifying odata vesion as shown below 
+Now we can check developer tools in browser for identifying OData version as shown below 
 </br>
 </br>
 <img src="./files/capmd4-6.png" >
@@ -90,16 +90,16 @@ use <b>(?$format=json) </b> to the link and you will see the following page pres
 </br>
 </br>
 
-### Backward compatibility - Odata V2
+### Backward compatibility - OData V2
 </br>
 </br>
 
-- default sap fiori which comes out of on-prem is odata v2 
-- defualt sap fiori which comes out of cloud is odata v4
-- SAP applicaitons developed in odata v2 cannot be used for odata v4 - requries (redesign or code changes)
+- default SAP Fiori which comes out of on-prem is OData v2 
+- default SAP Fiori which comes out of cloud is OData v4
+- SAP applications developed in OData v2 cannot be used for OData v4 - requires (redesign or code changes)
 - To avoid this we have an <b>adapter</b> which will use v4 version as v2
-- SAP provided this adpters as node module (goto npm site : https://www.npmjs.com/search?q=odata-v2-adapter)
-- Search for odata-v2-adapter (pick the proxy one)
+- SAP provided this adapters as node module (go to npm site : https://www.npmjs.com/search?q=odata-v2-adapter)
+- Search for OData-v2-adapter (pick the proxy one)
 - install the adapter using command
 - create JS file is (srv) directory (./srv/server.js:) and copy the contents
 - run and test the application
@@ -136,7 +136,7 @@ module.exports = cds.server;
 
 ### OData v2 
 </br>
-it can be identified by represneration d in front of result set 
+it can be identified by representation d in front of result set 
 </br>
 </br>
 
@@ -152,14 +152,14 @@ local VSCode main page
 <img src="./files/capmd4-11a.png" >
 </br>
 
-</br> Add v2/ after the cloud link an then navigate from thae page 
+</br> Add v2/ after the cloud link and then navigate from the page 
 </br> https://port4004-workspaces-ws-n8568.us10.trial.applicationstudio.cloud.sap/v2/
 </br>
 </br> SAP cloud BAS
 </br> https://port4004-workspaces-ws-n8568.us10.trial.applicationstudio.cloud.sap/v2/odata/v4/CatalogService/BusinessPartnerSet
 </br>
 </br>
-</br>  Add v2/ after the local host link an then navigate from thae page
+</br>  Add v2/ after the local host link and then navigate from the page
 </br> http://localhost:4004/v2/
 </br>
 </br> VSCode
@@ -354,7 +354,7 @@ At times we want to
 </br>
 
 As per above handlers appropriate usage questioning 
-</br> lets consider it for a sceanrio (validate salary greater than 1 million) before updating or creating entry in table 
+</br> lets consider it for a scenario (validate salary greater than 1 million) before updating or creating entry in table 
 </br> following question suits as shown below 
 </br>
 
@@ -369,7 +369,7 @@ As per above handlers appropriate usage questioning
 </br>
 </br>
 
-### Generic handlers validaiton for our app 
+### Generic handlers validation for our app 
 </br>
 </br>
 create a file called <b>(CatalogService.js)</b> in (SRV) folder
@@ -451,7 +451,7 @@ The testing of validation is shown below
 
 ## Action 
 </br>
-This doesnt have return value and it is used to perform a calculation or some action some process in a Buisness Logic
+This doesn't have return value and it is used to perform a calculation or some action some process in a Business Logic
 </br> This is used for POST calls - update and create 
 </br>
 </br>
@@ -468,7 +468,7 @@ This has return value and it is used to perform an action and returns the value 
 
 ### Will Implement Action and Function in our application will test it using (tester.http) file 
 </br>
-make changes to tester.http file for getting purchase orders and $expand as shwon below 
+make changes to tester.http file for getting purchase orders and $expand as shown below 
 </br>
 </br>
 </br>
@@ -810,7 +810,7 @@ To Control other DB activities like insert and delete sample is shown below
 
 ## How to define your own Custom - CURD operations 
 </br>
-So far we have used - POST, PATCH and GET using standard CAP functionalities to perfrom CURD operations.
+So far we have used - POST, PATCH and GET using standard CAP functionalities to perform CURD operations.
 </br> If user wants to take control of defining their own logic of updating, creating, deleting, and reading data
 </br> they need to define custom service definition and implementation lets focus on how it can be done.
 

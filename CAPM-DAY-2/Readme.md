@@ -30,7 +30,7 @@ module.exports = Myservice;
    <img src="./files/capmd2-1.png" >
 </br>
 </br>
-use the following url parameter value to see the passed value 
+use the following URL parameter value to see the passed value 
 </br>
 </br>
 
@@ -51,23 +51,23 @@ http://localhost:4004/odata/v4/my/helloCAP(name='dante')
 </br>
 
 <p>
-When we design database artifacts, at times we have many simialr objects and their datatypes.
+When we design database artifacts, at times we have many similar objects and their datatypes.
 </br> Instead of hardcoding the type as primitive type, it is recommended to create custom types.
 </br> Using custom data type increase reusability and reduce maintenance.
-</br> when we create a seperate CDS file for reuse purpose and consume it, this file contains enumerators and aspects. 
+</br> when we create a separate CDS file for reuse purpose and consume it, this file contains enumerators and aspects. 
 </br>
 </br> There are common aspect provided by SAP, primary key generation, currency.
 </br> Admin data : created by, created date, changed by, changed date - these are called temporal data
 </br>
 </br>
-<b>Aspect means a variable defined in seperate file whcih can be accessed globally. </b>
+<b>Aspect means a variable defined in separate file which can be accessed globally. </b>
 </br> it is combination of many fields (Structures in ABAP).
 </br>
 </p>
 
 </br>
 </br>
-create another table to the cds file employee as mentioned below 
+create another table to the CDS file employee as mentioned below 
 </br>
 </br>
 
@@ -98,7 +98,7 @@ context trans {
 define another cds file named commons.cds in db folder 
 </br>
 define a data type here this is like a global variable ready to be accessed by our table fields
-this global definition is called aspect in SAP capm cds terminology 
+this global definition is called aspect in SAP CAP cds terminology 
 </br>
 </br>
 
@@ -211,7 +211,7 @@ aspect Amount :{
 </br>
 </br>
 
-using of the Amount global varaible from common.cds into sample.cds file 
+using of the Amount global variable from common.cds into sample.cds file 
 
 </br>
 </br>
@@ -271,7 +271,7 @@ id,customer,location,created_on,created_by,GROSS_AMOUNT,NET_AMOUNT,TAX_AMOUNT,CU
 </br>
 </br>
 
-employeee table data *.csv file 
+employee table data *.csv file 
 </br>
 
 ```csv
@@ -326,7 +326,7 @@ To learn detail about available aspects : https://cap.cloud.sap/docs/cds/common
 </br>
 
 > [!IMPORTANT]
-> add the following block of code to your sample cds as shown below 
+> add the following block of code to your sample CDS as shown below 
 
 </br>
 </br>
@@ -683,7 +683,7 @@ The id is auto generated for order_2 table in DB as shown below
 > [!TIP]
 > Documentation details : to implement the standard functionalities like above please refer : https://cap.cloud.sap/docs/cds/common
 </br>
-navigate the website by searching a specifc topic as shown below 
+navigate the website by searching a specific topic as shown below 
 </br>
 </br>
 <img src="./files/capmd2-15.png" >
@@ -700,9 +700,9 @@ The managed details is auto generated for employee table in DB as shown below
 </br>
 
 > [!NOTE]
-> Earlier in ABAP these sy-datum and sy-uname and sy-uzit details of SAP standard is used to fill chanegd by, changed date, created by
+> Earlier in ABAP these sy-datum and sy-uname and sy-uzit details of SAP standard is used to fill changed by, changed date, created by
 > all these functionalities are automatically taken care by aspect defined from this <b>'@sap/cds/common'</b>
-> it is stil evolving and these things are developed by SAP to focus less on technical and more on business need and requirement
+> it is still evolving and these things are developed by SAP to focus less on technical and more on business need and requirement
 
 </br>
 </br>
@@ -746,7 +746,7 @@ aspect Amount :{
 
 </br>
 
-The chanegs are compiles as shown below 
+The changes are compiles as shown below 
 </br> <b>(we added the code chanegs in common.cds but compiling is done for sample.cds file which uses it)</b>
 
 </br>
@@ -893,7 +893,7 @@ D:\TETRA_PROXIMA\CAPM\01_BASIC_CAP>
 
 Now when this table get deployed it will give error due to a reason of currency_code field name 
 </br> there is already a currency property in sap-commons which will change the name to currency_code 
-</br> our file contains same name so now it will be currency_code_code (check the above termional refernce code for understanding)
+</br> our file contains same name so now it will be currency_code_code (check the above terminal reference code for understanding)
 </br> so appropriate name change to the (csv) file and (cds) file is needed.
 
 </br>
@@ -950,7 +950,7 @@ aspect Amount :{
 </br>
 </br>
 
-make the following change to the .csv file as shown below (CURRENCY_CODE to CURRENCY_code) small chane to the currency field 
+make the following change to the .csv file as shown below (CURRENCY_CODE to CURRENCY_code) small change to the currency field 
 </br>
 
 ``` csv
@@ -969,14 +969,14 @@ now deploy the table to the DB again and you can see 2 extra table for currency 
 </br>
 </br>
 
-Currency table and Currency text table dont have any data this text table is for transaltion texts
+Currency table and Currency text table don't have any data this text table is for translation texts
 </br> <b> the purpose of these table is to act like check table in (SAP ABAP) if currency values are added to these tables </b>
 </br>
 </br>
    <img src="./files/capmd2-18.png" >  
 </br>
 </br>
-Add data to the currency tables using followign csv 
+Add data to the currency tables using following csv 
 </br>
 </br>
 
@@ -1037,7 +1037,7 @@ Now we focus on the association concept of establishing foreign key relation to 
 </br>
 
 make the field header change in csv file <b>(from created_by to created_by_id)</b>
-</br> and also change the respective data for hte field from names to numbers matching the id from employee table 
+</br> and also change the respective data for the field from names to numbers matching the id from employee table 
 </br>
 </br>
 
@@ -1063,7 +1063,7 @@ Deploy the tables to DB and check the data as shown below
 
 </br>
 </br>
-execute a SQL query in db level with join to test the foreign key relation 
+execute a SQL query in DB level with join to test the foreign key relation 
 
 </br>
 </br>
@@ -1081,12 +1081,12 @@ ON emp.id = ord.created_by_id
 </br>
 
 whenever we expose an entity in the service, SAP CDS engine will create a VIEW corresponding to that entity in the database table.
-</br> After defiing the entity to expose odata, we must deploy our changes again to database. Before performing cds/run watch 
+</br> After defining the entity to expose OData, we must deploy our changes again to database. Before performing cds/run watch 
 
 </br>
 </br>
 
-Now lets focus on publishing this table data using odata in web.
+Now lets focus on publishing this table data using OData in web.
 </br>
 make change to the mydemoservice.cds file as shown below 
 </br>
@@ -1111,8 +1111,8 @@ service MyService {
 </br>
 
 > [!NOTE]
-> It is essential to deploy the tables to DB, so the applciation will run successfull else it will display the odata page but not the data set properly it goes to dump
-> Everytime when there is changes to (service.cds) file please deploy the tables to DB it is best practices
+> It is essential to deploy the tables to DB, so the application will run successful else it will display the OData page but not the data set properly it goes to dump
+> Every time when there is changes to (service.cds) file please deploy the tables to DB it is best practices
 
 </br>
 </br>
@@ -1158,7 +1158,7 @@ npm run watch
 </br>
 </br>
 
-Now will test the odata services by publishing it to web and test it via postman using odata '$' dollar operations 
+Now will test the OData services by publishing it to web and test it via postman using OData '$' dollar operations 
 </br>
 </br>
 
@@ -1207,7 +1207,7 @@ Now will test the odata services by publishing it to web and test it via postman
 <details>
  <summary> $orderby for orders 1 </summary>   
  
- #### calling GET operations on OrderSet from postman using following url code to apply $orderby operations
+ #### calling GET operations on OrderSet from postman using following URL code to apply $orderby operations
 </br>
  
 ```bat
@@ -1350,7 +1350,7 @@ in output screen look for Fiori preview option and click that and perform search
 </br>
 </br>
 
-lets add custom text for the fiori screen field labels and do translation for the field labes using i18n standard 
+lets add custom text for the Fiori screen field labels and do translation for the field labels using i18n standard 
 
 
 </br>
@@ -1409,7 +1409,7 @@ TAX-Amount=Tax fees
 </br>
 </br>
 
-re-deploy and run the application and check fiori preview
+re-deploy and run the application and check Fiori preview
 
 </br>
 </br>
@@ -1419,10 +1419,10 @@ re-deploy and run the application and check fiori preview
 </br>
 </br>
 
-Now will do German translated labesl for same texts and test (used google translate)
+Now will do German translated labels for same texts and test (used google translate)
 
 </br>
-create new file (i18n_de.properties) unders (i18n) folder and add following texts
+create new file (i18n_de.properties) under (i18n) folder and add following texts
 </br>
 
 ```cds
@@ -1444,7 +1444,7 @@ Re-launch the browser in german language and test
 </br>
 </br>
 
-CAPM has limitation in language tranaslation it only supports some of the localization which is listed in the following link
+CAPM has limitation in language translation it only supports some of the localization which is listed in the following link
 
 https://cap.cloud.sap/docs/guides/i18n#normalized-locales
 
