@@ -23,11 +23,12 @@ So from previous session we saw how to deploy our app to cloud
 	- service == xsuaa
 	- service-plan == application
 	- path == ./xs-security.json
-  
+
 </br>
 </br>
 	
 ```yaml
+
   - name: capp-xsuaa
     type: org.cloudfoundry.managed-service
     parameters:
