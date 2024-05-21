@@ -6,6 +6,27 @@
 </br>
 </br>
 
+In software engineering, CI/CD or CICD is the combined practices of continuous integration (CI) and continuous delivery (CD) or, less often, continuous deployment. They are sometimes referred to collectively as continuous development or continuous software development.
+</br>
+</br>
+
+**Continuous integration**
+- Frequent merging of several small changes into a main branch.
+</br>
+</br>
+
+**Continuous delivery**
+- When teams produce software in short cycles with high speed and frequency so that reliable software can be released at any time, and with a simple and repeatable deployment process when deciding to deploy.
+</br>
+</br>
+
+**Continuous deployment**
+- When new software functionality is rolled out completely automatically.
+
+</br>
+</br>
+</br>
+
 ### Prerequisite your BAS account should have an active git repository to perform CI and CD 
 </br> if GitHub integration is not done earlier kindly perform this 
 </br> [BAS GitHub integration](https://github.com/Octavius-Dante/Tetra_Proxima/tree/main/BAS_GIT_integration)
