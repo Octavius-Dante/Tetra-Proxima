@@ -132,7 +132,7 @@ arrFruits.splice(1,0,"@durian");
 // Add an item to the fourth position
 arrFruits.splice(4,0,"@Mango");
 
-// Replace an item to the fourth position
+// Remove one element and insert an item in 4th position
 arrFruits.splice(4,1,"@Custard Apple");
 
 // arrFruits.splice(index position, how many elements need to be removed, "value");
