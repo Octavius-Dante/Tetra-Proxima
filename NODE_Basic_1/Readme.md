@@ -174,7 +174,7 @@ console.log('\n');
 console.log('\n',"Array example 2: assign an array item from mentioned position to another array");
 
 let months_2 = ["January", "February", "Monday", "Tuesday"];
-let days_2 = months_2.splice(2,1);
+let days_2 = months_2.splice(2,1); // Remove one element from index positon 2
 
 console.log("Days",days_2); // ["Monday"]
 console.log("Months",months_2); // ["January", "February", "Tuesday"]
@@ -184,7 +184,7 @@ console.log('\n');
 console.log('\n',"Array example 3: assign multiple array items from mentioned position to another array");
 
 let months_3 = ["January", "February", "March", "April", "Monday", "Tuesday", "Wednesday", "Thursday"];
-let days_3 = months_3.splice(2,3); // take 3 element from index position 2 
+let days_3 = months_3.splice(2,3); // Remove 3 element from index position 2 
 
 console.log("Days",days_3); // [ 'March', 'April', 'Monday' ]
 console.log("Months",months_3); // [ 'January', 'February', 'Tuesday', 'Wednesday', 'Thursday' ]
@@ -194,7 +194,7 @@ console.log('\n');
 console.log('\n',"Array example 4: Splicing an array and assigning to other array also adding multiple values to array");
 
 let months_4 = ["January", "February", "Monday", "Tuesday"];
-let days_4 = months_4.splice(2, 2, "March", "April"); // take 2 elements from 2nd index and add 2 elements to the 2nd index
+let days_4 = months_4.splice(2, 2, "March", "April"); // Take 2 elements from 2nd index and add 2 elements to the 2nd index
 
 console.log("Days",days_4); // ["Monday", "Tuesday"]
 console.log("Months",months_4); // ["January", "February", "March", "April"]
