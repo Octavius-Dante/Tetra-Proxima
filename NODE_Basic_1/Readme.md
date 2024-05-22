@@ -135,8 +135,16 @@ arrFruits.splice(4,0,"@Mango");
 // Replace an item to the fourth position
 arrFruits.splice(4,1,"@Custard Apple");
 
-// arrFruits.splice(1,<0--insert item>,"@Mango");
-// arrFruits.splice(1,<1--replace item>,"@Mango");
+// arrFruits.splice(index position, how many elements need to be removed, "value");
+
+// removing an item in array with index position
+arrFruits.splice(3,1); // this removes an item in 3rd index 
+arrFruits.splice(3,2); // this removes 2 item from 3rd index 
+arrFruits.splice(3,3); // this removes 3 item from 3rd index 
+arrFruits.splice(3,4); // this removes 4 item from 3rd index 
+
+// arrFruits.splice(1,<remove zero item>,"@Mango");
+// arrFruits.splice(1,<remove 1 item>,"@Mango");
 // arrFruits.splice(<could be any number of items based on total items in array>,<1--replace item>,"@Mango");
 
 // to print every item for loop is needed
