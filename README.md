@@ -386,7 +386,7 @@ YAML definition : It is a human-readable data serialization language. It is comm
 
 [other links on cap](https://www.youtube.com/playlist?list=PL6RpkC85SLQDZ18v94otZSJJrpcNkPPV9)
 
-[SAP Git hub Repo 1](https://github.com/SAP-samples/cap-sflight)  - more content sampels here
+[SAP Git hub Repo 1](https://github.com/SAP-samples/cap-sflight)  - more content samples here
 
 <!--
 | Left-aligned | Center-aligned | Right-aligned |
