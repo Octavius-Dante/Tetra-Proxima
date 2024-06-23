@@ -17,15 +17,6 @@
 <img src="./files/scc0.png" >
 </br>
 </br>
-<img src="./files/scc0a.png" >
-</br>
-</br>
-<img src="./files/scc0b.png" >
-</br>
-</br>
-<img src="./files/scc0c.png" >
-</br>
-</br>
 <img src="./files/scc1.png" >
 </br>
 </br>
@@ -66,6 +57,21 @@ Get the BTP Sub account details
 <img src="./files/scco_a.png" >
 </br>
 </br>
+
+**Do the following activities**
+
+</br>
+</br>
+<img src="./files/scc0a.png" >
+</br>
+</br>
+<img src="./files/scc0b.png" >
+</br>
+</br>
+<img src="./files/scc0c.png" >
+</br>
+</br>
+
 
 Enter the cloud system details for connection
 </br> BTP Account userid and the password should be <b> BAS account password </b> don't confuse it with (BTP GLobal account password)
