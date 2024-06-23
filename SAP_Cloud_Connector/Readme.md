@@ -14,6 +14,15 @@
 <img src="./files/scco_b.png" >
 </br>
 </br>
+<img src="./files/scc0.png" >
+</br>
+</br>
+<img src="./files/scc1.png" >
+</br>
+</br>
+<img src="./files/scc2.png" >
+</br>
+</br>
 
 - [x] place the JVM extraction to (c:\Program Files\Java) directory
 - [x] Start installation of sap cloud connector - (make note of port number)
