@@ -29,7 +29,7 @@
 </br> choose java JDK select jvm which we placed earlier (c:\Program Files\Java\jvmXXX) proceed installation
 
 - [x] Post installation access the this link to launch cloud connector (https://localhost:8443/)
-- [x] Default username : Administrator || password : manage
+- [x] Default username : Administrator || Default password : manage
 - [x] First login will request for password change 
 
 
