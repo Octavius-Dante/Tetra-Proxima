@@ -71,6 +71,9 @@ Get the BTP Sub account details
 <img src="./files/scc0c.png" >
 </br>
 </br>
+<img src="./files/scc0d.png" >
+</br>
+</br>
 
 
 Enter the cloud system details for connection
