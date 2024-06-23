@@ -9,9 +9,9 @@
 - [x] Go to sap tools.hana.ondemand website (https://tools.hana.ondemand.com/#cloud)
 - [x] download JVM, download SAP cloud connector 
 
+<!-- </br>
 </br>
-</br>
-<img src="./files/scco_b.png" >
+<img src="./files/scco_b.png" > -->
 </br>
 </br>
 <img src="./files/scc0.png" >
