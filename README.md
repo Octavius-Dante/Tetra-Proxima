@@ -154,13 +154,14 @@ Ctrl + F4 - Close editor
 </br>
 
 BTP CAP analytical app tutroial from sap developers page 
-
 https://developers.sap.com/tutorials/btp-app-analytics-setup-use.html
 
 
 BTP Kyma Tutorial 
-
 https://developers.sap.com/group.deploy-full-stack-cap-kyma-runtime.html
+
+CI/CD for Kyma BTP CAP 
+https://developers.sap.com/tutorials/set-up-cicd-kyma.html
 
 
 </br>
