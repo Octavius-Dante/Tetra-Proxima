@@ -153,8 +153,13 @@ Ctrl + F4 - Close editor
 </br>
 </br>
 
+BTP analytical app tutroial from sap developers page 
+
+https://developers.sap.com/tutorials/btp-app-analytics-setup-use.html
 
 
+</br>
+</br>
 
 
 #### BTP Training - Test applications (28/02/2024)
