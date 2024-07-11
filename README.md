@@ -52,14 +52,10 @@ Following check list of items available under this topic
 
 </br>
 </br>
-
 </br> [Things to remember for CAP deployment](https://github.com/Octavius-Dante/Tetra-Proxima/tree/main/Things_to_remember_in_CAP_deployment)
-
 </br>
 </br>
-
 </br> [Reading on what is Rest API](https://github.com/Octavius-Dante/Tetra_Proxima/tree/main/REST_API)
-
 </br>
 </br>
 
