@@ -53,7 +53,7 @@ Following check list of items available under this topic
 </br>
 </br>
 
-</br> [Things to remember CAP deploymetn](https://github.com/Octavius-Dante/Tetra-Proxima/tree/main/Things_to_remember_in_CAP_deployment)
+</br> [Things to remember for CAP deployment](https://github.com/Octavius-Dante/Tetra-Proxima/tree/main/Things_to_remember_in_CAP_deployment)
 
 </br>
 </br>
