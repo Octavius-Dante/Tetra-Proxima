@@ -774,7 +774,7 @@ Same role will be created in roles section in BTP and that role we need to assig
 </br>
 </br>
 
-Rememebr this --- App to Role in Build work zone --- Role to User in BTP---
+Rememebr this --- App to Role assignment in Build work zone --- Role to User assignment in BTP---
 </br>
 </br>
 <img src="./files/capmd9-85.png" >
