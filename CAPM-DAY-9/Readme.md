@@ -755,7 +755,7 @@ Now the app is accessible
 </br>
 </br>
 
-In case we want to create roles automatically like we did in nodejs app during deployment it created xsuaa 
+In case we want to create roles automatically like we did in Node JS app during deployment it created xsuaa 
 </br> in same way we need to make changes in following places 
 </br>
 </br>
