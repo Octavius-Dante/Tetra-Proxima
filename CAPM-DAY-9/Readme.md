@@ -409,7 +409,7 @@ Web Application - HTML5 Repo
 
 **Now this deployment wont go to BTP cloud it goes to SAP HTML5 repository**
 </br> because if you take a look at the MTA.yaml file it as the clear explanation
-</br> earlier we deployed node JS application with DB deployer, Db and XSUAA 
+</br> earlier we deployed Node JS application with DB deployer, Db and XSUAA 
 </br> now it has Fiori-Ui related artifacts and XSUAA services and it is deployed as HTML5 application 
 
 </br>
@@ -755,8 +755,8 @@ Now the app is accessible
 </br>
 </br>
 
-In case we want to create roles automatically like we did in Node JS app during deployment it created xsuaa 
-</br> in same way we need to make changes in following places 
+In case we want to create roles automatically like we did in Node JS app during deployment 
+</br> we need to make changes in following places can refer the standard template in SAP official help pages
 </br>
 </br>
 <img src="./files/capmd9-83.png" >
