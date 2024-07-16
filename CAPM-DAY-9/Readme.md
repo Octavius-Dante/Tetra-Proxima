@@ -766,15 +766,15 @@ In case we want to create roles automatically like we did in Node JS app during 
 </br>
 </br>
 
-</br> in SAP build work zone we need to assign the 
+</br> in SAP build work zone we need to assign the **App to Role**
 
-**App to Role**
+Same role will be created in roles section in BTP and that role we need to assign it to user 
+</br> In BTP we need to assign the **Role to User**
 
-Same role will be created in roles section in BTP and that role we have assign it to user 
-</br> In BTP we need to assign the 
+</br>
+</br>
 
-**Role to User**
-
+Rememebr this --- App to Role in Build work zone --- Role to User in BTP---
 </br>
 </br>
 <img src="./files/capmd9-85.png" >
