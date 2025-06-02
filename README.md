@@ -8,7 +8,7 @@
 </br>
 
 
-[Create EDMX file from existing odata service in on-prem system and simple cap odata creation](https://www.youtube.com/watch?v=jTzkogE_Wm0&ab_channel=SomnathPaul)
+[Create EDMX file from existing odata service in on-prem system and simple cap odata creation in BTP cloud](https://www.youtube.com/watch?v=jTzkogE_Wm0&ab_channel=SomnathPaul)
 
 </br>
 </br>
