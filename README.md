@@ -4,6 +4,9 @@
 
 ### Click the images to see it clearly!  
 
+
+Create EDMX file from existing odata service in on-prem system : [Watch this video in depth qucik overview on simple cap odata creation](https://www.youtube.com/watch?v=jTzkogE_Wm0&ab_channel=SomnathPaul)
+
 </br>
 </br>
 
