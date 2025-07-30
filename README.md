@@ -12,7 +12,7 @@
 
 </br>
 
-### 2025 SAP learning hub materials
+### 2025 SAP learning hub materials - Download *.Zip files from Archive.org
 
 [CAPM-build-side-by-side-extensions-on-sap-btp](https://archive.org/details/capm-build-side-by-side-extensions-on-sap-btp)
 
