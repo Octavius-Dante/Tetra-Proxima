@@ -16,7 +16,8 @@
 
 </br>
 
-[CAPM-build-side-by-side-extensions-on-sap-btp](https://archive.org/details/capm-build-side-by-side-extensions-on-sap-btp)
+- [CAPM-build-side-by-side-extensions-on-sap-btp](https://archive.org/details/capm-build-side-by-side-extensions-on-sap-btp)
+- [Deploy a Full-Stack CAP Application in SAP BTP, Kyma Runtime Following SAP BTP Developer’s Guide](https://archive.org/details/deploy-a-full-stack-cap-application-in-sap-btp-kyma-runtime-following-sap-btp-developers-guide)
 
 </br>
 </br>
