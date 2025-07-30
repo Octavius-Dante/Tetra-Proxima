@@ -11,6 +11,12 @@
 [Create EDMX file from existing odata service in on-prem system and simple cap odata creation in BTP cloud](https://www.youtube.com/watch?v=jTzkogE_Wm0&ab_channel=SomnathPaul)
 
 </br>
+
+### 2025 SAP learning hub materials
+
+[CAPM-build-side-by-side-extensions-on-sap-btp](https://archive.org/details/capm-build-side-by-side-extensions-on-sap-btp)
+
+</br>
 </br>
 
 **Overview**
