@@ -20,6 +20,7 @@
 - [CAPM-2-build-side-by-side-extensions-on-sap-btp](https://archive.org/details/capm-build-side-by-side-extensions-on-sap-btp)
 - [CAPM-3-developing-advanced-extensions-with-sap-cloud-sdk](https://archive.org/details/developing-advanced-extensions-with-sap-cloud-sdk)
 - [CAPM-4-developing-applications-on-sap-btp-cloud-foundry-runtime](https://archive.org/details/developing-applications-on-sap-btp-cloud-foundry-runtime)
+- [CAPM-5-developing-applications-in-sap-btp-kyma-runtime](https://archive.org/details/developing-applications-in-sap-btp-kyma-runtime)
 - [Deploy a Full-Stack CAP Application in SAP BTP, Kyma Runtime Following SAP BTP Developer’s Guide](https://archive.org/details/deploy-a-full-stack-cap-application-in-sap-btp-kyma-runtime-following-sap-btp-developers-guide)
 
 </br>
